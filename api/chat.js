@@ -18,17 +18,29 @@ export default async function handler(req, res) {
     return;
   }
 
-  const { messages } = req.body || {};
+  const { messages, image } = req.body || {};
   if (!Array.isArray(messages) || messages.length === 0) {
     res.status(400).json({ error: 'messages array is required' });
     return;
   }
 
   try {
-    const contents = messages.slice(-14).map((m) => ({
-      role: m.role === 'user' ? 'user' : 'model',
-      parts: [{ text: m.content }],
-    }));
+    const contents = messages.slice(-14).map((m) => {
+      const parts = [];
+      if (m.content) parts.push({ text: m.content });
+      return { role: m.role === 'user' ? 'user' : 'model', parts };
+    });
+
+    // If the latest user message has an attached photo, add it as an
+    // inline image part so Gemini can "see" it alongside the text.
+    if (image && image.data && contents.length) {
+      const last = contents[contents.length - 1];
+      if (last.role === 'user') {
+        last.parts.push({
+          inlineData: { mimeType: image.mimeType || 'image/jpeg', data: image.data },
+        });
+      }
+    }
 
     const upstream = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`,
