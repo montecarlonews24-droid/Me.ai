@@ -55,7 +55,7 @@ export default async function handler(req, res) {
     // Try the primary model first; if it's overloaded (503) even after a
     // couple of quick retries, fall back to a more stable model instead
     // of leaving the user stuck.
-    const modelsToTry = ['gemini-3.5-flash', 'gemini-2.5-flash-lite'];
+    const modelsToTry = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-3.6-flash'];
     let upstream;
     let errText = '';
 
@@ -77,12 +77,15 @@ export default async function handler(req, res) {
 
         if (upstream.status === 503 && attempt < attemptsForThisModel) {
           await new Promise((resolve) => setTimeout(resolve, 900 * attempt));
+          continue;
         }
+        break;
       }
 
       if (upstream.ok) break;
-      // Only move on to the fallback model if the problem was overload (503).
-      if (upstream.status !== 503) break;
+      // Move on to the next model in the list regardless of the failure
+      // reason (overloaded, unavailable, etc.) — just don't retry the
+      // same model more than once for non-503 errors.
     }
 
     if (!upstream.ok) {
