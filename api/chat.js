@@ -47,33 +47,42 @@ export default async function handler(req, res) {
       }
     }
 
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
     const requestBody = JSON.stringify({
       system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
       contents,
     });
 
+    // Try the primary model first; if it's overloaded (503) even after a
+    // couple of quick retries, fall back to a more stable model instead
+    // of leaving the user stuck.
+    const modelsToTry = ['gemini-3.5-flash', 'gemini-2.5-flash-lite'];
     let upstream;
     let errText = '';
-    const maxAttempts = 3;
-    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-      upstream = await fetch(geminiUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: requestBody,
-      });
+
+    for (const model of modelsToTry) {
+      const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+      const attemptsForThisModel = 2;
+
+      for (let attempt = 1; attempt <= attemptsForThisModel; attempt++) {
+        upstream = await fetch(geminiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: requestBody,
+        });
+
+        if (upstream.ok) break;
+
+        errText = await upstream.text();
+        console.error('GEMINI DEBUG: model=' + model + ' attempt=' + attempt + ' status=' + upstream.status + ' body=' + errText);
+
+        if (upstream.status === 503 && attempt < attemptsForThisModel) {
+          await new Promise((resolve) => setTimeout(resolve, 900 * attempt));
+        }
+      }
 
       if (upstream.ok) break;
-
-      errText = await upstream.text();
-      console.error('GEMINI DEBUG: attempt=' + attempt + ' status=' + upstream.status + ' body=' + errText);
-
-      // 503 = Gemini servers temporarily overloaded — worth a quick retry.
-      if (upstream.status === 503 && attempt < maxAttempts) {
-        await new Promise((resolve) => setTimeout(resolve, 900 * attempt));
-        continue;
-      }
-      break;
+      // Only move on to the fallback model if the problem was overload (503).
+      if (upstream.status !== 503) break;
     }
 
     if (!upstream.ok) {
