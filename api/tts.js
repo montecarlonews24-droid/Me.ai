@@ -31,7 +31,7 @@ export default async function handler(req, res) {
           generationConfig: {
             responseModalities: ['AUDIO'],
             speechConfig: {
-              voiceConfig: { prebuiltVoiceConfig: { voiceName: 'Kore' } },
+              voiceConfig: { prebuiltVoiceConfig: { voiceName: 'Puck' } },
             },
           },
         }),
