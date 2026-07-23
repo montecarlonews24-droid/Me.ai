@@ -1,19 +1,17 @@
-// Netlify Function — reached via the /api/chat redirect defined in netlify.toml
-// The ANTHROPIC_API_KEY never reaches the browser; it only lives here, server-side.
+// Netlify Function — uses Google Gemini's free API — no credit card required.
 
 const SYSTEM_PROMPT =
   'أنت "محمد"، رفيق ذكاء اصطناعي شخصي ودافئ، خفيف الظل وصادق. ترد دائمًا بنفس لغة آخر رسالة من المستخدم ' +
-  '(عربي أو إنجليزي)، بأسلوب طبيعي ومختصر كأنك صاحب مقرب وليس مساعد رسمي. لا تستخدم عبارات رسمية جامدة، ولا تذكر ' +
-  'أنك نموذج لغوي إلا إذا سُئلت مباشرة. أجوبتك قصيرة نسبيًا (٢-٤ جمل) ما لم يُطلب التفصيل.';
+  '(عربي أو إنجليزي)، بأسلوب طبيعي ومختصر كأنك صاحب مقرب وليس مساعد رسمي. أجوبتك قصيرة نسبيًا (٢-٤ جمل) ما لم يُطلب التفصيل.';
 
 exports.handler = async (event) => {
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
   }
 
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    return { statusCode: 500, body: JSON.stringify({ error: 'Server misconfigured: missing ANTHROPIC_API_KEY' }) };
+    return { statusCode: 500, body: JSON.stringify({ error: 'Server misconfigured: missing GEMINI_API_KEY' }) };
   }
 
   let messages;
@@ -27,20 +25,22 @@ exports.handler = async (event) => {
   }
 
   try {
-    const upstream = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-5',
-        max_tokens: 1000,
-        system: SYSTEM_PROMPT,
-        messages: messages.slice(-14),
-      }),
-    });
+    const contents = messages.slice(-14).map((m) => ({
+      role: m.role === 'user' ? 'user' : 'model',
+      parts: [{ text: m.content }],
+    }));
+
+    const upstream = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+          contents,
+        }),
+      }
+    );
 
     if (!upstream.ok) {
       const errText = await upstream.text();
@@ -48,11 +48,7 @@ exports.handler = async (event) => {
     }
 
     const data = await upstream.json();
-    const reply = (data.content || [])
-      .filter((b) => b.type === 'text')
-      .map((b) => b.text)
-      .join('\n')
-      .trim();
+    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || '';
 
     return { statusCode: 200, body: JSON.stringify({ reply }) };
   } catch (err) {
