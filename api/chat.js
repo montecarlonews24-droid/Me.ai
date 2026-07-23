@@ -47,21 +47,36 @@ export default async function handler(req, res) {
       }
     }
 
-    const upstream = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`,
-      {
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
+    const requestBody = JSON.stringify({
+      system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+      contents,
+    });
+
+    let upstream;
+    let errText = '';
+    const maxAttempts = 3;
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      upstream = await fetch(geminiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
-          contents,
-        }),
+        body: requestBody,
+      });
+
+      if (upstream.ok) break;
+
+      errText = await upstream.text();
+      console.error('GEMINI DEBUG: attempt=' + attempt + ' status=' + upstream.status + ' body=' + errText);
+
+      // 503 = Gemini servers temporarily overloaded — worth a quick retry.
+      if (upstream.status === 503 && attempt < maxAttempts) {
+        await new Promise((resolve) => setTimeout(resolve, 900 * attempt));
+        continue;
       }
-    );
+      break;
+    }
 
     if (!upstream.ok) {
-      const errText = await upstream.text();
-      console.error('GEMINI DEBUG: status=' + upstream.status + ' body=' + errText);
       res.status(upstream.status).json({ error: errText });
       return;
     }
