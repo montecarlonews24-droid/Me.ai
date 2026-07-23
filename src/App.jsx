@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mic, Send, Volume2, Loader2 } from 'lucide-react';
+import { Mic, Send, Volume2, Loader2, Image as ImageIcon, X } from 'lucide-react';
 
 export default function App() {
   const scrollRef = useRef(null);
@@ -24,6 +24,8 @@ export default function App() {
   const [voiceSupported, setVoiceSupported] = useState(true);
   const [voices, setVoices] = useState([]);
   const warnedNoArabicVoice = useRef(false);
+  const [pendingImage, setPendingImage] = useState(null);
+  const imageInputRef = useRef(null);
 
   const detectLang = (t) => (/[\u0600-\u06FF]/.test(t) ? 'ar' : 'en');
 
@@ -144,14 +146,59 @@ export default function App() {
     }
   };
 
+  const readAndResizeImage = (file) =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const img = new window.Image();
+        img.onload = () => {
+          const maxDim = 1024;
+          let { width, height } = img;
+          if (width > maxDim || height > maxDim) {
+            if (width > height) {
+              height = Math.round((height * maxDim) / width);
+              width = maxDim;
+            } else {
+              width = Math.round((width * maxDim) / height);
+              height = maxDim;
+            }
+          }
+          const canvas = document.createElement('canvas');
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, width, height);
+          resolve(canvas.toDataURL('image/jpeg', 0.8));
+        };
+        img.onerror = reject;
+        img.src = reader.result;
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+
+  const handleImageSelect = async (e) => {
+    const file = e.target.files && e.target.files[0];
+    e.target.value = '';
+    if (!file) return;
+    try {
+      const dataUrl = await readAndResizeImage(file);
+      setPendingImage({ dataUrl, mimeType: 'image/jpeg' });
+    } catch (err) {
+      // silently ignore — user can just try picking the image again
+    }
+  };
+
   const sendMessage = async (rawText) => {
     const text = (rawText || '').trim();
-    if (!text || isThinking) return;
-    const detected = detectLang(text);
-    const userMsg = { role: 'user', text };
+    const imageToSend = pendingImage;
+    if ((!text && !imageToSend) || isThinking) return;
+    const detected = text ? detectLang(text) : lang;
+    const userMsg = { role: 'user', text, image: imageToSend ? imageToSend.dataUrl : null };
     const nextMessages = [...messages, userMsg];
     setMessages(nextMessages);
     setInput('');
+    setPendingImage(null);
     setIsThinking(true);
 
     try {
@@ -163,7 +210,10 @@ export default function App() {
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: history }),
+        body: JSON.stringify({
+          messages: history,
+          image: imageToSend ? { mimeType: imageToSend.mimeType, data: imageToSend.dataUrl.split(',')[1] } : null,
+        }),
       });
 
       if (!response.ok) throw new Error('backend error');
@@ -305,6 +355,10 @@ export default function App() {
         .mc-bubble { padding:9px 13px; border-radius:16px; font-size:14px; line-height:1.55; max-width:80%; }
         .mc-bubble-user { background:#E8A33D; color:#152325; }
         .mc-bubble-ai { background:rgba(125,224,211,0.10); color:#F2EFE6; border:1px solid rgba(125,224,211,0.22); }
+        .mc-bubble-img { max-width:100%; border-radius:12px; display:block; }
+        .mc-preview-strip { display:flex; align-items:center; gap:8px; margin:0 12px 8px; flex-shrink:0; }
+        .mc-preview-thumb { width:48px; height:48px; border-radius:10px; object-fit:cover; border:1px solid rgba(232,163,61,0.4); }
+        .mc-preview-remove { width:22px; height:22px; border-radius:50%; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; background:rgba(232,163,61,0.85); color:#152325; flex-shrink:0; }
         .mc-thinking { display:flex; align-items:center; gap:6px; }
         .mc-spin-icon { animation: mc-spin 1s linear infinite; }
 
@@ -362,7 +416,17 @@ export default function App() {
       <div className="mc-chatlog">
         {messages.map((m, i) => (
           <div key={i} className={`mc-row ${m.role === 'user' ? 'mc-row-user' : 'mc-row-ai'}`}>
-            <div className={`mc-bubble ${m.role === 'user' ? 'mc-bubble-user' : 'mc-bubble-ai'}`}>{m.text}</div>
+            <div className={`mc-bubble ${m.role === 'user' ? 'mc-bubble-user' : 'mc-bubble-ai'}`}>
+              {m.image && (
+                <img
+                  src={m.image}
+                  alt=""
+                  className="mc-bubble-img"
+                  style={{ marginBottom: m.text ? 6 : 0 }}
+                />
+              )}
+              {m.text}
+            </div>
           </div>
         ))}
         {isThinking && (
@@ -376,7 +440,34 @@ export default function App() {
         <div ref={scrollRef} />
       </div>
 
+      {pendingImage && (
+        <div className="mc-glass mc-preview-strip">
+          <img src={pendingImage.dataUrl} alt="" className="mc-preview-thumb" />
+          <span style={{ fontSize: 12, color: '#9FB3B0', flex: 1 }}>
+            {lang === 'ar' ? 'جاهزة للإرسال' : 'Ready to send'}
+          </span>
+          <button onClick={() => setPendingImage(null)} className="mc-preview-remove" aria-label="remove">
+            <X size={14} />
+          </button>
+        </div>
+      )}
+
       <div className="mc-glass mc-inputbar">
+        <input
+          ref={imageInputRef}
+          type="file"
+          accept="image/*"
+          style={{ display: 'none' }}
+          onChange={handleImageSelect}
+        />
+        <button
+          onClick={() => imageInputRef.current && imageInputRef.current.click()}
+          className="mc-iconbtn"
+          style={{ background: pendingImage ? '#E8A33D' : 'rgba(125,224,211,0.15)' }}
+          aria-label="gallery"
+        >
+          <ImageIcon size={16} style={{ color: pendingImage ? '#152325' : '#7DE0D3' }} />
+        </button>
         <button
           onClick={toggleConversationMode}
           className="mc-iconbtn"
