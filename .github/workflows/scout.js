@@ -1,119 +1,209 @@
-// scout.js — Me.ai Daily Idea Scout
-// يبحث يومياً عن أفكار تطبيقات جديدة عبر Gemini + Google Search ويحفظ تقرير JSON
-
+// Me.ai Idea Scout v2 — Multi-step Agent
+// الخطوة 1: يبحث ويقترح 8 أفكار
+// الخطوة 2: يفحص المنافسين لكل فكرة على Google Play
+// الخطوة 3: يحكم بصرامة، يرفض الضعيف، ويختار أقوى 5
 import fs from 'fs';
 import path from 'path';
 
-// تقدر تحط أكثر من مفتاح بالـ Secret مفصولين بفاصلة: key1,key2,key3
 const KEYS = (process.env.GEMINI_API_KEY || '').split(',').map(s => s.trim()).filter(Boolean);
-const MODELS = ['gemini-4-hydrogen', 'gemini-2.5-flash', 'gemini-2.0-flash'];
+const MODELS = ['gemini-2.5-flash', 'gemini-4-hydrogen', 'gemini-2.0-flash'];
 const DIR = path.join(process.cwd(), 'reports');
-const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Amman' }); // YYYY-MM-DD
+const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Amman' });
+const trace = [];
 
-if (!KEYS.length) { console.error('❌ GEMINI_API_KEY مش موجود بالـ Secrets'); process.exit(1); }
+if (!KEYS.length) { console.error('GEMINI_API_KEY missing'); process.exit(1); }
 if (!fs.existsSync(DIR)) fs.mkdirSync(DIR, { recursive: true });
+
+function log(step, msg) {
+  console.log(`[${step}] ${msg}`);
+  trace.push({ step, msg });
+}
 
 function readJSON(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; }
 }
 
-const index = readJSON(path.join(DIR, 'index.json'), { dates: [], pastIdeas: [] });
-
-const prompt = `
-You are "Me.ai Idea Scout", a research agent working for Moe — an independent Android developer in Amman, Jordan.
-Moe builds Android apps (native Kotlin, or hybrid with Firebase) and publishes on Google Play. He works from a phone only.
-
-TODAY is ${today}. Use Google Search to research what is happening RIGHT NOW:
-- Rising and trending apps/categories on Google Play and app charts
-- Real user complaints and "I wish there was an app for..." posts (Reddit, forums, reviews)
-- New APIs, AI capabilities or platform changes that open new app opportunities
-- Gaps in the Arabic / Middle East market
-
-Then propose exactly 5 NEW app ideas Moe could build in 1–3 weeks and publish on Google Play.
-Do NOT repeat or closely resemble any of these previous ideas: ${index.pastIdeas.length ? index.pastIdeas.join(' | ') : 'none yet'}.
-
-Respond with ONLY a JSON object, no markdown, no extra text, in exactly this shape.
-Write all values in Arabic, except "name" which is a short catchy English app name:
-{
-  "summary": "ملخص اليوم بجملتين: أهم ما لاحظته بالسوق",
-  "trends": ["ترند 1", "ترند 2", "ترند 3"],
-  "ideas": [
-    {
-      "name": "AppName",
-      "pitch": "وصف الفكرة بجملة واحدة",
-      "problem": "المشكلة اللي بتحلها",
-      "audience": "الجمهور المستهدف",
-      "whyNow": "ليش هلأ؟ الدليل من البحث",
-      "competition": "منخفضة أو متوسطة أو عالية",
-      "monetization": "طريقة الربح",
-      "buildDifficulty": "سهل أو متوسط أو صعب",
-      "buildDays": 7,
-      "score": 8,
-      "firstStep": "أول خطوة عملية للبدء"
-    }
-  ]
+function extractJSON(text) {
+  const s = text.indexOf('{');
+  const e = text.lastIndexOf('}');
+  if (s < 0 || e < 0) throw new Error('no JSON in reply');
+  return JSON.parse(text.slice(s, e + 1));
 }
-"score" is 1–10 for overall opportunity. Sort ideas by score, highest first.
-`;
 
-async function callGemini() {
+// يسأل Gemini، ويلف على الموديلات والمفاتيح لحد ما ينجح
+async function ask(prompt, { search = false } = {}) {
+  let lastErr = '';
   for (const model of MODELS) {
     for (const [i, key] of KEYS.entries()) {
       try {
-        console.log(`→ ${model} (مفتاح ${i + 1})`);
+        const body = {
+          contents: [{ role: 'user', parts: [{ text: prompt }] }],
+          generationConfig: { temperature: search ? 0.9 : 0.4 }
+        };
+        if (search) body.tools = [{ google_search: {} }];
         const r = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
           {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
-            body: JSON.stringify({
-              contents: [{ role: 'user', parts: [{ text: prompt }] }],
-              tools: [{ google_search: {} }],
-              generationConfig: { temperature: 0.9 }
-            })
+            body: JSON.stringify(body)
           }
         );
         const data = await r.json();
-        if (!r.ok) { console.log(`✗ ${data.error?.message || r.status}`); continue; }
-
+        if (!r.ok) { lastErr = data.error?.message || r.status; console.log(`  x ${model} key${i + 1}: ${lastErr}`); continue; }
         const cand = data.candidates?.[0];
         const text = (cand?.content?.parts || []).map(p => p.text || '').join('');
         const sources = (cand?.groundingMetadata?.groundingChunks || [])
           .map(c => c.web).filter(Boolean)
           .map(w => ({ title: w.title, url: w.uri }));
-
-        const start = text.indexOf('{');
-        const end = text.lastIndexOf('}');
-        if (start < 0 || end < 0) { console.log('✗ الرد ما فيه JSON'); continue; }
-        const report = JSON.parse(text.slice(start, end + 1));
-        if (!Array.isArray(report.ideas) || !report.ideas.length) { console.log('✗ ما في أفكار'); continue; }
-
-        return { model, report, sources };
+        return { json: extractJSON(text), sources, model };
       } catch (e) {
-        console.log(`✗ ${e.message}`);
+        lastErr = e.message;
+        console.log(`  x ${model} key${i + 1}: ${e.message}`);
       }
     }
   }
-  throw new Error('كل المفاتيح والموديلات فشلت');
+  throw new Error('All models failed: ' + lastErr);
 }
 
-(async () => {
-  const { model, report, sources } = await callGemini();
+// تقييمات Moe (👍/👎) — بتنضاف بالمرحلة الجاية من التطبيق
+async function loadFeedback() {
+  const url = process.env.FEEDBACK_URL;
+  if (!url) return { liked: [], disliked: [] };
+  try {
+    const d = (await (await fetch(url)).json()) || {};
+    const liked = [], disliked = [];
+    for (const v of Object.values(d)) {
+      const vote = typeof v === 'string' ? v : v?.vote;
+      const name = typeof v === 'object' ? (v.name || '') + (v.pitch ? ` (${v.pitch})` : '') : '';
+      if (!name) continue;
+      (vote === 'up' ? liked : disliked).push(name);
+    }
+    return { liked: liked.slice(-30), disliked: disliked.slice(-30) };
+  } catch {
+    return { liked: [], disliked: [] };
+  }
+}
 
-  const full = {
+const ABOUT = `Moe is an independent Android developer in Amman, Jordan. He builds Android apps (native Kotlin, or hybrid with Firebase) and publishes on Google Play. He works from a phone only and ships with AI help, so ideas must be buildable by one person in 1-3 weeks.`;
+
+(async () => {
+  const index = readJSON(path.join(DIR, 'index.json'), { dates: [], pastIdeas: [] });
+  const fb = await loadFeedback();
+  log('memory', `${index.pastIdeas.length} past ideas, ${fb.liked.length} liked, ${fb.disliked.length} disliked`);
+
+  const prefs = `
+Previous ideas (do NOT repeat or closely resemble): ${index.pastIdeas.join(' | ') || 'none'}
+Ideas Moe LIKED (lean toward similar themes): ${fb.liked.join(' | ') || 'none yet'}
+Ideas Moe DISLIKED (avoid these directions): ${fb.disliked.join(' | ') || 'none yet'}`;
+
+  // ---------- Step 1: Scout ----------
+  const s1 = await ask(`
+${ABOUT}
+TODAY is ${today}. Use Google Search to research what is happening RIGHT NOW: trending app categories on Google Play, real user complaints ("I wish there was an app..."), new APIs/AI capabilities, and gaps in the Arabic and Middle East market.
+${prefs}
+
+Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "name" (short English app name):
+{
+  "marketNotes": "ملاحظات السوق اليوم",
+  "trends": ["ترند", "ترند", "ترند"],
+  "candidates": [
+    { "name": "AppName", "pitch": "جملة", "problem": "المشكلة", "audience": "الجمهور", "whyNow": "ليش هلأ مع الدليل" }
+  ]
+}`, { search: true });
+  const candidates = s1.json.candidates || [];
+  if (!candidates.length) throw new Error('Step 1 returned no candidates');
+  log('scout', `${candidates.length} candidates via ${s1.model}: ${candidates.map(c => c.name).join(', ')}`);
+
+  // ---------- Step 2: Competition check ----------
+  const s2 = await ask(`
+For each candidate app below, search Google Play and the web for EXISTING apps that already do the same thing. Be honest and specific: name real apps. If strong competitors exist, say so.
+
+Candidates:
+${candidates.map(c => `- ${c.name}: ${c.pitch}`).join('\n')}
+
+Respond with ONLY JSON. Values in Arabic except app names:
+{
+  "checks": [
+    {
+      "name": "CandidateName",
+      "competitors": [ { "name": "Real App Name", "note": "شو بيعمل ونقطة ضعفه" } ],
+      "saturation": "low or medium or high",
+      "gap": "الفجوة اللي ما حدا مغطيها"
+    }
+  ]
+}`, { search: true });
+  const checks = s2.json.checks || [];
+  log('compete', `checked ${checks.length} candidates via ${s2.model}`);
+
+  // ---------- Step 3: Judge ----------
+  const s3 = await ask(`
+${ABOUT}
+You are a strict product judge. Below are candidate ideas and a competition check for each.
+${prefs}
+
+Rules:
+- REJECT ideas with high saturation and no clear gap.
+- REJECT ideas too big for one person in 3 weeks.
+- Prefer ideas with a clear way to make money and a real, specific gap.
+- Pick the best 5 (fewer if fewer deserve it). Score honestly 1-10.
+
+Candidates:
+${JSON.stringify(candidates)}
+
+Competition check:
+${JSON.stringify(checks)}
+
+Respond with ONLY JSON. Values in Arabic except app names:
+{
+  "summary": "ملخص اليوم بجملتين",
+  "trends": ["ترند", "ترند", "ترند"],
+  "ideas": [
+    {
+      "name": "AppName",
+      "pitch": "جملة",
+      "problem": "المشكلة",
+      "audience": "الجمهور",
+      "whyNow": "ليش هلأ",
+      "competition": "منخفضة أو متوسطة أو عالية",
+      "competitors": ["App 1", "App 2"],
+      "edge": "كيف نتفوق على المنافسين",
+      "monetization": "طريقة الربح",
+      "buildDifficulty": "سهل أو متوسط أو صعب",
+      "buildDays": 10,
+      "score": 8,
+      "firstStep": "أول خطوة"
+    }
+  ],
+  "rejected": [ { "name": "AppName", "reason": "ليش انرفضت" } ]
+}
+Sort ideas by score, highest first.`);
+  const final = s3.json;
+  if (!Array.isArray(final.ideas) || !final.ideas.length) throw new Error('Judge returned no ideas');
+  log('judge', `kept ${final.ideas.length}, rejected ${(final.rejected || []).length} via ${s3.model}`);
+
+  // ---------- Save ----------
+  const seen = new Set();
+  const sources = [...s1.sources, ...s2.sources].filter(s => !seen.has(s.url) && seen.add(s.url)).slice(0, 20);
+
+  const report = {
     date: today,
     generatedAt: new Date().toISOString(),
-    model,
-    ...report,
-    sources: sources.slice(0, 15)
+    model: s3.model,
+    summary: final.summary,
+    trends: final.trends?.length ? final.trends : s1.json.trends,
+    ideas: final.ideas,
+    rejected: final.rejected || [],
+    agent: { version: 2, candidates: candidates.length, steps: trace },
+    sources
   };
 
-  fs.writeFileSync(path.join(DIR, `${today}.json`), JSON.stringify(full, null, 2));
-  fs.writeFileSync(path.join(DIR, 'latest.json'), JSON.stringify(full, null, 2));
+  fs.writeFileSync(path.join(DIR, `${today}.json`), JSON.stringify(report, null, 2));
+  fs.writeFileSync(path.join(DIR, 'latest.json'), JSON.stringify(report, null, 2));
 
   index.dates = [today, ...index.dates.filter(d => d !== today)].slice(0, 365);
-  index.pastIdeas = [...report.ideas.map(x => x.name), ...index.pastIdeas].slice(0, 100);
+  index.pastIdeas = [...final.ideas.map(x => x.name), ...index.pastIdeas.filter(n => !final.ideas.some(x => x.name === n))].slice(0, 100);
   fs.writeFileSync(path.join(DIR, 'index.json'), JSON.stringify(index, null, 2));
 
-  console.log(`✅ تقرير ${today}: ${report.ideas.length} أفكار — ${report.ideas.map(x => x.name).join(', ')}`);
-})().catch(e => { console.error('❌', e.message); process.exit(1); });
+  console.log(`OK ${today}: ${final.ideas.map(x => `${x.name}(${x.score})`).join(', ')}`);
+})().catch(e => { console.error(e.message); process.exit(1); });
