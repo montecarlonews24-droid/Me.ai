@@ -1,0 +1,32 @@
+name: Me.ai Daily Idea Scout
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run idea scout
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node agent/scout.js
+
+      - name: Save report
+        run: |
+          git config user.name "Me.ai Scout"
+          git config user.email "actions@github.com"
+          git add reports
+          git diff --cached --quiet || git commit -m "Daily ideas $(date -u +%F)"
+          git push
