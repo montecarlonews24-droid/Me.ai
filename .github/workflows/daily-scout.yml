@@ -21,6 +21,7 @@ jobs:
       - name: Run idea scout
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FEEDBACK_URL: https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app/feedback.json
         run: node .github/workflows/scout.js
 
       - name: Save report
