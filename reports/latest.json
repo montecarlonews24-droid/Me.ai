@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-12T22:14:45.978Z",
+  "model": "gemini-2.5-flash",
+  "summary": "السوق يشهد تحولاً كبيراً نحو تطبيقات الذكاء الاصطناعي على الجهاز وتخصيص التجربة للمستخدم، مع تركيز متزايد على الأداء السريع وواجهات المستخدم البديهية. في منطقة الشرق الأوسط، يبرز الطلب على التطبيقات المحلية التي تراعي اللهجات والثقافة، وتلبي احتياجات خاصة غير مشبعة بالتطبيقات العالمية.",
+  "trends": [
+    "تطبيقات الذكاء الاصطناعي على الجهاز والوكلاء (Agentic AI) لتقديم تجارب أسرع وأكثر خصوصية وتخصيصاً.",
+    "التركيز على Kotlin و Jetpack Compose لبناء واجهات مستخدم حديثة ومتجاوبة عبر مختلف أحجام الشاشات.",
+    "الحاجة الملحة للتعريب العميق (وليس مجرد الترجمة) للمحتوى والسياق الثقافي في منطقة الشرق الأوسط.",
+    "تطور Firebase مع ميزات مثل SQL Connect و AI Logic لتسهيل بناء التطبيقات المدعومة بالذكاء الاصطناعي.",
+    "زيادة الطلب على التطبيقات التي تحل مشاكل يومية محددة مع أداء عالٍ وتجربة مستخدم سلسة."
+  ],
+  "ideas": [
+    {
+      "name": "AmmanSpeak",
+      "pitch": "دليل عبارات عربية أردنية وآداب سلوك ثقافية مدعوم بالذكاء الاصطناعي للسياح والمغتربين.",
+      "problem": "يواجه السياح والمغتربون صعوبة في فهم واستخدام اللهجة الأردنية المحلية والتنقل في الفروقات الثقافية، وتطبيقات الترجمة العامة تفتقر للدقة السياقية والتركيز المحلي.",
+      "audience": "السياح، المغتربون، والوافدون الجدد إلى الأردن.",
+      "whyNow": "تتزايد القدرات على دمج الذكاء الاصطناعي على الجهاز لتقديم مساعدة فورية في اللغة والتفاعل الطبيعي، وهناك حاجة ماسة لتعريب حقيقي يتجاوز الترجمة الحرفية ليشمل اللهجة الأردنية وآداب السلوك المحلية.",
+      "competition": "منخفضة",
+      "monetization": "محتوى مميز (عبارات متقدمة، دروس ثقافية)، إزالة الإعلانات، حزم لهجات إضافية (مستقبلاً).",
+      "buildDifficulty": "سهل",
+      "buildDays": 10,
+      "score": 9,
+      "firstStep": "جمع قائمة بالعبارات الأردنية الشائعة والمواقف الثقافية الأساسية، وتصميم واجهة مستخدم بسيطة."
+    },
+    {
+      "name": "Amman Vibes",
+      "pitch": "تطبيق يكتشف وينصح بالفعاليات والأنشطة المحلية في عمان بناءً على اهتمامات المستخدم وموقعه.",
+      "problem": "صعوبة اكتشاف الفعاليات والأنشطة المحلية المنسقة في عمان والتي تتناسب مع اهتمامات المستخدم وتفضيلاته، مع عدم وجود منصة مركزية وشخصية كافية.",
+      "audience": "سكان عمان والزوار الذين يبحثون عن أنشطة وفعاليات جديدة ومخصصة.",
+      "whyNow": "هناك اهتمام متزايد بتطبيقات الفعاليات والتخطيط اليومي، والذكاء الاصطناعي يتيح تخصيصاً قوياً للتوصيات بناءً على سلوك المستخدم وتفضيلاته، مما يوفر تجربة فريدة.",
+      "competition": "متوسطة",
+      "monetization": "اشتراكات مميزة للميزات المتقدمة، شراكات مع منظمي الفعاليات لترويج خاص، إعلانات مستهدفة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9,
+      "firstStep": "بحث وجمع مصادر بيانات الفعاليات المحلية المتاحة في عمان (صفحات فيسبوك، انستغرام، مواقع فعاليات)."
+    },
+    {
+      "name": "DinarPal",
+      "pitch": "متعقب مصاريف ذكي يستخدم الذكاء الاصطناعي لفهم وتصنيف الإنفاق المحلي وتقديم نصائح مالية في الأردن.",
+      "problem": "تطبيقات تتبع المصاريف العالمية لا تفهم السياق المالي الأردني (العملة، فئات الإنفاق الشائعة، عقلية التوفير المحلية)، مما يجعلها أقل فائدة للمستخدم الأردني الذي يبحث عن قيمة موجهة للسعر.",
+      "audience": "الأفراد والعائلات في الأردن الذين يرغبون في إدارة ميزانياتهم ومصاريفهم بفعالية أكبر.",
+      "whyNow": "تزايد استخدام الذكاء الاصطناعي للتحليلات المالية والتوصيات الشخصية، مع فرصة لدمج AI على الجهاز لتعزيز الخصوصية والسرعة في معالجة البيانات المالية الحساسة.",
+      "competition": "متوسطة",
+      "monetization": "نموذج فريميوم (ميزات أساسية مجانية، ميزات تحليل متقدمة واشتراكات مدفوعة).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 16,
+      "score": 8,
+      "firstStep": "تحديد فئات الإنفاق الشائعة في الأردن وتطوير نموذج أولي لتصنيف المعاملات باستخدام ML Kit."
+    },
+    {
+      "name": "Souq Bayti",
+      "pitch": "منصة مركزية للمشاريع المنزلية الأردنية لعرض منتجاتها وإدارة الطلبات، مع تسهيل اكتشافها للمشترين.",
+      "problem": "تعتمد المشاريع المنزلية في الأردن على وسائل التواصل الاجتماعي للتسويق وإدارة الطلبات يدوياً، مما يحد من وصولها وكفاءتها ويجعل اكتشافها صعباً على المشترين.",
+      "audience": "أصحاب المشاريع المنزلية في الأردن (طعام، حرف يدوية، خدمات) والمشترون المحليون.",
+      "whyNow": "تدعم الأردن الاقتصاد الرقمي والمشاريع الناشئة، وهناك طلب على المنتجات المحلية. وجود تطبيقات ناجحة للطعام المنزلي يدل على الحاجة لمنصات أوسع تدعم أنواعاً مختلفة من المشاريع المنزلية.",
+      "competition": "متوسطة",
+      "monetization": "نسبة مئوية على المبيعات، اشتراكات للميزات المتميزة لأصحاب المشاريع (تحليلات، ترويج).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 21,
+      "score": 8,
+      "firstStep": "بناء لوحة تحكم بسيطة للبائعين لإضافة المنتجات، وصفحة عرض للمشترين."
+    },
+    {
+      "name": "Dhaker",
+      "pitch": "تطبيق تذكيرات ومنظم مهام ذكي معزز بالذكاء الاصطناعي يفهم ويساعد في المهام اليومية ذات السياق المحلي الأردني.",
+      "problem": "تفتقر تطبيقات التذكير العامة إلى فهم السياق المحلي للمهام (مثل فواتير شركات معينة، مواعيد تجديد الوثائق الحكومية، أوقات الصلاة الدقيقة محلياً)، مما يقلل من فعاليتها وتخصيصها.",
+      "audience": "الأفراد في الأردن الذين يرغبون في تنظيم مهامهم اليومية وإدارة روتينهم بكفاءة، خاصة المهام ذات الطابع المحلي.",
+      "whyNow": "هناك اهتمام بتطبيقات التخطيط اليومي، وتزايد القدرات الذكاء الاصطناعي للأتمتة والتخصيص في المهام الروتينية، مما يسمح بإنشاء تذكيرات أكثر ذكاءً وتكيفاً مع الحياة اليومية المحلية.",
+      "competition": "منخفضة",
+      "monetization": "اشتراكات للميزات المتقدمة (تذكيرات متكررة ذكية، تكاملات، تخصيص AI).",
+      "buildDifficulty": "سهل",
+      "buildDays": 12,
+      "score": 7,
+      "firstStep": "بناء نظام تذكير أساسي مع القدرة على إضافة تذكيرات مخصصة وتحديد أوقات متكررة."
+    }
+  ],
+  "sources": [
+    {
+      "title": "thehovi.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET-XhWPPoG3b2nzIHDFvNiPVnsYW6ohD9T-K9Z8ed0mVNeFev3WAhZfKCfc3EzNSrjGH3INx6R_CL5v27OAa_CVwmJaEM-SYZFJiwG-NaU-j87vI1BYxgYTwfRK1IuaQN2OW4stdqkfXBqq5Xt8FDngk29bAUwbFSUHMetvjk71DToew1zha58Bqq87CuX9ubsUo-XBZlbcxdIO2U="
+    },
+    {
+      "title": "suffescom.ae",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4G4ObvUiZ-RtxT9VV863EXyKw_xRYo2SqFRb61NUhCYMWkLjLr8waZ9U2cK05AEVKR3eERm1vtV3nWVELN7MkGYHRx3GpflICrwNaLfDV2JaptZ1bvJ72gQD8Jw6zQRiSPkgMXhhloWm4ufeqLZkRsXVMN_GcC-jpYu7ccsPcgptc1b0-"
+    },
+    {
+      "title": "jploft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7AYJS661O5VLEnsef02RjQ4V42DSstL9venHVI14c_FRT7L8mbRRv_dWleg7oyTDwDA8pM3JpezXo-VFxoqE_s2PYkr12Ko2r7owTRIovC0n4941pSpRCCHVVs4lkWcLqZ2AvQ-iWOFNBXQfjRqF8KsiUdDsgxEj_XQqE6CwRLnU7r9KcjhW982mAJEPI3A=="
+    },
+    {
+      "title": "substack.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqAQLlMAy23CqBQNTly7YaNruwz8MD60nRUoBXxKdTkwx8enG4iOxwc1uG_AneGJ8MoIdT7KE0ghCFSLjx802OtAykD2NzYDkfHqllSFz9UHG5G_zr-gPhDzWmOY8uei_IU6i1SawEQre3pa2G4RedqTEAnVxBHF-Tz5Kdwsmq6-veJ573"
+    },
+    {
+      "title": "galaxiumcoding.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq8KwZYZBtx5ajabtssVAVOtUmh__lqMqqCZw04ZweOGHLsC7jeLcFRLObKcDtvaUgKiOuINSumcJGHnMexQ3yGvW9O28UVoPvRXWcd_XTstyqxeeDJGh78AOCVDvjI8z5N804Ls-P4fsMSSh39DOsnuhHQad0gLnPuTjybjg81_P1CR53QjqJsMaOKlyGrlbaY5HwFSmTC7o8Am0MZ0-3afyNpvVPx4G-NlsQJVm7fIiEiGMPjKg-5iqOc-O19Rxm"
+    },
+    {
+      "title": "codeminerals.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKnBvhnHkN5ZLlukL4ZjJAFLAQy59Fc6__O7kmVrWNSvwf3ky3_sPOtEo4ucaX8pOL7Ic_wrfQ3l6gI_EiNw_6qZWW19V2JYb7IbxejFNhl3N0bLN2UEX-jZkvST_OdhqTi1Spnfa_RObkM8cfM6gvPGcLF9d0B00G_Dv4ExkT_8IMgMGze3wWI9eNkIXN8L_0L0PwhB4="
+    },
+    {
+      "title": "jordanandbeyond.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_oEww6axdPA2ZNpisuoAHZSbqlVv8pnJOpK2q33Nu5dIlG-Dmgva_kxMjLsZ1eMRh3HrmieS6FN0bqhZ63ecPj9ELdLMs_6GR_cFYJQvX7MdB6apZ06S-mKKPYd3ikVlarA=="
+    },
+    {
+      "title": "appmaisters.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFWY9U7BireigemaCYhUFXv3F1er49_cwuJZAWKloZf_8khscLE7RFLo4c5tukM2SrRNslC1jlKHdBOhOkZrwKHqiyYja45NyXZ4tG7E1c4wZUZOvPuKWmh4GYu7xbuu7PM0GHfb7GkApSFsZB99XQb6j10eo9Pa9exP-fQ6XHC_Q="
+    },
+    {
+      "title": "42matters.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6KDMtGn6jqyOaXxBZOO4xZlNU5ou2-fWlFuILfdYhGN5aI4N60Rtt0P5sE7OCYZIXnupYoF_hM2vCkbxlxkbAhiGFglFnl7BD29AqWdy7PCcZGgFCVVhQlvipvO01EnDj2EVsbHtSzaxa9Ganit-dzKe55kLoxm4glwiTNXc789hA"
+    },
+    {
+      "title": "rocketeams.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBPTb78mX58-LDCBvrQ51Y4C9j9XicUswbRbKd50_88TxzlyNkh8TUo2E7wdKp4j1piUm-M2UsF52uu8LuG9_xuft14Fm5eslkccGiAA7eussDAASl5gBqPOXKDZeiLAXd9482iCliY3rGRSpHd1-7ES-s_Uuu1xm2PwM0sBwhk3-e2Jpw"
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj52anncBBGCf_EmJwvWTJrtznlj6M83AarVJfV1AfrYXXz3LmiPU67wIBAcQedo4ggJk9hNlYdsG8qa7iGfTCdjArEkf7vSiqcp1v4rF_2xMEcXIg5as9cy13jsnL68iZNG6Wbgc="
+    },
+    {
+      "title": "samenacouncil.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1BokslofWjgpkLfzMRReQFatE_D289LYieXEWVv4JdTnh4UAXZX0egMcY3DAWl5xGqAzCOEOItAFp8wzIzcZRVrE2oEW1Wdg6lrnZqCDyw1DI2wYmtu-q34MehjtBZFfeZ0L1fR38h-Z_VRnWO1o4_YFF6Ga"
+    },
+    {
+      "title": "arab-digital-economy.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF8QeQy59BIf4OOTrXnwFWoK_7cX-nO8b5RKSPm3CVmDgVAA9qODjv8uJqsXz2HX40I770w2vSkafZ6CfZuX8KrHTKziet1aqyjq7HI5aOBOnQ_kgfcPs12g6Moq9fgAxo"
+    },
+    {
+      "title": "jordansource.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHItQVBbGDmc0UCEW2WMs4YCjI36I1MgLAX0UmcMIp8un9pi4cOnmsfUNZtFXl6oaq_q0qYWGxfo7F5FloWR04-gOSuB3xOJDcsDUBJ_A5_8LVMM5SnGyzoh-MysMms"
+    }
+  ]
+}
