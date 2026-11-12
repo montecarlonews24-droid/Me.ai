@@ -21,7 +21,7 @@ jobs:
       - name: Run idea scout
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node agent/scout.js
+        run: node .github/workflows/scout.js
 
       - name: Save report
         run: |
