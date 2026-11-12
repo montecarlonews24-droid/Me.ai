@@ -1,12 +1,12 @@
 // scout.js — Me.ai Daily Idea Scout
 // يبحث يومياً عن أفكار تطبيقات جديدة عبر Gemini + Google Search ويحفظ تقرير JSON
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // تقدر تحط أكثر من مفتاح بالـ Secret مفصولين بفاصلة: key1,key2,key3
 const KEYS = (process.env.GEMINI_API_KEY || '').split(',').map(s => s.trim()).filter(Boolean);
-const MODELS = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+const MODELS = ['gemini-4-hydrogen', 'gemini-2.5-flash', 'gemini-2.0-flash'];
 const DIR = path.join(process.cwd(), 'reports');
 const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Amman' }); // YYYY-MM-DD
 
@@ -62,10 +62,10 @@ async function callGemini() {
       try {
         console.log(`→ ${model} (مفتاح ${i + 1})`);
         const r = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
           {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
             body: JSON.stringify({
               contents: [{ role: 'user', parts: [{ text: prompt }] }],
               tools: [{ google_search: {} }],
