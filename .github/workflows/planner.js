@@ -91,6 +91,18 @@ function findIdea(name) {
   return null;
 }
 
+
+// بيترجم أي نص عربي بالـ JSON للإنجليزي، وبيحافظ على نفس الشكل
+async function translate(obj) {
+  const r = await ask(`Translate every Arabic text value in this JSON into natural, clear English.
+Keep exactly the same keys and structure. Keep app names, product names, numbers and URLs unchanged.
+Do not use markdown (no ** or bullet symbols inside values).
+Return ONLY the JSON.
+
+${JSON.stringify(obj)}`);
+  return r.json;
+}
+
 const ABOUT = `Moe is an independent Android developer in Amman, Jordan. He does not write code himself: he gives the idea to Claude, Claude produces complete files, and Moe uploads them to GitHub from his phone. His proven setup: a native Kotlin Android app built by GitHub Actions from a single patch.pkg zip (the same way his Me.ai app is built). He has Firebase and Gemini API keys available. One person, phone only.`;
 
 async function makePlan(req) {
@@ -129,6 +141,7 @@ Write a complete, realistic build plan for this app. Keep the first version (MVP
 Idea: ${JSON.stringify(idea)}
 Research: ${JSON.stringify(s1.json)}
 
+Do not use markdown inside values (no ** and no bullet symbols).
 Respond with ONLY JSON. Values in Arabic except proper names, code names, and the Play Store fields (write those in the language that fits the audience, Arabic if the audience is Arabic):
 {
   "summary": "الخطة بجملتين",
@@ -151,12 +164,22 @@ Respond with ONLY JSON. Values in Arabic except proper names, code names, and th
 }`);
   console.log(`  plan via ${s2.model}`);
 
+  let en = null;
+  try {
+    const { firstPrompt, ...rest } = s2.json;
+    en = await translate(rest);
+    console.log('  English version ready');
+  } catch (e) {
+    console.log('  translate skipped: ' + e.message);
+  }
+
   return {
     name: idea.name,
     pitch: idea.pitch || '',
     generatedAt: new Date().toISOString(),
     model: s2.model,
     ...s2.json,
+    en,
     research: s1.json,
     sources: s1.sources.slice(0, 12)
   };

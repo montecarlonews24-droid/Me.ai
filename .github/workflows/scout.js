@@ -109,6 +109,18 @@ async function loadFeedback() {
   }
 }
 
+
+// بيترجم أي نص عربي بالـ JSON للإنجليزي، وبيحافظ على نفس الشكل
+async function translate(obj) {
+  const r = await ask(`Translate every Arabic text value in this JSON into natural, clear English.
+Keep exactly the same keys and structure. Keep app names, product names, numbers and URLs unchanged.
+Do not use markdown (no ** or bullet symbols inside values).
+Return ONLY the JSON.
+
+${JSON.stringify(obj)}`);
+  return r.json;
+}
+
 const ABOUT = `Moe is an independent Android developer in Amman, Jordan. He builds Android apps (native Kotlin, or hybrid with Firebase) and publishes on Google Play. He works from a phone only and ships with AI help, so ideas must be buildable by one person in 1-3 weeks.`;
 
 (async () => {
@@ -226,6 +238,18 @@ Sort ideas by score, highest first.`);
   if (final.ideas.every(x => !x.score)) log('warn', 'all scores are 0, check judge output');
   log('judge', `kept ${final.ideas.length}, rejected ${(final.rejected || []).length} via ${s3.model}`);
 
+  // ---------- English version ----------
+  let en = null;
+  try {
+    en = await translate({ summary: final.summary, trends: final.trends || [], ideas: final.ideas, rejected: final.rejected || [] });
+    (en.ideas || []).forEach((x, i) => {
+      if (final.ideas[i]) { x.name = final.ideas[i].name; x.score = final.ideas[i].score; x.buildDays = final.ideas[i].buildDays; }
+    });
+    log('translate', 'English version ready');
+  } catch (e) {
+    log('translate', 'skipped: ' + e.message);
+  }
+
   // ---------- Save ----------
   const seen = new Set();
   const sources = [...s1.sources, ...s2.sources].filter(s => !seen.has(s.url) && seen.add(s.url)).slice(0, 20);
@@ -238,7 +262,8 @@ Sort ideas by score, highest first.`);
     trends: final.trends?.length ? final.trends : s1.json.trends,
     ideas: final.ideas,
     rejected: final.rejected || [],
-    agent: { version: 2, candidates: candidates.length, steps: trace },
+    en,
+    agent: { version: 3, candidates: candidates.length, steps: trace },
     sources
   };
 
