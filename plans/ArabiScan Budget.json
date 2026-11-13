@@ -1,0 +1,238 @@
+{
+  "name": "ArabiScan Budget",
+  "pitch": "مسح ذكي للإيصالات العربية وتصنيف النفقات تلقائيًا لإدارة ميزانيتك بسهولة.",
+  "generatedAt": "2026-11-13T14:36:34.638Z",
+  "model": "gemini-2.5-flash",
+  "summary": "تطبيق ArabiScan Budget يتيح مسح الإيصالات العربية وتصنيف النفقات تلقائيًا باستخدام ML Kit و Firebase AI Logic لتبسيط إدارة الميزانية. يركز الإصدار الأولي (MVP) على توفير تجربة سلسة وفعالة لتتبع المصاريف اليومية في الأردن.",
+  "mvpFeatures": [
+    "مسح الإيصالات العربية باستخدام كاميرا الهاتف.",
+    "استخراج النصوص والبيانات الأساسية (المبلغ الإجمالي، التاريخ، اسم المتجر) من الإيصالات باستخدام ML Kit Text Recognition.",
+    "تصنيف تلقائي للنفقات إلى فئات محددة مسبقًا (مثل بقالة، مطاعم، مواصلات) باستخدام Firebase AI Logic (Gemini API).",
+    "عرض قائمة بالنفقات المصنفة مع تفاصيلها.",
+    "إمكانية التعديل اليدوي على تفاصيل النفقات والفئات بعد المسح.",
+    "شاشة رئيسية تعرض ملخصًا بسيطًا للمصروفات (إجمالي، حسب الفئة).",
+    "حفظ البيانات محليًا على الجهاز."
+  ],
+  "laterFeatures": [
+    "تقارير وتحليلات مالية مفصلة (رسوم بيانية، مقارنات شهرية).",
+    "مزامنة سحابية للبيانات (عبر Firebase Firestore).",
+    "دعم عملات متعددة مع التركيز على الدينار الأردني.",
+    "تخصيص الفئات وإضافة فئات جديدة.",
+    "إعداد ميزانيات شهرية وتتبع التقدم.",
+    "تنبيهات عند تجاوز الميزانية.",
+    "مسح غير محدود للإيصالات (ميزة مدفوعة).",
+    "التعرف على بنود الإيصال التفصيلية.",
+    "دمج مع معايير التمويل المفتوح الأردنية (JoPACC) لسحب بيانات البنوك تلقائيًا."
+  ],
+  "screens": [
+    {
+      "name": "شاشة الكاميرا/المسح",
+      "purpose": "لالتقاط صورة للإيصال المراد مسحه."
+    },
+    {
+      "name": "شاشة مراجعة الإيصال",
+      "purpose": "لعرض البيانات المستخرجة (المبلغ، التاريخ، المتجر، الفئة المقترحة) وإتاحة التعديل اليدوي."
+    },
+    {
+      "name": "شاشة قائمة النفقات",
+      "purpose": "لعرض جميع النفقات المصنفة في قائمة قابلة للتصفح."
+    },
+    {
+      "name": "شاشة ملخص الميزانية",
+      "purpose": "لعرض إجمالي النفقات وملخص حسب الفئة."
+    },
+    {
+      "name": "شاشة الإعدادات",
+      "purpose": "لإدارة الإعدادات الأساسية للتطبيق."
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "ML Kit Text Recognition",
+      "free": true,
+      "notes": "للتعرف على النصوص العربية من الإيصالات مباشرة على الجهاز، مما يعزز الخصوصية والسرعة."
+    },
+    {
+      "name": "Firebase AI Logic (Gemini API)",
+      "free": true,
+      "notes": "لتصنيف النصوص المستخرجة إلى فئات نفقات ذكية، باستخدام مفتاح Gemini API المتاح."
+    },
+    {
+      "name": "Firebase Local Storage / SharedPreferences",
+      "free": true,
+      "notes": "لتخزين بيانات النفقات محليًا على الجهاز في الإصدار الأولي (MVP)."
+    }
+  ],
+  "techStack": "Kotlin لتطوير تطبيق Android أصلي عالي الأداء، ML Kit Text Recognition للتعرف على النصوص العربية بكفاءة على الجهاز، Firebase Gemini API لتصنيف النفقات بذكاء، CameraX لالتقاط الصور، و Jetpack Compose لواجهة مستخدم حديثة وسريعة التطوير. GitHub Actions لعملية بناء ونشر مؤتمتة تتناسب مع إعداد Moe.",
+  "buildSteps": [
+    {
+      "day": "1-2",
+      "task": "إعداد مشروع Kotlin جديد باستخدام Jetpack Compose، دمج CameraX لالتقاط الصور، وتصميم شاشة الكاميرا الأولية."
+    },
+    {
+      "day": "3-5",
+      "task": "دمج ML Kit Text Recognition، وتطوير منطق استخراج النصوص والبيانات الأساسية (المبلغ، التاريخ، المتجر) من الإيصالات العربية الملتقطة."
+    },
+    {
+      "day": "6-8",
+      "task": "تطوير Firebase AI Logic (باستخدام Gemini API) لتصنيف النصوص المستخرجة إلى فئات نفقات أساسية، ودمجها مع عملية المسح."
+    },
+    {
+      "day": "9-11",
+      "task": "بناء شاشة قائمة النفقات لعرض البيانات المصنفة، وإضافة وظيفة التعديل اليدوي لتفاصيل النفقات والفئات."
+    },
+    {
+      "day": "12-13",
+      "task": "تطوير شاشة ملخص الميزانية لعرض إجمالي النفقات وملخص حسب الفئة، وتنفيذ حل تخزين محلي للبيانات (مثل SharedPreferences أو Room SQLite)."
+    },
+    {
+      "day": "14",
+      "task": "اختبار شامل للتطبيق، إصلاح الأخطاء، وتحسينات واجهة المستخدم وتجربة المستخدم."
+    },
+    {
+      "day": "15",
+      "task": "إعداد التطبيق للإطلاق (أيقونة، شاشة بداية، سياسة خصوصية مبدئية)، وتجهيز ملف patch.pkg وملف build.yml لـ GitHub Actions."
+    }
+  ],
+  "beatCompetitors": "نتفوق على المنافسين بالتركيز على دقة مسح الإيصالات العربية وفهم السياق الأردني، مما يقلل الجهد اليدوي بشكل كبير. سنقدم تجربة مستخدم بسيطة وفعالة تتفوق على تعقيد بعض التطبيقات الأخرى. سنوفر تصنيفًا ذكيًا تلقائيًا للنفقات يقلل من الحاجة للإدخال اليدوي الذي يشتكي منه المستخدمون، ومعالجة أفضل للإيصالات العربية مقارنة بالحلول العامة. كما سنحرص على تقديم قيمة واضحة في النسخة المجانية مع ميزات مميزة للاشتراك المدفوع لتجنب شكاوى حدود المسح أو التكلفة العالية.",
+  "monetization": "سيعتمد التطبيق على نموذج فريميوم (Freemium):\n\n**النسخة المجانية:**\n*   مسح عدد محدود من الإيصالات شهريًا (مثلاً 10-15 إيصال).\n*   تصنيف أساسي للنفقات.\n*   عرض ملخص النفقات.\n\n**الاشتراك المميز (شهري/سنوي):**\n*   مسح غير محدود للإيصالات.\n*   تقارير وتحليلات مالية مفصلة (رسوم بيانية، تصدير بيانات).\n*   مزامنة سحابية للبيانات (عبر Firebase Firestore).\n*   إمكانية تخصيص الفئات وإضافة فئات جديدة.\n*   إعداد ميزانيات شهرية وتتبعها.\n*   دعم فني ذو أولوية.\n*   دعم عملات متعددة.\n\nسيتم تحديد أسعار تنافسية تتناسب مع السوق الأردني والمنطقة، مع التركيز على القيمة المضافة للميزات المدفوعة.",
+  "risks": [
+    "**دقة التعرف على النصوص العربية (OCR):** قد تواجه ML Kit تحديات مع التنسيقات المتنوعة للإيصالات العربية. **التجنب:** اختبار مكثف على عينات واسعة من الإيصالات الأردنية، وتحسين معالجة ما بعد الـ OCR باستخدام Firebase AI Logic لتعويض الأخطاء المحتملة، وتوفير خيار التعديل اليدوي للمستخدم.",
+    "**تبني المستخدمين وثقتهم بالتعامل مع البيانات المالية:** مخاوف الخصوصية والمنافسة. **التجنب:** التأكيد على معالجة الـ OCR على الجهاز في MVP، ووضع سياسة خصوصية واضحة وشفافة، وبناء الثقة من خلال الأداء الدقيق وسهولة الاستخدام.",
+    "**التكاليف المستقبلية لواجهات برمجة التطبيقات (APIs):** تجاوز حدود الاستخدام المجاني لـ Firebase/Gemini API مع نمو قاعدة المستخدمين. **التجنب:** مراقبة استخدام الـ API عن كثب، تحسين الاستدعاءات، والتخطيط لتضمين تكاليف الـ API ضمن نموذج التسعير عند التوسع.",
+    "**الامتثال القانوني والتنظيمي في الأردن:** قوانين حماية البيانات الشخصية ومعايير التمويل المفتوح. **التجنب:** استشارة خبراء قانونيين، الحصول على موافقة صريحة من المستخدمين، تطبيق إجراءات أمنية صارمة، ونشر سياسة خصوصية واضحة. التخطيط المسبق لمتطلبات الترخيص في حال دمج التمويل المفتوح لاحقًا."
+  ],
+  "playStore": {
+    "title": "ArabiScan Budget: مسح إيصالات ذكي",
+    "shortDescription": "مسح تلقائي للإيصالات العربية، تصنيف النفقات، وإدارة ميزانيتك بسهولة.",
+    "fullDescription": "هل سئمت من تتبع نفقاتك يدويًا من الإيصالات العربية المعقدة؟ ArabiScan Budget هو الحل الأمثل لك! يتيح لك التطبيق مسح إيصالاتك بكاميرا هاتفك، ليقوم بتحويلها تلقائيًا إلى بيانات منظمة ومصنفة.\n\nباستخدام تقنيات الذكاء الاصطناعي المتقدمة، يتعرف ArabiScan Budget على تفاصيل إيصالاتك الأردنية ويصنف نفقاتك بذكاء إلى فئات مثل البقالة، المطاعم، والمواصلات. وداعًا للإدخال اليدوي والأخطاء، ومرحبًا بإدارة مالية سهلة ودقيقة.\n\nصمم خصيصًا للمستخدمين في الأردن والمنطقة، مع التركيز على فهم الإيصالات العربية المحلية. ابدأ بتتبع نفقاتك اليوم وشاهد كيف يمكن لـ ArabiScan Budget أن يبسط حياتك المالية ويساعدك على الالتزام بميزانيتك.\n\nحمل التطبيق الآن وابدأ رحلتك نحو إدارة مالية أذكى وأسهل!",
+    "keywords": [
+      "إيصالات",
+      "ميزانية",
+      "مصاريف",
+      "أردن",
+      "مسح",
+      "تتبع",
+      "مالية",
+      "نفقات",
+      "OCR",
+      "ذكاء اصطناعي",
+      "الأردن"
+    ]
+  },
+  "firstPrompt": "مرحباً كلود، بدي أعمل تطبيق أندرويد جديد اسمه ArabiScan Budget. فكرته إنه يمسح الإيصالات المكتوبة بالعربي ويصنف النفقات تلقائياً عشان الناس تدير ميزانيتها بسهولة.\nالنسخة الأولى (MVP) بدنا نركز على الميزات الأساسية هاي:\n1.  مسح الإيصالات العربية باستخدام كاميرا التلفون.\n2.  استخراج النصوص والبيانات الرئيسية (المبلغ، التاريخ، اسم المحل) من الإيصالات باستخدام ML Kit Text Recognition.\n3.  تصنيف تلقائي للنفقات لفئات أساسية (زي بقالة، مطاعم) باستخدام Firebase AI Logic (بدي تستخدم Gemini API تبعي).\n4.  عرض قائمة بالمصاريف المصنفة مع إمكانية التعديل اليدوي.\n5.  شاشة رئيسية تعرض ملخص بسيط للمصاريف.\nالشاشات اللي بدنا إياها هي: شاشة الكاميرا للمسح، شاشة مراجعة الإيصال وتعديله، شاشة قائمة المصاريف، وشاشة ملخص الميزانية.\nمصادر البيانات اللي رح نستخدمها هي ML Kit Text Recognition (على الجهاز) و Firebase Gemini API للتصنيف، وتخزين محلي للبيانات في البداية.\nبدي التطبيق يكون Kotlin أصلي، وبنفس طريقة بناء تطبيق Me.ai تبعي، يعني جهزلي ملف build.yml وملف patch.pkg عشان أقدر أرفعهم على GitHub مباشرة من التلفون. يلا نبلش!",
+  "research": {
+    "apis": [
+      {
+        "name": "Google Cloud Vision API",
+        "free": true,
+        "use": "مسح ضوئي (OCR) قوي للإيصالات العربية لاستخراج النصوص والبيانات."
+      },
+      {
+        "name": "Apify Arabic Receipt Reader (OCR + Saudi ZATCA QR)",
+        "free": false,
+        "use": "قراءة الإيصالات العربية والإنجليزية واستخراج المجموع، ضريبة القيمة المضافة، المجموع الفرعي، وبنود الفواتير."
+      },
+      {
+        "name": "Jordan Open Finance Standards (معايير التمويل المفتوح في الأردن)",
+        "free": false,
+        "use": "الوصول الموحد والآمن لبيانات حسابات العملاء (مثل بيانات المعاملات ومعلومات الحساب) من البنوك ومقدمي خدمات الدفع الأردنيين، بعد الحصول على موافقة العميل."
+      },
+      {
+        "name": "Salt Edge API",
+        "free": false,
+        "use": "منصة API مالية توفر حلول التمويل المفتوح وتتيح الاتصال بالعديد من المؤسسات المالية، بما في ذلك في الأردن، للوصول إلى البيانات المصرفية المجمعة."
+      },
+      {
+        "name": "FastOCR API",
+        "free": true,
+        "use": "قراءة دقيقة (OCR) للنصوص والجداول العربية من الإيصالات والصور، مع إمكانية استخراج الجداول إلى خلايا حقيقية."
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Masarif (مصاريف)",
+        "complaints": "التطبيق يعالج الإيصالات على الجهاز ولا يرسل الصور للخادم، مما يعزز الخصوصية. النسخة المجانية محدودة بـ 5 مسوحات للإيصالات."
+      },
+      {
+        "name": "Wallet by BudgetBakers",
+        "complaints": "لا توجد شكاوى محددة بارزة في نتائج البحث، لكن بشكل عام قد يشتكي المستخدمون من تكلفة الاشتراكات المدفوعة أو تعقيد بعض الميزات المتقدمة. يتوفر بخطة مجانية أو اشتراك سنوي."
+      },
+      {
+        "name": "Money Manager",
+        "complaints": "لا توجد شكاوى محددة بارزة في نتائج البحث. غالبًا ما ترتبط الشكاوى العامة لتطبيقات الإدخال اليدوي بكونها تتطلب جهدًا ووقتًا من المستخدم."
+      },
+      {
+        "name": "Spendee",
+        "complaints": "لا توجد شكاوى محددة بارزة في نتائج البحث. الشكاوى العامة لتطبيقات تتبع النفقات قد تشمل دقة التصنيف التلقائي، مشاكل المزامنة مع البنوك، أو صعوبة التعامل مع الفواتير المتكررة."
+      },
+      {
+        "name": "Nafaqat (نفقات)",
+        "complaints": "لا توجد شكاوى محددة بارزة في نتائج البحث."
+      },
+      {
+        "name": "مصروفاتي الذكي",
+        "complaints": "لا توجد شكاوى محددة بارزة في نتائج البحث. لكن بما أنه يعتمد على الذكاء الاصطناعي، قد تكون الشكاوى المحتملة حول دقة التعرف أو التصنيف في حالات معينة."
+      },
+      {
+        "name": "Mint (مينت)",
+        "complaints": "لا توجد شكاوى محددة في السياق العربي. بشكل عام، قد تشمل الشكاوى مشاكل في مزامنة البيانات مع بعض البنوك، وجود إعلانات، أو تغييرات في الميزات."
+      },
+      {
+        "name": "Monetika (مونيتيكا)",
+        "complaints": "لا توجد شكاوى محددة في نتائج البحث. بما أن البيانات تُخزن على الهاتف، قد تكون هناك مخاوف بشأن فقدان البيانات إذا لم يتم عمل نسخ احتياطية بانتظام. الميزات المميزة باشتراك شهري أو سنوي."
+      }
+    ],
+    "legal": "يجب على التطبيق الالتزام بقانون حماية البيانات الشخصية الأردني رقم 24 لسنة 2023، وهو أول قانون وطني شامل ينظم جمع البيانات الشخصية واستخدامها وتخزينها ونقلها في الأردن.\n\nتشمل الملاحظات القانونية الرئيسية ما يلي:\n1.  **الموافقة الصريحة:** يجب الحصول على موافقة صريحة ومستنيرة ومحددة الغرض والمدة من صاحب البيانات قبل معالجة بياناته الشخصية.\n2.  **حقوق الأفراد:** يمنح القانون الأفراد حقوقًا على بياناتهم، مثل الحق في الوصول والتصحيح والمحو وسحب الموافقة والاعتراض على المعالجة أو طلب نقل البيانات.\n3.  **حماية البيانات:** يجب على المسؤول عن المعالجة (التطبيق) اتخاذ تدابير أمنية وفنية وتنظيمية لحماية البيانات من أي اختراق أو إفشاء غير مصرح به.\n4.  **سياسات وإجراءات:** يجب على التطبيق وضع سياسات وإجراءات واضحة لمعالجة البيانات الشخصية وآلية تلقي الشكاوى والرد عليها، ونشرها في وسائل الإعلام المتاحة.\n5.  **البيانات الحساسة:** البيانات المالية تعتبر بيانات حساسة، ويتطلب معالجتها احتياطات إضافية.\n6.  **نقل البيانات:** يقيد القانون نقل البيانات الشخصية خارج الأردن إلى دول لا توفر مستوى حماية مكافئًا، إلا في حالات استثنائية.\n7.  **مسؤول حماية البيانات (DPO):** قد يتطلب الأمر تعيين مسؤول حماية بيانات إذا كان التطبيق يعالج بيانات حساسة أو مالية أو ينقلها عبر الحدود.\n8.  **الإبلاغ عن الاختراقات:** يجب إخطار صاحب البيانات بأي خرق أو انتهاك لأمن بياناته.\n9.  **قانون الجرائم الإلكترونية:** يعاقب قانون الجرائم الإلكترونية رقم 17 لسنة 2023 على الوصول غير المشروع للأنظمة أو اعتراض البيانات أو تغييرها أو نشر معلومات خاصة بدون موافقة.\n10. **معايير التمويل المفتوح:** إذا كان التطبيق سيتكامل مع البنوك الأردنية للوصول إلى بيانات المعاملات، فيجب عليه الالتزام بمعايير التمويل المفتوح التي وضعها البنك المركزي الأردني وشركة المدفوعات والمقاصة الأردنية (JoPACC)، والتي تتطلب ترخيصًا لمقدمي الخدمات من الطرف الثالث (TPPs) وموافقة العميل للوصول إلى البيانات."
+  },
+  "sources": [
+    {
+      "title": "masarif.ly",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWw-B0QLJuSXksX6mTekD8fPrdfIIIoL5KdlNEL-JJqM_fvFnMp8CRv5Xw06L9YJXXWn3pq6iZXPQRsEV3l6EjXE9nU-C4ZKmd6-bvuAsjM0M="
+    },
+    {
+      "title": "triopedia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB1d0p_gqm8QLnqpJKULsT2mnphxh_sV0pYZM2Ekhbf7QcA6YCCD1fLa9rTGQjEk5RSwtX-tZkv10rcGWTWcvjp_sz7pXIbVFI8Da8vD_RDTYZNW7f3p_sA8HmsEI9HRuc6vNQZtyv-hQ8yFK3OsxiBFjVaY9cEmE="
+    },
+    {
+      "title": "argaam.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5pdgSWSzb_Kx9x9iz5q5Bh8RPdLaKNM0W8_WzgBJlVBkO_IclupqNYoyScacC-c84rUAOScS-nXL_Ckg8UbFLJAYG-beg8K1YLY1Ap5jnqgigS3mL8Zlup4H4WGG279KTaNHPDsAkdlVVHyqtpXj9jjvoIs8="
+    },
+    {
+      "title": "apple.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnf26y7I5CxWkzAGL4k1TSpI5Cej2YgCcyUCeeZ2lMO9OrzKy_TRrqG_3VVwdt84OhfYe_JIvM4KOwiZJRSYi39Z5F2BBomKWEN9fZIPSt4ED_H9Iuy5ui5uye5tdVKrWVm3R-lIODYYJvTAnx98EFTR83glVNgjbOxnAnk7ojweJrcpva7UiVJ3pveCBxZmtQ6BFPdrIjQBlCwwNnYu0Ywz9ZOVRdKTBmY20fToeAfLbcWcMNML3TH_D9Z3s_7AIMhr1nTtUDViqUpJYjRdOkpJkLp89tetrCDhrifiCfvMAxLR8KmxJ8C3-V4MYdpWljmM5UE1y04HIB4ChDnnZjyAHl0lh54OuDDQI="
+    },
+    {
+      "title": "dp-technologies.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5QDO3D2xOuqG56U5cltCGqXgFlJb21hAEdThp2yucQNeIlfP9O64zRNP_1A1vS4Wonn3z_HGNfTCkTjdLNUh69vYljY0AQeSzSEznI-ZQnZXb1ZB4OcKBLPJSLoz9mdgZsiwOaJYcuD3J_79D6IF4kIRFzAyRlcrN"
+    },
+    {
+      "title": "atwanattorneys.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyD7nXNU0OpglETag8fYZmiq5TjIUtUtsHtJoMgVQs20nF9x_3F9R3cajln2LXXSM4C7RjXCY6R2x7t70Y318FIhAFKZNwG0ZB3pArOY08xoLfLtFgI6WbqDduohrjDTDXi5u04UzxVT_QaFzX"
+    },
+    {
+      "title": "shraidehlaw.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrEQB3jxMN3mBYg4dZWmQ2qnTr4E-C94kqQbGjiBg1TXvnO0QCYzCxtLQayNyP9oSAgZcIRPQmaajs4qbLh27o2lshrzRkXL5yGAPmagLm7KrVzzxAjqLWLnSyVN3NOzrCSad5dD8x6H93SdZ-0sBmW1m_LpgjCkAKpYg2hKfxKfv4HvhaehYjovIiFsLBrJUuck4NLbln2zzLFKgwqVDxRFpwv3InanCNyoY9v4DmhLDzb_4R8fmb86AqbpF6_YwFDNW08Y0q-wCUMIWUrvAbTcrTU_U5TaYk4snwzSJ8Ize57EIjjAFfr6rlVL3ASA0494U8NxoVdM0arsxXSD7hBzAXDEPob8opNXAGnxTtgldy5xFdVn02fh9BZ_Fzoffo"
+    },
+    {
+      "title": "lob.gov.jo",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo2TDLkVJrlgcqJRZdfLiwokukIQ7wrqz9gdbL7YA0rawOVnP3F6jAcm_rSL8XpvHjDDKGoJTiqhwWC1V6NwT4YrRHNy24cKz2RxdgPn8hDS7UBclKBrRpmKLj_W4C3hs9teiu8LooFAYxtjOlHMNf3fsxmwFOVLDIhCb46z1p5ap7h3Fx9yXCS9UGdGKTWFbFv9Ak8EGK9o35SZw3-TrnBiswjtZOo1MfSxzOi0cUNmYbvZwLNeQAqM2qSDn8oSbTCPYWA70l2d1laGYbpxg2cTEFv2i1EAIYI68uoKN5ItsOFlE_V2dsHNTGARm8kB4tzYogSu3OCR3qmXIjK5Zj63qW9sT9KJfVJx_4xSCrINuljEcLRKrs2X9Ozk2Gy-72pN-lRSenFwJcy60J8D_zGfOu_4JhKaMt7_Q4oAdO8IN6mJtwD5ZleKwG9P9uoUZRLuA8oYtNqlWzca9BU9nLS5ywR9K0DbX6czyPPkyhtNpY1ZJOJbpFIUJcHqkAaCbrXdGicLCAPptNIvN9XLlNXFU990v6tH_UdgakuXzrMKFZTuC3Ggon0xLpTmsyuvYjryd7_cqw70GQpkzh1w6JKTDQ8Twmg96FiptWtTdhq5xuvHPhOH0wjjR8JRSLTBnG0C1W47ArFU-Opo6vsKqsVkQgGeMk1whO97CWXhj_EiAFiA5i5hvUkk3G3I-Ws_yxlS4ecM31fFxiTDDmiXsTv8BL7LBwe_kXgRttq1PZTNAEwY9QZ1L4"
+    },
+    {
+      "title": "ibanet.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSnvEc-FbPQZ9SPfPieoYNeJlqCCBIkHErtuLdcJ-HSNVk6JzRNgch_af0xN-_rzSf_5BP4kDbnTNCs5il_dsUQGV-A1-2aZafRUiEauSmNBM6bOrEhJVGbJJREC0ztl_jHMzGy_kQ-HyOyv8QeSYpEAK5NYmhsFF98Gwc"
+    },
+    {
+      "title": "ajsp.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTouT9m-0DDhFQxU2gik5O5WT_2NpKvGhmLFjTXoqAkq-qHZYxmllYgmZaOcflyY3zPZV9Zlm_JtITEz0297jDf1662piIRGTLTsyAFpf4JcDzeVCVi5a-5UIi2IS0i2V2reg7lsvrIl3Xi4EENBloC_RBPumkSOaE7vOM4zn0q3WrEbxqO0v53nHgH80FU0eWSSql9KAIkHhnzObMmlrj1XitIrO9svE9o_g4M_-JkR5Rs9NHqq7Aot5xAnUtRrTC2g5ZY8YFldvuUnz7Ox-jGku8ZepWGbXD8_pbYrUaGt67eeZJSUNyu47c_8JZRYx6S7IMiRAXVae0PJbb3rDfK2uL47eyeoX2nDWWXOX154bKVOcexltoSkK6l7cxiAuloLIO7k73RG7Kp8mSr1tSeHUd"
+    },
+    {
+      "title": "modee.gov.jo",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1DuzVZwRxa5ecLRH9ELTH3eYf0KxSdyGkYH2yJrMrEhWOIb8P4yamlOVQc1N0iDyhPeNU0WIE2Af-RT9ukb_UaGfY9W5C-a3Rd86_xQa0A8hkPijHch18iKmweXDlXGXxrMl9wuFUcMtQjUPWq9KW-elhxfQddar2DBh-TFh5VuxxkkNExAQh45M3Vg=="
+    },
+    {
+      "title": "dlapiperdataprotection.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjnxeOAV-x9NPGsZ8wUURJ4afWNeJBE52kQyoZHzWtX3UAqEmwhD-adHcwGf3aEGxk8E4ElnsdAX4EM7qSFTm-m1pxcSE9OJknW-XaA23qtQ8IcxtSV7LGcj61nNpg5aQJ0E0XRg5_-kitjqX"
+    }
+  ]
+}
