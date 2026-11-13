@@ -1,0 +1,41 @@
+name: Me.ai Build Planner
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: planner
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Make build plans
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIREBASE_DB: https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app
+        run: node .github/workflows/planner.js
+
+      - name: Save plans
+        run: |
+          mkdir -p plans
+          git config user.name "Me.ai Planner"
+          git config user.email "actions@github.com"
+          git add plans
+          if ! git diff --cached --quiet; then
+            git commit -m "Build plans $(date -u +%F)"
+            git pull --rebase -q
+            git push
+          fi
