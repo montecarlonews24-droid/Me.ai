@@ -30,7 +30,9 @@ async function ask(prompt, { search = false } = {}) {
         };
         if (!search) body.generationConfig.responseMimeType = 'application/json';
         if (search) body.tools = [{ google_search: {} }];
-        const r = await fetch(
+        let r, data;
+        for (let attempt = 0; attempt < 3; attempt++) {
+          r = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
           {
             method: 'POST',
@@ -38,7 +40,12 @@ async function ask(prompt, { search = false } = {}) {
             body: JSON.stringify(body)
           }
         );
-        const data = await r.json();
+          data = await r.json();
+          const busy = r.status === 503 || /high demand|overloaded|try again later/i.test(data.error?.message || '');
+          if (!busy || attempt === 2) break;
+          console.log(`  ~ ${model} busy, waiting ${20 * (attempt + 1)}s then retrying`);
+          await new Promise(res => setTimeout(res, 20000 * (attempt + 1)));
+        }
         if (!r.ok) { lastErr = data.error?.message || r.status; console.log(`  x ${model} key${i + 1}: ${lastErr}`); continue; }
         const cand = data.candidates?.[0];
         const text = (cand?.content?.parts || []).map(p => p.text || '').join('');
