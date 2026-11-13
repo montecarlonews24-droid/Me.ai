@@ -1,125 +1,116 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T14:17:04.190Z",
+  "generatedAt": "2026-11-13T14:28:53.663Z",
   "model": "gemini-2.5-flash",
-  "summary": "تم تقييم الأفكار بناءً على معايير صارمة للجدوى في عمّان، مع التركيز على الابتكار والقدرة على البناء بواسطة مطور واحد في 3 أسابيع. تم رفض الأفكار ذات التشبع العالي أو التعقيد الزائد.",
+  "summary": "العديد من الأفكار لديها إمكانات جيدة في السوق الأردني، خاصة تلك التي تستغل الذكاء الاصطناعي لحل مشاكل محلية محددة. التحدي الأكبر يكمن في نطاق العمل وجمع البيانات في فترة بناء قصيرة.",
   "trends": [
-    "تطبيقات الذكاء الاصطناعي السياقية",
-    "منصات الدعم المجتمعي المتخصصة",
-    "أدوات الرعاية الصحية الشخصية غير المتطفلة"
+    "تطبيقات الذكاء الاصطناعي على الجهاز (On-device AI)",
+    "تطبيقات الخدمات المحلية المخصصة (Hyperlocal personalized services)",
+    "التمويل الشخصي وتتبع النفقات (Personal finance & expense tracking)"
   ],
   "ideas": [
     {
-      "name": "Tathkeer الذكي",
-      "pitch": "تطبيق تذكير ذكي يتكيف مع سياق المستخدم (الموقع، الروتين اليومي) لتقديم تذكيرات فعالة للمهام اليومية في عمّان، مدعومًا بالذكاء الاصطناعي.",
-      "problem": "كثيرًا ما يتم تجاهل التذكيرات التقليدية لأنها لا تأخذ في الاعتبار سياق المستخدم. يحتاج الأشخاص المشغولون إلى تذكيرات تتكيف مع مكانهم وما يفعلونه.",
-      "audience": "الأفراد المشغولون في عمّان، مثل أولياء الأمور والطلاب والموظفين، الذين يحتاجون إلى مساعدة في تذكر المهام بناءً على سياقهم اليومي.",
-      "whyNow": "تطبيقات التذكير الذكية التي تعتمد على السياق هي من الأفكار الواعدة. يمكن استخدام الذكاء الاصطناعي على الجهاز (Gemini Nano عبر ML Kit GenAI APIs) لفهم روتين المستخدم وموقعه وجدوله الزمني لتشغيل التذكيرات ذات الصلة، مما يوفر تجربة مخصصة وغير متطفلة.",
-      "competition": "منخفضة",
-      "competitors": [
-        "Google Calendar",
-        "Reminders",
-        "Todoist",
-        "Microsoft To Do"
-      ],
-      "edge": "يقدم تطبيق تذكير مدعوم بالذكاء الاصطناعي يتكيف تلقائياً مع سياق المستخدم (مثل موقعه الحالي، أو روتينه اليومي المحدد في عمّان) لتقديم تذكيرات فعالة في الوقت والمكان المناسبين، متفوقاً على التطبيقات الحالية التي تفتقر لهذا المستوى من التكيف والذكاء السياقي.",
-      "monetization": "اشتراك شهري للميزات المتقدمة (قواعد سياقية أكثر تعقيداً، تكاملات مع تطبيقات أخرى، أصوات تذكير مخصصة، إزالة الإعلانات).",
-      "buildDifficulty": "متوسط",
-      "buildDays": 15,
-      "firstStep": "بناء واجهة المستخدم الأساسية لإضافة التذكيرات اليدوية، ثم دمج ML Kit GenAI APIs للتعرف على الموقع والوقت وبدء جمع بيانات روتين المستخدم محلياً."
-    },
-    {
-      "name": "Uswaty",
-      "pitch": "تطبيق لتنسيق رعاية كبار السن غير المتطفلة، يربط أفراد الأسرة ويوفر لوحة تحكم مشتركة لتسجيل الأدوية والمواعيد ومتابعة الأنشطة اليومية لكبار السن بشكل بسيط وآمن.",
-      "problem": "تعاني الأسر من تحديات في تنسيق رعاية كبار السن، وغالبًا ما تكون الأدوات الحالية إما متطفلة (مثل التتبع بالكاميرات) أو غير كافية، مما يسبب الإرهاق لمقدمي الرعاية.",
-      "audience": "أفراد الأسرة الذين يرعون والديهم أو أقاربهم المسنين، ويبحثون عن طريقة آمنة ومنظمة وغير متطفلة لتنسيق الرعاية فيما بينهم.",
-      "whyNow": "هذا هو أحد أقوى الاحتياجات غير الملباة في السوق، مع طلب هائل وغياب التطبيقات المخصصة، ورفض المستخدمين لأدوات المراقبة. يرتكز على مبدأ 'الوعي دون التطفل'. يمكن لـ Firebase توفير التوثيق الآمن ومزامنة البيانات المشتركة بين أفراد الأسرة، مع واجهة مستخدم عربية تراعي الحساسيات الثقافية.",
-      "competition": "عالية",
-      "competitors": [
-        "ElderAssist",
-        "AloneAssist",
-        "Neela (AI Layer for Family Management and Guidance)",
-        "Medisafe",
-        "Google/Apple Calendars"
-      ],
-      "edge": "توفير تطبيق لتنسيق رعاية كبار السن يركز بشكل خاص على أن يكون 'غير متطفل' و'بسيط' و'آمن' للغاية، مع لوحة تحكم مشتركة 'سهلة الاستخدام' لجميع أفراد الأسرة لتسجيل الأدوية والمواعيد ومتابعة الأنشطة اليومية، مع تصميم يراعي الحساسيات الثقافية.",
-      "monetization": "نموذج اشتراك عائلي شهري، أو ميزات مميزة (تقارير صحية مفصلة، تكامل مع الصيدليات لتذكير إعادة تعبئة الأدوية).",
-      "buildDifficulty": "متوسط",
-      "buildDays": 18,
-      "firstStep": "تصميم وبناء لوحة تحكم عائلية مشتركة مع ميزات أساسية لتسجيل الأدوية والمواعيد، وتوفير نظام مصادقة آمن لأفراد الأسرة باستخدام Firebase Auth."
-    },
-    {
-      "name": "SehaLog",
-      "pitch": "تطبيق مخصص لتسجيل ومتابعة حالة صحية مزمنة واحدة (مثل السكري، الصداع النصفي) باللغة العربية، مع تقارير قابلة للمشاركة مع الطبيب مدعومة بالذكاء الاصطناعي.",
-      "problem": "يحتاج الأشخاص الذين يعانون من حالات صحية مزمنة إلى تتبع الأعراض والأدوية والنظام الغذائي بشكل يومي، لكن التطبيقات الموجودة إما معقدة للغاية أو عامة ولا تلبي احتياجات حالة معينة.",
-      "audience": "الأفراد في الشرق الأوسط الذين يعانون من حالة صحية مزمنة محددة ويبحثون عن أداة بسيطة وفعالة لتتبع حالتهم الصحية وتقديم تقارير للطبيب.",
-      "whyNow": "يمكن للذكاء الاصطناعي اكتشاف الأنماط في سجلات الأعراض والطعام والنوم التي يصعب على الإنسان تحديدها، وتوليد تقارير قابلة للمشاركة مع الطبيب. تطبيقات الصحة والعافية الشخصية من الفئات القوية لعام 2026. يمكن لـ Firebase توفير تخزين آمن للبيانات، بينما يمكن لـ AI Logic تحليلها، مع التركيز على واجهة عربية أصيلة.",
-      "competition": "عالية",
-      "competitors": [
-        "المرض المزمن (Chronic Disease)",
-        "متتبع الأمراض المزمنة (Chronic Disease Tracker)",
-        "Medisafe",
-        "ألمي (Alami)"
-      ],
-      "edge": "تطبيق متخصص باللغة العربية يركز على 'حالة صحية مزمنة واحدة محددة' (مثل السكري أو الصداع النصفي) بدلاً من الأمراض المزمنة بشكل عام، مع تقديم تقارير تحليلية عميقة 'مدعومة بالذكاء الاصطناعي' تكون قابلة للمشاركة بسهولة مع الأطباء.",
-      "monetization": "نموذج اشتراك شهري للميزات المتقدمة (تقارير AI أكثر تفصيلاً، تحليلات مخصصة، دعم فني)، أو بيع تقارير مفصلة كخدمة.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 18,
-      "firstStep": "اختيار حالة صحية مزمنة واحدة للتركيز عليها (مثلاً السكري)، وبناء واجهة المستخدم لتسجيل البيانات الأساسية (مستوى السكر، الأدوية، الوجبات)، ثم تخزينها بشكل آمن في Firebase Firestore."
-    },
-    {
-      "name": "HobbyLink Amman",
-      "pitch": "منصة لتبادل المهارات والهوايات في عمّان، تربط الأفراد الذين يرغبون في تعلم مهارات جديدة أو مشاركة خبراتهم في الحرف اليدوية والفنون والهوايات المحلية.",
-      "problem": "يرغب الكثيرون في تعلم مهارات جديدة أو مشاركة هواياتهم، ولكن يجدون صعوبة في العثور على مجتمعات محلية أو معلمين/متعلمين مناسبين خارج الأطر التقليدية.",
-      "audience": "سكان عمّان من جميع الأعمار المهتمين بتطوير مهاراتهم أو مشاركة هواياتهم، من الحرف اليدوية التقليدية إلى الفنون الحديثة.",
-      "whyNow": "يتجه السوق نحو التطبيقات المتخصصة التي تخدم مجموعات معينة. يمكن للذكاء الاصطناعي أن يوصي بفرص تبادل المهارات المحلية ويطابق المستخدمين بناءً على الاهتمامات والتوافر. توفر Firebase ميزات تسجيل المستخدمين والدردشة وجدولة الأحداث/الجلسات، مما يسهل بناء منصة مجتمعية فعالة.",
-      "competition": "منخفضة",
-      "competitors": [
-        "Ostathi Jordan",
-        "Unihance",
-        "UJX (University of Jordan Platform)",
-        "DigiSkills",
-        "منصات التواصل الاجتماعي العامة (مثال: مجموعات فيسبوك)"
-      ],
-      "edge": "إنشاء منصة مخصصة 'لتبادل المهارات والهوايات المحلية' في عمّان، مع التركيز على 'الحرف اليدوية والفنون والهوايات المحلية' غير الرسمية، مما يسد فجوة بين التعليم المهني الرسمي ومنصات التواصل الاجتماعي العامة.",
-      "monetization": "رسوم على ورش العمل المدفوعة أو الأحداث المنظمة، ميزات مميزة للمستخدمين (مثل ترويج الملف الشخصي أو ورش العمل)، شراكات مع متاجر الحرف المحلية.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 17,
-      "firstStep": "بناء نظام ملفات تعريف المستخدمين مع القدرة على تحديد الهوايات والمهارات (التي يرغبون في تعلمها أو مشاركتها)، ثم تطبيق وظيفة البحث والمطابقة الأساسية باستخدام Firebase Firestore."
-    },
-    {
-      "name": "DeiraLink",
-      "pitch": "شبكة دعم مجتمعي hyperlocal لسكان أحياء عمّان، تسهل التواصل وتبادل المساعدة بين الجيران لمواضيع مثل المفقودات أو طلب المساعدة السريعة.",
-      "problem": "غالبًا ما يفتقر الأفراد إلى منصات فعالة للتواصل مع جيرانهم لأمور يومية ومحلية، مما يؤدي إلى عدم العثور على المفقودات أو صعوبة طلب مساعدة سريعة وموثوقة.",
-      "audience": "سكان الأحياء في عمّان الذين يبحثون عن روابط مجتمعية أقوى وتبادل المساعدة محلياً، مثل العائلات وكبار السن.",
-      "whyNow": "هناك طلب متزايد على تطبيقات المجتمعات المتخصصة Niche Community Apps. يمكن استخدام الذكاء الاصطناعي للإشراف على المحتوى واقتراح الروابط المحلية ذات الصلة، بينما توفر Firebase دعمًا قويًا للخلفية والتحديثات في الوقت الفعلي. يمكن البدء بميزة أساسية مثل 'مفقودات وموجودات' أو 'طلب مساعدة الجيران'.",
+      "name": "ArabiScan Budget",
+      "pitch": "مسح ذكي للإيصالات العربية وتصنيف النفقات تلقائيًا لإدارة ميزانيتك بسهولة.",
+      "problem": "تتبع النفقات يدويًا من الإيصالات المكتوبة باللغة العربية مرهق وعرضة للأخطاء، مما يجعل الالتزام بالميزانية الشخصية أمرًا صعبًا.",
+      "audience": "الأفراد والعائلات في الأردن والمنطقة الذين يديرون ميزانياتهم ويرغبون في تبسيط تتبع النفقات.",
+      "whyNow": "تطبيقات التمويل تشهد نموًا قويًا في الإيرادات بالمنطقة. يمكن لـ ML Kit GenAI التعرف على النصوص من الصور (OCR) و Firebase AI Logic تحليل وتصنيف البيانات، مما يحل مشكلة شائعة للمستخدمين العرب.",
       "competition": "متوسطة",
       "competitors": [
-        "Jiran (جيران)",
-        "Jari (جاري)",
-        "ShareNear: Neighbors & Family",
-        "Neighbr (مساعدة الجيران)",
-        "Ammanah"
+        "CashMate Jordan",
+        "Hello eSIM App",
+        "HomeExpenses"
       ],
-      "edge": "شبكة دعم مجتمعي 'شاملة ومتعددة الأوجه' تركز على التواصل وتبادل المساعدة بين الجيران في أحياء عمّان لمواضيع متنوعة مثل 'المفقودات' و'طلب المساعدة السريعة'، بالإضافة إلى الجوانب الاجتماعية الأخرى، مع تركيز hyperlocal حقيقي.",
-      "monetization": "إعلانات موجهة للشركات المحلية الصغيرة، ميزات مميزة للمجتمعات أو المجموعات الفرعية، رسوم رمزية على بعض أنواع طلبات المساعدة (إذا تم توسيعها لتشمل خدمات مدفوعة لاحقاً).",
+      "edge": "التركيز على مسح دقيق للإيصالات العربية وتصنيف ذكي تلقائي للنفقات، مع فهم السياق الأردني للإيصالات، مما يقلل الجهد اليدوي بشكل كبير ويتفوق على الحلول العامة أو اليدوية.",
+      "monetization": "اشتراك شهري/سنوي للميزات المتقدمة (تقارير مفصلة، مسح غير محدود، مزامنة سحابية، دعم عملات متعددة).",
       "buildDifficulty": "متوسط",
-      "buildDays": 16,
-      "firstStep": "بناء نظام تسجيل المستخدمين وتحديد الحي، ثم تنفيذ ميزة 'المفقودات والموجودات' الأساسية مع إمكانية نشر الصور والموقع."
+      "buildDays": 15,
+      "score": 8,
+      "firstStep": "تطوير نموذج أولي لمسح الإيصالات العربية الشائعة (مثل محلات البقالة) باستخدام ML Kit OCR وتصنيفها إلى فئات أساسية باستخدام Firebase AI Logic."
+    },
+    {
+      "name": "Baitak Helper (بيتك هيلبر)",
+      "pitch": "مساعد منزلي ذكي يستخدم الذكاء الاصطناعي لتشخيص مشاكل المنزل الشائعة وتوصيلك بالفنيين المحليين في عمّان.",
+      "problem": "صعوبة تشخيص الأعطال المنزلية البسيطة والعثور على فنيين موثوقين ومتاحين بسرعة في عمّان.",
+      "audience": "أصحاب المنازل والمستأجرون في عمّان الذين يحتاجون إلى مساعدة سريعة في الصيانة المنزلية.",
+      "whyNow": "فئة 'المنزل والأسرة' تشهد نموًا في التنزيلات. يمكن للذكاء الاصطناعي (على الجهاز لمعالجة الصور والوصف الصوتي) أن يساعد في التشخيص الأولي، و Firebase لتخزين قاعدة بيانات للفنيين المحليين وتقييمات المستخدمين، مما يسهل بناء MVP في وقت قصير.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "تقديم تشخيص أولي ذكي لمشاكل المنزل الشائعة وربط مباشر بفنيين موثوقين ومقيمين في عمّان، مما يوفر الوقت والجهد في البحث ويقدم حلاً متكاملاً في سوق غير مشبع.",
+      "monetization": "عمولة على الخدمات المحجوزة، اشتراكات مميزة للفنيين (لزيادة الظهور)، ميزات مدفوعة للمستخدمين (مثل ضمان الخدمة أو تتبع الصيانة).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 8,
+      "firstStep": "بناء قاعدة بيانات أولية للفنيين الموثوقين في عمّان (يمكن البدء يدويًا)، وتطوير واجهة بسيطة لتشخيص المشاكل الشائعة (مثل تسرب المياه) وتقديم توصيات أولية باستخدام Firebase AI Logic."
+    },
+    {
+      "name": "AmmanPulse",
+      "pitch": "مساعدك الذكي لاكتشاف وتلخيص الفعاليات المحلية في عمّان بناءً على اهتماماتك.",
+      "problem": "يجد المستخدمون صعوبة في اكتشاف وتتبع الفعاليات المحلية المتنوعة في عمّان، وغالبًا ما تفوتهم الأنشطة التي تهمهم بسبب نقص المعلومات المتاحة أو تشتتها.",
+      "audience": "سكان عمّان، الشباب، العائلات، السياح الذين يبحثون عن الأنشطة المحلية والفعاليات الثقافية والترفيهية.",
+      "whyNow": "فئة 'الفعاليات' تشهد صعودًا في التنزيلات. يمكن للذكاء الاصطناعي على الجهاز (Firebase AI Logic) تلخيص الفعاليات واقتراحها بخصوصية، مما يجعل اكتشاف الأحداث أكثر سهولة وتخصيصًا، ويتناسب مع جدول بناء من أسبوع إلى ثلاثة أسابيع.",
+      "competition": "عالية",
+      "competitors": [
+        "Eventure",
+        "Visit Amman",
+        "Aroundtown",
+        "Triplet Jo"
+      ],
+      "edge": "تلخيص ذكي للفعاليات واقتراحات مخصصة للغاية بناءً على اهتمامات المستخدم، مما يوفر الوقت ويضمن عدم تفويت الفعاليات الهامة، متجاوزًا مجرد عرض القوائم والتوصيات العامة للمنافسين.",
+      "monetization": "اشتراك مميز لميزات متقدمة (تنبيهات حصرية، بدون إعلانات)، شراكات مع منظمي الفعاليات، روابط تابعة لحجز التذاكر.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 6,
+      "firstStep": "تحديد مصادر بيانات للفعاليات في عمّان (مثل صفحات فيسبوك، مواقع أحداث)، وتطوير محرك AI بسيط لتلخيص الفعاليات واقتراحها بناءً على كلمات مفتاحية أو فئات اهتمام."
+    },
+    {
+      "name": "Taqweem الذكي (Smart Calendar)",
+      "pitch": "تقويم ذكي يعتمد على الذكاء الاصطناعي للتذكير بالفعاليات الثقافية والدينية والاجتماعية في الأردن مع تقديم تفاصيل سياقية.",
+      "problem": "صعوبة تتبع المواعيد الثقافية والدينية والاجتماعية الهامة في الأردن، وغالبًا ما ينسى المستخدمون التحضيرات أو التفاصيل المرتبطة بها.",
+      "audience": "العائلات والأفراد في الأردن والمنطقة المهتمون بالالتزام بالمناسبات الدينية والاجتماعية المحلية.",
+      "whyNow": "الذكاء الاصطناعي (Firebase AI Logic) قادر على تقديم تذكيرات سياقية ومخصصة بناءً على سلوك المستخدم وتفضيلاته، وهو ما يتناسب مع أهمية التقويمات الموسمية في منطقة الشرق الأوسط. يمكن بناء MVP أساسي في فترة وجيزة.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Eventure",
+        "Visit Amman",
+        "Triplet Jo",
+        "Eventbrite"
+      ],
+      "edge": "تقويم ذكي يركز على الفعاليات الثقافية والدينية والاجتماعية في الأردن بأكملها، مع تذكيرات سياقية وتفاصيل عميقة، مما يساعد المستخدمين على البقاء على اطلاع والتحضير للمناسبات بشكل لا يقدمه المنافسون بشكل متخصص.",
+      "monetization": "اشتراك مميز (تذكيرات مخصصة، محتوى حصري)، شراكات مع الجهات المنظمة للأحداث الدينية/الثقافية، إعلانات مستهدفة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 6,
+      "firstStep": "جمع بيانات عن الفعاليات الدينية والثقافية الرئيسية في الأردن، وبناء واجهة تقويم أساسية مع ميزة التذكير البسيط باستخدام Firebase AI Logic لتقديم سياق أساسي."
+    },
+    {
+      "name": "Amman Clinic Link",
+      "pitch": "ابحث عن العيادات المحلية في عمّان، تحقق من توافر الأطباء، واحجز المواعيد بسهولة بمساعدة الذكاء الاصطناعي.",
+      "problem": "يواجه المستخدمون صعوبة في العثور على العيادات والأطباء المتخصصين في عمّان وحجز المواعيد دون الحاجة إلى الاتصالات الهاتفية المتكررة.",
+      "audience": "سكان عمّان الباحثون عن خدمات الرعاية الصحية الأولية في عيادات متخصصة.",
+      "whyNow": "تطبيقات الصحة تشهد نموًا كبيرًا في دول الخليج العربي والمنطقة. يمكن للذكاء الاصطناعي تبسيط عملية البحث والحجز، مع استخدام Firebase لتخزين بيانات العيادات والأطباء وإدارة المواعيد بشكل آمن.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "توفير منصة مركزية للبحث عن العيادات والأطباء في عمّان، مع إمكانية التحقق من التوافر وحجز المواعيد، مما يقلل من عناء الاتصالات الهاتفية ويوفر حلاً شاملاً في سوق غير مشبع.",
+      "monetization": "عمولة على الحجوزات، اشتراكات للعيادات والأطباء (لزيادة الظهور والميزات)، ميزات مدفوعة للمستخدمين (مثل حفظ الأطباء المفضلين، سجل المواعيد).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 20,
+      "score": 5,
+      "firstStep": "بناء دليل للعيادات والأطباء في عمّان مع معلومات الاتصال الأساسية، وتطوير نظام طلب حجز مبدئي (يرسل طلبًا للعيادة عبر البريد الإلكتروني أو إشعار Firebase)."
     }
   ],
   "rejected": [
     {
-      "name": "Amman FinBot",
-      "reason": "تشبع السوق عالٍ جداً، والفجوة المقترحة (تحديد الاشتراكات المنسية تلقائياً بالذكاء الاصطناعي) تتطلب تكاملات معقدة مع البنوك أو آليات جمع بيانات حساسة، مما يجعلها صعبة التنفيذ لمطور واحد في 3 أسابيع، ومحفوفة بمخاطر أمنية وتنظيمية."
+      "name": "Naseej AI (نسيج الذكي)",
+      "reason": "طموح للغاية بالنسبة لمطور واحد في 3 أسابيع، خاصة ميزة 'العمل على الجهاز' و'السياق الأردني' التي تتطلب تدريبًا مكثفًا للنماذج. المنافسة عالية جدًا مع تطبيقات متطورة بالفعل يصعب التفوق عليها في هذا الإطار الزمني."
     },
     {
-      "name": "Wajed",
-      "reason": "الفجوة ضيقة جداً وغير واضحة، حيث يوجد منافس محلي مباشر (Ammanah) يقدم نفس الميزات تقريباً (مطابقة الصور بالذكاء الاصطناعي وتحديد المواقع للمفقودات والموجودات في عمّان). تحقيق تفوق واضح في 3 أسابيع صعب للغاية."
+      "name": "Amman Insights",
+      "reason": "التشبع عالي في تطبيقات الأدلة السياحية، والفجوة المقترحة 'رؤى محلية عميقة' تتطلب كمية هائلة من البيانات وتدريب AI معقد يصعب تحقيقه في 3 أسابيع. بناء مجتمع للمحتوى يحتاج وقتًا طويلاً."
     },
     {
-      "name": "KhidmaTask",
-      "reason": "بناء سوق للخدمات (marketplace) يتضمن نظام مطابقة، دردشة، وتقييمات، بالإضافة إلى دمج بوابات الدفع، هو مشروع معقد للغاية ويتجاوز قدرة مطور واحد في 3 أسابيع، حتى بالنسبة لنسخة أولية (MVP). كما أن طبيعة 'الخدمات الفورية' تضيف تحديات لوجستية."
+      "name": "Sawt Amman (صوت عمّان)",
+      "reason": "التشبع مرتفع للغاية مع منافسين أقوياء ومتطورين جدًا في نسخ الصوت العربي وتلخيصه. الفجوة المقترحة 'دقة اللهجة الأردنية' صعبة للغاية للتحقيق والتفوق بها في إطار زمني قصير وبموارد محدودة لمطور واحد."
     }
   ],
   "agent": {
@@ -128,11 +119,11 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "10 past ideas, 0 liked, 1 disliked"
+        "msg": "15 past ideas, 0 liked, 1 disliked"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: Amman FinBot, DeiraLink, SehaLog, Wajed, Tathkeer الذكي, KhidmaTask, Uswaty, HobbyLink Amman"
+        "msg": "8 candidates via gemini-2.5-flash: AmmanPulse, ArabiScan Budget, Naseej AI (نسيج الذكي), Amman Insights, Taqweem الذكي (Smart Calendar), Amman Clinic Link, Baitak Helper (بيتك هيلبر), Sawt Amman (صوت عمّان)"
       },
       {
         "step": "compete",
@@ -146,84 +137,84 @@
   },
   "sources": [
     {
-      "title": "bidease.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6aBZONk6QsI98u4Velprv-Vi-4Nt6UVuYKiL0q6PEjU8DwWjJffHsanei5TT8SvBNsk1eSTJFH03nm182MTUDM2vZyeHEL2Md-1EuMsA3uOVVHrcgDUcJUpj5l7gIrVqxHDJdk0PxVYdUpXEEVWjGPZSLLBpk6M02m6Q9IfKBE7iGAt1R"
+      "title": "sensortower.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzFvaNSbZe3i-vy0oUdWuZdSW8sht6egKdp16AZhX4I6FlWWwHBDUyaCIIdGelbVJx291eXBxWxqmgEgMDr4oiwzF86d2vevY8hfLVwvG1FnRyaDKyns8gLDjaFRvZ6Az2MddRjnm8ZM0GxEGNOnl_8SdL5RdPFFik52ZQA4p1xBUoTdXJV32zczlxRizm"
     },
     {
-      "title": "easysellapp.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTZrGSyuyb91RA4F4FC_R7JJLUUHco3eiM7hts3MrtpHKkdegwFsz_KPTs8M7LJ4H_aGvfSoXizdCLvtD77v0i-pthAO-ba0sKTSe0i6o2fMlm0z4PYnj5bFeq2qa7tjVDGGE2R8ua5L1THLy7jCq2hZmLT2spYDTEEDppS8iOxRsmii7jBq1XtxWGeCqOk-HbIg=="
+      "title": "bidease.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjWxvdTfS0rjK_dwQ5z1BeVHRGsDRwLjoMn6coIlDdWs0GhodGHa3Zi3LDSA0bXSM7glWy37g9UB79A_16wZzJy-dB-bYe_1v1Gp8Nbr1k6a1rkPPi3O5pZoDGlsBk9ZrV9vnZtIiN7CslyRScFtBorJ4qyPWYKEqc8kmsF5fismEiAJA="
     },
     {
       "title": "zartek.qa",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErQ4Pu9NYFYZ9CUt_85H8GYOiaRqag-tiXzO15vm51omifqxShz0QLbm6vvc7bksX7t20m5R-mUBdN8-xbMIF6JVBX5gJxc0VCadjTenKQEv1UQHmaPfpn2PTAEF6YurYE0gwcfAhZSuIjQSMYga4wZvcQ7au1RaAQ_orbXRtUCRGMBaYgKfBE"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFisBYQQ5x-A78TPpFpyqu8NIAkC3-cVJMWovRNIbqe32zA7G_KTlH6mCIxytvyZ5X8uGV0v0ioJeAOoJwU0UHmrizbIOcEDM5UBIgmRMlK-LzzmHlsQDZYQuHuvl3_i01-H1BkQBoyhaojWhvCFah2zTy7vQeLwQ5YOTvvlO3YfRdiHXFyrcc="
     },
     {
-      "title": "tybo.ae",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs_FPlfVbxKhV-dX-9ZhvjOkbEgbFeEsdxhQx-R-neibQmdE3JKMkHtdwFFm221QK58YtVEoLGY0miOear2ty3L2jTo622fWMjwNETzjZv2lXUUtQ20OclbIRdxlSDOdDuddA="
+      "title": "yeasitech.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp1WeJWn2NAcxOgtL3DI3OGlykMWNKtGktEdLuiqOAzUxFEifJdvSRSDP7OMQMM4azIwwsC0CyPMs8XdqYifO9Wf1gjjYooFhMxMHw81uz8EkwTI7ycM68RgydPT3W1VvfXomkjGmKtVWaoTIp1Z0oZMWTiZBS"
     },
     {
-      "title": "appinventiv.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo20vAfTnOl3CXFp8mAhIF7cvQCyVmKSjImBoljojn6wHM2cfVwDKX-zbrtuUXfGRWVEx4FwVY0CAjlb3GGuRWVKYtJTe_HxxMbkHH002qvqeK3LcFaZlxqo91CtY5fI4UfimKiBNZZVnEiXTZo2ygL38k9wudeKqf6Y7Ge0QjPUKk8MgSZrNAV_22Op7fRq0="
+      "title": "ucheed.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsKz9XTEweLoRDzVqpZ9-5kEkRhnlOui6q2D2XRW0OUsI1WDxUPyPmSoQHQiRh2llyFB3LE_jUekBjIP6P-y18GID0LqjyteBlg0ESSCXd9Vrf2If0sJhgcousP9tM92PUww_5mpoeTMq4mtEbv5wcFA5sYFQl2HC5aBoJ44KpY3Du2IZOzBAn"
     },
     {
-      "title": "pgsuae.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBM1dJYIfXNubsD1w9i9BZEUgM5qkp2boRtHWUfxIiumfYlxEnfVVe70HvC3I3J0OQQFO07FG8WwfB8yOGc44ATZIKZwtG2fC9aHSzrWBWsmrzFyuiYPrF6s_AUdqHaDV5YBrAcCyhTEwuRCJiiqJIaffZ45529dkEOWNy0tGQLybBcKJhuv2qzk9XQ5gwMq3bAWfjqh8CJ3hUet0="
+      "title": "sharpinnvotech.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOeG5aGH3tsIj5-c0Z1zt3EdcmYDN7W_jTaGtx9IcpuCafTOHcbPYSK9_YXROH1Lk_Oh9ql2JsmxBX2zeBpcJD0WTKpNXXHBRR9X1FgCC-sJi70Nu1LHWb3US7nBAia9EP0xGviclpRN03aG450KtnL2IMHjorinBdWwIB1HoOOs2dmWwfIpFN3MW2-ToscbItkGVVZnfFG5_NgwVJhGj91Vhp2xzfl5Auy4ISklixMf8fLoJO2Q=="
     },
     {
-      "title": "cynoteck.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVpVcojl2EPgqKFt9I_CV5-PCtEQSK8cm-abgM6cKG_f42ySjZXJuhRL8xKFPQv77PzWgGxGqCm6qFmba10OwhWq68JTVM8hMsoLLKnq531hojNMZO7QzeHc7oF6qAFQPIz8agA4fps3WGHvR_rcNArMVSh_OCpmbgNAInoWAJKTmCICYs5Nj42p_yeEJAB6EvGKqR94dMjkryPl4="
-    },
-    {
-      "title": "oseie.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFTkzPcCbmRfuGDpAQ6rzg2nJocIUcw1hJViA3FHZzLSaGYpZ9b6ctWcGrqm45c7_ehYNKktQstJ3cYFH5sj4s9qDYLKNCRagChG_lL_zJpkR4_eLRphnqguFOQWTHcDNEfhwVw8p9"
-    },
-    {
-      "title": "morso.app",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4cV39pJQhfGnlxn1XiOU1KhRaK2pqqibFOXEoCy4_6zfKwvMiR8omCwgThZ5vJX5Sf8GdhJHS5G-QSPXdEIvDVdy3LEJiZLL91HPKnXh7mwzxzldSfedm4qupyAlMWSmtTdjhIoQLzUI_BofF_0CD"
-    },
-    {
-      "title": "preuve.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8E9qqZ7Fyd5-yC1qptM5oCh6BINvwp-FtkiTyGTprKG8BN0OyVPkLiG8GOV3T2qQaPlRNhWfno4OZl1YGcHDICxrgVI3O7bRmJWoh5r67XjmXQslmGAftCpIlR_b5JxFH38wU9LyKw=="
-    },
-    {
-      "title": "catdoes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENxukrbxSYhNZgD_hIj1yTMq_wXFy_aBovD6ALBWgYgbHnG_GfPoQBfTv5NDAyuhthIVTj8SDJi13yoiU4rDAJD1LcdYX8Fk-0fiXcfF1H1vmrngaLjrHS8Ucjt84THrM2TiaTSlVUqZ0="
-    },
-    {
-      "title": "getjustgo.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuBVwIv8BkI0880n6RmCsdywb4hQeNhARX5ptJzxg96hc-jgDGWfHmjemqskzeVyaVwZs65XKtuk5p18UV00sGaE6QWKoEEB_BqVfQLcsIPSJHqQIxjnHPTFeQ-bw4k_1SIV1da5fa4CpV6yHy"
-    },
-    {
-      "title": "bolderapps.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1T7laBRq5BOUiokHKPxtCz6ciE4cqSAFT-YiRE9766SzWjZpYGY8o9s30E-IXFvSZw7e85BYUp2mR5K_qf4rxHIqHMejOV9cbl5kd7-2ytzDG6BCjIAdIAw8JdGnWX8-KQCZRu-FRyRnKNmwBrNgzasl80g0NW62lhAFXg0DzwBs="
-    },
-    {
-      "title": "releasebot.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg-DXPoWqnVDRrFIfSa8RRPekJ_ZPs6e_REgXECfV5U6zjHqq6U0yxMDc4lHx0x-6qNObeyhR1ELwqt4aYWO9BAChWl3WOpb7TiiUGPDs-tkF1xE2WHtbBsBnSGJ634wWkxUBo0RZCjw=="
-    },
-    {
-      "title": "google.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz4OUTZKsQC8JCJKsL-0X4yMCkv2eA9heR8-n-pbdlnmmWGpZ5_ualP43yOWlPKClWr5uwryINSMzgotaVbD9Wta5kvW3qa5EWwvPnCo9m7NZF5LA-o2FR2Gox5nUMw3ShbI_zbBLe"
+      "title": "firebase.blog",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7b8kbRtdgxvU5rBJw9NvXAhpyuOZsT7fS4N7QEaArMo0gKkg-fXFF-qD_6q67u5iM9_pd99UqrpMOEXaEz8Cj9P2N5naEL9BZH0v_OSeBjJ80tt8XnpQbMNk5UOTnOlb7jjhT5iqCrowVFB6TaEkyJmi9E8eJj1ehE1w="
     },
     {
       "title": "android.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL_DCDiPyjsDPSZE92CXVIBggP6u-m3b_NDlL8bCBjGuwdy-p-XFB3_wKdLts6vZ0xaBsBrZPIO5QjxUCNu13m0iGi_zNJZZlwpG6u5lfL3a0V47FMbwsQ_IkK5YUya-Dw8loRP8EIL6Eczg0zp3rrmxuBL9UPlR7MLhsehSdzFifwuInZwzy5bBfHlwL2GpZ6mdtZ6hoU2EQGX-NjF_S-jd7ymriuLsD9-Hf56OggchqVU0bI"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE34_TDn1838yjIYlrfrzpjX08Lw7lQ0vmSJvVEDToCrJ3U0H2xkarAJcVLQP1W3uNOvnaFbBft-2WJMlZo4bPazybQ5K0tFVG1AL5GaPaLhBm_qfe59dZwwl617U8aKX1Ei6uefnX4Brkm0RqCPxImPSH999jm5z0w_QmpT-4hONznkAD8pidHSk9o2q4kPKzEXcGbPZtvEJftzcs4shutxiAfWh7QAjHQlwjiO1flx4rgyys="
     },
     {
-      "title": "googleblog.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bplHjP_67aCn5IGak9LY-1Pjspd_UK6yHUasOuHXPw5nDPfqKkeoFtJVxKSp43Pcc4rmwuhFIgNLBDvqnM8qCMFebqCkDvVulySMr1d9dR3cHFWrV_1qwezRcUld4bilWky_CdHzfZbP3hCkcXNGdZvZZAQDwsSuq-mETJFqRnRgBHjK51BxILjBmyyEZNahwI7_OpafbwJ3rGY0HYQ8vv_PweJ7zA=="
+      "title": "oseie.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLd2NyJFBCL5JBMjyv0tZ1E0bi5eA4vgsKe13A1Bqi6VfTjtCILT9o9Cyd6Ot_7OrF63MaiVUnjGe6NaPA3lcQLL7tjePhREHHmwlTS9I4JSt6XypH-xAXwcYXs7hqW6zojFAZrkA="
+    },
+    {
+      "title": "substack.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFtcOOT8GgHaiSFsQek5ioILpe2sVTMBKgLdCcq-QIrp07HdecYT_aftf--sngoDxnsaBW_aecOFv5RclfKcNO3M6GlCXaMh_ki5cjjZ4inVAqtBQiT3LlzMkhUkmst2qnPZAyYA-M6uhZbewB7r1BhNuxXwN2yvfhuonMzSNt69KhnI0="
+    },
+    {
+      "title": "12thwonder.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2rEzGUXAsiEk9oDV8q7wfS_Ng4x5F3dArZnE6JpfXBe8a3Ya7JSBzGulH9FQP046o642e3t_2JtG0nSg94iXlcY4aSi5S1fnRme6GXjyRH6vz45g9tl-ZYy-Ek3lJqEAxjIwnB0YYQbDeFzrX1gBAW1yuOMLfErYZwWFjaElu2Afmoo5H9exCEJG1vg=="
+    },
+    {
+      "title": "promptquorum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-bya05VOROlVDYF6zJcBx9PFHBVy16WGizUEXSCcmuwCCwWJ3e5ZRYHoZrvtJgpdnvMHpIpiF74um_6T-szpudzN8mDXS3VIjuHflk3S2FSbpy_3YZRrUB94YrSU697kepA7g_aNDOAMg-qRI7U8Roz-8jLOgVYDvXTnXLn8YQ=="
+    },
+    {
+      "title": "firebase.blog",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlnGh2Oe1a39jSSkCYvFX7agzgwHh4d_HYKPjat4T811ka2ghUKj5Ff2a1ufN5RzkMB3DBegEL4gY7NBaCVXORF72tO1HY7RNGirIUSw4LYrnhLY-u2Ac5YuleVly9DEktW_xKW4PwzeSwgjtSvPdSjS_Zcxh2nrOmLFB3"
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsPFLgl4X3Dh5US8yZAbr59yANI0T4V42QSVnxTo36_IAVwBBWp_wn7KjdJ5Oi2of2Ub5kzJL1EtMlpkQHea5q8GGhR30b5Z8prEwNAYc6v_31dzVSMfHOz4OXUeZHiZetJzPRAd6KyYSQ1RW6ZC9VNgNxKe6wcDHS1mAVa54Q3QY9MSpAW-BQnK-smcF1RILKO1_0-DTChSZUzn8-E3DI0jg1g_rSNuNx8_zF1xQ="
+    },
+    {
+      "title": "io.google",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxKDpGDRVfDN3u4b4VnDzbLG4grquEeQONBZj0dZ5mLKtv-tQ6veT52V7FB7f2JI_XJ5oLEp5sUoot0UhPZ6qYBi9ApfYFtUzN9OBnzEMQCucVT4SerChvOwDfV96cG3-QBfh2PfQ="
     },
     {
       "title": "42matters.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu8HQywT_MMejiL55rku6tpeiCSqt8rofZbsrp_hc7adcf05hc1IUT5FwYzuHokOyPvtZyEqOax5KxyXtuLIPZWGwmUZjWvFhWSXCz6M_3CbnsC_ob5Zcd52btaZeL5vR3FYK_Qg7wQtVBaR3-Uf1ynFgDlGXFtQe2zBpUPtJd0SMX"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcMCjDLMrb22JqgokRkIugwxIw4ntXd5AS5_Rb_Fx1bSN3VrJrnbkBPMe8u5idXsRfitYotybbsCXoocdjqWXXiQoQ2snNwcXnsjeZhh5wcLwAHFnpElMEXNK0o6wivC1TqrbIMH60EQ9SGdZPUjgMcHxddLzmTI0tYi2TINhj79k="
     },
     {
-      "title": "appscrip.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3viwkYjlDt-JWhup3hbzYBM_ZJG703l7nwoFOIbPubM0Cmu2Bb5_wp_NlsTcnv424dkpUaLYB3L6EEav2WtNkBTAVVC97w3TURnkFnsubSGalf8C7oIdm_DFWyL5lZqpfMsvYrw=="
+      "title": "catdoes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK_QG417yT9t9kaR5dq2iX1yu3FEH_0fNyuyB4DG6WtiwNMOTL61VMVUX_c_VyFBpV3xdGZ9eh99fHiFfwkTl9h98jbKAz0zfdXLQxzEEF_4J-fwZN_-nNwk0lEhLQnGTL"
     },
     {
-      "title": "fridayaiclub.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS4BOw5Siyt70ZYRiYlyDTzKHhCUl3JnIZLaGXCaWjnkCA9OmPVbyTC-HV1XbNXBBOHdfbdkB9AeKuZB3ZBl6St1kt44LxO-ogL2d2vQWDtk-hB2Au1fXkv6Nb7Owvd2lgB_LWH5bxoqqMqT1fV_QTRK5IYOoJ3ZzOx97UcsbWdoUYrj4TCKFoE22UagjfRKJfhRE4JZCMgm-Xl_VJXWsN"
+      "title": "accio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdMO8Uf1920DISJCw9ejhEHKekaOVM1mn2XsV2V3655IdVh9VOIC60NIInIlqHWc7XSN8ncMRT0FMHUM9izcB--RxBqLKCai2iIcqiYmC1oIMk7Q3XZWrt0GkBt80cjvkCZFGTlkc360FVai2Y8BdFRcP_VzguB0E="
+    },
+    {
+      "title": "quora.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7wXCFqnBSZt7bGt120ikBgOs8698q1xgcWwwkpwkezDfVSf5hHIkwmlf7uocJ5GDJ3jZqy24gGZDR6pdf7vbEdYUMkmPpBQcWcO1_kHB94EpqSOtGJTPeFSOnFCDX0HMnXih17jYzwPSXOn65ymIMOKM6j-KXHWQgV9FoWTyZhPQetYSmBAJfJE_4_9t0eLLOviCZlbhlm6XoOvfEmk7aRKwOv92fbBt-ej9kk43fz9opGLbCcsvsMKDl6EOrFD3Mum36BwEZKK8PzcdXJQrJDiattuoFfHOMg6MmeuMVqGd0QJ_tLzC_7_6xORTyAOG0xgtQ1Np66c2WX5huDU8NAilxkj4W4eLxHPPzar2wE1kna-kU7TNW39N1FANBiILa7NY="
+    },
+    {
+      "title": "reddit.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzyEkmp6GSq6XZtxPs3lvaSD6VMtWf_bmJtVwtB7-5t-SjwDFYWLHRzZe2wIvMgaZtUVKLTGHdRTS-V9zF63h_z89ax-5y2i1YBIy3gNURFw3KY0u8mufr3G9ZsWEpPRWBam7p5wp9cww0jqH_Z2NvfS1D7eOS9nNTurDC2TXniSY0kM-DgufPkFOIxAEcc7yY9NY_zKF9n1-N"
     }
   ]
 }
