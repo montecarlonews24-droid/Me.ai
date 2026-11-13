@@ -6,7 +6,7 @@ import fs from 'fs';
 import path from 'path';
 
 const KEYS = (process.env.GEMINI_API_KEY || '').split(',').map(s => s.trim()).filter(Boolean);
-const MODELS = ['gemini-2.5-flash', 'gemini-4-hydrogen', 'gemini-2.0-flash'];
+const MODELS = ['gemini-2.5-flash', 'gemini-3.8-flash', 'gemini-4-hydrogen'];
 const DIR = path.join(process.cwd(), 'reports');
 const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Amman' });
 const trace = [];
@@ -24,6 +24,7 @@ function readJSON(file, fallback) {
 }
 
 function extractJSON(text) {
+  text = text.replace(/```json|```/g, '');
   const s = text.indexOf('{');
   const e = text.lastIndexOf('}');
   if (s < 0 || e < 0) throw new Error('no JSON in reply');
@@ -40,6 +41,7 @@ async function ask(prompt, { search = false } = {}) {
           contents: [{ role: 'user', parts: [{ text: prompt }] }],
           generationConfig: { temperature: search ? 0.9 : 0.4 }
         };
+        if (!search) body.generationConfig.responseMimeType = 'application/json';
         if (search) body.tools = [{ google_search: {} }];
         const r = await fetch(
           `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
@@ -56,7 +58,29 @@ async function ask(prompt, { search = false } = {}) {
         const sources = (cand?.groundingMetadata?.groundingChunks || [])
           .map(c => c.web).filter(Boolean)
           .map(w => ({ title: w.title, url: w.uri }));
-        return { json: extractJSON(text), sources, model };
+        let json;
+        try {
+          json = extractJSON(text);
+        } catch {
+          // الرد طلع كلام بدل JSON: منطلب من نفس الموديل يرتبه كـ JSON بدون بحث
+          if (!text.trim()) throw new Error('empty reply');
+          console.log(`  ~ ${model}: reply was not JSON, asking to reformat`);
+          const fix = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
+              body: JSON.stringify({
+                contents: [{ role: 'user', parts: [{ text: `Convert the answer below into ONLY a valid JSON object that follows the format requested in the original task. No markdown, no prose.\n\nORIGINAL TASK:\n${prompt}\n\nANSWER TO CONVERT:\n${text}` }] }],
+                generationConfig: { temperature: 0, responseMimeType: 'application/json' }
+              })
+            }
+          );
+          const fd = await fix.json();
+          if (!fix.ok) throw new Error(fd.error?.message || fix.status);
+          json = extractJSON((fd.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join(''));
+        }
+        return { json, sources, model };
       } catch (e) {
         lastErr = e.message;
         console.log(`  x ${model} key${i + 1}: ${e.message}`);
