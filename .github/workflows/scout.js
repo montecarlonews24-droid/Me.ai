@@ -201,9 +201,29 @@ Respond with ONLY JSON. Values in Arabic except app names:
   ],
   "rejected": [ { "name": "AppName", "reason": "ليش انرفضت" } ]
 }
+"score" and "buildDays" MUST be plain JSON numbers using Western digits 0-9 (e.g. 8 or 7.5), never text and never Arabic-Indic digits.
 Sort ideas by score, highest first.`);
   const final = s3.json;
   if (!Array.isArray(final.ideas) || !final.ideas.length) throw new Error('Judge returned no ideas');
+
+  // الأرقام لازم تكون أرقام عادية: بنحوّل ٨ أو "8/10" أو "8.5" لرقم
+  const toNum = v => {
+    if (typeof v === 'number') return v;
+    const s = String(v ?? '')
+      .replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))
+      .replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d))
+      .replace('٫', '.');
+    const m = s.match(/\d+(\.\d+)?/);
+    return m ? Number(m[0]) : 0;
+  };
+  final.ideas = final.ideas
+    .map(x => ({
+      ...x,
+      score: Math.max(0, Math.min(10, toNum(x.score ?? x.Score ?? x.rating))),
+      buildDays: toNum(x.buildDays)
+    }))
+    .sort((a, b) => b.score - a.score);
+  if (final.ideas.every(x => !x.score)) log('warn', 'all scores are 0, check judge output');
   log('judge', `kept ${final.ideas.length}, rejected ${(final.rejected || []).length} via ${s3.model}`);
 
   // ---------- Save ----------
