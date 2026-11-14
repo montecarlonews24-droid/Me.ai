@@ -1,212 +1,208 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T18:41:34.659Z",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T11:59:25.980Z",
   "model": "gemini-2.5-flash",
-  "summary": "يجب على Moe التركيز على الأفكار التي تستغل الذكاء الاصطناعي لسد فجوات واضحة في السوق العربي، مع إمكانية التنفيذ خلال 1-3 أسابيع من قبل مطور واحد. الأفكار المختارة تقدم حلولاً عملية لمشاكل حقيقية وتتميز بمسارات ربح واضحة.",
+  "summary": "يُظهر Moe تفضيلاً واضحًا للأفكار التي تستخدم الذكاء الاصطناعي لتبسيط وتوضيح المعلومات المعقدة باللغة العربية، خاصة في السياقات القانونية والحكومية. يجب أن تكون الأفكار قابلة للتنفيذ بواسطة مطور واحد في غضون 1-3 أسابيع ولها نموذج ربح واضح.",
   "trends": [
-    "الذكاء الاصطناعي لمعالجة اللغة العربية (NLP) في تطبيقات متخصصة",
-    "المنصات المجتمعية المحلية المدعومة بالذكاء الاصطناعي",
-    "تبسيط المعلومات المعقدة باستخدام الذكاء الاصطناعي",
-    "التوصيات الشخصية المدعومة بالذكاء الاصطناعي"
+    "التحول الرقمي للخدمات الحكومية والقانونية في الأردن",
+    "تزايد الحاجة لأدوات الذكاء الاصطناعي التي تعالج وتفهم اللغة العربية بفعالية",
+    "الطلب المتزايد على تبسيط المعلومات المتخصصة (قانونية، طبية، أكاديمية) للمستخدم العادي"
   ],
   "ideas": [
     {
-      "name": "Wadih (واضح)",
-      "pitch": "أداة ذكاء اصطناعي لتبسيط وتلخيص المستندات القانونية والعقود والوثائق الحكومية باللغة العربية بوضوح وسهولة.",
-      "problem": "يواجه الكثيرون صعوبة في فهم المستندات المعقدة والطويلة مثل السياسات القانونية أو العقود باللغة العربية.",
-      "audience": "الأفراد والشركات الصغيرة في الأردن والمنطقة العربية الذين يتعاملون مع مستندات قانونية أو حكومية ويحتاجون إلى فهم سريع ومبسط لمحتواها.",
-      "whyNow": "تطبيقات تبسيط المستندات المدعومة بالذكاء الاصطناعي هي فكرة شائعة وقابلة للبناء في غضون أسابيع. التركيز على اللغة العربية يملأ فجوة سوقية واضحة في منطقة الشرق الأوسط. Firebase AI Logic تدعم نماذج Gemini التي يمكنها التعامل مع تلخيص النصوص بشكل فعال.",
+      "name": "Hukoomati AI",
+      "pitch": "مساعد ذكاء اصطناعي لتبسيط وتوجيه المستخدمين عبر الإجراءات والوثائق الحكومية الأردنية المعقدة.",
+      "problem": "صعوبة فهم وإكمال المعاملات والوثائق الحكومية الأردنية بسبب التعقيد وصياغتها القانونية، مما يؤدي إلى إضاعة الوقت والجهد.",
+      "audience": "المواطنون والمقيمون في الأردن، خاصة أصحاب الأعمال الصغيرة والأفراد الذين يتعاملون بانتظام مع الجهات الحكومية.",
+      "whyNow": "مع دفع الأردن نحو التحول الرقمي للخدمات الحكومية وتزايد عدد الهويات الرقمية المفعلة، هناك حاجة ماسة لأداة تبسط هذه العمليات. تتيح Firebase AI Logic وGemini 4 Hydrogen بناء مساعد ذكاء اصطناعي يفهم اللغة العربية بوضوح ويقدم إرشادات خطوة بخطوة.",
       "competition": "متوسطة",
       "competitors": [
-        "LexArab",
-        "Qanu",
-        "Arabic.AI Document Summarizer"
+        "Sanad (سند)",
+        "Bikhedmatkom (بخدمتكم)",
+        "Jordan eGov SMS App"
       ],
-      "edge": "التركيز على تبسيط وتلخيص المستندات القانونية والعقود والوثائق الحكومية باللغة العربية تحديدًا، للمستخدم العادي غير المتخصص، مع الوضوح والسهولة كأولوية قصوى. المنافسون إما أدوات عامة أو موجهة للمحامين.",
-      "monetization": "اشتراك شهري/سنوي للميزات المتقدمة (تلخيص غير محدود، شروحات للمصطلحات القانونية، دعم أنواع مستندات إضافية)، أو نموذج دفع لكل مستند.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 15,
-      "score": 9,
-      "firstStep": "بناء واجهة بسيطة لتحميل مستند نصي أو PDF، ودمج Firebase AI Logic مع نموذج Gemini لتلخيص وتبسيط المستندات القانونية الأساسية (مثل عقود الإيجار)."
-    },
-    {
-      "name": "Kalimat AI (كلمات ذكية)",
-      "pitch": "مساعد ذكاء اصطناعي للغة العربية يقدم مرادفات، تعريفات، وتعبيرات سياقية دقيقة، مع دعم للهجات المتنوعة.",
-      "problem": "يرغب المستخدمون في العثور على الكلمات والتعبيرات الصحيحة بسرعة، خاصة في لغة غنية ومتنوعة اللهجات مثل العربية.",
-      "audience": "الكتاب، الطلاب، متعلمي اللغة العربية، والناطقين بها الذين يرغبون في تحسين مفرداتهم ودقتهم اللغوية، أو فهم تعبيرات لهجات مختلفة.",
-      "whyNow": "هناك رغبة معبر عنها في تطبيق يساعد على إيجاد 'الكلمة التي تبحث عنها'. يتيح تطور الذكاء الاصطناعي ومعالجة اللغة الطبيعية، بالإضافة إلى دعم Firebase AI Logic لنماذج Gemini، بناء أداة لغوية متطورة وفعالة للغة العربية بلهجاتها.",
-      "competition": "متوسطة",
-      "competitors": [
-        "ChatGPT / Google Gemini",
-        "Google Translate / Microsoft Translator",
-        "المعاجم والقواميس العربية الرقمية"
-      ],
-      "edge": "مساعد ذكاء اصطناعي مخصص للغة العربية يركز بشكل خاص على الدقة السياقية في تقديم المرادفات والتعريفات والتعبيرات، مع دعم متقدم للهجات العربية المتنوعة، مما يتجاوز قدرات النماذج اللغوية العامة والقواميس التقليدية.",
-      "monetization": "نموذج فريميوم (عدد محدود من الاستعلامات مجانًا، ثم اشتراك شهري/سنوي للاستخدام غير المحدود والميزات المتقدمة مثل تحليل الأسلوب ودعم اللهجات المتعمق).",
-      "buildDifficulty": "سهل",
-      "buildDays": 10,
-      "score": 8.5,
-      "firstStep": "تطوير واجهة مستخدم بسيطة لإدخال الكلمات أو الجمل، ودمج Firebase AI Logic مع نموذج Gemini لتقديم مرادفات وتعريفات وتعبيرات سياقية للغة العربية الفصحى."
-    },
-    {
-      "name": "Maharat Amman (مهارات عمّان)",
-      "pitch": "منصة مجتمعية لتبادل المهارات والخدمات المحلية في عمّان، تستخدم الذكاء الاصطناعي لمطابقة الأفراد ذوي الاحتياجات مع أصحاب المهارات.",
-      "problem": "يصعب على الأفراد في المجتمع المحلي العثور على من يقدم خدمات معينة (مثل التدريس، التصليحات المنزلية البسيطة، الحرف اليدوية) أو تبادل المهارات.",
-      "audience": "سكان عمّان الذين يبحثون عن خدمات محلية، أو يرغبون في تقديم مهاراتهم للآخرين، أو المشاركة في أنشطة مجتمعية قائمة على المهارات.",
-      "whyNow": "تطبيقات السوق المجتمعية وفئات 'الإنتاجية' هي فرص قوية في عام 2026. يمكن للذكاء الاصطناعي أن يقوم بمطابقة فعالة بين المستخدمين بناءً على المهارات والموقع والتقييمات، مما يسهل بناء مثل هذه المنصة في إطار زمني قصير باستخدام Firebase.",
-      "competition": "منخفضة",
-      "competitors": [
-        "منصات العمل الحر المحلية/الإقليمية (مثل خمسات، مستقل)",
-        "مجموعات الفيسبوك المحلية ومنصات التواصل الاجتماعي"
-      ],
-      "edge": "منصة مجتمعية محلية متخصصة لعمّان فقط، تركز على تبادل المهارات والخدمات المحلية باستخدام الذكاء الاصطناعي للمطابقة الدقيقة، مما يوفر تجربة أكثر تنظيمًا وموثوقية من مجموعات التواصل الاجتماعي.",
-      "monetization": "عمولة على الخدمات المتبادلة، أو اشتراك مميز لمقدمي الخدمات (لزيادة الظهور)، أو ميزات إضافية للمستخدمين (مثل أدوات الجدولة).",
-      "buildDifficulty": "متوسط",
-      "buildDays": 20,
-      "score": 8,
-      "firstStep": "بناء ملفات تعريف أساسية للمستخدمين (مقدم خدمة/باحث عن خدمة)، مع إمكانية إدراج المهارات والخدمات المطلوبة، وتطبيق نظام بحث أولي يعتمد على الكلمات المفتاحية والموقع."
-    },
-    {
-      "name": "AmmanEvents AI (فعاليات عمّان الذكية)",
-      "pitch": "مُوصي فعاليات وأنشطة ثقافية واجتماعية في عمّان مدعوم بالذكاء الاصطناعي، يقدم توصيات مخصصة بناءً على تفضيلات المستخدم والتقويم المحلي.",
-      "problem": "يصعب على سكان عمّان العثور على الفعاليات والأنشطة التي تتناسب مع اهتماماتهم وجداولهم الزمنية، خاصة تلك ذات الطابع الثقافي أو المحلي.",
-      "audience": "سكان عمّان والسياح الذين يرغبون في اكتشاف الفعاليات المحلية، ورش العمل، المهرجانات، والمعارض بناءً على اهتماماتهم الشخصية.",
-      "whyNow": "فئة 'الفعاليات' هي إحدى الفئات الصاعدة في Google Play. يمكن للذكاء الاصطناعي توفير توصيات شديدة التخصيص. يوفر Firebase AI Logic أدوات قوية لتكامل نماذج الذكاء الاصطناعي لإنشاء نظام توصيات ذكي في وقت قصير.",
-      "competition": "متوسطة",
-      "competitors": [
-        "Visit Amman",
-        "Aroundtown",
-        "Friendture",
-        "أنطولوجي - الفعاليات الثقافية في عمّان"
-      ],
-      "edge": "تقديم توصيات فعاليات شخصية للغاية ومدعومة بالذكاء الاصطناعي لسكان عمّان، تتجاوز مجرد عرض الفعاليات المتاحة لتوقع اهتمامات المستخدم بناءً على سلوكه وتفضيلاته.",
-      "monetization": "اشتراك مميز لميزات متقدمة (تذكيرات مخصصة، إشعارات حصرية، حفظ الفعاليات)، شراكات مع منظمي الفعاليات، أو إعلانات موجهة.",
+      "edge": "التركيز على التبسيط والتوجيه التفاعلي خطوة بخطوة باستخدام الذكاء الاصطناعي، بدلاً من مجرد توفير الوصول للخدمات أو إدارة الشكاوى. يقدم تفسيرات شخصية ومباشرة للوثائق والإجراءات المعقدة.",
+      "monetization": "نموذج فريميوم (Freemium) مع اشتراك شهري أو سنوي للميزات المتقدمة مثل التحليل غير المحدود للوثائق، التوجيه المخصص لسيناريوهات معقدة، أو الوصول إلى قوالب وثائق حكومية جاهزة.",
       "buildDifficulty": "متوسط",
       "buildDays": 18,
-      "score": 7.5,
-      "firstStep": "إنشاء قاعدة بيانات أولية للفعاليات في عمّان (يمكن جمعها يدويًا من مصادر عامة)، وبناء واجهة لعرض هذه الفعاليات، ثم دمج Firebase AI Logic لتقديم توصيات أولية بناءً على اهتمامات المستخدم المعلنة."
+      "score": 9,
+      "firstStep": "جمع وتحليل عينة من الوثائق والإجراءات الحكومية الأردنية الأكثر شيوعًا وتحديد المصطلحات المعقدة فيها."
+    },
+    {
+      "name": "Aqari AI",
+      "pitch": "مساعد ذكاء اصطناعي لتوضيح وتبسيط العقود والوثائق العقارية الأردنية، مثل عقود الإيجار والبيع، للمشترين والبائعين والمستأجرين.",
+      "problem": "التعقيد والصياغة القانونية للوثائق العقارية في الأردن، مما يجعل من الصعب على الأفراد فهم حقوقهم وواجباتهم، ويزيد من مخاطر النزاعات.",
+      "audience": "الأفراد الذين يشترون أو يبيعون أو يؤجرون عقارات في الأردن، وأصحاب العقارات الصغيرة، والوكلاء العقاريون.",
+      "whyNow": "الطلب على التكنولوجيا القانونية في الشرق الأوسط يتزايد، وهناك نقص في البيانات القانونية العربية المتاحة للجمهور. هذا التطبيق يملأ فجوة واضحة في السوق الأردني من خلال تبسيط المعلومات القانونية العقارية باستخدام Gemini API وFirebase AI Logic.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "تخصص التطبيق في تبسيط الوثائق العقارية الأردنية تحديدًا، مما يوفر دقة وموثوقية عالية للمستخدمين المحليين. لا يوجد منافس مباشر يقدم خدمة تبسيط عقود الإيجار والبيع بالذكاء الاصطناعي في السوق الأردني.",
+      "monetization": "اشتراك شهري/سنوي للوصول غير المحدود لتحليل الوثائق، أو الدفع لكل وثيقة (Pay-per-document) مع خيارات حزم، أو ميزات إضافية مثل مقارنة البنود القانونية أو تنبيهات المخاطر.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 17,
+      "score": 9,
+      "firstStep": "جمع عينة من عقود الإيجار والبيع العقارية الشائعة في الأردن وتحديد البنود الأساسية والمعقدة فيها لتدريب النموذج الأولي."
+    },
+    {
+      "name": "Mustanadati",
+      "pitch": "تطبيق لإنشاء قوالب وثائق رسمية وشخصية باللغة العربية (مثل رسائل رسمية، طلبات، إقرارات) بمساعدة الذكاء الاصطناعي، مع خيارات تخصيص بسيطة.",
+      "problem": "صعوبة صياغة الوثائق الرسمية والشخصية باللغة العربية بشكل صحيح ومهني، وعدم توفر قوالب جاهزة تلبي الاحتياجات المحلية.",
+      "audience": "الأفراد والمهنيون وأصحاب الأعمال الصغيرة الذين يحتاجون إلى إنشاء وثائق عربية رسمية بشكل متكرر.",
+      "whyNow": "تماشيًا مع نجاح فكرة 'Wadih' التي تركز على تبسيط المستندات القانونية والحكومية، هذا التطبيق يوفر حلاً استباقياً لإنشاء هذه المستندات. يمكن استخدام Google AI Studio لتوليد الأكواد الأولية بسرعة ودمج Gemini لتوليد محتوى الوثائق.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "التركيز على إنشاء وثائق رسمية وشخصية باللغة العربية مع مراعاة السياق المحلي الأردني/العربي، بدلاً من مجرد قوالب عامة. استخدام الذكاء الاصطناعي لتخصيص المحتوى بشكل ديناميكي بناءً على مدخلات المستخدم.",
+      "monetization": "نموذج فريميوم (Freemium) حيث يمكن إنشاء عدد محدود من الوثائق مجانًا، واشتراك شهري/سنوي للوصول غير المحدود إلى جميع القوالب، وميزات التخصيص المتقدمة، وتوليد الوثائق الطويلة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 16,
+      "score": 8.5,
+      "firstStep": "تحديد قائمة بالوثائق الرسمية والشخصية الأكثر طلبًا في الأردن (مثل طلبات، إقرارات، رسائل رسمية) وتصميم قوالب أولية لها."
+    },
+    {
+      "name": "Waseet Al-Sharika",
+      "pitch": "مساعد ذكاء اصطناعي مبسط لرواد الأعمال وأصحاب الشركات الناشئة في الأردن، يقدم إرشادات حول تأسيس الشركات، المتطلبات القانونية، وتراخيص الأعمال باللغة العربية.",
+      "problem": "صعوبة فهم الإجراءات القانونية والإدارية المعقدة لتأسيس وإدارة الشركات في الأردن، مما يشكل عائقاً أمام رواد الأعمال.",
+      "audience": "رواد الأعمال، أصحاب الشركات الناشئة، وأصحاب المشاريع الصغيرة والمتوسطة في الأردن.",
+      "whyNow": "تهدف استراتيجية التحول الرقمي الأردنية 2026-2028 إلى تعزيز الاقتصاد الرقمي ودعم الشركات الناشئة والشركات الصغيرة والمتوسطة. هذا التطبيق يتماشى مع هذه الأهداف، ويستفيد من قدرات Gemini AI في تبسيط المعلومات القانونية والتنظيمية.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "توفير دليل شامل ومبسط ومخصص للإجراءات القانونية والإدارية لتأسيس الشركات في الأردن، مدعوم بالذكاء الاصطناعي، مما يقلل الحاجة إلى استشارات قانونية مكلفة في المراحل الأولية.",
+      "monetization": "اشتراك شهري/سنوي للوصول إلى أدلة تفصيلية خطوة بخطوة، قوالب وثائق قانونية جاهزة، وتحديثات مستمرة حول التغييرات في القوانين واللوائح.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 8,
+      "firstStep": "جمع المعلومات الأساسية حول أنواع الشركات في الأردن، متطلبات التسجيل، والتراخيص الشائعة، وتحديد المصطلحات القانونية التي تحتاج إلى تبسيط."
+    },
+    {
+      "name": "Sahhati AI",
+      "pitch": "تطبيق ذكاء اصطناعي يبسط المصطلحات والتقارير الطبية المعقدة إلى لغة عربية سهلة الفهم للمرضى وذويهم.",
+      "problem": "صعوبة فهم التقارير الطبية والوصفات والعلاجات بسبب المصطلحات العلمية والطبية المعقدة، مما يؤثر على التزام المرضى بالخطة العلاجية.",
+      "audience": "المرضى وذووهم في الأردن والمنطقة العربية، خاصة كبار السن أو الذين يجدون صعوبة في فهم المعلومات الطبية.",
+      "whyNow": "تطبيقات الصحة المتنقلة تشهد ازدهارًا في الشرق الأوسط، وتوقعات بنمو كبير في تطبيقات الرعاية الصحية عن بعد. دمج الذكاء الاصطناعي لتبسيط المعلومات الطبية يمكن أن يحسن مشاركة المرضى باستخدام Gemini Pro وFirebase AI Logic.",
+      "competition": "منخفضة",
+      "competitors": [],
+      "edge": "التركيز على تبسيط المصطلحات والتقارير الطبية المعقدة باللغة العربية، مما يملأ فجوة واضحة في السوق العربي حيث لا توجد تطبيقات متخصصة بهذا المستوى من التبسيط المدعوم بالذكاء الاصطناعي.",
+      "monetization": "نموذج فريميوم (Freemium) مع عدد محدود من التحليلات المجانية، واشتراك شهري/سنوي للتحليل غير المحدود، أو الوصول إلى مكتبة مصطلحات طبية مبسطة، أو ميزات إضافية مثل تتبع الأدوية.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 20,
+      "score": 7,
+      "firstStep": "جمع عينة من التقارير الطبية والوصفات الشائعة في الأردن وتحديد المصطلحات الطبية الأكثر تعقيدًا التي تحتاج إلى تبسيط."
     }
   ],
   "rejected": [
     {
-      "name": "LocalFinds AI (موجود هون)",
-      "reason": "يتطلب جمع كميات هائلة من بيانات المخزون من المتاجر المحلية وتحديثها باستمرار، وهو أمر يتجاوز قدرة مطور واحد في 3 أسابيع."
+      "name": "Durus AI",
+      "reason": "الفكرة جيدة وتستخدم الذكاء الاصطناعي للتبسيط، لكنها لا تتوافق بقوة مع اهتمامات Moe السابقة في تبسيط المستندات القانونية/الحكومية، وقد يكون سوق تطبيقات التعليم أكثر تشبعًا وتنافسية من النيشات القانونية المتخصصة."
     },
     {
-      "name": "Hekaya AI (حكايا ذكية)",
-      "reason": "السوق مشبع للغاية، والميزة التنافسية المقترحة (التصفية الذكية للمحتوى غير المرغوب فيه) تتطلب تحديات معقدة في معالجة اللغة الطبيعية والتحقق من المحتوى، وهو أمر صعب لمطور منفرد في فترة زمنية قصيرة."
+      "name": "Muwazanaati",
+      "reason": "تتعارض الفكرة مع اهتمام Moe السابق حيث رفض فكرة 'ArabiScan Budget' التي تندرج ضمن إدارة الميزانية والماليات الشخصية. على الرغم من اختلاف النهج، إلا أنها تقع في نفس المجال الذي أبدى Moe عدم اهتمام به."
     },
     {
-      "name": "Adabati AI (عادتي الذكية)",
-      "reason": "السوق مشبع للغاية، والميزة التنافسية المقترحة (التكيف العميق مع سلوك المستخدم وفهم الأسباب الجذرية للتراجع) تتطلب نماذج ذكاء اصطناعي متطورة للغاية وتدريبًا مكثفًا، وهو أمر معقد جدًا لمطور منفرد في 3 أسابيع."
-    },
-    {
-      "name": "Rihla Offline (رحلة بلا إنترنت)",
-      "reason": "يتطلب بناء دليل سفر يعمل بالكامل دون اتصال بالإنترنت (خرائط، نقاط اهتمام) بالإضافة إلى مساعد ذكاء اصطناعي يعمل على الجهاز، وهو أمر معقد للغاية ويتجاوز قدرة مطور واحد في 3 أسابيع."
+      "name": "Thiqati",
+      "reason": "الفكرة معقدة للغاية وتتجاوز قدرة مطور واحد في 3 أسابيع، خاصة فيما يتعلق بالمتطلبات الأمنية والامتثال للهوية الرقمية. كما أن هناك منافسة عالية من تطبيق 'سند' الحكومي الذي يقدم خدمات الهوية الرقمية، مما يقلل من الفجوة في السوق."
     }
   ],
   "en": {
-    "summary": "Moe should focus on ideas that leverage AI to fill clear gaps in the Arab market, with the potential for implementation within 1-3 weeks by a single developer. The selected ideas offer practical solutions to real problems and feature clear monetization paths.",
+    "summary": "Moe shows a clear preference for ideas that use AI to simplify and clarify complex information in Arabic, especially in legal and governmental contexts. The ideas should be implementable by a single developer within 1-3 weeks and have a clear monetization model.",
     "trends": [
-      "AI for Arabic Natural Language Processing (NLP) in specialized applications",
-      "AI-powered local community platforms",
-      "Simplifying complex information using AI",
-      "AI-powered personalized recommendations"
+      "Digital transformation of government and legal services in Jordan",
+      "Increasing need for AI tools that effectively process and understand Arabic",
+      "Growing demand for simplifying specialized information (legal, medical, academic) for the average user"
     ],
     "ideas": [
       {
-        "name": "Wadih (واضح)",
-        "pitch": "An AI tool to clearly and easily simplify and summarize legal documents, contracts, and government papers in Arabic.",
-        "problem": "Many people find it difficult to understand complex and lengthy documents such as legal policies or contracts in Arabic.",
-        "audience": "Individuals and small businesses in Jordan and the Arab region who deal with legal or government documents and need a quick, simplified understanding of their content.",
-        "whyNow": "AI-powered document simplification applications are a popular idea and can be built within weeks. Focusing on Arabic fills a clear market gap in the Middle East region. Firebase AI Logic supports Gemini models that can effectively handle text summarization.",
+        "name": "Hukoomati AI",
+        "pitch": "An AI assistant to simplify and guide users through complex Jordanian government procedures and documents.",
+        "problem": "Difficulty understanding and completing Jordanian government transactions and documents due to their complexity and legal phrasing, leading to wasted time and effort.",
+        "audience": "Citizens and residents in Jordan, especially small business owners and individuals who regularly deal with government entities.",
+        "whyNow": "With Jordan pushing towards digital transformation of government services and an increasing number of activated digital IDs, there is an urgent need for a tool that simplifies these processes. Firebase AI Logic and Gemini 4 Hydrogen enable building an AI assistant that clearly understands Arabic and provides step-by-step guidance.",
         "competition": "Medium",
         "competitors": [
-          "LexArab",
-          "Qanu",
-          "Arabic.AI Document Summarizer"
+          "Sanad (سند)",
+          "Bikhedmatkom (بخدمتكم)",
+          "Jordan eGov SMS App"
         ],
-        "edge": "Focusing specifically on simplifying and summarizing legal documents, contracts, and government papers in Arabic for the average non-specialized user, with clarity and ease as top priorities. Competitors are either general tools or aimed at lawyers.",
-        "monetization": "Monthly/annual subscription for advanced features (unlimited summarization, explanations of legal terms, support for additional document types), or a pay-per-document model.",
-        "buildDifficulty": "Medium",
-        "buildDays": 15,
-        "score": 9,
-        "firstStep": "Build a simple interface for uploading a text or PDF document, and integrate Firebase AI Logic with a Gemini model to summarize and simplify basic legal documents (e.g., rental agreements)."
-      },
-      {
-        "name": "Kalimat AI (كلمات ذكية)",
-        "pitch": "An AI assistant for the Arabic language that provides precise synonyms, definitions, and contextual expressions, with support for various dialects.",
-        "problem": "Users want to quickly find the correct words and expressions, especially in a rich and dialectally diverse language like Arabic.",
-        "audience": "Writers, students, Arabic language learners, and native speakers who want to improve their vocabulary and linguistic accuracy, or understand expressions from different dialects.",
-        "whyNow": "There is an expressed desire for an application that helps find 'the word you're looking for'. The evolution of AI and natural language processing, along with Firebase AI Logic's support for Gemini models, allows for building a sophisticated and effective linguistic tool for Arabic and its dialects.",
-        "competition": "Medium",
-        "competitors": [
-          "ChatGPT / Google Gemini",
-          "Google Translate / Microsoft Translator",
-          "المعاجم والقواميس العربية الرقمية"
-        ],
-        "edge": "A dedicated AI assistant for the Arabic language that specifically focuses on contextual accuracy in providing synonyms, definitions, and expressions, with advanced support for various Arabic dialects, surpassing the capabilities of general language models and traditional dictionaries.",
-        "monetization": "Freemium model (limited number of free queries, then a monthly/annual subscription for unlimited use and advanced features like style analysis and in-depth dialect support).",
-        "buildDifficulty": "Easy",
-        "buildDays": 10,
-        "score": 8.5,
-        "firstStep": "Develop a simple user interface for entering words or sentences, and integrate Firebase AI Logic with a Gemini model to provide synonyms, definitions, and contextual expressions for Modern Standard Arabic."
-      },
-      {
-        "name": "Maharat Amman (مهارات عمّان)",
-        "pitch": "A community platform for exchanging local skills and services in Amman, using AI to match individuals with needs to those with skills.",
-        "problem": "It is difficult for individuals in the local community to find those who offer specific services (such as tutoring, simple home repairs, handicrafts) or to exchange skills.",
-        "audience": "Amman residents looking for local services, or wishing to offer their skills to others, or participate in skill-based community activities.",
-        "whyNow": "Community marketplace applications and 'productivity' categories are strong opportunities in 2026. AI can effectively match users based on skills, location, and ratings, making it easier to build such a platform within a short timeframe using Firebase.",
-        "competition": "Low",
-        "competitors": [
-          "منصات العمل الحر المحلية/الإقليمية (مثل خمسات، مستقل)",
-          "مجموعات الفيسبوك المحلية ومنصات التواصل الاجتماعي"
-        ],
-        "edge": "A specialized local community platform for Amman only, focusing on the exchange of local skills and services using AI for precise matching, providing a more organized and reliable experience than social media groups.",
-        "monetization": "Commission on exchanged services, or a premium subscription for service providers (to increase visibility), or additional features for users (such as scheduling tools).",
-        "buildDifficulty": "Medium",
-        "buildDays": 20,
-        "score": 8,
-        "firstStep": "Build basic user profiles (service provider/service seeker), with the ability to list skills and required services, and implement an initial search system based on keywords and location."
-      },
-      {
-        "name": "AmmanEvents AI (فعاليات عمّان الذكية)",
-        "pitch": "An AI-powered recommender for cultural and social events and activities in Amman, offering personalized recommendations based on user preferences and the local calendar.",
-        "problem": "It is difficult for Amman residents to find events and activities that suit their interests and schedules, especially those with a cultural or local character.",
-        "audience": "Amman residents and tourists who want to discover local events, workshops, festivals, and exhibitions based on their personal interests.",
-        "whyNow": "The 'Events' category is one of the rising categories on Google Play. AI can provide highly personalized recommendations. Firebase AI Logic offers powerful tools for integrating AI models to create a smart recommendation system in a short time.",
-        "competition": "Medium",
-        "competitors": [
-          "Visit Amman",
-          "Aroundtown",
-          "Friendture",
-          "أنطولوجي - الفعاليات الثقافية في عمّان"
-        ],
-        "edge": "Providing highly personalized, AI-powered event recommendations for Amman residents, going beyond merely displaying available events to anticipate user interests based on their behavior and preferences.",
-        "monetization": "Premium subscription for advanced features (custom reminders, exclusive notifications, saving events), partnerships with event organizers, or targeted ads.",
+        "edge": "Focus on simplification and interactive step-by-step guidance using AI, rather than just providing access to services or managing complaints. It offers personalized and direct explanations for complex documents and procedures.",
+        "monetization": "Freemium model with a monthly or annual subscription for advanced features such as unlimited document analysis, personalized guidance for complex scenarios, or access to ready-made government document templates.",
         "buildDifficulty": "Medium",
         "buildDays": 18,
-        "score": 7.5,
-        "firstStep": "Create an initial database of events in Amman (can be manually collected from public sources), build an interface to display these events, then integrate Firebase AI Logic to provide initial recommendations based on declared user interests."
+        "score": 9,
+        "firstStep": "Collect and analyze a sample of the most common Jordanian government documents and procedures, and identify complex terms within them."
+      },
+      {
+        "name": "Aqari AI",
+        "pitch": "An AI assistant to clarify and simplify Jordanian real estate contracts and documents, such as lease and sale agreements, for buyers, sellers, and tenants.",
+        "problem": "The complexity and legal phrasing of real estate documents in Jordan, making it difficult for individuals to understand their rights and obligations, and increasing the risk of disputes.",
+        "audience": "Individuals buying, selling, or renting properties in Jordan, small property owners, and real estate agents.",
+        "whyNow": "The demand for legal technology in the Middle East is growing, and there is a lack of publicly available Arabic legal data. This application fills a clear gap in the Jordanian market by simplifying real estate legal information using Gemini API and Firebase AI Logic.",
+        "competition": "Low",
+        "competitors": [],
+        "edge": "The application specializes in simplifying Jordanian real estate documents specifically, providing high accuracy and reliability for local users. There is no direct competitor offering an AI-powered lease and sale contract simplification service in the Jordanian market.",
+        "monetization": "Monthly/annual subscription for unlimited access to document analysis, or pay-per-document with package options, or additional features such as comparing legal clauses or risk alerts.",
+        "buildDifficulty": "Medium",
+        "buildDays": 17,
+        "score": 9,
+        "firstStep": "Collect a sample of common real estate lease and sale contracts in Jordan and identify their essential and complex clauses to train the initial model."
+      },
+      {
+        "name": "Mustanadati",
+        "pitch": "An application for creating official and personal document templates in Arabic (e.g., official letters, requests, declarations) with the help of AI, offering simple customization options.",
+        "problem": "Difficulty drafting official and personal documents in Arabic correctly and professionally, and a lack of ready-made templates that meet local needs.",
+        "audience": "Individuals, professionals, and small business owners who frequently need to create official Arabic documents.",
+        "whyNow": "In line with the success of the 'Wadih' idea, which focuses on simplifying legal and government documents, this application provides a proactive solution for creating these documents. Google AI Studio can be used to quickly generate initial code and integrate Gemini for document content generation.",
+        "competition": "Low",
+        "competitors": [],
+        "edge": "Focus on creating official and personal documents in Arabic, taking into account the local Jordanian/Arabic context, rather than just general templates. Using AI to dynamically customize content based on user input.",
+        "monetization": "Freemium model where a limited number of documents can be created for free, and a monthly/annual subscription for unlimited access to all templates, advanced customization features, and generation of long documents.",
+        "buildDifficulty": "Medium",
+        "buildDays": 16,
+        "score": 8.5,
+        "firstStep": "Identify a list of the most requested official and personal documents in Jordan (e.g., requests, declarations, official letters) and design initial templates for them."
+      },
+      {
+        "name": "Waseet Al-Sharika",
+        "pitch": "A simplified AI assistant for entrepreneurs and startup owners in Jordan, providing guidance on company formation, legal requirements, and business licenses in Arabic.",
+        "problem": "Difficulty understanding the complex legal and administrative procedures for establishing and managing companies in Jordan, which poses an obstacle for entrepreneurs.",
+        "audience": "Entrepreneurs, startup owners, and owners of small and medium-sized enterprises in Jordan.",
+        "whyNow": "Jordan's Digital Transformation Strategy 2026-2028 aims to boost the digital economy and support startups and SMEs. This application aligns with these goals and leverages Gemini AI's capabilities to simplify legal and regulatory information.",
+        "competition": "Low",
+        "competitors": [],
+        "edge": "Providing a comprehensive, simplified, and customized guide to legal and administrative procedures for company formation in Jordan, powered by AI, which reduces the need for costly legal consultations in the initial stages.",
+        "monetization": "Monthly/annual subscription for access to detailed step-by-step guides, ready-made legal document templates, and continuous updates on changes in laws and regulations.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 8,
+        "firstStep": "Collect basic information about company types in Jordan, registration requirements, and common licenses, and identify legal terms that need simplification."
+      },
+      {
+        "name": "Sahhati AI",
+        "pitch": "An AI application that simplifies complex medical terms and reports into easy-to-understand Arabic for patients and their families.",
+        "problem": "Difficulty understanding medical reports, prescriptions, and treatments due to complex scientific and medical terminology, which affects patient adherence to the treatment plan.",
+        "audience": "Patients and their families in Jordan and the Arab region, especially the elderly or those who find it difficult to understand medical information.",
+        "whyNow": "Mobile health applications are booming in the Middle East, with expectations of significant growth in telehealth applications. Integrating AI to simplify medical information can improve patient engagement using Gemini Pro and Firebase AI Logic.",
+        "competition": "Low",
+        "competitors": [],
+        "edge": "Focus on simplifying complex medical terms and reports in Arabic, which fills a clear gap in the Arab market where no specialized applications offer this level of AI-powered simplification.",
+        "monetization": "Freemium model with a limited number of free analyses, and a monthly/annual subscription for unlimited analysis, or access to a simplified medical terminology library, or additional features such as medication tracking.",
+        "buildDifficulty": "Medium",
+        "buildDays": 20,
+        "score": 7,
+        "firstStep": "Collect a sample of common medical reports and prescriptions in Jordan and identify the most complex medical terms that need simplification."
       }
     ],
     "rejected": [
       {
-        "name": "LocalFinds AI (موجود هون)",
-        "reason": "Requires collecting and constantly updating massive amounts of inventory data from local stores, which exceeds the capacity of a single developer in 3 weeks."
+        "name": "Durus AI",
+        "reason": "The idea is good and uses AI for simplification, but it does not strongly align with Moe's previous interests in simplifying legal/government documents, and the education app market might be more saturated and competitive than specialized legal niches."
       },
       {
-        "name": "Hekaya AI (حكايا ذكية)",
-        "reason": "The market is highly saturated, and the proposed competitive advantage (smart filtering of unwanted content) requires complex challenges in natural language processing and content verification, which is difficult for a single developer in a short timeframe."
+        "name": "Muwazanaati",
+        "reason": "The idea contradicts Moe's previous interest, as he rejected the 'ArabiScan Budget' idea, which falls under budget management and personal finance. Despite a different approach, it falls into the same domain that Moe showed no interest in."
       },
       {
-        "name": "Adabati AI (عادتي الذكية)",
-        "reason": "The market is highly saturated, and the proposed competitive advantage (deep adaptation to user behavior and understanding the root causes of decline) requires extremely sophisticated AI models and extensive training, which is very complex for a single developer in 3 weeks."
-      },
-      {
-        "name": "Rihla Offline (رحلة بلا إنترنت)",
-        "reason": "Requires building a fully offline travel guide (maps, points of interest) in addition to an on-device AI assistant, which is extremely complex and exceeds the capacity of a single developer in 3 weeks."
+        "name": "Thiqati",
+        "reason": "The idea is too complex and exceeds the capacity of a single developer in 3 weeks, especially regarding security requirements and digital identity compliance. Furthermore, there is high competition from the government 'Sanad' application, which offers digital identity services, reducing the market gap."
       }
     ]
   },
@@ -216,19 +212,19 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "20 past ideas, 0 liked, 2 disliked"
+        "msg": "24 past ideas, 1 liked, 5 disliked"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: LocalFinds AI (موجود هون), Hekaya AI (حكايا ذكية), AmmanEvents AI (فعاليات عمّان الذكية), Adabati AI (عادتي الذكية), Wadih (واضح), Rihla Offline (رحلة بلا إنترنت), Kalimat AI (كلمات ذكية), Maharat Amman (مهارات عمّان)"
+        "msg": "8 candidates via gemini-2.5-flash: Hukoomati AI, Aqari AI, Sahhati AI, Durus AI, Mustanadati, Muwazanaati, Thiqati, Waseet Al-Sharika"
       },
       {
         "step": "compete",
-        "msg": "checked 8 candidates via gemini-2.5-flash"
+        "msg": "checked 1 candidates via gemini-2.5-flash"
       },
       {
         "step": "judge",
-        "msg": "kept 4, rejected 4 via gemini-2.5-flash"
+        "msg": "kept 5, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -238,84 +234,84 @@
   },
   "sources": [
     {
-      "title": "rocketeams.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKgGxc8qBVMmv6M1rZjKVg_vkCFOov-EcgBeF5ApOLBfH26QCXnGJ3e6Z8p4CulZR9ltdCu0Zm7rXCtW-paJMPoUvkifDrFi_5EKVy4rN_zU6FUjTc3bBdTIMC-4MMvqAFtSWdGF-ndHvmp_3oSe71FbZMRK63y-L5Maxtgt6TuWrfqL8-"
+      "title": "arptech.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYFuzgNQZtPfClWU6o62hwvgCm0rljNcueZGi2R_1GkIO352sFvi5DjzTf5tkZLCloAmCl8nlohLIPw4DWyFaUA2fdLcoNHiLQVWSmSxvoN9Aw4cFFnVwNJa6YR_GvX4JeHQ56-7H87IQf_6sAB3bC4F28osQ20GaYNZb27cTNA3M="
     },
     {
-      "title": "akoode.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWYgox7EU3kRO6XDikPPoKY4vzKbpO_Kun3KrM6ZoJqDh2BcC9DtSKmkCFxr5QTkrd_PFMR5mwXTTjJg-eUnR-4YS_9aonIFrZiCILArsI45UxONqipMr7LTFTIDRKXGrWfzwT5z3VGdi3gtszrv9tn03dnw=="
+      "title": "ahex.co",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYf-qLQ96jdBqhLNKWbBGZxUJOnRzPtTioPo8rTXQFBrfB2Z0fmXQ43Weq4FyX98npPASQbFhb4UeQtyh63UxRM193FoHO1XxAqqWoKF7hcKOUU1wvK-9fDyfwCQYNiFFVwcwHPBER19AV"
     },
     {
-      "title": "unfoldlabs.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmeEG1NruqQNBvrtZzMz55osZomnByXon8Z3agDYUE4DfRcYqF3c9SP3V2lZl4eKZoL1SxV41xBC1y50qBBqJOcurUoJalDP6bgmx3-2Wdk0DdZTk__DXqAScRZ__7hs7HIFDGva4WRmFVNAkGolub3oRnBuu7duVAn2vuOIw5zIwId8qFFROx_3iyceor7SCI6nXP7R5foaTLwBq-jO2yacgV8w=="
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv7MFRemK6NfQvpRk43JKwxbpfNKe9yruB3lGxUQ09NW-pFusOaBWveyHLMwbEhUotHDBzAhZ-uysTgMphv2dk-8AXXf2yyhbUdtZI-BVKYCrqbue8cvbawl_gsjvVIeEFjn8IABHyIaqdHAU6d2CYPTw="
     },
     {
-      "title": "medium.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHupzjlbAHBVtI5Q_chx4EhbLVx-BSUArTxcGroOodqWbssfGflPgoh7MCjwjOcjU52JIcVTXWN_f662MpHmhScNB-OY97K8QyzHy7R-DpvKUPXPbkqqM__yOeCQ_cyWKLHCRclNVUqQqlLmNEohWYQe5nqJELGOFlF56_ERCA67cafx0gKei62j1YrNm0nWx8yPXAbZkkaKu3C94b6xUqJZ_b0M0KIsDbOgFUQ4A=="
-    },
-    {
-      "title": "adamistech.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO7cBFuytKA0NkOHjNluEvTd1rrK_Xez0638lqG8vZdo4Bf8VlcPC29CtiDfsd2MK-71NwB0SajUjGBvH6PQTBl-lKxCRaye4jmskBgFfwfDKFNbV1scIVTZPbEa9WDBkwnGwgvDt2v_GxMmVKi6JWopKWtUSALHwG"
-    },
-    {
-      "title": "techbuilder.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtBIw511CLg3ava3MyV4zFbETw8fnGO2yYbocPV3tKqxkxmJZ3u4OLEiCdX5VNi2YIoOPzAvvyfVuyo8PHNBtzdLtpt1hrqub5NlGFHy1SFFJiY7mb2k0oCzBRwu2JbheMtrhXkSNoRjo2YfRvPJMoNItlU1g8NDqVumFRnY6BmQ=="
-    },
-    {
-      "title": "galaxiumcoding.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5o9RsFtKQO6YL7paRIbCtOvJg6Rys_TAgl7wXDZTd7n58aGlwyKhsjtGKWJQQC8JNWB6V_JvJqwxuAkqp2Ffsf_oL5FH-mWhRD_g3d5oWH5gCZIO26aF_W-KXikOSvzYKDx0f0BO0Hd9Rp8PjAIBr25sf1crMhZEDnUWKh6bgxAhMASWhl9qze97Qr5WbhPGPaLzNPxYcbeg5mxwvpsU10zxXHE71XfYicxLfHs4w_O0-HDX2CUrOR1SAr7JaqSFA"
-    },
-    {
-      "title": "medium.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU81IT2sUgTvUSOArSDfR2YSoSjZItPr2G_6xcE_VybrJJ3a0NdkoyN405zqDh2MTbY8DwYO9xORkkwzhffBKKy9twXQnIq5bt8Z3V3uyj4Fa_S9REZaaB2Mk8A9UGGpzEYnFedhE4jDK2aUz54FmyLhFlocVhXArtQmx9iyDS-gSVNimUBtZiRgkKvNk5Uty_XMeXsTlwpcjo_O-yuFWCvBA="
-    },
-    {
-      "title": "sigosoft.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-FZ2xyGc-m4Udf8vQ2ori3Jx7hm5UvnnE83T64hXcOiZTfFmIT8g4UNNaZ-7N-DTNXajZhgnOszYcE92igyBhKcAceisLC7Ozyy_JF2IUeW_fabns-2hkpd0biaF6hIYKcsx4ts_kafhtiQtj6Hc="
+      "title": "blog.google",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKuhaRLLbHiXukBSU-wOZCKW9FFPY48wN04fkL471c8CDAR_KnmQEdLClNWHg3Q-7BVK3ZqlSJxiZV4y8IO7fkbL6GdpykAotHlbso3655etpvrbO-hU0qCK4ncqd7EtMpJrQ4AcAKwSegWK2CUoADRlHGNUKwm67a432J_j50yP5QikgKKkbHlQcrBaPP5cI-uD6KJBk="
     },
     {
       "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHuEUuZSQ7YS2670Uqhf0D5fEyixcCZBZ1C_xMLI2D7ixmTUYrAwReA_85FiU6yfxwKdQ7Kb9yLtW_vBhEVsZeXyT2K5tUf69JLi5YPO-eZJce8hs1c5WGS-fgB4nhm2e8za1XYTsGBeVImKuzbTx6GcSTzpdiMkgRYJ1D"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7Z0IKqRnMtLNBcy_Xhwjcj4pfH2rimTbCvko5m5TsQE_YxkyVGSfDOTcNgiZJBpxTwaY7T-AruB1YmU64_hFfeJtDbmnmMnY5YYa5ipY6iO6eQKQvAjroDhAtHuUGwAvHHJ_NBEUe6kTIbfmJzHL6nNtWJMP4DaspB1NY"
     },
     {
       "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6jK_HhT_ZeROQziqH_N1-MKS2uvbRmxz9iM6TYIOTBtYaNwrStnsiJviTNGP4jkreUQdKdHHO942prr4h8auyPWQ-UW5SFtHBo6CBjH2AXJFjuRpEzvF9km9z_GnqToqCsgy6kPQQNmUzWpYceg6Nt20U1bvs7tr1dXKAzQ=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxl-hVjLN35v2-HBBQdvJQ48NwL-AWs2tSiGxcOWZiiE5UwV7HidKebKZbeXL89DSzg7ukuXJOh7FnCk1aa-uXN1bK6LjFtTblA5-BJnEBdHMvEQvTOLT_2byryXj14_lzew6hYQBSO3jcfhWXaNJZ8OMQy2yfqhCG7BSbQQ=="
     },
     {
-      "title": "releasebot.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP02gUWKdkkNYl22VefahzXozT7wrN_aX9BM4vgBta8SAn4T37VBO1SGP8Im1iFdUYOAeYAXjR_vLEJVaRP1YNzjXK2qE3TEQHerLrZiTG_XBEPfM04vLWqHIc1A-MANRLa7P6GsDWXw=="
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUNyoCnwFZXP_WWPyOpIAvlSgn-Mfs5kr3F94CGR5x3DlOYMbSpDVDOriIOfO5UkBlhRjIy6ewdi5JbU8r842GPtpwqS0GTvWfrSUgHBSF4jZMxPwH8vzKDwrbt6_sFlPyklLf-Vh61jhlVU_xavS_"
     },
     {
-      "title": "ravirupareliya.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZnNX7iIReciYolJqDnnK_wrDMRIDa48TQKJsV1TyWXZjMlVSt-DbC2x12-c_ix53bpL5SqX0S724lPDrpAoBYglwB9VHm2vTxMO4zfby1byZ4Uiqv7jM9Npng08i5yrOB-PmIqkFYuaLjJsJBCr9r"
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy_aNxek6rccPQYs9bvgXYSs-Pv37h52E7RDJSKFs7w7SX_BJO5MzfJWplz9mLhXnuoTgI-HrqkTOSegB0PD7VjB8pQhnVw-4zVz8xXerhB3tssufiGSGpCWkvDvg5fgh6Yaq6ny2sRA1rt5iTIBnhgGNC"
     },
     {
-      "title": "google.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWqO8yEHKb_ZuoW15D9xo1fnMlhtzz8kLBWADXdalnADN9k3zai-5072j7OWovnfhpwLgAnzFgSZ14xh9-kIiB0SdV5a-zmh0JVA2yOgwAV_irEnNuNQ-ilRwmpirtekT-yEy8J_o"
+      "title": "haqq.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJP6Kj-Ubli2CTtS0R7cKKmiC5Wilr0kU1VLF8gCcPuYNuAaZDC6dHVoqDkGLGjW_deVPupUrmB2kaF6eW1yMpHVaW48aeXVxwPRdQTI-aILjkCxz0wi53Xe2B7Ej8cePGWk-X8CKg5I2I"
     },
     {
-      "title": "stackademic.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv4r59aOrP7xedL443Z3Eh30dL2WSeI5303ukbPM7EvdzGANkAMVSzrkCErn-iWV8AhFrowXuNPl5pjfl2kpHJ4xxkGo_7zf_2967mtZfHMBA8i5tYxoJ3so0VQz-lJDJVFJ3E9d-qaN0bNUkjGQbAS2t439JFJwBVKmMehiNZ8ACd__EMevnjXZSIzdCuwAQqHyqyC-UAQg=="
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRzYuwnWMmuzjnN5og734Hr14GmPpjdkN9W_0pcZ5eME4ucgRLjiwNt6xa5f8d3zUdCZmgYN9LOWpP6tcgrNiidTOXg6xydGpJISQj9Go2_4kKj5KaYniCKOtUHNfCEIfk4pSxFUM="
     },
     {
-      "title": "codeminerals.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVcuNCGokS6rKqruyM3wGxmRw9wp0VOvn4rbrMciRgcSeTVDQCsSDOuFmPn_gEXPhaYpibjtsxAxwft6VXzG2a1FDNhDcKghl0Ki0u0tyHGWGdR1_ngnNC8owV8c9tauponL3O91h__Nr-uj4gg-t-CN9d0iteTb6p92a5CbwM20bqJ521JFiJnIc31rwFgSiBrP23hT2jwy2xL84Toe0NowdoxA=="
+      "title": "dev.to",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsLei0S7veufJo9fjtEQr6xP0720juPeRy5Qb2Jn-nBDlwGInx2stj72bNUBnpy0zToZrYR_npMe57yjh243PrZhY8vmhbmfQxNzsa67JhdVD9EgDEKlvsgGBTcN5dh70vI6Cw_REpvu6g7Fjs3bBJi9geA7kucne0TmhAF030kE2ukSRQ-WEj0E2bCEa8DJ5X8TjCaw=="
     },
     {
-      "title": "bolderapps.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMgUHluwIVdBptkQpMm2HjtsIyjIK8sfBG8ZnJf8EA7KbDCUgxJU4gM7iof4LJdLywX5DX-34-KCE7euyyJ-auah6caCiGC3oGdNN4YicUqz_wRJacNBxB4iTD5aOqeX6CTrIuRNs16MHOY7CNeaDQfSqYfZ4vp1gaALgIlGcEpon909mKmw=="
+      "title": "legaltechevents.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH9b9Frb13zUR-4yPfzpytXDREXqs0ACD6MCqn-spN9RHm9H5lZdrFebPRrwXfv7idFhJgfmUvfgOHUgDIFL6tfh7iOtCz7z7QCvG_K1YClZWYLh-M4bk7ajYiTvAPbjd9cOp9m50uOdVitO4Ug-cKDbUu5v5Hc5ss2IRglE5Btj6MCnessKgnZbh8EqoU"
     },
     {
-      "title": "technotalkative.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHiYx7IreO0xj1IFT4QSyZcjdWpSsqQ1_QKntM0AYWFdGD7v3SE5evZLVEp_BOXJa6LdKf0wOpEwhy_naz-c098KpzmRLHTp1rpgZb0JrXsDfVuCxf8LHk-G72417ufmVBWC1XXKwDt--PZvcwgUDt1Wie5lZlZ74="
+      "title": "note.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTjIaGiVeisrQ4gKxuSbDO3yY495Do7a44s9PocteyoUt71fCWstgBEXPHwu_TGMJkeTMydMBui2NdLH7GPmr5LT1dcw4vdTbm0VprBYneqaXQfOsCHIuqBgERANiuwxnjKmKlRKI_KdDx"
     },
     {
-      "title": "reddit.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4pctgXXUr-sa_j_EDKXZiYC7HuffwHjEPMhbD0Zs6PNUv_mrp4r5iNn-6MUfYoSleU6ei_6DNEHF3K7_2CcFVgGApCbtJrUUV0GTAurK1sKQ7_9tK8vXitG3tXBbs9Jn_gJyLDQbkmNBUD5c9QVOrXg5S3nlLIsy7QkxvUjW2uViC_UuCWuN7sK0oPiB7Vd5GXdjH2FVRaWIUiA=="
+      "title": "unicoconnect.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDUHahN3vTUlu8ZIvEzAV9mv4_QKIq-XLWBNFefP2IBT1sLx4vsDllvLpPAs2eAWwOCopPRv1cthT2kwx-Se7t0qOhPLSBBDYXozrNOfJ0NAAa3hDrAmN6gJPPGbPfdqdRX1-cZqf9lu_Jo_8zTfO2WVe0xXcZ"
     },
     {
-      "title": "eurisko.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF006YOwHa35ddMAt_Tepw1qB8oERro5MEuj76cDKgpntOVbzOykNFFGDaBy9Vwnq0OpkLbq8_9tkXbGydCI5WFzQspdLysoTMM-nM6zRk__exJ7tnFE8ZOChMPOBh6mUa73e-Sv0Lcd4s0cMe_gH61CvC2vb5bz4WdjaUtx0RqcqSWj7KtlbMdk4E="
+      "title": "royanews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVNQYjDyfvK78YFXepqrJF6c-jHyuZuPICQYEViM9THnbpwG2LP3YXVxbxHL_CJU_q4zBSUcKFBJzULTxjO5yGKmWtSO5TYcalEBykK3kQWwVADrsxu5m7ZH-kq-U9DLaA8G-6kj4x6K3svJduPvyCEFHdEvRrQI04Uwi6k-IVH1Z6DrLSBXzz3-0prQ7S90lg7eYp1Q=="
+    },
+    {
+      "title": "googleblog.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3J_0Vkp3gmaLMj-sqLH1ky7X3FdogvzCrPdRPkwxfelCtIy5qICRaeoTZB1BulIpF3pG8_dWY4Psf5pVEWLvVE9QLGPIGelT6hPz5M6FANapPU705BkBi1MM5ZEqEHxhbFzoyKtOKdVG4Pl0RNxlhq4H0_otzmuq9PeNB9KU4N4UVoSB0c6pnbFC9aQif7ohzFONFpA=="
+    },
+    {
+      "title": "appbrain.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFafZSiTy9QK18J8Lu-05xpRwovgQXvLyy4KNT-VJsi39VaqUBZuvXKIsoX0aX-4C4B7nrcWR_sD4NobV2Reux1IuGGqqAmrG3HROgUp-0wvxM-dKXTtBMEU93NiVWqwdoCbqC7qzKSPl0Z7fFF2Bvwlm1EvSOg=="
+    },
+    {
+      "title": "law-middleeast.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEDQ-pW74Re99BFZEIXErDAatDmkTqWQnWy9V6C86T6EYhpOai2bjKCsyPnUUesGPDrbmXURZTFrowoll51yLNw3bZ_3731jTwTJtON9FliZe-1fu-V6qRcDRBUrtYfd0Dfrqq4Wtc8SnZZ3i2ug=="
+    },
+    {
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3DKY9oOqzYCHpJhbjyu0evFWDauKfshlJg41fFxX1ZTADrTRVkC4X5HNunjQJVWEh_MerJ11eWw1i0bICEEyJH9gucBlIHkNEhNTs9MIs12rIU78jdyDGiti8-rtir9e5eA=="
+    },
+    {
+      "title": "theaigringo.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkFT2y-Szdejs7NHIgyODu8Wy3EkYvgm-qCL_EsvGPAmHCrWbPo7zEMKNegs65CaBGTdZ0CDyeGCa1uha-fzWzVzOU626x2uVQMx94sCxuYEHAP1_pbZ7EJvgM1gilGmOz4OFTMZbV3qme3FmdstVGd3bF-mgP"
     }
   ]
 }
