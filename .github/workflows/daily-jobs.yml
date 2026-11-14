@@ -1,0 +1,37 @@
+name: Me.ai Daily Job Scout
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Find freelance work
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node .github/workflows/jobs.js
+
+      - name: Save report
+        run: |
+          git config user.name "Me.ai Scout"
+          git config user.email "actions@github.com"
+          git add reports
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily jobs $(date -u +%F)"
+          for i in 1 2 3; do
+            git pull --rebase -q && git push && exit 0
+            sleep 5
+          done
+          exit 1
