@@ -145,6 +145,26 @@ async function page(u) {
   }
 }
 
+// صفحات قوائم وبحث (مش مشروع واحد): بترمى فوراً
+const LISTING = /(\/job-search\/|\/jobs?\/?$|\/search|[?&](q|query|keywords?)=|\/freelance-jobs\/?$|\/category\/|\/tags?\/|\/careers?\/?$|\/courses?\/|\/sessions?\/|\/blog\/)/i;
+
+// لكل منصة: شكل رابط المشروع الحقيقي
+const PROJECT_SHAPE = [
+  [/freelancer\./, /\/projects\/[^/]+\/[^/]+/],
+  [/upwork\.com/, /\/(freelance-jobs\/apply|jobs)\/[^/]*~/],
+  [/mostaql\.com/, /\/project\/\d+/],
+  [/khamsat\.com/, /\/community\/requests\/\d+/],
+  [/reddit\.com/, /\/comments\/\w+/],
+  [/linkedin\.com/, /\/(posts|feed\/update|jobs\/view)\//]
+];
+function badShape(u) {
+  const raw = String(u);
+  if (LISTING.test(raw)) return 'listing/search page';
+  const h = host(raw);
+  for (const [site, shape] of PROJECT_SHAPE) if (site.test(h) && !shape.test(raw)) return `not a project page on ${h}`;
+  return '';
+}
+
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 
 // مواقع بتسكّر صفحاتها على البوتات: منقبل الرابط إذا شكله صفحة مشروع، والبحث وصل لنفس الموقع
@@ -233,6 +253,8 @@ Respond with ONLY JSON:
     const u = clean(l.url);
     if (!u || dupes.has(u) || seen.has(u)) continue;
     if (!/^https?:\/\//.test(u) || !deep(u)) { log('verify', `dropped (no page link): ${l.title}`); continue; }
+    const bad = badShape(l.url);
+    if (bad) { log('verify', `dropped (${bad}): ${l.title}`); continue; }
     // 1) الرابط طالع بنتائج البحث نفسها
     let ok = urls.has(u) || known.some(k => deep(k) && (k.startsWith(u) || u.startsWith(k)));
     let why = 'in search';
