@@ -26,9 +26,24 @@ function readJSON(file, fallback) {
 function extractJSON(text) {
   text = text.replace(/```json|```/g, '');
   const s = text.indexOf('{');
-  const e = text.lastIndexOf('}');
-  if (s < 0 || e < 0) throw new Error('no JSON in reply');
-  return JSON.parse(text.slice(s, e + 1));
+  if (s < 0) throw new Error('no JSON in reply');
+  const body = text.slice(s, text.lastIndexOf('}') + 1);
+  try { return JSON.parse(body); } catch (err) {
+    // تصليح: فواصل زيادة قبل } أو ]
+    const fixed = body.replace(/,\s*([}\]])/g, '$1');
+    try { return JSON.parse(fixed); } catch {}
+    // إنقاذ: إذا الرد انقطع بالنص، منخلي العناصر الكاملة ومنسكّر القائمة
+    const raw = text.slice(s);
+    for (let i = raw.lastIndexOf('}'); i > 0; i = raw.lastIndexOf('}', i - 1)) {
+      for (const tail of [']}', ']}]}', '}']) {
+        try {
+          const o = JSON.parse(raw.slice(0, i + 1) + tail);
+          if (o && typeof o === 'object') return o;
+        } catch {}
+      }
+    }
+    throw err;
+  }
 }
 
 // يسأل Gemini، ويلف على الموديلات والمفاتيح لحد ما ينجح
@@ -108,18 +123,23 @@ async function realUrl(u) {
   }
 }
 
-// بيفتح الرابط فعلياً ليتأكد إنه الصفحة موجودة
-async function alive(u) {
+// بيفتح الرابط فعلياً ليتأكد إنه الصفحة موجودة (بيرجع رقم الحالة، 0 إذا ما فتح)
+async function status(u) {
   try {
     const ctl = new AbortController();
     const t = setTimeout(() => ctl.abort(), 10000);
     const r = await fetch(u, { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36' } });
     clearTimeout(t);
-    return r.status >= 200 && r.status < 300;
+    return r.status;
   } catch {
-    return false;
+    return 0;
   }
 }
+
+const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+
+// مواقع بتسكّر صفحاتها على البوتات: منقبل الرابط إذا شكله صفحة مشروع، والبحث وصل لنفس الموقع
+const PROJECT_PAGE = /(upwork\.com\/(freelance-jobs\/apply|jobs)\/|linkedin\.com\/(posts|feed\/update|jobs\/view)\/|freelancer\.com\/projects\/|reddit\.com\/r\/\w+\/comments\/|mostaql\.com\/project\/|khamsat\.com\/community\/requests\/|contra\.com\/|wellfound\.com\/)/;
 
 // الرابط بدون domain فاضي (لازم يكون صفحة، مش موقع كامل)
 const deep = u => { try { return new URL(u).pathname.replace(/\/+$/, '').length > 1; } catch { return false; } };
@@ -146,40 +166,29 @@ const RULES = `REJECT a lead if ANY of these is true:
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 PREFER clients from the US, Europe, Gulf, Singapore, Japan, Australia (they usually pay more), and projects with few proposals.`;
 
-const MARKETS = [
-  {
-    id: 'arab',
-    label: 'Arab market',
-    query: `Arabic freelance platforms and posts: mostaql.com projects (مستقل: تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق), khamsat.com requests, Arabic projects on freelancer.com, and public LinkedIn posts like "مطلوب مطور تطبيقات" or "نبحث عن مبرمج تطبيق". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.`
-  },
-  {
-    id: 'west',
-    label: 'Remote: USA & Europe',
-    query: `Remote freelance or contract work from clients in the USA, UK, and Europe: Upwork jobs, freelancer.com projects, Reddit r/forhire and r/slavelabour "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "looking for someone to build an AI agent", Contra, Wellfound freelance gigs. Topics: Android app, convert website to app, AI agent, AI automation, Google Play publishing, Play Store rejection.`
-  },
-  {
-    id: 'east',
-    label: 'Remote: Far East & Australia',
-    query: `Remote freelance or contract work from clients in Singapore, Japan, Hong Kong, South Korea, Malaysia, and Australia: freelancer.com and Upwork projects, public LinkedIn posts, local freelance boards. Topics: Android app development, website to Android app, AI agent / AI automation, Google Play publishing.`
-  }
-];
+const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
+2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
+3) FAR EAST & AUSTRALIA remote (label "east"): clients in Singapore, Japan, Hong Kong, South Korea, Malaysia, Australia on freelancer.com, Upwork, LinkedIn.
+Topics for all: Android app, website to Android app, AI features in an app, AI agent / AI automation, Google Play publishing or rejection fix.`;
 
 (async () => {
   const index = readJSON(path.join(DIR, 'jobs-index.json'), { dates: [], seen: [] });
   const seen = new Set(index.seen.map(clean));
   log('memory', `${seen.size} leads seen before`);
 
-  // ---------- Step 1: Search each market ----------
-  const found = [];
+  // ---------- Step 1: One search across all 3 markets (عملية بحث وحدة توفيراً للـ quota) ----------
+  let found = [];
   const urls = new Map(); // رابط حقيقي -> عنوان
-  for (const m of MARKETS) {
-    try {
-      const r = await ask(`
-TODAY is ${today}. Use Google Search to find REAL, CURRENTLY OPEN freelance requests posted in the last 14 days.
-Market: ${m.query}
+  try {
+    const r = await ask(`
+TODAY is ${today}. Use Google Search to find REAL, CURRENTLY OPEN freelance PROJECTS posted in the last 14 days, where a client wants to hire a freelancer for a one-off project.
+NOT full-time jobs, NOT company vacancies, NOT salaries per year.
 
-Search several times with different keywords. Only include requests where a client is looking to HIRE someone for a project.
-For each, copy the exact page URL from your search results. Do not invent URLs.
+Search these 3 markets, several searches each, with different keywords:
+${MARKETS}
+
+Return up to 15 leads in total, mixed across the 3 markets. Copy each page URL exactly from your search results. Do not invent URLs.
+Keep every text field short (under 25 words) and do not use double quotes inside values.
 
 Respond with ONLY JSON:
 {
@@ -187,39 +196,44 @@ Respond with ONLY JSON:
     {
       "title": "project title as written",
       "url": "exact URL from search results",
+      "market": "arab or west or east",
       "platform": "Mostaql / Upwork / Freelancer / LinkedIn / Reddit / other",
       "country": "client country if known, else empty",
       "budget": "budget as written, else empty",
       "posted": "when it was posted, as written",
       "proposals": "number of proposals/bids if shown, else empty",
       "language": "ar or en",
-      "summary": "what the client wants, 1-2 sentences, in English"
+      "summary": "what the client wants, in English"
     }
   ]
 }`, { search: true });
-      const real = await Promise.all(r.sources.map(async s => ({ ...s, url: await realUrl(s.url) })));
-      real.forEach(s => urls.set(clean(s.url), s));
-      const leads = (r.json.leads || []).map(l => ({ ...l, market: m.id }));
-      found.push(...leads);
-      log('search', `${m.label}: ${leads.length} leads, ${real.length} sources via ${r.model}`);
-    } catch (e) {
-      log('search', `${m.label} failed: ${e.message}`);
-    }
+    const real = await Promise.all(r.sources.map(async s => ({ ...s, url: await realUrl(s.url) })));
+    real.forEach(s => urls.set(clean(s.url), s));
+    found = (r.json.leads || []).map(l => ({ ...l, market: ['arab', 'west', 'east'].includes(l.market) ? l.market : '' }));
+    log('search', `${found.length} leads, ${real.length} sources via ${r.model}`);
+  } catch (e) {
+    log('search', `failed: ${e.message}`);
   }
 
   // ---------- Step 2: Keep only real, new links ----------
   const known = [...urls.keys()];
+  const hosts = new Set(known.map(host));
   const checked = [];
   const dupes = new Set();
   for (const l of found) {
     const u = clean(l.url);
-    if (!u || dupes.has(u)) continue;
-    // الرابط لازم يكون طالع بنتائج البحث نفسها، أو على الأقل نفس الصفحة
-    if (seen.has(u)) continue;
+    if (!u || dupes.has(u) || seen.has(u)) continue;
     if (!/^https?:\/\//.test(u) || !deep(u)) { log('verify', `dropped (no page link): ${l.title}`); continue; }
-    // الرابط لازم يكون طالع بنتائج البحث نفسها، أو الصفحة تفتح فعلاً
-    const inSearch = urls.has(u) || known.some(k => deep(k) && (k.startsWith(u) || u.startsWith(k)));
-    if (!inSearch && !(await alive(l.url))) { log('verify', `dropped (link not verified): ${l.title}`); continue; }
+    // 1) الرابط طالع بنتائج البحث نفسها
+    let ok = urls.has(u) || known.some(k => deep(k) && (k.startsWith(u) || u.startsWith(k)));
+    let why = 'in search';
+    // 2) أو الصفحة بتفتح فعلاً
+    let st = 0;
+    if (!ok) { st = await status(l.url); ok = st >= 200 && st < 300; why = `opens (${st})`; }
+    // 3) أو موقع بيسكّر على البوتات، بس شكل الرابط صفحة مشروع والبحث وصل لنفس الموقع
+    if (!ok && st !== 404 && st !== 410 && PROJECT_PAGE.test(u) && hosts.has(host(u))) { ok = true; why = `project page on ${host(u)} (${st})`; }
+    if (!ok) { log('verify', `dropped (${st || 'no response'}): ${l.title}`); continue; }
+    log('verify', `kept [${why}]: ${l.title}`);
     dupes.add(u);
     checked.push(l);
   }
