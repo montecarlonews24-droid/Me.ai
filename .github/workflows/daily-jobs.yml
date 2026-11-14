@@ -2,7 +2,8 @@ name: Me.ai Daily Job Scout
 
 on:
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '30 5 * * *'    # 8:30 الصبح بعمّان
+    - cron: '30 14 * * *'   # 5:30 المسا بعمّان
   workflow_dispatch:
 
 permissions:

@@ -331,19 +331,31 @@ Respond with ONLY JSON:
     log('judge', `kept ${leads.length}, rejected ${rejected.length} via ${judgeModel}`);
   }
 
-  // إذا انشغّل مرتين بنفس اليوم وما لقى إشي جديد: منخلي فرص الصبح زي ما هي
+  // منحفظ كل اللي شفناه (المقبول والمرفوض) عشان ما يرجع يطلع
+  index.dates = [today, ...index.dates.filter(d => d !== today)].slice(0, 120);
+  index.seen = [...checked.map(l => clean(l.url)), ...index.seen].filter((v, i, a) => a.indexOf(v) === i).slice(0, 1500);
+  fs.writeFileSync(path.join(DIR, 'jobs-index.json'), JSON.stringify(index, null, 2));
+
+  // الجولة التانية بنفس اليوم: إذا ما في إشي جديد، منخلي تقرير الصبح زي ما هو (وما في إشعار)
   const prev = readJSON(path.join(DIR, `jobs-${today}.json`), null);
-  if (!leads.length && prev?.leads?.length) {
-    console.log('No new leads; keeping this morning\'s report.');
+  if (!leads.length && prev) {
+    console.log('No new leads this run; keeping the earlier report.');
     return;
   }
 
   if (!leads.length && !summary.en) {
     summary = {
-      ar: 'ما لقيت فرص جديدة بتناسبك اليوم. رح أدوّر مرة تانية بكرة.',
-      en: 'No new leads that fit you today. I will search again tomorrow.'
+      ar: 'ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.',
+      en: 'No new leads that fit you this run. I will search again.'
     };
   }
+
+  // الجديد فوق، وفرص الجولة اللي قبل تحته
+  const fresh = leads.map(l => ({ ...l, fresh: true }));
+  const older = (prev?.leads || []).map(l => ({ ...l, fresh: false }));
+  const urlsNew = new Set(fresh.map(l => clean(l.url)));
+  const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
+  const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 15);
 
   // ---------- Save ----------
   const report = {
@@ -351,17 +363,13 @@ Respond with ONLY JSON:
     generatedAt: new Date().toISOString(),
     model: judgeModel,
     summary,
-    leads,
-    rejected,
-    agent: { version: 1, found: found.length, verified: checked.length, steps: trace }
+    fresh: fresh.length,
+    leads: allLeads,
+    rejected: allRejected,
+    agent: { version: 2, found: found.length, verified: checked.length, steps: trace }
   };
   fs.writeFileSync(path.join(DIR, `jobs-${today}.json`), JSON.stringify(report, null, 2));
   fs.writeFileSync(path.join(DIR, 'jobs-latest.json'), JSON.stringify(report, null, 2));
-
-  index.dates = [today, ...index.dates.filter(d => d !== today)].slice(0, 120);
-  // منحفظ كل اللي شفناه (المقبول والمرفوض) عشان ما يرجع يطلع
-  index.seen = [...checked.map(l => clean(l.url)), ...index.seen].filter((v, i, a) => a.indexOf(v) === i).slice(0, 1500);
-  fs.writeFileSync(path.join(DIR, 'jobs-index.json'), JSON.stringify(index, null, 2));
 
   console.log(`OK ${today}: ${leads.map(l => `${l.title.slice(0, 40)}(${l.fit})`).join(' | ') || 'no leads'}`);
 })().catch(e => { console.error(e.message); process.exit(1); });
