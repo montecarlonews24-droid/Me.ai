@@ -123,16 +123,25 @@ async function realUrl(u) {
   }
 }
 
-// بيفتح الرابط فعلياً ليتأكد إنه الصفحة موجودة (بيرجع رقم الحالة، 0 إذا ما فتح)
-async function status(u) {
+// بيفتح الرابط فعلياً: بيرجع رقم الحالة ونص الصفحة (0 إذا ما فتح)
+async function page(u) {
   try {
     const ctl = new AbortController();
-    const t = setTimeout(() => ctl.abort(), 10000);
-    const r = await fetch(u, { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36' } });
+    const t = setTimeout(() => ctl.abort(), 12000);
+    const r = await fetch(u, { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', 'Accept-Language': 'en,ar' } });
     clearTimeout(t);
-    return r.status;
+    let text = '';
+    if (r.ok) {
+      const html = (await r.text()).slice(0, 400000);
+      text = html
+        .replace(/<(script|style|noscript|svg)[\s\S]*?<\/\1>/gi, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"')
+        .replace(/\s+/g, ' ').trim().slice(0, 1800);
+    }
+    return { st: r.status, text };
   } catch {
-    return 0;
+    return { st: 0, text: '' };
   }
 }
 
@@ -161,7 +170,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It requires iOS / App Store, Flutter, React Native, Swift, or working inside an existing large codebase.
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
-- It is not a real request from a client (articles, ads, lists of tips, freelancers advertising themselves, courses).
+- It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
 - It is outside what Moe can deliver (see profile).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 PREFER clients from the US, Europe, Gulf, Singapore, Japan, Australia (they usually pay more), and projects with few proposals.`;
@@ -228,8 +237,11 @@ Respond with ONLY JSON:
     let ok = urls.has(u) || known.some(k => deep(k) && (k.startsWith(u) || u.startsWith(k)));
     let why = 'in search';
     // 2) أو الصفحة بتفتح فعلاً
-    let st = 0;
-    if (!ok) { st = await status(l.url); ok = st >= 200 && st < 300; why = `opens (${st})`; }
+    // منقرأ الصفحة نفسها، عشان الحكم يشوف إذا هي فعلاً طلب شغل (مش كورس أو مقال)
+    const pg = await page(l.url);
+    const st = pg.st;
+    l.pageText = pg.text;
+    if (!ok) { ok = st >= 200 && st < 300; why = `opens (${st})`; }
     // 3) أو موقع بيسكّر على البوتات، بس شكل الرابط صفحة مشروع والبحث وصل لنفس الموقع
     if (!ok && st !== 404 && st !== 410 && PROJECT_PAGE.test(u) && hosts.has(host(u))) { ok = true; why = `project page on ${host(u)} (${st})`; }
     if (!ok) { log('verify', `dropped (${st || 'no response'}): ${l.title}`); continue; }
@@ -249,7 +261,9 @@ You are Moe's strict job agent. Below are freelance leads found today. Judge eac
 ${RULES}
 
 Leads:
-${JSON.stringify(checked.map((l, i) => ({ id: i, ...l })))}
+${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, pageText: l.pageText || '(page blocked, judge from title and summary only)' })))}
+
+IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it shows the page is NOT a client hiring a freelancer for a project (for example a course, a training session, a tutorial, an article, a product or SaaS page, a job board or list of vacancies, a company careers page, or a freelancer's own service), REJECT it, whatever its title says. If the page shows the project is closed or expired, REJECT it. Prefer budget, posted date and proposals count from pageText when present.
 
 For every KEPT lead (max 8, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
