@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T18:49:23.424Z",
+  "model": "",
+  "summary": {
+    "ar": "ما لقيت فرص جديدة بتناسبك اليوم. رح أدوّر مرة تانية بكرة.",
+    "en": "No new leads that fit you today. I will search again tomorrow."
+  },
+  "leads": [],
+  "rejected": [],
+  "agent": {
+    "version": 1,
+    "found": 4,
+    "verified": 0,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "0 leads seen before"
+      },
+      {
+        "step": "search",
+        "msg": "Arab market failed: All models failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+      },
+      {
+        "step": "search",
+        "msg": "Remote: USA & Europe: 1 leads, 1 sources via gemini-2.5-flash"
+      },
+      {
+        "step": "search",
+        "msg": "Remote: Far East & Australia: 3 leads, 3 sources via gemini-2.5-flash"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (link not verified): AI Automation Developer for Home Health Administrative Workflows"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (link not verified): Freelance / Remote AI Engineer (AI Agent & Office Developer)"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (link not verified): Android Developer(End clients => IBM, DBS bank)"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (link not verified): Android Developer (MQTT, 22-27K)"
+      },
+      {
+        "step": "verify",
+        "msg": "4 found, 0 real and new"
+      }
+    ]
+  }
+}
