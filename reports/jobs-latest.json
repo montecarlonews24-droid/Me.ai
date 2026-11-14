@@ -1,17 +1,103 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T18:49:23.424Z",
-  "model": "",
+  "generatedAt": "2026-11-14T19:11:37.233Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك اليوم. رح أدوّر مرة تانية بكرة.",
-    "en": "No new leads that fit you today. I will search again tomorrow."
+    "ar": "تم رفض معظم الفرص بسبب متطلبات iOS أو React Native أو الميزانيات المنخفضة جدًا. تم الاحتفاظ بفرصتين قويتين لبناء وكلاء ذكاء اصطناعي وروبوتات محادثة.",
+    "en": "Most leads were rejected due to iOS or React Native requirements, or extremely low budgets. Two strong opportunities for building AI agents and chatbots were kept."
   },
-  "leads": [],
-  "rejected": [],
+  "leads": [
+    {
+      "title": "Build an AI Agent That Turns Cricket Commentary Into Data",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGafrsPmxCbjCbtZGzqv_WbFXCB_l4BWI1DmeTy2mW8u89vF0hLolr78H4C88KuKxVvVlFrH29ckwss7am7T2k3dXmYA6VX21zjwZwhLvlcMtIxt2GO",
+      "platform": "AthlyticZ",
+      "market": "west",
+      "country": "",
+      "budget": "",
+      "posted": "2026-11-08",
+      "proposals": "",
+      "language": "en",
+      "summary": "Create an AI agent to convert cricket commentary into structured data.",
+      "fit": 9,
+      "why": {
+        "ar": "يتناسب هذا المشروع تمامًا مع خبرة Moe في بناء وكلاء الذكاء الاصطناعي، وهو ما يفعله في مشروعه الشخصي Me.ai. لا توجد متطلبات لـ iOS أو تقنيات لا يستطيع التعامل معها.",
+        "en": "This project aligns perfectly with Moe's expertise in building AI agents, as demonstrated by his personal project Me.ai. There are no iOS or unsupported tech requirements."
+      },
+      "watch": {
+        "ar": "يجب الانتباه إلى تفاصيل الميزانية المتوقعة وتعقيد تحليل تعليقات الكريكيت.",
+        "en": "Watch out for budget expectations and the complexity of parsing cricket commentary."
+      },
+      "proposal": "You're looking to build an AI agent that can intelligently parse cricket commentary and transform it into structured data. This is precisely the kind of AI automation I specialize in. I develop custom AI agents, like my personal daily AI research agent, Me.ai, which uses Gemini and web search to process information and extract insights without needing a server. I design and direct these projects, with AI tools assisting in code generation, ensuring efficient and smart solutions. I can deliver a robust agent tailored to identify key events, player statistics, and match dynamics from commentary.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific data points you aim to extract from the commentary and the desired output format?"
+    },
+    {
+      "title": "Develop a simple, smart, and user-friendly AI bot",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuLM1xGjWapJV0X5B8Yd448rg8FqSD-hI1FJasCI8UUC3ZZa2-sLv3omp4JLmTxlt0DevuItejhh-8GzmrvoPHxEbhEfJ7cVenpkJp60bWGyGyQHX6sV5YLu65V7_SpUDKl_sBAzh8Me60BEPslsYcqx0DXumBNESTsh2ldtZ7pcCoA3xrQKjZ99uuC-5hjKc=",
+      "platform": "Freelancer",
+      "market": "west",
+      "country": "",
+      "budget": "",
+      "posted": "2026-11-11",
+      "proposals": "",
+      "language": "en",
+      "summary": "Build a lightweight AI chatbot with a modern interface and natural language.",
+      "fit": 9,
+      "why": {
+        "ar": "يتطابق هذا المشروع تمامًا مع قدرات Moe في تطوير روبوتات الدردشة وميزات Gemini AI، بالإضافة إلى خبرته في بناء وكلاء الذكاء الاصطناعي. لا توجد متطلبات لـ iOS أو تقنيات لا يستطيع التعامل معها.",
+        "en": "This project perfectly matches Moe's capabilities in developing chatbots and Gemini AI features, as well as his experience building AI agents. There are no iOS or unsupported tech requirements."
+      },
+      "watch": {
+        "ar": "يجب التأكد من فهم العميل لما يعنيه بـ \"خفيف الوزن\" و \"واجهة حديثة\"، وما إذا كان يريد تطبيق أندرويد أم مجرد روبوت.",
+        "en": "Ensure clarity on the client's definition of \"lightweight\" and \"modern interface,\" and whether an Android app or just a bot is desired."
+      },
+      "proposal": "You're seeking a simple, smart, and user-friendly AI chatbot with a modern interface and natural language capabilities. This aligns perfectly with my expertise in building AI-powered applications and agents. I regularly integrate Gemini AI features for chat and smart search, and I've developed my own daily AI research agent, Me.ai, which demonstrates practical AI agent functionality. I handle the full development cycle – from design and planning to testing and publishing – using AI-assisted development to efficiently write the code. I can create a lightweight Android app for your AI bot, ensuring a smooth user experience.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat primary function or problem will this AI bot help users solve?"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Migrate Existing iOS/Android App",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjkYclAli_bKxh8lleO_nMNRKsrVMnERL9Hc4ZE5pSoRn8ildMwbBZt5ne7hoYwj4h-q4tJpYYWgXlLwedw--hqIaX7UzJ5NI1LAa6o3qDviGTmSzPhqX9m0fbn8P1RYXGYQ==",
+      "reason": {
+        "ar": "يتطلب المشروع تطوير iOS، وهو ما لا يستطيع Moe القيام به. كما أن الميزانية ($258) منخفضة جدًا بالنسبة لنطاق العمل المطلوب (ترحيل قاعدة بيانات وقواعد خادم وتطبيقات iOS/Android)، وهناك عدد كبير جدًا من المقترحات (106).",
+        "en": "The project requires iOS development, which Moe cannot do. The budget ($258) is also extremely low for the requested scope (database migration, server rules, iOS/Android apps), and there are too many proposals (106)."
+      }
+    },
+    {
+      "title": "React Native app developer(Freelance)",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoOH6k0XNpZuh8Q_Wvz2WNP9z0fuWGiYJnAfZIifM74htM0IsqVcGTfBK8hYRxfZNtdWXasxHoIVwfxPXoK24vhbKsB4JX7J-inTjn98AVKEvFGYZiWqC6bMD_vbqS-IIS_dbBkSeR2izxPQRASl3pw8hWyKtUYQhztUnV1pFrUUvUOVLCAtarNs7Ljl45Nwzxqd_zNz66yYQXl9Fngj86GAv_ClhD_oYwxH717Rb3vCLc9UKN7uIeXvjwpmfmXA1h",
+      "reason": {
+        "ar": "يتطلب المشروع مطور React Native وتطوير iOS، وكلاهما خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "The project requires a React Native developer and iOS development, both of which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Senior AWS Serverless Developer to build an AI agent platform",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEegQW7mr07mfNqCn0SvXtxpolW6ey0o-TCWAxiXwBG2obffZ_Ii576Yud2X2hsuR7gTyRu2MaZHNnBcHpfM4hPxB8pXq52zrBnRpNHD4SDwf2zRTlAxeVCMYZFokI69qXSXmUsA-VEjxgDSbRvrbYfoyEwwUG9sKE6sB_3-5m_kcSO6h3lAfyTQB3QZZI=",
+      "reason": {
+        "ar": "يشير العنوان إلى وظيفة \"Senior\" (كبير مطورين) ويتطلب خبرة في AWS Serverless و Kiro، وهو ما يتجاوز خبرة Moe في Firebase ويصنف كـ \"large backend\" (خلفية كبيرة) لا يستطيع التعامل معها.",
+        "en": "The title indicates a 'Senior' role and requires AWS Serverless and Kiro experience, which is beyond Moe's Firebase expertise and falls under 'large backends' he cannot handle."
+      }
+    },
+    {
+      "title": "Implement automation opportunities with AI Agents",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRQCYP5zgNxCNi4_DYh-uVhmdH8Vk4u1yp1s0rg_6V4YPhrky6ZMazm53gA7XR9Tat88dT-ASoSpfiUTl7nJYzT_DBponvcDYhnD3zfsWiMuZuHQuhGIGJJHLzP3X4VJjrEucqKBduHNGu40dFtge-eYk=",
+      "reason": {
+        "ar": "الميزانية القصوى ($300) منخفضة جدًا بالنسبة لنطاق العمل المطلوب (تحديد وتنفيذ حلول أتمتة وظيفية باستخدام وكلاء الذكاء الاصطناعي)، وهناك عدد كبير جدًا من المقترحات (131).",
+        "en": "The maximum budget ($300) is too low for the requested scope (identify and implement functional automation solutions using AI Agents), and there are too many proposals (131)."
+      }
+    },
+    {
+      "title": "Develop iOS and Android apps from existing website",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9atJVqGQYHV81WdZKOwTtjwR2EnkXCiiwm2DZcehlLpw1FwCEq_4ZyGXft9Q4yNHryy4kMX4MRpIjErFlhX2u4Uqax5VVzDxdibV1hho-_3TEZR8I3eRpQVUYd5UL-UrtyQKDDQN_f4yK0awjmyQH0QN00omgy1lZzyuH",
+      "reason": {
+        "ar": "يتطلب المشروع تطوير تطبيقات iOS، وهو ما لا يستطيع Moe القيام به.",
+        "en": "The project requires iOS app development, which Moe cannot do."
+      }
+    }
+  ],
   "agent": {
     "version": 1,
-    "found": 4,
-    "verified": 0,
+    "found": 15,
+    "verified": 7,
     "steps": [
       {
         "step": "memory",
@@ -19,35 +105,71 @@
       },
       {
         "step": "search",
-        "msg": "Arab market failed: All models failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
-      },
-      {
-        "step": "search",
-        "msg": "Remote: USA & Europe: 1 leads, 1 sources via gemini-2.5-flash"
-      },
-      {
-        "step": "search",
-        "msg": "Remote: Far East & Australia: 3 leads, 3 sources via gemini-2.5-flash"
+        "msg": "15 leads, 0 sources via gemini-2.5-flash"
       },
       {
         "step": "verify",
-        "msg": "dropped (link not verified): AI Automation Developer for Home Health Administrative Workflows"
+        "msg": "kept [opens (200)]: Build an AI Agent That Turns Cricket Commentary Into Data"
       },
       {
         "step": "verify",
-        "msg": "dropped (link not verified): Freelance / Remote AI Engineer (AI Agent & Office Developer)"
+        "msg": "dropped (404): Freelance - AI Specialist with Lead Sourcing Automation Experience - Remote"
       },
       {
         "step": "verify",
-        "msg": "dropped (link not verified): Android Developer(End clients => IBM, DBS bank)"
+        "msg": "kept [opens (200)]: Migrate Existing iOS/Android App"
       },
       {
         "step": "verify",
-        "msg": "dropped (link not verified): Android Developer (MQTT, 22-27K)"
+        "msg": "kept [opens (200)]: React Native app developer(Freelance)"
       },
       {
         "step": "verify",
-        "msg": "4 found, 0 real and new"
+        "msg": "kept [opens (200)]: Senior AWS Serverless Developer to build an AI agent platform"
+      },
+      {
+        "step": "verify",
+        "msg": "kept [opens (200)]: Implement automation opportunities with AI Agents"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (403): Android Developer Needed for Small Construction Estimation App Fix"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (404): AI Automation & AI Agent Expert | n8n Workflow Automation"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (403): Agentic AI SaaS Developer | AI Agent & WorkFlow Automation Fix"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (403): Android/iOS App Development"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (429): App Growth & Micro Influencer Marketer for Android App"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (404): Mobile App Developer Needed to Build a Social Discovery & Community Platform (iOS & Android)"
+      },
+      {
+        "step": "verify",
+        "msg": "kept [opens (200)]: Develop a simple, smart, and user-friendly AI bot"
+      },
+      {
+        "step": "verify",
+        "msg": "kept [opens (200)]: Develop iOS and Android apps from existing website"
+      },
+      {
+        "step": "verify",
+        "msg": "15 found, 7 real and new"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 2, rejected 5 via gemini-2.5-flash"
       }
     ]
   }
