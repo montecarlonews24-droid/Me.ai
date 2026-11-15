@@ -191,6 +191,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
+- For LinkedIn leads (platform LinkedIn): only title, company and location are known. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
 - The project text is not in English (for example Indonesian, Spanish, Hindi, Portuguese): Moe targets English-speaking clients in the USA, Europe, Far East and Australia.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
@@ -311,6 +312,51 @@ async function redditFeed() {
   return list;
 }
 
+// ---------- LinkedIn Job Alerts: بتوصل من Gmail تبع Moe عن طريق Firebase ----------
+// سكريبت Google Apps Script جوا Gmail بيقرأ إيميلات التنبيهات وبيرفع الوظائف لـ /linkedin
+const regionFromPlace = p => {
+  const t = String(p || '');
+  if (/united states|\b(usa|us)\b|, [A-Z]{2}\b|canada/i.test(t)) return 'west';
+  if (/united kingdom|\buk\b|england|london|european|germany|france|netherlands|ireland|spain|italy|portugal|sweden|norway|denmark|finland|poland|switzerland|austria|belgium|europe/i.test(t)) return 'west';
+  if (/singapore|australia|japan|hong kong|korea|taiwan|malaysia|new zealand/i.test(t)) return 'east';
+  return '';
+};
+async function linkedinFeed() {
+  const list = [];
+  try {
+    const r = await fetch(`${FIREBASE}/linkedin.json`);
+    if (!r.ok) { log('linkedin', `firebase HTTP ${r.status}`); return list; }
+    const d = (await r.json()) || {};
+    const now = Date.now() / 1000;
+    for (const [id, p] of Object.entries(d)) {
+      if (!p?.url || !p?.title) continue;
+      const age = now - (Number(p.created) || now);
+      if (age > 7 * 86400) {
+        fetch(`${FIREBASE}/linkedin/${encodeURIComponent(id)}.json`, { method: 'DELETE' }).catch(() => {});
+        continue;
+      }
+      if (age > 5 * 86400) continue;
+      const info = [p.title, p.company, p.location].filter(Boolean).join(' | ');
+      list.push({
+        title: String(p.title), url: p.url,
+        market: regionFromPlace(p.location), platform: 'LinkedIn',
+        country: String(p.location || ''), budget: '',
+        posted: ago(Number(p.created) || now), proposals: '',
+        language: 'en',
+        summary: [p.company, p.location].filter(Boolean).join(' · '),
+        pageText: `LinkedIn job alert (only title, company and location are known; the full post is behind LinkedIn login). ${info}`,
+        _t: Number(p.created) || 0
+      });
+    }
+    list.sort((a, b) => b._t - a._t);
+    list.forEach(l => delete l._t);
+    log('linkedin', `${list.length} jobs from Gmail alerts (last 5 days)`);
+  } catch (e) {
+    log('linkedin', e.message);
+  }
+  return list;
+}
+
 (async () => {
   const index = readJSON(path.join(DIR, 'jobs-index.json'), { dates: [], seen: [] });
   const seen = new Set(index.seen.map(clean));
@@ -365,6 +411,14 @@ async function redditFeed() {
     return true;
   }).slice(0, 12);
   rd.forEach(l => checked.push(l));
+  const li = (await linkedinFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 15);
+  li.forEach(l => checked.push(l));
+  log('verify', `${li.length} new LinkedIn jobs added`);
   log('verify', `${rd.length} new Reddit posts added`);
   log('verify', `${fl.length} new Freelancer projects added, ${checked.length} to judge`);
 
