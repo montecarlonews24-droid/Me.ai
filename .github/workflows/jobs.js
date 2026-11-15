@@ -214,6 +214,9 @@ const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : ''
 // عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east' };
 let skippedRegion = 0;
+let skippedSkill = 0;
+const RELEVANT = /android|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
+const OFF_TOPIC = /\b(logo|seo|content writ|copywrit|video edit|editor needed|marketing plan|social media|wordpress|shopify|data entry|translation|voice ?over|thumbnail|illustrat|branding|name creation)\b/i;
 
 async function freelancerFeed() {
   const out = new Map();
@@ -242,6 +245,9 @@ async function freelancerFeed() {
         const b = p.budget || {};
         const budget = b.minimum ? `${b.minimum}${b.maximum ? '-' + b.maximum : '+'} ${cur}${p.type === 'hourly' ? '/hr' : ''}` : '';
         const text = String(p.description || p.preview_description || '').replace(/\s+/g, ' ').trim();
+        // فلتر المهارات: بس مشاريع تطبيقات وAI، مش كتابة وتسويق ومونتاج
+        const skills = (p.jobs || []).map(j => j.name).join(', ');
+        if (!RELEVANT.test(`${p.title} ${skills}`) || OFF_TOPIC.test(p.title || '')) { skippedSkill++; continue; }
         out.set(p.id, {
           title: p.title || '',
           url: `https://www.freelancer.com/projects/${p.seo_url}`,
@@ -263,7 +269,7 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
-  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries or currencies)`);
+  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries or currencies, ${skippedSkill} skipped: not app/AI work)`);
   return list;
 }
 
