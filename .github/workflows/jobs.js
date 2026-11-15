@@ -191,6 +191,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
+- The project text is not in English (for example Indonesian, Spanish, Hindi, Portuguese): Moe targets English-speaking clients in the USA, Europe, Far East and Australia.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
@@ -210,13 +211,15 @@ const ago = sec => {
 const WEST = ['United States', 'Canada', 'United Kingdom', 'Ireland', 'Germany', 'France', 'Netherlands', 'Belgium', 'Luxembourg', 'Switzerland', 'Austria', 'Italy', 'Spain', 'Portugal', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Iceland', 'Poland', 'Czech Republic', 'Czechia', 'Estonia', 'Lithuania', 'Latvia', 'Slovenia', 'Malta', 'Cyprus', 'Greece'];
 const EAST = ['Singapore', 'Japan', 'Hong Kong', 'South Korea', 'Korea, Republic of', 'Taiwan', 'Malaysia', 'Australia', 'New Zealand'];
 const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : '';
+// عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
+const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east' };
 let skippedRegion = 0;
 
 async function freelancerFeed() {
   const out = new Map();
   for (const q of FL_QUERIES) {
     try {
-      const u = `https://www.freelancer.com/api/projects/0.1/projects/active/?query=${encodeURIComponent(q)}&limit=40&full_description=true&job_details=true&user_details=true&user_country_details=true&compact=true`;
+      const u = `https://www.freelancer.com/api/projects/0.1/projects/active/?query=${encodeURIComponent(q)}&limit=40&full_description=true&job_details=true&user_details=true&user_country_details=true`;
       const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', Accept: 'application/json' } });
       if (!r.ok) { log('freelancer', `${q}: HTTP ${r.status}`); continue; }
       const d = await r.json();
@@ -228,6 +231,9 @@ async function freelancerFeed() {
         const country = owner?.location?.country?.name || '';
         const region = regionOf(country);
         if (country && !region) { skippedRegion++; continue; }
+        const curCode = p.currency?.code || 'USD';
+        if (!(curCode in CUR_REGION)) { skippedRegion++; continue; }   // INR, IDR, PKR, ...
+        const guessedRegion = region || CUR_REGION[curCode];
         const age = Date.now() / 1000 - (p.time_submitted || 0);
         if (age > 5 * 86400) continue;                       // آخر 5 أيام بس
         const bids = p.bid_stats?.bid_count ?? 0;
@@ -239,7 +245,7 @@ async function freelancerFeed() {
         out.set(p.id, {
           title: p.title || '',
           url: `https://www.freelancer.com/projects/${p.seo_url}`,
-          market: region,
+          market: guessedRegion,
           platform: 'Freelancer',
           country,
           budget,
@@ -247,7 +253,8 @@ async function freelancerFeed() {
           proposals: String(bids),
           language: /[؀-ۿ]/.test(p.title + text) ? 'ar' : 'en',
           summary: text.slice(0, 220),
-          pageText: `${(p.jobs || []).map(j => j.name).join(', ')} | ${text}`.slice(0, 1800),
+          pageText: `${(p.jobs || []).map(j => j.name).join(', ')} | ${text}`.slice(0, 1000),
+          _bids: bids,
           _t: p.time_submitted || 0
         });
       }
@@ -255,8 +262,8 @@ async function freelancerFeed() {
       log('freelancer', `${q}: ${e.message}`);
     }
   }
-  const list = [...out.values()].sort((a, b) => b._t - a._t);
-  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries)`);
+  const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
+  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries or currencies)`);
   return list;
 }
 
@@ -264,9 +271,29 @@ async function freelancerFeed() {
 async function redditFeed() {
   const list = [];
   try {
-    const r = await fetch('https://www.reddit.com/r/forhire/new.json?limit=100', { headers: { 'User-Agent': 'MeAiJobScout/1.0 (personal job alerts)' } });
-    if (!r.ok) { log('reddit', `HTTP ${r.status}`); return list; }
-    const d = await r.json();
+    const UA = { 'User-Agent': 'MeAiJobScout/1.0 (personal job alerts)' };
+    let r = await fetch('https://www.reddit.com/r/forhire/new.json?limit=100', { headers: UA });
+    let d;
+    if (r.ok) d = await r.json();
+    else {
+      // JSON مسكّر؟ منجرّب الـ RSS
+      log('reddit', `json HTTP ${r.status}, trying RSS`);
+      r = await fetch('https://www.reddit.com/r/forhire/new/.rss?limit=100', { headers: UA });
+      if (!r.ok) { log('reddit', `rss HTTP ${r.status}`); return list; }
+      const xml = await r.text();
+      const strip = t => t.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/<[^>]+>/g, ' ');
+      d = { data: { children: [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => {
+        const e = m[1];
+        const get = tag => (e.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`)) || [])[1] || '';
+        const link = (e.match(/<link[^>]*href="([^"]+)"/) || [])[1] || '';
+        return { data: {
+          title: strip(get('title')).trim(),
+          selftext: strip(get('content')),
+          permalink: link.replace(/^https?:\/\/(www\.)?reddit\.com/, ''),
+          created_utc: Date.parse(get('updated') || get('published')) / 1000 || 0
+        } };
+      }) } };
+    }
     const KEY = /android|mobile app|\bapp\b|ai agent|chat ?bot|gemini|gpt|llm|automation|play store|google play|apk|kotlin|firebase/i;
     for (const c of d?.data?.children || []) {
       const p = c.data || {};
@@ -297,47 +324,7 @@ async function redditFeed() {
   // ---------- Step 1: Google search, جولتين: عربي وعالمي ----------
   let found = [];
   const urls = new Map(); // رابط حقيقي -> عنوان
-  const ROUNDS = [
-    { id: 'global', text: MARKETS.split('\n').slice(1).join('\n') }
-  ];
-  for (const round of ROUNDS) {
-    try {
-      const r = await ask(`
-TODAY is ${today}. Use Google Search to find REAL, CURRENTLY OPEN freelance PROJECTS posted in the last 14 days, where a client wants to hire a freelancer for a one-off project.
-NOT full-time jobs, NOT company vacancies, NOT salaries per year, NOT courses or articles.
-
-Search this market, several searches with different keywords:
-${round.text}
-
-Return up to 12 leads. Copy each page URL exactly from your search results. Do not invent URLs. Each URL must be ONE project or post, not a search or list page.
-Keep every text field short (under 25 words) and do not use double quotes inside values.
-
-Respond with ONLY JSON:
-{
-  "leads": [
-    {
-      "title": "project title as written",
-      "url": "exact URL from search results",
-      "market": "arab or west or east",
-      "platform": "Mostaql / Upwork / Freelancer / LinkedIn / Reddit / other",
-      "country": "client country if known, else empty",
-      "budget": "budget as written, else empty",
-      "posted": "when it was posted, as written",
-      "proposals": "number of proposals/bids if shown, else empty",
-      "language": "ar or en",
-      "summary": "what the client wants, in English"
-    }
-  ]
-}`, { search: true });
-      const real = await Promise.all(r.sources.map(async s => ({ ...s, url: await realUrl(s.url) })));
-      real.forEach(s => urls.set(clean(s.url), s));
-      const got = (r.json.leads || []).map(l => ({ ...l, market: ['arab', 'west', 'east'].includes(l.market) ? l.market : (round.id === 'arab' ? 'arab' : '') }));
-      found.push(...got);
-      log('search', `${round.id}: ${got.length} leads, ${real.length} sources via ${r.model}`);
-    } catch (e) {
-      log('search', `${round.id} failed: ${e.message}`);
-    }
-  }
+  // بحث Google انشال: ما كان يجيب روابط حقيقية، وكان يصرف من الـ quota
 
   // ---------- Step 2: Keep only real, new links ----------
   const known = [...urls.keys()];
@@ -374,8 +361,8 @@ Respond with ONLY JSON:
     if (seen.has(u) || dupes.has(u)) return false;
     dupes.add(u);
     return true;
-  }).slice(0, 22);
-  fl.forEach(l => { delete l._t; checked.push(l); });
+  }).slice(0, 40);
+  fl.forEach(l => { delete l._t; delete l._bids; checked.push(l); });
   const rd = (await redditFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
