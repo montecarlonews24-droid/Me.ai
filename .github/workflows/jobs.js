@@ -191,7 +191,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
-- For LinkedIn leads (platform LinkedIn): only title, company and location are known. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
+- For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
 - The project text is not in English (for example Indonesian, Spanish, Hindi, Portuguese): Moe targets English-speaking clients in the USA, Europe, Far East and Australia.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
@@ -336,7 +336,7 @@ async function linkedinFeed() {
         continue;
       }
       if (age > 5 * 86400) continue;
-      const info = [p.title, p.company, p.location].filter(Boolean).join(' | ');
+      const info = p.raw ? String(p.raw) : [p.title, p.company, p.location].filter(Boolean).join(' | ');
       list.push({
         title: String(p.title), url: p.url,
         market: regionFromPlace(p.location), platform: 'LinkedIn',
@@ -344,7 +344,7 @@ async function linkedinFeed() {
         posted: ago(Number(p.created) || now), proposals: '',
         language: 'en',
         summary: [p.company, p.location].filter(Boolean).join(' · '),
-        pageText: `LinkedIn job alert (only title, company and location are known; the full post is behind LinkedIn login). ${info}`,
+        pageText: `LinkedIn job alert. The full post is behind LinkedIn login; this is the text from the alert email, in no fixed order (job title, company, location): ${info}`,
         _t: Number(p.created) || 0
       });
     }
@@ -416,7 +416,7 @@ async function linkedinFeed() {
     if (seen.has(u) || dupes.has(u)) return false;
     dupes.add(u);
     return true;
-  }).slice(0, 15);
+  }).slice(0, 40);
   li.forEach(l => checked.push(l));
   log('verify', `${li.length} new LinkedIn jobs added`);
   log('verify', `${rd.length} new Reddit posts added`);
@@ -450,7 +450,7 @@ Respond with ONLY JSON:
   "summary_ar": "ملخص اليوم بجملة أو جملتين",
   "summary_en": "Today's summary in 1-2 sentences",
   "kept": [
-    { "id": 0, "fit": 8, "why_ar": "ليش بتناسب Moe", "why_en": "why it fits Moe", "watch_ar": "شو ينتبه له", "watch_en": "what to watch out for", "proposal": "..." }
+    { "id": 0, "title": "real job title (LinkedIn only, else omit)", "fit": 8, "why_ar": "ليش بتناسب Moe", "why_en": "why it fits Moe", "watch_ar": "شو ينتبه له", "watch_en": "what to watch out for", "proposal": "..." }
   ],
   "rejected": [ { "id": 1, "reason_ar": "سبب الرفض", "reason_en": "reason" } ]
 }
@@ -462,7 +462,7 @@ Respond with ONLY JSON:
       .map(k => {
         const l = checked[k.id];
         return {
-          title: l.title, url: l.url, platform: l.platform || '', market: l.market,
+          title: (l.platform === 'LinkedIn' && k.title && !/real job title/i.test(k.title)) ? String(k.title).slice(0, 200) : l.title, url: l.url, platform: l.platform || '', market: l.market,
           country: l.country || '', budget: l.budget || '', posted: l.posted || '',
           proposals: l.proposals || '', language: l.language === 'ar' ? 'ar' : 'en',
           summary: l.summary || '',
