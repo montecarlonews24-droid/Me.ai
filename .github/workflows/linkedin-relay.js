@@ -30,6 +30,9 @@ function run() {
       });
     });
     th.addLabel(label);
+    // بيطلع من صندوق الوارد: مقروء ومؤرشف، وبيضل محفوظ بـ All Mail
+    th.markRead();
+    th.moveToArchive();
   });
   console.log('LinkedIn emails: ' + threads.length + ', jobs sent: ' + sent);
 }
