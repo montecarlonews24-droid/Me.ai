@@ -1,10 +1,10 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T18:05:03.711Z",
-  "model": "",
+  "generatedAt": "2026-11-15T18:24:34.191Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "لم يتم العثور على فرص عمل مستقلة مناسبة اليوم. جميع العروض إما وظائف بدوام كامل، أو تتطلب تقنيات لا يستخدمها Moe، أو خارج نطاق خبرته.",
+    "en": "No suitable freelance leads were found today. All opportunities were either full-time positions, required technologies Moe doesn't use, or were outside his scope of expertise."
   },
   "fresh": 0,
   "leads": [
@@ -56,6 +56,142 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Video Call API Automation",
+      "url": "https://www.freelancer.com/projects/api-developmet/Video-Call-API-Automation",
+      "reason": {
+        "ar": "يتطلب هذا المشروع برمجة نصية على الخادم (PHP/Python/Node.js) وإدارة خادم Linux VPS، وهي خارج نطاق ما يمكن لـ Moe تقديمه (لا يقوم بتطوير الواجهات الخلفية الكبيرة أو إدارة الخوادم).",
+        "en": "This project requires server-side scripting (PHP/Python/Node.js) and Linux VPS management, which is outside Moe's delivery scope (he doesn't do large backends or DevOps/servers)."
+      }
+    },
+    {
+      "title": "AI-Powered Brand Intro Videos",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Powered-Brand-Intro-Videos",
+      "reason": {
+        "ar": "يتعلق هذا المشروع بإنتاج وتحرير الفيديو والرسوم المتحركة باستخدام أدوات الذكاء الاصطناعي، وليس تطوير تطبيقات Android أو وكلاء الذكاء الاصطناعي، وهو خارج خبرة Moe.",
+        "en": "This project is about video production, editing, and motion graphics using AI tools, not Android app development or AI agents, which is outside Moe's expertise."
+      }
+    },
+    {
+      "title": "Senior Android Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4483676257/",
+      "reason": {
+        "ar": "الوظيفة هي 'مهندس أندرويد أول' (Senior Android Engineer)، وهي وظيفة بدوام كامل وليست مشروعًا مستقلاً، كما أن لقب 'Senior' هو معيار للرفض.",
+        "en": "The job title 'Senior Android Engineer' indicates a full-time staff position, not a freelance project, and 'Senior' is a rejection keyword."
+      }
+    },
+    {
+      "title": "Senior Android Video Player Engineer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4488518840/",
+      "reason": {
+        "ar": "الوظيفة هي 'مهندس أول لمشغل فيديو أندرويد' (Senior Android Video Player Engineer)، وهي وظيفة بدوام كامل وليست مشروعًا مستقلاً، كما أن لقب 'Senior' هو معيار للرفض.",
+        "en": "The job title 'Senior Android Video Player Engineer' indicates a full-time staff position, not a freelance project, and 'Senior' is a rejection keyword."
+      }
+    },
+    {
+      "title": "Analyst",
+      "url": "https://www.linkedin.com/jobs/view/4489316550/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'محلل' (Analyst) لا يتناسب بوضوح مع ملف Moe الشخصي كمطور تطبيقات أندرويد أو وكيل ذكاء اصطناعي.",
+        "en": "The job title 'Analyst' does not clearly fit Moe's profile as an Android app developer or AI agent creator."
+      }
+    },
+    {
+      "title": "HireAlpha",
+      "url": "https://www.linkedin.com/jobs/view/4489881794/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'HireAlpha' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'HireAlpha' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "Senior Mobile Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4489577294/",
+      "reason": {
+        "ar": "الوظيفة هي 'مهندس محمول أول' (Senior Mobile Engineer)، وهي وظيفة بدوام كامل وليست مشروعًا مستقلاً، كما أن لقب 'Senior' هو معيار للرفض.",
+        "en": "The job title 'Senior Mobile Engineer' indicates a full-time staff position, not a freelance project, and 'Senior' is a rejection keyword."
+      }
+    },
+    {
+      "title": "Texas, United States",
+      "url": "https://www.linkedin.com/jobs/view/4489818963/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'تكساس، الولايات المتحدة' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'Texas, United States' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "HiredBuddy",
+      "url": "https://www.linkedin.com/jobs/view/4489855470/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'HiredBuddy' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'HiredBuddy' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "Suntek Corporations Inc",
+      "url": "https://www.linkedin.com/jobs/view/4490744824/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Suntek Corporations Inc' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'Suntek Corporations Inc' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "React Native Engineer at ShowYaRoll",
+      "url": "https://www.linkedin.com/jobs/view/4490782476/",
+      "reason": {
+        "ar": "يتطلب هذا المنصب 'مهندس React Native'، ولا يمكن لـ Moe العمل بمنصات React Native أو Flutter أو Swift.",
+        "en": "This position requires a 'React Native Engineer', and Moe cannot work with React Native, Flutter, or Swift codebases."
+      }
+    },
+    {
+      "title": "Snoonu",
+      "url": "https://www.linkedin.com/jobs/view/4473330789/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Snoonu' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'Snoonu' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "Rightangled",
+      "url": "https://www.linkedin.com/jobs/view/4482854798/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Rightangled' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'Rightangled' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "CreateFuture",
+      "url": "https://www.linkedin.com/jobs/view/4488526094/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'CreateFuture' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'CreateFuture' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "Etihad",
+      "url": "https://www.linkedin.com/jobs/view/4489333135/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Etihad' ليس مسمى وظيفيًا ولا يتناسب بوضوح مع ملف Moe الشخصي.",
+        "en": "The job title 'Etihad' is not a job title and does not clearly fit Moe's profile."
+      }
+    },
+    {
+      "title": "SENIOR ANDROID DEVELOPER (ADTECH SDKS)",
+      "url": "https://www.linkedin.com/jobs/view/4489816767/",
+      "reason": {
+        "ar": "الوظيفة هي 'مطور أندرويد أول' (SENIOR ANDROID DEVELOPER)، وهي وظيفة بدوام كامل وليست مشروعًا مستقلاً، كما أن لقب 'Senior' هو معيار للرفض.",
+        "en": "The job title 'SENIOR ANDROID DEVELOPER' indicates a full-time staff position, not a freelance project, and 'Senior' is a rejection keyword."
+      }
+    },
+    {
+      "title": "Fullstack Mobile Developer ( Kotlin, Java Backend)",
+      "url": "https://www.linkedin.com/jobs/view/4491098049/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'مطور موبايل Fullstack' يشير إلى دور وظيفي بدوام كامل، كما أن متطلب 'Java Backend' يتجاوز قدرات Moe في الواجهات الخلفية المحدودة بـ Firebase.",
+        "en": "The job title 'Fullstack Mobile Developer' implies a full-time staff role, and the 'Java Backend' requirement goes beyond Moe's specific Firebase backend capabilities and falls under 'large backends'."
+      }
+    },
     {
       "title": "Beginner level content writer needed, hiring freshers",
       "url": "https://www.freelancer.com/projects/blog-writing/Beginner-level-content-writer-needed-40819428",
@@ -159,148 +295,12 @@
         "ar": "المشروع يتطلب تصميم مخططات معمارية للمنازل، وهو خارج نطاق قدرات Moe.",
         "en": "The project requires architectural floor plan design, which is outside Moe's capabilities."
       }
-    },
-    {
-      "title": "Senior Engineer for RAG Support Assistant",
-      "url": "https://www.freelancer.com/projects/machine-learning/Senior-Engineer-for-RAG-Support",
-      "reason": {
-        "ar": "المشروع هو وظيفة بدوام كامل/موظف (مهندس أول، معدل بالساعة، للانضمام إلى وكالة) ويتطلب تقنيات غير مدعومة (React.js, Next.js, Python/Django/FastAPI, MySQL) وخلفية برمجية كبيرة.",
-        "en": "The project is a full-time/staff job (Senior Engineer, hourly rate, joining an agency for client work) and requires unsupported technologies (React.js, Next.js, Python/Django/FastAPI, MySQL) and a large backend."
-      }
-    },
-    {
-      "title": "Create Roblox Alien Catch Simulator",
-      "url": "https://www.freelancer.com/projects/roblox/Create-Roblox-Alien-Catch-Simulator",
-      "reason": {
-        "ar": "المشروع يتطلب تطوير لعبة معقدة (محاكي Roblox) باستخدام لغات ومنصات متخصصة (Roblox Studio, Lua)، وهو خارج نطاق قدرات Moe في الألعاب البسيطة.",
-        "en": "The project requires complex game development (Roblox simulator) using specialized platforms and languages (Roblox Studio, Lua), which is outside Moe's capabilities for simple casual games."
-      }
-    },
-    {
-      "title": "Android Developer for Innovative Mobile Apps",
-      "url": "https://www.freelancer.com/projects/android-app-development/Android-Developer-for-Innovative-Mobile",
-      "reason": {
-        "ar": "هذا ليس طلباً حقيقياً من عميل يبحث عن مستقل، بل هو مستقل يعلن عن خدماته.",
-        "en": "This is not a real request from a client hiring for a project; it's a freelancer advertising themselves."
-      }
-    },
-    {
-      "title": "Server-Side GTM, Stape, Magento 2 Tracking Specialist – Advanced GA4 & Meta CAPI",
-      "url": "https://www.freelancer.com/projects/magento/Server-Side-GTM-Stape-Magento",
-      "reason": {
-        "ar": "المشروع يتطلب متخصصاً في تتبع التجارة الإلكترونية المعقدة وتكوين Magento 2، وهو خارج نطاق قدرات Moe.",
-        "en": "The project requires a specialist in advanced e-commerce tracking and Magento 2 configuration, which is outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "DNS Verification Setup",
-      "url": "https://www.freelancer.com/projects/cloud-computing/DNS-Verification-Setup",
-      "reason": {
-        "ar": "المشروع يتطلب إدارة أنظمة (DNS، Google Workspace)، وهو خارج نطاق قدرات Moe.",
-        "en": "The project requires system administration (DNS, Google Workspace), which is outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Modern Brand Identity & Promo Designs",
-      "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Brand-Identity-Promo-Designs",
-      "reason": {
-        "ar": "المشروع يتطلب تصميم جرافيك وتصميم هوية العلامة التجارية، وهو خارج نطاق قدرات Moe.",
-        "en": "The project requires graphic design and brand identity design, which are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Long-Term GEO Reseller Partnership",
-      "url": "https://www.freelancer.com/projects/generative-engine-optimization/Long-Term-GEO-Reseller-Partnership",
-      "reason": {
-        "ar": "المشروع يتطلب خدمات تحسين محركات البحث (SEO) والتسويق باستخدام الذكاء الاصطناعي، وهو خارج نطاق قدرات Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي للاستخدام الداخلي.",
-        "en": "The project requires AI-assisted SEO and marketing services, which are outside Moe's capabilities in app development or internal AI agents."
-      }
-    },
-    {
-      "title": "Boost Cricket SEO Rankings",
-      "url": "https://www.freelancer.com/projects/google-analytics/Boost-Cricket-SEO-Rankings",
-      "reason": {
-        "ar": "المشروع يتطلب تحسين محركات البحث (SEO) والتسويق الرقمي، وهو خارج نطاق قدرات Moe.",
-        "en": "The project requires SEO and digital marketing, which are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Refer Web Dev Clients, Earn 50%",
-      "url": "https://www.freelancer.com/projects/web-development/Refer-Web-Dev-Clients-Earn",
-      "reason": {
-        "ar": "هذه ليست فرصة عمل حقيقية لمشروع تطوير تطبيقات، بل هي إعلان لمستقل آخر يبحث عن عملاء.",
-        "en": "This is not a real project request for app development; it's another freelancer advertising for client referrals."
-      }
-    },
-    {
-      "title": "CIA Strategy Game Development",
-      "url": "https://www.freelancer.com/projects/unity/CIA-Strategy-Game-Development",
-      "reason": {
-        "ar": "يتطلب المشروع تطوير لعبة استراتيجية معقدة باستخدام Unity أو Unreal Engine، وهو يتجاوز قدرات Moe الذي يقتصر على الألعاب العادية البسيطة ولا يعمل مع Unity.",
-        "en": "The project requires developing a complex strategy game using Unity or Unreal Engine, which is beyond Moe's capabilities (limited to simple casual games and does not use Unity)."
-      }
-    },
-    {
-      "title": "Romantic Poem Proofreading & Polishing",
-      "url": "https://www.freelancer.com/projects/copy-editing/Romantic-Poem-Proofreading-Polishing",
-      "reason": {
-        "ar": "المشروع يتعلق بتدقيق لغوي وتصحيح قصيدة، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project is for proofreading and polishing a poem, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "Marathi Kids Story 2D Animation",
-      "url": "https://www.freelancer.com/projects/2d-animation/Marathi-Kids-Story-Animation",
-      "reason": {
-        "ar": "المشروع يتعلق بإنشاء رسوم متحركة ثنائية الأبعاد، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project involves creating 2D animation, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "Remote Product Description Copywriter",
-      "url": "https://www.freelancer.com/projects/creative-writing/Remote-Product-Description-Copywriter",
-      "reason": {
-        "ar": "المشروع يتعلق بكتابة نصوص تسويقية لوصف المنتجات، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project is for writing product descriptions (copywriting), which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "AI Webtoon Episode Creator Needed",
-      "url": "https://www.freelancer.com/projects/ai-art-creation/Webtoon-Episode-Creator-Needed",
-      "reason": {
-        "ar": "المشروع يتطلب إنشاء حلقات ويبتون باستخدام أدوات توليد الصور بالذكاء الاصطناعي، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات وليس إنشاء الفن بالذكاء الاصطناعي. كما أن الميزانية منخفضة جداً.",
-        "en": "The project requires creating webtoon episodes using AI-powered image generation tools, which is outside Moe's scope (he builds apps, not AI art). The budget is also very low."
-      }
-    },
-    {
-      "title": "Cinepals Email & Chat Support",
-      "url": "https://www.freelancer.com/projects/customer-service/Cinepals-Email-Chat-Support",
-      "reason": {
-        "ar": "المشروع يتعلق بتقديم دعم العملاء عبر البريد الإلكتروني والدردشة، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project involves providing email and chat customer support, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "English Buildings Laser-Cut Kits",
-      "url": "https://www.freelancer.com/projects/3d-design/English-Buildings-Laser-Cut-Kits",
-      "reason": {
-        "ar": "المشروع يتطلب تصميم نماذج ثلاثية الأبعاد قابلة للقطع بالليزر والطباعة بالراتنج، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project requires designing 3D laser-cut and resin-printable kits, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "Comprehensive Amazon Toys Data Extraction",
-      "url": "https://www.freelancer.com/projects/data-scraping/Comprehensive-Amazon-Toys-Data",
-      "reason": {
-        "ar": "المشروع يتطلب استخراج بيانات شاملة (Web Scraping) من Amazon، وهو خارج نطاق ما يمكن لـ Moe تقديمه.",
-        "en": "The project requires comprehensive data extraction (web scraping) from Amazon, which is outside Moe's capabilities."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 17,
     "steps": [
       {
         "step": "memory",
@@ -312,7 +312,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "19 open projects from the last 5 days in US/Europe/Far East (213 skipped: other countries or currencies, 105 skipped: not app/AI work)"
+        "msg": "21 open projects from the last 5 days in US/Europe/Far East (199 skipped: other countries or currencies, 107 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -320,11 +320,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "0 jobs from Gmail alerts (last 5 days)"
+        "msg": "56 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "verify",
-        "msg": "0 new LinkedIn jobs added"
+        "msg": "15 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -332,7 +332,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "2 new Freelancer projects added, 17 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 17 via gemini-2.5-flash"
       }
     ]
   }
