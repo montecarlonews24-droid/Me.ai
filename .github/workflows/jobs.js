@@ -200,23 +200,76 @@ const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير
 3) FAR EAST & AUSTRALIA remote (label "east"): clients in Singapore, Japan, Hong Kong, South Korea, Malaysia, Australia on freelancer.com, Upwork, LinkedIn.
 Topics for all: Android app, website to Android app, AI features in an app, AI agent / AI automation, Google Play publishing or rejection fix.`;
 
+// ---------- Freelancer.com: مشاريع مفتوحة هلا من الـ API العام (بدون مفتاح) ----------
+const FL_QUERIES = ['android app', 'android', 'mobile app', 'ai agent', 'ai chatbot', 'chatbot', 'ai automation', 'gemini', 'website to app', 'webview app', 'google play', 'play store', 'nfc', 'تطبيق'];
+const ago = sec => {
+  const h = Math.max(0, Math.round((Date.now() / 1000 - sec) / 3600));
+  return h < 1 ? 'less than an hour ago' : h < 48 ? `${h} hours ago` : `${Math.round(h / 24)} days ago`;
+};
+async function freelancerFeed() {
+  const out = new Map();
+  for (const q of FL_QUERIES) {
+    try {
+      const u = `https://www.freelancer.com/api/projects/0.1/projects/active/?query=${encodeURIComponent(q)}&limit=30&full_description=true&job_details=true&compact=true`;
+      const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', Accept: 'application/json' } });
+      if (!r.ok) { log('freelancer', `${q}: HTTP ${r.status}`); continue; }
+      const d = await r.json();
+      for (const p of d?.result?.projects || []) {
+        if (!p?.seo_url || out.has(p.id)) continue;
+        const age = Date.now() / 1000 - (p.time_submitted || 0);
+        if (age > 5 * 86400) continue;                       // آخر 5 أيام بس
+        const bids = p.bid_stats?.bid_count ?? 0;
+        if (bids > 80) continue;                              // زحمة كثير
+        const cur = p.currency?.code || 'USD';
+        const b = p.budget || {};
+        const budget = b.minimum ? `${b.minimum}${b.maximum ? '-' + b.maximum : '+'} ${cur}${p.type === 'hourly' ? '/hr' : ''}` : '';
+        const text = String(p.description || p.preview_description || '').replace(/\s+/g, ' ').trim();
+        out.set(p.id, {
+          title: p.title || '',
+          url: `https://www.freelancer.com/projects/${p.seo_url}`,
+          market: '',
+          platform: 'Freelancer',
+          country: '',
+          budget,
+          posted: ago(p.time_submitted || 0),
+          proposals: String(bids),
+          language: /[؀-ۿ]/.test(p.title + text) ? 'ar' : 'en',
+          summary: text.slice(0, 220),
+          pageText: `${(p.jobs || []).map(j => j.name).join(', ')} | ${text}`.slice(0, 1800),
+          _t: p.time_submitted || 0
+        });
+      }
+    } catch (e) {
+      log('freelancer', `${q}: ${e.message}`);
+    }
+  }
+  const list = [...out.values()].sort((a, b) => b._t - a._t);
+  log('freelancer', `${list.length} open projects from the last 5 days`);
+  return list;
+}
+
 (async () => {
   const index = readJSON(path.join(DIR, 'jobs-index.json'), { dates: [], seen: [] });
   const seen = new Set(index.seen.map(clean));
   log('memory', `${seen.size} leads seen before`);
 
-  // ---------- Step 1: One search across all 3 markets (عملية بحث وحدة توفيراً للـ quota) ----------
+  // ---------- Step 1: Google search, جولتين: عربي وعالمي ----------
   let found = [];
   const urls = new Map(); // رابط حقيقي -> عنوان
-  try {
-    const r = await ask(`
+  const ROUNDS = [
+    { id: 'arab', text: MARKETS.split('\n')[0] },
+    { id: 'global', text: MARKETS.split('\n').slice(1).join('\n') }
+  ];
+  for (const round of ROUNDS) {
+    try {
+      const r = await ask(`
 TODAY is ${today}. Use Google Search to find REAL, CURRENTLY OPEN freelance PROJECTS posted in the last 14 days, where a client wants to hire a freelancer for a one-off project.
-NOT full-time jobs, NOT company vacancies, NOT salaries per year.
+NOT full-time jobs, NOT company vacancies, NOT salaries per year, NOT courses or articles.
 
-Search these 3 markets, several searches each, with different keywords:
-${MARKETS}
+Search this market, several searches with different keywords:
+${round.text}
 
-Return up to 15 leads in total, mixed across the 3 markets. Copy each page URL exactly from your search results. Do not invent URLs.
+Return up to 12 leads. Copy each page URL exactly from your search results. Do not invent URLs. Each URL must be ONE project or post, not a search or list page.
 Keep every text field short (under 25 words) and do not use double quotes inside values.
 
 Respond with ONLY JSON:
@@ -236,12 +289,14 @@ Respond with ONLY JSON:
     }
   ]
 }`, { search: true });
-    const real = await Promise.all(r.sources.map(async s => ({ ...s, url: await realUrl(s.url) })));
-    real.forEach(s => urls.set(clean(s.url), s));
-    found = (r.json.leads || []).map(l => ({ ...l, market: ['arab', 'west', 'east'].includes(l.market) ? l.market : '' }));
-    log('search', `${found.length} leads, ${real.length} sources via ${r.model}`);
-  } catch (e) {
-    log('search', `failed: ${e.message}`);
+      const real = await Promise.all(r.sources.map(async s => ({ ...s, url: await realUrl(s.url) })));
+      real.forEach(s => urls.set(clean(s.url), s));
+      const got = (r.json.leads || []).map(l => ({ ...l, market: ['arab', 'west', 'east'].includes(l.market) ? l.market : (round.id === 'arab' ? 'arab' : '') }));
+      found.push(...got);
+      log('search', `${round.id}: ${got.length} leads, ${real.length} sources via ${r.model}`);
+    } catch (e) {
+      log('search', `${round.id} failed: ${e.message}`);
+    }
   }
 
   // ---------- Step 2: Keep only real, new links ----------
@@ -273,6 +328,16 @@ Respond with ONLY JSON:
   }
   log('verify', `${found.length} found, ${checked.length} real and new`);
 
+  // مشاريع Freelancer جاية من المنصة نفسها، فهي حقيقية ومفتوحة
+  const fl = (await freelancerFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 22);
+  fl.forEach(l => { delete l._t; checked.push(l); });
+  log('verify', `${fl.length} new Freelancer projects added, ${checked.length} to judge`);
+
   // ---------- Step 3: Judge + write proposals ----------
   let leads = [], rejected = [], summary = { ar: '', en: '' }, judgeModel = '';
   if (checked.length) {
@@ -287,7 +352,7 @@ ${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, pageText: l.pageText || '
 
 IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it shows the page is NOT a client hiring a freelancer for a project (for example a course, a training session, a tutorial, an article, a product or SaaS page, a job board or list of vacancies, a company careers page, or a freelancer's own service), REJECT it, whatever its title says. If the page shows the project is closed or expired, REJECT it. Prefer budget, posted date and proposals count from pageText when present.
 
-For every KEPT lead (max 8, best first), write a ready-to-send proposal:
+For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
 - 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE relevant live app of Moe's as proof.
 - Be honest: say he builds with AI-assisted development. Never claim skills he does not have. Never promise approval by Google.
@@ -322,7 +387,7 @@ Respond with ONLY JSON:
         };
       })
       .sort((a, b) => b.fit - a.fit)
-      .slice(0, 8);
+      .slice(0, 10);
     rejected = (s3.json.rejected || []).filter(r => checked[r.id]).map(r => ({
       title: checked[r.id].title, url: checked[r.id].url,
       reason: { ar: r.reason_ar || '', en: r.reason_en || '' }
