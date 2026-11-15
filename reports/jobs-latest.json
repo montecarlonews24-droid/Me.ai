@@ -1,10 +1,10 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T17:29:51.481Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-15T17:34:49.192Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض جميع فرص العمل المستقلة اليوم حيث لم تتوافق أي منها مع مهارات Moe المتخصصة في تطوير تطبيقات الأندرويد الأصلية وميزات الذكاء الاصطناعي والقدرات التقنية المحددة، أو أنها تجاوزت نطاق مشاريعه المفضلة وتوقعات الميزانية.",
-    "en": "All freelance leads today were rejected as none aligned with Moe's specialized skills in native Android app development, AI features, and specific technical capabilities, or they fell outside his preferred project scope and budget expectations."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
@@ -300,11 +300,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 21,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "96 leads seen before"
+        "msg": "117 leads seen before"
       },
       {
         "step": "verify",
@@ -312,7 +312,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "72 open projects from the last 5 days in US/Europe/Far East (211 skipped: other countries or currencies)"
+        "msg": "21 open projects from the last 5 days in US/Europe/Far East (217 skipped: other countries or currencies, 100 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -324,11 +324,7 @@
       },
       {
         "step": "verify",
-        "msg": "21 new Freelancer projects added, 21 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 21 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
