@@ -195,7 +195,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-Moe is targeting clients in the USA, Europe, Far East and Australia (they pay more). Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
+IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe is targeting clients in the USA, Europe, Far East and Australia (they pay more). Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -426,6 +426,7 @@ Respond with ONLY JSON:
     })));
     summary = { ar: s3.json.summary_ar || '', en: s3.json.summary_en || '' };
     log('judge', `kept ${leads.length}, rejected ${rejected.length} via ${judgeModel}`);
+    rejected.slice(0, 10).forEach(r => console.log(`  - rejected: ${r.title.slice(0, 60)} => ${(r.reason.en || '').slice(0, 140)}`));
   }
 
   // منحفظ كل اللي شفناه (المقبول والمرفوض) عشان ما يرجع يطلع
@@ -435,10 +436,8 @@ Respond with ONLY JSON:
 
   // الجولة التانية بنفس اليوم: إذا ما في إشي جديد، منخلي تقرير الصبح زي ما هو (وما في إشعار)
   const prev = readJSON(path.join(DIR, `jobs-${today}.json`), null);
-  if (!leads.length && prev) {
-    console.log('No new leads this run; keeping the earlier report.');
-    return;
-  }
+  // ما في فرص جديدة؟ منكمّل ومنحفظ أسباب الرفض، بس fresh = 0 فما في إشعار
+  if (!leads.length && prev) console.log('No new leads this run; keeping earlier leads and saving rejection reasons.');
 
   if (!leads.length && !summary.en) {
     summary = {
@@ -452,7 +451,7 @@ Respond with ONLY JSON:
   const older = (prev?.leads || []).map(l => ({ ...l, fresh: false }));
   const urlsNew = new Set(fresh.map(l => clean(l.url)));
   const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
-  const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 15);
+  const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 30);
 
   // ---------- Save ----------
   const report = {
