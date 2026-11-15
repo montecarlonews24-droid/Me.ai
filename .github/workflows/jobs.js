@@ -194,7 +194,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-PREFER clients from the US, Europe, Gulf, Singapore, Japan, Australia (they usually pay more), and projects with few proposals.`;
+Moe is targeting clients in the USA, Europe, Far East and Australia (they pay more). Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -202,21 +202,32 @@ const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير
 Topics for all: Android app, website to Android app, AI features in an app, AI agent / AI automation, Google Play publishing or rejection fix.`;
 
 // ---------- Freelancer.com: مشاريع مفتوحة هلا من الـ API العام (بدون مفتاح) ----------
-const FL_QUERIES = ['android app', 'android', 'mobile app', 'ai agent', 'ai chatbot', 'chatbot', 'ai automation', 'gemini', 'website to app', 'webview app', 'google play', 'play store', 'nfc', 'تطبيق'];
+const FL_QUERIES = ['android app', 'android', 'mobile app', 'ai agent', 'ai chatbot', 'chatbot', 'ai automation', 'gemini', 'website to app', 'webview app', 'google play', 'play store', 'nfc', 'kotlin', 'firebase'];
 const ago = sec => {
   const h = Math.max(0, Math.round((Date.now() / 1000 - sec) / 3600));
   return h < 1 ? 'less than an hour ago' : h < 48 ? `${h} hours ago` : `${Math.round(h / 24)} days ago`;
 };
+const WEST = ['United States', 'Canada', 'United Kingdom', 'Ireland', 'Germany', 'France', 'Netherlands', 'Belgium', 'Luxembourg', 'Switzerland', 'Austria', 'Italy', 'Spain', 'Portugal', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Iceland', 'Poland', 'Czech Republic', 'Czechia', 'Estonia', 'Lithuania', 'Latvia', 'Slovenia', 'Malta', 'Cyprus', 'Greece'];
+const EAST = ['Singapore', 'Japan', 'Hong Kong', 'South Korea', 'Korea, Republic of', 'Taiwan', 'Malaysia', 'Australia', 'New Zealand'];
+const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : '';
+let skippedRegion = 0;
+
 async function freelancerFeed() {
   const out = new Map();
   for (const q of FL_QUERIES) {
     try {
-      const u = `https://www.freelancer.com/api/projects/0.1/projects/active/?query=${encodeURIComponent(q)}&limit=30&full_description=true&job_details=true&compact=true`;
+      const u = `https://www.freelancer.com/api/projects/0.1/projects/active/?query=${encodeURIComponent(q)}&limit=40&full_description=true&job_details=true&user_details=true&user_country_details=true&compact=true`;
       const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', Accept: 'application/json' } });
       if (!r.ok) { log('freelancer', `${q}: HTTP ${r.status}`); continue; }
       const d = await r.json();
+      const users = d?.result?.users || {};
       for (const p of d?.result?.projects || []) {
         if (!p?.seo_url || out.has(p.id)) continue;
+        // بلد صاحب المشروع: بنخلّي بس أمريكا وأوروبا والشرق الأقصى وأستراليا
+        const owner = users[p.owner_id] || users[String(p.owner_id)] || {};
+        const country = owner?.location?.country?.name || '';
+        const region = regionOf(country);
+        if (country && !region) { skippedRegion++; continue; }
         const age = Date.now() / 1000 - (p.time_submitted || 0);
         if (age > 5 * 86400) continue;                       // آخر 5 أيام بس
         const bids = p.bid_stats?.bid_count ?? 0;
@@ -228,9 +239,9 @@ async function freelancerFeed() {
         out.set(p.id, {
           title: p.title || '',
           url: `https://www.freelancer.com/projects/${p.seo_url}`,
-          market: '',
+          market: region,
           platform: 'Freelancer',
-          country: '',
+          country,
           budget,
           posted: ago(p.time_submitted || 0),
           proposals: String(bids),
@@ -245,7 +256,36 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => b._t - a._t);
-  log('freelancer', `${list.length} open projects from the last 5 days`);
+  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries)`);
+  return list;
+}
+
+// ---------- Reddit r/forhire: بوستات [Hiring] (أغلبهم أمريكا وأوروبا) ----------
+async function redditFeed() {
+  const list = [];
+  try {
+    const r = await fetch('https://www.reddit.com/r/forhire/new.json?limit=100', { headers: { 'User-Agent': 'MeAiJobScout/1.0 (personal job alerts)' } });
+    if (!r.ok) { log('reddit', `HTTP ${r.status}`); return list; }
+    const d = await r.json();
+    const KEY = /android|mobile app|\bapp\b|ai agent|chat ?bot|gemini|gpt|llm|automation|play store|google play|apk|kotlin|firebase/i;
+    for (const c of d?.data?.children || []) {
+      const p = c.data || {};
+      if (!/^\s*\[hiring\]/i.test(p.title || '')) continue;
+      if (Date.now() / 1000 - (p.created_utc || 0) > 5 * 86400) continue;
+      const text = String(p.selftext || '').replace(/\s+/g, ' ').trim();
+      if (!KEY.test(p.title + ' ' + text)) continue;
+      list.push({
+        title: p.title.replace(/^\s*\[hiring\]\s*/i, ''),
+        url: `https://www.reddit.com${p.permalink}`,
+        market: 'west', platform: 'Reddit', country: '', budget: '',
+        posted: ago(p.created_utc || 0), proposals: String(p.num_comments ?? ''),
+        language: 'en', summary: text.slice(0, 220), pageText: text.slice(0, 1800)
+      });
+    }
+    log('reddit', `${list.length} relevant [Hiring] posts`);
+  } catch (e) {
+    log('reddit', e.message);
+  }
   return list;
 }
 
@@ -258,7 +298,6 @@ async function freelancerFeed() {
   let found = [];
   const urls = new Map(); // رابط حقيقي -> عنوان
   const ROUNDS = [
-    { id: 'arab', text: MARKETS.split('\n')[0] },
     { id: 'global', text: MARKETS.split('\n').slice(1).join('\n') }
   ];
   for (const round of ROUNDS) {
@@ -337,6 +376,14 @@ Respond with ONLY JSON:
     return true;
   }).slice(0, 22);
   fl.forEach(l => { delete l._t; checked.push(l); });
+  const rd = (await redditFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 8);
+  rd.forEach(l => checked.push(l));
+  log('verify', `${rd.length} new Reddit posts added`);
   log('verify', `${fl.length} new Freelancer projects added, ${checked.length} to judge`);
 
   // ---------- Step 3: Judge + write proposals ----------
