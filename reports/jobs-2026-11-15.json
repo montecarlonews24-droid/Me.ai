@@ -1,55 +1,191 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T12:57:04.138Z",
+  "generatedAt": "2026-11-15T16:17:34.055Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض عرض واحد اليوم لأنه يتطلب تطوير منصة ويب متكاملة وخلفية كبيرة تتجاوز نطاق عمل Moe.",
-    "en": "One lead was rejected today as it requires developing an integrated web platform and a large backend, which is beyond Moe's scope."
+    "ar": "تم رفض معظم الفرص لأنها خارج نطاق خبرة Moe، مع وجود فرصة واحدة محتملة لاستخراج البيانات من قاعدة بيانات MySQL.",
+    "en": "Most leads were rejected as they fall outside Moe's expertise, with one potential opportunity for MySQL data extraction."
   },
-  "fresh": 0,
-  "leads": [],
+  "fresh": 1,
+  "leads": [
+    {
+      "title": "MySQL Mobile Number Export",
+      "url": "https://www.freelancer.com/projects/data-extraction/MySQL-Mobile-Number-Export",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "12500-37500 INR",
+      "posted": "less than an hour ago",
+      "proposals": "22",
+      "language": "en",
+      "summary": "I need a specialist who can connect to our Android app’s MySQL backend and extract only the authorised users’ mobile numbers. Once pulled, the data has to be organised cleanly into both a CSV file and an Excel spreadshee",
+      "fit": 6,
+      "why": {
+        "ar": "المشروع يتضمن التعامل مع قاعدة بيانات مرتبطة بتطبيق أندرويد، وهو مجال يمكن لـ Moe التعامل معه بفضل خبرته في Firebase وتطوير التطبيقات المدعوم بالذكاء الاصطناعي لاستخراج البيانات.",
+        "en": "The project involves interacting with an Android app's backend database, a task Moe can handle given his Firebase experience and AI-assisted development for data extraction."
+      },
+      "watch": {
+        "ar": "يجب الانتباه إلى أن المشروع يطلب التعامل مع MySQL بينما خبرة Moe الأساسية في Firebase. كما أن الميزانية منخفضة نسبياً لمهمة حساسة تتعلق بقاعدة البيانات.",
+        "en": "Note that the project specifically requests MySQL interaction, whereas Moe's primary backend experience is with Firebase. The budget is also relatively low for a critical database task."
+      },
+      "proposal": "I understand you need a specialist to securely extract authorized mobile numbers from your Android app's MySQL backend and format them into CSV and Excel files. My expertise lies in building robust Android apps with AI-assisted development, including backend integration for data management. While my primary backend experience is with Firebase, I am adept at database interaction and can leverage AI tools to ensure precise and secure MySQL data extraction, adhering to your strict accuracy and security requirements. For instance, my 'Islam Rising' app manages user worship data across 177 countries, demonstrating my capability in handling sensitive user information and backend operations.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details on the specific MySQL version and the schema of the user table from which the numbers need to be extracted?",
+      "fresh": true
+    }
+  ],
   "rejected": [
     {
-      "title": "إنشاء وتطوير منصة مزادات إلكترونية متكاملة (Web Auction Platform)",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOgs2QY2QkVMGpsqqKTsa4HMJB_mtusrv2FviWr3ktcksfML7y1A1n42BWrJYK3AIbhneB2DeaoUNPhXGlDvitSzSQWsHgjcNT9ewlqAOKttcYRXsoeqxOZCQKRmgeOeP4h2qIgA==",
+      "title": "Facebook Ads Manager  to Optimize Campaign Performance",
+      "url": "https://www.freelancer.com/projects/facebook-ads/Facebook-Ads-Manager-Optimize-Campaign",
       "reason": {
-        "ar": "نطاق المشروع (منصة مزادات إلكترونية متكاملة) يتجاوز قدرات Moe، خاصة فيما يتعلق بالخلفيات الكبيرة (large backends) وتطوير الويب الشامل، وهو ما لا يقدمه Moe.",
-        "en": "The project scope (integrated electronic auction platform) is beyond Moe's capabilities, especially regarding large backends and comprehensive web development, which Moe does not offer."
+        "ar": "المشروع يتطلب خبرة في إدارة إعلانات فيسبوك والتسويق الرقمي، وهي خارج نطاق تخصص Moe في تطوير التطبيقات.",
+        "en": "The project requires expertise in Facebook Ads management and digital marketing, which is outside Moe's app development specialization."
+      }
+    },
+    {
+      "title": "Creative Instagram Reels Editor",
+      "url": "https://www.freelancer.com/projects/motion-graphics/Creative-Instagram-Reels-Editor",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات تحرير الفيديو والرسوم المتحركة، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires video editing and motion graphics skills, which are outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Clean need a professional video editor for my normal YouTube channel. I want simple cuts, clean transitions, and Hindi captions in the video. The editing should look natural and engaging without too many heavy effects.\"YouTube Shorts Editor Needed",
+      "url": "https://www.freelancer.com/projects/final-cut-pro/Clean-need-professional-video-editor",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات تحرير الفيديو لـ YouTube Shorts وReels، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires video editing skills for YouTube Shorts and Reels, which are outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Pakistani and Iranian Software Developers Needed",
+      "url": "https://www.freelancer.com/projects/software-development/Pakistani-Iranian-Software-Developers",
+      "reason": {
+        "ar": "هذا عرض عمل بدوام كامل أو وظيفة دائمة تتطلب خبرة لسنوات، وهو ما لا يتوافق مع رغبة Moe في العمل المستقل وعدم الانضمام لفرق عمل الشركات.",
+        "en": "This is a full-time or staff job opportunity requiring years of experience, which does not align with Moe's preference for independent freelance work and not joining company teams."
+      }
+    },
+    {
+      "title": "Recruit Fresh Sales Team Leaders",
+      "url": "https://www.freelancer.com/projects/sales/Recruit-Fresh-Sales-Team-Leaders",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات في التوظيف والمبيعات ودعم العملاء، وهي خارج نطاق تخصص Moe في تطوير التطبيقات.",
+        "en": "The project requires skills in recruitment, sales, and customer support, which are outside Moe's app development specialization."
+      }
+    },
+    {
+      "title": "Social Media Video Editor Needed",
+      "url": "https://www.freelancer.com/projects/adobe-premiere-pro/Social-Media-Video-Editor-Needed-40819343",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات تحرير الفيديو لوسائل التواصل الاجتماعي، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires social media video editing skills, which are outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Broadcast Ready Commercial Video Ad",
+      "url": "https://www.freelancer.com/projects/sound-design/Broadcast-Ready-Commercial-Video",
+      "reason": {
+        "ar": "المشروع يتطلب إنتاج إعلانات فيديو تجارية جاهزة للبث، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires producing broadcast-ready commercial video ads, which is outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Beginner level content writer needed, hiring freshers",
+      "url": "https://www.freelancer.com/projects/blog-writing/Beginner-level-content-writer-needed-40819331",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات كتابة المحتوى وكتابة المقالات، وهي خارج نطاق تخصص Moe في تطوير التطبيقات.",
+        "en": "The project requires content writing and article writing skills, which are outside Moe's app development specialization."
+      }
+    },
+    {
+      "title": "Cartoon Animator 5 (CTA5) – Turnkey G3 Narrator Character Rig + Layered Library Scene (From Existing Art)",
+      "url": "https://www.freelancer.com/projects/2d-animation/Cartoon-Animator-CTA-Turnkey-Narrator",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات في الرسوم المتحركة ثنائية الأبعاد وتصميم الشخصيات، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires 2D animation and character design skills, which are outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Monthly Instagram Reels Editing",
+      "url": "https://www.freelancer.com/projects/social-media-marketing/Monthly-Instagram-Reels-Editing-40819338",
+      "reason": {
+        "ar": "المشروع يتطلب تحرير مقاطع فيديو Instagram Reels بشكل شهري، وهي خارج نطاق خبرة Moe في تطوير التطبيقات.",
+        "en": "The project requires monthly Instagram Reels editing, which is outside Moe's app development expertise."
+      }
+    },
+    {
+      "title": "Oxidant Hair Developer Formulation",
+      "url": "https://www.freelancer.com/projects/product-development/Oxidant-Hair-Developer-Formulation",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة في الكيمياء التجميلية وصياغة المنتجات، وهي خارج نطاق تخصص Moe في تطوير التطبيقات.",
+        "en": "The project requires expertise in cosmetic chemistry and product formulation, which is outside Moe's app development specialization."
+      }
+    },
+    {
+      "title": "Comprehensive CRM for EV Charger Projects",
+      "url": "https://www.freelancer.com/projects/project-management/Comprehensive-CRM-for-Charger-Projects",
+      "reason": {
+        "ar": "المشروع يتطلب بناء نظام CRM شامل، وهو ما يعتبر من 'الخلفيات الكبيرة' التي لا يستطيع Moe القيام بها، كما أنه يحدد تقنيات (PHP, HTML) ليست ضمن مكدسه الأساسي (Kotlin/Firebase).",
+        "en": "The project requires building a comprehensive CRM system, which falls under 'large backends' that Moe cannot do. It also specifies technologies (PHP, HTML) not in his primary stack (Kotlin/Firebase)."
+      }
+    },
+    {
+      "title": "Weather Widget Card Design",
+      "url": "https://www.freelancer.com/projects/figma/Weather-Widget-Card-Design",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم واجهة مستخدم (UI) فقط باستخدام أدوات مثل Figma، وهو تخصص تصميم بحت وليس تطوير تطبيقات.",
+        "en": "The project requires only UI design using tools like Figma, which is a pure design specialization and not app development."
+      }
+    },
+    {
+      "title": "3-Card Feature Grid UI Design",
+      "url": "https://www.freelancer.com/projects/ui-design/Card-Feature-Grid-Design-40819326",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم واجهة مستخدم (UI) فقط باستخدام أدوات مثل Figma، وهو تخصص تصميم بحت وليس تطوير تطبيقات.",
+        "en": "The project requires only UI design using tools like Figma, which is a pure design specialization and not app development."
+      }
+    },
+    {
+      "title": "Go-to-Market Consultant / Business Development Expert for LokalNeeds",
+      "url": "https://www.freelancer.com/projects/business-development/Market-Consultant-Business-Development",
+      "reason": {
+        "ar": "المشروع يتطلب استشارات تسويقية وتطوير أعمال، وهي خارج نطاق تخصص Moe في تطوير التطبيقات.",
+        "en": "The project requires go-to-market consulting and business development, which is outside Moe's app development specialization."
       }
     }
   ],
   "agent": {
     "version": 2,
-    "found": 3,
-    "verified": 1,
+    "found": 0,
+    "verified": 22,
     "steps": [
       {
         "step": "memory",
-        "msg": "7 leads seen before"
+        "msg": "8 leads seen before"
       },
       {
         "step": "search",
-        "msg": "3 leads, 3 sources via gemini-2.5-flash"
+        "msg": "arab: 0 leads, 0 sources via gemini-2.5-flash"
+      },
+      {
+        "step": "search",
+        "msg": "global: 0 leads, 0 sources via gemini-2.5-flash"
       },
       {
         "step": "verify",
-        "msg": "dropped (404): برمجة تطبيق أندرويد تطبيق الأبيض للكشف الصوتي السريع على المكالمات"
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "118 open projects from the last 5 days"
       },
       {
         "step": "verify",
-        "msg": "dropped (404): برمجة تطبيق جوال يعمل على iPhone وAndroid"
-      },
-      {
-        "step": "verify",
-        "msg": "kept [opens (202)]: إنشاء وتطوير منصة مزادات إلكترونية متكاملة (Web Auction Platform)"
-      },
-      {
-        "step": "verify",
-        "msg": "3 found, 1 real and new"
+        "msg": "22 new Freelancer projects added, 22 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 21 via gemini-2.5-flash"
       }
     ]
   }
