@@ -191,7 +191,8 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
-- It is outside what Moe can deliver (see profile).
+- It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
+- The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 PREFER clients from the US, Europe, Gulf, Singapore, Japan, Australia (they usually pay more), and projects with few proposals.`;
 
@@ -355,7 +356,9 @@ IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it s
 For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
 - 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE relevant live app of Moe's as proof.
-- Be honest: say he builds with AI-assisted development. Never claim skills he does not have. Never promise approval by Google.
+- Be honest: say he builds with AI-assisted development. Never promise approval by Google.
+- Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
+- If you cannot write an honest proposal without claiming a skill he does not have, REJECT the lead instead.
 - Include the portfolio link once, on its own line, introduced naturally (e.g. "You can try my live apps here:" or "تقدر تجرب تطبيقاتي المنشورة من هون:").
 - End with one specific question about their project.
 
@@ -386,12 +389,18 @@ Respond with ONLY JSON:
           proposal: k.proposal || ''
         };
       })
-      .sort((a, b) => b.fit - a.fit)
-      .slice(0, 10);
+      .sort((a, b) => b.fit - a.fit);
+    // بس الفرص القوية (7 وفوق) بتطلع لـ Moe، الباقي بيروح للمرفوضة مع السبب
+    const weak = leads.filter(l => l.fit < 7);
+    leads = leads.filter(l => l.fit >= 7).slice(0, 10);
     rejected = (s3.json.rejected || []).filter(r => checked[r.id]).map(r => ({
       title: checked[r.id].title, url: checked[r.id].url,
       reason: { ar: r.reason_ar || '', en: r.reason_en || '' }
     }));
+    rejected.push(...weak.map(l => ({
+      title: l.title, url: l.url,
+      reason: { ar: `تقييمها ${l.fit} من 10، أقل من الحد (7). ${l.watch.ar}`.trim(), en: `Fit ${l.fit}/10, below the 7 threshold. ${l.watch.en}`.trim() }
+    })));
     summary = { ar: s3.json.summary_ar || '', en: s3.json.summary_en || '' };
     log('judge', `kept ${leads.length}, rejected ${rejected.length} via ${judgeModel}`);
   }
