@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T17:34:49.192Z",
+  "generatedAt": "2026-11-15T18:05:03.711Z",
   "model": "",
   "summary": {
     "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
@@ -312,11 +312,19 @@
       },
       {
         "step": "freelancer",
-        "msg": "21 open projects from the last 5 days in US/Europe/Far East (217 skipped: other countries or currencies, 100 skipped: not app/AI work)"
+        "msg": "19 open projects from the last 5 days in US/Europe/Far East (213 skipped: other countries or currencies, 105 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
         "msg": "4 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "0 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
