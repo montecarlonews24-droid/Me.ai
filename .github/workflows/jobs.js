@@ -267,49 +267,38 @@ async function freelancerFeed() {
   return list;
 }
 
-// ---------- Reddit r/forhire: بوستات [Hiring] (أغلبهم أمريكا وأوروبا) ----------
+// ---------- Reddit r/forhire: بيوصل من موبايل Moe عن طريق Firebase ----------
+// Reddit بيسكّر على سيرفرات GitHub، فتطبيق Me.ai على الموبايل بيقرأ الـ RSS وبيرفع بوستات [Hiring] لـ /reddit
+const FIREBASE = (process.env.FIREBASE_DB || 'https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app').replace(/\/$/, '');
 async function redditFeed() {
   const list = [];
   try {
-    const UA = { 'User-Agent': 'MeAiJobScout/1.0 (personal job alerts)' };
-    let r = await fetch('https://www.reddit.com/r/forhire/new.json?limit=100', { headers: UA });
-    let d;
-    if (r.ok) d = await r.json();
-    else {
-      // JSON مسكّر؟ منجرّب الـ RSS
-      log('reddit', `json HTTP ${r.status}, trying RSS`);
-      r = await fetch('https://www.reddit.com/r/forhire/new/.rss?limit=100', { headers: UA });
-      if (!r.ok) { log('reddit', `rss HTTP ${r.status}`); return list; }
-      const xml = await r.text();
-      const strip = t => t.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/<[^>]+>/g, ' ');
-      d = { data: { children: [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => {
-        const e = m[1];
-        const get = tag => (e.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`)) || [])[1] || '';
-        const link = (e.match(/<link[^>]*href="([^"]+)"/) || [])[1] || '';
-        return { data: {
-          title: strip(get('title')).trim(),
-          selftext: strip(get('content')),
-          permalink: link.replace(/^https?:\/\/(www\.)?reddit\.com/, ''),
-          created_utc: Date.parse(get('updated') || get('published')) / 1000 || 0
-        } };
-      }) } };
-    }
-    const KEY = /android|mobile app|\bapp\b|ai agent|chat ?bot|gemini|gpt|llm|automation|play store|google play|apk|kotlin|firebase/i;
-    for (const c of d?.data?.children || []) {
-      const p = c.data || {};
-      if (!/^\s*\[hiring\]/i.test(p.title || '')) continue;
-      if (Date.now() / 1000 - (p.created_utc || 0) > 5 * 86400) continue;
-      const text = String(p.selftext || '').replace(/\s+/g, ' ').trim();
-      if (!KEY.test(p.title + ' ' + text)) continue;
+    const r = await fetch(`${FIREBASE}/reddit.json`);
+    if (!r.ok) { log('reddit', `firebase HTTP ${r.status}`); return list; }
+    const d = (await r.json()) || {};
+    const now = Date.now() / 1000;
+    for (const [id, p] of Object.entries(d)) {
+      if (!p?.url || !p?.title) continue;
+      const age = now - (Number(p.created) || now);
+      if (age > 7 * 86400) {
+        // قديم: منشيله من Firebase عشان ما تكبر
+        fetch(`${FIREBASE}/reddit/${encodeURIComponent(id)}.json`, { method: 'DELETE' }).catch(() => {});
+        continue;
+      }
+      if (age > 5 * 86400) continue;
+      const text = String(p.text || '');
       list.push({
-        title: p.title.replace(/^\s*\[hiring\]\s*/i, ''),
-        url: `https://www.reddit.com${p.permalink}`,
+        title: String(p.title).replace(/^\s*\[hiring\]\s*/i, ''),
+        url: p.url,
         market: 'west', platform: 'Reddit', country: '', budget: '',
-        posted: ago(p.created_utc || 0), proposals: String(p.num_comments ?? ''),
-        language: 'en', summary: text.slice(0, 220), pageText: text.slice(0, 1800)
+        posted: ago(Number(p.created) || now), proposals: '',
+        language: 'en', summary: text.slice(0, 220), pageText: text.slice(0, 1800),
+        _t: Number(p.created) || 0
       });
     }
-    log('reddit', `${list.length} relevant [Hiring] posts`);
+    list.sort((a, b) => b._t - a._t);
+    list.forEach(l => delete l._t);
+    log('reddit', `${list.length} [Hiring] posts from the phone relay (last 5 days)`);
   } catch (e) {
     log('reddit', e.message);
   }
@@ -368,7 +357,7 @@ async function redditFeed() {
     if (seen.has(u) || dupes.has(u)) return false;
     dupes.add(u);
     return true;
-  }).slice(0, 8);
+  }).slice(0, 12);
   rd.forEach(l => checked.push(l));
   log('verify', `${rd.length} new Reddit posts added`);
   log('verify', `${fl.length} new Freelancer projects added, ${checked.length} to judge`);
