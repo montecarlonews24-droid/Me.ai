@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T12:57:04.138Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "تم رفض عرض واحد اليوم لأنه يتطلب تطوير منصة ويب متكاملة وخلفية كبيرة تتجاوز نطاق عمل Moe.",
+    "en": "One lead was rejected today as it requires developing an integrated web platform and a large backend, which is beyond Moe's scope."
+  },
+  "fresh": 0,
+  "leads": [],
+  "rejected": [
+    {
+      "title": "إنشاء وتطوير منصة مزادات إلكترونية متكاملة (Web Auction Platform)",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOgs2QY2QkVMGpsqqKTsa4HMJB_mtusrv2FviWr3ktcksfML7y1A1n42BWrJYK3AIbhneB2DeaoUNPhXGlDvitSzSQWsHgjcNT9ewlqAOKttcYRXsoeqxOZCQKRmgeOeP4h2qIgA==",
+      "reason": {
+        "ar": "نطاق المشروع (منصة مزادات إلكترونية متكاملة) يتجاوز قدرات Moe، خاصة فيما يتعلق بالخلفيات الكبيرة (large backends) وتطوير الويب الشامل، وهو ما لا يقدمه Moe.",
+        "en": "The project scope (integrated electronic auction platform) is beyond Moe's capabilities, especially regarding large backends and comprehensive web development, which Moe does not offer."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 3,
+    "verified": 1,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "7 leads seen before"
+      },
+      {
+        "step": "search",
+        "msg": "3 leads, 3 sources via gemini-2.5-flash"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (404): برمجة تطبيق أندرويد تطبيق الأبيض للكشف الصوتي السريع على المكالمات"
+      },
+      {
+        "step": "verify",
+        "msg": "dropped (404): برمجة تطبيق جوال يعمل على iPhone وAndroid"
+      },
+      {
+        "step": "verify",
+        "msg": "kept [opens (202)]: إنشاء وتطوير منصة مزادات إلكترونية متكاملة (Web Auction Platform)"
+      },
+      {
+        "step": "verify",
+        "msg": "3 found, 1 real and new"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+      }
+    ]
+  }
+}
