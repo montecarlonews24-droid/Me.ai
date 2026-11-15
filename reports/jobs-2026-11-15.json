@@ -1,12 +1,12 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T16:31:35.821Z",
+  "generatedAt": "2026-11-15T17:29:51.481Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم الاحتفاظ بفرصة واحدة لتطوير تطبيق مجتمع أندرويد باستخدام Kotlin و Firebase، بينما تم رفض باقي الفرص لأنها خارج نطاق عمل Moe كصانع تطبيقات مستقل.",
-    "en": "One lead for an Android community app development using Kotlin and Firebase was kept, while all other leads were rejected as they fall outside Moe's scope as an independent app maker."
+    "ar": "تم رفض جميع فرص العمل المستقلة اليوم حيث لم تتوافق أي منها مع مهارات Moe المتخصصة في تطوير تطبيقات الأندرويد الأصلية وميزات الذكاء الاصطناعي والقدرات التقنية المحددة، أو أنها تجاوزت نطاق مشاريعه المفضلة وتوقعات الميزانية.",
+    "en": "All freelance leads today were rejected as none aligned with Moe's specialized skills in native Android app development, AI features, and specific technical capabilities, or they fell outside his preferred project scope and budget expectations."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "Buat Aplikasi Komunitas Android",
@@ -29,7 +29,7 @@
         "en": "The budget ($250-750 USD) might be a bit low for the full scope of a community app with media uploads and real-time notifications, so client expectations for an MVP need to be managed. The mention of React Native as an option is a slight red flag, but Kotlin is also explicitly offered and is Moe's preference."
       },
       "proposal": "I understand you're looking to develop a dedicated Android community application, enabling users to create profiles, join groups, share content, and receive real-time notifications. My focus is on building robust native Kotlin Android apps with efficient Firebase backends for features like user authentication, database management, and push notifications. I leverage AI-assisted development to streamline the coding process, ensuring a high-quality product. For instance, my app Peace & Conflict 24 includes a news dashboard and live chat, demonstrating experience with community-focused features. I can deliver your app with a simple, modern UI/UX and a basic admin dashboard as requested.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific types of media users will be able to upload, and if there are any particular content moderation rules you envision for the admin dashboard?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "MySQL Mobile Number Export",
@@ -56,6 +56,174 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Beginner level content writer needed, hiring freshers",
+      "url": "https://www.freelancer.com/projects/blog-writing/Beginner-level-content-writer-needed-40819428",
+      "reason": {
+        "ar": "المشروع يتطلب كتابة محتوى، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires content writing, which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "AI Editor for YouTube Shorts",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Editor-for-YouTube-Shorts",
+      "reason": {
+        "ar": "المشروع يتطلب أتمتة تحرير الفيديو باستخدام أدوات وتقنيات (مثل React/Electron) لا يستخدمها Moe، وهو خارج نطاق قدراته في تطبيقات الذكاء الاصطناعي.",
+        "en": "The project requires AI-powered video editing automation using tools and technologies (like React/Electron) that Moe does not use, and it's outside his AI app development scope."
+      }
+    },
+    {
+      "title": "Private Label & Wholesale Store Management",
+      "url": "https://www.freelancer.com/projects/ecommerce/Private-Label-Wholesale-Store-Management",
+      "reason": {
+        "ar": "المشروع يتعلق بإدارة التجارة الإلكترونية والتسويق وتحسين محركات البحث (SEO)، وهو خارج نطاق قدرات Moe.",
+        "en": "The project involves e-commerce management, marketing, and SEO, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Android Belot Automation Bot",
+      "url": "https://www.freelancer.com/projects/android-app-development/Android-Belot-Automation-Bot",
+      "reason": {
+        "ar": "الميزانية (10-30 دولار أمريكي) منخفضة جداً مقارنة بنطاق العمل المطلوب لإنشاء بوت أتمتة معقد لتطبيق أندرويد.",
+        "en": "The budget (10-30 USD) is extremely low for the complex scope of building an Android automation bot, indicating a clear scope vs. budget mismatch."
+      }
+    },
+    {
+      "title": "Marketing Plan for kitchen accessory to be put on Kickstarter",
+      "url": "https://www.freelancer.com/projects/digital-marketing/Marketing-Plan-for-kitchen-accessory",
+      "reason": {
+        "ar": "المشروع يتطلب خطة تسويق رقمي وتحسين محركات البحث (SEO) واستراتيجية محتوى، وهي خارج نطاق قدرات Moe.",
+        "en": "The project requires a digital marketing plan, SEO, and content strategy, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Native Android DSP Audio Control App",
+      "url": "https://www.freelancer.com/projects/Native-Android-DSP-Audio-Control",
+      "reason": {
+        "ar": "يتطلب المشروع متخصصاً في تركيب الصوت الرقمي (DSP) في الوقت الفعلي وترخيص أجهزة البلوتوث، وهي خبرات متخصصة غير مذكورة ضمن قدرات Moe.",
+        "en": "The project requires a specialist in real-time DSP audio synthesis and Bluetooth hardware licensing, which are specialized skills not listed within Moe's capabilities."
+      }
+    },
+    {
+      "title": "Short-Form Video Editor Needed CHECK BUDGET",
+      "url": "https://www.freelancer.com/projects/canva/Short-Form-Video-Editor-Needed-40818916",
+      "reason": {
+        "ar": "المشروع يتطلب تحرير الفيديو والتصميم الجرافيكي، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires video editing and graphic design, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Complete InAllCart Setup for AkoleMart",
+      "url": "https://www.freelancer.com/projects/flutter/Complete-InAllCart-Setup-for-AkoleMart",
+      "reason": {
+        "ar": "يتطلب المشروع استخدام Flutter ونشر تطبيقات iOS، وهما تقنيتان ومنصتان لا يمكن لـ Moe العمل عليهما.",
+        "en": "The project requires Flutter and iOS / App Store publishing, which are technologies and platforms Moe cannot work with."
+      }
+    },
+    {
+      "title": "wiwokdeyok -- 2",
+      "url": "https://www.freelancer.com/projects/web-development/wiwokdeyok",
+      "reason": {
+        "ar": "المشروع يطلب إنشاء موقع ويب أو تطبيق، و Moe يركز فقط على تطبيقات الأندرويد، كما أن الميزانية منخفضة جداً لتطبيق تجارة إلكترونية.",
+        "en": "The project asks for a 'Website or app,' and Moe only builds Android apps, not websites. The budget is also very low for an e-commerce app."
+      }
+    },
+    {
+      "title": "Natural Fashion App Name Creation",
+      "url": "https://www.freelancer.com/projects/branding/Natural-Fashion-App-Name-Creation",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم العلامة التجارية وتسمية التطبيق وأبحاث السوق، وهي خارج نطاق قدرات Moe.",
+        "en": "The project requires branding, app naming, and market research, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Product Quantity Counter & Add-to-Cart Button",
+      "url": "https://www.freelancer.com/projects/ajax/Product-Quantity-Counter-Add-Cart",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير ويب (واجهة أمامية، Shopify/WooCommerce)، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires web development (frontend, Shopify/WooCommerce), which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "AI Children's Tale Video Creation",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Children-Tale-Video-Creation",
+      "reason": {
+        "ar": "المشروع يتطلب إنشاء محتوى فيديو مدعوم بالذكاء الاصطناعي وتحرير الفيديو، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires AI-powered video content creation and video editing, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Family Home Floor Plan Design",
+      "url": "https://www.freelancer.com/projects/building-information-modeling/Family-Home-Floor-Plan-Design",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم مخططات معمارية للمنازل، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires architectural floor plan design, which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Senior Engineer for RAG Support Assistant",
+      "url": "https://www.freelancer.com/projects/machine-learning/Senior-Engineer-for-RAG-Support",
+      "reason": {
+        "ar": "المشروع هو وظيفة بدوام كامل/موظف (مهندس أول، معدل بالساعة، للانضمام إلى وكالة) ويتطلب تقنيات غير مدعومة (React.js, Next.js, Python/Django/FastAPI, MySQL) وخلفية برمجية كبيرة.",
+        "en": "The project is a full-time/staff job (Senior Engineer, hourly rate, joining an agency for client work) and requires unsupported technologies (React.js, Next.js, Python/Django/FastAPI, MySQL) and a large backend."
+      }
+    },
+    {
+      "title": "Create Roblox Alien Catch Simulator",
+      "url": "https://www.freelancer.com/projects/roblox/Create-Roblox-Alien-Catch-Simulator",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير لعبة معقدة (محاكي Roblox) باستخدام لغات ومنصات متخصصة (Roblox Studio, Lua)، وهو خارج نطاق قدرات Moe في الألعاب البسيطة.",
+        "en": "The project requires complex game development (Roblox simulator) using specialized platforms and languages (Roblox Studio, Lua), which is outside Moe's capabilities for simple casual games."
+      }
+    },
+    {
+      "title": "Android Developer for Innovative Mobile Apps",
+      "url": "https://www.freelancer.com/projects/android-app-development/Android-Developer-for-Innovative-Mobile",
+      "reason": {
+        "ar": "هذا ليس طلباً حقيقياً من عميل يبحث عن مستقل، بل هو مستقل يعلن عن خدماته.",
+        "en": "This is not a real request from a client hiring for a project; it's a freelancer advertising themselves."
+      }
+    },
+    {
+      "title": "Server-Side GTM, Stape, Magento 2 Tracking Specialist – Advanced GA4 & Meta CAPI",
+      "url": "https://www.freelancer.com/projects/magento/Server-Side-GTM-Stape-Magento",
+      "reason": {
+        "ar": "المشروع يتطلب متخصصاً في تتبع التجارة الإلكترونية المعقدة وتكوين Magento 2، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires a specialist in advanced e-commerce tracking and Magento 2 configuration, which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "DNS Verification Setup",
+      "url": "https://www.freelancer.com/projects/cloud-computing/DNS-Verification-Setup",
+      "reason": {
+        "ar": "المشروع يتطلب إدارة أنظمة (DNS، Google Workspace)، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires system administration (DNS, Google Workspace), which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Modern Brand Identity & Promo Designs",
+      "url": "https://www.freelancer.com/projects/adobe-illustrator/Modern-Brand-Identity-Promo-Designs",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم جرافيك وتصميم هوية العلامة التجارية، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires graphic design and brand identity design, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Long-Term GEO Reseller Partnership",
+      "url": "https://www.freelancer.com/projects/generative-engine-optimization/Long-Term-GEO-Reseller-Partnership",
+      "reason": {
+        "ar": "المشروع يتطلب خدمات تحسين محركات البحث (SEO) والتسويق باستخدام الذكاء الاصطناعي، وهو خارج نطاق قدرات Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي للاستخدام الداخلي.",
+        "en": "The project requires AI-assisted SEO and marketing services, which are outside Moe's capabilities in app development or internal AI agents."
+      }
+    },
+    {
+      "title": "Boost Cricket SEO Rankings",
+      "url": "https://www.freelancer.com/projects/google-analytics/Boost-Cricket-SEO-Rankings",
+      "reason": {
+        "ar": "المشروع يتطلب تحسين محركات البحث (SEO) والتسويق الرقمي، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires SEO and digital marketing, which are outside Moe's capabilities."
+      }
+    },
     {
       "title": "Refer Web Dev Clients, Earn 50%",
       "url": "https://www.freelancer.com/projects/web-development/Refer-Web-Dev-Clients-Earn",
@@ -127,92 +295,28 @@
         "ar": "المشروع يتطلب استخراج بيانات شاملة (Web Scraping) من Amazon، وهو خارج نطاق ما يمكن لـ Moe تقديمه.",
         "en": "The project requires comprehensive data extraction (web scraping) from Amazon, which is outside Moe's capabilities."
       }
-    },
-    {
-      "title": "Long Term Virtual Assistant Needed only- Canada & US !",
-      "url": "https://www.freelancer.com/projects/microsoft-office/Long-Term-Virtual-Assistant-Needed",
-      "reason": {
-        "ar": "هذه ليست فرصة عمل لمشروع تطوير تطبيقات، بل هي وظيفة مساعد افتراضي إدارية، وهي خارج نطاق خدمات Moe.",
-        "en": "This is not an app development project; it's an administrative virtual assistant role, which is outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "PDF-to-Word Conversion",
-      "url": "https://www.freelancer.com/projects/data-entry/PDF-Word-Conversion-40819302",
-      "reason": {
-        "ar": "المشروع يتعلق بتحويل ملفات PDF إلى Word، وهو مهمة إدخال بيانات خارج نطاق خدمات Moe.",
-        "en": "The project involves converting PDF files to Word, which is a data entry task outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Warehouse Clothing Inventory Data Entry -- 3",
-      "url": "https://www.freelancer.com/projects/visual-basic/Warehouse-Clothing-Inventory-Data-Entry-40819301",
-      "reason": {
-        "ar": "المشروع يتعلق بإدخال بيانات المخزون من أوراق مكتوبة بخط اليد إلى Excel، وهو مهمة إدخال بيانات خارج نطاق خدمات Moe.",
-        "en": "The project involves entering warehouse inventory data from handwritten sheets into Excel, which is a data entry task outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Mild Lebanese & Turkish Kebab Blends",
-      "url": "https://www.freelancer.com/projects/product-development/Mild-Lebanese-Turkish-Kebab-Blends",
-      "reason": {
-        "ar": "المشروع يتعلق بتطوير تركيبات توابل غذائية لمنتجات التجزئة، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project involves developing food spice formulations for retail products, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "Animated Kids Adventure Series",
-      "url": "https://www.freelancer.com/projects/2d-animation/Animated-Kids-Adventure-Series",
-      "reason": {
-        "ar": "المشروع يتعلق بإنشاء سلسلة رسوم متحركة للأطفال، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project involves creating an animated kids adventure series, which is outside Moe's capabilities as an app maker."
-      }
-    },
-    {
-      "title": "Animated Rhymes & Songs for Kids",
-      "url": "https://www.freelancer.com/projects/music-production/Animated-Rhymes-Songs-for-Kids",
-      "reason": {
-        "ar": "المشروع يتعلق بإنتاج أغاني وقوافي متحركة للأطفال، وهو خارج نطاق خدمات Moe كصانع تطبيقات.",
-        "en": "The project involves producing animated rhymes and songs for kids, which is outside Moe's capabilities as an app maker."
-      }
     }
   ],
   "agent": {
     "version": 2,
-    "found": 3,
-    "verified": 22,
+    "found": 0,
+    "verified": 21,
     "steps": [
       {
         "step": "memory",
-        "msg": "30 leads seen before"
-      },
-      {
-        "step": "search",
-        "msg": "global: 3 leads, 0 sources via gemini-2.5-flash"
+        "msg": "96 leads seen before"
       },
       {
         "step": "verify",
-        "msg": "dropped (404): Agentic AI SaaS Developer | AI Agent & WorkFlow Automation Fix"
-      },
-      {
-        "step": "verify",
-        "msg": "dropped (404): Build AI agent for Eko4U - Freelance Job in AI & Machine Learning"
-      },
-      {
-        "step": "verify",
-        "msg": "dropped (404): AI Full-Stack Builder / “AI Super Soldier” Developer (AI Agents, Web Apps, Business Automation)"
-      },
-      {
-        "step": "verify",
-        "msg": "3 found, 0 real and new"
+        "msg": "0 found, 0 real and new"
       },
       {
         "step": "freelancer",
-        "msg": "154 open projects from the last 5 days in US/Europe/Far East (0 skipped: other countries)"
+        "msg": "72 open projects from the last 5 days in US/Europe/Far East (211 skipped: other countries or currencies)"
       },
       {
         "step": "reddit",
-        "msg": "HTTP 403"
+        "msg": "4 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "verify",
@@ -220,11 +324,11 @@
       },
       {
         "step": "verify",
-        "msg": "22 new Freelancer projects added, 22 to judge"
+        "msg": "21 new Freelancer projects added, 21 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 21 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 21 via gemini-2.5-flash"
       }
     ]
   }
