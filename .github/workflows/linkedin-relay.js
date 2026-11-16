@@ -35,6 +35,21 @@ function run() {
     th.moveToArchive();
   });
   console.log('LinkedIn emails: ' + threads.length + ', jobs sent: ' + sent);
+  cleanup();
+}
+
+/** باقي إيميلات LinkedIn (إشعارات، مين شاف بروفايلك، اقتراحات...): بتنمحى من الوارد.
+ *  الرسائل الحقيقية من الناس (messages-noreply) ما بتنلمس. المحذوف بيضل 30 يوم بـ Trash. */
+function cleanup() {
+  const q = 'in:inbox from:linkedin.com -from:(messages-noreply@linkedin.com OR inmail-hit-reply@linkedin.com OR jobalerts-noreply@linkedin.com OR jobs-noreply@linkedin.com)';
+  let removed = 0;
+  for (let round = 0; round < 5; round++) {
+    const list = GmailApp.search(q, 0, 100);
+    if (!list.length) break;
+    GmailApp.moveThreadsToTrash(list);
+    removed += list.length;
+  }
+  console.log('LinkedIn notifications removed: ' + removed);
 }
 
 /** بيطلّع الوظائف: لكل رابط وظيفة بياخد النص اللي حواليه، والـ Agent بيفهم منه العنوان الصح */
