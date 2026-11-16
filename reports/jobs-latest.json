@@ -1,12 +1,12 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T15:56:35.902Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-16T16:11:19.638Z",
+  "model": "",
   "summary": {
-    "ar": "تم قبول فرصة عمل واحدة فقط لمحمد تتعلق بتطوير وكلاء الذكاء الاصطناعي لمشروع مفتوح المصدر. تم رفض باقي الفرص لأسباب مثل كونها خارج نطاق مهاراته، أو ليست مشاريع حقيقية، أو تتعارض مع نموذج عمله.",
-    "en": "Only one lead was accepted for Moe, related to developing AI agents for an open-source project. All other leads were rejected due to being outside his skillset, not real projects, or conflicting with his work model."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "AI Engineers: Intro Call for Open-Source Agent Cookbook",
@@ -28,8 +28,8 @@
         "ar": "يجب التأكد من أن المكالمة التمهيدية هي مجرد مناقشة وليست تقييمًا فنيًا أو مقابلة توظيف، وأن المشروع يبقى عقدًا مستقلًا دون التزام بدوام كامل.",
         "en": "Ensure the intro call is purely a discussion and not a technical assessment or job interview, and that the project remains a freelance contract without full-time commitment."
       },
-      "proposal": "I understand you're looking for AI engineers to contribute working examples to an open-source GitHub cookbook for AI agents. I'm an independent app maker focused on AI-powered Android apps and AI agent development, using AI-assisted development for my projects. I've successfully built and deployed AI features, including my own daily AI research agent, Me.ai, which uses Gemini and web search to gather information. I'm adept at designing agentic workflows and integrating APIs, which could be valuable for showcasing robust AI agent pipelines.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI'm keen to learn more about the specific types of AI agent examples you envision for the cookbook. Could you elaborate on the initial focus areas or use cases you're looking to cover?",
-      "fresh": true
+      "proposal": "I understand you're looking for AI engineers to contribute working examples to an open-source GitHub cookbook for AI agents. I've successfully built and deployed AI features, including my own daily AI research agent, Me.ai, which uses Gemini and web search to gather information. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI'm keen to learn more about the specific types of AI agent examples you envision for the cookbook. Could you elaborate on the initial focus areas or use cases you're looking to cover?",
+      "fresh": false
     },
     {
       "title": "Mobile App Developer",
@@ -51,7 +51,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I understand you're seeking a skilled Mobile App Developer to build robust mobile applications. I specialize in creating native Kotlin Android apps, leveraging AI-assisted development for efficient and high-quality results. My work includes designing, planning, directing, testing, and publishing apps, ensuring a comprehensive development cycle.\n\nFor example, my app Islam Rising is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I can integrate Firebase backends, AdMob, and Gemini AI features, and handle Google Play publishing.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the project's specific requirements and confirm if this is a freelance or contract opportunity?",
+      "proposal": "My work includes designing, planning, directing, testing, and publishing apps, ensuring a comprehensive development cycle. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nFor example, my app Islam Rising is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I can integrate Firebase backends, AdMob, and Gemini AI features, and handle Google Play publishing.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the project's specific requirements and confirm if this is a freelance or contract opportunity?",
       "fresh": false
     },
     {
@@ -74,7 +74,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I understand you're seeking an Android developer to create high-quality mobile applications. I specialize in building native Kotlin Android apps, utilizing AI-assisted development to ensure efficiency and robust performance. My process covers design, planning, direction, testing, and publishing, providing a complete development solution.\n\nMy app Peace & Conflict 24, a news dashboard with live chat and in-app billing, showcases my capability in delivering complex and interactive applications. I can integrate Firebase backends, AdMob, Gemini AI features, and manage Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the project's scope and confirm if this role is available on a freelance or contract basis?",
+      "proposal": "I understand you're seeking an Android developer to create high-quality mobile applications. My process covers design, planning, direction, testing, and publishing, providing a complete development solution. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app Peace & Conflict 24, a news dashboard with live chat and in-app billing, showcases my capability in delivering complex and interactive applications. I can integrate Firebase backends, AdMob, Gemini AI features, and manage Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the project's scope and confirm if this role is available on a freelance or contract basis?",
       "fresh": false
     },
     {
@@ -97,7 +97,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I understand you're looking for an Android Developer to bring your mobile vision to life. I focus on developing native Kotlin Android apps, employing AI-assisted development to deliver efficient and high-quality solutions. My expertise spans the entire app lifecycle, from initial design and planning to testing and successful Google Play publishing.\n\nMy app SCANIQ, featuring AI image recognition with Gemini Vision, demonstrates my ability to integrate advanced AI functionalities into mobile applications. I can also implement Firebase backends, AdMob, NFC/Wi-Fi/Bluetooth features, and ensure full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you elaborate on the specific features you envision for this project and clarify if this is a freelance or contract engagement?",
+      "proposal": "I understand you're looking for an Android Developer to bring your mobile vision to life. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app SCANIQ, featuring AI image recognition with Gemini Vision, demonstrates my ability to integrate advanced AI functionalities into mobile applications. I can also implement Firebase backends, AdMob, NFC/Wi-Fi/Bluetooth features, and ensure full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you elaborate on the specific features you envision for this project and clarify if this is a freelance or contract engagement?",
       "fresh": false
     },
     {
@@ -120,7 +120,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I am a dedicated Kotlin Developer, and I see you're seeking expertise in this area for your projects. I specialize in crafting native Kotlin Android applications, utilizing AI-assisted development to ensure efficiency and deliver high-quality results. My services cover the full development spectrum, from concept to Google Play publishing and ongoing support.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences. I am proficient in integrating Firebase backends, AdMob, and Gemini AI features, as well as handling NFC/Wi-Fi/Bluetooth functionalities.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of application or project are you looking to develop with Kotlin, and is this opportunity available on a freelance or contract basis?",
+      "proposal": "My services cover the full development spectrum, from concept to Google Play publishing and ongoing support. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of application or project are you looking to develop with Kotlin, and is this opportunity available on a freelance or contract basis?",
       "fresh": false
     },
     {
@@ -143,7 +143,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I understand you're searching for an Android Developer to contribute to your mobile initiatives. I focus on developing native Kotlin Android applications, employing AI-assisted development to ensure efficient and robust solutions. My comprehensive approach includes design, planning, testing, and successful Google Play publishing, along with rejection fixes.\n\nMy app Flicker, a native Kotlin NFC & tracker scanner, currently in closed testing, highlights my capability in developing apps with advanced hardware interaction. I can also integrate Firebase backends, AdMob, Gemini AI features, and provide full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific functionalities or integrations you require for your Android project, and is this a freelance or contract position?",
+      "proposal": "I understand you're searching for an Android Developer to contribute to your mobile initiatives. My comprehensive approach includes design, planning, testing, and successful Google Play publishing, along with rejection fixes. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app Flicker, a native Kotlin NFC & tracker scanner, currently in closed testing, highlights my capability in developing apps with advanced hardware interaction. I can also integrate Firebase backends, AdMob, Gemini AI features, and provide full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific functionalities or integrations you require for your Android project, and is this a freelance or contract position?",
       "fresh": false
     },
     {
@@ -166,7 +166,7 @@
         "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
         "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
       },
-      "proposal": "I understand you're in search of an Android Developer to help build your next mobile application. I specialize in creating native Kotlin Android apps, utilizing AI-assisted development to ensure both efficiency and high-quality outcomes. My services cover the entire development lifecycle, from initial concept to deployment on Google Play.\n\nMy personal daily AI research agent, Me.ai, built with Gemini and web search on GitHub Actions, demonstrates my ability to create sophisticated AI-powered solutions. I am adept at integrating Firebase backends, AdMob, and various Gemini AI features, including vision and smart search.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat are the key features or challenges you are looking to address with this Android project, and is this a freelance or contract opportunity?",
+      "proposal": "I understand you're in search of an Android Developer to help build your next mobile application. My services cover the entire development lifecycle, from initial concept to deployment on Google Play. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy personal daily AI research agent, Me.ai, built with Gemini and web search on GitHub Actions, demonstrates my ability to create sophisticated AI-powered solutions.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat are the key features or challenges you are looking to address with this Android project, and is this a freelance or contract opportunity?",
       "fresh": false
     },
     {
@@ -189,7 +189,7 @@
         "ar": "يجب فتح إعلان الوظيفة الكامل على LinkedIn للتأكد من أنها فرصة عمل حر/عقد وليست وظيفة بدوام كامل.",
         "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
       },
-      "proposal": "I can help you build a native Android application for your project. I specialize in developing robust and user-friendly Android apps using Kotlin, and I can integrate features like Firebase backend (login, database, push notifications) and AdMob. I use AI-assisted development to ensure efficient and high-quality code. For example, my app 'Islam Rising' is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I also handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the specific features and scope you envision for this Android application?",
+      "proposal": "I can help you build a native Android application for your project. I use AI-assisted development to ensure efficient and high-quality code. For example, my app 'Islam Rising' is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I also handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the specific features and scope you envision for this Android application?",
       "fresh": false
     },
     {
@@ -461,11 +461,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 16,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "206 leads seen before"
+        "msg": "232 leads seen before"
       },
       {
         "step": "verify",
@@ -473,7 +473,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "20 open projects from the last 5 days in US/Europe/Far East (197 skipped: other countries or currencies, 66 skipped: not app/AI work)"
+        "msg": "18 open projects from the last 5 days in US/Europe/Far East (198 skipped: other countries or currencies, 73 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -484,60 +484,16 @@
         "msg": "82 jobs from Gmail alerts (last 5 days)"
       },
       {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): Tableau Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (senior title): Senior Mobile Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (6+ years required): Senior Google Apigee API Migration Specialist"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (senior title): Senior Software Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Graduate Programme 2027: Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Graduate Programme 2027: Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Développeur Android expérimenté (H/F)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): App Developer (m/w/x)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): (Senior) Mobile Developer (w/m/d)"
+        "step": "verify",
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
-        "msg": "2 of 12 new LinkedIn jobs added"
+        "msg": "0 new Reddit posts added"
       },
       {
         "step": "verify",
-        "msg": "1 new Reddit posts added"
-      },
-      {
-        "step": "verify",
-        "msg": "13 new Freelancer projects added, 16 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 1, rejected 15 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
