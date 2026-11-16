@@ -290,6 +290,46 @@ async function freelancerFeed() {
 // ---------- Reddit r/forhire: بيوصل من موبايل Moe عن طريق Firebase ----------
 // Reddit بيسكّر على سيرفرات GitHub، فتطبيق Me.ai على الموبايل بيقرأ الـ RSS وبيرفع بوستات [Hiring] لـ /reddit
 const FIREBASE = (process.env.FIREBASE_DB || 'https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app').replace(/\/$/, '');
+// ---------- مستقل وخمسات: مشاريع عربية (عملاء الخليج وغيرهم) ----------
+const AR_SOURCES = [
+  { name: 'Mostaql', url: 'https://mostaql.com/projects?category=development&sort=latest', re: /href="(https:\/\/mostaql\.com\/project\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi },
+  { name: 'Mostaql', url: 'https://mostaql.com/projects?keyword=%D8%AA%D8%B7%D8%A8%D9%8A%D9%82&sort=latest', re: /href="(https:\/\/mostaql\.com\/project\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi },
+  { name: 'Khamsat', url: 'https://khamsat.com/community/requests', re: /href="((?:https:\/\/khamsat\.com)?\/community\/requests\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi }
+];
+const AR_RELEVANT = /تطبيق|أندرويد|اندرويد|android|موبايل|جوال|هاتف|ذكاء اصطناعي|ذكاء إصطناعي|\bai\b|بوت|شات|chat|فايربيس|firebase|play|متجر جوجل|قوقل بلاي|webview|تحويل موقع|أتمتة|وكيل/i;
+const AR_OFF = /flutter|فلاتر|react native|ios فقط|ووردبريس|wordpress|شوبيفاي|سلة|زد|تصميم شعار|لوجو|مونتاج|كتابة|ترجمة|تسويق|إعلانات ممولة/i;
+async function arabFeed() {
+  const out = new Map();
+  for (const src of AR_SOURCES) {
+    try {
+      const r = await fetch(src.url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', 'Accept-Language': 'ar,en;q=0.8' },
+        signal: AbortSignal.timeout(15000)
+      });
+      if (!r.ok) { log('arab', `${src.name}: HTTP ${r.status}`); continue; }
+      const h = await r.text();
+      let m, n = 0;
+      src.re.lastIndex = 0;
+      while ((m = src.re.exec(h))) {
+        const title = strip(m[3]).replace(/\s+/g, ' ').trim();
+        if (!title || title.length < 8 || title.length > 200) continue;
+        const url = (m[1].startsWith('http') ? m[1] : 'https://khamsat.com' + m[1]).replace(/[?#].*$/, '');
+        const key = src.name + m[2];
+        if (out.has(key)) continue;
+        n++;
+        if (!AR_RELEVANT.test(title) || AR_OFF.test(title)) continue;
+        out.set(key, { title, url, market: 'arab', platform: src.name, country: '', budget: '', posted: '', proposals: '', language: 'ar', summary: '', pageText: '' });
+      }
+      log('arab', `${src.name}: ${n} on page`);
+    } catch (e) {
+      log('arab', `${src.name}: ${e.message}`);
+    }
+  }
+  const list = [...out.values()];
+  log('arab', `${list.length} relevant Arabic projects`);
+  return list;
+}
+
 async function redditFeed() {
   const list = [];
   try {
@@ -498,6 +538,20 @@ function linkedinBlock(p) {
     return true;
   }).slice(0, 12);
   rd.forEach(l => checked.push(l));
+  // مستقل وخمسات: منقرأ صفحة كل مشروع (الوصف والميزانية) قبل الحكم
+  const ar = (await arabFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 10);
+  for (const l of ar) {
+    const pg = await page(l.url);
+    l.pageText = pg.text || '(page blocked, judge from title only)';
+    checked.push(l);
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  log('verify', `${ar.length} new Mostaql/Khamsat projects added`);
   const li = (await linkedinFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
