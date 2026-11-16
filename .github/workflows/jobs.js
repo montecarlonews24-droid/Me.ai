@@ -606,6 +606,12 @@ Respond with ONLY JSON:
   const older = [];
   for (const l of prev?.leads || []) {
     // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
+    // مكاتب التوظيف ومواقع الوظائف: منشيلها دايماً من اسم الشركة، حتى لو انفحصت قبل
+    if (l.platform === 'LinkedIn') {
+      const co = String(l.summary || '').split(' · ')[0];
+      const why0 = linkedinBlock({ company: co, type: '', level: '', title: '', text: '' });
+      if (why0) { log('linkedin', `removed old lead (${why0}): ${l.title}`); continue; }
+    }
     if (l.platform === 'LinkedIn' && !l.liChecked) {
       const full = await linkedinPost(l.url);
       const company = (full && full.company) || String(l.summary || '').split(' · ')[0];
