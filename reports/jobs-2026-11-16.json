@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T17:47:50.729Z",
-  "model": "",
+  "generatedAt": "2026-11-16T18:50:41.149Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "تم رفض جميع الفرص اليوم لأنها إما خارج نطاق قدرات Moe، أو ميزانيتها منخفضة للغاية، أو تتطلب مهارات تسويقية وليست تطوير تطبيقات.",
+    "en": "All leads today were rejected as they were either outside Moe's capabilities, had extremely low budgets, or required marketing skills rather than app development."
   },
   "fresh": 0,
   "leads": [
@@ -34,6 +34,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Remove GPS Restriction in APK",
+      "url": "https://www.freelancer.com/projects/reverse-engineering/Remove-GPS-Restriction-APK",
+      "reason": {
+        "ar": "المشروع يتطلب هندسة عكسية لملفات APK مجمعة وتعديل كود منخفض المستوى (smali/classes)، وهذا خارج نطاق قدرات Moe الحالية. بالإضافة إلى ذلك، الميزانية البالغة 10-11 دولارًا منخفضة للغاية لمثل هذه المهمة المعقدة.",
+        "en": "The project requires reverse engineering compiled Android APKs and modifying low-level code (smali/classes), which is outside Moe's current capabilities. Additionally, the budget of 10-11 USD is extremely low for such a complex task."
+      }
+    },
+    {
+      "title": "Drive IDE Sales via Social Campaign",
+      "url": "https://www.freelancer.com/projects/social-media-marketing/Drive-IDE-Sales-via-Social",
+      "reason": {
+        "ar": "هذا المشروع يتعلق بالتسويق عبر وسائل التواصل الاجتماعي وإنشاء المحتوى، وهو خارج نطاق مهارات Moe تمامًا كمطور تطبيقات وباني وكلاء ذكاء اصطناعي.",
+        "en": "This project is for social media marketing and content creation, which is completely outside Moe's skillset as an app developer and AI agent builder."
+      }
+    },
+    {
+      "title": "iOS App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478609071/",
+      "reason": {
+        "ar": "يتطلب المشروع مهندس برمجيات محمول رفيع المستوى لإنشاء بيئات تعلم معزز ومهام برمجية معقدة لتدريب نماذج الذكاء الاصطناعي. بينما يبني Moe تطبيقات مدعومة بالذكاء الاصطناعي ووكلاء ذكاء اصطناعي، فإن هذا النوع المحدد من هندسة الذكاء الاصطناعي/تعلم الآلة المتقدم لتدريب النماذج خارج قدراته الحالية.",
+        "en": "The project requires a Senior Mobile Software Engineer to create Reinforcement Learning Environments and complex coding tasks for training AI models. While Moe builds AI-powered apps and AI agents, this specific type of advanced AI/ML engineering for model training is outside his current capabilities."
+      }
+    },
     {
       "title": "Chatbot Konseling Cinta Interaktif",
       "url": "https://www.freelancer.com/projects/ai-chatbot/Chatbot-Konseling-Cinta-Interaktif",
@@ -249,36 +273,12 @@
         "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
         "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
       }
-    },
-    {
-      "title": "Commission B2B AI Sales Closer",
-      "url": "https://www.freelancer.com/projects/b2b-marketing/Commission-Sales-Closer-40819984",
-      "reason": {
-        "ar": "هذا دور مبيعات B2B قائم على العمولة فقط، وليس مشروع تطوير برمجيات.",
-        "en": "This is a commission-only B2B sales role, not a software development project."
-      }
-    },
-    {
-      "title": "Remote India Marketing & Content Interns -- 5",
-      "url": "https://www.freelancer.com/projects/internet-marketing/Remote-India-Marketing-Content-Interns-40820083",
-      "reason": {
-        "ar": "هذا تدريب داخلي للتسويق وإنشاء المحتوى، وهو خارج نطاق تطوير Moe.",
-        "en": "This is an internship for marketing and content creation, which is outside Moe's development scope."
-      }
-    },
-    {
-      "title": "Remote India Marketing & Content Interns -- 6",
-      "url": "https://www.freelancer.com/projects/internet-marketing/Remote-India-Marketing-Content-Interns-40820121",
-      "reason": {
-        "ar": "هذا تدريب داخلي للتسويق وإنشاء المحتوى، وهو خارج نطاق تطوير Moe.",
-        "en": "This is an internship for marketing and content creation, which is outside Moe's development scope."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -290,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (190 skipped: small budgets from other countries, 103 skipped: not app/AI work)"
+        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (168 skipped: small budgets from other countries, 101 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -298,11 +298,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "83 jobs from Gmail alerts (last 5 days)"
+        "msg": "84 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "1 of 1 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -310,7 +310,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "2 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       }
     ]
   }
