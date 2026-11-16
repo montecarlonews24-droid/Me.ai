@@ -292,9 +292,9 @@ async function freelancerFeed() {
 const FIREBASE = (process.env.FIREBASE_DB || 'https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app').replace(/\/$/, '');
 // ---------- مستقل وخمسات: مشاريع عربية (عملاء الخليج وغيرهم) ----------
 const AR_SOURCES = [
-  { name: 'Mostaql', url: 'https://mostaql.com/projects?category=development&sort=latest', re: /href="(https:\/\/mostaql\.com\/project\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi },
-  { name: 'Mostaql', url: 'https://mostaql.com/projects?keyword=%D8%AA%D8%B7%D8%A8%D9%8A%D9%82&sort=latest', re: /href="(https:\/\/mostaql\.com\/project\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi },
-  { name: 'Khamsat', url: 'https://khamsat.com/community/requests', re: /href="((?:https:\/\/khamsat\.com)?\/community\/requests\/(\d+)[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi }
+  { name: 'Mostaql', url: 'https://mostaql.com/projects?category=development&sort=latest', re: /href=["']((?:https?:\/\/(?:www\.)?mostaql\.com)?\/projects?\/(\d{4,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://mostaql.com' },
+  { name: 'Mostaql', url: 'https://mostaql.com/projects?keyword=%D8%AA%D8%B7%D8%A8%D9%8A%D9%82&sort=latest', re: /href=["']((?:https?:\/\/(?:www\.)?mostaql\.com)?\/projects?\/(\d{4,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://mostaql.com' },
+  { name: 'Khamsat', url: 'https://khamsat.com/community/requests', re: /href=["']((?:https?:\/\/(?:www\.)?khamsat\.com)?\/community\/requests\/(\d{3,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://khamsat.com' }
 ];
 const AR_RELEVANT = /تطبيق|أندرويد|اندرويد|android|موبايل|جوال|هاتف|ذكاء اصطناعي|ذكاء إصطناعي|\bai\b|بوت|شات|chat|فايربيس|firebase|play|متجر جوجل|قوقل بلاي|webview|تحويل موقع|أتمتة|وكيل/i;
 const AR_OFF = /flutter|فلاتر|react native|ios فقط|ووردبريس|wordpress|شوبيفاي|سلة|زد|تصميم شعار|لوجو|مونتاج|كتابة|ترجمة|تسويق|إعلانات ممولة/i;
@@ -313,14 +313,15 @@ async function arabFeed() {
       while ((m = src.re.exec(h))) {
         const title = strip(m[3]).replace(/\s+/g, ' ').trim();
         if (!title || title.length < 8 || title.length > 200) continue;
-        const url = (m[1].startsWith('http') ? m[1] : 'https://khamsat.com' + m[1]).replace(/[?#].*$/, '');
+        const url = (m[1].startsWith('http') ? m[1] : src.base + m[1]).replace(/[?#].*$/, '');
         const key = src.name + m[2];
         if (out.has(key)) continue;
         n++;
         if (!AR_RELEVANT.test(title) || AR_OFF.test(title)) continue;
         out.set(key, { title, url, market: 'arab', platform: src.name, country: '', budget: '', posted: '', proposals: '', language: 'ar', summary: '', pageText: '' });
       }
-      log('arab', `${src.name}: ${n} on page`);
+      const pageTitle = strip((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1]).slice(0, 80);
+      log('arab', `${src.name}: ${n} on page (HTTP ${r.status}, ${h.length} chars, title "${pageTitle}", ${(h.match(/\/project\/|\/requests\//g) || []).length} project links)`);
     } catch (e) {
       log('arab', `${src.name}: ${e.message}`);
     }
