@@ -1,333 +1,142 @@
 {
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T18:54:17.931Z",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T00:16:14.925Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "معظم الفرص اليوم كانت لوظائف بدوام كامل أو تتطلب خبرات غير متوفرة لدى Moe. تم الاحتفاظ بأربع فرص لتطوير تطبيقات Android مع توصية بالتحقق من طبيعة العقد.",
-    "en": "Most leads today were for full-time positions or required skills Moe does not possess. Four Android app development opportunities were kept, with a recommendation to verify the contract type."
+    "ar": "تم رفض معظم الفرص اليوم لأنها كانت إما وظائف بدوام كامل، أو تتطلب مهارات خارج نطاق Moe (مثل الموسيقى أو الأجهزة أو التحليل القانوني أو إنشاء الفيديو)، أو كانت ذات ميزانية منخفضة جدًا. تم الاحتفاظ بثلاث فرص لتطوير تطبيقات Android من LinkedIn، مع الحاجة إلى التحقق من أنها عقود عمل مستقلة.",
+    "en": "Most leads today were rejected for being full-time jobs, requiring skills outside Moe's scope (e.g., music, hardware, legal analysis, video creation), or having very low budgets. Three Android app development leads from LinkedIn were kept, with a need to verify they are freelance contracts."
   },
-  "fresh": 1,
+  "fresh": 2,
   "leads": [
     {
-      "title": "Android Developer - AI Finance Agent",
-      "url": "https://www.linkedin.com/jobs/view/4489097507/",
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4489272649/",
       "platform": "LinkedIn",
       "market": "west",
-      "country": "London Area, United Kingdom",
+      "country": "Zurich, Zurich, Switzerland",
       "budget": "",
-      "posted": "2 days ago",
+      "posted": "2 hours ago",
       "proposals": "",
       "language": "en",
-      "summary": "Doit · London Area, United Kingdom",
+      "summary": "Oliver James · Zurich, Zurich, Switzerland",
       "fit": 7,
       "why": {
-        "ar": "يتوافق هذا المشروع بشكل ممتاز مع قدرات Moe في تطوير تطبيقات Android ودمج ميزات الذكاء الاصطناعي (Gemini AI)، خاصة بناء وكيل ذكاء اصطناعي. لندن منطقة مفضلة للعملاء.",
-        "en": "This project aligns perfectly with Moe's capabilities in Android app development and integrating Gemini AI features, specifically building an AI agent. London is a preferred client region."
+        "ar": "المشروع يطلب مطور أندرويد، وهو صلب تخصص Moe. الموقع (سويسرا) من الأسواق المفضلة.",
+        "en": "The project requests an Android Developer, which is Moe's core specialization. The location (Switzerland) is a preferred market."
       },
       "watch": {
-        "ar": "يجب التحقق من أن هذا المنصب هو عقد عمل حر (freelance/contract) وليس وظيفة بدوام كامل في شركة.",
-        "en": "Must verify that this is a freelance/contract position and not a full-time staff role at a company."
+        "ar": "يجب فتح إعلان الوظيفة الكامل على LinkedIn للتأكد من أنها فرصة عمل حر/عقد وليست وظيفة بدوام كامل.",
+        "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
       },
-      "proposal": "I understand you're looking for an Android Developer to build an AI Finance Agent. My expertise lies in creating native Android apps with integrated AI features, perfect for this kind of project. I design, plan, direct, test, and publish Android apps, using AI tools to assist with code development. For example, my SCANIQ app uses Gemini Vision for AI image recognition. I can build your finance agent with Gemini AI capabilities and handle Google Play publishing.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific financial tasks the AI agent would perform?",
+      "proposal": "I can help you build a native Android application for your project. I specialize in developing robust and user-friendly Android apps using Kotlin, and I can integrate features like Firebase backend (login, database, push notifications) and AdMob. I use AI-assisted development to ensure efficient and high-quality code. For example, my app 'Islam Rising' is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I also handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the specific features and scope you envision for this Android application?",
       "fresh": true
     },
     {
-      "title": "Buat Aplikasi Komunitas Android",
-      "url": "https://www.freelancer.com/projects/android-app-development/Buat-Aplikasi-Komunitas-Android",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "250-750 USD",
-      "posted": "less than an hour ago",
-      "proposals": "31",
+      "title": "Android App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478602515/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "United States",
+      "budget": "",
+      "posted": "4 hours ago",
+      "proposals": "",
       "language": "en",
-      "summary": "Saya ingin membangun sebuah aplikasi komunitas atau sosial khusus untuk perangkat Android. Aplikasi ini harus memungkinkan pengguna membuat profil, bergabung atau membuat grup, berbagi postingan (teks, foto, dan video si",
-      "fit": 8,
+      "summary": "YO HR Consultancy · United States",
+      "fit": 7,
       "why": {
-        "ar": "المشروع يطلب تطبيق أندرويد أصلي (Native Kotlin) مع ميزات مجتمعية مثل ملفات تعريف المستخدمين والمجموعات والمشاركات والإشعارات الفورية، وكلها يمكن تنفيذها باستخدام Firebase. Moe متخصص في تطبيقات أندرويد الأصلية وFirebase ولديه خبرة في الميزات المجتمعية. كما أنه يستخدم التطوير بمساعدة الذكاء الاصطناعي لزيادة الكفاءة.",
-        "en": "The project requests a native Kotlin Android community app with features like user profiles, groups, posts, and real-time notifications, all of which can be implemented using Firebase. Moe specializes in native Android apps and Firebase, and has experience with community features. He also uses AI-assisted development for efficiency."
+        "ar": "المشروع يطلب مطور تطبيقات أندرويد، وهو يتناسب تمامًا مع مهارات Moe. العمل عن بعد والموقع في الولايات المتحدة الأمريكية مرغوب فيهما.",
+        "en": "The project requests an Android App Developer, which aligns perfectly with Moe's skills. The remote nature and US location are highly desirable."
       },
       "watch": {
-        "ar": "الميزانية (250-750 دولارًا أمريكيًا) قد تكون منخفضة قليلاً بالنسبة لنطاق تطبيق مجتمعي كامل مع تحميل الوسائط والإشعارات في الوقت الفعلي، لذا يجب إدارة توقعات العميل بشأن نطاق MVP. كما أن ذكر React Native كخيار قد يكون علامة حمراء، لكن Kotlin هو الخيار المفضل لموي.",
-        "en": "The budget ($250-750 USD) might be a bit low for the full scope of a community app with media uploads and real-time notifications, so client expectations for an MVP need to be managed. The mention of React Native as an option is a slight red flag, but Kotlin is also explicitly offered and is Moe's preference."
+        "ar": "يجب فتح إعلان الوظيفة الكامل على LinkedIn للتأكد من أنها فرصة عمل حر/عقد وليست وظيفة بدوام كامل.",
+        "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
       },
-      "proposal": "I understand you're looking to develop a dedicated Android community application, enabling users to create profiles, join groups, share content, and receive real-time notifications. My focus is on building robust native Kotlin Android apps with efficient Firebase backends for features like user authentication, database management, and push notifications. I leverage AI-assisted development to streamline the coding process, ensuring a high-quality product. For instance, my app Peace & Conflict 24 includes a news dashboard and live chat, demonstrating experience with community-focused features. I can deliver your app with a simple, modern UI/UX and a basic admin dashboard as requested.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific types of media users will be able to upload, and if there are any particular content moderation rules you envision for the admin dashboard?",
-      "fresh": false
-    },
-    {
-      "title": "MySQL Mobile Number Export",
-      "url": "https://www.freelancer.com/projects/data-extraction/MySQL-Mobile-Number-Export",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "12500-37500 INR",
-      "posted": "less than an hour ago",
-      "proposals": "22",
-      "language": "en",
-      "summary": "I need a specialist who can connect to our Android app’s MySQL backend and extract only the authorised users’ mobile numbers. Once pulled, the data has to be organised cleanly into both a CSV file and an Excel spreadshee",
-      "fit": 6,
-      "why": {
-        "ar": "المشروع يتضمن التعامل مع قاعدة بيانات مرتبطة بتطبيق أندرويد، وهو مجال يمكن لـ Moe التعامل معه بفضل خبرته في Firebase وتطوير التطبيقات المدعوم بالذكاء الاصطناعي لاستخراج البيانات.",
-        "en": "The project involves interacting with an Android app's backend database, a task Moe can handle given his Firebase experience and AI-assisted development for data extraction."
-      },
-      "watch": {
-        "ar": "يجب الانتباه إلى أن المشروع يطلب التعامل مع MySQL بينما خبرة Moe الأساسية في Firebase. كما أن الميزانية منخفضة نسبياً لمهمة حساسة تتعلق بقاعدة البيانات.",
-        "en": "Note that the project specifically requests MySQL interaction, whereas Moe's primary backend experience is with Firebase. The budget is also relatively low for a critical database task."
-      },
-      "proposal": "I understand you need a specialist to securely extract authorized mobile numbers from your Android app's MySQL backend and format them into CSV and Excel files. My expertise lies in building robust Android apps with AI-assisted development, including backend integration for data management. While my primary backend experience is with Firebase, I am adept at database interaction and can leverage AI tools to ensure precise and secure MySQL data extraction, adhering to your strict accuracy and security requirements. For instance, my 'Islam Rising' app manages user worship data across 177 countries, demonstrating my capability in handling sensitive user information and backend operations.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details on the specific MySQL version and the schema of the user table from which the numbers need to be extracted?",
-      "fresh": false
+      "proposal": "I can develop a native Android application tailored to your needs. I build Android apps using Kotlin, leveraging AI-assisted development for efficiency and quality. My services include Firebase backend integration (login, database, push notifications), AdMob, and full Google Play publishing support. My app 'Peace & Conflict 24' is a news dashboard with live chat and in-app billing, showcasing my capability to deliver complex features. I also ensure full RTL support for Arabic and English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of app are you looking to build, and what are its key functionalities?",
+      "fresh": true
     }
   ],
   "rejected": [
     {
-      "title": "VirtualDJ Crossfader & Audio Fix",
-      "url": "https://www.freelancer.com/projects/audio-engineering/VirtualDJ-Crossfader-Audio-Fix",
+      "title": "WOWLS! vs Unicorns - Anime Fans and Gamers Needed",
+      "url": "https://www.freelancer.com/projects/game-testing/WOWLS-Unicorns-Anime-Fans-Gamers",
       "reason": {
-        "ar": "المشروع يتعلق بإعدادات برامج سطح المكتب وأنظمة الصوت، وليس تطوير تطبيقات Android. الميزانية منخفضة جداً.",
-        "en": "The project is about desktop software settings and audio systems, not Android app development. Budget is very low."
+        "ar": "هذا المشروع عبارة عن مهمة اختبار ألعاب وليس طلبًا حقيقيًا لعميل يوظف لتطوير تطبيق. الميزانية منخفضة جدًا (10-30 دولارًا أمريكيًا).",
+        "en": "This project is a game testing gig and not a real request from a client hiring for app development. The budget is very low ($10-30 USD)."
       }
     },
     {
-      "title": "U.S. Junior Developer Needed",
-      "url": "https://www.freelancer.com/projects/software-development/Junior-Developer-Needed",
+      "title": "AI Workflow for Bollywood Reprises",
+      "url": "https://www.freelancer.com/projects/ai-audio-to-audio/Workflow-for-Bollywood-Reprises",
       "reason": {
-        "ar": "الفرصة لوظيفة بدوام كامل طويلة الأجل في فريق، وتتطلب الإقامة في الولايات المتحدة، وهو ما لا يتوافق مع ملف Moe.",
-        "en": "This is a long-term full-time staff position within a team, requiring US residency, which does not fit Moe's profile."
+        "ar": "المشروع عبارة عن استشارة في إنتاج الموسيقى بالذكاء الاصطناعي، وليس تطوير تطبيقات مدعومة بالذكاء الاصطناعي أو بناء وكلاء ذكاء اصطناعي. الميزانية منخفضة جدًا (10-30 دولارًا أمريكيًا).",
+        "en": "The project is an AI music production consultation, not AI-powered app development or AI agent building. The budget is very low ($10-30 USD)."
       }
     },
     {
-      "title": "Integration Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4488993892/",
+      "title": "Proximity Sensor Kiosk Activation Solution",
+      "url": "https://www.freelancer.com/projects/automation/Proximity-Sensor-Kiosk-Activation",
       "reason": {
-        "ar": "المنصب هو 'Integration Engineer' وهو عادةً وظيفة مهندس بدوام كامل في شركة، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Integration Engineer' typically implies a full-time staff engineering role, which does not align with Moe's freelance work."
+        "ar": "المشروع يتطلب تصميم وتطوير حل مستشعر تقارب للأجهزة/الإلكترونيات لكشك، وهو خارج نطاق قدرات Moe في تطوير تطبيقات Android.",
+        "en": "The project requires designing and developing a hardware/electronics proximity sensor solution for a kiosk, which is outside Moe's Android app development capabilities."
       }
     },
     {
-      "title": "Senior Mobile Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489844996/",
+      "title": "US/EU News Monitoring Legal Analysis",
+      "url": "https://www.freelancer.com/projects/ai-compliance/News-Monitoring-Legal-Analysis",
       "reason": {
-        "ar": "المنصب هو 'Senior Mobile Engineer' وهو دور قيادي/كبير ووظيفة مهندس بدوام كامل، ولا يتوافق مع ملف Moe.",
-        "en": "The title 'Senior Mobile Engineer' is a senior-level, full-time engineering position, which does not fit Moe's profile."
+        "ar": "المشروع يتطلب تحليلًا قانونيًا وبحثًا، وليس تطوير تطبيقات أو بناء وكلاء ذكاء اصطناعي، وهو خارج نطاق قدرات Moe.",
+        "en": "The project requires legal research and analysis, not app development or AI agent building, and is outside Moe's capabilities."
       }
     },
     {
-      "title": "Junior Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489852616/",
+      "title": "AI Video Creation",
+      "url": "https://www.freelancer.com/projects/ai-video/Video-Creation-40819727",
       "reason": {
-        "ar": "المنصب هو 'Junior Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Junior Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
+        "ar": "المشروع يتعلق بإنشاء فيديو باستخدام أدوات الذكاء الاصطناعي، وليس بناء تطبيق مدعوم بالذكاء الاصطناعي أو وكيل ذكاء اصطناعي. تتطلب مهارات في إنتاج الفيديو والرسوم المتحركة غير متوفرة لدى Moe.",
+        "en": "The project is about creating a video using AI tools, not building an AI-powered app or AI agent. It requires skills in video production and animation that Moe does not possess."
       }
     },
     {
-      "title": "AI Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489856283/",
+      "title": "Senior Software Engineer for SaaS Platform",
+      "url": "https://www.freelancer.com/projects/devops/Senior-Software-Engineer-for-SaaS",
       "reason": {
-        "ar": "المنصب هو 'AI Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'AI Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489857234/",
-      "reason": {
-        "ar": "المنصب هو 'Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Odoo Migration & Customisation Consultant",
-      "url": "https://www.linkedin.com/jobs/view/4489860401/",
-      "reason": {
-        "ar": "يتطلب المشروع خبرة في Odoo، وهي تقنية لا يستخدمها Moe.",
-        "en": "The project requires expertise in Odoo, a technology Moe does not use."
-      }
-    },
-    {
-      "title": "Web Developer & SEO Specilist",
-      "url": "https://www.linkedin.com/jobs/view/4488278985/",
-      "reason": {
-        "ar": "المشروع يتطلب مطور ويب ومتخصص SEO، وهو خارج نطاق تخصص Moe في تطبيقات Android ووكلاء الذكاء الاصطناعي.",
-        "en": "The project requires a Web Developer and SEO Specialist, which is outside Moe's focus on Android apps and AI agents."
-      }
-    },
-    {
-      "title": "Game Developer – Godot Engine (Remote | $70–$130/hr)",
-      "url": "https://www.linkedin.com/jobs/view/4488288447/",
-      "reason": {
-        "ar": "يتطلب المشروع محرك Godot، وهي تقنية لا يستخدمها Moe. كما أن Moe لا يعمل على ألعاب تتجاوز الألعاب البسيطة.",
-        "en": "The project requires the Godot Engine, a technology Moe does not use. Moe also does not work on games beyond simple casual ones."
-      }
-    },
-    {
-      "title": "Game Development Engineer – Godot (Remote | $70–$130/hr)",
-      "url": "https://www.linkedin.com/jobs/view/4488288456/",
-      "reason": {
-        "ar": "يتطلب المشروع محرك Godot، وهي تقنية لا يستخدمها Moe. كما أن Moe لا يعمل على ألعاب تتجاوز الألعاب البسيطة.",
-        "en": "The project requires the Godot Engine, a technology Moe does not use. Moe also does not work on games beyond simple casual ones."
-      }
-    },
-    {
-      "title": "Junior Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489062698/",
-      "reason": {
-        "ar": "المنصب هو 'Junior Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Junior Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "AI Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4489078157/",
-      "reason": {
-        "ar": "المنصب هو 'AI Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'AI Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Java Full Stack Developer",
-      "url": "https://www.linkedin.com/jobs/view/4489246888/",
-      "reason": {
-        "ar": "يتطلب المشروع مطور Java Full Stack، وهي مجموعة تقنيات لا يتخصص فيها Moe.",
-        "en": "The project requires a Java Full Stack Developer, which is a technology stack Moe does not specialize in."
-      }
-    },
-    {
-      "title": "Salesforce Developer - Arabic Speaker",
-      "url": "https://www.linkedin.com/jobs/view/4490095591/",
-      "reason": {
-        "ar": "يتطلب المشروع مطور Salesforce، وهي تقنية لا يستخدمها Moe.",
-        "en": "The project requires a Salesforce Developer, a technology Moe does not use."
-      }
-    },
-    {
-      "title": "Senior Android Video Player Engineer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4488249865/",
-      "reason": {
-        "ar": "المنصب هو 'Senior Android Video Player Engineer' وهو دور قيادي/كبير ووظيفة مهندس بدوام كامل، ولا يتوافق مع ملف Moe.",
-        "en": "The title 'Senior Android Video Player Engineer' is a senior-level, full-time engineering position, which does not fit Moe's profile."
-      }
-    },
-    {
-      "title": "(Junior) Mobile App Developer (m/w/d) Android",
-      "url": "https://www.linkedin.com/jobs/view/4488270063/",
-      "reason": {
-        "ar": "المنصب هو '(Junior) Mobile App Developer (m/w/d) Android' وهو على الأرجح وظيفة بدوام كامل في شركة، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title '(Junior) Mobile App Developer (m/w/d) Android' likely indicates a full-time staff position at a company, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4488504272/",
-      "reason": {
-        "ar": "المنصب هو 'Android Developer' وهو على الأرجح وظيفة بدوام كامل في شركة، ولا يتوافق مع عمل Moe المستقل. المنطقة (كيب تاون) ليست من المناطق المفضلة.",
-        "en": "The title 'Android Developer' likely indicates a full-time staff position at a company, which does not align with Moe's freelance work. The region (Cape Town) is not a preferred one."
-      }
-    },
-    {
-      "title": "Android Software Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4489077361/",
-      "reason": {
-        "ar": "المنصب هو 'Android Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Android Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Mobile Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4459813384/",
-      "reason": {
-        "ar": "المنصب هو 'Mobile Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Mobile Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
+        "ar": "هذه وظيفة بدوام كامل أو وظيفة دائمة في شركة (العنوان يتضمن \"مهندس أول\" و\"خبرة 5+ سنوات\" وتتطلب العمل ضمن فريق)، وهو ما لا يناسب Moe.",
+        "en": "This is a full-time or staff job at a company (title includes \"Senior Engineer\" and \"5+ years experience\" and requires working with a team), which does not fit Moe."
       }
     },
     {
       "title": "Senior Mobile Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4488691421/",
+      "url": "https://www.linkedin.com/jobs/view/4490232112/",
       "reason": {
-        "ar": "المنصب هو 'Senior Mobile Engineer' وهو دور قيادي/كبير ووظيفة مهندس بدوام كامل، ولا يتوافق مع ملف Moe.",
-        "en": "The title 'Senior Mobile Engineer' is a senior-level, full-time engineering position, which does not fit Moe's profile."
+        "ar": "هذه وظيفة بدوام كامل أو وظيفة دائمة في شركة (العنوان يتضمن \"مهندس أول\").",
+        "en": "This is a full-time or staff job at a company (title includes \"Senior Mobile Engineer\")."
       }
     },
     {
-      "title": "Senior Frontend Developer",
-      "url": "https://www.linkedin.com/jobs/view/4488663625/",
+      "title": "Software Engineer - Android, IKEA App [Amsterdam]",
+      "url": "https://www.linkedin.com/jobs/view/4489974682/",
       "reason": {
-        "ar": "المنصب هو 'Senior Frontend Developer' وهو دور قيادي/كبير ولا يتوافق مع ملف Moe. كما أن تطوير الواجهات الأمامية ليس تخصص Moe الأساسي.",
-        "en": "The title 'Senior Frontend Developer' is a senior-level role and does not fit Moe's profile. Frontend development is also not Moe's primary specialization."
+        "ar": "هذه وظيفة بدوام كامل أو وظيفة دائمة في شركة (العنوان يتضمن \"مهندس برمجيات\").",
+        "en": "This is a full-time or staff job at a company (title includes \"Software Engineer\")."
       }
     },
     {
-      "title": "SAP CDP Technical Development & Integration Consultant - Dubai",
-      "url": "https://www.linkedin.com/jobs/view/4487895823/",
+      "title": "Mobile Developer",
+      "url": "https://www.linkedin.com/jobs/view/4485222997/",
       "reason": {
-        "ar": "يتطلب المشروع خبرة في SAP CDP، وهي تقنية لا يستخدمها Moe.",
-        "en": "The project requires expertise in SAP CDP, a technology Moe does not use."
-      }
-    },
-    {
-      "title": "Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4488651679/",
-      "reason": {
-        "ar": "المنصب هو 'Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Junior Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4488651771/",
-      "reason": {
-        "ar": "المنصب هو 'Junior Software Engineer' وهو وظيفة مهندس بدوام كامل، ولا يتوافق مع عمل Moe المستقل.",
-        "en": "The title 'Junior Software Engineer' is a full-time engineering position, which does not align with Moe's freelance work."
-      }
-    },
-    {
-      "title": "Dynamics 365 Customer Service Technical Lead",
-      "url": "https://www.linkedin.com/jobs/view/4488671648/",
-      "reason": {
-        "ar": "المنصب هو 'Dynamics 365 Customer Service Technical Lead' وهو دور قيادي ويتطلب خبرة في Dynamics 365، وهي تقنيات لا يستخدمها Moe.",
-        "en": "The title 'Dynamics 365 Customer Service Technical Lead' is a lead role and requires expertise in Dynamics 365, technologies Moe does not use."
-      }
-    },
-    {
-      "title": "Real-Time 3D / Unreal Engine Developer",
-      "url": "https://www.linkedin.com/jobs/view/4489906734/",
-      "reason": {
-        "ar": "يتطلب المشروع محرك Unreal Engine، وهي تقنية لا يستخدمها Moe. كما أن Moe لا يعمل على ألعاب تتجاوز الألعاب البسيطة.",
-        "en": "The project requires the Unreal Engine, a technology Moe does not use. Moe also does not work on games beyond simple casual ones."
-      }
-    },
-    {
-      "title": "Red Hat OpenShift AI Engineers",
-      "url": "https://www.linkedin.com/jobs/view/4489934201/",
-      "reason": {
-        "ar": "المنصب هو 'Red Hat OpenShift AI Engineers' وهو وظيفة مهندس بدوام كامل ويتطلب خبرة في Red Hat OpenShift، وهي تقنيات DevOps/سيرفرات لا يعمل عليها Moe.",
-        "en": "The title 'Red Hat OpenShift AI Engineers' is a full-time engineering position and requires expertise in Red Hat OpenShift, which are DevOps/server technologies Moe does not work with."
-      }
-    },
-    {
-      "title": "Junior Application Developer",
-      "url": "https://www.linkedin.com/jobs/view/4461557190/",
-      "reason": {
-        "ar": "المنصب هو 'Junior Application Developer' وهو على الأرجح وظيفة بدوام كامل في شركة، ويتطلب العمل من الموقع (On-site)، وهو ما لا يتوافق مع عمل Moe المستقل عن بعد.",
-        "en": "The title 'Junior Application Developer' likely indicates a full-time staff position at a company and requires on-site work, which does not align with Moe's remote freelance work."
-      }
-    },
-    {
-      "title": "Web Developer & Marketing Technology Specialist - Arabic Speaker",
-      "url": "https://www.linkedin.com/jobs/view/4475573651/",
-      "reason": {
-        "ar": "المشروع يتطلب مطور ويب ومتخصص في تكنولوجيا التسويق، وهو خارج نطاق تخصص Moe في تطبيقات Android ووكلاء الذكاء الاصطناعي.",
-        "en": "The project requires a Web Developer and Marketing Technology Specialist, which is outside Moe's focus on Android apps and AI agents."
+        "ar": "تقييمها 6 من 10، أقل من الحد (7). من الضروري فتح إعلان الوظيفة الكامل على LinkedIn للتأكد من أنه مخصص لتطوير Android فقط وأنه فرصة عمل حر/عقد، وليس وظيفة بدوام كامل أو يتطلب iOS/Flutter/React Native/Swift.",
+        "en": "Fit 6/10, below the 7 threshold. Crucially, open the full job post on LinkedIn to confirm it is for Android-only development and is a freelance/contract opportunity, not a full-time employee role or requiring iOS/Flutter/React Native/Swift."
       }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 42,
+    "verified": 11,
     "steps": [
       {
         "step": "memory",
-        "msg": "134 leads seen before"
+        "msg": "176 leads seen before"
       },
       {
         "step": "verify",
@@ -335,7 +144,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "22 open projects from the last 5 days in US/Europe/Far East (197 skipped: other countries or currencies, 103 skipped: not app/AI work)"
+        "msg": "21 open projects from the last 5 days in US/Europe/Far East (158 skipped: other countries or currencies, 124 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -343,11 +152,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "56 jobs from Gmail alerts (last 5 days)"
+        "msg": "60 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "verify",
-        "msg": "40 new LinkedIn jobs added"
+        "msg": "5 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -355,11 +164,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 42 to judge"
+        "msg": "6 new Freelancer projects added, 11 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 41 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 9 via gemini-2.5-flash"
       }
     ]
   }
