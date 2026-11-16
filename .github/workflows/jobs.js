@@ -177,7 +177,7 @@ const clean = u => String(u || '').trim().replace(/[?#].*$/, '').replace(/\/+$/,
 
 const ABOUT = `Moe (Mohammad) is an independent app maker in Amman, Jordan (brand: Monte-Carlo24). He builds AI-powered Android apps with AI-assisted development: he designs, plans, directs, tests and publishes; AI tools help write the code. He works from a phone, alone.
 Proven, live work:
-- 4 apps live on Google Play: Peace & Conflict 24 (news dashboard, live chat, in-app billing), Islam Rising (worship tracker used in 177 countries), SCANIQ (AI image recognition with Gemini Vision), STACK! Tower Rush (casual game)
+- 4 apps live on Google Play: Peace & Conflict 24 (news dashboard with live chat; in-app billing is built but not switched on yet, so never cite billing as proof), Islam Rising (worship tracker used in 177 countries), SCANIQ (AI image recognition with Gemini Vision), STACK! Tower Rush (casual game)
 - Flicker: native Kotlin NFC & tracker scanner (Bluetooth/Wi-Fi/NFC), in closed testing
 - Me.ai: his own daily AI research agent (Gemini + web search on GitHub Actions, no server) with a native Android app
 What he CAN deliver: Android apps (native Kotlin or hybrid WebView), website-to-app, Firebase backend (login, database, push), AdMob, Gemini AI features (vision, chat, smart search), NFC/Wi-Fi/Bluetooth features, daily AI research/monitoring agents, Google Play publishing and rejection fixes, Arabic + English apps with full RTL.
@@ -186,17 +186,18 @@ Languages: Arabic (native) and English.
 Portfolio link (all his live apps on Google Play): https://play.google.com/store/apps/developer?id=MonteCarlo+News24`;
 
 const RULES = `REJECT a lead if ANY of these is true:
+- It is posted by a recruitment agency, staffing firm or job board (they want an employee with a CV and interviews), unless the post clearly says contract or freelance for a defined project.
 - It is a full-time or staff job at a company (titles with Senior, Staff, Lead, Engineer, "X years experience", interviews, relocation, salary per year).
 - It requires iOS / App Store, Flutter, React Native, Swift, or working inside an existing large codebase.
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
 - For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
-- The project text is not in English (for example Indonesian, Spanish, Hindi, Portuguese): Moe targets English-speaking clients in the USA, Europe, Far East and Australia.
+- The project text is not in English or Arabic (for example Indonesian, Spanish, Hindi, Portuguese, Chinese). Arabic projects are welcome (Gulf clients); write those proposals in Arabic.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe is targeting clients in the USA, Europe, Far East and Australia (they pay more). Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
+IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe is targeting clients in the USA, Europe, Far East, Australia and the Gulf (they pay more), plus any country when the budget is 250 USD or more. Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -211,9 +212,11 @@ const ago = sec => {
 };
 const WEST = ['United States', 'Canada', 'United Kingdom', 'Ireland', 'Germany', 'France', 'Netherlands', 'Belgium', 'Luxembourg', 'Switzerland', 'Austria', 'Italy', 'Spain', 'Portugal', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Iceland', 'Poland', 'Czech Republic', 'Czechia', 'Estonia', 'Lithuania', 'Latvia', 'Slovenia', 'Malta', 'Cyprus', 'Greece'];
 const EAST = ['Singapore', 'Japan', 'Hong Kong', 'South Korea', 'Korea, Republic of', 'Taiwan', 'Malaysia', 'Australia', 'New Zealand'];
-const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : '';
+const GULF = ['Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'];
+const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : GULF.includes(c) ? 'arab' : '';
+const MIN_ANY_USD = 250; // أي بلد تاني: بس إذا الميزانية من 250 دولار وفوق
 // عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
-const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east' };
+const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
 let skippedRegion = 0;
 let skippedSkill = 0;
 const RELEVANT = /android|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
@@ -234,10 +237,14 @@ async function freelancerFeed() {
         const owner = users[p.owner_id] || users[String(p.owner_id)] || {};
         const country = owner?.location?.country?.name || '';
         const region = regionOf(country);
-        if (country && !region) { skippedRegion++; continue; }
         const curCode = p.currency?.code || 'USD';
-        if (!(curCode in CUR_REGION)) { skippedRegion++; continue; }   // INR, IDR, PKR, ...
-        const guessedRegion = region || CUR_REGION[curCode];
+        // الميزانية بالدولار (Freelancer بيعطي سعر الصرف مع كل مشروع)
+        const rate = Number(p.currency?.exchange_rate) || (curCode === 'USD' ? 1 : 0);
+        const usdMin = (Number(p.budget?.minimum) || 0) * rate;
+        const richBudget = usdMin >= MIN_ANY_USD && p.type !== 'hourly';
+        const okPlace = country ? !!region : (curCode in CUR_REGION);
+        if (!okPlace && !richBudget) { skippedRegion++; continue; }   // INR, IDR, PKR بميزانيات صغيرة
+        const guessedRegion = region || CUR_REGION[curCode] || '';
         const age = Date.now() / 1000 - (p.time_submitted || 0);
         if (age > 5 * 86400) continue;                       // آخر 5 أيام بس
         const bids = p.bid_stats?.bid_count ?? 0;
@@ -270,7 +277,7 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
-  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East (${skippedRegion} skipped: other countries or currencies, ${skippedSkill} skipped: not app/AI work)`);
+  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (${skippedRegion} skipped: small budgets from other countries, ${skippedSkill} skipped: not app/AI work)`);
   return list;
 }
 
@@ -359,9 +366,15 @@ async function linkedinFeed() {
 
 // أي جملة بالعرض فيها مبالغة عن مهاراته بتنشال، حتى لو الموديل تجاهل التعليمات
 const BRAG = /\b(adept|expert|expertise|specializ\w*|specialis\w*|specialist|focus(?:ed|es)? on|skilled|seasoned|proficient|extensive experience|years of experience)\b/i;
+// نفس الفكرة لخانة "ليش بتناسبك": بنشيل جمل المبالغة
+const BRAG_WHY = /تخصص|خبير|خبرة واسعة|متمرس|محترف|أصلية بـ ?Kotlin|بـ ?Kotlin|يتناسب تمام|specializ|expert|native Kotlin/i;
+function honestWhy(t) {
+  const kept = String(t || '').split(/(?<=[.!؟?])\s+/).filter(s => !BRAG_WHY.test(s)).join(' ').trim();
+  return kept || '';
+}
 function honest(p) {
-  const lines = String(p).split(/\n/).map(line =>
-    line.split(/(?<=[.!?])\s+/).filter(s => !BRAG.test(s)).join(' ')
+  const lines = String(p).replace(/,?\s*(and\s+)?in-app billing/gi, '').split(/\n/).map(line =>
+    line.split(/(?<=[.!?])\s+/).filter(s => !BRAG.test(s) && !(/kotlin/i.test(s) && !/flicker/i.test(s))).join(' ')
   );
   // إذا انشالت الجملة اللي بتحكي إنه بيشتغل بمساعدة AI، منرجّعها
   if (/AI-assisted/i.test(p) && !lines.some(l => /AI-assisted/i.test(l))) {
@@ -404,8 +417,13 @@ async function linkedinPost(url) {
   }
 }
 // أسباب واضحة نشيل فيها الإعلان بدون ما نصرف على الحكم
+// مكاتب توظيف ومواقع بتعيد نشر الوظائف: بدهم موظف وCV ومقابلات، مش فريلانسر
+const AGGREGATOR = /hiredbuddy|jobgether|jobot|lensa|talent\.com|jooble|dice\b|crossover|braintrust|toptal|turing/i;
+const AGENCY = /recruit|staffing|talent|consultan|\bhr\b|personnel|resourcing|search partners|oliver james|thornton gregory|emagine|hays|randstad|adecco|robert half|michael page|harnham/i;
 function linkedinBlock(p) {
   if (p.closed) return 'closed';
+  if (AGGREGATOR.test(p.company || '')) return `job board (${p.company})`;
+  if (AGENCY.test(p.company || '') && !/contract|freelance|temporary/i.test(p.type || '')) return `recruitment agency (${p.company})`;
   if (/full-time/i.test(p.type)) return 'full-time';
   if (/director|executive/i.test(p.level)) return p.level;
   const yrs = [...p.text.matchAll(/(\d{1,2})\s*\+?\s*(?:-\s*\d{1,2}\s*)?years?/gi)].map(m => Number(m[1])).filter(n => n >= 3 && n <= 20);
@@ -484,6 +502,7 @@ function linkedinBlock(p) {
       if (why) { log('linkedin', `skipped (${why}): ${full.title || l.title}`); skipped.push(clean(l.url)); continue; }
       if (full.title) l.title = full.title;
       if (full.company) l.summary = [full.company, l.country].filter(Boolean).join(' · ');
+      l.liChecked = true;
       l.pageText = `LinkedIn job post. Employment type: ${full.type || 'unknown'}. Seniority: ${full.level || 'unknown'}.\n${full.text}`;
     }
     checked.push(l);
@@ -508,9 +527,11 @@ ${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, pageText: l.pageText || '
 
 IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it shows the page is NOT a client hiring a freelancer for a project (for example a course, a training session, a tutorial, an article, a product or SaaS page, a job board or list of vacancies, a company careers page, or a freelancer's own service), REJECT it, whatever its title says. If the page shows the project is closed or expired, REJECT it. Prefer budget, posted date and proposals count from pageText when present.
 
+In why_ar / why_en, say plainly which of his live apps or skills matches. Never call anything his specialty, never say he builds native Kotlin apps (only Flicker, in testing), never say it "fits him perfectly".
+
 For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
-- 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE relevant live app of Moe's as proof.
+- 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE live app of Moe's as proof, the one closest to the client's need (AI or camera -> SCANIQ; agents, automation or research -> Me.ai; NFC, Bluetooth or native Kotlin -> Flicker, saying it is in testing; Arabic, RTL or big audience -> Islam Rising; news, chat or dashboards -> Peace & Conflict 24; STACK! only for games).
 - Be honest: say he builds with AI-assisted development. Never promise approval by Google.
 - Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His 4 live apps are hybrid (WebView + Firebase); native Kotlin is new for him (Flicker, still in testing). If Kotlin matters to the client, say plainly: "my newest app, Flicker, is native Kotlin and is in testing on Google Play". Never present native Kotlin as his main experience.
 - Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
@@ -540,9 +561,10 @@ Respond with ONLY JSON:
           proposals: l.proposals || '', language: l.language === 'ar' ? 'ar' : 'en',
           summary: l.summary || '',
           fit: Math.max(0, Math.min(10, num(k.fit))),
-          why: { ar: k.why_ar || '', en: k.why_en || '' },
+          why: { ar: honestWhy(k.why_ar), en: honestWhy(k.why_en) },
           watch: { ar: k.watch_ar || '', en: k.watch_en || '' },
-          proposal: honest(k.proposal || '')
+          proposal: honest(k.proposal || ''),
+          ...(l.liChecked ? { liChecked: true } : {})
         };
       })
       .sort((a, b) => b.fit - a.fit);
@@ -581,7 +603,19 @@ Respond with ONLY JSON:
 
   // الجديد فوق، وفرص الجولة اللي قبل تحته
   const fresh = leads.map(l => ({ ...l, fresh: true }));
-  const older = (prev?.leads || []).map(l => ({ ...l, proposal: honest(l.proposal || ""), fresh: false }));
+  const older = [];
+  for (const l of prev?.leads || []) {
+    // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
+    if (l.platform === 'LinkedIn' && !l.liChecked) {
+      const full = await linkedinPost(l.url);
+      const company = (full && full.company) || String(l.summary || '').split(' · ')[0];
+      const why = full ? linkedinBlock({ ...full, company }) : linkedinBlock({ company, type: '', level: '', title: l.title || '', text: '' });
+      if (why) { log('linkedin', `removed old lead (${why}): ${l.title}`); continue; }
+      if (full) l.liChecked = true;
+      await new Promise(r => setTimeout(r, 400));
+    }
+    older.push({ ...l, proposal: honest(l.proposal || ''), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
+  }
   const urlsNew = new Set(fresh.map(l => clean(l.url)));
   const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
   const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 30);
