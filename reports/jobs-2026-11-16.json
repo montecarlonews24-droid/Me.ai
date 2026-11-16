@@ -1,37 +1,13 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T16:28:04.732Z",
-  "model": "",
+  "generatedAt": "2026-11-16T16:32:16.300Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "تم رفض جميع الفرص اليوم لأنها لا تتوافق مع مهارات Moe أو متطلباته، مثل طلب تدريب أو كتابة أبحاث أكاديمية أو استخدام تقنيات لا يدعمها.",
+    "en": "All leads today were rejected as they did not align with Moe's skills or requirements, such as requests for training, academic research writing, or unsupported technologies."
   },
   "fresh": 0,
   "leads": [
-    {
-      "title": "Mobile App Developer",
-      "url": "https://www.linkedin.com/jobs/view/4478298551/",
-      "platform": "LinkedIn",
-      "market": "west",
-      "country": "Poland",
-      "budget": "",
-      "posted": "1 hours ago",
-      "proposals": "",
-      "language": "en",
-      "summary": "YO HR Consultancy · Poland",
-      "fit": 7,
-      "why": {
-        "ar": "",
-        "en": ""
-      },
-      "watch": {
-        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
-        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
-      },
-      "proposal": "My work includes designing, planning, directing, testing, and publishing apps, ensuring a comprehensive development cycle. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nFor example, my app Islam Rising is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I can integrate Firebase backends, AdMob, and Gemini AI features, and handle Google Play publishing.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the project's specific requirements and confirm if this is a freelance or contract opportunity?",
-      "fresh": false,
-      "liChecked": true
-    },
     {
       "title": "Kotlin Developer",
       "url": "https://www.linkedin.com/jobs/view/4490360873/",
@@ -55,33 +31,33 @@
       "proposal": "My services cover the full development spectrum, from concept to Google Play publishing and ongoing support. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24",
       "fresh": false,
       "liChecked": true
-    },
-    {
-      "title": "Android App Developer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4478602515/",
-      "platform": "LinkedIn",
-      "market": "west",
-      "country": "United States",
-      "budget": "",
-      "posted": "4 hours ago",
-      "proposals": "",
-      "language": "en",
-      "summary": "YO HR Consultancy · United States",
-      "fit": 7,
-      "why": {
-        "ar": "العمل عن بعد والموقع في الولايات المتحدة الأمريكية مرغوب فيهما.",
-        "en": "The project requests an Android App Developer, which aligns perfectly with Moe's skills. The remote nature and US location are highly desirable."
-      },
-      "watch": {
-        "ar": "يجب فتح إعلان الوظيفة الكامل على LinkedIn للتأكد من أنها فرصة عمل حر/عقد وليست وظيفة بدوام كامل.",
-        "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
-      },
-      "proposal": "I can develop a native Android application tailored to your needs. My services include Firebase backend integration (login, database, push notifications), AdMob, and full Google Play publishing support. My app 'Peace & Conflict 24' is a news dashboard with live chat, showcasing my capability to deliver complex features. I also ensure full RTL support for Arabic and English apps. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of app are you looking to build, and what are its key functionalities?",
-      "fresh": false,
-      "liChecked": true
     }
   ],
   "rejected": [
+    {
+      "title": "Advanced JMAG Simulation Training",
+      "url": "https://www.freelancer.com/projects/simulation/Advanced-JMAG-Simulation-Training",
+      "reason": {
+        "ar": "الطلب يتعلق بالتدريب على برنامج JMAG للمحاكاة الهندسية وليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
+        "en": "The request is for training in JMAG engineering simulation software, not for app development or AI agent creation."
+      }
+    },
+    {
+      "title": "Kembangkan Aplikasi Toko Jasa Online",
+      "url": "https://www.freelancer.com/projects/flutter/Kembangkan-Aplikasi-Toko-Jasa-Online",
+      "reason": {
+        "ar": "وصف المشروع باللغة الإندونيسية، ويطلب استخدام Flutter أو React Native، والميزانية منخفضة جداً مقارنة بالنطاق المطلوب.",
+        "en": "The project description is in Indonesian, requires Flutter or React Native, and the budget is too low for the scope."
+      }
+    },
+    {
+      "title": "Aviation Delay Analysis Literature Review",
+      "url": "https://www.freelancer.com/projects/aviation/Aviation-Delay-Analysis-Literature",
+      "reason": {
+        "ar": "الطلب يتعلق بكتابة مراجعة أدبية وبحث أكاديمي لرسالة جامعية، وهو ليس ضمن خدمات Moe لتطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
+        "en": "The request is for writing a literature review and academic research for a bachelor's thesis, which is outside Moe's services of app development or AI agents."
+      }
+    },
     {
       "title": "B2B Lead Generation for Tech Services",
       "url": "https://www.freelancer.com/projects/lead-generation/Lead-Generation-for-Tech-Services",
@@ -297,36 +273,12 @@
         "ar": "هذه مهمة بحث وتطبيق متخصصة في تعلم الآلة (Q-learning في Python)، وهي خارج نطاق Moe في دمج ميزات Gemini AI في التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
         "en": "This is a specialized machine learning research and implementation task (Q-learning in Python), which is outside Moe's scope of integrating Gemini AI features into apps or building AI agents."
       }
-    },
-    {
-      "title": "AI Design Recreated for Apparel",
-      "url": "https://www.freelancer.com/projects/ai-art-creation/Design-Recreated-for-Apparel",
-      "reason": {
-        "ar": "Moe لا يقدم خدمات التصميم الجرافيكي، أو فن المتجهات، أو تصميم الطباعة.",
-        "en": "Moe does not offer graphic design, vector art, or print design services."
-      }
-    },
-    {
-      "title": "Senior Mobile Engineer - Poland",
-      "url": "https://www.linkedin.com/jobs/view/4465810736/",
-      "reason": {
-        "ar": "هذه وظيفة هندسية بدوام كامل على مستوى كبير (Senior)، ولا يمكن لـ Moe قبولها.",
-        "en": "This is a full-time senior-level engineering position, which Moe cannot accept."
-      }
-    },
-    {
-      "title": "Senior Mobile Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4490214660/",
-      "reason": {
-        "ar": "هذه وظيفة هندسية بدوام كامل على مستوى كبير (Senior)، ولا يمكن لـ Moe قبولها.",
-        "en": "This is a full-time senior-level engineering position, which Moe cannot accept."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -338,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "22 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (175 skipped: small budgets from other countries, 76 skipped: not app/AI work)"
+        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (169 skipped: small budgets from other countries, 76 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -358,11 +310,19 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "3 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "linkedin",
-        "msg": "removed old lead (closed): AI Engineers: Intro Call for Open-Source Agent Cookbook"
+        "msg": "removed old lead (recruitment agency (YO HR Consultancy)): Mobile App Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "removed old lead (recruitment agency (YO HR Consultancy)): Android App Developer - Remote"
       }
     ]
   }
