@@ -181,21 +181,27 @@ Proven, live work:
 - Flicker: native Kotlin NFC & tracker scanner (Bluetooth/Wi-Fi/NFC), in closed testing
 - Me.ai: his own daily AI research agent (Gemini + web search on GitHub Actions, no server) with a native Android app
 What he CAN deliver: Android apps (native Kotlin or hybrid WebView), website-to-app, Firebase backend (login, database, push), AdMob, Gemini AI features (vision, chat, smart search), NFC/Wi-Fi/Bluetooth features, daily AI research/monitoring agents, Google Play publishing and rejection fixes, Arabic + English apps with full RTL.
-What he CANNOT do: iOS / App Store publishing, Flutter/React Native/Swift codebases, joining a company team as a full-time engineer, live coding interviews, large backends, blockchain, games beyond simple casual.
+iOS: he delivers the iOS version through a trusted iOS partner (a vetted Fiverr developer). He builds the Android app and the web/Firebase side and manages the whole project; the partner builds and publishes the iOS app to the App Store on the client's Apple Developer account. Typical extra price for the iOS version: about 150-200 USD for a WebView app, about 300-400 USD for a simple native app (4-5 screens). The Apple Developer account (99 USD/year) is paid by the client.
+Price guide (use it when the project budget is open or when suggesting a price; adapt to the scope):
+- Android only: website-to-app 100-200 USD; app from an idea 100-250 USD.
+- Android + iOS bundle (WebView/hybrid): website-to-app 250-380 USD; app from an idea 280-450 USD.
+- Android + iOS bundle (simple native, 4-5 screens): 600-900 USD.
+- If the client's budget is below the bundle price, offer Android first and iOS as a second phase.
+What he CANNOT do: iOS-only work inside an existing Swift codebase, Flutter/React Native codebases, joining a company team as a full-time engineer, live coding interviews, large backends, blockchain, games beyond simple casual.
 Languages: Arabic (native) and English.
 Portfolio link (all his live apps on Google Play): https://play.google.com/store/apps/developer?id=MonteCarlo+News24`;
 
 const RULES = `REJECT a lead if ANY of these is true:
 - It is posted by a recruitment agency, staffing firm or job board (they want an employee with a CV and interviews), unless the post clearly says contract or freelance for a defined project.
 - It is a full-time or staff job at a company (titles with Senior, Staff, Lead, Engineer, "X years experience", interviews, relocation, salary per year).
-- It requires iOS / App Store, Flutter, React Native, Swift, or working inside an existing large codebase.
+- It requires Flutter, React Native, or working inside an existing large codebase (including an existing Swift/iOS codebase). New Android + iOS apps are OK: the iOS side goes to his iOS partner.
 - It is closed, expired, or older than 14 days.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
 - For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
 - The project text is not in English or Arabic (for example Indonesian, Spanish, Hindi, Portuguese, Chinese). Arabic projects are welcome (Gulf clients); write those proposals in Arabic.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
-- The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Swift, Flutter, React Native).
+- The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe is targeting clients in the USA, Europe, Far East, Australia and the Gulf (they pay more), plus any country when the budget is 250 USD or more. Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
@@ -205,7 +211,7 @@ const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير
 Topics for all: Android app, website to Android app, AI features in an app, AI agent / AI automation, Google Play publishing or rejection fix.`;
 
 // ---------- Freelancer.com: مشاريع مفتوحة هلا من الـ API العام (بدون مفتاح) ----------
-const FL_QUERIES = ['android app', 'android', 'mobile app', 'ai agent', 'ai chatbot', 'chatbot', 'ai automation', 'gemini', 'website to app', 'webview app', 'google play', 'play store', 'nfc', 'kotlin', 'firebase'];
+const FL_QUERIES = ['android app', 'android ios app', 'android', 'mobile app', 'ai agent', 'ai chatbot', 'chatbot', 'ai automation', 'gemini', 'website to app', 'webview app', 'google play', 'play store', 'nfc', 'kotlin', 'firebase'];
 const ago = sec => {
   const h = Math.max(0, Math.round((Date.now() / 1000 - sec) / 3600));
   return h < 1 ? 'less than an hour ago' : h < 48 ? `${h} hours ago` : `${Math.round(h / 24)} days ago`;
@@ -219,7 +225,7 @@ const MIN_ANY_USD = 250; // أي بلد تاني: بس إذا الميزانية
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
 let skippedRegion = 0;
 let skippedSkill = 0;
-const RELEVANT = /android|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
+const RELEVANT = /android|\bios\b|iphone|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
 const OFF_TOPIC = /\b(logo|seo|content writ|copywrit|video edit|editor needed|marketing plan|social media|wordpress|shopify|data entry|translation|voice ?over|thumbnail|illustrat|branding|name creation)\b/i;
 
 async function freelancerFeed() {
@@ -532,7 +538,8 @@ In why_ar / why_en, say plainly which of his live apps or skills matches. Never 
 For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
 - 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE live app of Moe's as proof, the one closest to the client's need (AI or camera -> SCANIQ; agents, automation or research -> Me.ai; NFC, Bluetooth or native Kotlin -> Flicker, saying it is in testing; Arabic, RTL or big audience -> Islam Rising; news, chat or dashboards -> Peace & Conflict 24; STACK! only for games).
-- Be honest: say he builds with AI-assisted development. Never promise approval by Google.
+- Be honest: say he builds with AI-assisted development. Never promise approval by Google or Apple.
+- If the client needs iOS too, say plainly: "I build the Android app myself, and the iOS version is built and published by my trusted iOS partner, so you get both from one point of contact." Never claim Moe codes the iOS app himself. When it fits, give one clear bundle price from the price guide (Android + iOS together) instead of two separate prices, and say the Apple Developer account fee is paid by the client.
 - Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His newer apps are native Kotlin (Flicker, in testing on Google Play, and the Me.ai Android app); his 4 older live apps are hybrid (WebView + Firebase). He can say "I build native Kotlin Android apps with AI-assisted development" and give Flicker as the Kotlin example, saying it is in testing. Never claim years of Kotlin experience.
 - Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
 - If you cannot write an honest proposal without claiming a skill he does not have, REJECT the lead instead.
