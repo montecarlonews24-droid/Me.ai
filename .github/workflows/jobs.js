@@ -357,6 +357,19 @@ async function linkedinFeed() {
   return list;
 }
 
+// أي جملة بالعرض فيها مبالغة عن مهاراته بتنشال، حتى لو الموديل تجاهل التعليمات
+const BRAG = /\b(adept|expert|expertise|specializ\w*|specialis\w*|specialist|focus(?:ed|es)? on|skilled|seasoned|proficient|extensive experience|years of experience)\b/i;
+function honest(p) {
+  const lines = String(p).split(/\n/).map(line =>
+    line.split(/(?<=[.!?])\s+/).filter(s => !BRAG.test(s)).join(' ')
+  );
+  // إذا انشالت الجملة اللي بتحكي إنه بيشتغل بمساعدة AI، منرجّعها
+  if (/AI-assisted/i.test(p) && !lines.some(l => /AI-assisted/i.test(l))) {
+    lines[0] = (lines[0] + ' I build with AI-assisted development: I design, plan and test, and AI tools help write the code.').trim();
+  }
+  return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+
 // صفحة LinkedIn العامة (بدون تسجيل دخول) لإعلان وظيفة
 const strip = h => String(h || '').replace(/<(br|\/p|\/li|\/div|\/h\d)[^>]*>/gi, '\n').replace(/<li[^>]*>/gi, '- ').replace(/<[^>]+>/g, ' ')
   .replace(/&amp;/g, '&').replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
@@ -382,6 +395,7 @@ async function linkedinPost(url) {
       company: strip((h.match(/topcard__org-name-link[^>]*>([\s\S]*?)<\/a>/) || [])[1]),
       type: crit['employment type'] || '',
       level: crit['seniority level'] || '',
+      closed: /no longer accepting applications|closed-job/i.test(h),
       text: strip(desc).slice(0, 3500)
     };
   } catch (e) {
@@ -391,6 +405,7 @@ async function linkedinPost(url) {
 }
 // أسباب واضحة نشيل فيها الإعلان بدون ما نصرف على الحكم
 function linkedinBlock(p) {
+  if (p.closed) return 'closed';
   if (/full-time/i.test(p.type)) return 'full-time';
   if (/director|executive/i.test(p.level)) return p.level;
   const yrs = [...p.text.matchAll(/(\d{1,2})\s*\+?\s*(?:-\s*\d{1,2}\s*)?years?/gi)].map(m => Number(m[1])).filter(n => n >= 3 && n <= 20);
@@ -527,7 +542,7 @@ Respond with ONLY JSON:
           fit: Math.max(0, Math.min(10, num(k.fit))),
           why: { ar: k.why_ar || '', en: k.why_en || '' },
           watch: { ar: k.watch_ar || '', en: k.watch_en || '' },
-          proposal: k.proposal || ''
+          proposal: honest(k.proposal || '')
         };
       })
       .sort((a, b) => b.fit - a.fit);
@@ -584,6 +599,29 @@ Respond with ONLY JSON:
   };
   fs.writeFileSync(path.join(DIR, `jobs-${today}.json`), JSON.stringify(report, null, 2));
   fs.writeFileSync(path.join(DIR, 'jobs-latest.json'), JSON.stringify(report, null, 2));
+
+  // إشعار على الموبايل من السيرفر نفسه (تطبيق ntfy)، ما بيعتمد على إنه الموبايل صاحي
+  const topic = (process.env.NTFY_TOPIC || '').trim();
+  if (topic && fresh.length) {
+    const top = fresh[0];
+    try {
+      const r = await fetch('https://ntfy.sh/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          topic,
+          title: `💼 ${fresh.length} فرص شغل جديدة`,
+          message: fresh.slice(0, 3).map(l => `• ${l.title} (${l.fit}/10) · ${l.platform}${l.budget ? ' · ' + l.budget : ''}`).join('\n'),
+          click: top.url,
+          priority: 4
+        }),
+        signal: AbortSignal.timeout(15000)
+      });
+      log('notify', `ntfy ${r.status}`);
+    } catch (e) {
+      log('notify', e.message);
+    }
+  }
 
   console.log(`OK ${today}: ${leads.map(l => `${l.title.slice(0, 40)}(${l.fit})`).join(' | ') || 'no leads'}`);
 })().catch(e => { console.error(e.message); process.exit(1); });
