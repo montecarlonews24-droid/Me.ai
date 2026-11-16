@@ -1,13 +1,151 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T00:16:14.925Z",
+  "generatedAt": "2026-11-16T07:10:09.903Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم لأنها كانت إما وظائف بدوام كامل، أو تتطلب مهارات خارج نطاق Moe (مثل الموسيقى أو الأجهزة أو التحليل القانوني أو إنشاء الفيديو)، أو كانت ذات ميزانية منخفضة جدًا. تم الاحتفاظ بثلاث فرص لتطوير تطبيقات Android من LinkedIn، مع الحاجة إلى التحقق من أنها عقود عمل مستقلة.",
-    "en": "Most leads today were rejected for being full-time jobs, requiring skills outside Moe's scope (e.g., music, hardware, legal analysis, video creation), or having very low budgets. Three Android app development leads from LinkedIn were kept, with a need to verify they are freelance contracts."
+    "ar": "تم رفض معظم الفرص بسبب كونها مهام غير تطويرية، أو تدريب داخلي، أو أدوار مبيعات، أو وظائف بدوام كامل لمناصب عليا. تم الاحتفاظ بست فرص واعدة لمطوري أندرويد/Kotlin من LinkedIn، بانتظار تأكيد طبيعتها كعمل حر.",
+    "en": "Most leads were rejected due to being non-development tasks, internships, sales roles, or full-time senior positions. Six promising Android/Kotlin developer roles from LinkedIn were kept, pending confirmation of their freelance nature."
   },
-  "fresh": 2,
+  "fresh": 6,
   "leads": [
+    {
+      "title": "Mobile App Developer",
+      "url": "https://www.linkedin.com/jobs/view/4478298551/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Poland",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "YO HR Consultancy · Poland",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I understand you're seeking a skilled Mobile App Developer to build robust mobile applications. I specialize in creating native Kotlin Android apps, leveraging AI-assisted development for efficient and high-quality results. My work includes designing, planning, directing, testing, and publishing apps, ensuring a comprehensive development cycle.\n\nFor example, my app Islam Rising is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I can integrate Firebase backends, AdMob, and Gemini AI features, and handle Google Play publishing.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the project's specific requirements and confirm if this is a freelance or contract opportunity?",
+      "fresh": true
+    },
+    {
+      "title": "Android developer",
+      "url": "https://www.linkedin.com/jobs/view/4487929144/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Sweden",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "emagine · Sweden",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I understand you're seeking an Android developer to create high-quality mobile applications. I specialize in building native Kotlin Android apps, utilizing AI-assisted development to ensure efficiency and robust performance. My process covers design, planning, direction, testing, and publishing, providing a complete development solution.\n\nMy app Peace & Conflict 24, a news dashboard with live chat and in-app billing, showcases my capability in delivering complex and interactive applications. I can integrate Firebase backends, AdMob, Gemini AI features, and manage Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the project's scope and confirm if this role is available on a freelance or contract basis?",
+      "fresh": true
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4489858325/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "European Union",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "HiredBuddy · European Union",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I understand you're looking for an Android Developer to bring your mobile vision to life. I focus on developing native Kotlin Android apps, employing AI-assisted development to deliver efficient and high-quality solutions. My expertise spans the entire app lifecycle, from initial design and planning to testing and successful Google Play publishing.\n\nMy app SCANIQ, featuring AI image recognition with Gemini Vision, demonstrates my ability to integrate advanced AI functionalities into mobile applications. I can also implement Firebase backends, AdMob, NFC/Wi-Fi/Bluetooth features, and ensure full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you elaborate on the specific features you envision for this project and clarify if this is a freelance or contract engagement?",
+      "fresh": true
+    },
+    {
+      "title": "Kotlin Developer",
+      "url": "https://www.linkedin.com/jobs/view/4490360873/",
+      "platform": "LinkedIn",
+      "market": "",
+      "country": "Czechia",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "CoolPeople Technology · Czechia",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I am a dedicated Kotlin Developer, and I see you're seeking expertise in this area for your projects. I specialize in crafting native Kotlin Android applications, utilizing AI-assisted development to ensure efficiency and deliver high-quality results. My services cover the full development spectrum, from concept to Google Play publishing and ongoing support.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences. I am proficient in integrating Firebase backends, AdMob, and Gemini AI features, as well as handling NFC/Wi-Fi/Bluetooth functionalities.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of application or project are you looking to develop with Kotlin, and is this opportunity available on a freelance or contract basis?",
+      "fresh": true
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4489570473/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "United Kingdom",
+      "budget": "",
+      "posted": "3 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "Thornton Gregory · United Kingdom",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I understand you're searching for an Android Developer to contribute to your mobile initiatives. I focus on developing native Kotlin Android applications, employing AI-assisted development to ensure efficient and robust solutions. My comprehensive approach includes design, planning, testing, and successful Google Play publishing, along with rejection fixes.\n\nMy app Flicker, a native Kotlin NFC & tracker scanner, currently in closed testing, highlights my capability in developing apps with advanced hardware interaction. I can also integrate Firebase backends, AdMob, Gemini AI features, and provide full RTL support for Arabic + English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific functionalities or integrations you require for your Android project, and is this a freelance or contract position?",
+      "fresh": true
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4489861266/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Canada",
+      "budget": "",
+      "posted": "5 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "HiredBuddy · Canada",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية بـ Kotlin ويستطيع تلبية احتياجات تطوير تطبيقات الموبايل.",
+        "en": "Moe builds native Kotlin Android apps and can deliver on mobile app development needs."
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "I understand you're in search of an Android Developer to help build your next mobile application. I specialize in creating native Kotlin Android apps, utilizing AI-assisted development to ensure both efficiency and high-quality outcomes. My services cover the entire development lifecycle, from initial concept to deployment on Google Play.\n\nMy personal daily AI research agent, Me.ai, built with Gemini and web search on GitHub Actions, demonstrates my ability to create sophisticated AI-powered solutions. I am adept at integrating Firebase backends, AdMob, and various Gemini AI features, including vision and smart search.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat are the key features or challenges you are looking to address with this Android project, and is this a freelance or contract opportunity?",
+      "fresh": true
+    },
     {
       "title": "Android Developer",
       "url": "https://www.linkedin.com/jobs/view/4489272649/",
@@ -29,7 +167,7 @@
         "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
       },
       "proposal": "I can help you build a native Android application for your project. I specialize in developing robust and user-friendly Android apps using Kotlin, and I can integrate features like Firebase backend (login, database, push notifications) and AdMob. I use AI-assisted development to ensure efficient and high-quality code. For example, my app 'Islam Rising' is a worship tracker used in 177 countries, demonstrating my ability to deliver functional and widely adopted applications. I also handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details about the specific features and scope you envision for this Android application?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "Android App Developer - Remote",
@@ -52,10 +190,114 @@
         "en": "Must open the full job post on LinkedIn to confirm it is a freelance/contract opportunity and not a full-time employee role."
       },
       "proposal": "I can develop a native Android application tailored to your needs. I build Android apps using Kotlin, leveraging AI-assisted development for efficiency and quality. My services include Firebase backend integration (login, database, push notifications), AdMob, and full Google Play publishing support. My app 'Peace & Conflict 24' is a news dashboard with live chat and in-app billing, showcasing my capability to deliver complex features. I also ensure full RTL support for Arabic and English apps.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nWhat kind of app are you looking to build, and what are its key functionalities?",
-      "fresh": true
+      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Educational Certificate Verification needed in Uzbekistan",
+      "url": "https://www.freelancer.com/projects/field-research/Educational-Certificate-Verification-40820270",
+      "reason": {
+        "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
+        "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
+      }
+    },
+    {
+      "title": "Pre-Employment Verification Needed in Bury, United Kingdom",
+      "url": "https://www.freelancer.com/projects/field-research/Pre-Employment-Verification-Needed-Bury",
+      "reason": {
+        "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
+        "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
+      }
+    },
+    {
+      "title": "Commission B2B AI Sales Closer",
+      "url": "https://www.freelancer.com/projects/b2b-marketing/Commission-Sales-Closer-40819984",
+      "reason": {
+        "ar": "هذا دور مبيعات B2B قائم على العمولة فقط، وليس مشروع تطوير برمجيات.",
+        "en": "This is a commission-only B2B sales role, not a software development project."
+      }
+    },
+    {
+      "title": "Remote India Marketing & Content Interns -- 5",
+      "url": "https://www.freelancer.com/projects/internet-marketing/Remote-India-Marketing-Content-Interns-40820083",
+      "reason": {
+        "ar": "هذا تدريب داخلي للتسويق وإنشاء المحتوى، وهو خارج نطاق تطوير Moe.",
+        "en": "This is an internship for marketing and content creation, which is outside Moe's development scope."
+      }
+    },
+    {
+      "title": "Remote India Marketing & Content Interns -- 6",
+      "url": "https://www.freelancer.com/projects/internet-marketing/Remote-India-Marketing-Content-Interns-40820121",
+      "reason": {
+        "ar": "هذا تدريب داخلي للتسويق وإنشاء المحتوى، وهو خارج نطاق تطوير Moe.",
+        "en": "This is an internship for marketing and content creation, which is outside Moe's development scope."
+      }
+    },
+    {
+      "title": "Professional Trust-Building Our Business Story AI Video",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Professional-Trust-Building-Our-Business",
+      "reason": {
+        "ar": "Moe لا يقدم خدمات إنشاء الفيديو بالذكاء الاصطناعي، أو تحرير الفيديو، أو التصميم الجرافيكي.",
+        "en": "Moe does not offer AI video creation, video editing, or graphic design services."
+      }
+    },
+    {
+      "title": "HeyGen expert needed. I need hundreds of one-minute videos",
+      "url": "https://www.freelancer.com/projects/HeyGen/HeyGen-expert-needed-need-hundreds",
+      "reason": {
+        "ar": "Moe لا يقدم خدمات إنشاء الفيديو بالذكاء الاصطناعي أو تحرير الفيديو باستخدام أدوات مثل HeyGen.",
+        "en": "Moe does not offer AI video creation or video editing services using tools like HeyGen."
+      }
+    },
+    {
+      "title": "Q-Learning FrozenLake Performance Analysis",
+      "url": "https://www.freelancer.com/projects/machine-learning/Learning-FrozenLake-Performance-Analysis",
+      "reason": {
+        "ar": "هذه مهمة بحث وتطبيق متخصصة في تعلم الآلة (Q-learning في Python)، وهي خارج نطاق Moe في دمج ميزات Gemini AI في التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
+        "en": "This is a specialized machine learning research and implementation task (Q-learning in Python), which is outside Moe's scope of integrating Gemini AI features into apps or building AI agents."
+      }
+    },
+    {
+      "title": "AI Design Recreated for Apparel",
+      "url": "https://www.freelancer.com/projects/ai-art-creation/Design-Recreated-for-Apparel",
+      "reason": {
+        "ar": "Moe لا يقدم خدمات التصميم الجرافيكي، أو فن المتجهات، أو تصميم الطباعة.",
+        "en": "Moe does not offer graphic design, vector art, or print design services."
+      }
+    },
+    {
+      "title": "Senior Mobile Engineer - Poland",
+      "url": "https://www.linkedin.com/jobs/view/4465810736/",
+      "reason": {
+        "ar": "هذه وظيفة هندسية بدوام كامل على مستوى كبير (Senior)، ولا يمكن لـ Moe قبولها.",
+        "en": "This is a full-time senior-level engineering position, which Moe cannot accept."
+      }
+    },
+    {
+      "title": "Senior Mobile Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4490214660/",
+      "reason": {
+        "ar": "هذه وظيفة هندسية بدوام كامل على مستوى كبير (Senior)، ولا يمكن لـ Moe قبولها.",
+        "en": "This is a full-time senior-level engineering position, which Moe cannot accept."
+      }
+    },
+    {
+      "title": "Senior Mobile Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4490232192/",
+      "reason": {
+        "ar": "هذه وظيفة هندسية بدوام كامل على مستوى كبير (Senior)، ولا يمكن لـ Moe قبولها.",
+        "en": "This is a full-time senior-level engineering position, which Moe cannot accept."
+      }
+    },
+    {
+      "title": "【リモート可】スマホアプリエンジニア",
+      "url": "https://www.linkedin.com/jobs/view/4419844435/",
+      "reason": {
+        "ar": "وصف المشروع وعنوانه ليسا باللغة الإنجليزية، و Moe يستهدف العملاء الناطقين بالإنجليزية.",
+        "en": "The project description and title are not in English, and Moe targets English-speaking clients."
+      }
+    },
     {
       "title": "WOWLS! vs Unicorns - Anime Fans and Gamers Needed",
       "url": "https://www.freelancer.com/projects/game-testing/WOWLS-Unicorns-Anime-Fans-Gamers",
@@ -132,11 +374,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 11,
+    "verified": 19,
     "steps": [
       {
         "step": "memory",
-        "msg": "176 leads seen before"
+        "msg": "187 leads seen before"
       },
       {
         "step": "verify",
@@ -144,7 +386,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "21 open projects from the last 5 days in US/Europe/Far East (158 skipped: other countries or currencies, 124 skipped: not app/AI work)"
+        "msg": "26 open projects from the last 5 days in US/Europe/Far East (179 skipped: other countries or currencies, 81 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -152,11 +394,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "60 jobs from Gmail alerts (last 5 days)"
+        "msg": "70 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "verify",
-        "msg": "5 new LinkedIn jobs added"
+        "msg": "10 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -164,11 +406,11 @@
       },
       {
         "step": "verify",
-        "msg": "6 new Freelancer projects added, 11 to judge"
+        "msg": "9 new Freelancer projects added, 19 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 2, rejected 9 via gemini-2.5-flash"
+        "msg": "kept 6, rejected 13 via gemini-2.5-flash"
       }
     ]
   }
