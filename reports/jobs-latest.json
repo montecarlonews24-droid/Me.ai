@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T17:34:21.962Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-16T17:40:20.082Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض جميع الفرص اليوم لأسباب تتعلق باللغة، الميزانية، أو طبيعة الوظيفة (دوام كامل).",
-    "en": "All leads today were rejected due to language, budget, or job type (full-time)."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
@@ -278,11 +278,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "239 leads seen before"
+        "msg": "242 leads seen before"
       },
       {
         "step": "verify",
@@ -290,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (202 skipped: small budgets from other countries, 92 skipped: not app/AI work)"
+        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (196 skipped: small budgets from other countries, 102 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -301,12 +301,8 @@
         "msg": "83 jobs from Gmail alerts (last 5 days)"
       },
       {
-        "step": "linkedin",
-        "msg": "post 4490223207: HTTP 429"
-      },
-      {
         "step": "verify",
-        "msg": "1 of 1 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -314,11 +310,7 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 3 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
