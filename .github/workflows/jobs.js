@@ -397,10 +397,16 @@ async function linkedinPost(url) {
   const id = (String(url).match(/jobs\/view\/(\d+)/) || [])[1];
   if (!id) return null;
   try {
-    const r = await fetch(`https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${id}`, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.9' },
-      signal: AbortSignal.timeout(15000)
-    });
+    let r;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      r = await fetch(`https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${id}`, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.9' },
+        signal: AbortSignal.timeout(15000)
+      });
+      if (r.status !== 429) break;
+      // LinkedIn بيقول "استنى شوي": منستنى أكثر كل مرة ومنرجع نجرّب
+      await new Promise(res => setTimeout(res, 8000 * (attempt + 1)));
+    }
     if (!r.ok) { log('linkedin', `post ${id}: HTTP ${r.status}`); return null; }
     const h = await r.text();
     const desc = (h.match(/show-more-less-html__markup[^>]*>([\s\S]*?)<\/div>/) || [])[1];
@@ -502,6 +508,10 @@ function linkedinBlock(p) {
   let liKept = 0;
   const skipped = [];
   for (const l of li) {
+    // عنوان واضح إنه senior أو مدير: منشيله بدون ما نفتح الصفحة (طلبات أقل = LinkedIn ما بيسكّر)
+    if (/\b(senior|sr\.?|staff|lead|principal|head of|director|manager|architect)\b/i.test(l.title)) {
+      log('linkedin', `skipped (title): ${l.title}`); skipped.push(clean(l.url)); continue;
+    }
     const full = await linkedinPost(l.url);
     if (full) {
       const why = linkedinBlock(full);
@@ -513,7 +523,7 @@ function linkedinBlock(p) {
     }
     checked.push(l);
     liKept++;
-    await new Promise(r => setTimeout(r, 400));
+    await new Promise(r => setTimeout(r, 2000 + Math.random() * 2000));
   }
   log('verify', `${liKept} of ${li.length} new LinkedIn jobs added`);
   log('verify', `${rd.length} new Reddit posts added`);
@@ -625,7 +635,7 @@ Respond with ONLY JSON:
       const why = full ? linkedinBlock({ ...full, company }) : linkedinBlock({ company, type: '', level: '', title: l.title || '', text: '' });
       if (why) { log('linkedin', `removed old lead (${why}): ${l.title}`); continue; }
       if (full) l.liChecked = true;
-      await new Promise(r => setTimeout(r, 400));
+      await new Promise(r => setTimeout(r, 2000 + Math.random() * 2000));
     }
     older.push({ ...l, proposal: honest(l.proposal || ''), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
   }
