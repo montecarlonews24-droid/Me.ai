@@ -1,36 +1,13 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T16:25:16.104Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-16T16:28:04.732Z",
+  "model": "",
   "summary": {
-    "ar": "جميع الفرص المعلن عنها اليوم لا تتناسب مع مهارات محمد أو تتجاوز قدراته، أو تطلب مهارات غير متوفرة لديه، أو هي وظائف ليست لتطوير التطبيقات.",
-    "en": "All leads posted today are unsuitable for Moe's skillset, exceed his capabilities, require technologies he doesn't use, or are not for app development roles."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
-    {
-      "title": "AI Engineers: Intro Call for Open-Source Agent Cookbook",
-      "url": "https://www.linkedin.com/jobs/view/4490204681/",
-      "platform": "LinkedIn",
-      "market": "",
-      "country": "Joblet-AI",
-      "budget": "",
-      "posted": "4 hours ago",
-      "proposals": "",
-      "language": "en",
-      "summary": "Joblet-AI · Joblet-AI",
-      "fit": 7,
-      "why": {
-        "ar": "تتناسب هذه الفرصة مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي، وهو ما يفعله بالفعل في تطبيق Me.ai الخاص به باستخدام Gemini. المشروع عقد وليس وظيفة بدوام كامل.",
-        "en": "This opportunity aligns with Moe's capability to build AI agents, which he already does with his Me.ai app using Gemini. The project is a contract role, not full-time."
-      },
-      "watch": {
-        "ar": "يجب التأكد من أن المكالمة التمهيدية هي مجرد مناقشة وليست تقييمًا فنيًا أو مقابلة توظيف، وأن المشروع يبقى عقدًا مستقلًا دون التزام بدوام كامل.",
-        "en": "Ensure the intro call is purely a discussion and not a technical assessment or job interview, and that the project remains a freelance contract without full-time commitment."
-      },
-      "proposal": "I understand you're looking for AI engineers to contribute working examples to an open-source GitHub cookbook for AI agents. I've successfully built and deployed AI features, including my own daily AI research agent, Me.ai, which uses Gemini and web search to gather information. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI'm keen to learn more about the specific types of AI agent examples you envision for the cookbook. Could you elaborate on the initial focus areas or use cases you're looking to cover?",
-      "fresh": false
-    },
     {
       "title": "Mobile App Developer",
       "url": "https://www.linkedin.com/jobs/view/4478298551/",
@@ -349,11 +326,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 4,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "232 leads seen before"
+        "msg": "236 leads seen before"
       },
       {
         "step": "verify",
@@ -361,7 +338,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "23 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (174 skipped: small budgets from other countries, 74 skipped: not app/AI work)"
+        "msg": "22 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (175 skipped: small budgets from other countries, 76 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -381,39 +358,11 @@
       },
       {
         "step": "verify",
-        "msg": "4 new Freelancer projects added, 4 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       },
       {
         "step": "linkedin",
-        "msg": "post 4490204681: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (recruitment agency (emagine)): Android developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (closed): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4489570473: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (recruitment agency (Thornton Gregory)): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (closed): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (closed): Android Developer"
+        "msg": "removed old lead (closed): AI Engineers: Intro Call for Open-Source Agent Cookbook"
       }
     ]
   }
