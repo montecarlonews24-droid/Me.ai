@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T16:32:16.300Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-16T16:34:46.570Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض جميع الفرص اليوم لأنها لا تتوافق مع مهارات Moe أو متطلباته، مثل طلب تدريب أو كتابة أبحاث أكاديمية أو استخدام تقنيات لا يدعمها.",
-    "en": "All leads today were rejected as they did not align with Moe's skills or requirements, such as requests for training, academic research writing, or unsupported technologies."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
@@ -278,11 +278,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "236 leads seen before"
+        "msg": "239 leads seen before"
       },
       {
         "step": "verify",
@@ -290,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (169 skipped: small budgets from other countries, 76 skipped: not app/AI work)"
+        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (171 skipped: small budgets from other countries, 78 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -310,19 +310,7 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 3 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (recruitment agency (YO HR Consultancy)): Mobile App Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "removed old lead (recruitment agency (YO HR Consultancy)): Android App Developer - Remote"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
