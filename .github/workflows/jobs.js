@@ -581,7 +581,7 @@ Respond with ONLY JSON:
 
   // الجديد فوق، وفرص الجولة اللي قبل تحته
   const fresh = leads.map(l => ({ ...l, fresh: true }));
-  const older = (prev?.leads || []).map(l => ({ ...l, fresh: false }));
+  const older = (prev?.leads || []).map(l => ({ ...l, proposal: honest(l.proposal || ""), fresh: false }));
   const urlsNew = new Set(fresh.map(l => clean(l.url)));
   const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
   const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 30);
