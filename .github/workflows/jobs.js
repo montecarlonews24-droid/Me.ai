@@ -357,6 +357,48 @@ async function linkedinFeed() {
   return list;
 }
 
+// صفحة LinkedIn العامة (بدون تسجيل دخول) لإعلان وظيفة
+const strip = h => String(h || '').replace(/<(br|\/p|\/li|\/div|\/h\d)[^>]*>/gi, '\n').replace(/<li[^>]*>/gi, '- ').replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&').replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
+async function linkedinPost(url) {
+  const id = (String(url).match(/jobs\/view\/(\d+)/) || [])[1];
+  if (!id) return null;
+  try {
+    const r = await fetch(`https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${id}`, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.9' },
+      signal: AbortSignal.timeout(15000)
+    });
+    if (!r.ok) { log('linkedin', `post ${id}: HTTP ${r.status}`); return null; }
+    const h = await r.text();
+    const desc = (h.match(/show-more-less-html__markup[^>]*>([\s\S]*?)<\/div>/) || [])[1];
+    if (!desc) return null;
+    const crit = {};
+    for (const m of h.matchAll(/description__job-criteria-subheader[^>]*>([\s\S]*?)<\/h3>[\s\S]*?description__job-criteria-text[^>]*>([\s\S]*?)<\/span>/g)) {
+      crit[strip(m[1]).toLowerCase()] = strip(m[2]);
+    }
+    return {
+      title: strip((h.match(/top-card-layout__title[^>]*>([\s\S]*?)<\/h2>/) || [])[1]),
+      company: strip((h.match(/topcard__org-name-link[^>]*>([\s\S]*?)<\/a>/) || [])[1]),
+      type: crit['employment type'] || '',
+      level: crit['seniority level'] || '',
+      text: strip(desc).slice(0, 3500)
+    };
+  } catch (e) {
+    log('linkedin', `post ${id}: ${e.message}`);
+    return null;
+  }
+}
+// أسباب واضحة نشيل فيها الإعلان بدون ما نصرف على الحكم
+function linkedinBlock(p) {
+  if (/full-time/i.test(p.type)) return 'full-time';
+  if (/director|executive/i.test(p.level)) return p.level;
+  const yrs = [...p.text.matchAll(/(\d{1,2})\s*\+?\s*(?:-\s*\d{1,2}\s*)?years?/gi)].map(m => Number(m[1])).filter(n => n >= 3 && n <= 20);
+  if (yrs.length) return `${Math.max(...yrs)}+ years required`;
+  if (/\bsenior\b|\bstaff engineer\b|\blead\b/i.test(p.title)) return 'senior title';
+  return '';
+}
+
 (async () => {
   const index = readJSON(path.join(DIR, 'jobs-index.json'), { dates: [], seen: [] });
   const seen = new Set(index.seen.map(clean));
@@ -417,8 +459,23 @@ async function linkedinFeed() {
     dupes.add(u);
     return true;
   }).slice(0, 40);
-  li.forEach(l => checked.push(l));
-  log('verify', `${li.length} new LinkedIn jobs added`);
+  // منقرأ الإعلان الكامل من صفحة LinkedIn العامة، ومنشيل الدوام الكامل والخبرة الطويلة قبل الحكم
+  let liKept = 0;
+  const skipped = [];
+  for (const l of li) {
+    const full = await linkedinPost(l.url);
+    if (full) {
+      const why = linkedinBlock(full);
+      if (why) { log('linkedin', `skipped (${why}): ${full.title || l.title}`); skipped.push(clean(l.url)); continue; }
+      if (full.title) l.title = full.title;
+      if (full.company) l.summary = [full.company, l.country].filter(Boolean).join(' · ');
+      l.pageText = `LinkedIn job post. Employment type: ${full.type || 'unknown'}. Seniority: ${full.level || 'unknown'}.\n${full.text}`;
+    }
+    checked.push(l);
+    liKept++;
+    await new Promise(r => setTimeout(r, 400));
+  }
+  log('verify', `${liKept} of ${li.length} new LinkedIn jobs added`);
   log('verify', `${rd.length} new Reddit posts added`);
   log('verify', `${fl.length} new Freelancer projects added, ${checked.length} to judge`);
 
@@ -440,6 +497,7 @@ For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
 - 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE relevant live app of Moe's as proof.
 - Be honest: say he builds with AI-assisted development. Never promise approval by Google.
+- Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His 4 live apps are hybrid (WebView + Firebase); native Kotlin is new for him (Flicker, still in testing). If Kotlin matters to the client, say plainly: "my newest app, Flicker, is native Kotlin and is in testing on Google Play". Never present native Kotlin as his main experience.
 - Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
 - If you cannot write an honest proposal without claiming a skill he does not have, REJECT the lead instead.
 - Include the portfolio link once, on its own line, introduced naturally (e.g. "You can try my live apps here:" or "تقدر تجرب تطبيقاتي المنشورة من هون:").
@@ -491,7 +549,7 @@ Respond with ONLY JSON:
 
   // منحفظ كل اللي شفناه (المقبول والمرفوض) عشان ما يرجع يطلع
   index.dates = [today, ...index.dates.filter(d => d !== today)].slice(0, 120);
-  index.seen = [...checked.map(l => clean(l.url)), ...index.seen].filter((v, i, a) => a.indexOf(v) === i).slice(0, 1500);
+  index.seen = [...checked.map(l => clean(l.url)), ...skipped, ...index.seen].filter((v, i, a) => a.indexOf(v) === i).slice(0, 1500);
   fs.writeFileSync(path.join(DIR, 'jobs-index.json'), JSON.stringify(index, null, 2));
 
   // الجولة التانية بنفس اليوم: إذا ما في إشي جديد، منخلي تقرير الصبح زي ما هو (وما في إشعار)
