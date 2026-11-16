@@ -367,14 +367,14 @@ async function linkedinFeed() {
 // أي جملة بالعرض فيها مبالغة عن مهاراته بتنشال، حتى لو الموديل تجاهل التعليمات
 const BRAG = /\b(adept|expert|expertise|specializ\w*|specialis\w*|specialist|focus(?:ed|es)? on|skilled|seasoned|proficient|extensive experience|years of experience)\b/i;
 // نفس الفكرة لخانة "ليش بتناسبك": بنشيل جمل المبالغة
-const BRAG_WHY = /تخصص|خبير|خبرة واسعة|متمرس|محترف|أصلية بـ ?Kotlin|بـ ?Kotlin|يتناسب تمام|specializ|expert|native Kotlin/i;
+const BRAG_WHY = /تخصص|خبير|خبرة واسعة|متمرس|محترف|يتناسب تمام|specializ|expert/i;
 function honestWhy(t) {
   const kept = String(t || '').split(/(?<=[.!؟?])\s+/).filter(s => !BRAG_WHY.test(s)).join(' ').trim();
   return kept || '';
 }
 function honest(p) {
   const lines = String(p).replace(/,?\s*(and\s+)?in-app billing/gi, '').split(/\n/).map(line =>
-    line.split(/(?<=[.!?])\s+/).filter(s => !BRAG.test(s) && !(/kotlin/i.test(s) && !/flicker/i.test(s))).join(' ')
+    line.split(/(?<=[.!?])\s+/).filter(s => !BRAG.test(s)).join(' ')
   );
   // إذا انشالت الجملة اللي بتحكي إنه بيشتغل بمساعدة AI، منرجّعها
   if (/AI-assisted/i.test(p) && !lines.some(l => /AI-assisted/i.test(l))) {
@@ -527,13 +527,13 @@ ${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, pageText: l.pageText || '
 
 IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it shows the page is NOT a client hiring a freelancer for a project (for example a course, a training session, a tutorial, an article, a product or SaaS page, a job board or list of vacancies, a company careers page, or a freelancer's own service), REJECT it, whatever its title says. If the page shows the project is closed or expired, REJECT it. Prefer budget, posted date and proposals count from pageText when present.
 
-In why_ar / why_en, say plainly which of his live apps or skills matches. Never call anything his specialty, never say he builds native Kotlin apps (only Flicker, in testing), never say it "fits him perfectly".
+In why_ar / why_en, say plainly which of his live apps or skills matches. Never call anything his specialty, never claim years of experience, never say it "fits him perfectly". He does build native Kotlin apps now (Flicker, Me.ai app).
 
 For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
 - 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE live app of Moe's as proof, the one closest to the client's need (AI or camera -> SCANIQ; agents, automation or research -> Me.ai; NFC, Bluetooth or native Kotlin -> Flicker, saying it is in testing; Arabic, RTL or big audience -> Islam Rising; news, chat or dashboards -> Peace & Conflict 24; STACK! only for games).
 - Be honest: say he builds with AI-assisted development. Never promise approval by Google.
-- Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His 4 live apps are hybrid (WebView + Firebase); native Kotlin is new for him (Flicker, still in testing). If Kotlin matters to the client, say plainly: "my newest app, Flicker, is native Kotlin and is in testing on Google Play". Never present native Kotlin as his main experience.
+- Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His newer apps are native Kotlin (Flicker, in testing on Google Play, and the Me.ai Android app); his 4 older live apps are hybrid (WebView + Firebase). He can say "I build native Kotlin Android apps with AI-assisted development" and give Flicker as the Kotlin example, saying it is in testing. Never claim years of Kotlin experience.
 - Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
 - If you cannot write an honest proposal without claiming a skill he does not have, REJECT the lead instead.
 - Include the portfolio link once, on its own line, introduced naturally (e.g. "You can try my live apps here:" or "تقدر تجرب تطبيقاتي المنشورة من هون:").
