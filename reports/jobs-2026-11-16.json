@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T16:34:46.570Z",
-  "model": "",
+  "generatedAt": "2026-11-16T17:34:21.962Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "تم رفض جميع الفرص اليوم لأسباب تتعلق باللغة، الميزانية، أو طبيعة الوظيفة (دوام كامل).",
+    "en": "All leads today were rejected due to language, budget, or job type (full-time)."
   },
   "fresh": 0,
   "leads": [
@@ -34,6 +34,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Chatbot Konseling Cinta Interaktif",
+      "url": "https://www.freelancer.com/projects/ai-chatbot/Chatbot-Konseling-Cinta-Interaktif",
+      "reason": {
+        "ar": "لغة المشروع ليست الإنجليزية أو العربية (النص باللغة الإندونيسية).",
+        "en": "The project language is not English or Arabic (text is in Indonesian)."
+      }
+    },
+    {
+      "title": "Boost YOLOv26 mAP Beyond 85%",
+      "url": "https://www.freelancer.com/projects/machine-learning/Boost-YOLOv-mAP-Beyond",
+      "reason": {
+        "ar": "الميزانية منخفضة للغاية (10-11 دولارًا أمريكيًا) وتتطلب خبرة متخصصة في هندسة تعلم الآلة (Python, Tensorflow, Pytorch, YOLO optimization) وهي خارج نطاق ما يمكن لمحمد تقديمه (يركز على ميزات Gemini AI وتطبيقات الأندرويد ووكلاء الذكاء الاصطناعي).",
+        "en": "The budget is extremely low (10-11 USD) and requires specialist Machine Learning engineering expertise (Python, Tensorflow, Pytorch, YOLO optimization) which is outside Moe's scope (he focuses on Gemini AI features, Android apps, and AI agents)."
+      }
+    },
+    {
+      "title": "Senior Mobile Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4490223207/",
+      "reason": {
+        "ar": "الوظيفة هي وظيفة دوام كامل/موظف في شركة (Senior Mobile Engineer) وليست مشروعًا مستقلاً.",
+        "en": "The lead is for a full-time/staff job at a company (Senior Mobile Engineer) and not a freelance project."
+      }
+    },
     {
       "title": "Advanced JMAG Simulation Training",
       "url": "https://www.freelancer.com/projects/simulation/Advanced-JMAG-Simulation-Training",
@@ -249,36 +273,12 @@
         "ar": "هذا تدريب داخلي للتسويق وإنشاء المحتوى، وهو خارج نطاق تطوير Moe.",
         "en": "This is an internship for marketing and content creation, which is outside Moe's development scope."
       }
-    },
-    {
-      "title": "Professional Trust-Building Our Business Story AI Video",
-      "url": "https://www.freelancer.com/projects/ai-video-editing/Professional-Trust-Building-Our-Business",
-      "reason": {
-        "ar": "Moe لا يقدم خدمات إنشاء الفيديو بالذكاء الاصطناعي، أو تحرير الفيديو، أو التصميم الجرافيكي.",
-        "en": "Moe does not offer AI video creation, video editing, or graphic design services."
-      }
-    },
-    {
-      "title": "HeyGen expert needed. I need hundreds of one-minute videos",
-      "url": "https://www.freelancer.com/projects/HeyGen/HeyGen-expert-needed-need-hundreds",
-      "reason": {
-        "ar": "Moe لا يقدم خدمات إنشاء الفيديو بالذكاء الاصطناعي أو تحرير الفيديو باستخدام أدوات مثل HeyGen.",
-        "en": "Moe does not offer AI video creation or video editing services using tools like HeyGen."
-      }
-    },
-    {
-      "title": "Q-Learning FrozenLake Performance Analysis",
-      "url": "https://www.freelancer.com/projects/machine-learning/Learning-FrozenLake-Performance-Analysis",
-      "reason": {
-        "ar": "هذه مهمة بحث وتطبيق متخصصة في تعلم الآلة (Q-learning في Python)، وهي خارج نطاق Moe في دمج ميزات Gemini AI في التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
-        "en": "This is a specialized machine learning research and implementation task (Q-learning in Python), which is outside Moe's scope of integrating Gemini AI features into apps or building AI agents."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -290,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (171 skipped: small budgets from other countries, 78 skipped: not app/AI work)"
+        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (202 skipped: small budgets from other countries, 92 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -298,11 +298,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "82 jobs from Gmail alerts (last 5 days)"
+        "msg": "83 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4490223207: HTTP 429"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "1 of 1 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -310,7 +314,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "2 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       }
     ]
   }
