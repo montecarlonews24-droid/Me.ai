@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T19:09:46.532Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-16T19:14:58.399Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض طلب واحد اليوم لأنه يتعلق باختبار الألعاب، وهو ليس ضمن خدمات Moe.",
-    "en": "One lead was rejected today as it was for game testing, which is not among Moe's services."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
@@ -278,11 +278,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "245 leads seen before"
+        "msg": "246 leads seen before"
       },
       {
         "step": "verify",
@@ -290,7 +290,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (166 skipped: small budgets from other countries, 103 skipped: not app/AI work)"
+        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (163 skipped: small budgets from other countries, 106 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -298,15 +298,15 @@
       },
       {
         "step": "arab",
-        "msg": "Mostaql: 0 on page"
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
       },
       {
         "step": "arab",
-        "msg": "Mostaql: 0 on page"
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
       },
       {
         "step": "arab",
-        "msg": "Khamsat: 0 on page"
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
       },
       {
         "step": "arab",
@@ -330,11 +330,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
