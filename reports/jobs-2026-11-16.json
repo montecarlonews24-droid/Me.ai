@@ -1,10 +1,10 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T18:50:41.149Z",
+  "generatedAt": "2026-11-16T19:09:46.532Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض جميع الفرص اليوم لأنها إما خارج نطاق قدرات Moe، أو ميزانيتها منخفضة للغاية، أو تتطلب مهارات تسويقية وليست تطوير تطبيقات.",
-    "en": "All leads today were rejected as they were either outside Moe's capabilities, had extremely low budgets, or required marketing skills rather than app development."
+    "ar": "تم رفض طلب واحد اليوم لأنه يتعلق باختبار الألعاب، وهو ليس ضمن خدمات Moe.",
+    "en": "One lead was rejected today as it was for game testing, which is not among Moe's services."
   },
   "fresh": 0,
   "leads": [
@@ -34,6 +34,14 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Android multiplayer shooter game tester",
+      "url": "https://www.freelancer.com/projects/game-testing/Android-multiplayer-shooter-game-tester",
+      "reason": {
+        "ar": "المشروع يطلب مختبر ألعاب (game tester) وليس مطور تطبيقات. Moe يبني التطبيقات ولا يقدم خدمات اختبار الألعاب.",
+        "en": "The project requires a game tester, not an app developer. Moe builds apps and does not offer game testing services."
+      }
+    },
     {
       "title": "Remove GPS Restriction in APK",
       "url": "https://www.freelancer.com/projects/reverse-engineering/Remove-GPS-Restriction-APK",
@@ -265,24 +273,16 @@
         "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
         "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
       }
-    },
-    {
-      "title": "Pre-Employment Verification Needed in Bury, United Kingdom",
-      "url": "https://www.freelancer.com/projects/field-research/Pre-Employment-Verification-Needed-Bury",
-      "reason": {
-        "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
-        "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
-        "msg": "242 leads seen before"
+        "msg": "245 leads seen before"
       },
       {
         "step": "verify",
@@ -290,11 +290,31 @@
       },
       {
         "step": "freelancer",
-        "msg": "24 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (168 skipped: small budgets from other countries, 101 skipped: not app/AI work)"
+        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (166 skipped: small budgets from other countries, 103 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
         "msg": "5 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
       },
       {
         "step": "linkedin",
@@ -302,7 +322,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 of 1 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -310,11 +330,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 3 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
