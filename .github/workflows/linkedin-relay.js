@@ -50,6 +50,18 @@ function cleanup() {
     removed += list.length;
   }
   console.log('LinkedIn notifications removed: ' + removed);
+
+  // إيميلات Freelancer "مشاريع بتناسب مهاراتك": Me.ai بياخدها مباشرة من Freelancer، فما في داعي إلها.
+  // رسائل الزبائن والمشاريع اللي ربحتها والدفعات ما بتنلمس.
+  const fq = 'in:inbox from:freelancer.com "projects matching your skills"';
+  let fl = 0;
+  for (let round = 0; round < 5; round++) {
+    const list = GmailApp.search(fq, 0, 100);
+    if (!list.length) break;
+    GmailApp.moveThreadsToTrash(list);
+    fl += list.length;
+  }
+  console.log('Freelancer project emails removed: ' + fl);
 }
 
 /** بيطلّع الوظائف: لكل رابط وظيفة بياخد النص اللي حواليه، والـ Agent بيفهم منه العنوان الصح */
