@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T03:08:13.676Z",
+  "model": "gemini-3.8-flash",
+  "summary": {
+    "ar": "جميع الفرص المعروضة اليوم تقع خارج نطاق العمل المعتمد (وظائف توظيف وتصميم، تدريب، إنتاج فيديو بالذكاء الاصطناعي، وتقنيات Flutter/React Native غير المدعومة).",
+    "en": "All leads today fall outside Moe's scope (staff roles, graphic design, tutoring, AI video production, and unsupported tech like Flutter/React Native)."
+  },
+  "fresh": 0,
+  "leads": [],
+  "rejected": [
+    {
+      "title": "Trainer for Multimodal AI Evaluation",
+      "url": "https://www.freelancer.com/projects/ai-audio-to-audio/Trainer-for-Multimodal-Evaluation",
+      "reason": {
+        "ar": "طلب تدريب وتوجيه شخصي (Coaching) وليس مشروع برمجة تطبيق أو أتمتة.",
+        "en": "Client is seeking personal coaching/training on audio evaluation, not software or app development."
+      }
+    },
+    {
+      "title": "US Astrology Content Poster",
+      "url": "https://www.freelancer.com/projects/instagram-marketing/Astrology-Content-Poster",
+      "reason": {
+        "ar": "مهمة إدارة ونشر محتوى تواصل اجتماعي وتتطلب التواجد داخل الولايات المتحدة.",
+        "en": "Virtual assistant and social media posting task requiring US residency."
+      }
+    },
+    {
+      "title": "Detect and Filter AI-Written Bids",
+      "url": "https://www.freelancer.com/projects/ai-auditing/Detect-Filter-Written-Bids",
+      "reason": {
+        "ar": "مهمة فرز ومراجعة عروض يدوية مع طلب تواصل خارجي مشبوه على إنستغرام، خارج نطاق تطوير التطبيقات.",
+        "en": "Manual proposal filtering task with suspicious off-platform contact request; outside development scope."
+      }
+    },
+    {
+      "title": "AI Vertical Drama Series Production",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Vertical-Drama-Series-Production",
+      "reason": {
+        "ar": "مشروع إنتاج وإخراج مسلسلات فيديو بواسطة الذكاء الاصطناعي، خارج نطاق العمل البرمجي.",
+        "en": "AI video filmmaking and short-drama series production, which is outside Moe's scope."
+      }
+    },
+    {
+      "title": "Integrate Seedance2.5 Discounted API",
+      "url": "https://www.freelancer.com/projects/api-integration/Integrate-Seedance-Discounted-API",
+      "reason": {
+        "ar": "المشروع مكتوب باللغة الصينية وليس بالإنجليزية أو العربية.",
+        "en": "Project brief is in Chinese (not English or Arabic)."
+      }
+    },
+    {
+      "title": "Storyboard’dan Gerçekçi AI Video",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Storyboard-dan-Ger-Video",
+      "reason": {
+        "ar": "المشروع مكتوب باللغة التركية، ويتعلق بإنتاج ومونتاج الفيديو بالذكاء الاصطناعي.",
+        "en": "Project is in Turkish and requires AI video editing and animation."
+      }
+    },
+    {
+      "title": "Marketing Campaign Organization Assistant",
+      "url": "https://www.freelancer.com/projects/automation/Marketing-Campaign-Organization",
+      "reason": {
+        "ar": "إدارة ومتابعة حملات تسويقية على HubSpot وSalesforce (مساعد افتراضي).",
+        "en": "Virtual assistant role for CRM and marketing campaign management (HubSpot/Salesforce)."
+      }
+    },
+    {
+      "title": "El paraíso de Ana",
+      "url": "https://www.freelancer.com/projects/after-effects/para-Ana",
+      "reason": {
+        "ar": "صناعة فيديوهات تيك توك ومونتاج ورسوم متحركة بالذكاء الاصطناعي.",
+        "en": "AI video creation and animation for TikTok shorts, outside Moe's scope."
+      }
+    },
+    {
+      "title": "Toddler ABC & 123 Animations",
+      "url": "https://www.freelancer.com/projects/2d-animation/Toddler-ABC-Animations",
+      "reason": {
+        "ar": "صناعة وتحريك رسوم أطفال لقناة يوتيوب (Animation)، خارج نطاق التطبيقات.",
+        "en": "Children's video animation production for YouTube, outside development scope."
+      }
+    },
+    {
+      "title": "AI-Enhanced Social Content Management",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Enhanced-Social-Content-Management",
+      "reason": {
+        "ar": "إدارة محتوى ونشر على منصات التواصل الاجتماعي.",
+        "en": "Social media content repurposing and management."
+      }
+    },
+    {
+      "title": "Mobile QA for Adult Recruitment",
+      "url": "https://www.freelancer.com/projects/android/Mobile-for-Adult-Recruitment",
+      "reason": {
+        "ar": "فحص ومراجعة جودة يدوية (QA) لموقع توظيف في مجال محتوى البالغين.",
+        "en": "Manual QA testing task on an adult recruitment website."
+      }
+    },
+    {
+      "title": "Moving Company Job Platform",
+      "url": "https://www.freelancer.com/projects/backend-development/Moving-Company-Job-Platform",
+      "reason": {
+        "ar": "نظام لوجستي معقد متعدد الأطراف ويتطلب مهارات React Native وFlutter وخلفية برمجية كبيرة لا يدعمها Moe.",
+        "en": "Complex multi-role dispatch system explicitly requesting React Native, Flutter, and custom PHP backend."
+      }
+    },
+    {
+      "title": "Full-Time Amazon Brand Graphic Designer",
+      "url": "https://www.freelancer.com/projects/graphic-design/Full-Time-Amazon-Brand-Graphic",
+      "reason": {
+        "ar": "وظيفة دوام كامل في التصميم الجرافيكي لمنتجات أمازون.",
+        "en": "Full-time graphic design position for an Amazon brand."
+      }
+    },
+    {
+      "title": "Platform Engineer (AWS & Linux Infrastructure) - Paramus, NJ",
+      "url": "https://www.reddit.com/r/forhire/comments/1xxxtui/hiring_platform_engineer_aws_linux_infrastructure/",
+      "reason": {
+        "ar": "وظيفة مهندس بنية تحتية بدوام كامل من خلال وكالة توظيف.",
+        "en": "Full-time platform engineering staff role posted by a recruitment agency."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 14,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "246 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "34 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (143 skipped: small budgets from other countries, 114 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "6 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
+      },
+      {
+        "step": "linkedin",
+        "msg": "84 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 of 0 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "1 new Reddit posts added"
+      },
+      {
+        "step": "verify",
+        "msg": "13 new Freelancer projects added, 14 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 14 via gemini-3.8-flash"
+      }
+    ]
+  }
+}

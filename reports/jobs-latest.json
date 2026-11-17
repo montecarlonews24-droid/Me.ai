@@ -1,284 +1,131 @@
 {
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T19:14:58.399Z",
-  "model": "",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T03:08:13.676Z",
+  "model": "gemini-3.8-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "جميع الفرص المعروضة اليوم تقع خارج نطاق العمل المعتمد (وظائف توظيف وتصميم، تدريب، إنتاج فيديو بالذكاء الاصطناعي، وتقنيات Flutter/React Native غير المدعومة).",
+    "en": "All leads today fall outside Moe's scope (staff roles, graphic design, tutoring, AI video production, and unsupported tech like Flutter/React Native)."
   },
   "fresh": 0,
-  "leads": [
-    {
-      "title": "Kotlin Developer",
-      "url": "https://www.linkedin.com/jobs/view/4490360873/",
-      "platform": "LinkedIn",
-      "market": "",
-      "country": "Czechia",
-      "budget": "",
-      "posted": "1 hours ago",
-      "proposals": "",
-      "language": "en",
-      "summary": "CoolPeople Technology · Czechia",
-      "fit": 7,
-      "why": {
-        "ar": "",
-        "en": ""
-      },
-      "watch": {
-        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
-        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
-      },
-      "proposal": "My services cover the full development spectrum, from concept to Google Play publishing and ongoing support. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24",
-      "fresh": false,
-      "liChecked": true
-    }
-  ],
+  "leads": [],
   "rejected": [
     {
-      "title": "Android multiplayer shooter game tester",
-      "url": "https://www.freelancer.com/projects/game-testing/Android-multiplayer-shooter-game-tester",
+      "title": "Trainer for Multimodal AI Evaluation",
+      "url": "https://www.freelancer.com/projects/ai-audio-to-audio/Trainer-for-Multimodal-Evaluation",
       "reason": {
-        "ar": "المشروع يطلب مختبر ألعاب (game tester) وليس مطور تطبيقات. Moe يبني التطبيقات ولا يقدم خدمات اختبار الألعاب.",
-        "en": "The project requires a game tester, not an app developer. Moe builds apps and does not offer game testing services."
+        "ar": "طلب تدريب وتوجيه شخصي (Coaching) وليس مشروع برمجة تطبيق أو أتمتة.",
+        "en": "Client is seeking personal coaching/training on audio evaluation, not software or app development."
       }
     },
     {
-      "title": "Remove GPS Restriction in APK",
-      "url": "https://www.freelancer.com/projects/reverse-engineering/Remove-GPS-Restriction-APK",
+      "title": "US Astrology Content Poster",
+      "url": "https://www.freelancer.com/projects/instagram-marketing/Astrology-Content-Poster",
       "reason": {
-        "ar": "المشروع يتطلب هندسة عكسية لملفات APK مجمعة وتعديل كود منخفض المستوى (smali/classes)، وهذا خارج نطاق قدرات Moe الحالية. بالإضافة إلى ذلك، الميزانية البالغة 10-11 دولارًا منخفضة للغاية لمثل هذه المهمة المعقدة.",
-        "en": "The project requires reverse engineering compiled Android APKs and modifying low-level code (smali/classes), which is outside Moe's current capabilities. Additionally, the budget of 10-11 USD is extremely low for such a complex task."
+        "ar": "مهمة إدارة ونشر محتوى تواصل اجتماعي وتتطلب التواجد داخل الولايات المتحدة.",
+        "en": "Virtual assistant and social media posting task requiring US residency."
       }
     },
     {
-      "title": "Drive IDE Sales via Social Campaign",
-      "url": "https://www.freelancer.com/projects/social-media-marketing/Drive-IDE-Sales-via-Social",
+      "title": "Detect and Filter AI-Written Bids",
+      "url": "https://www.freelancer.com/projects/ai-auditing/Detect-Filter-Written-Bids",
       "reason": {
-        "ar": "هذا المشروع يتعلق بالتسويق عبر وسائل التواصل الاجتماعي وإنشاء المحتوى، وهو خارج نطاق مهارات Moe تمامًا كمطور تطبيقات وباني وكلاء ذكاء اصطناعي.",
-        "en": "This project is for social media marketing and content creation, which is completely outside Moe's skillset as an app developer and AI agent builder."
+        "ar": "مهمة فرز ومراجعة عروض يدوية مع طلب تواصل خارجي مشبوه على إنستغرام، خارج نطاق تطوير التطبيقات.",
+        "en": "Manual proposal filtering task with suspicious off-platform contact request; outside development scope."
       }
     },
     {
-      "title": "iOS App Developer - Remote",
-      "url": "https://www.linkedin.com/jobs/view/4478609071/",
+      "title": "AI Vertical Drama Series Production",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Vertical-Drama-Series-Production",
       "reason": {
-        "ar": "يتطلب المشروع مهندس برمجيات محمول رفيع المستوى لإنشاء بيئات تعلم معزز ومهام برمجية معقدة لتدريب نماذج الذكاء الاصطناعي. بينما يبني Moe تطبيقات مدعومة بالذكاء الاصطناعي ووكلاء ذكاء اصطناعي، فإن هذا النوع المحدد من هندسة الذكاء الاصطناعي/تعلم الآلة المتقدم لتدريب النماذج خارج قدراته الحالية.",
-        "en": "The project requires a Senior Mobile Software Engineer to create Reinforcement Learning Environments and complex coding tasks for training AI models. While Moe builds AI-powered apps and AI agents, this specific type of advanced AI/ML engineering for model training is outside his current capabilities."
+        "ar": "مشروع إنتاج وإخراج مسلسلات فيديو بواسطة الذكاء الاصطناعي، خارج نطاق العمل البرمجي.",
+        "en": "AI video filmmaking and short-drama series production, which is outside Moe's scope."
       }
     },
     {
-      "title": "Chatbot Konseling Cinta Interaktif",
-      "url": "https://www.freelancer.com/projects/ai-chatbot/Chatbot-Konseling-Cinta-Interaktif",
+      "title": "Integrate Seedance2.5 Discounted API",
+      "url": "https://www.freelancer.com/projects/api-integration/Integrate-Seedance-Discounted-API",
       "reason": {
-        "ar": "لغة المشروع ليست الإنجليزية أو العربية (النص باللغة الإندونيسية).",
-        "en": "The project language is not English or Arabic (text is in Indonesian)."
+        "ar": "المشروع مكتوب باللغة الصينية وليس بالإنجليزية أو العربية.",
+        "en": "Project brief is in Chinese (not English or Arabic)."
       }
     },
     {
-      "title": "Boost YOLOv26 mAP Beyond 85%",
-      "url": "https://www.freelancer.com/projects/machine-learning/Boost-YOLOv-mAP-Beyond",
+      "title": "Storyboard’dan Gerçekçi AI Video",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Storyboard-dan-Ger-Video",
       "reason": {
-        "ar": "الميزانية منخفضة للغاية (10-11 دولارًا أمريكيًا) وتتطلب خبرة متخصصة في هندسة تعلم الآلة (Python, Tensorflow, Pytorch, YOLO optimization) وهي خارج نطاق ما يمكن لمحمد تقديمه (يركز على ميزات Gemini AI وتطبيقات الأندرويد ووكلاء الذكاء الاصطناعي).",
-        "en": "The budget is extremely low (10-11 USD) and requires specialist Machine Learning engineering expertise (Python, Tensorflow, Pytorch, YOLO optimization) which is outside Moe's scope (he focuses on Gemini AI features, Android apps, and AI agents)."
+        "ar": "المشروع مكتوب باللغة التركية، ويتعلق بإنتاج ومونتاج الفيديو بالذكاء الاصطناعي.",
+        "en": "Project is in Turkish and requires AI video editing and animation."
       }
     },
     {
-      "title": "Senior Mobile Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4490223207/",
+      "title": "Marketing Campaign Organization Assistant",
+      "url": "https://www.freelancer.com/projects/automation/Marketing-Campaign-Organization",
       "reason": {
-        "ar": "الوظيفة هي وظيفة دوام كامل/موظف في شركة (Senior Mobile Engineer) وليست مشروعًا مستقلاً.",
-        "en": "The lead is for a full-time/staff job at a company (Senior Mobile Engineer) and not a freelance project."
+        "ar": "إدارة ومتابعة حملات تسويقية على HubSpot وSalesforce (مساعد افتراضي).",
+        "en": "Virtual assistant role for CRM and marketing campaign management (HubSpot/Salesforce)."
       }
     },
     {
-      "title": "Advanced JMAG Simulation Training",
-      "url": "https://www.freelancer.com/projects/simulation/Advanced-JMAG-Simulation-Training",
+      "title": "El paraíso de Ana",
+      "url": "https://www.freelancer.com/projects/after-effects/para-Ana",
       "reason": {
-        "ar": "الطلب يتعلق بالتدريب على برنامج JMAG للمحاكاة الهندسية وليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
-        "en": "The request is for training in JMAG engineering simulation software, not for app development or AI agent creation."
+        "ar": "صناعة فيديوهات تيك توك ومونتاج ورسوم متحركة بالذكاء الاصطناعي.",
+        "en": "AI video creation and animation for TikTok shorts, outside Moe's scope."
       }
     },
     {
-      "title": "Kembangkan Aplikasi Toko Jasa Online",
-      "url": "https://www.freelancer.com/projects/flutter/Kembangkan-Aplikasi-Toko-Jasa-Online",
+      "title": "Toddler ABC & 123 Animations",
+      "url": "https://www.freelancer.com/projects/2d-animation/Toddler-ABC-Animations",
       "reason": {
-        "ar": "وصف المشروع باللغة الإندونيسية، ويطلب استخدام Flutter أو React Native، والميزانية منخفضة جداً مقارنة بالنطاق المطلوب.",
-        "en": "The project description is in Indonesian, requires Flutter or React Native, and the budget is too low for the scope."
+        "ar": "صناعة وتحريك رسوم أطفال لقناة يوتيوب (Animation)، خارج نطاق التطبيقات.",
+        "en": "Children's video animation production for YouTube, outside development scope."
       }
     },
     {
-      "title": "Aviation Delay Analysis Literature Review",
-      "url": "https://www.freelancer.com/projects/aviation/Aviation-Delay-Analysis-Literature",
+      "title": "AI-Enhanced Social Content Management",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Enhanced-Social-Content-Management",
       "reason": {
-        "ar": "الطلب يتعلق بكتابة مراجعة أدبية وبحث أكاديمي لرسالة جامعية، وهو ليس ضمن خدمات Moe لتطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
-        "en": "The request is for writing a literature review and academic research for a bachelor's thesis, which is outside Moe's services of app development or AI agents."
+        "ar": "إدارة محتوى ونشر على منصات التواصل الاجتماعي.",
+        "en": "Social media content repurposing and management."
       }
     },
     {
-      "title": "B2B Lead Generation for Tech Services",
-      "url": "https://www.freelancer.com/projects/lead-generation/Lead-Generation-for-Tech-Services",
+      "title": "Mobile QA for Adult Recruitment",
+      "url": "https://www.freelancer.com/projects/android/Mobile-for-Adult-Recruitment",
       "reason": {
-        "ar": "المشروع يطلب شخصاً لتوليد العملاء والمبيعات (Lead Generation)، وليس مطور تطبيقات. هذا خارج نطاق ما يمكن لمحمد تقديمه.",
-        "en": "The project requires a lead generation and sales specialist, not an app developer. This is outside Moe's capabilities."
+        "ar": "فحص ومراجعة جودة يدوية (QA) لموقع توظيف في مجال محتوى البالغين.",
+        "en": "Manual QA testing task on an adult recruitment website."
       }
     },
     {
-      "title": "Video Editor Reel Medici e Caroselli",
-      "url": "https://www.freelancer.com/projects/adobe-premiere-pro/Video-Editor-Reel-Medici-Caroselli",
+      "title": "Moving Company Job Platform",
+      "url": "https://www.freelancer.com/projects/backend-development/Moving-Company-Job-Platform",
       "reason": {
-        "ar": "المشروع يطلب محرر فيديو لإنشاء محتوى لوسائل التواصل الاجتماعي، وليس مطور تطبيقات. هذا خارج نطاق ما يمكن لمحمد تقديمه. كما أن نص المشروع الأساسي باللغة الإيطالية.",
-        "en": "The project requires a video editor for social media content creation, not an app developer. This is outside Moe's capabilities. Additionally, the core project text is in Italian."
+        "ar": "نظام لوجستي معقد متعدد الأطراف ويتطلب مهارات React Native وFlutter وخلفية برمجية كبيرة لا يدعمها Moe.",
+        "en": "Complex multi-role dispatch system explicitly requesting React Native, Flutter, and custom PHP backend."
       }
     },
     {
-      "title": "Development of 1-to-1 Paid Video Calling App with AI Moderation",
-      "url": "https://www.freelancer.com/projects/android-app-development/Development-Paid-Video-Calling-App",
+      "title": "Full-Time Amazon Brand Graphic Designer",
+      "url": "https://www.freelancer.com/projects/graphic-design/Full-Time-Amazon-Brand-Graphic",
       "reason": {
-        "ar": "يتطلب المشروع دعم 50 مكالمة فيديو متزامنة مع قابلية التوسع إلى 500 مكالمة، وهذا يعني الحاجة إلى بنية خلفية (backend) كبيرة ومعقدة جداً لإدارة البث المباشر ومعالجة الذكاء الاصطناعي في الوقت الفعلي، وهو ما يتجاوز قدرات محمد المحددة بـ 'Firebase backend (login, database, push)' ويتعارض مع 'CANNOT do: large backends'.",
-        "en": "The project requires supporting 50 simultaneous video calls, scalable to 500, which implies a very large and complex backend for real-time streaming and AI processing. This exceeds Moe's stated capability of 'Firebase backend (login, database, push)' and explicitly contradicts his 'CANNOT do: large backends'."
+        "ar": "وظيفة دوام كامل في التصميم الجرافيكي لمنتجات أمازون.",
+        "en": "Full-time graphic design position for an Amazon brand."
       }
     },
     {
-      "title": "End-to-End Platform Penetration Testing (Supabase, React Native, Stripe)",
-      "url": "https://www.freelancer.com/projects/penetration-testing/End-End-Platform-Penetration-Testing",
+      "title": "Platform Engineer (AWS & Linux Infrastructure) - Paramus, NJ",
+      "url": "https://www.reddit.com/r/forhire/comments/1xxxtui/hiring_platform_engineer_aws_linux_infrastructure/",
       "reason": {
-        "ar": "المشروع يطلب متخصصاً في اختبار الاختراق (penetration tester) وليس مطور تطبيقات. كما أنه يتطلب العمل على تطبيقات مبنية بـ React Native و iOS، ومحمد لا يعمل على React Native أو iOS.",
-        "en": "The project requires a penetration tester, not an app developer. Additionally, it involves working with React Native and iOS apps, which Moe cannot do (he does not work with React Native or iOS)."
-      }
-    },
-    {
-      "title": "European Cybersecurity Article Research",
-      "url": "https://www.freelancer.com/projects/artificial-intelligence/European-Cybersecurity-Article-Research",
-      "reason": {
-        "ar": "المشروع عبارة عن بحث وكتابة مقالات، وهو خارج نطاق عمل Moe كمطور تطبيقات.",
-        "en": "The project is for article research and writing, which is outside Moe's scope as an app developer."
-      }
-    },
-    {
-      "title": "Looking for Influencers (Actors/Dancers/Performers) for Short Promo Song for Shuffler App ($20)",
-      "url": "https://www.freelancer.com/projects/influencer-marketing/Looking-for-Influencers-Actors-Dancers",
-      "reason": {
-        "ar": "المشروع يطلب مؤثرين/مؤدين لإنشاء محتوى ترويجي، وليس تطوير تطبيقات.",
-        "en": "The project is seeking influencers/performers for promotional content, not app development."
-      }
-    },
-    {
-      "title": "Game Block Blast Berhadiah Koin",
-      "url": "https://www.freelancer.com/projects/game-development/Game-Block-Blast-Berhadiah-Koin",
-      "reason": {
-        "ar": "نص المشروع ليس باللغة الإنجليزية، وMoe يستهدف العملاء الناطقين بالإنجليزية فقط.",
-        "en": "The project text is not in English, and Moe targets English-speaking clients only."
-      }
-    },
-    {
-      "title": "SDR/Closer B2B bilingüe ES/EN para SaaS de IA (LaiaDesk) - ventas y cierre",
-      "url": "https://www.freelancer.com/projects/sales/SDR-Closer-biling-para-SaaS",
-      "reason": {
-        "ar": "المشروع عبارة عن دور مبيعات (SDR/Closer) لبيع منصة SaaS، وهو خارج نطاق عمل Moe كمطور تطبيقات.",
-        "en": "The project is a sales role (SDR/Closer) for a SaaS platform, which is outside Moe's scope as an app developer."
-      }
-    },
-    {
-      "title": "Python Chatbot Coursework Tutoring Support",
-      "url": "https://www.freelancer.com/projects/chatbot/Python-Chatbot-Coursework-Tutoring",
-      "reason": {
-        "ar": "المشروع عبارة عن طلب دعم تعليمي لإنجاز واجب جامعي، وليس مشروعًا حقيقيًا لعميل.",
-        "en": "The project is a request for tutoring support to complete university coursework, not a real client project."
-      }
-    },
-    {
-      "title": "Acquire 10 Verified AppForge Customers",
-      "url": "https://www.freelancer.com/projects/sales/Acquire-Verified-AppForge-Customers",
-      "reason": {
-        "ar": "المشروع يطلب متخصصًا في المبيعات واكتساب العملاء، وهو خارج نطاق عمل Moe كمطور تطبيقات.",
-        "en": "The project is seeking a sales and customer acquisition specialist, which is outside Moe's scope as an app developer."
-      }
-    },
-    {
-      "title": "Paid app testers (US residents, 18+) – AI clothing try-on app",
-      "url": "https://www.freelancer.com/projects/mobile-app-testing/Paid-app-testers-residents-clothing",
-      "reason": {
-        "ar": "المشروع يطلب مختبرين للتطبيقات، وليس مطورين.",
-        "en": "The project is seeking app testers, not developers."
-      }
-    },
-    {
-      "title": "Automated YouTube Video Producer Needed | Ongoing Partnership",
-      "url": "https://www.freelancer.com/projects/ai-video/Automated-YouTube-Video-Producer-Needed",
-      "reason": {
-        "ar": "المشروع يتطلب إنتاج فيديو آلي لـ YouTube، وهو خارج قدرات Moe في تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي.",
-        "en": "The project requires automated YouTube video production, which is outside Moe's capabilities in Android app and AI agent development."
-      }
-    },
-    {
-      "title": "安卓 API 安全测试",
-      "url": "https://www.freelancer.com/projects/api-testing/API-40820839",
-      "reason": {
-        "ar": "نص المشروع ليس باللغة الإنجليزية، وMoe يستهدف العملاء الناطقين بالإنجليزية فقط. كما أنه يتطلب اختبار أمان واختراق متخصص وهو ليس ضمن خدمات Moe.",
-        "en": "The project text is not in English, and Moe targets English-speaking clients only. Additionally, it requires specialized security testing and penetration testing, which is not among Moe's services."
-      }
-    },
-    {
-      "title": "Complete Java Coursework Exercises",
-      "url": "https://www.freelancer.com/projects/eclipse/Complete-Java-Coursework-Exercises",
-      "reason": {
-        "ar": "المشروع عبارة عن طلب لإنجاز واجب جامعي في Java، وليس مشروعًا حقيقيًا لعميل.",
-        "en": "The project is a request to complete Java university coursework, not a real client project."
-      }
-    },
-    {
-      "title": "Design Compact IoT Control PCB",
-      "url": "https://www.freelancer.com/projects/embedded-systems/Design-Compact-IoT-Control-PCB",
-      "reason": {
-        "ar": "المشروع يتطلب تصميم لوحات إلكترونية مطبوعة (PCB) وأنظمة مدمجة، وهو خارج قدرات Moe كمطور تطبيقات Android.",
-        "en": "The project requires PCB design and embedded systems, which is outside Moe's capabilities as an Android app developer."
-      }
-    },
-    {
-      "title": "Android Phone & App Reviews",
-      "url": "https://www.freelancer.com/projects/technical-writing/Android-Phone-App-Reviews",
-      "reason": {
-        "ar": "المشروع يطلب كاتبًا لمراجعات تطبيقات وهواتف Android، وهو خارج نطاق عمل Moe كمطور تطبيقات.",
-        "en": "The project is seeking a writer for Android phone and app reviews, which is outside Moe's scope as an app developer."
-      }
-    },
-    {
-      "title": "Configuration TrueNAS, IPTV et sécurité complète /// JOB NOW //////",
-      "url": "https://www.freelancer.com/projects/network-administration/Configuration-TrueNAS-IPTV-curit-compl",
-      "reason": {
-        "ar": "المشروع يتطلب إعداد TrueNAS وIPTV وإدارة الشبكات، وهو خارج قدرات Moe في تطوير التطبيقات وخدمات Firebase الخلفية.",
-        "en": "The project requires TrueNAS setup, IPTV configuration, and network administration, which is outside Moe's capabilities in app development and Firebase backend services."
-      }
-    },
-    {
-      "title": "Remote TikTok Scriptwriter for wellness apps, students welcome, hourly pay",
-      "url": "https://www.reddit.com/r/forhire/comments/1xxms17/hiring_remote_tiktok_scriptwriter_for_wellness/",
-      "reason": {
-        "ar": "المشروع يطلب كاتب نصوص لـ TikTok، وهو خارج نطاق عمل Moe كمطور تطبيقات.",
-        "en": "The project is seeking a TikTok scriptwriter, which is outside Moe's scope as an app developer."
-      }
-    },
-    {
-      "title": "Backend Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4490219368/",
-      "reason": {
-        "ar": "المشروع لوظيفة \"مهندس برمجيات خلفية\" بمستوى \"متوسط إلى كبير\" ويتطلب خبرة واسعة في لغات متعددة (Java, Node.js, Go, Rust, Python, C++)، وهو يتجاوز قدرات Moe في Firebase. كما يتضمن تقييمًا فنيًا ومقابلة ذكاء اصطناعي، وهو ما لا يمكن لـ Moe القيام به.",
-        "en": "The project is for a 'Backend Software Engineer' at a 'Mid-Senior level' requiring extensive experience in multiple languages (Java, Node.js, Go, Rust, Python, C++), which exceeds Moe's Firebase capabilities. It also includes a technical assessment and AI interview, which Moe cannot do."
-      }
-    },
-    {
-      "title": "Educational Certificate Verification needed in Uzbekistan",
-      "url": "https://www.freelancer.com/projects/field-research/Educational-Certificate-Verification-40820270",
-      "reason": {
-        "ar": "هذه مهمة بحث ميداني وإدخال بيانات تتطلب التواجد الفعلي، وليست مشروع تطوير برمجيات يمكن لـ Moe القيام به.",
-        "en": "This is a field research and data entry task requiring physical presence, not a software development project Moe can undertake."
+        "ar": "وظيفة مهندس بنية تحتية بدوام كامل من خلال وكالة توظيف.",
+        "en": "Full-time platform engineering staff role posted by a recruitment agency."
       }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 14,
     "steps": [
       {
         "step": "memory",
@@ -290,11 +137,11 @@
       },
       {
         "step": "freelancer",
-        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (163 skipped: small budgets from other countries, 106 skipped: not app/AI work)"
+        "msg": "34 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (143 skipped: small budgets from other countries, 114 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
-        "msg": "5 [Hiring] posts from the phone relay (last 5 days)"
+        "msg": "6 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "arab",
@@ -326,11 +173,15 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Reddit posts added"
+        "msg": "1 new Reddit posts added"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "13 new Freelancer projects added, 14 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 14 via gemini-3.8-flash"
       }
     ]
   }
