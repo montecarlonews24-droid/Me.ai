@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:53:17.296Z",
+  "generatedAt": "2026-11-17T14:55:46.912Z",
   "model": "",
   "summary": {
     "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
@@ -404,7 +404,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "21 open projects from the last 5 days worldwide with budget 100+ USD (212 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 112 skipped: not app/AI work)"
+        "msg": "21 open projects from the last 5 days worldwide with budget 100+ USD (213 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 111 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -432,11 +432,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "76 jobs from Gmail alerts (last 5 days)"
+        "msg": "77 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "0 of 1 new LinkedIn jobs added"
       },
       {
         "step": "verify",
