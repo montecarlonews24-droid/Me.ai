@@ -223,6 +223,9 @@ const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : GU
 const MIN_ANY_USD = 100; // كل دول العالم: بس إذا أعلى الميزانية 100 دولار وفوق (أو 10 دولار بالساعة)
 // عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
+const BLOCK_COUNTRIES = ['India', 'Pakistan', 'Bangladesh'];
+const BLOCK_CURRENCIES = ['INR', 'PKR', 'BDT'];
+let skippedBlocked = 0;
 let skippedRegion = 0;
 let skippedSkill = 0;
 const RELEVANT = /android|\bios\b|iphone|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
@@ -249,6 +252,8 @@ async function freelancerFeed() {
         const usdMin = (Number(p.budget?.minimum) || 0) * rate;
         const usdMax = (Number(p.budget?.maximum) || Number(p.budget?.minimum) || 0) * rate;
         const richBudget = p.type === 'hourly' ? usdMax >= 10 : usdMax >= MIN_ANY_USD;
+        // الهند وباكستان وبنغلادش: ميزانيات صغيرة ومنافسة عالية، منشيلهم دايماً
+        if (BLOCK_COUNTRIES.includes(country) || BLOCK_CURRENCIES.includes(curCode)) { skippedBlocked++; continue; }
         const okPlace = country ? !!region : (curCode in CUR_REGION);
         if (!okPlace && !richBudget) { skippedRegion++; continue; }   // INR, IDR, PKR بميزانيات صغيرة
         const guessedRegion = region || CUR_REGION[curCode] || '';
@@ -284,7 +289,7 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
-  log('freelancer', `${list.length} open projects from the last 5 days worldwide with budget 100+ USD (${skippedRegion} skipped: budget under 100 USD, ${skippedSkill} skipped: not app/AI work)`);
+  log('freelancer', `${list.length} open projects from the last 5 days worldwide with budget 100+ USD (${skippedBlocked} skipped: India/Pakistan/Bangladesh, ${skippedRegion} skipped: budget under 100 USD, ${skippedSkill} skipped: not app/AI work)`);
   return list;
 }
 
