@@ -1,13 +1,37 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:55:46.912Z",
-  "model": "",
+  "generatedAt": "2026-11-17T14:59:33.534Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
-    "en": "No new leads that fit you this run. I will search again."
+    "ar": "تم رفض طلب واحد يتطلب مهارات هندسة ذكاء اصطناعي متخصصة في الخلفية (Python, LangGraph). وتم قبول طلب واحد لتطوير تطبيقات وأتمتة باستخدام أدوات الذكاء الاصطناعي، وهو مناسب جداً لـ Moe.",
+    "en": "One lead requiring specialized AI backend engineering skills (Python, LangGraph) was rejected. One lead for developing applications and automation using AI coding tools was accepted as a very good fit for Moe."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Software Developer — AI & Automation",
+      "url": "https://www.linkedin.com/jobs/view/4490957378/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Cairo, Egypt",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Innovative Consulting Partners · Cairo, Egypt",
+      "fit": 9,
+      "why": {
+        "ar": "كما أنه يذكر الحاجة إلى فهم واختبار وتصحيح الأكواد التي يولدها الذكاء الاصطناعي، وهو ما يفعله Moe في عمله.",
+        "en": "This lead is an excellent fit for Moe as it seeks a developer who uses AI coding tools to build applications and automation, which is Moe's core approach to developing Android apps and AI agents. It also mentions the need to understand, test, and troubleshoot AI-generated code, which is integral to Moe's AI-assisted development process."
+      },
+      "watch": {
+        "ar": "بما أن الوظيفة بدوام جزئي على LinkedIn، يجب التأكد من أنها مشروع مستقل وليست علاقة توظيف مستمرة.",
+        "en": "Since this is a part-time role on LinkedIn, Moe should confirm it is a project-based freelance contract and not an ongoing employment relationship."
+      },
+      "proposal": "You're seeking a resourceful developer to create working applications and automated workflows using AI coding tools. This aligns perfectly with my approach: I build native Kotlin Android apps and AI agents with AI-assisted development, where AI tools help write the code, and I manage the entire process from design to publishing. For example, my own daily AI research agent, Me.ai, is a native Android app that uses Gemini and web search for automation.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific applications or automated workflows you have in mind?",
+      "liChecked": true,
+      "fresh": true
+    },
     {
       "title": "Urgent Google Play Listing Update",
       "url": "https://www.freelancer.com/projects/android-app-development/Urgent-Google-Play-Listing-Update",
@@ -148,6 +172,14 @@
     }
   ],
   "rejected": [
+    {
+      "title": "AI Engineers",
+      "url": "https://www.linkedin.com/jobs/view/4490691960/",
+      "reason": {
+        "ar": "يتطلب هذا الدور مهارات هندسة ذكاء اصطناعي متخصصة في الخلفية، مثل تطوير تدفقات عمل LangGraph وLangChain وCrewAI وAutoGen باستخدام Python، وبناء خطوط استخراج LLM. هذه المهارات تتجاوز قدرات Moe في دمج ميزات Gemini AI في التطبيقات أو بناء وكلاء ذكاء اصطناعي بسيطة (Gemini + بحث ويب على GitHub Actions بدون خادم).",
+        "en": "This role requires specialized AI backend engineering skills, such as developing LangGraph, LangChain, CrewAI, and AutoGen agent workflows using Python, and building LLM-driven extraction pipelines. These skills go beyond Moe's capabilities in integrating Gemini AI features into apps or building simple AI agents (Gemini + web search on GitHub Actions, no server)."
+      }
+    },
     {
       "title": "Correction Bugs Application Android",
       "url": "https://www.freelancer.com/projects/android-app-development/Correction-Bugs-Application-Android",
@@ -379,24 +411,16 @@
         "ar": "المشروع يتطلب متحدثين لغات معينة (اليابانية، الصينية، الهندية، الإسبانية) ولديهم 6+ سنوات خبرة لتدريب وتقييم الذكاء الاصطناعي، وهي ليست مهارات Moe ولا يمتلك اللغات المطلوبة.",
         "en": "The project requires speakers of specific languages (Japanese, Chinese, Hindi, Spanish) with 6+ years of experience for AI training and evaluation, which are not Moe's skills, nor does he possess the required languages."
       }
-    },
-    {
-      "title": "Trainer for Multimodal AI Evaluation",
-      "url": "https://www.freelancer.com/projects/ai-audio-to-audio/Trainer-for-Multimodal-Evaluation",
-      "reason": {
-        "ar": "طلب تدريب وتوجيه شخصي (Coaching) وليس مشروع برمجة تطبيق أو أتمتة.",
-        "en": "Client is seeking personal coaching/training on audio evaluation, not software or app development."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
-        "msg": "306 leads seen before"
+        "msg": "307 leads seen before"
       },
       {
         "step": "verify",
@@ -404,7 +428,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "21 open projects from the last 5 days worldwide with budget 100+ USD (213 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 111 skipped: not app/AI work)"
+        "msg": "21 open projects from the last 5 days worldwide with budget 100+ USD (214 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 110 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -435,12 +459,104 @@
         "msg": "77 jobs from Gmail alerts (last 5 days)"
       },
       {
+        "step": "linkedin-search",
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+      },
+      {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Software Engineer – AI Systems"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Associate Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Jr. AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Applied AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer, Foundry & AI Applications – Clearance Required"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Associate Engineer for Sales Assistant Platform Technology - Software Engineer III"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Gen AI - Python Developer - Assistant Vice President"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Solutions Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (10+ years required): Software Engineer - New Grad"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior Python GenAI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full Stack AI Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Generative AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Desarrollador/a IA Generativa & .NET | Azure OpenAI | 100% Remoto"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer - Interacta"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Native Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): ETIC, Software Developer - Copilot / Power Platform Developer - Senior Associate"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Enterprise Services AI Agent Engineer Graduate (Corporate Service System - Global Travel) - 2027 Start"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): ETIC, Fullstack Developer (Python-AI) Senior Associate"
       },
       {
         "step": "verify",
-        "msg": "0 of 1 new LinkedIn jobs added"
+        "msg": "2 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -448,7 +564,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "0 new Freelancer projects added, 2 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
