@@ -1,14 +1,62 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T03:08:13.676Z",
-  "model": "gemini-3.8-flash",
+  "generatedAt": "2026-11-17T08:56:48.440Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "جميع الفرص المعروضة اليوم تقع خارج نطاق العمل المعتمد (وظائف توظيف وتصميم، تدريب، إنتاج فيديو بالذكاء الاصطناعي، وتقنيات Flutter/React Native غير المدعومة).",
-    "en": "All leads today fall outside Moe's scope (staff roles, graphic design, tutoring, AI video production, and unsupported tech like Flutter/React Native)."
+    "ar": "جميع الفرص الوظيفية اليوم تم رفضها لأنها لا تتناسب مع مهارات Moe أو تتطلب خبرات ولغات لا يمتلكها، أو أنها ليست مشاريع لتطوير التطبيقات.",
+    "en": "All leads today were rejected as they do not align with Moe's skills, require specific languages or experience he does not possess, or are not app development projects."
   },
   "fresh": 0,
   "leads": [],
   "rejected": [
+    {
+      "title": "YouTube AI Workflow & Video Editor (Faceless STEM Channel) + Pabbly Automation - 17/11/2026 01:44 EST",
+      "url": "https://www.freelancer.com/projects/adobe-premiere-pro/YouTube-Workflow-Video-Editor-Faceless-40822100",
+      "reason": {
+        "ar": "المشروع يتطلب مهارات تحرير الفيديو (Adobe Premiere Pro, DaVinci Resolve, After Effects) وإنشاء محتوى لـ YouTube، وهي ليست ضمن خدمات Moe.",
+        "en": "The project requires video editing skills (Adobe Premiere Pro, DaVinci Resolve, After Effects) and YouTube content creation, which are not within Moe's services."
+      }
+    },
+    {
+      "title": "Android Game Fun Playtesting",
+      "url": "https://www.freelancer.com/projects/game-testing/Android-Game-Fun-Playtesting",
+      "reason": {
+        "ar": "المشروع عبارة عن اختبار ألعاب (playtesting) وليس تطوير تطبيقات. Moe مطور تطبيقات وليس مختبر ألعاب مستقل.",
+        "en": "This project is for game playtesting, not app development. Moe is an app developer, not a freelance game tester."
+      }
+    },
+    {
+      "title": "Viral AI TikTok Parenting Memes",
+      "url": "https://www.freelancer.com/projects/video-editing/Viral-TikTok-Parenting-Memes",
+      "reason": {
+        "ar": "المشروع يتطلب إنشاء محتوى فيديو لـ TikTok وتحريره باستخدام أدوات مثل CapCut و Adobe Premiere/After Effects، وهي ليست ضمن خدمات Moe.",
+        "en": "The project requires creating and editing video content for TikTok using tools like CapCut and Adobe Premiere/After Effects, which are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Japanese & Chinese Speakers for AI Training Project ($30/h)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xxw78u/hiring_japanese_chinese_speakers_for_ai_training/",
+      "reason": {
+        "ar": "المشروع يتطلب متحدثين لغات معينة (اليابانية، الصينية، الهندية، الإسبانية) ولديهم 6+ سنوات خبرة لتدريب وتقييم الذكاء الاصطناعي، وهي ليست مهارات Moe ولا يمتلك اللغات المطلوبة.",
+        "en": "The project requires speakers of specific languages (Japanese, Chinese, Hindi, Spanish) with 6+ years of experience for AI training and evaluation, which are not Moe's skills, nor does he possess the required languages."
+      }
+    },
+    {
+      "title": "Japanese & Chinese Speakers for AI Training Project ($30/h)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xxvvg6/hiring_japanese_chinese_speakers_for_ai_training/",
+      "reason": {
+        "ar": "المشروع يتطلب متحدثين لغات معينة (اليابانية، الصينية، الهندية، الإسبانية) ولديهم 6+ سنوات خبرة لتدريب وتقييم الذكاء الاصطناعي، وهي ليست مهارات Moe ولا يمتلك اللغات المطلوبة.",
+        "en": "The project requires speakers of specific languages (Japanese, Chinese, Hindi, Spanish) with 6+ years of experience for AI training and evaluation, which are not Moe's skills, nor does he possess the required languages."
+      }
+    },
+    {
+      "title": "[Remote] Japanese & Chinese Speakers – AI Training Project ($30/hr)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xxvln7/hiring_remote_japanese_chinese_speakers_ai/",
+      "reason": {
+        "ar": "المشروع يتطلب متحدثين لغات معينة (اليابانية، الصينية، الهندية، الإسبانية) ولديهم 6+ سنوات خبرة لتدريب وتقييم الذكاء الاصطناعي، وهي ليست مهارات Moe ولا يمتلك اللغات المطلوبة.",
+        "en": "The project requires speakers of specific languages (Japanese, Chinese, Hindi, Spanish) with 6+ years of experience for AI training and evaluation, which are not Moe's skills, nor does he possess the required languages."
+      }
+    },
     {
       "title": "Trainer for Multimodal AI Evaluation",
       "url": "https://www.freelancer.com/projects/ai-audio-to-audio/Trainer-for-Multimodal-Evaluation",
@@ -125,11 +173,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 14,
+    "verified": 6,
     "steps": [
       {
         "step": "memory",
-        "msg": "246 leads seen before"
+        "msg": "260 leads seen before"
       },
       {
         "step": "verify",
@@ -137,11 +185,11 @@
       },
       {
         "step": "freelancer",
-        "msg": "34 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (143 skipped: small budgets from other countries, 114 skipped: not app/AI work)"
+        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (192 skipped: small budgets from other countries, 98 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
-        "msg": "6 [Hiring] posts from the phone relay (last 5 days)"
+        "msg": "9 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "arab",
@@ -165,7 +213,7 @@
       },
       {
         "step": "linkedin",
-        "msg": "84 jobs from Gmail alerts (last 5 days)"
+        "msg": "78 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "verify",
@@ -173,15 +221,15 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Reddit posts added"
+        "msg": "3 new Reddit posts added"
       },
       {
         "step": "verify",
-        "msg": "13 new Freelancer projects added, 14 to judge"
+        "msg": "3 new Freelancer projects added, 6 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 14 via gemini-3.8-flash"
+        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
       }
     ]
   }
