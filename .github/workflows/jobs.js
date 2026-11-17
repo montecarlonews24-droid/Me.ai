@@ -203,7 +203,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe is targeting clients in the USA, Europe, Far East, Australia and the Gulf (they pay more), plus any country when the budget is 250 USD or more. Prefer those, prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
+IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -220,7 +220,7 @@ const WEST = ['United States', 'Canada', 'United Kingdom', 'Ireland', 'Germany',
 const EAST = ['Singapore', 'Japan', 'Hong Kong', 'South Korea', 'Korea, Republic of', 'Taiwan', 'Malaysia', 'Australia', 'New Zealand'];
 const GULF = ['Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'];
 const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : GULF.includes(c) ? 'arab' : '';
-const MIN_ANY_USD = 250; // أي بلد تاني: بس إذا الميزانية من 250 دولار وفوق
+const MIN_ANY_USD = 100; // كل دول العالم: بس إذا أعلى الميزانية 100 دولار وفوق (أو 10 دولار بالساعة)
 // عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
 let skippedRegion = 0;
@@ -247,7 +247,8 @@ async function freelancerFeed() {
         // الميزانية بالدولار (Freelancer بيعطي سعر الصرف مع كل مشروع)
         const rate = Number(p.currency?.exchange_rate) || (curCode === 'USD' ? 1 : 0);
         const usdMin = (Number(p.budget?.minimum) || 0) * rate;
-        const richBudget = usdMin >= MIN_ANY_USD && p.type !== 'hourly';
+        const usdMax = (Number(p.budget?.maximum) || Number(p.budget?.minimum) || 0) * rate;
+        const richBudget = p.type === 'hourly' ? usdMax >= 10 : usdMax >= MIN_ANY_USD;
         const okPlace = country ? !!region : (curCode in CUR_REGION);
         if (!okPlace && !richBudget) { skippedRegion++; continue; }   // INR, IDR, PKR بميزانيات صغيرة
         const guessedRegion = region || CUR_REGION[curCode] || '';
@@ -283,7 +284,7 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
-  log('freelancer', `${list.length} open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (${skippedRegion} skipped: small budgets from other countries, ${skippedSkill} skipped: not app/AI work)`);
+  log('freelancer', `${list.length} open projects from the last 5 days worldwide with budget 100+ USD (${skippedRegion} skipped: budget under 100 USD, ${skippedSkill} skipped: not app/AI work)`);
   return list;
 }
 
