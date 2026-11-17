@@ -440,6 +440,49 @@ function honest(p) {
 const strip = h => String(h || '').replace(/<(br|\/p|\/li|\/div|\/h\d)[^>]*>/gi, '\n').replace(/<li[^>]*>/gi, '- ').replace(/<[^>]+>/g, ' ')
   .replace(/&amp;/g, '&').replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
   .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
+// بحث LinkedIn العام (بدون تسجيل دخول): الـ Agent بيدوّر لحاله، Remote + Contract، آخر 24 ساعة
+const LI_KEYWORDS = ['Android Developer', 'Android iOS Developer', 'Mobile App Developer', 'AI App Developer', 'Kotlin Developer', 'AI Agent Developer'];
+const LI_PLACES = ['United States', 'EMEA', 'Middle East', 'Canada', 'Australia'];
+async function linkedinSearch() {
+  const out = new Map();
+  // كل جولة بتعمل 5 بحثات بس، وبتلف على باقي الكلمات والمناطق بالجولات الجاية (مش 30 ورا بعض)
+  const combos = LI_KEYWORDS.flatMap(kw => LI_PLACES.map(loc => [kw, loc]));
+  const slot = Math.floor(Date.now() / (4 * 3600 * 1000));
+  const pick = Array.from({ length: 5 }, (_, i) => combos[(slot * 5 + i) % combos.length]);
+  for (const [kw, loc] of pick) {
+    {
+      const u = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(kw)}&location=${encodeURIComponent(loc)}&f_WT=2&f_JT=C%2CP%2CT&f_TPR=r86400&start=0`;
+      try {
+        const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.9' }, signal: AbortSignal.timeout(15000) });
+        if (r.status === 429) { log('linkedin-search', `${kw} / ${loc}: busy (429), stopping search this run`); return [...out.values()]; }
+        if (!r.ok) { log('linkedin-search', `${kw} / ${loc}: HTTP ${r.status}`); continue; }
+        const h = await r.text();
+        for (const card of h.split(/<li[ >]/).slice(1)) {
+          const id = (card.match(/jobPosting:(\d+)/) || card.match(/jobs\/view\/[^"]*?-(\d{6,})/) || [])[1];
+          if (!id || out.has(id)) continue;
+          const title = strip((card.match(/base-search-card__title[^>]*>([\s\S]*?)<\/h3>/) || [])[1]);
+          const company = strip((card.match(/base-search-card__subtitle[^>]*>([\s\S]*?)<\/h4>/) || [])[1]);
+          const place = strip((card.match(/job-search-card__location[^>]*>([\s\S]*?)<\/span>/) || [])[1]);
+          if (!title) continue;
+          out.set(id, {
+            title, url: `https://www.linkedin.com/jobs/view/${id}/`,
+            market: regionFromPlace(place) || 'west', platform: 'LinkedIn',
+            country: place, budget: '', posted: 'last 24 hours', proposals: '', language: 'en',
+            summary: [company, place].filter(Boolean).join(' · '),
+            pageText: `LinkedIn job (search result): ${title} | ${company} | ${place}`
+          });
+        }
+      } catch (e) {
+        log('linkedin-search', `${kw} / ${loc}: ${e.message}`);
+      }
+      await new Promise(res => setTimeout(res, 12000 + Math.random() * 13000));
+    }
+  }
+  const list = [...out.values()];
+  log('linkedin-search', `${list.length} Remote contract jobs found by searching LinkedIn directly`);
+  return list;
+}
+
 async function linkedinPost(url) {
   const id = (String(url).match(/jobs\/view\/(\d+)/) || [])[1];
   if (!id) return null;
@@ -559,12 +602,12 @@ function linkedinBlock(p) {
     await new Promise(r => setTimeout(r, 1500));
   }
   log('verify', `${ar.length} new Mostaql/Khamsat projects added`);
-  const li = (await linkedinFeed()).filter(l => {
+  const li = [...(await linkedinFeed()), ...(await linkedinSearch())].filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
     dupes.add(u);
     return true;
-  }).slice(0, 40);
+  }).slice(0, 25);
   // منقرأ الإعلان الكامل من صفحة LinkedIn العامة، ومنشيل الدوام الكامل والخبرة الطويلة قبل الحكم
   let liKept = 0;
   const skipped = [];
