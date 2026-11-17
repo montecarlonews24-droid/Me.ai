@@ -1,10 +1,10 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:26:41.389Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-17T14:53:17.296Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض جميع الفرص اليوم. إحداها كانت بلغة غير الإنجليزية أو العربية، والأخرى تتطلب خبرة متخصصة في بنية تدريب نماذج الذكاء الاصطناعي الكبيرة (LLM) وهو خارج نطاق عمل Moe.",
-    "en": "All leads today were rejected. One was in a language other than English or Arabic, and the other required specialized expertise in large language model (LLM) training infrastructure, which is outside Moe's scope."
+    "ar": "ما لقيت فرص جديدة بتناسبك هالجولة. رح أدوّر مرة تانية.",
+    "en": "No new leads that fit you this run. I will search again."
   },
   "fresh": 0,
   "leads": [
@@ -392,11 +392,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "304 leads seen before"
+        "msg": "306 leads seen before"
       },
       {
         "step": "verify",
@@ -404,7 +404,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "24 open projects from the last 5 days worldwide with budget 100+ USD (204 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 117 skipped: not app/AI work)"
+        "msg": "21 open projects from the last 5 days worldwide with budget 100+ USD (212 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 112 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -444,11 +444,7 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
