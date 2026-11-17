@@ -1,14 +1,70 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T08:56:48.440Z",
+  "generatedAt": "2026-11-17T13:45:58.283Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "جميع الفرص الوظيفية اليوم تم رفضها لأنها لا تتناسب مع مهارات Moe أو تتطلب خبرات ولغات لا يمتلكها، أو أنها ليست مشاريع لتطوير التطبيقات.",
-    "en": "All leads today were rejected as they do not align with Moe's skills, require specific languages or experience he does not possess, or are not app development projects."
+    "ar": "تم رفض جميع الفرص اليوم لأنها لا تتوافق مع خدمات Moe، إما لكونها خارج نطاق خبرته في تطوير تطبيقات الأندرويد ووكلاء الذكاء الاصطناعي، أو لمتطلباتها اللغوية، أو لاستخدام تقنيات لا يدعمها.",
+    "en": "All leads today were rejected as they do not align with Moe's services, either being outside his scope of Android app and AI agent development, due to language requirements, or for using unsupported technologies."
   },
   "fresh": 0,
   "leads": [],
   "rejected": [
+    {
+      "title": "SPECIALIZATION CERTIFICATE VERIFICATION NEEDED IN SAMARKAND, UZBEKISTAN",
+      "url": "https://www.freelancer.com/projects/SPECIALIZATION-CERTIFICATE-VERIFICATION",
+      "reason": {
+        "ar": "المهمة تتطلب زيارة ميدانية وجمع بيانات يدوياً، وهو خارج نطاق خدمات Moe في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
+        "en": "The task requires physical field visits and manual data collection, which is outside Moe's scope of app development and AI agents."
+      }
+    },
+    {
+      "title": "PDF论文提取工具M2测试",
+      "url": "https://www.freelancer.com/projects/software-testing/PDF",
+      "reason": {
+        "ar": "المشروع يتضمن اختبار برمجيات لبرنامج Windows EXE، وهذا خارج نطاق عمل Moe. كما أن وصف المشروع يحتوي على نصوص صينية مما يصعب فهمه بالكامل.",
+        "en": "The project involves software testing for a Windows EXE program, which is outside Moe's scope. Additionally, the project description contains Chinese text, making it difficult to fully understand."
+      }
+    },
+    {
+      "title": "Mobil 3’lü Eşleştirme Oyunu",
+      "url": "https://www.freelancer.com/projects/game-development/Mobil-tirme-Oyunu",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير لعبة معقدة (Toon Blast-like) باستخدام Unity، وهي تقنية لا يستخدمها Moe، كما أن الألعاب المعقدة تتجاوز نطاق عمله في الألعاب البسيطة. وصف المشروع باللغة التركية.",
+        "en": "The project requires developing a complex game (Toon Blast-like) using Unity, a technology Moe does not use, and complex games are beyond his scope of simple casual games. The project description is in Turkish."
+      }
+    },
+    {
+      "title": "Register a Claude Pro account for me using your own details (supported country) + monthly renewal",
+      "url": "https://www.freelancer.com/projects/ai-chatbot/Register-Claude-Pro-account-for",
+      "reason": {
+        "ar": "المهمة هي إنشاء حساب Claude Pro باستخدام تفاصيل شخصية وبطاقة دفع، ثم إدارة التجديدات الشهرية. هذا عمل مساعد افتراضي وإدارة حسابات، وليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
+        "en": "The task is to create a Claude Pro account using personal details and a payment card, then manage monthly renewals. This is virtual assistant and account management work, not app development or AI agent building."
+      }
+    },
+    {
+      "title": "AI Response Rater Training",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Response-Rater-Training",
+      "reason": {
+        "ar": "المشروع يطلب إنشاء حزمة تدريب لتقييم استجابات الذكاء الاصطناعي (Technical Writing)، وهذا خارج نطاق عمل Moe في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requests creating a training package for rating AI-generated text responses (Technical Writing), which is outside Moe's scope of app development and AI agents."
+      }
+    },
+    {
+      "title": "100% Hand-Drawn 2D Mukbang Animations (10x 20-25s Videos + ASMR Sound) – NO AI!",
+      "url": "https://www.freelancer.com/projects/Hand-Drawn-Mukbang-Animations-Videos",
+      "reason": {
+        "ar": "المشروع يتطلب رسوم متحركة ثنائية الأبعاد مرسومة يدوياً، وهو خارج نطاق عمل Moe كمطور تطبيقات. كما أن العميل يفرض سياسة صارمة ضد استخدام الذكاء الاصطناعي، بينما يعتمد Moe على التطوير بمساعدة الذكاء الاصطناعي.",
+        "en": "The project requires 100% hand-drawn 2D animations, which is outside Moe's scope as an app developer. Additionally, the client has a strict 'NO-AI' policy, while Moe uses AI-assisted development."
+      }
+    },
+    {
+      "title": "Lifelike AI Dog Speech Video -- 2",
+      "url": "https://www.freelancer.com/projects/video-services/Lifelike-Dog-Speech-Video",
+      "reason": {
+        "ar": "المشروع يتطلب إنشاء فيديو واقعي لكلب يتحدث باستخدام الذكاء الاصطناعي (AI video generation)، وهذا خارج نطاق عمل Moe في تطوير تطبيقات الأندرويد ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requires creating a lifelike AI-generated video of a dog speaking (AI video generation), which is outside Moe's scope of Android app and AI agent development."
+      }
+    },
     {
       "title": "YouTube AI Workflow & Video Editor (Faceless STEM Channel) + Pabbly Automation - 17/11/2026 01:44 EST",
       "url": "https://www.freelancer.com/projects/adobe-premiere-pro/YouTube-Workflow-Video-Editor-Faceless-40822100",
@@ -173,11 +229,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 6,
+    "verified": 7,
     "steps": [
       {
         "step": "memory",
-        "msg": "260 leads seen before"
+        "msg": "266 leads seen before"
       },
       {
         "step": "verify",
@@ -185,7 +241,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "25 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (192 skipped: small budgets from other countries, 98 skipped: not app/AI work)"
+        "msg": "26 open projects from the last 5 days in US/Europe/Far East/Gulf or 250+ USD (214 skipped: small budgets from other countries, 115 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -213,23 +269,67 @@
       },
       {
         "step": "linkedin",
-        "msg": "78 jobs from Gmail alerts (last 5 days)"
+        "msg": "77 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): Game Developer (Remote | $70–$130/hr)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): AI Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior React Native -mobile application +web Application(both must)–Typescript"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (7+ years required): AI Engineer (Microsoft Stack)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Android Engineer (Camera Team)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (KMP/CMP)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer, Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "0 of 11 new LinkedIn jobs added"
       },
       {
         "step": "verify",
-        "msg": "3 new Reddit posts added"
+        "msg": "0 new Reddit posts added"
       },
       {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 6 to judge"
+        "msg": "7 new Freelancer projects added, 7 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 7 via gemini-2.5-flash"
       }
     ]
   }
