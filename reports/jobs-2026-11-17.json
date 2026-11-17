@@ -1,12 +1,12 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:11:55.971Z",
+  "generatedAt": "2026-11-17T14:26:41.389Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص لأنها لا تتناسب مع مهارات معاذ (مثل أدوار المبيعات، الرسوم المتحركة ثلاثية الأبعاد، العمل في الموقع، أو تتطلب Flutter/React Native). تم الاحتفاظ بـ 6 فرص لتطوير تطبيقات أندرويد، نشر على Google Play، أو أتمتة الذكاء الاصطناعي.",
-    "en": "Most leads were rejected as they didn't fit Moe's skills (e.g., sales roles, 3D animation, onsite work, or requiring Flutter/React Native). 6 leads were kept for Android app development, Google Play publishing, or AI automation."
+    "ar": "تم رفض جميع الفرص اليوم. إحداها كانت بلغة غير الإنجليزية أو العربية، والأخرى تتطلب خبرة متخصصة في بنية تدريب نماذج الذكاء الاصطناعي الكبيرة (LLM) وهو خارج نطاق عمل Moe.",
+    "en": "All leads today were rejected. One was in a language other than English or Arabic, and the other required specialized expertise in large language model (LLM) training infrastructure, which is outside Moe's scope."
   },
-  "fresh": 6,
+  "fresh": 0,
   "leads": [
     {
       "title": "Urgent Google Play Listing Update",
@@ -29,7 +29,7 @@
         "en": "The budget is on the lower side, but the scope is specific and well-defined. Ensure all assets and copy are provided upfront for a quick turnaround."
       },
       "proposal": "I can help you immediately refresh your Android app’s Google Play listing. I have a deep understanding of Google Play Console requirements and can efficiently update your app’s title, descriptions, screenshots, and feature graphic to meet the latest guidelines. I build native Kotlin Android apps with AI-assisted development and manage the publishing process for my own apps. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor example, Peace & Conflict 24 is one of my apps published on Google Play. Once the updated assets are provided, I will ensure they pass Google’s metadata and image requirements and submit the update for review promptly. Do you have all the new text and artwork ready to go?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "Finalize & Publish Android Puzzle Game",
@@ -52,7 +52,7 @@
         "en": "The project involves an existing Java codebase. Moe can work with existing Android projects for publishing, but the extent of \"resolve any Gradle / SDK hiccups\" should be clear to avoid deep debugging of unfamiliar code."
       },
       "proposal": "I can help you finalize and publish your Arrow Escape puzzle game to Google Play. I have experience with WebView apps, AdMob integration, and resolving Android Studio build issues to prepare apps for production. I build native Kotlin Android apps with AI-assisted development and manage the entire Google Play publishing process, including creating signed bundles and handling console submissions. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor example, STACK! Tower Rush is a casual game I published on Google Play. I can guide you step-by-step until your game is live. Can you provide more details on the specific Gradle/SDK hiccups you're encountering?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "AI Workflow Setup in n8n",
@@ -75,7 +75,7 @@
         "en": "While Moe can integrate LLMs, ensure the client's expectations for \"n8n's logic nodes\" and specific integrations are clear and don't require deep expertise in n8n's more complex features beyond LLM integration."
       },
       "proposal": "I can set up your AI-powered workflow inside n8n, connecting its logic nodes with a large language model to process prompts and deliver results. I build AI agents and automation solutions with AI-assisted development, leveraging Gemini AI features for smart search and chat. My own daily AI research agent, Me.ai, uses Gemini and web search on GitHub Actions for similar automation. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI will build and document the complete n8n workflow, including LLM integration with error handling. Which LLM (OpenAI, Google Gemini, or similar) are you planning to use for this workflow?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "Secure Job Verification Portal Development",
@@ -98,7 +98,7 @@
         "en": "The budget is at the lower end for an Android app with an admin panel. Clarify the exact scope and complexity of the \"Admin Panel\" to ensure it aligns with a Firebase backend or a simple web interface."
       },
       "proposal": "I can develop your Secure Job Provider & Verification Portal as a native Kotlin Android app with a Firebase backend. I build Android apps with AI-assisted development, and I can implement features like agent verification via mobile number, roll number, or QR code scanning, along with notice tracking. My Islam Rising app, used in 177 countries, demonstrates my ability to build apps that manage user data and track interactions. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI can also set up a Firebase backend for your centralized control room. Could you elaborate on the specific functionalities required for the web admin panel?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "Website or App Development",
@@ -121,7 +121,7 @@
         "en": "The client is open to a website or app. Moe should focus his proposal on mobile app development (Android + iOS) and highlight his capabilities in that area, suggesting it as the best solution for a \"digital product.\""
       },
       "proposal": "I can bring your new digital product to life as a mobile app for both Android and iOS. I build native Kotlin Android apps with AI-assisted development, including Firebase backend for login and data. For the iOS version, I build the Android app myself, and the iOS version is built and published by my trusted iOS partner, so you get both from one point of contact. A simple native Android + iOS app bundle (4-5 screens) would typically cost around 600-900 USD, with the Apple Developer account fee paid by you. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nSCANIQ, for example, is an AI-powered native Android app I built. What are the core features you envision for your digital product?",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "Android Mobile App & Blog Development -- 2",
@@ -144,10 +144,26 @@
         "en": "The budget is listed as an hourly rate; Moe prefers fixed-price projects. Clarify if the client is open to a fixed-price for the \"website-to-app\" conversion. Also, confirm if \"website transformation into an engaging blog\" means building the blog website itself (which Moe doesn't do) or just presenting existing blog content in the app."
       },
       "proposal": "I can transform your existing blog into an engaging Android mobile app. My Peace & Conflict 24 app, for instance, is a news dashboard that effectively displays content within an app interface. You can try my live apps here: I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor an Android-only website-to-app conversion, the price typically ranges from 100-200 USD. I prefer fixed-price projects over hourly rates for clear project scope. Can you confirm if you are looking for a fixed-price quote for this project?",
-      "fresh": true
+      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Correction Bugs Application Android",
+      "url": "https://www.freelancer.com/projects/android-app-development/Correction-Bugs-Application-Android",
+      "reason": {
+        "ar": "نص المشروع باللغة الفرنسية، وهي ليست الإنجليزية أو العربية. Moe لا يعمل على مشاريع بلغات أخرى.",
+        "en": "The project text is in French, which is neither English nor Arabic. Moe does not work on projects in other languages."
+      }
+    },
+    {
+      "title": "Build Scalable LLM Training Infrastructure",
+      "url": "https://www.freelancer.com/projects/ai-hw-sw/Build-Scalable-LLM-Training",
+      "reason": {
+        "ar": "يتطلب المشروع مهندس بنية تحتية للذكاء الاصطناعي الموزع مع خبرة عميقة في تدريب نماذج اللغة الكبيرة (LLM) وأنظمة GPU، وهو خارج نطاق ما يمكن لـ Moe تقديمه. كما أن طبيعة الوظيفة تشير إلى دور هندسي متخصص وليس مشروعًا مستقلاً لتطوير التطبيقات.",
+        "en": "The project requires a Distributed AI Infrastructure Engineer with deep expertise in large language model (LLM) training and GPU systems, which is outside Moe's capabilities. The nature of the role also suggests a specialized engineering position rather than a freelance app development project."
+      }
+    },
     {
       "title": "Worldwide Sales Partners Wanted – High-Value CRM, AI Software, Websites & Mobile Apps ",
       "url": "https://www.freelancer.com/projects/sales-promotion/Worldwide-Sales-Partners-Wanted-High",
@@ -371,32 +387,16 @@
         "ar": "طلب تدريب وتوجيه شخصي (Coaching) وليس مشروع برمجة تطبيق أو أتمتة.",
         "en": "Client is seeking personal coaching/training on audio evaluation, not software or app development."
       }
-    },
-    {
-      "title": "US Astrology Content Poster",
-      "url": "https://www.freelancer.com/projects/instagram-marketing/Astrology-Content-Poster",
-      "reason": {
-        "ar": "مهمة إدارة ونشر محتوى تواصل اجتماعي وتتطلب التواجد داخل الولايات المتحدة.",
-        "en": "Virtual assistant and social media posting task requiring US residency."
-      }
-    },
-    {
-      "title": "Detect and Filter AI-Written Bids",
-      "url": "https://www.freelancer.com/projects/ai-auditing/Detect-Filter-Written-Bids",
-      "reason": {
-        "ar": "مهمة فرز ومراجعة عروض يدوية مع طلب تواصل خارجي مشبوه على إنستغرام، خارج نطاق تطوير التطبيقات.",
-        "en": "Manual proposal filtering task with suspicious off-platform contact request; outside development scope."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 20,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
-        "msg": "284 leads seen before"
+        "msg": "304 leads seen before"
       },
       {
         "step": "verify",
@@ -404,7 +404,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "44 open projects from the last 5 days worldwide with budget 100+ USD (44 skipped: budget under 100 USD, 161 skipped: not app/AI work)"
+        "msg": "24 open projects from the last 5 days worldwide with budget 100+ USD (204 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 117 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -444,11 +444,11 @@
       },
       {
         "step": "verify",
-        "msg": "20 new Freelancer projects added, 20 to judge"
+        "msg": "2 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 6, rejected 14 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
       }
     ]
   }
