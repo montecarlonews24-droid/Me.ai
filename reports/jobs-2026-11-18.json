@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T23:39:40.699Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "تم رفض جميع الفرص اليوم لأنها لا تتوافق مع معايير Moe، إما لكونها وظائف بدوام كامل، أو تتطلب العمل على أكواد برمجية موجودة بلغات لا يدعمها، أو خارج نطاق خدماته الأساسية، أو بلغة غير العربية أو الإنجليزية.",
+    "en": "All leads today were rejected as they did not meet Moe's criteria, either being full-time positions, requiring work on existing codebases in unsupported languages, falling outside his core services, or being in a language other than Arabic or English."
+  },
+  "fresh": 0,
+  "leads": [],
+  "rejected": [
+    {
+      "title": "App Developer-Mode ",
+      "url": "https://www.freelancer.com/projects/App-Developer-Mode-fix",
+      "reason": {
+        "ar": "المهمة تتطلب هندسة عكسية وتعديل ملف APK موجود على مستوى منخفض (smali/Java/Kotlin patching)، وهذا يقع خارج نطاق خدمات Moe الأساسية في بناء التطبيقات الجديدة أو إضافة ميزات إليها. كما أن الميزانية منخفضة جداً لمثل هذه المهمة المتخصصة.",
+        "en": "The task requires reverse engineering and patching an existing APK at a low level (smali/Java/Kotlin patching), which falls outside Moe's core services of building new apps or adding features. The budget is also very low for such a specialized task."
+      }
+    },
+    {
+      "title": "APA AI Paper Clarity Edit",
+      "url": "https://www.freelancer.com/projects/academic-writing/APA-Paper-Clarity-Edit",
+      "reason": {
+        "ar": "المشروع عبارة عن تحرير أكاديمي وخدمات كتابة، وهي خارج نطاق خدمات Moe في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
+        "en": "This project is for academic editing and writing services, which is outside Moe's scope of app development and AI agents."
+      }
+    },
+    {
+      "title": "AI Video Creator for Trading SaaS",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Video-Creator-for-Trading-SaaS",
+      "reason": {
+        "ar": "المشروع يتطلب إنشاء وتحرير مقاطع فيديو باستخدام الذكاء الاصطناعي، وهي خدمة لا يقدمها Moe. تتركز خدماته في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
+        "en": "This project requires AI video creation and editing, which is a service Moe does not provide. His services are focused on app development and AI agents."
+      }
+    },
+    {
+      "title": "Fitur Rating Konten Mobile",
+      "url": "https://www.freelancer.com/projects/ios/Fitur-Rating-Konten-Mobile",
+      "reason": {
+        "ar": "نص المشروع مكتوب باللغة الإندونيسية، وهي ليست من اللغات المدعومة (العربية أو الإنجليزية). كما أنه يذكر Flutter و React Native والعمل على تطبيقات موجودة، وهي أمور لا تتوافق مع معايير Moe.",
+        "en": "The project text is in Indonesian, which is not an supported language (Arabic or English). It also mentions Flutter and React Native and integrating into existing apps, which are not compatible with Moe's criteria."
+      }
+    },
+    {
+      "title": "Sr Staff Engineer Software (IC4b) - Onsite",
+      "url": "https://www.reddit.com/r/forhire/comments/1xymw88/hiring_sr_staff_engineer_software_ic4b_onsite/",
+      "reason": {
+        "ar": "هذا إعلان عن وظيفة بدوام كامل (Senior Staff Engineer) تتطلب خبرة طويلة وقيادة فرق، وهو ما لا يتوافق مع عمل Moe كمطور مستقل.",
+        "en": "This is a job posting for a full-time position (Senior Staff Engineer) requiring extensive experience and team leadership, which is not compatible with Moe's freelance work model."
+      }
+    },
+    {
+      "title": "Staff Software Engineer (IC4a) - Onsite",
+      "url": "https://www.reddit.com/r/forhire/comments/1xymqj2/hiring_staff_software_engineer_ic4a_onsite/",
+      "reason": {
+        "ar": "هذا إعلان عن وظيفة بدوام كامل (Staff Software Engineer) تتطلب قيادة تقنية والعمل داخل شركة، وهو ما لا يتوافق مع عمل Moe كمطور مستقل.",
+        "en": "This is a job posting for a full-time position (Staff Software Engineer) requiring technical leadership and working within a company, which is not compatible with Moe's freelance work model."
+      }
+    },
+    {
+      "title": "iOS Mobile Developer",
+      "url": "https://www.linkedin.com/jobs/view/4489577729/",
+      "reason": {
+        "ar": "المشروع يتطلب العمل حصرياً على تطبيق iOS موجود (Swift codebase)، وهو ما لا يستطيع Moe القيام به بنفسه. هو يقدم إصدارات iOS من خلال شريكه بعد بناء تطبيق Android، ولا ينضم لفرق عمل قائمة على iOS فقط.",
+        "en": "The project requires working exclusively on an existing iOS application (Swift codebase), which Moe cannot do himself. He delivers iOS versions through his partner after building the Android app, and does not join existing iOS-only teams."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 7,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "332 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (165 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 127 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "11 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
+      },
+      {
+        "step": "linkedin",
+        "msg": "91 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "47 Remote contract jobs found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): IOS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr Android Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (emagine)): iOS Engineer - HomeIA"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Darwin Recruitment)): React Native - Italia"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Software Engineer (iOS/Android SDK)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Oliver James)): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Engineer (KMP)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Agentic AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Engineer, AI Platforms"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Agentic Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Agentic Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Applied AI Software Engineer III"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Applied AI Software Engineer III"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Engineer Lead"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Engineer Lead"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr AI Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Python developer with Gen AI/Agent (Python/GCP)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Python developer with Gen AI/Agent (Python/GCP)"
+      },
+      {
+        "step": "verify",
+        "msg": "1 of 25 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "2 new Reddit posts added"
+      },
+      {
+        "step": "verify",
+        "msg": "4 new Freelancer projects added, 7 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 7 via gemini-2.5-flash"
+      }
+    ]
+  }
+}
