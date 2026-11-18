@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T06:43:31.075Z",
-  "model": "",
+  "generatedAt": "2026-11-18T07:53:40.191Z",
+  "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 3 open leads from the last 3 days."
@@ -84,6 +84,46 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Animated AI Parenting TikToks",
+      "url": "https://www.freelancer.com/projects/ai-animation/Animated-Parenting-TikToks",
+      "reason": {
+        "ar": "هذا المشروع يتطلب مهارات في الرسوم المتحركة وتحرير الفيديو باستخدام أدوات الذكاء الاصطناعي لإنشاء محتوى لـ TikTok، وهو خارج نطاق عمل Moe الذي يركز على تطوير تطبيقات Android وميزات الذكاء الاصطناعي داخل التطبيقات أو وكلاء الذكاء الاصطناعي.",
+        "en": "This project requires animation and video editing skills using AI tools for TikTok content creation, which is outside Moe's scope focused on Android app development and AI features within apps or AI agents."
+      }
+    },
+    {
+      "title": "Elegant AI Food Photos",
+      "url": "https://www.freelancer.com/projects/ai-art-creation/Elegant-Food-Photos",
+      "reason": {
+        "ar": "المشروع يطلب إنشاء صور طعام عالية الدقة باستخدام الذكاء الاصطناعي (AI art/image generation)، وهي مهمة تصميم جرافيك وليست ضمن خدمات Moe التي تشمل ميزات Gemini AI في التطبيقات أو وكلاء الذكاء الاصطناعي.",
+        "en": "The project requests high-resolution food images generated with AI (AI art/image generation), which is a graphic design task and not within Moe's services that include Gemini AI features in apps or AI agents."
+      }
+    },
+    {
+      "title": "PhD Report AI Rewrite",
+      "url": "https://www.freelancer.com/projects/ai-writing/PhD-Report-Rewrite",
+      "reason": {
+        "ar": "هذا المشروع يتعلق بإعادة صياغة تقرير أكاديمي باستخدام أدوات الكشف عن الذكاء الاصطناعي، وهو عمل كتابة وتحرير أكاديمي وليس تطوير تطبيقات أو بناء وكلاء ذكاء اصطناعي، وبالتالي فهو خارج نطاق عمل Moe.",
+        "en": "This project involves rewriting an academic report using AI detection tools, which is an academic writing and editing task, not app development or AI agent building, and thus outside Moe's scope."
+      }
+    },
+    {
+      "title": "Software Engineer II - React Native - Consumer Growth",
+      "url": "https://www.linkedin.com/jobs/view/4490103223/",
+      "reason": {
+        "ar": "الوظيفة هي \"Software Engineer II\" وهي وظيفة دائمة (staff job) وليست مشروعًا مستقلاً. كما أنها تتطلب خبرة في React Native، وهي تقنية لا يعمل بها Moe.",
+        "en": "The job is for a 'Software Engineer II,' which is a full-time staff position, not a freelance project. It also requires React Native experience, a technology Moe does not work with."
+      }
+    },
+    {
+      "title": "Full Stack Developer",
+      "url": "https://www.linkedin.com/jobs/view/4490911165/",
+      "reason": {
+        "ar": "الوظيفة هي \"Full Stack Developer\" وهي وظيفة دائمة (staff job) وليست مشروعًا مستقلاً. Moe لا ينضم إلى فرق عمل الشركات كمهندس بدوام كامل.",
+        "en": "The job is for a 'Full Stack Developer,' which is a full-time staff position, not a freelance project. Moe does not join company teams as a full-time engineer."
+      }
+    },
     {
       "title": "Proyek Pengembangan Aplikasi Mobile",
       "url": "https://www.freelancer.com/projects/flutter/Proyek-Pengembangan-Aplikasi-Mobile",
@@ -184,11 +224,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "393 leads seen before"
+        "msg": "411 leads seen before"
       },
       {
         "step": "verify",
@@ -196,7 +236,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (186 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 125 skipped: not app/AI work)"
+        "msg": "20 open projects from the last 5 days worldwide with budget 100+ USD (203 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 105 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -224,87 +264,35 @@
       },
       {
         "step": "linkedin",
-        "msg": "95 jobs from Gmail alerts (last 5 days)"
+        "msg": "98 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / Australia: busy (429), stopping search this run"
+        "msg": "Android iOS Developer / EMEA: fetch failed"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "Android iOS Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Kıdemli iOS Developer"
+        "msg": "skipped (title): Frontend Architect"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Developer"
+        "msg": "post 4490103223: fetch failed"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Principal Android Developer"
+        "msg": "post 4490911165: fetch failed"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobil Geliştirme Uzmanı"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Hybrid Mobile Technologies Engineer - Ionic-Angular/WebKit/WebView"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer (Flutter)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Full-Stack Mobile App Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Game Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer II, Android"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer MTS 1"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Principal Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff iOS Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Principle Mobile Architect"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): SDE1"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Enterprise Access Team"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr Mobility Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr. Mobility Developer (iOS)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (job board (Jobgether)): Software Engineer II - React Native - Consumer Growth"
+        "msg": "skipped (title): Senior iOS Engineer, Core Discovery"
       },
       {
         "step": "verify",
-        "msg": "0 of 18 new LinkedIn jobs added"
+        "msg": "2 of 4 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -312,7 +300,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "3 new Freelancer projects added, 5 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       },
       {
         "step": "linkedin",
