@@ -711,7 +711,15 @@ Respond with ONLY JSON:
   fs.writeFileSync(path.join(DIR, 'jobs-index.json'), JSON.stringify(index, null, 2));
 
   // الجولة التانية بنفس اليوم: إذا ما في إشي جديد، منخلي تقرير الصبح زي ما هو (وما في إشعار)
+  // أول جولة بيوم جديد: ما في ملف لليوم، فمنكمّل من آخر تقرير (jobs-latest) عشان فرص امبارح ما تختفي
   const prev = readJSON(path.join(DIR, `jobs-${today}.json`), null);
+  const KEEP_DAYS = 3; // الفرصة بتضل معروضة 3 أيام من يوم ما لقيناها
+  // منجمع فرص آخر 3 أيام (مش بس اليوم)، عشان أول جولة بعد نص الليل ما تمسح فرص امبارح
+  const pastLeads = [];
+  for (const d of index.dates.slice(0, KEEP_DAYS + 1)) {
+    const r = readJSON(path.join(DIR, `jobs-${d}.json`), null);
+    for (const l of r?.leads || []) pastLeads.push({ ...l, foundAt: l.foundAt || r.generatedAt });
+  }
   // ما في فرص جديدة؟ منكمّل ومنحفظ أسباب الرفض، بس fresh = 0 فما في إشعار
   if (!leads.length && prev) console.log('No new leads this run; keeping earlier leads and saving rejection reasons.');
 
@@ -723,9 +731,17 @@ Respond with ONLY JSON:
   }
 
   // الجديد فوق، وفرص الجولة اللي قبل تحته
-  const fresh = leads.map(l => ({ ...l, fresh: true }));
+  const now = new Date().toISOString();
+  const fresh = leads.map(l => ({ ...l, foundAt: now, fresh: true }));
   const older = [];
-  for (const l of prev?.leads || []) {
+  const pastSeen = new Set();
+  for (const l0 of pastLeads) {
+    const key = clean(l0.url);
+    if (pastSeen.has(key)) continue;
+    pastSeen.add(key);
+    const l = { ...l0, foundAt: l0.foundAt || now };
+    if (Date.now() - new Date(l.foundAt).getTime() > KEEP_DAYS * 86400000) continue; // قديمة كثير
+
     // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
     // مكاتب التوظيف ومواقع الوظائف: منشيلها دايماً من اسم الشركة، حتى لو انفحصت قبل
     if (l.platform === 'LinkedIn') {
@@ -745,7 +761,7 @@ Respond with ONLY JSON:
   }
   const urlsNew = new Set(fresh.map(l => clean(l.url)));
   const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
-  const allRejected = [...rejected, ...(prev?.rejected || [])].slice(0, 30);
+  const allRejected = [...rejected, ...(prev?.date === today ? prev.rejected || [] : [])].slice(0, 30);
 
   // ---------- Save ----------
   const report = {
