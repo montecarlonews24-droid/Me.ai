@@ -36,10 +36,38 @@ function run() {
   });
   console.log('LinkedIn emails: ' + threads.length + ', jobs sent: ' + sent);
   cleanup();
+  try { kick(); } catch (e) { console.log('kick error: ' + e); }
 }
 
 /** باقي إيميلات LinkedIn (إشعارات، مين شاف بروفايلك، اقتراحات...): بتنمحى من الوارد.
  *  الرسائل الحقيقية من الناس (messages-noreply) ما بتنلمس. المحذوف بيضل 30 يوم بـ Trash. */
+/**
+ * GitHub بيأخّر أو بيلغي التشغيل المجدول. فإذا آخر تقرير شغل أقدم من 4 ساعات،
+ * السكريبت بيشغّل الـ Job Scout بنفسه. المفتاح محفوظ بـ Script Properties باسم GH_TOKEN.
+ */
+function kick() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty('GH_TOKEN');
+  if (!token) { console.log('kick: GH_TOKEN missing'); return; }
+  const H = 3600 * 1000, now = Date.now();
+  // ما منعيد التشغيل إذا شغّلناه قبل أقل من 3 ساعات ونص
+  if (now - Number(props.getProperty('lastKick') || 0) < 3.5 * H) return;
+  const res = UrlFetchApp.fetch('https://raw.githubusercontent.com/montecarlonews24-droid/Me.ai/main/reports/jobs-latest.json?t=' + now, { muteHttpExceptions: true });
+  let last = 0;
+  try { last = new Date(JSON.parse(res.getContentText()).generatedAt).getTime() || 0; } catch (e) {}
+  const age = (now - last) / H;
+  if (age < 4) { console.log('kick: last report ' + age.toFixed(1) + 'h old, no need'); return; }
+  const r = UrlFetchApp.fetch('https://api.github.com/repos/montecarlonews24-droid/Me.ai/actions/workflows/daily-jobs.yml/dispatches', {
+    method: 'post',
+    contentType: 'application/json',
+    headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' },
+    payload: JSON.stringify({ ref: 'main' }),
+    muteHttpExceptions: true
+  });
+  console.log('kick: report was ' + age.toFixed(1) + 'h old, started Job Scout -> HTTP ' + r.getResponseCode() + ' ' + r.getContentText().slice(0, 150));
+  if (r.getResponseCode() === 204) props.setProperty('lastKick', String(now));
+}
+
 function cleanup() {
   const q = 'in:inbox from:linkedin.com -from:(messages-noreply@linkedin.com OR inmail-hit-reply@linkedin.com OR jobalerts-noreply@linkedin.com OR jobs-noreply@linkedin.com)';
   let removed = 0;
