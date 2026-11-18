@@ -1,0 +1,294 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-18T22:27:06.344Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+  },
+  "fresh": 0,
+  "leads": [
+    {
+      "title": "Build Autonomous API-Driven CEO Agent",
+      "url": "https://www.freelancer.com/projects/api-developmet/Build-Autonomous-API-Driven-CEO",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "30-250 USD",
+      "posted": "less than an hour ago",
+      "proposals": "216",
+      "language": "en",
+      "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
+      "fit": 8,
+      "why": {
+        "ar": "Moe يبني وكلاء ذكاء اصطناعي مثل Me.ai (باستخدام Gemini و GitHub Actions) لأتمتة المهام والبحث. هذا المشروع يتضمن بناء وكيل ذكاء اصطناعي للأتمتة وتكامل API، مما يتوافق مع قدراته في الذكاء الاصطناعي والأتمتة.",
+        "en": "Moe builds AI agents like Me.ai (using Gemini and GitHub Actions) for automation and research. This project involves building an AI agent for automation and API integration, which aligns with his capabilities in AI and automation."
+      },
+      "watch": {
+        "ar": "الميزانية في الحد الأدنى للنطاق الموصوف. يجب التأكد من أن تكامل API يمكن إدارته ضمن نهجه الحالي (مثل عبر GitHub Actions أو تنسيق مماثل، دون الحاجة إلى تطوير خلفية كاملة بلغات مثل Python/Java/PHP).",
+        "en": "The budget is at the lower end for the described scope. Ensure the API integration can be managed within his existing approach (e.g., via GitHub Actions or similar orchestration, not requiring full-stack backend development in Python/Java/PHP)."
+      },
+      "proposal": "I can help you build an autonomous AI agent to orchestrate tasks and integrate with APIs, similar to your vision for a \"CEO\" agent. I build AI agents with AI-assisted development, like my own daily AI research agent, Me.ai, which uses Gemini and web search on GitHub Actions for automation without a server. This approach allows for efficient API integration and rule-based decision making. I can design and implement the agent to connect with n8n and other services, focusing on automation and reporting.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific APIs you intend to integrate initially, beyond n8n, and any existing automation workflows you have?",
+      "foundAt": "2026-11-18T17:33:17.409Z",
+      "fresh": false,
+      "flId": 40824760,
+      "bidsAt": "2026-11-18T22:27:06.344Z",
+      "crowded": true
+    },
+    {
+      "title": "Software Developer — AI & Automation",
+      "url": "https://www.linkedin.com/jobs/view/4490957378/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Cairo, Egypt",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Innovative Consulting Partners · Cairo, Egypt",
+      "fit": 9,
+      "why": {
+        "ar": "كما أنه يذكر الحاجة إلى فهم واختبار وتصحيح الأكواد التي يولدها الذكاء الاصطناعي، وهو ما يفعله Moe في عمله.",
+        "en": "This lead is an excellent fit for Moe as it seeks a developer who uses AI coding tools to build applications and automation, which is Moe's core approach to developing Android apps and AI agents. It also mentions the need to understand, test, and troubleshoot AI-generated code, which is integral to Moe's AI-assisted development process."
+      },
+      "watch": {
+        "ar": "بما أن الوظيفة بدوام جزئي على LinkedIn، يجب التأكد من أنها مشروع مستقل وليست علاقة توظيف مستمرة.",
+        "en": "Since this is a part-time role on LinkedIn, Moe should confirm it is a project-based freelance contract and not an ongoing employment relationship."
+      },
+      "proposal": "You're seeking a resourceful developer to create working applications and automated workflows using AI coding tools. This aligns perfectly with my approach: I build native Kotlin Android apps and AI agents with AI-assisted development, where AI tools help write the code, and I manage the entire process from design to publishing. For example, my own daily AI research agent, Me.ai, is a native Android app that uses Gemini and web search for automation.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific applications or automated workflows you have in mind?",
+      "liChecked": true,
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Kotlin Developer",
+      "url": "https://www.linkedin.com/jobs/view/4490360873/",
+      "platform": "LinkedIn",
+      "market": "",
+      "country": "Czechia",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "CoolPeople Technology · Czechia",
+      "fit": 7,
+      "why": {
+        "ar": "",
+        "en": ""
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "My services cover the full development spectrum, from concept to Google Play publishing and ongoing support. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24",
+      "fresh": false,
+      "liChecked": true,
+      "foundAt": "2026-11-16T19:14:58.399Z"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Pengembangan Game Puzzle Mobile Kasual",
+      "url": "https://www.freelancer.com/projects/game-development/Pengembangan-Game-Puzzle-Mobile-Kasual",
+      "reason": {
+        "ar": "نص المشروع باللغة الإندونيسية. بالإضافة إلى ذلك، يتطلب نطاق العمل تصميم فنون الألعاب وإدارة دورة الإنتاج الكاملة، وهي خدمات لا يقدمها Moe.",
+        "en": "Project text is in Indonesian. Additionally, the scope requires game art and full production cycle management, which Moe does not provide."
+      }
+    },
+    {
+      "title": "Panduan Aplikasi Freelancer Android",
+      "url": "https://www.freelancer.com/projects/android-app-development/Panduan-Aplikasi-Freelancer-Android",
+      "reason": {
+        "ar": "نص المشروع باللغة الإندونيسية. هذا طلب للحصول على إرشادات/تدريب على استخدام تطبيق، وليس لتطوير تطبيق.",
+        "en": "Project text is in Indonesian. This is a request for guidance/training on using an app, not for developing an app."
+      }
+    },
+    {
+      "title": "Ongoing Medieval Strategy Game Art & Asset Implementation for Android",
+      "url": "https://www.freelancer.com/projects/game-art/Ongoing-Medieval-Strategy-Game-Art",
+      "reason": {
+        "ar": "يطلب المشروع تحديدًا فنان ألعاب لإنشاء الأصول الفنية وتطبيقها، وهذا خارج نطاق قدرات Moe.",
+        "en": "The project specifically requests a game artist for art assets and implementation, which is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "AI Developer",
+      "url": "https://www.linkedin.com/jobs/view/4491760314/",
+      "reason": {
+        "ar": "إعلان وظيفة على LinkedIn. لا يمكن التحقق مما إذا كان عقد عمل حر أم وظيفة بدوام كامل، وإعلانات LinkedIn عادة ما تكون لوظائف بدوام كامل.",
+        "en": "LinkedIn job alert. Cannot verify if it's a freelance contract or a full-time position, and LinkedIn alerts are typically for full-time roles."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 4,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "482 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (147 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 91 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "11 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
+      },
+      {
+        "step": "linkedin",
+        "msg": "147 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Mobile Platform Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): IOS development – Remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): iOS Technical | SME - Remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): Mobile Applications Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full-stack Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Agentic AI Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Software Engineer – (Generative AI / Agentic AI) AVP Level - Up to £70k + Bonus + Package"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Product Engineer (AI Team)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior AI Application Engineer – Cloud ERP Core Finance team"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Microsoft AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer - AI-First Development (Junior / Mid)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Developer (Microsoft) - Tieto Tech Consulting (m/f/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Application Engineer confirmé(e)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Developer, Commercial Aircraft Group"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): SDE III, WW Speed & AI Tech, Same Day Delivery - LLM & Agentic workflows"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4491760314: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Associate Engineer- AI and Agentics"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer, Applied Emerging Talent (2027)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer II - Full-stack Developer with Anthropic Experience"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Applied AI Engineer, Software Engineering – Associate"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer II - Full-stack Developer with Anthropic Experience"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): 【案件フルオーダー可】スマートフォンアプリ開発◆希望の案件に携われる／待機中も給与全額支給◎"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior Web Developer – AI Coder"
+      },
+      {
+        "step": "verify",
+        "msg": "1 of 25 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Reddit posts added"
+      },
+      {
+        "step": "verify",
+        "msg": "3 new Freelancer projects added, 4 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+      },
+      {
+        "step": "freelancer",
+        "msg": "crowded now (216 bids): Build Autonomous API-Driven CEO Agent"
+      }
+    ]
+  }
+}
