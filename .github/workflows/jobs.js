@@ -741,6 +741,8 @@ Respond with ONLY JSON:
     pastSeen.add(key);
     const l = { ...l0, foundAt: l0.foundAt || now };
     if (Date.now() - new Date(l.foundAt).getTime() > KEEP_DAYS * 86400000) continue; // قديمة كثير
+    // فرص قديمة من قبل فلتر الهند/باكستان/بنغلادش: منشيلها كمان
+    if (BLOCK_CURRENCIES.some(c => new RegExp(`\\b${c}\\b`).test(l.budget || '')) || BLOCK_COUNTRIES.includes(l.country)) continue;
 
     // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
     // مكاتب التوظيف ومواقع الوظائف: منشيلها دايماً من اسم الشركة، حتى لو انفحصت قبل
@@ -758,6 +760,13 @@ Respond with ONLY JSON:
       await new Promise(r => setTimeout(r, 2000 + Math.random() * 2000));
     }
     older.push({ ...l, proposal: honest(l.proposal || ''), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
+  }
+  // ما في جديد بس في فرص من الجولات اللي قبل: الملخص بيحكي هيك بدل "كل الفرص انرفضت"
+  if (!fresh.length && older.length) {
+    summary = {
+      ar: `ما في فرص جديدة بهالجولة. هاي ${older.length} فرص من آخر ${KEEP_DAYS} أيام لسا مفتوحة.`,
+      en: `No new leads this run. Here are ${older.length} open leads from the last ${KEEP_DAYS} days.`
+    };
   }
   const urlsNew = new Set(fresh.map(l => clean(l.url)));
   const allLeads = [...fresh, ...older.filter(l => !urlsNew.has(clean(l.url)))].slice(0, 14);
