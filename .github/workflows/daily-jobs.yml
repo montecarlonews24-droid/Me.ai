@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# تشغيلة وحدة بس بنفس الوقت: إذا GitHub وkick شغّلوه سوا، الثانية بتستنى ما بتتكرر
+concurrency:
+  group: daily-jobs
+  cancel-in-progress: false
+
 jobs:
   jobs:
     runs-on: ubuntu-latest
