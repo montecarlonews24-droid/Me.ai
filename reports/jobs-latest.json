@@ -1,14 +1,297 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-17T23:39:40.699Z",
+  "generatedAt": "2026-11-18T06:39:16.840Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض جميع الفرص اليوم لأنها لا تتوافق مع معايير Moe، إما لكونها وظائف بدوام كامل، أو تتطلب العمل على أكواد برمجية موجودة بلغات لا يدعمها، أو خارج نطاق خدماته الأساسية، أو بلغة غير العربية أو الإنجليزية.",
-    "en": "All leads today were rejected as they did not meet Moe's criteria, either being full-time positions, requiring work on existing codebases in unsupported languages, falling outside his core services, or being in a language other than Arabic or English."
+    "ar": "جميع الفرص المعلنة اليوم تم رفضها لأنها إما بلغات غير العربية أو الإنجليزية، أو تطلب مهارات خارج نطاق عمل Moe، أو تتضمن وظائف بدوام كامل.",
+    "en": "All leads today were rejected as they were either in languages other than Arabic or English, requested skills outside Moe's scope, or involved full-time positions."
   },
   "fresh": 0,
-  "leads": [],
+  "leads": [
+    {
+      "title": "Software Developer — AI & Automation",
+      "url": "https://www.linkedin.com/jobs/view/4490957378/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Cairo, Egypt",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Innovative Consulting Partners · Cairo, Egypt",
+      "fit": 9,
+      "why": {
+        "ar": "كما أنه يذكر الحاجة إلى فهم واختبار وتصحيح الأكواد التي يولدها الذكاء الاصطناعي، وهو ما يفعله Moe في عمله.",
+        "en": "This lead is an excellent fit for Moe as it seeks a developer who uses AI coding tools to build applications and automation, which is Moe's core approach to developing Android apps and AI agents. It also mentions the need to understand, test, and troubleshoot AI-generated code, which is integral to Moe's AI-assisted development process."
+      },
+      "watch": {
+        "ar": "بما أن الوظيفة بدوام جزئي على LinkedIn، يجب التأكد من أنها مشروع مستقل وليست علاقة توظيف مستمرة.",
+        "en": "Since this is a part-time role on LinkedIn, Moe should confirm it is a project-based freelance contract and not an ongoing employment relationship."
+      },
+      "proposal": "You're seeking a resourceful developer to create working applications and automated workflows using AI coding tools. This aligns perfectly with my approach: I build native Kotlin Android apps and AI agents with AI-assisted development, where AI tools help write the code, and I manage the entire process from design to publishing. For example, my own daily AI research agent, Me.ai, is a native Android app that uses Gemini and web search for automation.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific applications or automated workflows you have in mind?",
+      "liChecked": true,
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Urgent Google Play Listing Update",
+      "url": "https://www.freelancer.com/projects/android-app-development/Urgent-Google-Play-Listing-Update",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "1500-12500 INR",
+      "posted": "1 hours ago",
+      "proposals": "34",
+      "language": "en",
+      "summary": "I need an experienced Google Play Console hand to jump in immediately and refresh my existing Android app’s public listing. The APK itself is unchanged; the job is all about updating the store-front assets—title, short a",
+      "fit": 9,
+      "why": {
+        "ar": "يمكنه تحديث أصول واجهة المتجر بكفاءة لتلبية الإرشادات الحالية.",
+        "en": "Moe has extensive experience with Google Play publishing, including managing app listings, metadata, and graphics, as proven by his four live apps on Google Play. He can efficiently update the store-front assets to meet current guidelines."
+      },
+      "watch": {
+        "ar": "الميزانية منخفضة بعض الشيء، لكن النطاق محدد وواضح. يجب التأكد من توفير جميع الأصول والنصوص مسبقًا لإنجاز العمل بسرعة.",
+        "en": "The budget is on the lower side, but the scope is specific and well-defined. Ensure all assets and copy are provided upfront for a quick turnaround."
+      },
+      "proposal": "I can help you immediately refresh your Android app’s Google Play listing. I have a deep understanding of Google Play Console requirements and can efficiently update your app’s title, descriptions, screenshots, and feature graphic to meet the latest guidelines. I build native Kotlin Android apps with AI-assisted development and manage the publishing process for my own apps. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor example, Peace & Conflict 24 is one of my apps published on Google Play. Once the updated assets are provided, I will ensure they pass Google’s metadata and image requirements and submit the update for review promptly. Do you have all the new text and artwork ready to go?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Finalize & Publish Android Puzzle Game",
+      "url": "https://www.freelancer.com/projects/android-app-development/Finalize-Publish-Android-Puzzle-Game",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "1500-12500 INR",
+      "posted": "17 hours ago",
+      "proposals": "51",
+      "language": "en",
+      "summary": "I already have a complete Arrow Escape project—Java code plus HTML5 assets packed in a WebView—with AdMob and local reminder notifications integrated. Your job is to bring it to production. First, import the zipped proje",
+      "fit": 9,
+      "why": {
+        "ar": "يستطيع معاذ أخذ مشروع أندرويد موجود، وحل مشكلات البناء، ودمج AdMob، والتعامل مع عملية النشر الكاملة على Google Play، بما في ذلك إنشاء الحزم الموقعة وإدارة وحدة التحكم. لعبته STACK! Tower Rush هي لعبة عادية منشورة على Google Play.",
+        "en": "Moe can take an existing Android project, resolve build issues, integrate AdMob, and handle the complete Google Play publishing process, including creating signed bundles and managing the console. His game STACK! Tower Rush is a casual game published on Google Play."
+      },
+      "watch": {
+        "ar": "يتضمن المشروع كود Java موجود. يمكن لمعاذ العمل مع مشاريع أندرويد الحالية للنشر، ولكن يجب توضيح مدى \"حل أي مشاكل Gradle / SDK\" لتجنب تصحيح الأخطاء المعقدة في كود غير مألوف.",
+        "en": "The project involves an existing Java codebase. Moe can work with existing Android projects for publishing, but the extent of \"resolve any Gradle / SDK hiccups\" should be clear to avoid deep debugging of unfamiliar code."
+      },
+      "proposal": "I can help you finalize and publish your Arrow Escape puzzle game to Google Play. I have experience with WebView apps, AdMob integration, and resolving Android Studio build issues to prepare apps for production. I build native Kotlin Android apps with AI-assisted development and manage the entire Google Play publishing process, including creating signed bundles and handling console submissions. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor example, STACK! Tower Rush is a casual game I published on Google Play. I can guide you step-by-step until your game is live. Can you provide more details on the specific Gradle/SDK hiccups you're encountering?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "AI Workflow Setup in n8n",
+      "url": "https://www.freelancer.com/projects/ai-automation/Workflow-Setup",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "12500-37500 INR",
+      "posted": "2 hours ago",
+      "proposals": "75",
+      "language": "en",
+      "summary": "I’m looking to spin up an AI-powered workflow inside n8n. The goal is to connect n8n’s logic nodes with an LLM so the scenario can receive a prompt, process it with the model, and then hand the result back to me or the n",
+      "fit": 9,
+      "why": {
+        "ar": "يمكنه إعداد سير عمل n8n لمعالجة المطالبات باستخدام LLM وتقديم النتائج، على غرار كيفية استخدام وكيله Me.ai لـ Gemini للبحث اليومي.",
+        "en": "He can set up the n8n workflow to process prompts with an LLM and deliver results, similar to how his Me.ai agent uses Gemini for daily research."
+      },
+      "watch": {
+        "ar": "بينما يمكن لمعاذ دمج نماذج اللغة الكبيرة (LLMs)، يجب التأكد من أن توقعات العميل لـ \"عقد منطق n8n\" وعمليات الدمج المحددة واضحة ولا تتطلب خبرة عميقة في ميزات n8n الأكثر تعقيدًا بخلاف دمج LLM.",
+        "en": "While Moe can integrate LLMs, ensure the client's expectations for \"n8n's logic nodes\" and specific integrations are clear and don't require deep expertise in n8n's more complex features beyond LLM integration."
+      },
+      "proposal": "I can set up your AI-powered workflow inside n8n, connecting its logic nodes with a large language model to process prompts and deliver results. I build AI agents and automation solutions with AI-assisted development, leveraging Gemini AI features for smart search and chat. My own daily AI research agent, Me.ai, uses Gemini and web search on GitHub Actions for similar automation. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI will build and document the complete n8n workflow, including LLM integration with error handling. Which LLM (OpenAI, Google Gemini, or similar) are you planning to use for this workflow?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Secure Job Verification Portal Development",
+      "url": "https://www.freelancer.com/projects/android-wear/Secure-Job-Verification-Portal",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "1500-12500 INR",
+      "posted": "3 days ago",
+      "proposals": "18",
+      "language": "en",
+      "summary": "Project Name: Secure Job Provider & Verification Portal (Android App + Admin Panel) ​Project Budget: ₹10,000 to ₹20,000 (Fixed Budget) ​1. Introduction & Core Concept ​This project is an Android mobile application integr",
+      "fit": 8,
+      "why": {
+        "ar": "يستطيع معاذ بناء تطبيقات أندرويد أصلية بـ Kotlin مع خلفية Firebase لميزات مثل التحقق من المستخدم وتتبع البيانات، على غرار تطبيق \"Islam Rising\" الذي يدير بيانات المستخدم ويتتبع العبادات. لديه أيضًا خبرة في مسح رموز QR (تطبيق Flicker، قيد الاختبار).",
+        "en": "Moe can build native Kotlin Android apps with Firebase backend for features like user verification and data tracking, similar to his Islam Rising app which manages user data and tracks worship. He also has experience with QR code scanning (Flicker, in testing)."
+      },
+      "watch": {
+        "ar": "الميزانية في الحد الأدنى لتطبيق أندرويد مع لوحة تحكم. يجب توضيح النطاق الدقيق وتعقيد \"لوحة التحكم\" للتأكد من توافقها مع خلفية Firebase أو واجهة ويب بسيطة.",
+        "en": "The budget is at the lower end for an Android app with an admin panel. Clarify the exact scope and complexity of the \"Admin Panel\" to ensure it aligns with a Firebase backend or a simple web interface."
+      },
+      "proposal": "I can develop your Secure Job Provider & Verification Portal as a native Kotlin Android app with a Firebase backend. I build Android apps with AI-assisted development, and I can implement features like agent verification via mobile number, roll number, or QR code scanning, along with notice tracking. My Islam Rising app, used in 177 countries, demonstrates my ability to build apps that manage user data and track interactions. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nI can also set up a Firebase backend for your centralized control room. Could you elaborate on the specific functionalities required for the web admin panel?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Website or App Development",
+      "url": "https://www.freelancer.com/projects/web-development/Website-App-Development-40822710",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "12500-37500 INR",
+      "posted": "less than an hour ago",
+      "proposals": "67",
+      "language": "en",
+      "summary": "I’m ready to bring a new digital product to life and need a skilled developer to lead the build. Right now I’m open to either a full-featured website or a mobile/desktop app—whichever solution you recommend once you unde",
+      "fit": 8,
+      "why": {
+        "ar": "يستطيع معاذ بناء تطبيق أندرويد جديد من فكرة باستخدام Kotlin الأصلي أو نهج WebView الهجين، مع خلفية Firebase لتسجيل الدخول والبيانات. يمكنه أيضًا التنسيق مع شريكه الموثوق به لنظام iOS لتقديم تطبيق iOS مصاحب، مما يوفر حلاً كاملاً للهاتف المحمول.",
+        "en": "Moe can build a new Android app from an idea using native Kotlin or a hybrid WebView approach, complete with a Firebase backend for login and data. He can also coordinate with his trusted iOS partner to deliver a companion iOS app, providing a complete mobile solution."
+      },
+      "watch": {
+        "ar": "العميل منفتح على موقع ويب أو تطبيق. يجب على معاذ تركيز اقتراحه على تطوير تطبيقات الهاتف المحمول (أندرويد + iOS) وتسليط الضوء على قدراته في هذا المجال، مقترحًا إياه كأفضل حل لـ \"منتج رقمي\".",
+        "en": "The client is open to a website or app. Moe should focus his proposal on mobile app development (Android + iOS) and highlight his capabilities in that area, suggesting it as the best solution for a \"digital product.\""
+      },
+      "proposal": "I can bring your new digital product to life as a mobile app for both Android and iOS. I build native Kotlin Android apps with AI-assisted development, including Firebase backend for login and data. For the iOS version, I build the Android app myself, and the iOS version is built and published by my trusted iOS partner, so you get both from one point of contact. A simple native Android + iOS app bundle (4-5 screens) would typically cost around 600-900 USD, with the Apple Developer account fee paid by you. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nSCANIQ, for example, is an AI-powered native Android app I built. What are the core features you envision for your digital product?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Android Mobile App & Blog Development -- 2",
+      "url": "https://www.freelancer.com/projects/android/Android-Mobile-App-Blog-Development-40821185",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "750-1250 INR/hr",
+      "posted": "21 hours ago",
+      "proposals": "64",
+      "language": "en",
+      "summary": "I'm looking to bring my blog to life as a mobile app exclusively for Android users. The project encompasses both mobile app development and website transformation into an engaging blog. Key Requirements: - Transform a bl",
+      "fit": 8,
+      "why": {
+        "ar": "يستطيع معاذ تحويل مدونة أو موقع ويب موجود إلى تطبيق أندرويد أصلي بـ Kotlin أو تطبيق WebView هجين، على غرار لوحة أخبار Peace & Conflict 24. يمكنه دمج المحتوى وضمان تجربة مستخدم سلسة.",
+        "en": "Moe can transform an existing blog or website into a native Kotlin Android app or a hybrid WebView app, similar to his Peace & Conflict 24 news dashboard. He can integrate content and ensure a smooth user experience."
+      },
+      "watch": {
+        "ar": "الميزانية مدرجة كسعر بالساعة؛ يفضل معاذ المشاريع ذات السعر الثابت. يجب توضيح ما إذا كان العميل منفتحًا على سعر ثابت لتحويل \"الموقع إلى تطبيق\". وأيضاً، التأكد مما إذا كان \"تحويل الموقع إلى مدونة جذابة\" يعني بناء موقع المدونة نفسه (وهو ما لا يفعله معاذ) أو مجرد عرض محتوى المدونة الموجود في التطبيق.",
+        "en": "The budget is listed as an hourly rate; Moe prefers fixed-price projects. Clarify if the client is open to a fixed-price for the \"website-to-app\" conversion. Also, confirm if \"website transformation into an engaging blog\" means building the blog website itself (which Moe doesn't do) or just presenting existing blog content in the app."
+      },
+      "proposal": "I can transform your existing blog into an engaging Android mobile app. My Peace & Conflict 24 app, for instance, is a news dashboard that effectively displays content within an app interface. You can try my live apps here: I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nFor an Android-only website-to-app conversion, the price typically ranges from 100-200 USD. I prefer fixed-price projects over hourly rates for clear project scope. Can you confirm if you are looking for a fixed-price quote for this project?",
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    },
+    {
+      "title": "Kotlin Developer",
+      "url": "https://www.linkedin.com/jobs/view/4490360873/",
+      "platform": "LinkedIn",
+      "market": "",
+      "country": "Czechia",
+      "budget": "",
+      "posted": "1 hours ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "CoolPeople Technology · Czechia",
+      "fit": 7,
+      "why": {
+        "ar": "",
+        "en": ""
+      },
+      "watch": {
+        "ar": "هذا إعلان وظيفة على LinkedIn؛ يحتاج Moe لفتح الإعلان الكامل للتأكد من أنها فرصة عمل مستقلة/عقد، وليست وظيفة بدوام كامل.",
+        "en": "This is a LinkedIn job post; Moe needs to open the full post to confirm it's a freelance/contract opportunity, not a full-time employee position."
+      },
+      "proposal": "My services cover the full development spectrum, from concept to Google Play publishing and ongoing support. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nMy app STACK! Tower Rush, a casual game, showcases my ability to create engaging and polished user experiences.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24",
+      "fresh": false,
+      "liChecked": true,
+      "foundAt": "2026-11-16T19:14:58.399Z"
+    },
+    {
+      "title": "Buat Aplikasi Komunitas Android",
+      "url": "https://www.freelancer.com/projects/android-app-development/Buat-Aplikasi-Komunitas-Android",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "250-750 USD",
+      "posted": "less than an hour ago",
+      "proposals": "31",
+      "language": "en",
+      "summary": "Saya ingin membangun sebuah aplikasi komunitas atau sosial khusus untuk perangkat Android. Aplikasi ini harus memungkinkan pengguna membuat profil, bergabung atau membuat grup, berbagi postingan (teks, foto, dan video si",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب تطبيق أندرويد أصلي (Native Kotlin) مع ميزات مجتمعية مثل ملفات تعريف المستخدمين والمجموعات والمشاركات والإشعارات الفورية، وكلها يمكن تنفيذها باستخدام Firebase. كما أنه يستخدم التطوير بمساعدة الذكاء الاصطناعي لزيادة الكفاءة.",
+        "en": "The project requests a native Kotlin Android community app with features like user profiles, groups, posts, and real-time notifications, all of which can be implemented using Firebase. He also uses AI-assisted development for efficiency."
+      },
+      "watch": {
+        "ar": "الميزانية (250-750 دولارًا أمريكيًا) قد تكون منخفضة قليلاً بالنسبة لنطاق تطبيق مجتمعي كامل مع تحميل الوسائط والإشعارات في الوقت الفعلي، لذا يجب إدارة توقعات العميل بشأن نطاق MVP. كما أن ذكر React Native كخيار قد يكون علامة حمراء، لكن Kotlin هو الخيار المفضل لموي.",
+        "en": "The budget ($250-750 USD) might be a bit low for the full scope of a community app with media uploads and real-time notifications, so client expectations for an MVP need to be managed. The mention of React Native as an option is a slight red flag, but Kotlin is also explicitly offered and is Moe's preference."
+      },
+      "proposal": "I understand you're looking to develop a dedicated Android community application, enabling users to create profiles, join groups, share content, and receive real-time notifications. My focus is on building robust native Kotlin Android apps with efficient Firebase backends for features like user authentication, database management, and push notifications. I leverage AI-assisted development to streamline the coding process, ensuring a high-quality product. For instance, my app Peace & Conflict 24 includes a news dashboard and live chat, demonstrating experience with community-focused features. I can deliver your app with a simple, modern UI/UX and a basic admin dashboard as requested.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific types of media users will be able to upload, and if there are any particular content moderation rules you envision for the admin dashboard?",
+      "fresh": false,
+      "foundAt": "2026-11-15T18:54:17.931Z"
+    },
+    {
+      "title": "MySQL Mobile Number Export",
+      "url": "https://www.freelancer.com/projects/data-extraction/MySQL-Mobile-Number-Export",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "12500-37500 INR",
+      "posted": "less than an hour ago",
+      "proposals": "22",
+      "language": "en",
+      "summary": "I need a specialist who can connect to our Android app’s MySQL backend and extract only the authorised users’ mobile numbers. Once pulled, the data has to be organised cleanly into both a CSV file and an Excel spreadshee",
+      "fit": 6,
+      "why": {
+        "ar": "المشروع يتضمن التعامل مع قاعدة بيانات مرتبطة بتطبيق أندرويد، وهو مجال يمكن لـ Moe التعامل معه بفضل خبرته في Firebase وتطوير التطبيقات المدعوم بالذكاء الاصطناعي لاستخراج البيانات.",
+        "en": "The project involves interacting with an Android app's backend database, a task Moe can handle given his Firebase experience and AI-assisted development for data extraction."
+      },
+      "watch": {
+        "ar": "يجب الانتباه إلى أن المشروع يطلب التعامل مع MySQL بينما خبرة Moe الأساسية في Firebase. كما أن الميزانية منخفضة نسبياً لمهمة حساسة تتعلق بقاعدة البيانات.",
+        "en": "Note that the project specifically requests MySQL interaction, whereas Moe's primary backend experience is with Firebase. The budget is also relatively low for a critical database task."
+      },
+      "proposal": "For instance, my 'Islam Rising' app manages user worship data across 177 countries, demonstrating my capability in handling sensitive user information and backend operations. I build with AI-assisted development: I design, plan and test, and AI tools help write the code.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you provide more details on the specific MySQL version and the schema of the user table from which the numbers need to be extracted?",
+      "fresh": false,
+      "foundAt": "2026-11-15T18:54:17.931Z"
+    }
+  ],
   "rejected": [
+    {
+      "title": "Proyek Pengembangan Aplikasi Mobile",
+      "url": "https://www.freelancer.com/projects/flutter/Proyek-Pengembangan-Aplikasi-Mobile",
+      "reason": {
+        "ar": "نص المشروع باللغة الإندونيسية، وMoe يعمل فقط مع المشاريع باللغتين العربية أو الإنجليزية.",
+        "en": "The project text is in Indonesian, and Moe only works with projects in Arabic or English."
+      }
+    },
+    {
+      "title": "App接口安全自动化测试",
+      "url": "https://www.freelancer.com/projects/api-testing/App",
+      "reason": {
+        "ar": "نص المشروع باللغة الصينية، وMoe يعمل فقط مع المشاريع باللغتين العربية أو الإنجليزية.",
+        "en": "The project text is in Chinese, and Moe only works with projects in Arabic or English."
+      }
+    },
+    {
+      "title": "Aplikasi Tabungan Android Sederhana",
+      "url": "https://www.freelancer.com/projects/android-app-development/Aplikasi-Tabungan-Android-Sederhana",
+      "reason": {
+        "ar": "نص المشروع باللغة الإندونيسية، وMoe يعمل فقط مع المشاريع باللغتين العربية أو الإنجليزية.",
+        "en": "The project text is in Indonesian, and Moe only works with projects in Arabic or English."
+      }
+    },
+    {
+      "title": "AI-Powered Illustrator Extension Development",
+      "url": "https://www.freelancer.com/projects/adobe-illustrator/Powered-Illustrator-Extension",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير إضافة لبرنامج Adobe Illustrator، وهذا خارج نطاق ما يمكن لـ Moe تقديمه (يركز على تطبيقات Android ووكلاء الذكاء الاصطناعي).",
+        "en": "The project requires developing an Adobe Illustrator extension, which is outside Moe's delivery scope (he focuses on Android apps and AI agents)."
+      }
+    },
+    {
+      "title": "URGENT: Senior marketer and automations assistant",
+      "url": "https://www.freelancer.com/projects/email-marketing/URGENT-Senior-marketer-automations",
+      "reason": {
+        "ar": "المشروع يطلب مسوقًا أول ومساعد أتمتة، وهو دور وظيفي يتضمن التسويق الشامل وتحسين محركات البحث وإنشاء المحتوى، وليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي. كما أن العنوان يشير إلى وظيفة دائمة وليس مشروعًا مستقلاً.",
+        "en": "The project requests a Senior marketer and automations assistant, which is a staff role involving broad marketing, SEO, and content creation, not app development or AI agents. The title also suggests a full-time position rather than a freelance project."
+      }
+    },
     {
       "title": "App Developer-Mode ",
       "url": "https://www.freelancer.com/projects/App-Developer-Mode-fix",
@@ -69,11 +352,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 7,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "332 leads seen before"
+        "msg": "363 leads seen before"
       },
       {
         "step": "verify",
@@ -81,7 +364,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (165 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 127 skipped: not app/AI work)"
+        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (185 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 126 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -109,19 +392,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "91 jobs from Gmail alerts (last 5 days)"
+        "msg": "95 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "47 Remote contract jobs found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): IOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr Android Software Engineer"
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
@@ -129,15 +404,11 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (emagine)): iOS Engineer - HomeIA"
+        "msg": "skipped (closed): React Native Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Darwin Recruitment)): React Native - Italia"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+        "msg": "skipped (full-time): Software Engineer (Native SDKs)"
       },
       {
         "step": "linkedin",
@@ -145,87 +416,107 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+        "msg": "skipped (full-time): Mobile Engineer (iOS / Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Oliver James)): Android Developer"
+        "msg": "skipped (full-time): Mobile Engineer (iOS / Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer (KMP)"
+        "msg": "skipped (title): Founding/Senior Mobile Developer (iOS, Swift, Kotlin) – New York – Hybrid – Opportunity to work for a well-known Series D Funded Company!"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Android"
+        "msg": "skipped (title): Senior Software Engineer, Mobile"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Agentic AI Engineer"
+        "msg": "skipped (full-time): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Engineer, AI Platforms"
+        "msg": "skipped (full-time): engineer II - Front-End iOS (Nashville, TN - U.S.)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Agentic Developer"
+        "msg": "skipped (full-time): Android Engineer, Social"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Agentic Developer"
+        "msg": "skipped (title): Senior Software Engineer - Mobile Apps (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Applied AI Software Engineer III"
+        "msg": "skipped (title): Senior Software Engineer, iOS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Applied AI Software Engineer III"
+        "msg": "skipped (title): Senior Software Engineer II - Mobile, iOS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer (Remote)"
+        "msg": "skipped (full-time): iOS Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): AI Engineer Lead"
+        "msg": "skipped (title): Senior Mobile IOS Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): AI Engineer Lead"
+        "msg": "skipped (full-time): iOS Utvecklare till B3 Mobile"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr AI Software Engineer"
+        "msg": "skipped (full-time): Experienced iOS developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
+        "msg": "skipped (full-time): Sviluppatore Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Python developer with Gen AI/Agent (Python/GCP)"
+        "msg": "skipped (title): Senior Android Engineer - Kotlin (m/f/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Python developer with Gen AI/Agent (Python/GCP)"
+        "msg": "skipped (title): Senior Software Engineer, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): iOS Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Graduate Programme 2027: Software Engineer (Android)"
       },
       {
         "step": "verify",
-        "msg": "1 of 25 new LinkedIn jobs added"
+        "msg": "0 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
-        "msg": "2 new Reddit posts added"
+        "msg": "0 new Reddit posts added"
       },
       {
         "step": "verify",
-        "msg": "4 new Freelancer projects added, 7 to judge"
+        "msg": "5 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 7 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
+      },
+      {
+        "step": "linkedin",
+        "msg": "removed old lead (closed): Android Developer - AI Finance Agent"
       }
     ]
   }
