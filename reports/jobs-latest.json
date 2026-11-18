@@ -1,13 +1,37 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T11:41:25.166Z",
+  "generatedAt": "2026-11-18T17:33:17.575Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص اليوم لأنها كانت إما وظائف بدوام كامل، أو أدوار إدارية، أو تتطلب مهارات في تحرير الفيديو بالذكاء الاصطناعي، أو تقنيات خارج نطاق عمل Moe (مثل Unreal Engine و C++). تم الاحتفاظ بفرصة واحدة لبناء وكيل ذكاء اصطناعي، حيث تتوافق مع قدرات Moe في تطوير وكلاء الذكاء الاصطناعي والأتمتة.",
+    "en": "Most leads today were rejected for being either full-time jobs, administrative roles, requiring AI video editing skills, or technologies outside Moe's scope (e.g., Unreal Engine, C++). One lead for building an AI agent was kept, as it aligns with Moe's capabilities in AI agent development and automation."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Build Autonomous API-Driven CEO Agent",
+      "url": "https://www.freelancer.com/projects/api-developmet/Build-Autonomous-API-Driven-CEO",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "30-250 USD",
+      "posted": "less than an hour ago",
+      "proposals": "0",
+      "language": "en",
+      "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
+      "fit": 8,
+      "why": {
+        "ar": "Moe يبني وكلاء ذكاء اصطناعي مثل Me.ai (باستخدام Gemini و GitHub Actions) لأتمتة المهام والبحث. هذا المشروع يتضمن بناء وكيل ذكاء اصطناعي للأتمتة وتكامل API، مما يتوافق مع قدراته في الذكاء الاصطناعي والأتمتة.",
+        "en": "Moe builds AI agents like Me.ai (using Gemini and GitHub Actions) for automation and research. This project involves building an AI agent for automation and API integration, which aligns with his capabilities in AI and automation."
+      },
+      "watch": {
+        "ar": "الميزانية في الحد الأدنى للنطاق الموصوف. يجب التأكد من أن تكامل API يمكن إدارته ضمن نهجه الحالي (مثل عبر GitHub Actions أو تنسيق مماثل، دون الحاجة إلى تطوير خلفية كاملة بلغات مثل Python/Java/PHP).",
+        "en": "The budget is at the lower end for the described scope. Ensure the API integration can be managed within his existing approach (e.g., via GitHub Actions or similar orchestration, not requiring full-stack backend development in Python/Java/PHP)."
+      },
+      "proposal": "I can help you build an autonomous AI agent to orchestrate tasks and integrate with APIs, similar to your vision for a \"CEO\" agent. I build AI agents with AI-assisted development, like my own daily AI research agent, Me.ai, which uses Gemini and web search on GitHub Actions for automation without a server. This approach allows for efficient API integration and rule-based decision making. I can design and implement the agent to connect with n8n and other services, focusing on automation and reporting.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific APIs you intend to integrate initially, beyond n8n, and any existing automation workflows you have?",
+      "foundAt": "2026-11-18T17:33:17.409Z",
+      "fresh": true
+    },
     {
       "title": "Software Developer — AI & Automation",
       "url": "https://www.linkedin.com/jobs/view/4490957378/",
@@ -84,6 +108,86 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Reliable Tech-Savvy Virtual Assistant",
+      "url": "https://www.freelancer.com/projects/administrative-support/Reliable-Tech-Savvy-Virtual-Assistant",
+      "reason": {
+        "ar": "هذا الدور هو مساعد افتراضي/دعم إداري، وليس مشروعًا لمطور تطبيقات أو باني وكلاء ذكاء اصطناعي. Moe لا يقدم خدمات إدارية.",
+        "en": "This is a virtual assistant/administrative support role, not a project for an app developer or AI agent builder. Moe does not provide administrative services."
+      }
+    },
+    {
+      "title": "Cinematic Biblical AI Video Creation",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Cinematic-Biblical-Video-Creation",
+      "reason": {
+        "ar": "خبرة Moe تكمن في بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي، وليس في إنشاء مقاطع فيديو بالذكاء الاصطناعي أو الرسوم المتحركة أو تحرير الفيديو.",
+        "en": "Moe's expertise is in building AI-powered Android apps and AI agents, not AI video creation, animation, or video editing."
+      }
+    },
+    {
+      "title": "CRM Automation Setup and Optimization",
+      "url": "https://www.freelancer.com/projects/hubspot/CRM-Automation-Setup-Optimization",
+      "reason": {
+        "ar": "هذا الإعلان هو لمستقل يعلن عن خدماته الخاصة (إعداد أتمتة CRM)، وليس طلبًا من عميل لتوظيف مستقل لمشروع.",
+        "en": "This is a freelancer advertising their own services (CRM automation setup), not a client hiring for a project."
+      }
+    },
+    {
+      "title": "Tamil AI Cinematic Series Production",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Tamil-Cinematic-Series-Production",
+      "reason": {
+        "ar": "خبرة Moe تكمن في بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي، وليس في إنشاء مقاطع فيديو بالذكاء الاصطناعي أو الرسوم المتحركة أو تحرير الفيديو.",
+        "en": "Moe's expertise is in building AI-powered Android apps and AI agents, not AI video creation, animation, or video editing."
+      }
+    },
+    {
+      "title": "Recruit 12 Android Closed-Test Users",
+      "url": "https://www.freelancer.com/projects/mobile-app-testing/Recruit-Android-Closed-Test-Users",
+      "reason": {
+        "ar": "هذا المشروع مخصص لتوظيف مختبرين لتطبيقات أندرويد، وهي خدمة لا يقدمها Moe. هو يقوم ببناء التطبيقات وليس توظيف المختبرين للآخرين.",
+        "en": "This project is for recruiting Android app testers, which is not a service Moe provides. He builds apps, he doesn't recruit testers for others."
+      }
+    },
+    {
+      "title": "JARN Coaching - Launch Videos",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/JARN-Coaching-Launch-Videos",
+      "reason": {
+        "ar": "خبرة Moe تكمن في بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي، وليس في إنشاء مقاطع فيديو بالذكاء الاصطناعي أو الرسوم المتحركة أو تحرير الفيديو.",
+        "en": "Moe's expertise is in building AI-powered Android apps and AI agents, not AI video creation, animation, or video editing."
+      }
+    },
+    {
+      "title": "Java Software Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4491811329/",
+      "reason": {
+        "ar": "هذا منصب \"مهندس برمجيات\" بدوام كامل، وهو ما لا يمكن لـ Moe قبوله. هو صانع تطبيقات مستقل وليس موظفًا.",
+        "en": "This is a full-time \"Software Engineer\" position, which Moe cannot take. He is an independent app maker, not an employee."
+      }
+    },
+    {
+      "title": "Software Engineer (AI Training)",
+      "url": "https://www.linkedin.com/jobs/view/4490176703/",
+      "reason": {
+        "ar": "يركز هذا الدور على تدريب وتقييم أنظمة الذكاء الاصطناعي التي تولد التعليمات البرمجية، ويتطلب الكفاءة في مراجعة التعليمات البرمجية التي يولدها الذكاء الاصطناعي عبر لغات برمجة متعددة. بينما يستخدم Moe الذكاء الاصطناعي لتطويره الخاص، فإن هذا يمثل مجموعة مهارات مختلفة (هندسة الذكاء الاصطناعي/التعلم الآلي لتدريب النماذج/التعليقات) ويتطلب كفاءة لغوية أوسع مما يقدمه صراحةً.",
+        "en": "This role is focused on training and evaluating AI systems that generate code, requiring proficiency in reviewing AI-generated code across multiple programming languages. While Moe uses AI for his own development, this is a different skill set (AI/ML engineering for model training/feedback) and requires broader language proficiency than he explicitly offers."
+      }
+    },
+    {
+      "title": "AI Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4490437533/",
+      "reason": {
+        "ar": "هذا دور تعاقدي لهندسة الذكاء الاصطناعي على مستوى متوسط إلى عالٍ يتطلب خبرة واسعة في Python و Microsoft Foundry وخدمات Azure و DevOps والتعاون الجماعي، وهو يتجاوز نطاق عمل Moe كصانع تطبيقات مستقل يعمل بمفرده من الهاتف. لا يمكنه التعامل مع الخلفيات الكبيرة أو DevOps.",
+        "en": "This is a mid-senior level enterprise AI engineering contract role requiring extensive experience with Python, Microsoft Foundry, Azure services, DevOps, and team collaboration, which is beyond Moe's scope as an independent app maker working alone from a phone. He cannot handle large backends or DevOps."
+      }
+    },
+    {
+      "title": "⁠Unreal Engine Developer (Remote | $50–$100/hr)",
+      "url": "https://www.linkedin.com/jobs/view/4490445275/",
+      "reason": {
+        "ar": "يتطلب هذا المشروع مطور Unreal Engine مع إتقان C++، وهو خارج نطاق Moe التقني ونطاق تطوير الألعاب لديه (الألعاب العرضية البسيطة فقط).",
+        "en": "This project requires an Unreal Engine developer with C++ proficiency, which is outside Moe's technical stack and his scope for game development (simple casual games only)."
+      }
+    },
     {
       "title": "Native Voices for Game AI TTS",
       "url": "https://www.freelancer.com/projects/ai-voice-agents/Native-Voices-for-Game-TTS",
@@ -243,64 +347,16 @@
         "ar": "المهمة تتطلب هندسة عكسية وتعديل ملف APK موجود على مستوى منخفض (smali/Java/Kotlin patching)، وهذا يقع خارج نطاق خدمات Moe الأساسية في بناء التطبيقات الجديدة أو إضافة ميزات إليها. كما أن الميزانية منخفضة جداً لمثل هذه المهمة المتخصصة.",
         "en": "The task requires reverse engineering and patching an existing APK at a low level (smali/Java/Kotlin patching), which falls outside Moe's core services of building new apps or adding features. The budget is also very low for such a specialized task."
       }
-    },
-    {
-      "title": "APA AI Paper Clarity Edit",
-      "url": "https://www.freelancer.com/projects/academic-writing/APA-Paper-Clarity-Edit",
-      "reason": {
-        "ar": "المشروع عبارة عن تحرير أكاديمي وخدمات كتابة، وهي خارج نطاق خدمات Moe في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
-        "en": "This project is for academic editing and writing services, which is outside Moe's scope of app development and AI agents."
-      }
-    },
-    {
-      "title": "AI Video Creator for Trading SaaS",
-      "url": "https://www.freelancer.com/projects/ai-video-editing/Video-Creator-for-Trading-SaaS",
-      "reason": {
-        "ar": "المشروع يتطلب إنشاء وتحرير مقاطع فيديو باستخدام الذكاء الاصطناعي، وهي خدمة لا يقدمها Moe. تتركز خدماته في تطوير التطبيقات ووكلاء الذكاء الاصطناعي.",
-        "en": "This project requires AI video creation and editing, which is a service Moe does not provide. His services are focused on app development and AI agents."
-      }
-    },
-    {
-      "title": "Fitur Rating Konten Mobile",
-      "url": "https://www.freelancer.com/projects/ios/Fitur-Rating-Konten-Mobile",
-      "reason": {
-        "ar": "نص المشروع مكتوب باللغة الإندونيسية، وهي ليست من اللغات المدعومة (العربية أو الإنجليزية). كما أنه يذكر Flutter و React Native والعمل على تطبيقات موجودة، وهي أمور لا تتوافق مع معايير Moe.",
-        "en": "The project text is in Indonesian, which is not an supported language (Arabic or English). It also mentions Flutter and React Native and integrating into existing apps, which are not compatible with Moe's criteria."
-      }
-    },
-    {
-      "title": "Sr Staff Engineer Software (IC4b) - Onsite",
-      "url": "https://www.reddit.com/r/forhire/comments/1xymw88/hiring_sr_staff_engineer_software_ic4b_onsite/",
-      "reason": {
-        "ar": "هذا إعلان عن وظيفة بدوام كامل (Senior Staff Engineer) تتطلب خبرة طويلة وقيادة فرق، وهو ما لا يتوافق مع عمل Moe كمطور مستقل.",
-        "en": "This is a job posting for a full-time position (Senior Staff Engineer) requiring extensive experience and team leadership, which is not compatible with Moe's freelance work model."
-      }
-    },
-    {
-      "title": "Staff Software Engineer (IC4a) - Onsite",
-      "url": "https://www.reddit.com/r/forhire/comments/1xymqj2/hiring_staff_software_engineer_ic4a_onsite/",
-      "reason": {
-        "ar": "هذا إعلان عن وظيفة بدوام كامل (Staff Software Engineer) تتطلب قيادة تقنية والعمل داخل شركة، وهو ما لا يتوافق مع عمل Moe كمطور مستقل.",
-        "en": "This is a job posting for a full-time position (Staff Software Engineer) requiring technical leadership and working within a company, which is not compatible with Moe's freelance work model."
-      }
-    },
-    {
-      "title": "iOS Mobile Developer",
-      "url": "https://www.linkedin.com/jobs/view/4489577729/",
-      "reason": {
-        "ar": "المشروع يتطلب العمل حصرياً على تطبيق iOS موجود (Swift codebase)، وهو ما لا يستطيع Moe القيام به بنفسه. هو يقدم إصدارات iOS من خلال شريكه بعد بناء تطبيق Android، ولا ينضم لفرق عمل قائمة على iOS فقط.",
-        "en": "The project requires working exclusively on an existing iOS application (Swift codebase), which Moe cannot do himself. He delivers iOS versions through his partner after building the Android app, and does not join existing iOS-only teams."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 9,
+    "verified": 11,
     "steps": [
       {
         "step": "memory",
-        "msg": "418 leads seen before"
+        "msg": "450 leads seen before"
       },
       {
         "step": "verify",
@@ -308,7 +364,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "23 open projects from the last 5 days worldwide with budget 100+ USD (220 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 117 skipped: not app/AI work)"
+        "msg": "19 open projects from the last 5 days worldwide with budget 100+ USD (183 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 93 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -336,115 +392,103 @@
       },
       {
         "step": "linkedin",
-        "msg": "97 jobs from Gmail alerts (last 5 days)"
+        "msg": "143 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Software Java Developer, Platform & Emerging Technologies"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Application Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer"
+        "msg": "skipped (full-time): Développeur I - JAVA"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Software Engineer (Kotlin)"
+        "msg": "skipped (job board (HiredBuddy)): Java Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Software Development Engineer, RecsAI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (full-time): Software Engineer (Java)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Android Engineer (Kotlin and Java)"
+        "msg": "skipped (full-time): Junior Java Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Software Engineer"
+        "msg": "skipped (full-time): Java Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile App Developer"
+        "msg": "post 4491811329: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Developer"
+        "msg": "skipped (full-time): Java/Kotlin Software Engineer - Manchester"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer, Government Products"
+        "msg": "skipped (full-time): Développeur android H/F"
       },
       {
         "step": "linkedin",
-        "msg": "post 4490879615: HTTP 429"
+        "msg": "skipped (full-time): Analista Programador Android (Java/Kotlin)"
       },
       {
         "step": "linkedin",
-        "msg": "post 4486365924: HTTP 429"
+        "msg": "skipped (closed): RL Scenario Designer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Application Developer — Partner Apps"
+        "msg": "skipped (closed): Backend Software Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Application Developer — Partner Apps"
+        "msg": "skipped (full-time): Full Stack Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile /Flutter Developer"
+        "msg": "skipped (full-time): Forward Deployed Engineer, Agentic Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Flutter Developer"
+        "msg": "skipped (full-time): Üretken Yapay Zeka / LLM Mühendisi"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile App Developer (Kotlin)"
+        "msg": "skipped (full-time): Software Development Engineer - Shopping Personalization, Amazon Stores"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Mobile Engineer - React Native (Paris or Remote France)"
+        "msg": "skipped (full-time): Generative AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior React Native Software Engineer (m/f/d)"
+        "msg": "skipped (closed): Junior AI Engineer (UAE Based Employee Only) - Immediate Joiners"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Software Engineer Senior Mobile Android"
+        "msg": "skipped (full-time): Agentic Ai Engineer (Ref: 198623)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): React Native Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Developer – Banking Applications - Kuwait"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): React Native developer (3 years)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (React Native)"
+        "msg": "skipped (full-time): Software Engineer - AI Solutions"
       },
       {
         "step": "verify",
-        "msg": "2 of 25 new LinkedIn jobs added"
+        "msg": "4 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -452,11 +496,11 @@
       },
       {
         "step": "verify",
-        "msg": "7 new Freelancer projects added, 9 to judge"
+        "msg": "7 new Freelancer projects added, 11 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 9 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 10 via gemini-2.5-flash"
       },
       {
         "step": "linkedin",
