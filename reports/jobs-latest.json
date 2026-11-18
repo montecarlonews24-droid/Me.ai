@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T07:53:40.191Z",
+  "generatedAt": "2026-11-18T11:41:25.166Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -84,6 +84,78 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Native Voices for Game AI TTS",
+      "url": "https://www.freelancer.com/projects/ai-voice-agents/Native-Voices-for-Game-TTS",
+      "reason": {
+        "ar": "هذا الطلب يبحث عن مواهب صوتية للمشاركة في تسجيل صوتي لمشروع AI TTS، وليس لتطوير تطبيق أو وكيل ذكاء اصطناعي. هذا خارج نطاق خدمات Moe.",
+        "en": "This request is for voice talent to participate in an AI TTS voice recording project, not for developing an app or AI agent. This is outside Moe's scope of services."
+      }
+    },
+    {
+      "title": "Commission Sales for QA/AI",
+      "url": "https://www.freelancer.com/projects/sales/Commission-Sales-for-40824112",
+      "reason": {
+        "ar": "هذا الطلب يبحث عن شريك مبيعات لخدمات اختبار الجودة وأتمتة الذكاء الاصطناعي. Moe مطور تطبيقات وليس شريك مبيعات.",
+        "en": "This request is for a commission-based sales partner for QA testing and AI automation services. Moe is an app developer, not a sales partner."
+      }
+    },
+    {
+      "title": "Game-Ready AI Voice and TTS",
+      "url": "https://www.freelancer.com/projects/ai-voice-agents/Game-Ready-Voice-TTS",
+      "reason": {
+        "ar": "الملخص غامض للغاية، ويشير إلى خدمات صوتية ومواهب صوتية، وليس تطوير تطبيقات الذكاء الاصطناعي. الميزانية منخفضة جداً لمشروع تكامل ذكاء اصطناعي حقيقي.",
+        "en": "The summary is too vague and points towards voice services and voice talent, not AI app development. The budget is also very low for a genuine AI integration project."
+      }
+    },
+    {
+      "title": "Repair iPhone Face ID Issue",
+      "url": "https://www.freelancer.com/projects/technical-support/Repair-iPhone-Face-Issue",
+      "reason": {
+        "ar": "هذا الطلب يتعلق بالدعم الفني واستكشاف الأخطاء وإصلاحها لميزة Face ID في iPhone، وليس تطوير تطبيقات. Moe لا يقدم خدمات إصلاح الأجهزة أو الدعم الفني.",
+        "en": "This request is for technical support and troubleshooting for an iPhone Face ID issue, not app development. Moe does not provide device repair or technical support services."
+      }
+    },
+    {
+      "title": "Senior AI Video Creator / ComfyUI Specialist for Virtual Character Pipeline (Strict Consistency Required)",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Senior-Video-Creator-ComfyUI-Specialist",
+      "reason": {
+        "ar": "يتطلب هذا الطلب متخصصاً في إنشاء الفيديو بالذكاء الاصطناعي وComfyUI، وهي مهارات محددة في إنتاج الفيديو بالذكاء الاصطناعي تختلف عن قدرات Moe في ميزات Gemini AI ووكلاء البحث بالذكاء الاصطناعي.",
+        "en": "This request requires a 'Senior AI Video Creator / ComfyUI Specialist,' which involves specific AI video production skills different from Moe's capabilities in Gemini AI features and AI research agents."
+      }
+    },
+    {
+      "title": "Cinematic 20-Second Luxury Home Promo",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Cinematic-Second-Luxury-Home-Promo",
+      "reason": {
+        "ar": "هذا الطلب يتعلق بإنشاء وتحرير مقاطع فيديو ترويجية باستخدام الذكاء الاصطناعي، وهي خدمة خارج نطاق ما يقدمه Moe. الميزانية منخفضة جداً أيضاً.",
+        "en": "This request is for creating and editing AI-generated promotional videos, which is outside Moe's scope of services. The budget is also extremely low."
+      }
+    },
+    {
+      "title": "TikTok Relatable Humor Shorts",
+      "url": "https://www.freelancer.com/projects/adobe-premiere-pro/TikTok-Relatable-Humor-Shorts",
+      "reason": {
+        "ar": "هذا الطلب يتعلق بإنشاء وتحرير مقاطع فيديو قصيرة لـ TikTok باستخدام أدوات تحرير الفيديو، وهي خدمة خارج نطاق ما يقدمه Moe.",
+        "en": "This request is for creating and editing short TikTok videos using video editing tools, which is outside Moe's scope of services."
+      }
+    },
+    {
+      "title": "Application Developer-Mobile",
+      "url": "https://www.linkedin.com/jobs/view/4490879615/",
+      "reason": {
+        "ar": "هذا إعلان وظيفي لوظيفة بدوام كامل في شركة IBM، وليس مشروعاً حراً. Moe يبحث عن مشاريع مستقلة.",
+        "en": "This is a job posting for a full-time position at IBM, not a freelance project. Moe is looking for freelance projects."
+      }
+    },
+    {
+      "title": "engineer I - ST - Partner Technology (Nashville, TN - U.S.)",
+      "url": "https://www.linkedin.com/jobs/view/4486365924/",
+      "reason": {
+        "ar": "هذا إعلان وظيفي لوظيفة بدوام كامل ('engineer I') في شركة ستاربكس، وليس مشروعاً حراً. Moe يبحث عن مشاريع مستقلة.",
+        "en": "This is a job posting for a full-time 'engineer I' position at Starbucks, not a freelance project. Moe is looking for freelance projects."
+      }
+    },
     {
       "title": "Animated AI Parenting TikToks",
       "url": "https://www.freelancer.com/projects/ai-animation/Animated-Parenting-TikToks",
@@ -224,11 +296,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 5,
+    "verified": 9,
     "steps": [
       {
         "step": "memory",
-        "msg": "411 leads seen before"
+        "msg": "418 leads seen before"
       },
       {
         "step": "verify",
@@ -236,7 +308,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "20 open projects from the last 5 days worldwide with budget 100+ USD (203 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 105 skipped: not app/AI work)"
+        "msg": "23 open projects from the last 5 days worldwide with budget 100+ USD (220 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 117 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -264,35 +336,115 @@
       },
       {
         "step": "linkedin",
-        "msg": "98 jobs from Gmail alerts (last 5 days)"
+        "msg": "97 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / EMEA: fetch failed"
-      },
-      {
-        "step": "linkedin-search",
-        "msg": "Android iOS Developer / Middle East: busy (429), stopping search this run"
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Frontend Architect"
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "post 4490103223: fetch failed"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "post 4490911165: fetch failed"
+        "msg": "skipped (full-time): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer, Core Discovery"
+        "msg": "skipped (title): Senior Android Software Engineer (Kotlin)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Android Engineer (Kotlin and Java)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile App Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Engineer, Government Products"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4490879615: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4486365924: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Application Developer — Partner Apps"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Application Developer — Partner Apps"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile /Flutter Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Flutter Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile App Developer (Kotlin)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Mobile Engineer - React Native (Paris or Remote France)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior React Native Software Engineer (m/f/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Software Engineer Senior Mobile Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): React Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer – Banking Applications - Kuwait"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): React Native developer (3 years)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer (React Native)"
       },
       {
         "step": "verify",
-        "msg": "2 of 4 new LinkedIn jobs added"
+        "msg": "2 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -300,11 +452,11 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 5 to judge"
+        "msg": "7 new Freelancer projects added, 9 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 9 via gemini-2.5-flash"
       },
       {
         "step": "linkedin",
