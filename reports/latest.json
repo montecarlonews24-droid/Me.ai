@@ -1,230 +1,238 @@
 {
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T13:26:49.815Z",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T11:47:47.594Z",
   "model": "gemini-2.5-flash",
-  "summary": "اليوم، تبرز الأفكار التي تركز على تبسيط الوثائق والإجراءات القانونية والمالية الأردنية المعقدة باستخدام الذكاء الاصطناعي. هذه الأفكار تتوافق تمامًا مع اهتمامات Moe وتلبي حاجة حقيقية في السوق الأردني.",
+  "summary": "اليوم، تبرز الأفكار التي تركز على تبسيط الوثائق والإجراءات المعقدة باستخدام الذكاء الاصطناعي، خاصة في السياق الأردني وباللغة العربية. هناك طلب كبير على أدوات تساعد الأفراد والشركات الصغيرة على فهم المعلومات القانونية، العقارية، الحكومية، والوثائق الرسمية بسهولة.",
   "trends": [
-    "تبسيط الوثائق القانونية بالذكاء الاصطناعي",
-    "تسهيل الإجراءات المالية للأفراد والشركات الصغيرة",
-    "تطبيقات الذكاء الاصطناعي المتخصصة في السياق الأردني"
+    "الذكاء الاصطناعي لتبسيط المستندات العربية",
+    "مساعدات الذكاء الاصطناعي الموجهة للشركات الصغيرة والمتوسطة",
+    "الذكاء الاصطناعي لتبسيط الإجراءات الحكومية المحلية",
+    "حلول 'عربية أولاً' مدعومة بالذكاء الاصطناعي",
+    "التركيز على الاحتياجات المحلية (الأردن)"
   ],
   "ideas": [
     {
-      "name": "Ijarati AI",
-      "pitch": "مساعد ذكاء اصطناعي يبسّط ويوضح قوانين عقود الإيجار الأردنية وحقوق المستأجر والمؤجر.",
-      "problem": "يواجه المستأجرون والمؤجرون صعوبة في فهم قوانين الإيجارات الأردنية المعقدة، مما يؤدي إلى نزاعات وسوء فهم.",
-      "audience": "المستأجرون، المؤجرون، أصحاب العقارات في الأردن.",
-      "whyNow": "مع تزايد الطلب على تبسيط الوثائق القانونية باللغة العربية، يمكن لتطبيق يركز على قوانين الإيجار أن يلبي حاجة ملحة. الذكاء الاصطناعي الحديث قادر على تحليل النصوص القانونية وتقديم شروحات مبسطة.",
+      "name": "Dalil Mashroo'i",
+      "pitch": "مساعد ذكاء اصطناعي لرواد الأعمال وأصحاب الشركات الصغيرة والمتوسطة في الأردن، يقدم إرشادات مبسطة حول متطلبات تأسيس الأعمال، التراخيص القانونية، والخطوات الإدارية باللغة العربية.",
+      "problem": "يجد رواد الأعمال صعوبة في فهم الإجراءات الحكومية والمتطلبات القانونية المعقدة عند بدء أو إدارة عمل تجاري صغير في الأردن، خاصة مع النقص في الأدوات الرقمية الموجهة للشركات الصغيرة والمتوسطة.",
+      "audience": "أصحاب الشركات الصغيرة والمتوسطة، رواد الأعمال الجدد، الأفراد الذين يخططون لبدء عمل تجاري في الأردن.",
+      "whyNow": "فجوة الرقمنة الكبيرة بين الشركات الصغيرة والمتوسطة في الأردن، إلى جانب قدرات الذكاء الاصطناعي على تبسيط المعلومات القانونية والحكومية، تجعل هذا التوقيت مثاليًا. يتوافق مع اهتمام Moe بـ 'Waseet Al-Sharika' و 'Hukoomati AI'.",
       "competition": "متوسطة",
       "competitors": [
-        "مكتب الأتاسي للمحاماة",
-        "HAQQ"
+        "Qada.ai",
+        "شركات استشارات الذكاء الاصطناعي في الأردن"
       ],
-      "edge": "مساعد ذكاء اصطناعي تفاعلي يقدم تبسيطاً فورياً لقوانين عقود الإيجار الأردنية المعقدة، ويجيب على استفسارات المستخدمين بلغة سهلة مع أمثلة عملية بناءً على سيناريوهات محددة، بدلاً من المقالات العامة أو الحاجة لاستشارة محامٍ مباشر.",
-      "monetization": "اشتراك شهري للوصول إلى تحليلات متعمقة، استشارات لسيناريوهات محددة، وقوالب عقود مبسطة.",
-      "buildDifficulty": "سهل",
-      "buildDays": 15,
-      "score": 9,
-      "firstStep": "جمع وتحليل قوانين الإيجار الأردنية الرئيسية وتغذية نموذج الذكاء الاصطناعي بها."
-    },
-    {
-      "name": "Amli AI",
-      "pitch": "مستشار ذكاء اصطناعي يبسّط قوانين العمل الأردنية ويوضح حقوق وواجبات الموظفين وأصحاب العمل.",
-      "problem": "يجد الموظفون وأصحاب العمل صعوبة في فهم نصوص قانون العمل الأردني المعقدة وتفاصيله الدقيقة، مما يؤثر على بيئة العمل.",
-      "audience": "الموظفون، أصحاب العمل، مدراء الموارد البشرية في الأردن.",
-      "whyNow": "تطبيقات الذكاء الاصطناعي المتخصصة في تبسيط الوثائق الحكومية والقانونية تلقى قبولًا كبيرًا. دعم Gemini للغة العربية الفصحى يجعل هذا الوقت مثاليًا لتطبيق قانوني مركزي.",
-      "competition": "متوسطة",
-      "competitors": [
-        "jordanian-labour-rights-calculator (GitHub)",
-        "مكتب الأتاسي للمحاماة"
-      ],
-      "edge": "مستشار ذكاء اصطناعي تفاعلي باللغة العربية يشرح تفاصيل قوانين العمل الأردنية ويقدم توجيهات حول الحقوق والواجبات في مختلف السيناريوهات العملية، مع القدرة على تحليل العقود وتقديم إجابات مخصصة تتجاوز الحسابات المباشرة.",
-      "monetization": "اشتراك شهري للموظفين وأصحاب العمل للوصول إلى استشارات متخصصة، تحليل عقود العمل، وأدوات حساب المستحقات.",
-      "buildDifficulty": "سهل",
-      "buildDays": 15,
-      "score": 9,
-      "firstStep": "جمع وتحليل قانون العمل الأردني وتفاصيله وتغذية نموذج الذكاء الاصطناعي بها."
-    },
-    {
-      "name": "Taminee AI",
-      "pitch": "محلل ذكاء اصطناعي يبسّط شروط وأحكام وثائق التأمين المختلفة (صحي، سيارات، حياة) باللغة العربية.",
-      "problem": "وثائق التأمين مليئة بالمصطلحات المعقدة والبنود المخفية التي يصعب على الأفراد فهمها بشكل كامل قبل التوقيع أو عند المطالبة.",
-      "audience": "الأفراد والشركات الصغيرة الذين يشترون وثائق التأمين في الأردن والمنطقة.",
-      "whyNow": "هناك اتجاه قوي نحو تطبيقات الذكاء الاصطناعي التي تبسط التقارير والمصطلحات المعقدة (مثل Sahhati AI). القدرة على معالجة النصوص العربية وتقديم ملخصات واضحة مدعومة بالذكاء الاصطناعي متوفرة الآن.",
-      "competition": "منخفضة",
-      "competitors": [
-        "ImageGPT",
-        "LogicBalls AI Policy Wording Simplifier"
-      ],
-      "edge": "تطبيق ذكاء اصطناعي مخصص للمستهلكين الناطقين باللغة العربية، يركز على تبسيط شروط وأحكام وثائق التأمين الشخصية (الصحي، السيارات، الحياة) بشكل مباشر وسهل الفهم، مع القدرة على الإجابة على استفسارات محددة حول التغطيات والاستثناءات.",
-      "monetization": "نموذج فريميوم: تبسيط أساسي مجاني، اشتراك شهري لتحليل وثائق متعددة، مقارنات بين وثائق التأمين، ونصائح مخصصة.",
+      "edge": "يركز على تقديم إرشادات تفاعلية، مبسطة، خطوة بخطوة، وشاملة لكافة المتطلبات الإدارية والقانونية الخاصة بالشركات الصغيرة والمتوسطة في الأردن، مع التركيز على سهولة الاستخدام للمستخدم العادي دون خلفية قانونية أو إدارية متخصصة، على عكس المنصات القانونية العامة أو خدمات الاستشارات الباهظة.",
+      "monetization": "نموذج اشتراك شهري أو سنوي للوصول غير المحدود إلى الإرشادات المتقدمة والقوالب المخصصة، أو رسوم لمرة واحدة لخدمات محددة (مثل إنشاء خطة عمل مبسطة).",
       "buildDifficulty": "متوسط",
       "buildDays": 18,
+      "score": 9,
+      "firstStep": "جمع وتصنيف كافة المعلومات والوثائق المتعلقة بتأسيس الشركات الصغيرة والمتوسطة والتراخيص في الأردن، ثم بناء قاعدة معرفية أولية للذكاء الاصطناعي."
+    },
+    {
+      "name": "Qarari Al-Aqari",
+      "pitch": "مساعد ذكاء اصطناعي للأفراد في الأردن لتبسيط عقود ووثائق العقارات (إيجار، بيع، شراء) وتقديم رؤى مبسطة حول السوق العقاري المحلي.",
+      "problem": "يجد المشترون والبائعون والمستأجرون في الأردن صعوبة في فهم الشروط القانونية المعقدة في العقود العقارية، والحصول على معلومات موثوقة ومبسطة عن السوق.",
+      "audience": "الأفراد الذين يتعاملون مع العقارات (مستأجرون، مشترون، بائعون)، وكلاء العقارات الصغار.",
+      "whyNow": "مع توفر نماذج التقييم العقاري المدعمة بالذكاء الاصطناعي والقدرة على معالجة المستندات العقارية، يمكن تقديم قيمة كبيرة. يعكس هذا الفكرة المفضلة لدى Moe لـ 'Aqari AI' ويستفيد من فجوة المعلومات في سوق العقارات الأردني.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Qada.ai",
+        "أدوات تلخيص المستندات العامة"
+      ],
+      "edge": "التخصص العميق في العقود والوثائق العقارية الأردنية، وتقديم تفسيرات قانونية مبسطة ودقيقة، بالإضافة إلى رؤى وتحليلات لسوق العقارات المحلي موجهة للمستخدم العادي، مما يتجاوز مجرد التلخيص العام أو الاستشارات القانونية غير المتخصصة.",
+      "monetization": "اشتراك شهري/سنوي لعدد غير محدود من تحليل الوثائق والوصول إلى تقارير السوق المتقدمة، أو رسوم لمرة واحدة لتحليل وثيقة محددة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9,
+      "firstStep": "جمع وتحليل مجموعة واسعة من عقود ووثائق العقارات الأردنية الشائعة، وبناء قاعدة بيانات للمصطلحات القانونية العقارية الأردنية."
+    },
+    {
+      "name": "Waseeqati Al-Fahma",
+      "pitch": "مساعد ذكاء اصطناعي لتبسيط وتوضيح أي وثيقة عربية (شخصية، قانونية، رسمية، تعليمية) من خلال تلخيصها وتقديم شروحات سهلة الفهم.",
+      "problem": "يواجه الأفراد صعوبة في فهم تعقيدات الوثائق العربية الطويلة أو المعقدة، مثل الشروط والأحكام، التقارير، أو النصوص التعليمية، مما يؤدي إلى سوء الفهم أو اتخاذ قرارات غير مستنيرة.",
+      "audience": "الأفراد الذين يتعاملون مع مستندات عربية معقدة بانتظام (طلاب، أصحاب عقارات، موظفون، عامة الناس).",
+      "whyNow": "مع التطورات الأخيرة في نماذج اللغات الكبيرة وتلخيص النصوص العربية، أصبح بالإمكان تقديم أداة قوية لتبسيط أي نوع من الوثائق. يتماشى هذا مع اهتمام Moe بتبسيط المستندات ويسد فجوة واضحة في السوق العربية لسهولة فهم النصوص المعقدة.",
+      "competition": "عالية",
+      "competitors": [
+        "DocSummarizer",
+        "Linnk AI",
+        "DoocuAI"
+      ],
+      "edge": "التركيز على تقديم شروحات معمقة ومبسطة للوثائق القانونية والرسمية والشخصية والتعليمية باللغة العربية، وليس مجرد تلخيصها. يتميز بتفسير المصطلحات المعقدة والسياقات المتخصصة بأسلوب سهل الفهم للمستخدم العادي، مع الحفاظ على الدقة والموثوقية، مما يتجاوز قدرات الملخصات العامة.",
+      "monetization": "نموذج فريميوم: عدد محدود من الوثائق المجانية، ثم اشتراك شهري/سنوي للوصول غير المحدود والميزات المتقدمة (مثل دعم أنواع ملفات إضافية أو حفظ الوثائق).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 17,
       "score": 8.5,
-      "firstStep": "جمع عينات من وثائق التأمين الشائعة في الأردن (صحي، سيارات، حياة) وتحديد المصطلحات المعقدة."
+      "firstStep": "تحديد أنواع الوثائق العربية الأكثر شيوعًا التي تحتاج إلى تبسيط (مثل العقود، التقارير، النصوص التعليمية) وبناء نموذج أولي للذكاء الاصطناعي لتبسيطها."
     },
     {
-      "name": "Maliyati AI",
-      "pitch": "مستشار ذكاء اصطناعي يبسّط التقارير والقوائم المالية الأساسية للمشاريع الصغيرة والمتوسطة في الأردن.",
-      "problem": "يجد أصحاب المشاريع الصغيرة صعوبة في فهم وتحليل تقاريرهم المالية، مما يعيق اتخاذ قرارات مستنيرة.",
-      "audience": "أصحاب المشاريع الصغيرة والمتوسطة، رواد الأعمال في الأردن.",
-      "whyNow": "الشركات الناشئة وأصحاب الأعمال الصغيرة بحاجة ماسة لأدوات تبسط الإجراءات القانونية والمالية. الذكاء الاصطناعي يمكنه تحليل البيانات المالية وتقديم تفسيرات سهلة الفهم.",
-      "competition": "متوسطة",
+      "name": "Waseeqati Al-Rasmiya",
+      "pitch": "تطبيق لإنشاء قوالب وثائق رسمية وشخصية شائعة باللغة العربية (مثل رسائل رسمية، طلبات، إقرارات، سير ذاتية) بمساعدة الذكاء الاصطناعي، مع خيارات تخصيص بسيطة.",
+      "problem": "يعاني الكثيرون من صعوبة صياغة المستندات الرسمية أو الشخصية بشكل صحيح ومنسق باللغة العربية، وغالبًا ما يفتقرون إلى قوالب جاهزة أو مساعدة في الصياغة.",
+      "audience": "الطلاب، الباحثون عن عمل، الأفراد، الشركات الصغيرة التي تحتاج إلى مستندات قياسية.",
+      "whyNow": "تُظهر قدرات الذكاء الاصطناعي التوليدي الحالية إمكانات كبيرة في إنشاء النصوص وتكييفها. يلبي هذا الحاجة الملحة لقوالب مستندات عربية سهلة الاستخدام، ويشابه بشكل وثيق فكرة Moe المفضلة لـ 'Mustanadati'.",
+      "competition": "عالية",
       "competitors": [
-        "Monavio",
-        "HomeExpenses"
+        "VisualCV",
+        "CV Maker AI",
+        "Qalam"
       ],
-      "edge": "مستشار ذكاء اصطناعي متخصص للمشاريع الصغيرة والمتوسطة في الأردن، يركز على تبسيط التقارير والقوائم المالية الأساسية (مثل قائمة الدخل والميزانية العمومية) وتحليلها وتقديم رؤى مالية قابلة للتنفيذ بلغة عربية سهلة ومباشرة، لمساعدة أصحاب الأعمال على فهم الوضع المالي واتخاذ القرارات.",
-      "monetization": "اشتراك شهري لأصحاب المشاريع الصغيرة والمتوسطة للوصول إلى تحليلات مالية متقدمة، تقارير مخصصة، وتوجيهات لاتخاذ القرارات.",
+      "edge": "يقدم حلاً شاملاً لإنشاء أنواع متعددة من الوثائق الرسمية والشخصية الشائعة باللغة العربية (تتجاوز السير الذاتية)، مع التركيز على الصياغة القانونية السليمة بقدر الإمكان وخيارات تخصيص بسيطة، مما يجعله أكثر مرونة وتنوعًا من أدوات إنشاء السير الذاتية المتخصصة أو مساعدات الكتابة العامة.",
+      "monetization": "نموذج فريميوم: عدد محدود من الوثائق المجانية، ثم اشتراك شهري/سنوي للوصول غير المحدود إلى جميع القوالب والميزات المتقدمة (مثل التصدير بصيغ مختلفة).",
       "buildDifficulty": "متوسط",
-      "buildDays": 18,
-      "score": 8,
-      "firstStep": "تحديد الهيكل الأساسي للتقارير المالية للمشاريع الصغيرة والمتوسطة في الأردن وتدريب الذكاء الاصطناعي على تحليلها."
+      "buildDays": 17,
+      "score": 8.5,
+      "firstStep": "جمع وتصميم مجموعة أساسية من قوالب الوثائق الرسمية والشخصية الشائعة باللغة العربية، وتطوير واجهة مستخدم بسيطة لتعبئة البيانات وتوليد النص."
     },
     {
-      "name": "Mizaniyati AI",
-      "pitch": "محلل ذكاء اصطناعي يبسّط كشوفات الحساب البنكية وفواتير الخدمات إلى لغة عربية سهلة الفهم للمساعدة في إدارة الميزانية الشخصية.",
-      "problem": "يصعب على الكثيرين تتبع وفهم تفاصيل نفقاتهم وإيراداتهم من خلال كشوفات الحساب والفواتير الطويلة، مما يعيق الإدارة المالية الشخصية.",
-      "audience": "الأفراد الذين يرغبون في فهم أفضل لأموالهم وإدارة ميزانياتهم.",
-      "whyNow": "رغم أن Moe يكره تطبيقات الميزانية العامة، إلا أن هذا يركز على 'تبسيط المستندات' المالية المعقدة (الكشوفات والفواتير) باستخدام الذكاء الاصطناعي لتقديم رؤى واضحة، وهو يتوافق مع اهتمامه بـ 'تبسيط المصطلحات والتقارير'. Firebase AI Logic وon-device AI يمكنهما معالجة البيانات النصية لتقديم تحليلات سريعة.",
+      "name": "Khidmaty Al-Fawriya",
+      "pitch": "مساعد ذكاء اصطناعي فوري يقدم إجابات دقيقة وموثوقة حول خدمات حكومية ومدنية محددة في الأردن (مثل ساعات عمل الدوائر، متطلبات وثيقة معينة)، مع الإشارة إلى المصادر.",
+      "problem": "يجد الأفراد صعوبة في الوصول السريع إلى معلومات دقيقة وموثوقة حول خدمات حكومية معينة، مما يتطلب غالبًا زيارات شخصية أو مكالمات هاتفية مطولة.",
+      "audience": "المواطنون والمقيمون في الأردن الذين يحتاجون إلى معلومات سريعة عن الخدمات العامة.",
+      "whyNow": "مع ظهور 'الوكلاء' المدعومين بالذكاء الاصطناعي وقدرتهم على التعامل مع المهام متعددة الخطوات وتوفير معلومات مستندة إلى المصادر، يمكن لهذا التطبيق تقديم خدمة فورية وفعالة. كما أن هناك حاجة عامة لتبسيط الوصول إلى المعلومات الحكومية في الأردن.",
       "competition": "متوسطة",
       "competitors": [
-        "Monavio",
-        "CashMate Jordan"
+        "تطبيق سند",
+        "فرح (المتحدثة الحكومية بالذكاء الاصطناعي)"
       ],
-      "edge": "محلل ذكاء اصطناعي يقدم تبسيطاً فورياً لكشوفات الحساب البنكية وفواتير الخدمات (كهرباء، ماء، اتصالات) إلى لغة عربية سهلة الفهم وشروحات واضحة للمصروفات والدخل، مع تسليط الضوء على أنماط الإنفاق وتقديم اقتراحات مخصصة لإدارة الميزانية الشخصية، بشكل يتجاوز مجرد تتبع الأرقام إلى فهم مالي حقيقي باللغة الأم.",
-      "monetization": "فريميوم: تبسيط كشف حساب واحد مجاني، اشتراك شهري لربط حسابات متعددة، تحليلات متعمقة، وتوصيات ميزانية شخصية.",
+      "edge": "يركز على تقديم إجابات فورية، دقيقة، وموثوقة حول تفاصيل محددة لخدمات حكومية ومدنية في الأردن، مع الإشارة الواضحة إلى المصادر الرسمية. هذا التخصص والدقة في التفاصيل، بالإضافة إلى توفير المصادر، يميزه عن تطبيق سند الذي قد يكون أعم أو المتحدثة الحكومية التي دورها إعلامي.",
+      "monetization": "نموذج فريميوم: عدد محدود من الاستفسارات المجانية، ثم اشتراك شهري/سنوي للوصول غير المحدود والميزات المتقدمة (مثل التنبيهات بالتغييرات في الخدمات).",
       "buildDifficulty": "متوسط",
-      "buildDays": 18,
+      "buildDays": 16,
       "score": 8,
-      "firstStep": "تطوير وظيفة OCR لقراءة كشوفات الحساب البنكية والفواتير الأردنية وتحديد البيانات الرئيسية."
+      "firstStep": "بناء قاعدة معرفية منظمة ودقيقة لخدمات حكومية ومدنية محددة في الأردن، مع توثيق المصادر الرسمية لكل معلومة."
     }
   ],
   "rejected": [
     {
-      "name": "Wathaeqati AI",
-      "reason": "تشبع عالٍ بوجود تطبيقات حكومية رسمية قوية مثل 'سند'، وصعوبة في مواكبة التحديثات المستمرة للنماذج الحكومية المتعددة، مما يجعلها كبيرة جداً على مطور واحد في 3 أسابيع."
+      "name": "Tabibi Al-Mubassat",
+      "reason": "تشبع السوق عالٍ جدًا في مجال تبسيط التقارير الطبية، والفجوة الفريدة المقترحة (ربط السجلات الصحية مع مراعاة الخصوصية) معقدة للغاية ومحفوفة بالمخاطر القانونية والأخلاقية بالنسبة لمطور منفرد في إطار زمني قصير."
     },
     {
-      "name": "Abhath AI",
-      "reason": "تشبع عالٍ في سوق ملخصات النصوص بالذكاء الاصطناعي، ولا يتوافق مع اهتمام Moe بالتركيز على السياق الأردني أو تبسيط الوثائق الشخصية/القانونية/الحكومية المحددة، كما أن النطاق المقترح (تحليل المنهجيات وتحديد فجوات البحث) كبير جداً."
+      "name": "Moamelati",
+      "reason": "تشبع السوق عالٍ جدًا بسبب وجود 'تطبيق سند' الحكومي الرسمي الذي يتطور باستمرار ويهدف إلى رقمنة وتبسيط الإجراءات الحكومية. المنافسة المباشرة مع منصة حكومية رسمية ليست مجدية لمطور منفرد."
     },
     {
-      "name": "Mustalahat Qanouniya AI",
-      "reason": "تشبع عالٍ بوجود منافس قوي ومباشر مثل 'Qada.ai' الذي يقدم بالفعل مسرداً قانونياً أردنياً مدعوماً بالذكاء الاصطناعي، مما يجعل التمايز صعباً وغير كافٍ."
+      "name": "Sahel Wasel",
+      "reason": "على الرغم من معالجته لمشكلة حقيقية للشركات الصغيرة والمتوسطة، إلا أن الوعد بـ 'الظهور في البحث الرقمي والذكي' معقد ويصعب تحقيقه بفعالية من خلال تطبيق بسيط يطوره شخص واحد. كما أنه أقل توافقًا مع اهتمامات Moe الأساسية في تبسيط المستندات والإجراءات مقارنة بالأفكار المختارة."
     }
   ],
   "en": {
-    "summary": "Today, ideas focused on simplifying complex Jordanian legal and financial documents and procedures using AI are emerging. These ideas perfectly align with Moe's interests and meet a real need in the Jordanian market.",
+    "summary": "Today, ideas focusing on simplifying complex documents and procedures using artificial intelligence are emerging, especially in the Jordanian context and in Arabic. There is a high demand for tools that help individuals and small businesses easily understand legal, real estate, governmental, and official documents.",
     "trends": [
-      "Simplifying legal documents with AI",
-      "Facilitating financial procedures for individuals and small businesses",
-      "Specialized AI applications in the Jordanian context"
+      "AI for simplifying Arabic documents",
+      "AI assistants for SMEs",
+      "AI for simplifying local government procedures",
+      "'Arabic First' AI-powered solutions",
+      "Focus on local needs (Jordan)"
     ],
     "ideas": [
       {
-        "name": "Ijarati AI",
-        "pitch": "An AI assistant that simplifies and clarifies Jordanian rental contract laws and the rights of tenants and landlords.",
-        "problem": "Tenants and landlords face difficulty understanding complex Jordanian rental laws, leading to disputes and misunderstandings.",
-        "audience": "Tenants, landlords, and property owners in Jordan.",
-        "whyNow": "With increasing demand for simplifying legal documents in Arabic, an application focused on rental laws can meet an urgent need. Modern AI is capable of analyzing legal texts and providing simplified explanations.",
+        "name": "Dalil Mashroo'i",
+        "pitch": "An AI assistant for entrepreneurs and SME owners in Jordan, providing simplified guidance on business establishment requirements, legal licenses, and administrative steps in Arabic.",
+        "problem": "Entrepreneurs find it difficult to understand complex government procedures and legal requirements when starting or managing a small business in Jordan, especially with the lack of digital tools aimed at SMEs.",
+        "audience": "SME owners, new entrepreneurs, individuals planning to start a business in Jordan.",
+        "whyNow": "The significant digitalization gap among SMEs in Jordan, coupled with AI's capabilities to simplify legal and governmental information, makes this an ideal time. It aligns with Moe's interest in 'Waseet Al-Sharika' and 'Hukoomati AI'.",
         "competition": "Medium",
         "competitors": [
-          "مكتب الأتاسي للمحاماة",
-          "HAQQ"
+          "Qada.ai",
+          "AI consulting firms in Jordan"
         ],
-        "edge": "An interactive AI assistant that provides instant simplification of complex Jordanian rental contract laws, answering user queries in easy language with practical examples based on specific scenarios, instead of general articles or the need for direct legal consultation.",
-        "monetization": "Monthly subscription for access to in-depth analyses, consultations for specific scenarios, and simplified contract templates.",
-        "buildDifficulty": "Easy",
-        "buildDays": 15,
-        "score": 9,
-        "firstStep": "Collect and analyze key Jordanian rental laws and feed them into the AI model."
-      },
-      {
-        "name": "Amli AI",
-        "pitch": "An AI consultant that simplifies Jordanian labor laws and clarifies the rights and duties of employees and employers.",
-        "problem": "Employees and employers find it difficult to understand the complex texts and intricate details of Jordanian labor law, which affects the work environment.",
-        "audience": "Employees, employers, and HR managers in Jordan.",
-        "whyNow": "Specialized AI applications for simplifying government and legal documents are gaining significant acceptance. Gemini's support for classical Arabic makes this an ideal time for a centralized legal application.",
-        "competition": "Medium",
-        "competitors": [
-          "jordanian-labour-rights-calculator (GitHub)",
-          "مكتب الأتاسي للمحاماة"
-        ],
-        "edge": "An interactive AI consultant in Arabic that explains the details of Jordanian labor laws and provides guidance on rights and duties in various practical scenarios, with the ability to analyze contracts and provide customized answers beyond direct calculations.",
-        "monetization": "Monthly subscription for employees and employers to access specialized consultations, labor contract analysis, and entitlement calculation tools.",
-        "buildDifficulty": "Easy",
-        "buildDays": 15,
-        "score": 9,
-        "firstStep": "Collect and analyze Jordanian labor law and its details and feed them into the AI model."
-      },
-      {
-        "name": "Taminee AI",
-        "pitch": "An AI analyzer that simplifies the terms and conditions of various insurance documents (health, car, life) in Arabic.",
-        "problem": "Insurance documents are full of complex terminology and hidden clauses that individuals find difficult to fully understand before signing or when making a claim.",
-        "audience": "Individuals and small businesses purchasing insurance policies in Jordan and the region.",
-        "whyNow": "There is a strong trend towards AI applications that simplify complex reports and terminology (like Sahhati AI). The ability to process Arabic texts and provide clear, AI-powered summaries is now available.",
-        "competition": "Low",
-        "competitors": [
-          "ImageGPT",
-          "LogicBalls AI Policy Wording Simplifier"
-        ],
-        "edge": "An AI application customized for Arabic-speaking consumers, focused on directly and easily simplifying the terms and conditions of personal insurance documents (health, car, life), with the ability to answer specific inquiries about coverages and exclusions.",
-        "monetization": "Freemium model: free basic simplification, monthly subscription for analyzing multiple documents, comparing insurance policies, and personalized advice.",
+        "edge": "Focuses on providing interactive, simplified, step-by-step, and comprehensive guidance for all administrative and legal requirements specific to SMEs in Jordan, with an emphasis on ease of use for the average user without specialized legal or administrative background, unlike general legal platforms or expensive consulting services.",
+        "monetization": "Monthly or annual subscription model for unlimited access to advanced guidance and customized templates, or one-time fees for specific services (e.g., creating a simplified business plan).",
         "buildDifficulty": "Medium",
         "buildDays": 18,
+        "score": 9,
+        "firstStep": "Collect and categorize all information and documents related to establishing SMEs and licenses in Jordan, then build an initial knowledge base for the AI."
+      },
+      {
+        "name": "Qarari Al-Aqari",
+        "pitch": "An AI assistant for individuals in Jordan to simplify real estate contracts and documents (lease, sale, purchase) and provide simplified insights into the local real estate market.",
+        "problem": "Buyers, sellers, and tenants in Jordan find it difficult to understand complex legal terms in real estate contracts and to obtain reliable and simplified information about the market.",
+        "audience": "Individuals dealing with real estate (tenants, buyers, sellers), small real estate agents.",
+        "whyNow": "With the availability of AI-powered real estate valuation models and the ability to process real estate documents, significant value can be provided. This reflects Moe's preferred idea for 'Aqari AI' and leverages the information gap in the Jordanian real estate market.",
+        "competition": "Medium",
+        "competitors": [
+          "Qada.ai",
+          "General document summarization tools"
+        ],
+        "edge": "Deep specialization in Jordanian real estate contracts and documents, providing simplified and accurate legal explanations, in addition to insights and analyses of the local real estate market aimed at the average user, going beyond general summarization or non-specialized legal consultations.",
+        "monetization": "Monthly/annual subscription for unlimited document analysis and access to advanced market reports, or a one-time fee for analyzing a specific document.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9,
+        "firstStep": "Collect and analyze a wide range of common Jordanian real estate contracts and documents, and build a database of Jordanian real estate legal terms."
+      },
+      {
+        "name": "Waseeqati Al-Fahma",
+        "pitch": "An AI assistant to simplify and clarify any Arabic document (personal, legal, official, educational) by summarizing it and providing easy-to-understand explanations.",
+        "problem": "Individuals face difficulty understanding the complexities of long or complex Arabic documents, such as terms and conditions, reports, or educational texts, leading to misunderstanding or uninformed decisions.",
+        "audience": "Individuals who regularly deal with complex Arabic documents (students, property owners, employees, general public).",
+        "whyNow": "With recent advancements in large language models and Arabic text summarization, a powerful tool can now be provided to simplify any type of document. This aligns with Moe's interest in document simplification and fills a clear gap in the Arabic market for easy understanding of complex texts.",
+        "competition": "High",
+        "competitors": [
+          "DocSummarizer",
+          "Linnk AI",
+          "DoocuAI"
+        ],
+        "edge": "Focuses on providing in-depth and simplified explanations for legal, official, personal, and educational documents in Arabic, not just summarizing them. It excels at explaining complex terms and specialized contexts in an easy-to-understand manner for the average user, while maintaining accuracy and reliability, which goes beyond the capabilities of general summarizers.",
+        "monetization": "Freemium model: a limited number of free documents, then a monthly/annual subscription for unlimited access and advanced features (e.g., support for additional file types or document saving).",
+        "buildDifficulty": "Medium",
+        "buildDays": 17,
         "score": 8.5,
-        "firstStep": "Collect samples of common insurance documents in Jordan (health, car, life) and identify complex terminology."
+        "firstStep": "Identify the most common types of Arabic documents that need simplification (e.g., contracts, reports, educational texts) and build an initial AI prototype to simplify them."
       },
       {
-        "name": "Maliyati AI",
-        "pitch": "An AI consultant that simplifies basic financial reports and statements for small and medium-sized enterprises in Jordan.",
-        "problem": "Small business owners find it difficult to understand and analyze their financial reports, which hinders informed decision-making.",
-        "audience": "Small and medium-sized enterprise owners, entrepreneurs in Jordan.",
-        "whyNow": "Startups and small business owners are in urgent need of tools that simplify legal and financial procedures. AI can analyze financial data and provide easy-to-understand explanations.",
-        "competition": "Medium",
+        "name": "Waseeqati Al-Rasmiya",
+        "pitch": "An application for creating common official and personal document templates in Arabic (e.g., official letters, applications, declarations, CVs) with the help of AI, with simple customization options.",
+        "problem": "Many people struggle to correctly and consistently draft official or personal documents in Arabic, and often lack ready-made templates or drafting assistance.",
+        "audience": "Students, job seekers, individuals, small businesses that need standard documents.",
+        "whyNow": "Current generative AI capabilities show great potential in creating and adapting texts. This addresses the urgent need for user-friendly Arabic document templates and closely resembles Moe's preferred idea for 'Mustanadati'.",
+        "competition": "High",
         "competitors": [
-          "Monavio",
-          "HomeExpenses"
+          "VisualCV",
+          "CV Maker AI",
+          "Qalam"
         ],
-        "edge": "A specialized AI consultant for small and medium-sized enterprises in Jordan, focused on simplifying and analyzing basic financial reports and statements (such as income statements and balance sheets) and providing actionable financial insights in easy and direct Arabic, to help business owners understand their financial situation and make decisions.",
-        "monetization": "Monthly subscription for small and medium-sized enterprise owners to access advanced financial analyses, customized reports, and decision-making guidance.",
+        "edge": "Offers a comprehensive solution for creating multiple types of common official and personal documents in Arabic (beyond CVs), with a focus on sound legal drafting as much as possible and simple customization options, making it more flexible and versatile than specialized CV creation tools or general writing assistants.",
+        "monetization": "Freemium model: a limited number of free documents, then a monthly/annual subscription for unlimited access to all templates and advanced features (e.g., export in different formats).",
         "buildDifficulty": "Medium",
-        "buildDays": 18,
-        "score": 8,
-        "firstStep": "Define the basic structure of financial reports for small and medium-sized enterprises in Jordan and train the AI to analyze them."
+        "buildDays": 17,
+        "score": 8.5,
+        "firstStep": "Collect and design a core set of common official and personal document templates in Arabic, and develop a simple user interface for data entry and text generation."
       },
       {
-        "name": "Mizaniyati AI",
-        "pitch": "An AI analyzer that simplifies bank statements and utility bills into easy-to-understand Arabic to assist with personal budget management.",
-        "problem": "Many find it difficult to track and understand the details of their expenses and income through long bank statements and bills, which hinders personal financial management.",
-        "audience": "Individuals who want to better understand their finances and manage their budgets.",
-        "whyNow": "Although Moe dislikes general budgeting apps, this focuses on 'simplifying complex financial documents' (statements and bills) using AI to provide clear insights, which aligns with his interest in 'simplifying terminology and reports'. Firebase AI Logic and on-device AI can process textual data to provide quick analyses.",
+        "name": "Khidmaty Al-Fawriya",
+        "pitch": "An instant AI assistant that provides accurate and reliable answers about specific government and civil services in Jordan (e.g., department operating hours, requirements for a specific document), with reference to sources.",
+        "problem": "Individuals find it difficult to quickly access accurate and reliable information about specific government services, often requiring personal visits or lengthy phone calls.",
+        "audience": "Citizens and residents in Jordan who need quick information about public services.",
+        "whyNow": "With the emergence of AI-powered 'agents' and their ability to handle multi-step tasks and provide source-based information, this application can offer an instant and effective service. There is also a general need to simplify access to government information in Jordan.",
         "competition": "Medium",
         "competitors": [
-          "Monavio",
-          "CashMate Jordan"
+          "Sanad App",
+          "Farah (Government AI Speaker)"
         ],
-        "edge": "An AI analyzer that provides instant simplification of bank statements and utility bills (electricity, water, communications) into easy-to-understand Arabic and clear explanations of expenses and income, highlighting spending patterns and offering personalized suggestions for personal budget management, going beyond mere number tracking to genuine financial understanding in the native language.",
-        "monetization": "Freemium: free simplification of one statement, monthly subscription to link multiple accounts, in-depth analyses, and personalized budget recommendations.",
+        "edge": "Focuses on providing instant, accurate, and reliable answers about specific details of government and civil services in Jordan, with clear reference to official sources. This specialization and accuracy in details, in addition to providing sources, distinguishes it from the Sanad app which may be more general, or the government speaker whose role is informational.",
+        "monetization": "Freemium model: a limited number of free inquiries, then a monthly/annual subscription for unlimited access and advanced features (e.g., alerts for service changes).",
         "buildDifficulty": "Medium",
-        "buildDays": 18,
+        "buildDays": 16,
         "score": 8,
-        "firstStep": "Develop OCR functionality to read Jordanian bank statements and bills and identify key data."
+        "firstStep": "Build an organized and accurate knowledge base for specific government and civil services in Jordan, with documentation of official sources for each piece of information."
       }
     ],
     "rejected": [
       {
-        "name": "Wathaeqati AI",
-        "reason": "High saturation due to strong official government applications like 'Sanad', and difficulty keeping up with continuous updates to multiple government forms, making it too large for a single developer in 3 weeks."
+        "name": "Tabibi Al-Mubassat",
+        "reason": "Market saturation is very high in the field of simplifying medical reports, and the proposed unique gap (linking health records while considering privacy) is too complex and fraught with legal and ethical risks for a solo developer within a short timeframe."
       },
       {
-        "name": "Abhath AI",
-        "reason": "High saturation in the AI text summarization market, and it does not align with Moe's interest in focusing on the Jordanian context or simplifying specific personal/legal/government documents. Additionally, the proposed scope (analyzing methodologies and identifying research gaps) is too broad."
+        "name": "Moamelati",
+        "reason": "Market saturation is very high due to the official government 'Sanad App' which is constantly evolving and aims to digitize and simplify government procedures. Direct competition with an official government platform is not feasible for a solo developer."
       },
       {
-        "name": "Mustalahat Qanouniya AI",
-        "reason": "High saturation due to a strong and direct competitor like 'Qada.ai' which already offers an AI-powered Jordanian legal glossary, making differentiation difficult and insufficient."
+        "name": "Sahel Wasel",
+        "reason": "Despite addressing a real problem for SMEs, the promise of 'appearing in digital and smart search' is complex and difficult to effectively achieve through a simple application developed by one person. It is also less aligned with Moe's core interests in simplifying documents and procedures compared to the selected ideas."
       }
     ]
   },
@@ -234,11 +242,11 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "34 past ideas, 6 liked, 5 disliked"
+        "msg": "39 past ideas, 6 liked, 9 disliked"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: Ijarati AI, Amli AI, Taminee AI, Wathaeqati AI, Maliyati AI, Abhath AI, Mustalahat Qanouniya AI, Mizaniyati AI"
+        "msg": "8 candidates via gemini-2.5-flash: Waseeqati Al-Fahma, Dalil Mashroo'i, Tabibi Al-Mubassat, Qarari Al-Aqari, Sahel Wasel, Moamelati, Waseeqati Al-Rasmiya, Khidmaty Al-Fawriya"
       },
       {
         "step": "compete",
@@ -256,84 +264,84 @@
   },
   "sources": [
     {
-      "title": "cothinkers.tech",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESqHQ77haI30vweiEqFmphctGLXhqwJlyZ3-Qv1KYkogNKi3f8y1jq20wBGA_fz0VpjHq_m3rW-oT5XoWR-w_FgEjyo0Rvt-xX1S_wlGEQaCmNZPASwyYbtllPVC3JjiQ9rqhiG2GzGxnw7TfvC0_pt5yN3w=="
+      "title": "aasrc.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGay0r_yI3sVyE3_ueiKsIwp-CXWKMit7ylsB99wv1bHP3ekao_XtwBH_OnmUg7mK8Xs_K36wpLpn4Gs5Uy7NfTQWvaZPw1iLGCSvBSrHQlWawHQ12pnW4eipRsJ6eYUEYtRpdNpoeu6vQVQeOzG5-8wVt_FSJzbcsA4NSk"
     },
     {
-      "title": "akoode.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArPlbNo76qwoq9geSed5ci-k9NegA1vMJhduFklSqvjvYnhaMq-6sj6e5sTcL3h0UgvJ4TKk8J4d1Tfc2xJGsLM9FnBz580yeXxAF_DAeynJacYETWVjbQwSjdRHZiYyHi-lYmSua0moa_rH2eY96F89k-Q=="
+      "title": "nexaratech.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7vak_97e7yBJA7NjrNhH0jd-DuS6ct9EhvXBZuHREZlyu-wiBlX7sLKDViU3Xa_ZiO4o6oTWsIDDTeQOJtj02PpKX_7ywMQwN5rIYk7KlNX6bAjSfMDp2gd-yH5NxYAKeEHp9MiTVVA8Vzd9nbudvGY3SxA=="
     },
     {
-      "title": "painpointmap.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4IGdXtOeSZSHucSeiiOo-BI8JoAUQYn-K-qXsLtZ24gVeKxs4JUzOYHEevXh8cYrbF9W8ByUi8XTaI1Jax3qBYAF1J6rrzeEJVKDAApTbaW_RvkftgRhhUmCt_mxIAO2nDFY8f7hATTkJxCXcM95bMQpa"
-    },
-    {
-      "title": "plainenglish.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy0M7g7jEIqTRBNQPPjC2KLQpgntp76KaTlN8UqcQolEdCcqbIg9ZLId7O0R0G4JMOcPMFOH_7gHkDP5TSf8LeShJKusokjYCK9CffbNIQq2voTakb6MP8sk0uYUZXMGy20ngQKWHVS-6iR1Bs9Why8SVVgHtL7VmmqUgkOW1Vt53rV7nOn-qNQdZikAoQ6rpLrGWI-_ypkq0Gh053K2Jmtum_EWLe8Dg7jfU="
-    },
-    {
-      "title": "bigideasdb.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGuIwj9Geeh8gcl6whGu4GLR77F4lAKWIQoUkrq9nDmaTr6o3wGG-P4Lw0SKuQDc3LgockYgpbbFdPzGGP0vWKvMMW5Trckczj5zYFQiJigMojxW5TXuC2B9NUw4wH0MBZqq305yNCuNpFCsS-9bxGRT4="
-    },
-    {
-      "title": "oseie.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIe6AK8qKKQganaMV86DIuyoPlv1qEH8sDcugQuO6dUlqPUrum_tXV8MHWyiS2vH4mnqF_HV3jiGKB5etKgnDTTmAvDiOxGY9Wvm-UWEz9_QJGrqxlSYgYUI_C4rt-VOzUetD5cZiS"
-    },
-    {
-      "title": "sigarab.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYFO9dTX_FDzT8dBCuPRi25A0O2YSq1N5YIJrjRliWbOd0JAeqTAEF8GO0zbrzyU7y4f2zBP2AqkmDJZhjCgViK5RipWgybUrtW0OHm3nixo93MN6T0QxG_Vv-CvM="
-    },
-    {
-      "title": "widebot.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELz299OyuugjSDCFXwvs4Ss9L_CB7raAtDsuLQikkCrxJ6OH1sbC97UW9CQmV0IARilaGDjTD-x2u5rqng9czSw9NVxR7cj_R2m7-jHwdQPhxFFBWLSihR_TtkDePVFAMeUGDK2SXQD_vzSmqlCQosyDSZFupBZ0hPr5TYh35psP1zM9_wTTYMOVRANS6L9a1cXAXN6YDo39DZBhs4FsQSU1lBajtse9WUDNR82ob3X9Bs2Zrm486V10prdw=="
-    },
-    {
-      "title": "coconutstudio.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENbSfFoYcgD6CXU0SJkJEjYegPA9oYTtpr_hkb57Uw5vK69Dbiq-99L7PKZA2s6xTmztlEzG56YCAmryrodf0XKPn-MUQYCG4fSTTl8MJeCFUZZKeOqNn8MuCXbZugIj4TL2rz5r0p47uNpgjqGgc6b9UfnQ=="
-    },
-    {
-      "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Y6FnMH29XJprntdzt8B0KYFEfGy8RMPcSMvlmMuXzXJG-9GOonEtmcnG9_p8eQBO-u5DOjScWbLxxDuyDR8bP52QbIWThav8ypfR8ulUGGY9-RyggFnYAG3lekwIzCqfqIZEb7xejduo23Fwc3LIx4OWSlY4gop6LdeH"
-    },
-    {
-      "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMVx-In_nVOEWSivSRhl_vJMh5UUq5obVsTVZgQyWtzLvmPd6dO56-D0Dmj1-q1HoRj8oeQGUAsMC0OZanuFXsih0k_tIXa16kJs0M0fTkrYyQFsUERla9A8AVkfUAHzWNo2YuU4Wbmf4h3MvrKZ1N8Q0RA7HXYt9lk7yjaA=="
-    },
-    {
-      "title": "releasebot.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiTr3245ruobKBoFqhFlss4UqS8_nrvCIo3ReKEmnO62OnhSVpDm4eE_pfiooSsz6zxqv4yF6eo6Aw5NUluAVuQcbdaIp3791AflkmG3muO1Pwbq88wbRVR2lBQDDR2VbwY5vNYuz2Aw=="
-    },
-    {
-      "title": "ravirupareliya.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGulmbkQjgxHcgPGqDtw5O1O_ymz5F0z5UJBFBBpfFMe2MpmVXBwea432XRX8edAohZK1eXdpgarBtpcY6Um56GE9Qulhsgax7qJx_IqNrsMnvI0wqaHddjG7HjYGi_mX1hienuu4An25OpQ5_75LM5"
-    },
-    {
-      "title": "newly.app",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgyOVPCqqPpxsgQTy4fcfJgeDvLoGXZqjrxsADqojv3CMj7CB3dmfx9ws-BaC1otT7sZj5iQXMLRNom3ewywm1qBiJVgjIQHt0xFgPwRGQzDSJGQW8QKNWIZ6wXf15FBkw2DfUC-ZTEhgyDSs="
-    },
-    {
-      "title": "easycomm.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr95rvE45auATihR80V7EIC4MfCHAxXRmu9shSjRU9IivGmUMAE16LKmwf283DT3cNaXlRRTtdZfIx67C6pV9YK-7FXg04fItvYKd_bSBnnN842aSV31i2HllAw2NXg9FexZYFGR4lJlzWrIy5EvEmAA=="
-    },
-    {
-      "title": "galaxiumcoding.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEItHP4mQDIU9n6giJFu6_9sy_Y1XqltAjCmNpzFsOMvvClBRag_smGRzWvP2_Ul1pdyaF2CJVL2efP1r9tJqwHB0V9AvoucVh_TbWVb3YcT0ERlSStbNGql5SPUkSV5vPOVlxIMF1yvF94hNsmvOFgpmNgjaFf1J1Z-Wr5gCFareqSHcZuefnyq4p8lnCGCFfceSGSewXNyVmrvWphYGGsL1z2KMxG7_7d2rRJF4RItEicAk1BBSZEKc5Ok7Qxr3iM"
-    },
-    {
-      "title": "awamer.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv6CLdIPXiPSv_-H6ylC7RKacHyOU1mKW824mm4mfagnPg3eETrMbxSi3Q8rA3jkVV4GzSTb3J7pLzN9H6qOuWCrnmPB2XOrCHR6vhcKHFsHpBwsOKVgAWPkfptkykm51Bo7Aris8RwrmHejdQeKujz8yDEJkAj-Y_y4ael09ByIbIXLOCk39S2g8sMnLh-fPZGI19qps23kTBe3AEsu51OUJajlUAA_WjoTs="
+      "title": "ardascience.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoh_rv-rMiW1IpspAgi3mgo38RdrFx07gp416Ou0N49fJSIc5H1-CMm2r4naXQ40aWofGxCIWmfSKIwBpCxz-LI3A7cXuENknaJ_ay5S74XSG2B1wIB_8xaR1ZO4Unt_0I9HsTbda9zGc9iA9q03M2rxVBh2BhG2NefA=="
     },
     {
       "title": "zartek.qa",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEomXwBgzzLyI4qVbN30bynIYcuXpxj0q_6Le-pIDErwR4p0FTGc9uLy2L-77e_rwO1s05mCAP5UzqJZabM4Fil19Hate6JjK1oRUCNdlhH2CmRQNlEGp51PQK_hiLufUHGB8Eg5tvVtU3cC01ztDXk_iufjw_Iq2Qf4Qq6Q4G9mMqsTT-4XaMx"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo_2wunAzZ5AAeMwophwHT92JC0ZIv8wsp2VVHx57U90vfVnMc3UnOV8Y4gc71XYr31OgjBwqesAeyprhVqRItBMev6YWV_8J750AkPGati6iHuNoAw0fiZdf-rtkGAIdSrDnQWHN851_XE5DpP2dGoYQFQLMvCy-6oX6EK0gb_0DfaBExIVBB"
     },
     {
-      "title": "docsummarizer.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqjUOKRw2EmBfLaw2lza-671jHywx-KHMys85n7KKg_g5HhXbei42ds4IU_gkTz7_cBAlSR-sizt4glctXi8d2RAHGklTX5jmNA3237L2ZP5xODuSZqN48xNca8FFNsLhuHwZ-QprugWo="
+      "title": "laiwyer.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8-gcsdYUsQx672Kr2hTK5Xq5IyVbJwNBWWblH4vcxsdZP_zADkMFaAT-ldEQm44y601X29lgEzzra42iCuVESq3ROEUqi5dxo3Ks1t_eZwo5w-q5NOiLXNg4gYNlIYqjVNcga4wL6Q4isej6leVBr1-KUSvUF7TE5iQ22oQ=="
     },
     {
-      "title": "adawix.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqdMKVQbxrgNs_0Fa9tNvJpaB-TuBzXaz8FGNxVheA1d2hukvoTeS7dztrMg6nTJutfEmGtpqZThmhVDtqQcAwHYpsP1WUKMIEXObXAIONNhxMi0E5-Jrk0LG-5sA9B3chNNWda5gkDwiPwKo="
+      "title": "researchgate.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa037mU6uAa0DMzSQ-ITGLZvNiBM5AUkYHM7Z9GRjxRVtv8r2GR8EfTUcyBqIrqLMYl8mQEywtU3Gci0ndxXUeupGxOmkL7rlSB6y6SEV0w_QSyVgR4Tzb_DCILfJeBscV7BHJrha0Q08LyTH9aSDFE5dzzQav8_7YssBIxSg6NOAXq9vfgcaHX-0Z_n7rGtAM7RPcIOJJKXILeTsYPYN2Dpse_6iC9VA0lyOFgJYPQE1Fp8ZK-rotjLfHVoBFAqsePpq6xkrHWkOYSldBVks-5izQPu4wIqilIDd4vYG6CNaD_1rAOrI_oI4VhoE5sA=="
+    },
+    {
+      "title": "healthorbit.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3ocEnLjQM9OsE9TuOwp36jEoPteG6h2V2nhEyS5U4qBxstcLiAYRfbLUKhILAYLlD-t9JD960csSOoEAo0P5GdpHTTOLeK7t4ttkvdT0e56nLwTmpCB4GMRvmwaDGUpf7IcJnhcCa_ms7nD_nQ6TpToqr4wVU1eLtZPFfqyWl0wIaUZ8S"
+    },
+    {
+      "title": "qada.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD9NsyR_2iFB6Ezi10sguIQr1bf1cS2KFMPLJdmqtYSjyDUWXUbCv5ygFwvbXhKv4EGuJhlnuGgQK__4h8nL2Dka-FkNnFlLBCtfjJgzM9"
+    },
+    {
+      "title": "technoraft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuGVOq4edan0Dq2LEjGzLeOqHQNWr4iA6WhkSVOvlUYi1jnjz9XmQtMfOd9fm1w5bPkartqDjA3ihJv_Z0k1DD831HxWLLlEIXRbKHZDqIZi1gAlzMe32X9E1_G02eIPqmu7WZKHIX1uFbIr88vCInIxsLi5csdRJXAsBnRhcKnw--YAIrLyqvmliBp_GLC2UBDemgqSiK3tfrBYmEnjIWpVI="
+    },
+    {
+      "title": "hdrhub.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC6nt0sCR10-m0iNeHaoqQC82uRd43cjB6PfJiMyF4ZEp7IiaT4aX38WdF0R2z9HcE-XCAI9E09BNmGMOo1m71YzVSeu2br2EsoPOCQb8Y1qtbjNqesnECgxc1hwSMO_hjN4Ig20Mrk_pcU32F_5FoaQOAxjmzwktsKlIe1kxkxe7ki-fIKt9dfeL7wIcCa_dpGeZiZw=="
+    },
+    {
+      "title": "cynoteck.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGlJ3hL_xBrpdxjURP4MxiEtygwwkpC3Z2I_CiiDXF4YBDlskaiOoxkiGxQvBbLc-RYHaXXMLE-gDcHHTm-APIGKJKFw5HQSXg90mWUKJC76uBiNQkbX_oHU8Bnbltsvt9Iahptpy8l-DmHw6mXFa8XCdqkUD68RlcRfWb3E9CmbzBbzr58bvuvqAsPIH6e8e-FZo9XyJ7UoWkeRk="
+    },
+    {
+      "title": "substack.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJzY0346dxLKYrJG-lHJjtn2Hf9dx7aCIAYBNg5vYoZVQjK16vwA4FkU-NC7ivRR3GPE2lpQ3QxtszIlidvkhvxEhDot0IyJH-zfs0rorx5EG0VF4UCqrQLlgHH7u1PYO0CiYSelq0_vnWtPUCZLCsBQp4w6noUMWXIpGtCCgTn9ItSlM2"
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSc2-bDEdQ8a6UpQH0g66GGF5FYoYfooCWe4QoTET1nMcsvaHvHLzVrCJWOzOGgUZ035XtS0GLoLkVonCjN0ejpw54VZr0O0E2hRD66FuUCGFXbYm8duwkyKXRlHcijefhEEkY-A2LoYQaOhNMMNBEb4rV0v5uoVB4sQPgWe1LFy5EZWDAACgltdWoMBczemIoltREFzNnSmxFXOxPvlCVfc5aV9RdgGiwyh5-iP9cmnPtj-SRrZ_88bVBGq-9zgO5elLbcuE="
+    },
+    {
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe0a20TQF_9B4t57XHsThFKcnSsU-SjCS2bgbbb67UcgELmpTUEgMIyijCWXUH86-GyZmcGkagHQYqzl0FtvSdhvmqDCw2ZitGL57Yq4M0dxaWXZkK5RbOBgdEg6uI2ODJAxnuJ5p_843N-MHP_qbLyLm6OUpPlLsF-tsD5APMjiYHoWLj-agPx90C0cISvlFDFplmnUSczVv5N6V9VbysNeWl9WNjLCWMFuuwsncjQc0xgzHA"
+    },
+    {
+      "title": "viithiisys.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy_jY355zQTGO4eaBkALwcR2wFGuyv-zB0q16YhrttcjD-UhZCsXL-QIcQgIWpeiBJFZMkfUf6RiyaU6N6Co08S4mzYgHxk5EwqjjYV2pzN-0wN7qnElXmCcY6FKDfAxEcJI80yWkpEsbLV9wtVSxtZhLcSkyc4PSsQkZVcJjtTVuy3KtP8K8="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZTDMX7abWWMdXSZFd5o2gfHVTf3BGRHNLQx-nEx0kisxu-a5lK7w0VXrwbJDcQ4_NPPkYLj5V22uUdtoGt1GJjtODhXueXuXsD8RMcYXSHRAhtobaBGD7_7sRXj7zJ9GN5baJaT_-1rhb9TMz89_vr1WrNuHdHBv_vOuhIzSD0kODVfZacy7zrYH5G0Dz4KFSS2jKTLEw"
+    },
+    {
+      "title": "huggingface.co",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxcUHLItMZigk6msQ_SoPGiqxVhDcTi01FqWhAW3Pg2RIOmqPtjv_7vJUsd6QyS3Vab2Hj9sdUqaW6N1QK2KLGqpAnZ7b0UnBzCMJtZ5Whb0MGTecJ3mr8ac2WZvbxW_AZjcSiaxDzRLYnV4nEGeyI7qovg1XJL4ol"
+    },
+    {
+      "title": "github.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzhKnyoLweXmRdtsjkmtuPM_UxMy9n2Nv0xBUpisAjqTWUdujwC9SF8Qq9EJkiDGCkPmlfMZoOy9EAXi0QdWSkgGHRR5kGh_MvrWH6yxsiq75iImBk4j4fsbqK07Ny4iXWaWTlTfw1v2EevF2VXXqKx20="
+    },
+    {
+      "title": "assemblyai.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcFhyZcoV6DXV31rl6QojYJEFJJDe_j1E4hNanCrdSkGS6PzggfcJl9JT42EWEwf1A6hKCnJYnhCWjSuNzvNWf6lWY7xo-UHoDmvOknpznK7GJcgi_yFLtARj8VnR6PWigpkcg23k="
+    },
+    {
+      "title": "arabic.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp2oa1t50ceyi_JEJE7Ndxo3gao9VQ_xLuZBxmweVN0ivPB1yPF-Lw3HuR_S6DbD71ISPeWVwfmPTL_hulTSknGrSvFpjGjkGxGUYk1KPds0Saig5_A_MxcaeR"
     }
   ]
 }
