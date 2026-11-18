@@ -203,7 +203,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 40 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
+IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -230,6 +230,35 @@ let skippedRegion = 0;
 let skippedSkill = 0;
 const RELEVANT = /android|\bios\b|iphone|mobile app|app develop|kotlin|java\b|firebase|play store|google play|apk|webview|website to app|web to app|\bai\b|artificial intelligence|machine learning|chat ?bot|gpt|openai|gemini|llm|ai agent|automation|nfc|bluetooth/i;
 const OFF_TOPIC = /\b(logo|seo|content writ|copywrit|video edit|editor needed|marketing plan|social media|wordpress|shopify|data entry|translation|voice ?over|thumbnail|illustrat|branding|name creation)\b/i;
+
+const MAX_BIDS = 30; // فوق هيك الفرصة زحمة وما بتستاهل عرض
+
+/** عدد العروض الحالي لمشاريع Freelancer (العدد بيكبر بسرعة: ممكن من 0 لـ 100 بساعة) */
+async function freelancerBids(ids) {
+  const map = {};
+  for (let i = 0; i < ids.length; i += 20) {
+    const part = ids.slice(i, i + 20);
+    try {
+      const u = 'https://www.freelancer.com/api/projects/0.1/projects/?' + part.map(id => `projects[]=${id}`).join('&');
+      const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', Accept: 'application/json' } });
+      if (!r.ok) { log('freelancer', `bids refresh: HTTP ${r.status}`); continue; }
+      const d = await r.json();
+      for (const p of d?.result?.projects || []) map[p.id] = { bids: p.bid_stats?.bid_count ?? 0, open: !p.status || p.status === 'active' };
+    } catch (e) { log('freelancer', `bids refresh: ${e.message}`); }
+  }
+  return map;
+}
+
+/** رقم المشروع من رابطه القديم (للفرص اللي انحفظت قبل ما نخزّن الرقم) */
+async function freelancerIdFromUrl(url) {
+  const seo = String(url).split('/projects/')[1];
+  if (!seo) return 0;
+  try {
+    const r = await fetch('https://www.freelancer.com/api/projects/0.1/projects/?seo_urls[]=' + encodeURIComponent(seo.replace(/\/$/, '')), { headers: { Accept: 'application/json' } });
+    const d = r.ok ? await r.json() : null;
+    return d?.result?.projects?.[0]?.id || 0;
+  } catch (e) { return 0; }
+}
 
 async function freelancerFeed() {
   const out = new Map();
@@ -260,7 +289,7 @@ async function freelancerFeed() {
         const age = Date.now() / 1000 - (p.time_submitted || 0);
         if (age > 5 * 86400) continue;                       // آخر 5 أيام بس
         const bids = p.bid_stats?.bid_count ?? 0;
-        if (bids > 80) continue;                              // زحمة كثير
+        if (bids > MAX_BIDS) continue;                        // زحمة: أكثر من 30 عرض
         const cur = p.currency?.code || 'USD';
         const b = p.budget || {};
         const budget = b.minimum ? `${b.minimum}${b.maximum ? '-' + b.maximum : '+'} ${cur}${p.type === 'hourly' ? '/hr' : ''}` : '';
@@ -277,6 +306,9 @@ async function freelancerFeed() {
           budget,
           posted: ago(p.time_submitted || 0),
           proposals: String(bids),
+          flId: p.id,
+          postedAt: p.time_submitted || 0,
+          bidsAt: new Date().toISOString(),
           language: /[؀-ۿ]/.test(p.title + text) ? 'ar' : 'en',
           summary: text.slice(0, 220),
           pageText: `${(p.jobs || []).map(j => j.name).join(', ')} | ${text}`.slice(0, 1000),
@@ -643,7 +675,7 @@ You are Moe's strict job agent. Below are freelance leads found today. Judge eac
 ${RULES}
 
 Leads:
-${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, pageText: l.pageText || '(page blocked, judge from title and summary only)' })))}
+${JSON.stringify(checked.map((l, i) => ({ id: i, ...l, flId: undefined, postedAt: undefined, bidsAt: undefined, pageText: l.pageText || '(page blocked, judge from title and summary only)' })))}
 
 IMPORTANT: "pageText" is the real text of the page. Use it as the truth. If it shows the page is NOT a client hiring a freelancer for a project (for example a course, a training session, a tutorial, an article, a product or SaaS page, a job board or list of vacancies, a company careers page, or a freelancer's own service), REJECT it, whatever its title says. If the page shows the project is closed or expired, REJECT it. Prefer budget, posted date and proposals count from pageText when present.
 
@@ -679,7 +711,9 @@ Respond with ONLY JSON:
         return {
           title: (l.platform === 'LinkedIn' && k.title && !/real job title/i.test(k.title)) ? String(k.title).slice(0, 200) : l.title, url: l.url, platform: l.platform || '', market: l.market,
           country: l.country || '', budget: l.budget || '', posted: l.posted || '',
-          proposals: l.proposals || '', language: l.language === 'ar' ? 'ar' : 'en',
+          proposals: l.proposals || '',
+          ...(l.flId ? { flId: l.flId, postedAt: l.postedAt, bidsAt: l.bidsAt } : {}),
+          language: l.language === 'ar' ? 'ar' : 'en',
           summary: l.summary || '',
           fit: Math.max(0, Math.min(10, num(k.fit))),
           why: { ar: honestWhy(k.why_ar), en: honestWhy(k.why_en) },
@@ -761,6 +795,23 @@ Respond with ONLY JSON:
     }
     older.push({ ...l, proposal: honest(l.proposal || ''), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
   }
+  // Freelancer: منحدّث عدد العروض للفرص القديمة. العدد بيكبر بسرعة، فاللي صار فوق 30 منعلّمه "زحمة"
+  // (التطبيق بيخفيه، إلا إذا Moe قدّم عليه). والمسكّر منشيله.
+  const flOld = older.filter(l => l.platform === 'Freelancer');
+  for (const l of flOld) if (!l.flId) l.flId = await freelancerIdFromUrl(l.url);
+  const live = await freelancerBids(flOld.map(l => l.flId).filter(Boolean));
+  const closed = new Set();
+  for (const l of flOld) {
+    const v = live[l.flId];
+    if (!v) continue;
+    if (!v.open) { closed.add(l); log('freelancer', `closed, removed: ${l.title}`); continue; }
+    l.proposals = String(v.bids);
+    l.bidsAt = new Date().toISOString();
+    l.crowded = v.bids > MAX_BIDS;
+    if (l.crowded) log('freelancer', `crowded now (${v.bids} bids): ${l.title}`);
+  }
+  if (closed.size) older.splice(0, older.length, ...older.filter(l => !closed.has(l)));
+
   // ما في جديد بس في فرص من الجولات اللي قبل: الملخص بيحكي هيك بدل "كل الفرص انرفضت"
   if (!fresh.length && older.length) {
     summary = {
