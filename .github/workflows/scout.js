@@ -143,7 +143,11 @@ Ideas Moe DISLIKED (avoid these directions): ${fb.disliked.join(' | ') || 'none 
   // ---------- Step 1: Scout ----------
   const s1 = await ask(`
 ${ABOUT}
-TODAY is ${today}. Use Google Search to research what is happening RIGHT NOW: trending app categories on Google Play, real user complaints ("I wish there was an app..."), new APIs/AI capabilities, and gaps in the Arabic and Middle East market.
+TODAY is ${today}. Use Google Search to research what is happening RIGHT NOW: trending app categories on Google Play, real user complaints ("I wish there was an app..."), new APIs/AI capabilities, and gaps in big paying markets.
+TARGET MARKETS: Moe lives in Jordan, but the Jordanian market is too small and pays little. Do NOT propose ideas built for Jordan (no Jordan-only banks, laws, documents, services or users).
+- At least 6 of the 8 ideas: GLOBAL apps in English for users in the USA, Europe, Australia and other high-paying countries (subscriptions and ads pay much more there).
+- At most 2 ideas: Arabic apps for the whole Arab world or the Gulf (Saudi Arabia, UAE, Qatar, Kuwait), never for one small country.
+- Prefer problems that exist everywhere, so the same app can sell worldwide.
 ${prefs}
 
 Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "name" (short English app name):
