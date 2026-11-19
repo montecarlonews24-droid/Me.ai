@@ -372,6 +372,43 @@ async function arabFeed() {
   return list;
 }
 
+// ---------- مستقل من موبايل Moe: تطبيق Me.ai بيقرأ المشاريع وبيرفعها لـ /mostaql ----------
+async function mostaqlRelayFeed() {
+  const list = [];
+  try {
+    const st = await fetch(`${FIREBASE}/mostaqlStatus.json`).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (st?.at) log('mostaql', `phone relay last read ${ago(st.at)}: ${st.found} projects on the lists, ${st.sent} sent (${String(st.lists || '').slice(0, 160)})`);
+    else log('mostaql', 'phone relay has not run yet (open the jobs screen in the Me.ai app)');
+    const r = await fetch(`${FIREBASE}/mostaql.json`);
+    if (!r.ok) { log('mostaql', `firebase HTTP ${r.status}`); return list; }
+    const d = (await r.json()) || {};
+    const now = Date.now() / 1000;
+    let crowded = 0;
+    for (const [id, p] of Object.entries(d)) {
+      if (!p?.url || !p?.title) continue;
+      const age = now - (Number(p.created) || now);
+      if (age > 7 * 86400) {
+        fetch(`${FIREBASE}/mostaql/${encodeURIComponent(id)}.json`, { method: 'DELETE' }).catch(() => {});
+        continue;
+      }
+      if (age > 4 * 86400) continue;
+      const offers = Number(p.offers);
+      if (offers > MAX_BIDS) { crowded++; continue; }
+      const text = String(p.text || '');
+      list.push({
+        title: String(p.title), url: p.url,
+        market: 'arab', platform: 'Mostaql', country: '', budget: String(p.budget || ''),
+        posted: ago(Number(p.created) || now), proposals: offers >= 0 ? String(offers) : '',
+        language: 'ar', summary: text.slice(0, 220), pageText: text.slice(0, 1800)
+      });
+    }
+    log('mostaql', `${list.length} projects from the phone relay (last 4 days, ${crowded} skipped: over ${MAX_BIDS} offers)`);
+  } catch (e) {
+    log('mostaql', e.message);
+  }
+  return list;
+}
+
 async function redditFeed() {
   const list = [];
   try {
@@ -624,6 +661,15 @@ function linkedinBlock(p) {
   }).slice(0, 12);
   rd.forEach(l => checked.push(l));
   // مستقل وخمسات: منقرأ صفحة كل مشروع (الوصف والميزانية) قبل الحكم
+  // مستقل من الموبايل أول (عنده الوصف جاهز)، وبعدين القراءة المباشرة (غالباً بتنسكّر على GitHub)
+  const mq = (await mostaqlRelayFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 12);
+  mq.forEach(l => checked.push(l));
+  log('verify', `${mq.length} new Mostaql projects added from the phone`);
   const ar = (await arabFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
