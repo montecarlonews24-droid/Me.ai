@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T02:00:01.188Z",
-  "model": "",
+  "generatedAt": "2026-11-19T06:26:05.109Z",
+  "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 3 open leads from the last 3 days."
@@ -16,7 +16,7 @@
       "country": "",
       "budget": "30-250 USD",
       "posted": "less than an hour ago",
-      "proposals": "222",
+      "proposals": "228",
       "language": "en",
       "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
       "fit": 8,
@@ -32,7 +32,7 @@
       "foundAt": "2026-11-18T17:33:17.409Z",
       "fresh": false,
       "flId": 40824760,
-      "bidsAt": "2026-11-19T02:00:01.187Z",
+      "bidsAt": "2026-11-19T06:26:05.109Z",
       "crowded": true
     },
     {
@@ -88,6 +88,38 @@
   ],
   "rejected": [
     {
+      "title": "AI Automation Sales Manager",
+      "url": "https://www.freelancer.com/projects/lead-generation/Automation-Sales-Manager",
+      "reason": {
+        "ar": "هذه وظيفة مبيعات وتسويق (مدير مبيعات أتمتة الذكاء الاصطناعي)، وليست لتطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي، وهي خارج نطاق ما يقدمه Moe.",
+        "en": "This is a sales and marketing role (AI Automation Sales Manager), not for app development or building AI agents, and is outside Moe's scope of services."
+      }
+    },
+    {
+      "title": "US Google Fi eSIM Activation Assistance -- 2",
+      "url": "https://www.freelancer.com/projects/mobile-app-development/Google-eSIM-Activation-Assistance",
+      "reason": {
+        "ar": "يتطلب هذا المشروع التواجد الفعلي في الولايات المتحدة الأمريكية لأداء مهمة تنشيط شريحة eSIM، وهو ليس مشروع تطوير تطبيقات وMoe غير متواجد في الولايات المتحدة.",
+        "en": "This project requires physical presence in the US to perform an eSIM activation task, which is not an app development project and Moe is not based in the US."
+      }
+    },
+    {
+      "title": "AI Interior Design Software Instructor",
+      "url": "https://www.freelancer.com/projects/rendering/Interior-Design-Software-Instructor",
+      "reason": {
+        "ar": "هذا طلب لمدرب أو معلم لبرامج تصميم داخلي بالذكاء الاصطناعي، وليس لإنشاء تطبيق أو وكيل ذكاء اصطناعي. Moe يبني التطبيقات ولا يقدم تدريباً.",
+        "en": "This is a request for an instructor or trainer for AI interior design software, not for building an app or an AI agent. Moe builds apps, he does not provide training."
+      }
+    },
+    {
+      "title": "Senior AI Developer for Benchmarking",
+      "url": "https://www.freelancer.com/projects/artificial-intelligence/Senior-Developer-for-Benchmarking",
+      "reason": {
+        "ar": "يطلب هذا المشروع مطور ذكاء اصطناعي 'أقدم' مقيم في الولايات المتحدة لتقييم وتحسين أداء نماذج الذكاء الاصطناعي. Moe ليس مطور ذكاء اصطناعي 'أقدم' في هذا السياق، وهو ليس مقيماً في الولايات المتحدة، كما أن نطاق العمل (قياس وتحسين نماذج التعلم الآلي) يتجاوز خبرته في بناء تطبيقات ووكلاء الذكاء الاصطناعي.",
+        "en": "This project requests a 'Senior' US-based AI developer to evaluate and improve AI model performance. Moe is not a 'Senior AI Developer' in this context, is not US-based, and the scope of work (benchmarking and improving machine learning models) is beyond his expertise in building AI-powered apps and AI agents."
+      }
+    },
+    {
       "title": "Pengembangan Game Puzzle Mobile Kasual",
       "url": "https://www.freelancer.com/projects/game-development/Pengembangan-Game-Puzzle-Mobile-Kasual",
       "reason": {
@@ -123,11 +155,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
-        "msg": "510 leads seen before"
+        "msg": "535 leads seen before"
       },
       {
         "step": "verify",
@@ -135,7 +167,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (135 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 80 skipped: not app/AI work)"
+        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -167,27 +199,59 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Webmaster"
+        "msg": "skipped (full-time): iOS Engineer, Identity"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Front end developer - NAS Neuron"
+        "msg": "skipped (full-time): iOS Engineer, Identity"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer, Identity"
+        "msg": "skipped (title): Staff Software Engineer, Mobile (iOS), Search"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): SVC Software Engineer - Android"
+        "msg": "skipped (full-time): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer"
+        "msg": "skipped (title): Senior iOS Engineer, Ambient AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Engineer, Ambient AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Software Engineer, Mobile (iOS), Search"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer - Mobile, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer - Mobile, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Native Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): iOS Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer"
       },
       {
         "step": "linkedin",
@@ -195,79 +259,47 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Mobile Application Developer"
+        "msg": "skipped (full-time): iOS Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Android Developer"
+        "msg": "skipped (full-time): DEVELOPPEUR MOBILE IOS H/F"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer, Android"
+        "msg": "skipped (full-time): Ingénieur iOS – Applications Mobiles (H/F)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Fire TV"
+        "msg": "skipped (full-time): Mobile Application Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer, Social"
+        "msg": "skipped (7+ years required): Mobile Application Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (title): Senior Software Engineer II, Mobile (iOS) - Global Monetization (AI Native)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Software Engineer, Android, Level 4 Bitmoji"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Kotlin/Androidutvecklare"
+        "msg": "skipped (full-time): Android Software Developer, Lyft Urban Solutions"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android-utvecklare till inhouse-projekt!"
+        "msg": "skipped (full-time): Développeur(se) Logiciel Android, Lyft Solutions Urbaines"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): DEVELOPPEUR MOBILE ANDROID H/F"
+        "msg": "skipped (title): Senior iOS Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer (Kotlin/KMP) - EV Charging - London (hybrid) - Up to £85k + Competitive Bonus"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android SDK Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer (Saudi National)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): IT Group Security - Facial Recognition - Senior Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Full Stack Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Kony Developer (Digital Banking)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Head of Mobile Engineering (iOS & Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Recruitable)): Software Engineering Graduate"
+        "msg": "skipped (title): Senior iOS Video Player Engineer - Remote"
       },
       {
         "step": "verify",
@@ -279,11 +311,15 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "4 new Freelancer projects added, 4 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (222 bids): Build Autonomous API-Driven CEO Agent"
+        "msg": "crowded now (228 bids): Build Autonomous API-Driven CEO Agent"
       }
     ]
   }
