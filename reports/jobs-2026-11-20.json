@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-19T23:11:40.554Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+  },
+  "fresh": 0,
+  "leads": [
+    {
+      "title": "بناء بوت واتساب شامل",
+      "url": "https://mostaql.com/project/1293982-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A8%D9%88%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%B4%D8%A7%D9%85%D9%84",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب بناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن، مع ربط API ببوابات الدفع وشركات الشحن ولوحة تحكم بسيطة. Moe يبني وكلاء ذكاء اصطناعي وأتمتة (مثل وكيل Me.ai الخاص به) ويمكنه التعامل مع ربط API وتطوير لوحات تحكم بسيطة باستخدام Firebase.",
+        "en": "The project requests building a comprehensive WhatsApp bot for automating shipping policy issuance, including API integration with payment gateways and shipping companies, and a simple dashboard. Moe builds AI agents and automation bots (like his Me.ai agent) and can handle API integration and simple dashboard development using Firebase."
+      },
+      "watch": {
+        "ar": "يجب على Moe التأكد من تفاصيل متطلبات بوت الواتساب والربط مع APIs المحددة، وأن لوحة التحكم البسيطة تقع ضمن نطاق Firebase.",
+        "en": "Moe should confirm the specific requirements for the WhatsApp bot and integration with the specified APIs, and ensure the simple dashboard falls within Firebase capabilities."
+      },
+      "proposal": "أهلاً بك،\nأرى أنك تبحث عن مطور لبناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن وربطها ببوابات الدفع وشركات الشحن، مع لوحة تحكم بسيطة. يمكنني مساعدتك في هذا المشروع.\nأقوم ببناء تطبيقات الأتمتة ووكلاء الذكاء الاصطناعي، تماماً مثل وكيل البحث اليومي Me.ai الخاص بي الذي يستخدم Gemini وGitHub Actions. يمكنني التعامل مع الربط البرمجي (API) المطلوب لإصدار البوالص ومعالجة الدفع، وبناء لوحة تحكم بسيطة لإدارة الشحنات.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nما هي أنواع شركات الشحن التي تخطط للربط معها في البداية؟",
+      "foundAt": "2026-11-19T18:28:20.975Z",
+      "fresh": false
+    },
+    {
+      "title": "عمل بوت للرد على الايملات",
+      "url": "https://khamsat.com/community/requests/800930-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D9%84%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D9%84%D8%A7%D8%AA",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يطلب عمل بوت للرد على الإيميلات، وهو يتوافق مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة (مثل وكيل Me.ai الخاص به).",
+        "en": "The project requests making a bot to reply to emails, which aligns with Moe's capability to build AI agents and automation bots (like his Me.ai agent)."
+      },
+      "watch": {
+        "ar": "الميزانية غير مذكورة، لذا يجب على Moe الاستفسار عنها. يجب أيضاً تحديد مدى تعقيد الردود المطلوبة من البوت.",
+        "en": "The budget is not specified, so Moe should inquire about it. The complexity of the required bot responses also needs to be clarified."
+      },
+      "proposal": "أهلاً بك،\nلقد اطلعت على طلبك لإنشاء بوت للرد على رسائل البريد الإلكتروني. أقدم خدمات بناء وكلاء الذكاء الاصطناعي وأتمتة المهام، تماماً مثل وكيل البحث اليومي Me.ai الذي أستخدمه شخصياً لجمع المعلومات.\nيمكنني تصميم وبناء هذا البوت ليقوم بالردود المطلوبة، مما يوفر عليك الوقت والجهد في إدارة رسائل البريد الإلكتروني. أستخدم التطوير بمساعدة الذكاء الاصطناعي لضمان كفاءة الحل وسرعة الإنجاز.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nما هي أنواع رسائل البريد الإلكتروني التي يحتاج البوت للرد عليها، وما هي المعلومات الأساسية التي يجب أن يتضمنها الرد؟",
+      "foundAt": "2026-11-19T18:28:20.975Z",
+      "fresh": false
+    },
+    {
+      "title": "Software Developer — AI & Automation",
+      "url": "https://www.linkedin.com/jobs/view/4490957378/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Cairo, Egypt",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Innovative Consulting Partners · Cairo, Egypt",
+      "fit": 9,
+      "why": {
+        "ar": "كما أنه يذكر الحاجة إلى فهم واختبار وتصحيح الأكواد التي يولدها الذكاء الاصطناعي، وهو ما يفعله Moe في عمله.",
+        "en": "This lead is an excellent fit for Moe as it seeks a developer who uses AI coding tools to build applications and automation, which is Moe's core approach to developing Android apps and AI agents. It also mentions the need to understand, test, and troubleshoot AI-generated code, which is integral to Moe's AI-assisted development process."
+      },
+      "watch": {
+        "ar": "بما أن الوظيفة بدوام جزئي على LinkedIn، يجب التأكد من أنها مشروع مستقل وليست علاقة توظيف مستمرة.",
+        "en": "Since this is a part-time role on LinkedIn, Moe should confirm it is a project-based freelance contract and not an ongoing employment relationship."
+      },
+      "proposal": "You're seeking a resourceful developer to create working applications and automated workflows using AI coding tools. This aligns perfectly with my approach: I build native Kotlin Android apps and AI agents with AI-assisted development, where AI tools help write the code, and I manage the entire process from design to publishing. For example, my own daily AI research agent, Me.ai, is a native Android app that uses Gemini and web search for automation.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific applications or automated workflows you have in mind?",
+      "liChecked": true,
+      "fresh": false,
+      "foundAt": "2026-11-17T14:59:33.534Z"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Migración y Sincronización Carbonio Productiva",
+      "url": "https://www.freelancer.com/projects/microsoft-365/Migraci-Sincronizaci-Carbonio-Productiva",
+      "reason": {
+        "ar": "اللغة المستخدمة في وصف المشروع هي الإسبانية، ومحتوى المشروع يتعلق بترحيل الخوادم ومزامنة قواعد البيانات، وهي خدمات لا يقدمها Moe.",
+        "en": "The project description is in Spanish, and the project scope involves server migration and database synchronization, which are services Moe does not provide."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 1,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "645 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (88 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 76 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "10 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "mostaql",
+        "msg": "phone relay has not run yet (open the jobs screen in the Me.ai app)"
+      },
+      {
+        "step": "mostaql",
+        "msg": "firebase HTTP 401"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql projects added from the phone"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
+      },
+      {
+        "step": "linkedin",
+        "msg": "201 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "AI Agent Developer / EMEA: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer (Android) - Service Agreement"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Mobile Technical Lead, RCS For Business"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer, AI Transformation"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer - AI Agents"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Agentic AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Vice President, AI/ML Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Development Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Innovation AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "verify",
+        "msg": "0 of 14 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Reddit posts added"
+      },
+      {
+        "step": "verify",
+        "msg": "1 new Freelancer projects added, 1 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+      },
+      {
+        "step": "freelancer",
+        "msg": "closed, removed: Build Autonomous API-Driven CEO Agent"
+      }
+    ]
+  }
+}
