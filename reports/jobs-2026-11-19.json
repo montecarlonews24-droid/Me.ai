@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T06:26:05.109Z",
+  "generatedAt": "2026-11-19T11:29:41.199Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -16,7 +16,7 @@
       "country": "",
       "budget": "30-250 USD",
       "posted": "less than an hour ago",
-      "proposals": "228",
+      "proposals": "241",
       "language": "en",
       "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
       "fit": 8,
@@ -32,7 +32,7 @@
       "foundAt": "2026-11-18T17:33:17.409Z",
       "fresh": false,
       "flId": 40824760,
-      "bidsAt": "2026-11-19T06:26:05.109Z",
+      "bidsAt": "2026-11-19T11:29:41.199Z",
       "crowded": true
     },
     {
@@ -87,6 +87,126 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Educational Certificate Verification needed in Milan, Italy",
+      "url": "https://www.freelancer.com/projects/photography/Educational-Certificate-Verification-40825712",
+      "reason": {
+        "ar": "يتطلب المشروع حضورًا ماديًا في ميلانو لجمع البيانات والبحث الميداني، وهو خارج نطاق خدمات Moe لتطوير التطبيقات عن بعد.",
+        "en": "The project requires physical presence in Milan for data collection and field research, which is outside Moe's remote app development services."
+      }
+    },
+    {
+      "title": "Pre-Employment Verification Needed in Tallinn, Estonia",
+      "url": "https://www.freelancer.com/projects/photography/Pre-Employment-Verification-Needed-40825618",
+      "reason": {
+        "ar": "يتطلب المشروع حضورًا ماديًا في تالين لجمع البيانات والبحث الميداني، وهو خارج نطاق خدمات Moe لتطوير التطبيقات عن بعد.",
+        "en": "The project requires physical presence in Tallinn for data collection and field research, which is outside Moe's remote app development services."
+      }
+    },
+    {
+      "title": "Mvola Deposit Test in Comoros",
+      "url": "https://www.freelancer.com/projects/mobile-app-development/Mvola-Deposit-Test-Comoros",
+      "reason": {
+        "ar": "يتطلب المشروع حضورًا ماديًا في جزر القمر وبطاقة SIM محلية لاختبار الدفع، وهو خارج نطاق خدمات Moe لتطوير التطبيقات عن بعد.",
+        "en": "The project requires physical presence in the Comoros Islands and a local SIM card for payment testing, which is outside Moe's remote app development services."
+      }
+    },
+    {
+      "title": "Otomasi Gmail Bisnis Penjualan",
+      "url": "https://www.freelancer.com/projects/api-integration/Otomasi-Gmail-Bisnis-Penjualan",
+      "reason": {
+        "ar": "وصف المشروع باللغة الإندونيسية، وMoe يعمل فقط مع المشاريع باللغتين الإنجليزية أو العربية.",
+        "en": "The project description is in Indonesian, and Moe only works with English or Arabic projects."
+      }
+    },
+    {
+      "title": "Mentor Desain Grafis via Ponsel",
+      "url": "https://www.freelancer.com/projects/mobile-app-development/Mentor-Desain-Grafis-via-Ponsel",
+      "reason": {
+        "ar": "وصف المشروع باللغة الإندونيسية، وMoe يعمل فقط مع المشاريع باللغتين الإنجليزية أو العربية. كما أن الدور المطلوب هو إرشاد في التصميم الجرافيكي وليس تطوير تطبيقات.",
+        "en": "The project description is in Indonesian, and Moe only works with English or Arabic projects. Additionally, it's a mentoring role for graphic design, not app development."
+      }
+    },
+    {
+      "title": "GitHub Repository Audit and Demo Portal",
+      "url": "https://www.freelancer.com/projects/github/GitHub-Repository-Audit-Demo-Portal",
+      "reason": {
+        "ar": "يتضمن المشروع تدقيق 65 مستودع GitHub واختبار قواعد بيانات متنوعة وبناء بوابة ويب، وهو خارج نطاق مهارات Moe الأساسية في تطوير التطبيقات ووكلاء الذكاء الاصطناعي. الميزانية منخفضة للغاية بالنسبة للنطاق المطلوب.",
+        "en": "The project involves auditing 65 GitHub repositories, testing diverse codebases, and building a web portal, which is outside Moe's core app development and AI agent skills. The budget is also extremely low for the scope."
+      }
+    },
+    {
+      "title": "Paraguay Payment Flow QA Testing",
+      "url": "https://www.freelancer.com/projects/payment-processing/Paraguay-Payment-Flow-Testing",
+      "reason": {
+        "ar": "يتطلب المشروع حضورًا ماديًا في باراغواي لإجراء اختبار محدد لجودة تدفق الدفع، وهو خارج نطاق خدمات Moe لتطوير التطبيقات عن بعد.",
+        "en": "The project requires physical presence in Paraguay for specific payment flow QA testing, which is outside Moe's remote app development services."
+      }
+    },
+    {
+      "title": "Secure Nude Video Call Setup",
+      "url": "https://www.freelancer.com/projects/video-conferencing/Secure-Nude-Video-Call-Setup",
+      "reason": {
+        "ar": "يتضمن المشروع بشكل أساسي البحث والتوصية بتطبيقات طرف ثالث موجودة لإجراء مكالمات فيديو آمنة وتقديم تعليمات الإعداد، بدلاً من تطوير تطبيق جديد. هذا أقرب إلى دور استشاري أو دعم فني، وهو خارج نطاق خدمات Moe لتطوير التطبيقات. كما أن طبيعة المحتوى حساسة.",
+        "en": "The project primarily involves researching and recommending existing third-party apps for secure video calls and providing setup instructions, rather than developing a new app. This is more of a consultation/IT support role, which is outside Moe's app development services. The sensitive nature of the content is also a factor."
+      }
+    },
+    {
+      "title": "Offline Arrow Puzzle Game Development",
+      "url": "https://www.freelancer.com/projects/c-sharp-programming/Offline-Arrow-Puzzle-Game-Development",
+      "reason": {
+        "ar": "يتطلب المشروع صراحةً برمجة C# لتطوير الألعاب، وهي تقنية لا يستخدمها Moe (فهو يبني تطبيقات Android الأصلية باستخدام Kotlin).",
+        "en": "The project explicitly requires C# programming for game development, which is a technology Moe does not use (he builds native Kotlin Android apps)."
+      }
+    },
+    {
+      "title": "Acquire Completed GitHub Codebases",
+      "url": "https://www.freelancer.com/projects/git/Acquire-Completed-GitHub-Codebases",
+      "reason": {
+        "ar": "هذا طلب لشراء قواعد بيانات GitHub موجودة، وليس مشروعًا لتطوير تطبيق جديد أو وكيل ذكاء اصطناعي. Moe مطور تطبيقات وليس بائعًا لقواعد بيانات جاهزة.",
+        "en": "This is a request to purchase existing GitHub codebases, not a project to develop a new app or AI agent. Moe is an app maker, not a seller of pre-built codebases."
+      }
+    },
+    {
+      "title": "Mobile Developer (iOS / Android)",
+      "url": "https://www.linkedin.com/jobs/view/4492061394/",
+      "reason": {
+        "ar": "هذا تنبيه وظيفي على LinkedIn لمنصب 'Mobile Developer'، والذي يشير عادةً إلى دور وظيفي بدوام كامل وليس عقد عمل حر لمشروع محدد.",
+        "en": "This is a LinkedIn job alert for a 'Mobile Developer' position, which typically indicates a full-time employment role, not a freelance contract for a defined project."
+      }
+    },
+    {
+      "title": "Product Engineer (Full Stack)",
+      "url": "https://www.linkedin.com/jobs/view/4491375342/",
+      "reason": {
+        "ar": "هذا منصب 'Product Engineer (Full Stack)' بدوام كامل منشور من قبل وكالة توظيف، وهو خارج نطاق عمل Moe المستقل.",
+        "en": "This is a full-time 'Product Engineer (Full Stack)' position posted by a recruitment agency, which is outside Moe's freelance scope."
+      }
+    },
+    {
+      "title": "Full Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4492295301/",
+      "reason": {
+        "ar": "هذا منصب 'Full Stack Engineer' بدوام كامل منشور من قبل وكالة توظيف، وهو خارج نطاق عمل Moe المستقل.",
+        "en": "This is a full-time 'Full Stack Engineer' position posted by a recruitment agency, which is outside Moe's freelance scope."
+      }
+    },
+    {
+      "title": "Software Engineer, Frontend and Mobile",
+      "url": "https://www.linkedin.com/jobs/view/4345929585/",
+      "reason": {
+        "ar": "هذا منصب 'Software Engineer' بدوام كامل، وهو خارج نطاق عمل Moe المستقل.",
+        "en": "This is a full-time 'Software Engineer' position, which is outside Moe's freelance scope."
+      }
+    },
+    {
+      "title": "Mobile Application Developer",
+      "url": "https://www.linkedin.com/jobs/view/4491888856/",
+      "reason": {
+        "ar": "يتطلب المشروع خبرة محددة في SAP MDK وSAP BTP Mobile Services وتطوير Fiori، وهي تقنيات لا يستخدمها Moe.",
+        "en": "The project requires specific expertise in SAP MDK, SAP BTP Mobile Services, and Fiori development, which are technologies Moe does not use."
+      }
+    },
     {
       "title": "AI Automation Sales Manager",
       "url": "https://www.freelancer.com/projects/lead-generation/Automation-Sales-Manager",
@@ -155,11 +275,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 4,
+    "verified": 15,
     "steps": [
       {
         "step": "memory",
-        "msg": "535 leads seen before"
+        "msg": "564 leads seen before"
       },
       {
         "step": "verify",
@@ -167,7 +287,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
+        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (124 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -195,63 +315,19 @@
       },
       {
         "step": "linkedin",
-        "msg": "147 jobs from Gmail alerts (last 5 days)"
+        "msg": "183 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "Mobile App Developer / Australia: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer, Identity"
+        "msg": "post 4492061394: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer, Identity"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer, Mobile (iOS), Search"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer, Ambient AI"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer, Ambient AI"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer, Mobile (iOS), Search"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - Mobile, iOS"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - Mobile, iOS"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Native Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Developer"
+        "msg": "skipped (recruitment agency (Randstad Deutschland)): REMOTE: iOS Developer (m/w/d)"
       },
       {
         "step": "linkedin",
@@ -259,51 +335,91 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Developer"
+        "msg": "skipped (full-time): Développeur Mobile"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): DEVELOPPEUR MOBILE IOS H/F"
+        "msg": "skipped (full-time): Flutter Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Ingénieur iOS – Applications Mobiles (H/F)"
+        "msg": "skipped (full-time): App Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Application Developer"
+        "msg": "skipped (title): Senior Mobile Developer (Android/iOS) REQ_119"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (7+ years required): Mobile Application Developer"
+        "msg": "skipped (title): Senior Mobile Developer (Android/iOS) REQ_119"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer II, Mobile (iOS) - Global Monetization (AI Native)"
+        "msg": "skipped (5+ years required): React Native with AI & Retails Domain"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Android, Level 4 Bitmoji"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Software Developer, Lyft Urban Solutions"
+        "msg": "skipped (recruitment agency (Talent)): Software Engineer // Financial Services"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Développeur(se) Logiciel Android, Lyft Solutions Urbaines"
+        "msg": "skipped (full-time): Java Fullstack Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer"
+        "msg": "skipped (full-time): Full Stack Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Video Player Engineer - Remote"
+        "msg": "skipped (recruitment agency (Cipher Recruitment)): Backend Software Engineer (Product/Java/Spring Boot/Kotlin)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Expression of Interest - UX/UI Digital Designers & Developers"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4491375342: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4492295301: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4345929585: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Concepteur(trice) logiciel - Flutter/Dart"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Premier développeur ou première développeuse Android - Équipe OTT (Services français) (télétravail/hybride)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Mobile (Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer - Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 25 new LinkedIn jobs added"
+        "msg": "5 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -311,15 +427,15 @@
       },
       {
         "step": "verify",
-        "msg": "4 new Freelancer projects added, 4 to judge"
+        "msg": "10 new Freelancer projects added, 15 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 15 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (228 bids): Build Autonomous API-Driven CEO Agent"
+        "msg": "crowded now (241 bids): Build Autonomous API-Driven CEO Agent"
       }
     ]
   }
