@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-18T22:27:06.344Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-19T02:00:01.188Z",
+  "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 3 open leads from the last 3 days."
@@ -16,7 +16,7 @@
       "country": "",
       "budget": "30-250 USD",
       "posted": "less than an hour ago",
-      "proposals": "216",
+      "proposals": "222",
       "language": "en",
       "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
       "fit": 8,
@@ -32,7 +32,7 @@
       "foundAt": "2026-11-18T17:33:17.409Z",
       "fresh": false,
       "flId": 40824760,
-      "bidsAt": "2026-11-18T22:27:06.344Z",
+      "bidsAt": "2026-11-19T02:00:01.187Z",
       "crowded": true
     },
     {
@@ -123,11 +123,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 4,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "482 leads seen before"
+        "msg": "510 leads seen before"
       },
       {
         "step": "verify",
@@ -135,7 +135,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (147 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 91 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (135 skipped: India/Pakistan/Bangladesh, 0 skipped: budget under 100 USD, 80 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -167,111 +167,111 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Mobile Platform Engineer"
+        "msg": "skipped (full-time): Webmaster"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (5+ years required): IOS development – Remote"
+        "msg": "skipped (full-time): Front end developer - NAS Neuron"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): iOS Technical | SME - Remote"
+        "msg": "skipped (full-time): Android Engineer, Identity"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Mobile Applications Developer"
+        "msg": "skipped (full-time): SVC Software Engineer - Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full-stack Engineer"
+        "msg": "skipped (full-time): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Agentic AI Software Engineer"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Software Engineer – (Generative AI / Agentic AI) AVP Level - Up to £70k + Bonus + Package"
+        "msg": "skipped (full-time): Android Mobile Application Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Product Engineer (AI Team)"
+        "msg": "skipped (title): Sr Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Junior AI Application Engineer – Cloud ERP Core Finance team"
+        "msg": "skipped (title): Staff Software Engineer, Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Microsoft AI Engineer"
+        "msg": "skipped (full-time): Software Engineer, Fire TV"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - AI-First Development (Junior / Mid)"
+        "msg": "skipped (full-time): Android Engineer, Social"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Developer (Microsoft) - Tieto Tech Consulting (m/f/d)"
+        "msg": "skipped (title): Senior Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Application Engineer confirmé(e)"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Developer, Commercial Aircraft Group"
+        "msg": "skipped (title): Senior Kotlin/Androidutvecklare"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
+        "msg": "skipped (title): Senior Android-utvecklare till inhouse-projekt!"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): SDE III, WW Speed & AI Tech, Same Day Delivery - LLM & Agentic workflows"
+        "msg": "skipped (full-time): DEVELOPPEUR MOBILE ANDROID H/F"
       },
       {
         "step": "linkedin",
-        "msg": "post 4491760314: HTTP 429"
+        "msg": "skipped (title): Senior Android Engineer (Kotlin/KMP) - EV Charging - London (hybrid) - Up to £85k + Competitive Bonus"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Associate Engineer- AI and Agentics"
+        "msg": "skipped (title): Senior Android SDK Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Applied Emerging Talent (2027)"
+        "msg": "skipped (title): Senior Android Engineer (Saudi National)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
+        "msg": "skipped (title): IT Group Security - Facial Recognition - Senior Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer II - Full-stack Developer with Anthropic Experience"
+        "msg": "skipped (full-time): Full Stack Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Applied AI Engineer, Software Engineering – Associate"
+        "msg": "skipped (full-time): Kony Developer (Digital Banking)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer II - Full-stack Developer with Anthropic Experience"
+        "msg": "skipped (title): Senior Mobile Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): 【案件フルオーダー可】スマートフォンアプリ開発◆希望の案件に携われる／待機中も給与全額支給◎"
+        "msg": "skipped (title): Head of Mobile Engineering (iOS & Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Junior Web Developer – AI Coder"
+        "msg": "skipped (recruitment agency (Recruitable)): Software Engineering Graduate"
       },
       {
         "step": "verify",
-        "msg": "1 of 25 new LinkedIn jobs added"
+        "msg": "0 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -279,15 +279,11 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 4 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (216 bids): Build Autonomous API-Driven CEO Agent"
+        "msg": "crowded now (222 bids): Build Autonomous API-Driven CEO Agent"
       }
     ]
   }
