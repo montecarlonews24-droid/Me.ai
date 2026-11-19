@@ -1,40 +1,13 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T11:29:41.199Z",
+  "generatedAt": "2026-11-19T13:47:17.544Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 2 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 2 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
-    {
-      "title": "Build Autonomous API-Driven CEO Agent",
-      "url": "https://www.freelancer.com/projects/api-developmet/Build-Autonomous-API-Driven-CEO",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "30-250 USD",
-      "posted": "less than an hour ago",
-      "proposals": "241",
-      "language": "en",
-      "summary": "I want to delegate routine orchestration work to an AI “CEO” agent that can create, supervise, and report on the activities of other specialized agents without my constant involvement. Initial integration focus • Connect",
-      "fit": 8,
-      "why": {
-        "ar": "Moe يبني وكلاء ذكاء اصطناعي مثل Me.ai (باستخدام Gemini و GitHub Actions) لأتمتة المهام والبحث. هذا المشروع يتضمن بناء وكيل ذكاء اصطناعي للأتمتة وتكامل API، مما يتوافق مع قدراته في الذكاء الاصطناعي والأتمتة.",
-        "en": "Moe builds AI agents like Me.ai (using Gemini and GitHub Actions) for automation and research. This project involves building an AI agent for automation and API integration, which aligns with his capabilities in AI and automation."
-      },
-      "watch": {
-        "ar": "الميزانية في الحد الأدنى للنطاق الموصوف. يجب التأكد من أن تكامل API يمكن إدارته ضمن نهجه الحالي (مثل عبر GitHub Actions أو تنسيق مماثل، دون الحاجة إلى تطوير خلفية كاملة بلغات مثل Python/Java/PHP).",
-        "en": "The budget is at the lower end for the described scope. Ensure the API integration can be managed within his existing approach (e.g., via GitHub Actions or similar orchestration, not requiring full-stack backend development in Python/Java/PHP)."
-      },
-      "proposal": "I can help you build an autonomous AI agent to orchestrate tasks and integrate with APIs, similar to your vision for a \"CEO\" agent. I build AI agents with AI-assisted development, like my own daily AI research agent, Me.ai, which uses Gemini and web search on GitHub Actions for automation without a server. This approach allows for efficient API integration and rule-based decision making. I can design and implement the agent to connect with n8n and other services, focusing on automation and reporting.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific APIs you intend to integrate initially, beyond n8n, and any existing automation workflows you have?",
-      "foundAt": "2026-11-18T17:33:17.409Z",
-      "fresh": false,
-      "flId": 40824760,
-      "bidsAt": "2026-11-19T11:29:41.199Z",
-      "crowded": true
-    },
     {
       "title": "Software Developer — AI & Automation",
       "url": "https://www.linkedin.com/jobs/view/4490957378/",
@@ -87,6 +60,22 @@
     }
   ],
   "rejected": [
+    {
+      "title": "THIS IS ONLY FOR BUSINESS OWNERS – ALL TYPES OF BUSINNESES   Lead Management System and CRM (Ready to use), Fully Customizable to Your Business",
+      "url": "https://www.freelancer.com/projects/crm/THIS-ONLY-FOR-BUSINESS-OWNERS",
+      "reason": {
+        "ar": "هذا ليس طلباً حقيقياً من عميل يبحث عن مستقل لمشروع. يبدو أن المنشور هو إعلان من مستقل آخر يبيع نظام CRM جاهزاً، وليس طلباً لتوظيف Moe.",
+        "en": "This is not a real request from a client hiring for a project. The post appears to be an advertisement from another freelancer selling a ready-to-use CRM system, not a request to hire Moe."
+      }
+    },
+    {
+      "title": "Boost Android Game Ad Revenue",
+      "url": "https://www.freelancer.com/projects/analytics/Boost-Android-Game-Revenue",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة في Unity 3D، وهو مجال لا يعمل فيه Moe. كما أن الميزانية منخفضة جداً (10-30 دولاراً) مقارنة بالجهد المطلوب.",
+        "en": "The project requires expertise in Unity 3D, which is outside Moe's capabilities. Additionally, the budget is very low (10-30 USD) for the scope of work."
+      }
+    },
     {
       "title": "Educational Certificate Verification needed in Milan, Italy",
       "url": "https://www.freelancer.com/projects/photography/Educational-Certificate-Verification-40825712",
@@ -275,11 +264,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 15,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
-        "msg": "564 leads seen before"
+        "msg": "599 leads seen before"
       },
       {
         "step": "verify",
@@ -287,7 +276,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (124 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
+        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (128 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 64 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -315,111 +304,19 @@
       },
       {
         "step": "linkedin",
-        "msg": "183 jobs from Gmail alerts (last 5 days)"
+        "msg": "184 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / Australia: busy (429), stopping search this run"
+        "msg": "AI App Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "post 4492061394: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Randstad Deutschland)): REMOTE: iOS Developer (m/w/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Développeur Mobile"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Flutter Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): App Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer (Android/iOS) REQ_119"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer (Android/iOS) REQ_119"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): React Native with AI & Retails Domain"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Talent)): Software Engineer // Financial Services"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Java Fullstack Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Full Stack Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Cipher Recruitment)): Backend Software Engineer (Product/Java/Spring Boot/Kotlin)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Expression of Interest - UX/UI Digital Designers & Developers"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4491375342: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4492295301: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4345929585: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Concepteur(trice) logiciel - Flutter/Dart"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Premier développeur ou première développeuse Android - Équipe OTT (Services français) (télétravail/hybride)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - Android"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Developer"
+        "msg": "skipped (full-time): 【AI camera cloud platform/IPO/ Remote/ Japanese N2】Mobile Engineer"
       },
       {
         "step": "verify",
-        "msg": "5 of 25 new LinkedIn jobs added"
+        "msg": "0 of 1 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -427,15 +324,15 @@
       },
       {
         "step": "verify",
-        "msg": "10 new Freelancer projects added, 15 to judge"
+        "msg": "2 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 15 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (241 bids): Build Autonomous API-Driven CEO Agent"
+        "msg": "closed, removed: Build Autonomous API-Driven CEO Agent"
       }
     ]
   }
