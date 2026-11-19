@@ -2,7 +2,8 @@ name: Me.ai Daily Idea Scout
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 4 * * *'    # 7 الصبح (عمّان)
+    - cron: '0 18 * * *'   # 9 المسا (عمّان)
   workflow_dispatch:
 
 permissions:
