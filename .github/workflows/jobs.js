@@ -225,6 +225,7 @@ const MIN_ANY_USD = 100; // كل دول العالم: بس إذا أعلى ال�
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
 const BLOCK_COUNTRIES = ['India', 'Pakistan', 'Bangladesh'];
 const BLOCK_CURRENCIES = ['INR', 'PKR', 'BDT'];
+const BLOCK_MIN_USD = 250; // من الهند/باكستان/بنغلادش منقبل بس المشاريع اللي ميزانيتها 250 دولار وفوق
 let skippedBlocked = 0;
 let skippedRegion = 0;
 let skippedSkill = 0;
@@ -282,7 +283,9 @@ async function freelancerFeed() {
         const usdMax = (Number(p.budget?.maximum) || Number(p.budget?.minimum) || 0) * rate;
         const richBudget = p.type === 'hourly' ? usdMax >= 10 : usdMax >= MIN_ANY_USD;
         // الهند وباكستان وبنغلادش: ميزانيات صغيرة ومنافسة عالية، منشيلهم دايماً
-        if (BLOCK_COUNTRIES.includes(country) || BLOCK_CURRENCIES.includes(curCode)) { skippedBlocked++; continue; }
+        // إلا إذا الميزانية كبيرة (250 دولار وفوق، أو 15 دولار بالساعة): ساعتها بتستاهل
+        const bigBudget = p.type === 'hourly' ? usdMax >= 15 : usdMax >= BLOCK_MIN_USD;
+        if ((BLOCK_COUNTRIES.includes(country) || BLOCK_CURRENCIES.includes(curCode)) && !bigBudget) { skippedBlocked++; continue; }
         const okPlace = country ? !!region : (curCode in CUR_REGION);
         if (!okPlace && !richBudget) { skippedRegion++; continue; }   // INR, IDR, PKR بميزانيات صغيرة
         const guessedRegion = region || CUR_REGION[curCode] || '';
@@ -321,7 +324,7 @@ async function freelancerFeed() {
     }
   }
   const list = [...out.values()].sort((a, b) => (a._bids - b._bids) || (b._t - a._t));
-  log('freelancer', `${list.length} open projects from the last 5 days worldwide with budget 100+ USD (${skippedBlocked} skipped: India/Pakistan/Bangladesh, ${skippedRegion} skipped: budget under 100 USD, ${skippedSkill} skipped: not app/AI work)`);
+  log('freelancer', `${list.length} open projects from the last 5 days worldwide with budget 100+ USD (${skippedBlocked} skipped: India/Pakistan/Bangladesh under 250 USD, ${skippedRegion} skipped: budget under 100 USD, ${skippedSkill} skipped: not app/AI work)`);
   return list;
 }
 
@@ -776,7 +779,8 @@ Respond with ONLY JSON:
     const l = { ...l0, foundAt: l0.foundAt || now };
     if (Date.now() - new Date(l.foundAt).getTime() > KEEP_DAYS * 86400000) continue; // قديمة كثير
     // فرص قديمة من قبل فلتر الهند/باكستان/بنغلادش: منشيلها كمان
-    if (BLOCK_CURRENCIES.some(c => new RegExp(`\\b${c}\\b`).test(l.budget || '')) || BLOCK_COUNTRIES.includes(l.country)) continue;
+    // (الفرص الجديدة اللي فيها flId عدّت فلتر الـ 250 دولار وقت البحث، فما منشيلها)
+    if (!l.flId && BLOCK_CURRENCIES.some(c => new RegExp(`\\b${c}\\b`).test(l.budget || '')) || (!l.flId && BLOCK_COUNTRIES.includes(l.country))) continue;
 
     // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
     // مكاتب التوظيف ومواقع الوظائف: منشيلها دايماً من اسم الشركة، حتى لو انفحصت قبل
