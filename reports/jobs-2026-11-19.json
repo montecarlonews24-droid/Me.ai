@@ -1,13 +1,61 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T13:47:17.544Z",
+  "generatedAt": "2026-11-19T18:28:21.252Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 2 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 2 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص لأنها وظائف بدوام كامل، أو تتطلب تقنيات لا يستخدمها Moe، أو طلبات اختبار/استشارة وليست تطوير تطبيقات. تم قبول 3 فرص لبناء تطبيقات أتمتة وبوتات ذكاء اصطناعي، ومشروع صقل لعبة جوال.",
+    "en": "Most leads were rejected as they were full-time jobs, required technologies Moe doesn't use, or were testing/consultation requests rather than app development. 3 opportunities were kept for building automation/AI agent apps and a mobile game refinement project."
   },
-  "fresh": 0,
+  "fresh": 2,
   "leads": [
+    {
+      "title": "بناء بوت واتساب شامل",
+      "url": "https://mostaql.com/project/1293982-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A8%D9%88%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%B4%D8%A7%D9%85%D9%84",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب بناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن، مع ربط API ببوابات الدفع وشركات الشحن ولوحة تحكم بسيطة. Moe يبني وكلاء ذكاء اصطناعي وأتمتة (مثل وكيل Me.ai الخاص به) ويمكنه التعامل مع ربط API وتطوير لوحات تحكم بسيطة باستخدام Firebase.",
+        "en": "The project requests building a comprehensive WhatsApp bot for automating shipping policy issuance, including API integration with payment gateways and shipping companies, and a simple dashboard. Moe builds AI agents and automation bots (like his Me.ai agent) and can handle API integration and simple dashboard development using Firebase."
+      },
+      "watch": {
+        "ar": "يجب على Moe التأكد من تفاصيل متطلبات بوت الواتساب والربط مع APIs المحددة، وأن لوحة التحكم البسيطة تقع ضمن نطاق Firebase.",
+        "en": "Moe should confirm the specific requirements for the WhatsApp bot and integration with the specified APIs, and ensure the simple dashboard falls within Firebase capabilities."
+      },
+      "proposal": "أهلاً بك،\nأرى أنك تبحث عن مطور لبناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن وربطها ببوابات الدفع وشركات الشحن، مع لوحة تحكم بسيطة. يمكنني مساعدتك في هذا المشروع.\nأقوم ببناء تطبيقات الأتمتة ووكلاء الذكاء الاصطناعي، تماماً مثل وكيل البحث اليومي Me.ai الخاص بي الذي يستخدم Gemini وGitHub Actions. يمكنني التعامل مع الربط البرمجي (API) المطلوب لإصدار البوالص ومعالجة الدفع، وبناء لوحة تحكم بسيطة لإدارة الشحنات.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nما هي أنواع شركات الشحن التي تخطط للربط معها في البداية؟",
+      "foundAt": "2026-11-19T18:28:20.975Z",
+      "fresh": true
+    },
+    {
+      "title": "عمل بوت للرد على الايملات",
+      "url": "https://khamsat.com/community/requests/800930-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D9%84%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D9%84%D8%A7%D8%AA",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يطلب عمل بوت للرد على الإيميلات، وهو يتوافق مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة (مثل وكيل Me.ai الخاص به).",
+        "en": "The project requests making a bot to reply to emails, which aligns with Moe's capability to build AI agents and automation bots (like his Me.ai agent)."
+      },
+      "watch": {
+        "ar": "الميزانية غير مذكورة، لذا يجب على Moe الاستفسار عنها. يجب أيضاً تحديد مدى تعقيد الردود المطلوبة من البوت.",
+        "en": "The budget is not specified, so Moe should inquire about it. The complexity of the required bot responses also needs to be clarified."
+      },
+      "proposal": "أهلاً بك،\nلقد اطلعت على طلبك لإنشاء بوت للرد على رسائل البريد الإلكتروني. أقدم خدمات بناء وكلاء الذكاء الاصطناعي وأتمتة المهام، تماماً مثل وكيل البحث اليومي Me.ai الذي أستخدمه شخصياً لجمع المعلومات.\nيمكنني تصميم وبناء هذا البوت ليقوم بالردود المطلوبة، مما يوفر عليك الوقت والجهد في إدارة رسائل البريد الإلكتروني. أستخدم التطوير بمساعدة الذكاء الاصطناعي لضمان كفاءة الحل وسرعة الإنجاز.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nما هي أنواع رسائل البريد الإلكتروني التي يحتاج البوت للرد عليها، وما هي المعلومات الأساسية التي يجب أن يتضمنها الرد؟",
+      "foundAt": "2026-11-19T18:28:20.975Z",
+      "fresh": true
+    },
     {
       "title": "Software Developer — AI & Automation",
       "url": "https://www.linkedin.com/jobs/view/4490957378/",
@@ -60,6 +108,150 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Paid AI Platform Registration – 30-Minute Remote Session",
+      "url": "https://www.freelancer.com/projects/user-experience-research/Paid-Platform-Registration-Minute-Remote",
+      "reason": {
+        "ar": "هذا ليس طلباً لتطوير تطبيق، بل هو طلب للمشاركة في جلسة اختبار تجربة المستخدم (Usability Testing) كفرد، وهو خارج نطاق خدمات Moe كمطور.",
+        "en": "This is not an app development request; it's a request to participate in a user experience testing session as an individual, which is outside Moe's scope as a developer."
+      }
+    },
+    {
+      "title": "Surplus Funds Operations Manager",
+      "url": "https://www.freelancer.com/projects/crm/Surplus-Funds-Operations-Manager",
+      "reason": {
+        "ar": "هذا إعلان توظيف لوظيفة بدوام كامل (FULL-TIME REMOTE) بصفة مدير عمليات ووكيل اكتساب، وليس مشروعاً حراً لتطوير تطبيقات.",
+        "en": "This is a job advertisement for a full-time remote position as an Operations Manager and Acquisition Agent, not a freelance app development project."
+      }
+    },
+    {
+      "title": "KYC App Testers Needed Worldwide – We Pay Per Test",
+      "url": "https://www.freelancer.com/projects/mobile-app-testing/KYC-App-Testers-Needed-Worldwide",
+      "reason": {
+        "ar": "هذا ليس طلباً لتطوير تطبيق، بل هو طلب لمختبرين تطبيقات مدفوعين (paid testers) لتطبيق KYC، وهو خارج نطاق خدمات Moe كمطور.",
+        "en": "This is not an app development request; it's a request for paid app testers for a KYC app, which is outside Moe's scope as a developer."
+      }
+    },
+    {
+      "title": "Buy Your Old Unity Repo (not help me buy one, I want your old repo) ONLY BID IF YOU HAVE A REPO TO SELL",
+      "url": "https://www.freelancer.com/projects/unity/Buy-Your-Old-Unity-Repo",
+      "reason": {
+        "ar": "العميل يريد شراء مستودع (repo) Unity موجود، وMoe لا يعمل بتقنية Unity ولا يبيع مستودعات أكواد جاهزة.",
+        "en": "The client wants to buy an existing Unity repository, and Moe does not work with Unity technology nor does he sell pre-existing code repositories."
+      }
+    },
+    {
+      "title": "Ongoing Phone-Based Personal Assistant",
+      "url": "https://www.freelancer.com/projects/administrative-support/Ongoing-Phone-Based-Personal-Assistant",
+      "reason": {
+        "ar": "هذا طلب لمساعد شخصي إداري (Personal Assistant) يعتمد على التواصل الهاتفي، وليس مشروعاً لتطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
+        "en": "This is a request for an ongoing phone-based Personal Assistant, not an app development or AI agent project."
+      }
+    },
+    {
+      "title": "Find Mobile Survey Income Opportunities",
+      "url": "https://www.freelancer.com/projects/mobile-app-development/Find-Mobile-Survey-Income-Opportunities",
+      "reason": {
+        "ar": "هذا ليس طلباً لتطوير تطبيق، بل هو طلب للبحث عن فرص دخل من تطبيقات الاستبيانات وتقديم خارطة طريق، وهو خارج نطاق خدمات Moe كمطور.",
+        "en": "This is not an app development request; it's a request to find mobile survey income opportunities and provide a roadmap, which is outside Moe's scope as a developer."
+      }
+    },
+    {
+      "title": "AI Training Operations Virtual Assistant",
+      "url": "https://www.freelancer.com/projects/data-annotation/Training-Operations-Virtual-Assistant",
+      "reason": {
+        "ar": "هذا طلب لمساعد افتراضي (Virtual Assistant) لإدارة عمليات تدريب الذكاء الاصطناعي وإدخال البيانات، وليس مشروعاً لتطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
+        "en": "This is a request for a Virtual Assistant to manage AI training operations and data annotation, not an app development or AI agent project."
+      }
+    },
+    {
+      "title": "Purchase Your Legacy Unity Repo",
+      "url": "https://www.freelancer.com/projects/unity/Purchase-Your-Legacy-Unity-Repo",
+      "reason": {
+        "ar": "العميل يريد شراء مستودع (repo) Unity موجود، وMoe لا يعمل بتقنية Unity ولا يبيع مستودعات أكواد جاهزة.",
+        "en": "The client wants to buy an existing Unity repository, and Moe does not work with Unity technology nor does he sell pre-existing code repositories."
+      }
+    },
+    {
+      "title": "تأسيس وتخصيص وربط كافة تطبيقات وأنظمة Zoho One حسب طلب العملاء",
+      "url": "https://mostaql.com/project/1294128-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-%D9%88%D8%B1%D8%A8%D8%B7-%D9%83%D8%A7%D9%81%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D9%88%D8%A3%D9%86%D8%B8%D9%85%D8%A9-zoho-one-%D8%AD%D8%B3%D8%A8-%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة متخصصة في منظومة Zoho One الكاملة (Zoho Books, CRM, Inventory, Creator, إلخ) وربطها بأنظمة خارجية مثل WordPress، وهي تقنيات لا يستخدمها Moe.",
+        "en": "The project requires specialized expertise in the entire Zoho One ecosystem (Zoho Books, CRM, Inventory, Creator, etc.) and integration with external systems like WordPress, which are technologies Moe does not use."
+      }
+    },
+    {
+      "title": "تأسيس وتخصيص وربط كافة وحدات وتطبيقات Odoo ERP حسب طلب العملاء",
+      "url": "https://mostaql.com/project/1294124-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-%D9%88%D8%B1%D8%A8%D8%B7-%D9%83%D8%A7%D9%81%D8%A9-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D9%88%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-odoo-erp-%D8%AD%D8%B3%D8%A8-%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة متخصصة في نظام Odoo ERP ووحداته المختلفة (المحاسبة، المخزون، المبيعات، إلخ) والبرمجة بلغة Python وربطها بأنظمة خارجية مثل WordPress، وهي تقنيات لا يستخدمها Moe.",
+        "en": "The project requires specialized expertise in the Odoo ERP system and its various modules (accounting, inventory, sales, etc.), programming in Python, and integration with external systems like WordPress, which are technologies Moe does not use."
+      }
+    },
+    {
+      "title": "مبرمج يمثلنا تقنياً في اجتماع ما قبل إطلاق تطبيق مع إحدى المنصات المعروفة في المملكة",
+      "url": "https://mostaql.com/project/1294092-%D9%85%D8%A8%D8%B1%D9%85%D8%AC-%D9%8A%D9%85%D8%AB%D9%84%D9%86%D8%A7-%D8%AA%D9%82%D9%86%D9%8A%D8%A7-%D9%81%D9%8A-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%85%D8%A7-%D9%82%D8%A8%D9%84-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%85%D8%B9-%D8%A5%D8%AD%D8%AF%D9%89-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%88%D9%81%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9",
+      "reason": {
+        "ar": "هذا ليس طلباً لتطوير تطبيق، بل هو طلب لمبرمج لتمثيل العميل تقنياً في اجتماع ما قبل إطلاق تطبيق موجود، وهو خارج نطاق خدمات Moe الأساسية في بناء التطبيقات.",
+        "en": "This is not an app development request; it's a request for a programmer to technically represent the client in a pre-launch meeting for an existing app, which is outside Moe's core service of building applications."
+      }
+    },
+    {
+      "title": "إعداد واجهة وتجربة المستخدم لتطبيق لفحص العقارات",
+      "url": "https://mostaql.com/project/1292969-%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%88%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%84%D9%81%D8%AD%D8%B5-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA",
+      "reason": {
+        "ar": "العميل يحدد بوضوح أن التطبيق يجب أن يبرمج باستخدام React Native، وMoe لا يعمل بتقنيات Flutter/React Native.",
+        "en": "The client explicitly states that the app must be programmed using React Native, and Moe does not work with Flutter/React Native technologies."
+      }
+    },
+    {
+      "title": "خبير في Foodics API وسوق تطبيقات فودكس لاستشارة وربط نظام",
+      "url": "https://mostaql.com/project/1293963-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A-foodics-api-%D9%88%D8%B3%D9%88%D9%82-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D9%81%D9%88%D8%AF%D9%83%D8%B3-%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9-%D9%88%D8%B1%D8%A8%D8%B7-%D9%86%D8%B8%D8%A7%D9%85",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة فعلية وعميقة في Foodics API وسوق تطبيقات Foodics، بما في ذلك التعامل مع Webhooks الخاصة بهم وإدراج التطبيقات في السوق. Moe لا يمتلك هذه الخبرة المتخصصة في Foodics.",
+        "en": "The project requires actual and deep expertise in Foodics API and the Foodics App Marketplace, including handling their Webhooks and listing apps. Moe does not have this specialized Foodics expertise."
+      }
+    },
+    {
+      "title": "مطلوب مصمم UI/UX لإعادة تصميم تطبيق Al Tamayuz Motors – التميز موتور",
+      "url": "https://mostaql.com/project/1294147-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%B5%D9%85%D9%85-uiux-%D9%84%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-al-tamayuz-motors-%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D8%B2-%D9%85%D9%88%D8%AA%D9%88%D8%B1",
+      "reason": {
+        "ar": "العميل يطلب مصمم UI/UX لإعادة تصميم تطبيق من الصفر. Moe هو مطور تطبيقات يقوم بالتصميم كجزء من عملية التطوير، وليس مصمماً مستقلاً لإعادة تصميم واجهات المستخدم.",
+        "en": "The client is looking for a UI/UX designer to redesign an app from scratch. Moe is an app developer who designs as part of the development process, not a standalone UI/UX designer for app redesigns."
+      }
+    },
+    {
+      "title": "عمل بوت تليجرام بدون برمجة ازرار فقط",
+      "url": "https://khamsat.com/community/requests/800917-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D8%AA%D9%84%D9%8A%D8%AC%D8%B1%D8%A7%D9%85-%D8%A8%D8%AF%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%A7%D8%B2%D8%B1%D8%A7%D8%B1-%D9%81%D9%82%D8%B7",
+      "reason": {
+        "ar": "العميل يطلب عمل بوت تليجرام \"بدون برمجة\"، مما يشير إلى حلول لا تتطلب تطوير برمجي، وهو خارج نطاق عمل Moe كمطور.",
+        "en": "The client requests a Telegram bot \"without programming,\" indicating a no-code solution, which is outside Moe's scope as a developer."
+      }
+    },
+    {
+      "title": "iOS Developer",
+      "url": "https://www.linkedin.com/jobs/view/4490853564/",
+      "reason": {
+        "ar": "العميل يبحث عن مطور iOS مستقل بخبرة قوية في Swift و SwiftUI ومحفظة تطبيقات iOS حية. Moe لا يقوم ببرمجة تطبيقات iOS بنفسه، بل يقدمها عبر شريك.",
+        "en": "The client is looking for a freelance iOS developer with strong Swift and SwiftUI skills and a portfolio of live iOS apps. Moe does not code iOS apps himself; he delivers them through a partner."
+      }
+    },
+    {
+      "title": "Red Hat Keycloak Resident Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4491837482/",
+      "reason": {
+        "ar": "هذه وظيفة \"مهندس مقيم\" (Resident Engineer) طويلة الأجل تتطلب 5+ سنوات خبرة في Red Hat Keycloak، وهي وظيفة متخصصة بدوام كامل أو عقد طويل الأجل، وليست مشروعاً حراً يناسب Moe.",
+        "en": "This is a long-term 'Resident Engineer' position requiring 5+ years of experience in Red Hat Keycloak, which is a specialized full-time or long-term contract role, not a freelance project suitable for Moe."
+      }
+    },
+    {
+      "title": "صقل وتقييم لعبة جوال شبه جاهزة",
+      "url": "https://mostaql.com/project/1294136-%D8%B5%D9%82%D9%84-%D9%88%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D9%84%D8%B9%D8%A8%D8%A9-%D8%AC%D9%88%D8%A7%D9%84-%D8%B4%D8%A8%D9%87-%D8%AC%D8%A7%D9%87%D8%B2%D8%A9",
+      "reason": {
+        "ar": "تقييمها 6 من 10، أقل من الحد (7). الميزانية 100 دولار لمدة يومين، وهي منخفضة جداً. يجب على Moe التأكد من أن نطاق العمل المطلوب (الصقل والتقييم والإضافات البسيطة) يتناسب تماماً مع هذه الميزانية الضيقة.",
+        "en": "Fit 6/10, below the 7 threshold. The budget is $100 for 2 days, which is very low. Moe must ensure that the scope of work (refinement, evaluation, and simple additions) is strictly limited to match this tight budget."
+      }
+    },
     {
       "title": "THIS IS ONLY FOR BUSINESS OWNERS – ALL TYPES OF BUSINNESES   Lead Management System and CRM (Ready to use), Fully Customizable to Your Business",
       "url": "https://www.freelancer.com/projects/crm/THIS-ONLY-FOR-BUSINESS-OWNERS",
@@ -155,120 +347,16 @@
         "ar": "هذا طلب لشراء قواعد بيانات GitHub موجودة، وليس مشروعًا لتطوير تطبيق جديد أو وكيل ذكاء اصطناعي. Moe مطور تطبيقات وليس بائعًا لقواعد بيانات جاهزة.",
         "en": "This is a request to purchase existing GitHub codebases, not a project to develop a new app or AI agent. Moe is an app maker, not a seller of pre-built codebases."
       }
-    },
-    {
-      "title": "Mobile Developer (iOS / Android)",
-      "url": "https://www.linkedin.com/jobs/view/4492061394/",
-      "reason": {
-        "ar": "هذا تنبيه وظيفي على LinkedIn لمنصب 'Mobile Developer'، والذي يشير عادةً إلى دور وظيفي بدوام كامل وليس عقد عمل حر لمشروع محدد.",
-        "en": "This is a LinkedIn job alert for a 'Mobile Developer' position, which typically indicates a full-time employment role, not a freelance contract for a defined project."
-      }
-    },
-    {
-      "title": "Product Engineer (Full Stack)",
-      "url": "https://www.linkedin.com/jobs/view/4491375342/",
-      "reason": {
-        "ar": "هذا منصب 'Product Engineer (Full Stack)' بدوام كامل منشور من قبل وكالة توظيف، وهو خارج نطاق عمل Moe المستقل.",
-        "en": "This is a full-time 'Product Engineer (Full Stack)' position posted by a recruitment agency, which is outside Moe's freelance scope."
-      }
-    },
-    {
-      "title": "Full Stack Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4492295301/",
-      "reason": {
-        "ar": "هذا منصب 'Full Stack Engineer' بدوام كامل منشور من قبل وكالة توظيف، وهو خارج نطاق عمل Moe المستقل.",
-        "en": "This is a full-time 'Full Stack Engineer' position posted by a recruitment agency, which is outside Moe's freelance scope."
-      }
-    },
-    {
-      "title": "Software Engineer, Frontend and Mobile",
-      "url": "https://www.linkedin.com/jobs/view/4345929585/",
-      "reason": {
-        "ar": "هذا منصب 'Software Engineer' بدوام كامل، وهو خارج نطاق عمل Moe المستقل.",
-        "en": "This is a full-time 'Software Engineer' position, which is outside Moe's freelance scope."
-      }
-    },
-    {
-      "title": "Mobile Application Developer",
-      "url": "https://www.linkedin.com/jobs/view/4491888856/",
-      "reason": {
-        "ar": "يتطلب المشروع خبرة محددة في SAP MDK وSAP BTP Mobile Services وتطوير Fiori، وهي تقنيات لا يستخدمها Moe.",
-        "en": "The project requires specific expertise in SAP MDK, SAP BTP Mobile Services, and Fiori development, which are technologies Moe does not use."
-      }
-    },
-    {
-      "title": "AI Automation Sales Manager",
-      "url": "https://www.freelancer.com/projects/lead-generation/Automation-Sales-Manager",
-      "reason": {
-        "ar": "هذه وظيفة مبيعات وتسويق (مدير مبيعات أتمتة الذكاء الاصطناعي)، وليست لتطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي، وهي خارج نطاق ما يقدمه Moe.",
-        "en": "This is a sales and marketing role (AI Automation Sales Manager), not for app development or building AI agents, and is outside Moe's scope of services."
-      }
-    },
-    {
-      "title": "US Google Fi eSIM Activation Assistance -- 2",
-      "url": "https://www.freelancer.com/projects/mobile-app-development/Google-eSIM-Activation-Assistance",
-      "reason": {
-        "ar": "يتطلب هذا المشروع التواجد الفعلي في الولايات المتحدة الأمريكية لأداء مهمة تنشيط شريحة eSIM، وهو ليس مشروع تطوير تطبيقات وMoe غير متواجد في الولايات المتحدة.",
-        "en": "This project requires physical presence in the US to perform an eSIM activation task, which is not an app development project and Moe is not based in the US."
-      }
-    },
-    {
-      "title": "AI Interior Design Software Instructor",
-      "url": "https://www.freelancer.com/projects/rendering/Interior-Design-Software-Instructor",
-      "reason": {
-        "ar": "هذا طلب لمدرب أو معلم لبرامج تصميم داخلي بالذكاء الاصطناعي، وليس لإنشاء تطبيق أو وكيل ذكاء اصطناعي. Moe يبني التطبيقات ولا يقدم تدريباً.",
-        "en": "This is a request for an instructor or trainer for AI interior design software, not for building an app or an AI agent. Moe builds apps, he does not provide training."
-      }
-    },
-    {
-      "title": "Senior AI Developer for Benchmarking",
-      "url": "https://www.freelancer.com/projects/artificial-intelligence/Senior-Developer-for-Benchmarking",
-      "reason": {
-        "ar": "يطلب هذا المشروع مطور ذكاء اصطناعي 'أقدم' مقيم في الولايات المتحدة لتقييم وتحسين أداء نماذج الذكاء الاصطناعي. Moe ليس مطور ذكاء اصطناعي 'أقدم' في هذا السياق، وهو ليس مقيماً في الولايات المتحدة، كما أن نطاق العمل (قياس وتحسين نماذج التعلم الآلي) يتجاوز خبرته في بناء تطبيقات ووكلاء الذكاء الاصطناعي.",
-        "en": "This project requests a 'Senior' US-based AI developer to evaluate and improve AI model performance. Moe is not a 'Senior AI Developer' in this context, is not US-based, and the scope of work (benchmarking and improving machine learning models) is beyond his expertise in building AI-powered apps and AI agents."
-      }
-    },
-    {
-      "title": "Pengembangan Game Puzzle Mobile Kasual",
-      "url": "https://www.freelancer.com/projects/game-development/Pengembangan-Game-Puzzle-Mobile-Kasual",
-      "reason": {
-        "ar": "نص المشروع باللغة الإندونيسية. بالإضافة إلى ذلك، يتطلب نطاق العمل تصميم فنون الألعاب وإدارة دورة الإنتاج الكاملة، وهي خدمات لا يقدمها Moe.",
-        "en": "Project text is in Indonesian. Additionally, the scope requires game art and full production cycle management, which Moe does not provide."
-      }
-    },
-    {
-      "title": "Panduan Aplikasi Freelancer Android",
-      "url": "https://www.freelancer.com/projects/android-app-development/Panduan-Aplikasi-Freelancer-Android",
-      "reason": {
-        "ar": "نص المشروع باللغة الإندونيسية. هذا طلب للحصول على إرشادات/تدريب على استخدام تطبيق، وليس لتطوير تطبيق.",
-        "en": "Project text is in Indonesian. This is a request for guidance/training on using an app, not for developing an app."
-      }
-    },
-    {
-      "title": "Ongoing Medieval Strategy Game Art & Asset Implementation for Android",
-      "url": "https://www.freelancer.com/projects/game-art/Ongoing-Medieval-Strategy-Game-Art",
-      "reason": {
-        "ar": "يطلب المشروع تحديدًا فنان ألعاب لإنشاء الأصول الفنية وتطبيقها، وهذا خارج نطاق قدرات Moe.",
-        "en": "The project specifically requests a game artist for art assets and implementation, which is outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "AI Developer",
-      "url": "https://www.linkedin.com/jobs/view/4491760314/",
-      "reason": {
-        "ar": "إعلان وظيفة على LinkedIn. لا يمكن التحقق مما إذا كان عقد عمل حر أم وظيفة بدوام كامل، وإعلانات LinkedIn عادة ما تكون لوظائف بدوام كامل.",
-        "en": "LinkedIn job alert. Cannot verify if it's a freelance contract or a full-time position, and LinkedIn alerts are typically for full-time roles."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 20,
     "steps": [
       {
         "step": "memory",
-        "msg": "599 leads seen before"
+        "msg": "602 leads seen before"
       },
       {
         "step": "verify",
@@ -276,47 +364,135 @@
       },
       {
         "step": "freelancer",
-        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (128 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 64 skipped: not app/AI work)"
+        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (117 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 82 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
-        "msg": "11 [Hiring] posts from the phone relay (last 5 days)"
+        "msg": "10 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "arab",
-        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+        "msg": "Mostaql: 29 on page (HTTP 200, 159707 chars, title \"المشاريع المفتوحة | مستقل\", 76 project links)"
       },
       {
         "step": "arab",
-        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+        "msg": "Mostaql: 20 on page (HTTP 200, 162922 chars, title \"المشاريع المفتوحة | مستقل\", 76 project links)"
       },
       {
         "step": "arab",
-        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+        "msg": "Khamsat: 25 on page (HTTP 200, 134302 chars, title \"مجتمع خمسات - طلبات الخدمات\", 25 project links)"
       },
       {
         "step": "arab",
-        "msg": "0 relevant Arabic projects"
+        "msg": "10 relevant Arabic projects"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql/Khamsat projects added"
+        "msg": "10 new Mostaql/Khamsat projects added"
       },
       {
         "step": "linkedin",
-        "msg": "184 jobs from Gmail alerts (last 5 days)"
+        "msg": "196 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "AI App Developer / United States: busy (429), stopping search this run"
+        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): 【AI camera cloud platform/IPO/ Remote/ Japanese N2】Mobile Engineer"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): iOS Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Expression of Interest - Technical Directors and R&D Engineers - Netflix Animation Studios"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Applications Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur(euse)- Applications Mobiles"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Principal AI Forward Deployed Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Principal AI Evaluation Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (job board (Jobgether)): ML Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Engineer, Money Experience"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Engineer, Identity"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Android Platform"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Backend/Kotlin (REMOTE)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Software Engineer, Kotlin Mobile Applications (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer (m/f/x)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer (Java/Kotlin/Spring Boot/Microservices/AWS)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Developer (Android focus / KMP) at tv.nu"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 1 new LinkedIn jobs added"
+        "msg": "2 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -324,11 +500,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
+        "msg": "8 new Freelancer projects added, 20 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 18 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
