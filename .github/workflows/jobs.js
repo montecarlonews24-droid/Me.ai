@@ -168,12 +168,13 @@ function badShape(u) {
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 
 // مواقع بتسكّر صفحاتها على البوتات: منقبل الرابط إذا شكله صفحة مشروع، والبحث وصل لنفس الموقع
-const PROJECT_PAGE = /(upwork\.com\/(freelance-jobs\/apply|jobs)\/|linkedin\.com\/(posts|feed\/update|jobs\/view)\/|freelancer\.com\/projects\/|reddit\.com\/r\/\w+\/comments\/|mostaql\.com\/project\/|khamsat\.com\/community\/requests\/|contra\.com\/|wellfound\.com\/)/;
+const PROJECT_PAGE = /(upwork\.com\/(freelance-jobs\/apply|jobs)\/|linkedin\.com\/(posts|feed\/update|jobs\/view)\/|freelancer\.com\/projects\/|reddit\.com\/r\/\w+\/comments\/|mostaql\.com\/project\/|khamsat\.com\/community\/requests\/|contra\.com\/|wellfound\.com\/|news\.ycombinator\.com\/item\?id=)/;
 
 // الرابط بدون domain فاضي (لازم يكون صفحة، مش موقع كامل)
 const deep = u => { try { return new URL(u).pathname.replace(/\/+$/, '').length > 1; } catch { return false; } };
 
-const clean = u => String(u || '').trim().replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
+// (روابط Hacker News كلها item?id=، فمنخلّي الرقم عشان ما يصيروا كلهم نفس الرابط)
+const clean = u => { const x = String(u || '').trim(); const hn = x.match(/news\.ycombinator\.com\/item\?id=(\d+)/i); return hn ? `https://news.ycombinator.com/item?id=${hn[1]}` : x.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase(); };
 
 const ABOUT = `Moe (Mohammad) is an independent app maker in Amman, Jordan (brand: Monte-Carlo24). He builds AI-powered Android apps with AI-assisted development: he designs, plans, directs, tests and publishes; AI tools help write the code. He works from a phone, alone.
 Proven, live work:
@@ -206,7 +207,7 @@ PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/auto
 IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
-2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
+2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, Hacker News "SEEKING FREELANCER" posts (startups; contact is usually an email in the post), public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
 3) FAR EAST & AUSTRALIA remote (label "east"): clients in Singapore, Japan, Hong Kong, South Korea, Malaysia, Australia on freelancer.com, Upwork, LinkedIn.
 Topics for all: Android app, website to Android app, AI features in an app, AI agent / AI automation, Google Play publishing or rejection fix.`;
 
@@ -405,6 +406,50 @@ async function mostaqlRelayFeed() {
     log('mostaql', `${list.length} projects from the phone relay (last 4 days, ${crowded} skipped: over ${MAX_BIDS} offers)`);
   } catch (e) {
     log('mostaql', e.message);
+  }
+  return list;
+}
+
+// ---------- Hacker News: خيط "Freelancer? Seeking freelancer?" الشهري ----------
+// شركات ناشئة (أغلبها أمريكا وأوروبا) بتكتب "SEEKING FREELANCER" مع إيميل للتواصل. API عام وببلاش.
+const HN_RELEVANT = /android|kotlin|mobile app|\bapp\b|apps\b|\bai\b|\bllm|gpt|gemini|claude|openai|agent|automation|automate|chatbot|\bbot\b|firebase|play store|google play|webview|scrap/i;
+async function hnFeed() {
+  const list = [];
+  try {
+    const q = await fetch('https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&query=freelancer&hitsPerPage=3');
+    if (!q.ok) { log('hn', `search HTTP ${q.status}`); return list; }
+    const hits = ((await q.json())?.hits || []).filter(h => /seeking freelancer/i.test(h.title || ''));
+    if (!hits.length) { log('hn', 'no "Seeking freelancer" thread found'); return list; }
+    // الخيط الحالي، ولو عمره أقل من 5 أيام كمان اللي قبله
+    const threads = hits.slice(0, (Date.now() / 1000 - hits[0].created_at_i) < 5 * 86400 ? 2 : 1);
+    const now = Date.now() / 1000;
+    let total = 0, skipped = 0;
+    for (const th of threads) {
+      const r = await fetch(`https://hn.algolia.com/api/v1/items/${th.objectID}`);
+      if (!r.ok) { log('hn', `thread HTTP ${r.status}`); continue; }
+      const d = await r.json();
+      for (const c of d?.children || []) {
+        const text = strip(String(c.text || '').replace(/<p>/gi, '\n').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))).replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+        if (!/^\s*seeking\s+freelancer/i.test(text)) continue;   // "SEEKING WORK" = ناس بيعرضوا حالهم، مش زباين
+        total++;
+        const age = now - (c.created_at_i || now);
+        if (age > 14 * 86400) { skipped++; continue; }
+        if (!HN_RELEVANT.test(text)) { skipped++; continue; }
+        const body = text.replace(/^\s*seeking\s+freelancer\s*[|:\-–—]*\s*/i, '');
+        const lines = body.split('\n').map(x => x.trim()).filter(Boolean);
+        const title = (lines[0] || body) + (lines[1] ? ' — ' + lines[1].slice(0, 90) : '');
+        list.push({
+          title: title.replace(/\s+/g, ' ').slice(0, 160),
+          url: `https://news.ycombinator.com/item?id=${c.id}`,
+          market: 'west', platform: 'HackerNews', country: /\bremote\b/i.test(text) ? 'Remote' : '', budget: '',
+          posted: ago(c.created_at_i || now), proposals: '',
+          language: 'en', summary: body.slice(0, 220), pageText: body.slice(0, 1800)
+        });
+      }
+    }
+    log('hn', `${list.length} relevant "Seeking freelancer" posts (${total} in thread, ${skipped} skipped: old or not app/AI)`);
+  } catch (e) {
+    log('hn', e.message);
   }
   return list;
 }
@@ -660,6 +705,14 @@ function linkedinBlock(p) {
     return true;
   }).slice(0, 12);
   rd.forEach(l => checked.push(l));
+  const hn = (await hnFeed()).filter(l => {
+    const u = clean(l.url);
+    if (seen.has(u) || dupes.has(u)) return false;
+    dupes.add(u);
+    return true;
+  }).slice(0, 10);
+  hn.forEach(l => checked.push(l));
+  log('verify', `${hn.length} new Hacker News posts added`);
   // مستقل وخمسات: منقرأ صفحة كل مشروع (الوصف والميزانية) قبل الحكم
   // مستقل من الموبايل أول (عنده الوصف جاهز)، وبعدين القراءة المباشرة (غالباً بتنسكّر على GitHub)
   const mq = (await mostaqlRelayFeed()).filter(l => {
