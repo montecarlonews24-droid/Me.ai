@@ -1,12 +1,12 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T14:12:13.588Z",
+  "generatedAt": "2026-11-20T14:17:18.153Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم لأنها إما إعلانات لمستقلين آخرين، أو وظائف بدوام كامل، أو قديمة جداً. تم قبول فرصة واحدة ممتازة لبناء نظام وكلاء ذكاء اصطناعي متكامل باللغة العربية.",
-    "en": "Most leads today were rejected for being either freelancer advertisements, full-time jobs, or too old. One excellent lead for building an integrated AI agent system in Arabic was kept."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 14 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 14 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات",
@@ -30,7 +30,7 @@
       },
       "proposal": "أهلاً بك،\nبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات هو مشروع يتماشى تماماً مع ما أقدمه في تطوير وكلاء الذكاء الاصطناعي والأتمتة. أعمل على بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي بمساعدة الذكاء الاصطناعي، مثل وكيل البحث اليومي الخاص بي (Me.ai) الذي يستخدم Gemini والبحث عبر الويب لأتمتة المهام.\nأستطيع تصميم وتطوير وكلاء متخصصين لاكتشاف الفعاليات، وجمع معلومات السوق والشركات، وتحديد صناع القرار، وإعداد رسائل التواصل، تماماً كما وصفت في مشروعك. أضمن لك نظاماً عملياً وقابلاً للتطوير.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nهل تفضل بناء هذه المنظومة كتطبيق أندرويد مستقل، أم كخدمة تعمل في الخلفية مع واجهة ويب؟",
       "foundAt": "2026-11-20T14:12:13.389Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة",
@@ -259,7 +259,7 @@
       "proposals": "34",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-20T14:12:13.588Z",
+      "bidsAt": "2026-11-20T14:17:18.153Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -351,6 +351,54 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Don't Use This Code: https://dutc.io | Training & Consulting | Full-Time (W-2) | Fully Remote (US-only) — Don't Use This Code's mission statement grew out of a ",
+      "url": "https://news.ycombinator.com/item?id=50343929",
+      "reason": {
+        "ar": "الوظيفة بدوام كامل (W-2) وتتطلب مهندسين ومدربين في Python/PyData، وهي ليست ضمن نطاق عمل Moe كمطور تطبيقات مستقل.",
+        "en": "The lead is for a full-time (W-2) position requiring Python/PyData engineers and instructors, which is outside Moe's scope as a freelance app maker."
+      }
+    },
+    {
+      "title": "REVNODE | Founding Sales (Founding AE) | Remote (US) | Part-time or Full-time | 1099 — We build custom software solutions for all industries, for companies of a",
+      "url": "https://news.ycombinator.com/item?id=50342365",
+      "reason": {
+        "ar": "هذا الدور لوظيفة مبيعات (Founding Sales) وليس لتطوير البرمجيات.",
+        "en": "This role is for a sales position (Founding Sales) and not for software development."
+      }
+    },
+    {
+      "title": "SadServers | Software Engineer | REMOTE (Canada) | Part-time or Contract | $55 - $75/hr | https://sadservers.com — I'm the founder of SadServers, a SaaS that pr",
+      "url": "https://news.ycombinator.com/item?id=50341345",
+      "reason": {
+        "ar": "تتطلب الوظيفة مهارات في Django وPython وNode/React/Vite، وهي ليست ضمن التقنيات التي يستخدمها Moe. كما تتضمن مهام DevOps/SRE التي لا يستطيع Moe القيام بها.",
+        "en": "The job requires skills in Django, Python, Node/React/Vite, which are outside Moe's tech stack. It also involves DevOps/SRE tasks, which Moe cannot deliver."
+      }
+    },
+    {
+      "title": "Stratirus (a Tennetech company) | AI Developer + Linux Admin (junior to mid) | REMOTE (US only, Central Time hours) | US work authorization required, no sponsor",
+      "url": "https://news.ycombinator.com/item?id=50340134",
+      "reason": {
+        "ar": "الوظيفة بدوام كامل أو جزئي براتب سنوي (65 ألف - 100 ألف دولار)، وليست مشروعًا مستقلًا. كما تتضمن مهام إدارة Linux/DevOps التي لا يستطيع Moe القيام بها.",
+        "en": "This is a full-time or part-time salaried position ($65k - $100k annually), not a freelance project. It also involves Linux administration/DevOps tasks, which Moe cannot deliver."
+      }
+    },
+    {
+      "title": "ORFF Maestra | Prototype Developer; Technical Product Lead | REMOTE (US only) | Contract, part-time | https://orffmaestra.com — We're preparing a U.S. Departmen",
+      "url": "https://news.ycombinator.com/item?id=50339081",
+      "reason": {
+        "ar": "تتطلب الوظيفة بناء تطبيق ويب يعتمد على المتصفح وليس تطبيق Android. كما تتطلب الجنسية الأمريكية أو الإقامة الدائمة.",
+        "en": "The role requires building a browser-based web app, not an Android app. Additionally, it requires U.S. citizenship or permanent residency."
+      }
+    },
+    {
+      "title": "AI-Native Full-Stack Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4491903668/",
+      "reason": {
+        "ar": "الوظيفة بعنوان \"AI-Native Full-Stack Engineer\" وتشير إلى دور موظف بدوام كامل في شركة، وليس مشروعًا مستقلًا. Moe لا ينضم إلى فرق عمل الشركات.",
+        "en": "The job title 'AI-Native Full-Stack Engineer' indicates a full-time employee role within a company, not a freelance project. Moe does not join company teams as a full-time engineer."
+      }
+    },
     {
       "title": "SEEKING FREELANCE - Egypt (UTC+2, full EU/UK overlap) - Remote — Senior Full-Stack & Creative Frontend Engineer (4+ yrs). I architect high-concurrency Next",
       "url": "https://news.ycombinator.com/item?id=50495944",
@@ -542,64 +590,16 @@
         "ar": "عنوان الوظيفة 'Software Developer' عام للغاية ومن المحتمل أن يكون وظيفة بدوام كامل؛ لا يمكن التحقق مما إذا كان دورًا تعاقديًا/مستقلاً بدون تسجيل الدخول إلى LinkedIn.",
         "en": "Job title 'Software Developer' is too general and likely a full-time position; cannot verify if it's a contract/freelance role without LinkedIn login."
       }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4491639352/",
-      "reason": {
-        "ar": "يتطلب المشروع إتقانًا لقواعد بيانات علائقية محددة (PostgreSQL, MySQL) وقواعد بيانات NoSQL (MongoDB)، وهي خارج نطاق قدرات Moe في Firebase.",
-        "en": "Requires proficiency with specific relational (PostgreSQL, MySQL) and NoSQL (MongoDB) databases, which are outside Moe's Firebase backend capabilities."
-      }
-    },
-    {
-      "title": "Software Engineer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492132884/",
-      "reason": {
-        "ar": "هذا دور متخصص لإنشاء بيئات تعلم معزز لاختبار نماذج الذكاء الاصطناعي على مشاكل هندسة برمجيات الهاتف المحمول، وهو خارج قدرات Moe. كما أن عنوان الوظيفة هو 'Senior Mobile Developer'.",
-        "en": "This is a specialized role for creating Reinforcement Learning Environments to test AI models on mobile software engineering problems, which is outside Moe's capabilities. Also, the role title is 'Senior Mobile Developer'."
-      }
-    },
-    {
-      "title": "Mobile Developer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492136773/",
-      "reason": {
-        "ar": "هذا دور متخصص لإنشاء بيئات تعلم معزز لاختبار نماذج الذكاء الاصطناعي على مشاكل هندسة برمجيات الهاتف المحمول، وهو خارج قدرات Moe. كما أن عنوان الوظيفة هو 'Senior Mobile Developer'.",
-        "en": "This is a specialized role for creating Reinforcement Learning Environments to test AI models on mobile software engineering problems, which is outside Moe's capabilities. Also, the role title is 'Senior Mobile Developer'."
-      }
-    },
-    {
-      "title": "Full Stack Agent Platform Developer",
-      "url": "https://www.linkedin.com/jobs/view/4485277487/",
-      "reason": {
-        "ar": "عنوان الوظيفة 'Full Stack Agent Platform Developer' عام للغاية ومن المحتمل أن يكون وظيفة بدوام كامل في شركة كبيرة (Deloitte)؛ لا يمكن التحقق مما إذا كان دورًا تعاقديًا/مستقلاً بدون تسجيل الدخول إلى LinkedIn.",
-        "en": "Job title 'Full Stack Agent Platform Developer' is too general and likely a full-time position at a large company (Deloitte); cannot verify if it's a contract/freelance role without LinkedIn login."
-      }
-    },
-    {
-      "title": "Animated AI Product Promo Video",
-      "url": "https://www.freelancer.com/projects/ai-animation/Animated-Product-Promo-Video",
-      "reason": {
-        "ar": "المشروع يتطلب خدمات تصميم فيديو ورسوم متحركة (After Effects, Motion Graphics)، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
-        "en": "The project requires video design and animation services (After Effects, Motion Graphics), which are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "إعداد واجهة وتجربة المستخدم لتطبيق لفحص العقارات",
-      "url": "https://mostaql.com/project/1292969",
-      "reason": {
-        "ar": "المشروع يتطلب استخدام React Native، وهي تقنية لا يعمل بها Moe.",
-        "en": "The project explicitly requires React Native, a technology Moe does not work with."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 11,
+    "verified": 6,
     "steps": [
       {
         "step": "memory",
-        "msg": "808 leads seen before"
+        "msg": "819 leads seen before"
       },
       {
         "step": "verify",
@@ -607,7 +607,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (109 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 79 skipped: not app/AI work)"
+        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (109 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 75 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -615,15 +615,15 @@
       },
       {
         "step": "hn",
-        "msg": "15 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 242 replies, 19 want a freelancer, 15 app/AI"
+        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 242 replies, 18 want a freelancer, 14 app/AI"
       },
       {
         "step": "verify",
-        "msg": "10 new Hacker News posts added"
+        "msg": "5 new Hacker News posts added"
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 67 projects on the lists, 8 sent (HTTP 200 160727ch 28 links; HTTP 200 157638ch 26 links; HTTP 200 164063ch 28 links; )"
+        "msg": "phone relay last read 1 hours ago: 67 projects on the lists, 8 sent (HTTP 200 160727ch 28 links; HTTP 200 157638ch 26 links; HTTP 200 164063ch 28 links; )"
       },
       {
         "step": "mostaql",
@@ -631,7 +631,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "arab",
@@ -659,11 +659,23 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI App Developer / EMEA: busy (429), stopping search this run"
+        "msg": "AI App Developer / Middle East: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4491903668: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Associate or Senior Associate, AI Engineer (Python)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer, Internal Business Processes"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "1 of 3 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -671,11 +683,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 11 to judge"
+        "msg": "0 new Freelancer projects added, 6 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 10 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
