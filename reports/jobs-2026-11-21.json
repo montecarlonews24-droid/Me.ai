@@ -1,0 +1,581 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T21:29:51.626Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "تم رفض معظم الفرص اليوم بسبب كونها وظائف بدوام كامل/عقود طويلة الأجل أو تتطلب اختبار مستخدم في موقع جغرافي محدد أو تتجاوز قدرات Moe في البنية الخلفية. تم قبول فرصة واحدة فقط تتعلق بأتمتة الذكاء الاصطناعي باللغة العربية.",
+    "en": "Most leads today were rejected for being full-time/long-term contract roles, requiring user testing in a specific geographical location, or exceeding Moe's backend capabilities. Only one AI automation lead in Arabic was kept."
+  },
+  "fresh": 1,
+  "leads": [
+    {
+      "title": "أتمتة متجر إلكتروني",
+      "url": "https://mostaql.com/project/1294329",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع السلام عليكم، عندي متجر إلكتروني على منصة سلة، وأبحث عن متخصص في AI Automation لتنفيذ نظام أتمتة متكامل باستخدام n8n وواجهات API. المطلوب مبدئيًا: 1. ربط WhatsApp Business لاستقبال طلبات العملاء ومتابعتها.",
+      "fit": 9,
+      "why": {
+        "ar": "المشروع يتضمن أتمتة متجر إلكتروني وبناء وكيل ذكاء اصطناعي لربط WhatsApp Business وجداول البيانات ومنصة سلة، وهو يتوافق تمامًا مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة باستخدام API، كما يظهر في وكيله الخاص Me.ai. الميزانية جيدة واللغة عربية.",
+        "en": "The project involves e-commerce store automation and building an AI agent to connect WhatsApp Business, spreadsheets, and the Salla platform, which aligns perfectly with Moe's ability to build AI agents and automation using APIs, as demonstrated by his own Me.ai agent. The budget is good and the language is Arabic."
+      },
+      "watch": {
+        "ar": "التأكد من أن متطلبات n8n لا تتطلب خبرة متخصصة تتجاوز قدرة Moe على ربط APIs وبناء الوكيل الذكي.",
+        "en": "Ensure that the n8n requirements do not demand specialized expertise beyond Moe's capability to connect APIs and build the AI agent."
+      },
+      "proposal": "أهلاً بك، أرى أنك تبحث عن أتمتة متجرك الإلكتروني على منصة سلة وربطه بـ WhatsApp Business وجداول البيانات، مع بناء وكيل ذكاء اصطناعي لمطابقة الطلبات والردود. يمكنني مساعدتك في بناء نظام الأتمتة هذا باستخدام واجهات API والذكاء الاصطناعي. أعمل على تطوير التطبيقات والوكلاء الذكية بمساعدة الذكاء الاصطناعي. على سبيل المثال، لدي وكيل ذكاء اصطناعي خاص بي (Me.ai) يستخدم Gemini للبحث اليومي والأتمتة. هذا يوضح قدرتي على بناء حلول ذكاء اصطناعي مخصصة. تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي. هل لديك تفاصيل إضافية حول أنواع الردود التي تتوقعها من وكيل الذكاء الاصطناعي؟",
+      "foundAt": "2026-11-20T21:29:51.278Z",
+      "fresh": true
+    },
+    {
+      "title": "مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات",
+      "url": "https://mostaql.com/project/1294245",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات نبذة عن المشروع نبحث عن مطور متخصص في الذكاء الاصطناعي والأتمتة لبناء منظومة ذكية متكاملة لشركة تعمل في مجال تج",
+      "fit": 9,
+      "why": {
+        "ar": "هذا يتوافق تماماً مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة، مثل وكيله الخاص Me.ai الذي يستخدم Gemini والبحث عبر الويب.",
+        "en": "This aligns perfectly with Moe's capability to build AI agents and automation, such as his own Me.ai agent which uses Gemini and web search."
+      },
+      "watch": {
+        "ar": "لم يتم تحديد الميزانية، لذا يجب على Moe تقدير التكلفة بعناية بناءً على النطاق الواسع للمشروع.",
+        "en": "No budget was specified, so Moe needs to estimate the cost carefully based on the broad scope of the project."
+      },
+      "proposal": "أهلاً بك،\nبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات هو مشروع يتماشى تماماً مع ما أقدمه في تطوير وكلاء الذكاء الاصطناعي والأتمتة. أعمل على بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي بمساعدة الذكاء الاصطناعي، مثل وكيل البحث اليومي الخاص بي (Me.ai) الذي يستخدم Gemini والبحث عبر الويب لأتمتة المهام.\nأستطيع تصميم وتطوير وكلاء متخصصين لاكتشاف الفعاليات، وجمع معلومات السوق والشركات، وتحديد صناع القرار، وإعداد رسائل التواصل، تماماً كما وصفت في مشروعك. أضمن لك نظاماً عملياً وقابلاً للتطوير.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل تفضل بناء هذه المنظومة كتطبيق أندرويد مستقل، أم كخدمة تعمل في الخلفية مع واجهة ويب؟",
+      "foundAt": "2026-11-20T14:12:13.389Z",
+      "fresh": false
+    },
+    {
+      "title": "بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة",
+      "url": "https://mostaql.com/project/1293414",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع السلام عليكم ورحمة الله، مطلوب مطور أنظمة ذكاء اصطناعي وأتمتة (AI Chatbots / n8n / Web Widgets) محترف لبناء شات بوت ذكي باللغة الإنجليزية لتركيبه على موقع إلكتروني خاص بعيادة، بحيث يقوم بالتالي: 1. الإجابة",
+      "fit": 9,
+      "why": {
+        "ar": "",
+        "en": "Moe can integrate Gemini AI chat features and build automation agents. This project perfectly fits building a smart customer service chatbot that answers questions and collects data."
+      },
+      "watch": {
+        "ar": "التأكد من أن ملف الأسئلة الشائعة منظم جيدًا وأن متطلبات دمج البريد الإلكتروني واضحة.",
+        "en": "Ensure the FAQ file is well-structured and the email integration requirements are clear."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. يمكنني مساعدتك في بناء شات بوت ذكي لخدمة العملاء لعيادتك. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير لإنشاء حلول فعالة مثل هذه.\nيمكنني دمج ميزات Gemini AI للدردشة الذكية لتمكين الشات بوت من الإجابة بدقة على استفسارات الزوار وجمع بيانات الحجز وإرسالها إلى بريدك الإلكتروني. هذا النوع من الأتمتة يشبه عمل وكلاء الذكاء الاصطناعي التي أبنيها.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك ملف الأسئلة الشائعة جاهزاً لكي نبدأ في تدريب الشات بوت؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "إنشاء وكيل ذكاء اصطناعي للمساعدة بتحليل حركة الأسهم",
+      "url": "https://mostaql.com/project/1293891",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع مرحبا ابحث عن مبرمج لتنفيذ وكيل ذكاء اصطناعي للمساعدة بتحليل حركة الاسهم ضمن استراتجية أضعها أنا ثم هو يعمل بالربط مع تريدنق فيو و option flow ويعمل عليها لإصدار النتيجة النهائية للحركة ضمن الاستراتجية بطا",
+      "fit": 9,
+      "why": {
+        "ar": "يقوم Moe ببناء وكلاء الذكاء الاصطناعي (مثل Me.ai) التي تستخدم البحث عبر الويب والأتمتة. هذا المشروع يتضمن بناء وكيل ذكاء اصطناعي للتحليل ودمج واجهات برمجة التطبيقات الخارجية (TradingView و Option Flow)، مما يتوافق بشكل جيد مع قدراته.",
+        "en": "Moe builds AI agents (like Me.ai) that use web search and automation. This project involves building an AI agent for analysis and integrating with external APIs (TradingView, Option Flow), which aligns well with his capabilities."
+      },
+      "watch": {
+        "ar": "يجب فهم مدى تعقيد دمج واجهات برمجة تطبيقات TradingView/Option Flow وتنفيذ 'الاستراتيجية المحددة من قبل المستخدم' بوضوح.",
+        "en": "The complexity of integrating with TradingView/Option Flow APIs and implementing the 'user-defined strategy' needs to be clearly understood."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. يمكنني مساعدتك في بناء وكيل ذكاء اصطناعي لمساعدتك في تحليل حركة الأسهم. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير لإنشاء وكلاء يقومون بمهام بحث وتحليل معقدة.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو وكيل بحث يومي يستخدم Gemini والبحث عبر الويب. هذا يوضح قدرتي على بناء أنظمة وكلاء ذكاء اصطناعي تقوم بجمع وتحليل المعلومات. يمكن لوكيل الذكاء الاصطناعي هذا أن يربط مع TradingView و Option Flow لتحليل البيانات وفق استراتيجيتك وإصدار النتائج النهائية.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك تفاصيل إضافية حول الاستراتيجية التي تود تطبيقها وكيفية عمل الربط مع TradingView و Option Flow؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "مساعد ذكاء اصطناعي ل ادارة حساب انستجرام",
+      "url": "https://mostaql.com/project/1294069",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع \"مرحبًا، أبحث عن مطوّر أتمتة لتنفيذ مساعد ذكاء اصطناعي لحساب انستجرام مرتبط بموقع الكتروني وو كوميرس. لدينا حساب إعلانات Meta واحد مرتبط بحساب إنستغرام. (أفضّل أدوات جاهزة وربطًا رسميًا مع Meta، وبرمجة مخص",
+      "fit": 8,
+      "why": {
+        "ar": "يقوم Moe ببناء وكلاء الذكاء الاصطناعي ويمكنه دمج ميزات الذكاء الاصطناعي للأتمتة وتوليد المحتوى. يتضمن هذا المشروع بناء مساعد ذكاء اصطناعي لإدارة انستجرام، بما في ذلك أفكار المحتوى والنشر الآلي ومراقبة الإعلانات والردود الشبيهة بالدردشة، مما يتوافق مع قدراته في وكلاء الذكاء الاصطناعي ودمج واجهات برمجة التطبيقات.",
+        "en": "Moe builds AI agents and can integrate AI features for automation and content generation. This project involves building an AI assistant for Instagram management, including content ideas, automated publishing (via API), ad monitoring, and chatbot-like responses, which aligns with his AI agent and API integration capabilities."
+      },
+      "watch": {
+        "ar": "النطاق واسع ويغطي المحتوى والإعلانات والرسائل. يجب تقسيمه إلى مراحل قابلة للإدارة، وتوضيح 'الأدوات الجاهزة' لضمان توافقها مع أدوات Moe المفضلة. يحتاج دمج WooCommerce أيضًا إلى تخطيط دقيق.",
+        "en": "The scope is quite broad, covering content, ads, and messaging. It needs to be broken down into manageable phases, and the 'ready-made tools' aspect needs clarification to ensure it aligns with Moe's preferred AI tools. WooCommerce integration also needs careful planning."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. يمكنني مساعدتك في بناء مساعد ذكاء اصطناعي لأتمتة إدارة حساب انستجرام الخاص بك وربطه بموقعك الإلكتروني و WooCommerce. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير لإنشاء حلول أتمتة ووكلاء ذكاء اصطناعي.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو وكيل بحث يومي يقوم بجمع المعلومات وتنظيمها. يمكن تطبيق مبادئ مشابهة لإنشاء مساعد يقوم بتوليد أفكار المحتوى، التعامل مع النشر عبر API، ومراقبة الإعلانات، بالإضافة إلى إدارة الرسائل والتعليقات بذكاء.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل يمكننا تحديد الميزات ذات الأولوية القصوى التي ترغب في البدء بها لهذا المساعد؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "متخصص محترف في بناء ai agent",
+      "url": "https://mostaql.com/project/1292565",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع اريد متخصص محترف في بناء ai agent بطاقة المشروع حالة المشروع مفتوح تاريخ النشر منذ 8 أيام نوع المشروع مبلغ ثابت الميزانية $1,000.00 مدة التنفيذ 3 أيام المهارات استشارات الشركات الناشئة جافا سكريبت CSS PHP ",
+      "fit": 8,
+      "why": {
+        "ar": "يقوم Moe ببناء وكلاء الذكاء الاصطناعي، بما في ذلك وكيل البحث اليومي الخاص به (Me.ai) الذي يستخدم Gemini والبحث عبر الويب على GitHub Actions. هذا المشروع يطلب مباشرة بناء وكيل ذكاء اصطناعي.",
+        "en": "Moe builds AI agents, including his own daily AI research agent (Me.ai) using Gemini and web search on GitHub Actions. This project directly asks for an AI agent builder."
+      },
+      "watch": {
+        "ar": "وصف المشروع موجز للغاية؛ يجب توضيح النطاق الدقيق وتعقيد وكيل الذكاء الاصطناعي المطلوب.",
+        "en": "The project description is very brief; the exact scope and complexity of the AI agent need to be clarified."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. أنا أساعد العملاء على بناء وكلاء ذكاء اصطناعي مخصصة لأتمتة المهام أو البحث. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير، وأستطيع بناء وكيل ذكاء اصطناعي يلبي احتياجاتك.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو يعمل كوكيل بحث يومي يستخدم Gemini والبحث عبر الويب على GitHub Actions. هذا يوضح قدرتي على بناء أنظمة وكلاء ذكاء اصطناعي فعالة.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك تفاصيل إضافية حول المهام المحددة التي تريد أن يقوم بها وكيل الذكاء الاصطناعي؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "بناء وكلاء ذكاء اصطناعي باستخدام RAG",
+      "url": "https://mostaql.com/project/1292743",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع بحاجة لخبير في بناء وكلاء الذكاء الاصطناعي باستخدام LangGraph , Langchin , langsmith , RAG ( وجميع م يخص بناء وكلاء الذكاء الاصطناعي لشركة رقمية ) جميع الأساسيات جاهزة ومتوفرة ينقص خبير في المجال لبنائها ب",
+      "fit": 7,
+      "why": {
+        "ar": "يقوم Moe ببناء وكلاء الذكاء الاصطناعي، بما في ذلك وكيل البحث اليومي الخاص به (Me.ai). هذا المشروع يتعلق ببناء وكلاء الذكاء الاصطناعي ودمج RAG، مما يتوافق مع قدراته في الذكاء الاصطناعي.",
+        "en": "Moe builds AI agents, including his own daily AI research agent (Me.ai). This project is about building AI agents and integrating RAG, which aligns with his AI capabilities."
+      },
+      "watch": {
+        "ar": "يحدد العميل LangGraph و LangChain و Langsmith. يجب على Moe التأكد مما إذا كان نهجه (على سبيل المثال، باستخدام قدرات RAG الخاصة بـ Gemini أو طرق أخرى) مقبولاً أو إذا كان يحتاج إلى التكيف بسرعة مع هذه الأطر المحددة.",
+        "en": "The client specifies LangGraph, LangChain, Langsmith. Moe should confirm if his approach (e.g., using Gemini's RAG capabilities or other methods) is acceptable or if he needs to quickly adapt to these specific frameworks."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. أنا أساعد العملاء على بناء وكلاء ذكاء اصطناعي لأتمتة المهام والبحث. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير، ويمكنني بناء وكلاء ذكاء اصطناعي مع دمج تقنيات مثل RAG.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو وكيل بحث يومي يستخدم Gemini والبحث عبر الويب على GitHub Actions. هذا يوضح قدرتي على بناء أنظمة وكلاء ذكاء اصطناعي فعالة.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nبما أن الأساسيات جاهزة، هل يمكننا مناقشة كيفية دمج هذه الوكلاء مع الأنظمة الحالية لديكم وما هي المهام الرئيسية التي ستؤديها؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "متخصص محترف في بناء ai agent",
+      "url": "https://mostaql.com/project/1292767",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع اريد متخصص محترف في بناء ai agent لبناء مجموعة من وكلاء الذكاء الاصطناعي باستخدام افضل وادق التقنيات LangGraph + Langchin + Langsmith + LangGraph studio + RAG .. للتنبيه كل شي جاهز من سيرفر خاص الى اشتراكا",
+      "fit": 7,
+      "why": {
+        "ar": "يقوم Moe ببناء وكلاء الذكاء الاصطناعي، بما في ذلك وكيل البحث اليومي الخاص به (Me.ai). هذا المشروع يتعلق ببناء نظام من وكلاء الذكاء الاصطناعي ودمج RAG. يذكر العميل أن البنية التحتية جاهزة، مما يعني التجميع والتكوين.",
+        "en": "Moe builds AI agents, including his own daily AI research agent (Me.ai). This project is about building a system of AI agents and integrating RAG. The client states that infrastructure is ready, implying assembly and configuration."
+      },
+      "watch": {
+        "ar": "يحدد العميل LangGraph و LangChain و Langsmith و LangGraph studio. يجب على Moe التأكد مما إذا كان نهجه (على سبيل المثال، باستخدام قدرات RAG الخاصة بـ Gemini أو طرق أخرى) مقبولاً أو إذا كان يحتاج إلى التكيف بسرعة مع هذه الأطر المحددة.",
+        "en": "The client specifies LangGraph, LangChain, Langsmith, LangGraph studio. Moe should confirm if his approach (e.g., using Gemini's RAG capabilities or other methods) is acceptable or if he needs to quickly adapt to these specific frameworks."
+      },
+      "proposal": "مرحباً،\nأهلاً بك. أنا أساعد العملاء على بناء وكلاء ذكاء اصطناعي لأتمتة المهام والبحث. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير، ويمكنني بناء وكلاء ذكاء اصطناعي مع دمج تقنيات مثل RAG.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو وكيل بحث يومي يستخدم Gemini والبحث عبر الويب على GitHub Actions. هذا يوضح قدرتي على بناء أنظمة وكلاء ذكاء اصطناعي فعالة.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nبما أن كل شيء جاهز من سيرفر واشتراكات، هل يمكننا تحديد المهام والأقسام التي تود أن تديرها هذه الوكلاء في شركتك الرقمية؟",
+      "foundAt": "2026-11-20T13:53:44.003Z",
+      "fresh": false
+    },
+    {
+      "title": "عمل وكيل ذكاء اصطناعي /وكيل سكريتير , لادارة الملفات",
+      "url": "https://mostaql.com/project/1294076",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع يكون مسؤول عن الفولدرات تبعت ملفاتي الشخصية، زي إيش؟ زي الهوية، زي جواز السفر، زي الإقامة، زي العقد الإيجار، زي ويكون مسؤول إنه متى بتنتهي هاي الأوراق ومتى بتخلص. ينبهني. ولما أقول له مثلاً ابعتلي صورة جوا",
+      "fit": 9,
+      "why": {
+        "ar": "يتطابق هذا المشروع مباشرة مع قدرة Moe على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة، وهو ما يفعله في وكيله الخاص Me.ai الذي يستخدم Gemini.",
+        "en": "This project directly matches Moe's capability to build AI agents and automation systems, as demonstrated by his own Me.ai agent which uses Gemini."
+      },
+      "watch": {
+        "ar": "يجب توضيح كيفية إدارة الوكيل للملفات (تخزين سحابي أو محلي) وآلية التكامل مع واتساب لإرسال الإشعارات والملفات.",
+        "en": "Clarify how the agent will manage files (cloud or local storage) and the mechanism for WhatsApp integration to send notifications and files."
+      },
+      "proposal": "أهلاً بك،\nأتفهم حاجتك لوكيل ذكاء اصطناعي يدير ملفاتك الشخصية، يتتبع تواريخ انتهاء الصلاحية، ويرسل لك التنبيهات، بالإضافة إلى إمكانية استرجاع الملفات والإجابة على استفساراتك. أعمل على بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي بمساعدة الذكاء الاصطناعي، وأستخدم تقنيات Gemini في تطوير هذه الأنظمة. لدي وكيل ذكاء اصطناعي خاص بي، Me.ai، يعمل كوكيل بحث يومي ويستخدم Gemini لجمع المعلومات. يمكنني بناء وكيل مشابه يلبي متطلبات إدارة ملفاتك بدقة وفعالية.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل تفضل أن يكون الوكيل متصلاً بنظام تخزين سحابي معين، أم سيكون له وصول إلى مجلدات محلية؟",
+      "foundAt": "2026-11-20T09:25:34.451Z",
+      "fresh": false
+    },
+    {
+      "title": "نشر تطبيق على نظام الاندرويد",
+      "url": "https://mostaql.com/project/1294231",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع السلام عليكم لدي تطبيق منشور على ابل ستور واحتاج شخص لديه الخبر في نشر التطبيق على نظام الاندرويد وحسابه قديم لنشر التطبيقات .. وايضا انهاء اجراءات المختبرين لنشر التطبيق عالحساب الشخصي فيما بعد بطاقة المش",
+      "fit": 9,
+      "why": {
+        "ar": "لدى Moe خبرة مثبتة في نشر التطبيقات على Google Play، حيث نشر 4 من تطبيقاته الخاصة، وهو ما يتوافق تمامًا مع هذا الطلب.",
+        "en": "Moe has proven experience in Google Play publishing, having published 4 of his own apps, which perfectly aligns with this request."
+      },
+      "watch": {
+        "ar": "يجب التأكد مما إذا كان العميل سيوفر ملف Android App Bundle (AAB) أو APK جاهزًا، وما إذا كانت هناك أي متطلبات خاصة للامتثال لسياسات Google Play.",
+        "en": "Confirm if the client will provide a ready Android App Bundle (AAB) or APK, and if there are any specific compliance requirements for Google Play policies."
+      },
+      "proposal": "أهلاً بك،\nأتفهم حاجتك لنشر تطبيقك الموجود على Apple Store إلى Google Play، بالإضافة إلى إدارة إجراءات المختبرين. لدي خبرة عملية في نشر تطبيقات أندرويد على Google Play وإدارة متطلباتها، وقد قمت بنشر 4 تطبيقات خاصة بي بنجاح. أستخدم أدوات الذكاء الاصطناعي في تطوير التطبيقات، وهذا يضمن كفاءة العمل. يمكنني مساعدتك في إتمام عملية النشر بسلاسة والتعامل مع أي تحديات قد تظهر، مستفيداً من حسابي القديم على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك ملف Android App Bundle (AAB) أو APK جاهز للنشر، أم ستحتاج إلى مساعدتي في تجهيزه؟",
+      "foundAt": "2026-11-20T09:25:34.451Z",
+      "fresh": false
+    },
+    {
+      "title": "بناء بوت واتساب شامل",
+      "url": "https://mostaql.com/project/1293982",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع بناء بوت واتساب لإصدار بوالص الشحن. يطلب اسم العميل. رقم الجوال العميل ارسال otp للتاكد من صحة الرقم مدينة الارسال. المرحلة الثانية: اسم المستلم رقم الجوال العنوان الوطني المختصر المرحلة الثالثة عرض شركات ",
+      "fit": 8,
+      "why": {
+        "ar": "يتوافق هذا المشروع مع قدرة Moe على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة، مع خبرته في التكامل مع واجهات برمجية (APIs).",
+        "en": "This project aligns with Moe's ability to build AI agents and automation systems, along with his experience in API integration."
+      },
+      "watch": {
+        "ar": "يجب التأكد من توفر وثائق واجهات برمجة التطبيقات (APIs) لشركات الشحن وبوابة الدفع (ميسر) لضمان سلاسة التكامل.",
+        "en": "Ensure that API documentation for shipping companies and the payment gateway (Moyasar) is available to ensure smooth integration."
+      },
+      "proposal": "أهلاً بك،\nأتفهم حاجتك لبناء بوت واتساب شامل لإصدار بوالص الشحن، يتضمن طلب معلومات العميل، التحقق عبر OTP، عرض خيارات الشحن، ومعالجة الدفع عبر بوابة ميسر، ثم إصدار البوليصة عبر API وإرسالها كملف PDF. أعمل على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة بمساعدة الذكاء الاصطناعي، ولدي خبرة في ربط الأنظمة بواجهات برمجية (APIs). وكيل الذكاء الاصطناعي الخاص بي، Me.ai، هو مثال على قدرتي على بناء أنظمة آلية ذكية. يمكنني بناء هذا البوت لتبسيط عملية إصدار بوالص الشحن لعملائك.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك وثائق API جاهزة لشركات الشحن وبوابة ميسر؟",
+      "foundAt": "2026-11-20T09:25:34.451Z",
+      "fresh": false
+    },
+    {
+      "title": "Daily Ops & AI Automation Assistant",
+      "url": "https://www.freelancer.com/projects/email-marketing/Daily-Ops-Automation-Assistant",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "750-1500 USD",
+      "posted": "1 hours ago",
+      "proposals": "38",
+      "flId": 40826989,
+      "postedAt": 1795142859,
+      "bidsAt": "2026-11-20T21:29:51.626Z",
+      "language": "en",
+      "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
+      "fit": 8,
+      "why": {
+        "ar": "Moe يبني وكلاء ذكاء اصطناعي يوميين (مثل تطبيق Me.ai الخاص به) ويمكنه تنفيذ أتمتة الذكاء الاصطناعي، وهو ما يتوافق مع طلب أتمتة المهام اليومية والتواصل عبر البريد الإلكتروني.",
+        "en": "Moe builds daily AI research/monitoring agents (like his Me.ai app) and can implement AI automations, which aligns with the request for AI automations for daily tasks and email outreach."
+      },
+      "watch": {
+        "ar": "التأكد من أن 'التواصل عبر البريد الإلكتروني' يتضمن إعداد وكيل ذكاء اصطناعي للمساعدة في رسائل البريد الإلكتروني، وليس إرسال رسائل بريد إلكتروني يدوياً.",
+        "en": "Ensure 'email outreach' involves setting up an AI agent to assist with emails, not manual email sending."
+      },
+      "proposal": "I can help you streamline your daily operations by building AI automations, including for email outreach and other recurring tasks. I build native Kotlin Android apps with AI-assisted development, and I have experience creating custom AI agents. For example, I use my own daily AI research agent, Me.ai, which leverages Gemini and web search to automate information gathering. This allows for efficient and consistent handling of routine business processes. I can set up intelligent systems to manage and automate parts of your workflow.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific types of email outreach and daily tasks you're looking to automate with AI?",
+      "foundAt": "2026-11-20T03:26:40.149Z",
+      "fresh": false,
+      "crowded": true
+    },
+    {
+      "title": "عمل بوت للرد على الايملات",
+      "url": "https://khamsat.com/community/requests/800930-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D9%84%D9%84%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D9%84%D8%A7%D8%AA",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يطلب عمل بوت للرد على الإيميلات، وهو يتوافق مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة (مثل وكيل Me.ai الخاص به).",
+        "en": "The project requests making a bot to reply to emails, which aligns with Moe's capability to build AI agents and automation bots (like his Me.ai agent)."
+      },
+      "watch": {
+        "ar": "الميزانية غير مذكورة، لذا يجب على Moe الاستفسار عنها. يجب أيضاً تحديد مدى تعقيد الردود المطلوبة من البوت.",
+        "en": "The budget is not specified, so Moe should inquire about it. The complexity of the required bot responses also needs to be clarified."
+      },
+      "proposal": "أهلاً بك،\nلقد اطلعت على طلبك لإنشاء بوت للرد على رسائل البريد الإلكتروني. أقدم خدمات بناء وكلاء الذكاء الاصطناعي وأتمتة المهام، تماماً مثل وكيل البحث اليومي Me.ai الذي أستخدمه شخصياً لجمع المعلومات.\nيمكنني تصميم وبناء هذا البوت ليقوم بالردود المطلوبة، مما يوفر عليك الوقت والجهد في إدارة رسائل البريد الإلكتروني. أستخدم التطوير بمساعدة الذكاء الاصطناعي لضمان كفاءة الحل وسرعة الإنجاز.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nما هي أنواع رسائل البريد الإلكتروني التي يحتاج البوت للرد عليها، وما هي المعلومات الأساسية التي يجب أن يتضمنها الرد؟",
+      "foundAt": "2026-11-19T18:28:20.975Z",
+      "fresh": false
+    }
+  ],
+  "rejected": [
+    {
+      "title": "USA Android Subscription Test",
+      "url": "https://www.freelancer.com/projects/mobile-app-testing/USA-Android-Subscription-Test",
+      "reason": {
+        "ar": "المشروع يتطلب اختبار اشتراكات تطبيق أندرويد من داخل الولايات المتحدة الأمريكية، وMoe لا يقيم هناك.",
+        "en": "The project requires testing Android app subscriptions from within the United States, and Moe is not located there."
+      }
+    },
+    {
+      "title": "Android Brain Game App User Feedback",
+      "url": "https://www.freelancer.com/projects/android/Android-Brain-Game-App-User",
+      "reason": {
+        "ar": "المشروع يطلب تقديم ملاحظات كمستخدم لتطبيق أندرويد، وليس تطوير تطبيقات. Moe هو مطور تطبيقات وليس مختبر مستخدمين عام.",
+        "en": "The project requests user feedback for an Android app, not app development. Moe is an app maker, not a general user tester."
+      }
+    },
+    {
+      "title": "تطوير تطبيق توصيل ركاب",
+      "url": "https://mostaql.com/project/1294337",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير تطبيق توصيل ركاب مثل أوبر، وهذا يتطلب بنية خلفية (backend) كبيرة ومعقدة تتجاوز قدرات Moe المحددة في Firebase (تسجيل الدخول، قاعدة بيانات، إشعارات).",
+        "en": "The project requires developing a ride-hailing app like Uber, which demands a large and complex backend, exceeding Moe's specified Firebase capabilities (login, database, push)."
+      }
+    },
+    {
+      "title": "Software Engineer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492148444/",
+      "reason": {
+        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
+        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
+      }
+    },
+    {
+      "title": "Mobile Developer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492149357/",
+      "reason": {
+        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
+        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
+      }
+    },
+    {
+      "title": "Mobile Developer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492149358/",
+      "reason": {
+        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
+        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
+      }
+    },
+    {
+      "title": "Software Engineer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492153023/",
+      "reason": {
+        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
+        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
+      }
+    },
+    {
+      "title": "Full Stack Engineer — AI Agents & Channels",
+      "url": "https://www.linkedin.com/jobs/view/4492913012/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Full Stack Engineer' يشير إلى وظيفة دائمة أو عقد طويل الأجل ضمن فريق شركة، وهو ما لا يفعله Moe.",
+        "en": "The job title 'Full Stack Engineer' indicates a staff or long-term contract role within a company team, which Moe does not undertake."
+      }
+    },
+    {
+      "title": "Software Engineer — Data & AI",
+      "url": "https://www.linkedin.com/jobs/view/4492948140/",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Software Engineer' يشير إلى وظيفة دائمة أو عقد طويل الأجل ضمن فريق شركة، وهو ما لا يفعله Moe.",
+        "en": "The job title 'Software Engineer' indicates a staff or long-term contract role within a company team, which Moe does not undertake."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 10,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "846 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "14 open projects from the last 5 days worldwide with budget 100+ USD (77 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 96 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "7 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "hn",
+        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 242 replies, 18 want a freelancer, 14 app/AI"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Hacker News posts added"
+      },
+      {
+        "step": "mostaql",
+        "msg": "phone relay last read 2 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161120ch 28 links; HTTP 200 160994ch 27 links; HTTP 200 164144ch 27 links; )"
+      },
+      {
+        "step": "mostaql",
+        "msg": "29 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+      },
+      {
+        "step": "verify",
+        "msg": "2 new Mostaql projects added from the phone"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+      },
+      {
+        "step": "arab",
+        "msg": "0 relevant Arabic projects"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql/Khamsat projects added"
+      },
+      {
+        "step": "linkedin",
+        "msg": "294 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full Stack Agent Platform Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer (Mid) - Backend AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4492913012: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer, AI Agent Platform"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Software Engineer(EN)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Agentic AI - Forward Deployed Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4492948140: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Agent Developer & Integration Specialist"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI/ML Senior Lead Software Engineer - Agentic Pricing"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Talently)): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Agent Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Copilot & AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Applied AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Engineer (Internal Tools & Agents)"
+      },
+      {
+        "step": "verify",
+        "msg": "6 of 25 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Reddit posts added"
+      },
+      {
+        "step": "verify",
+        "msg": "2 new Freelancer projects added, 10 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 9 via gemini-2.5-flash"
+      },
+      {
+        "step": "freelancer",
+        "msg": "crowded now (38 bids): Daily Ops & AI Automation Assistant"
+      },
+      {
+        "step": "freelancer",
+        "msg": "closed, removed: Build Autonomous API-Driven CEO Agent"
+      }
+    ]
+  }
+}
