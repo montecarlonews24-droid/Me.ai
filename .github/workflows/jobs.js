@@ -410,32 +410,51 @@ async function mostaqlRelayFeed() {
   return list;
 }
 
-// ---------- Hacker News: خيط "Freelancer? Seeking freelancer?" الشهري ----------
-// شركات ناشئة (أغلبها أمريكا وأوروبا) بتكتب "SEEKING FREELANCER" مع إيميل للتواصل. API عام وببلاش.
+// ---------- Hacker News ----------
+// 1) خيط "Freelancer? Seeking freelancer?" الشهري. HN وقّف ينشره من حساب whoishiring بعد أكتوبر 2025،
+//    وصار ينزل من مستخدمين عاديين، فمندوّر عليه بالعنوان مش بالكاتب.
+// 2) خيط "Who is hiring?" الرسمي (لسا من whoishiring): الشركات اللي بدها فريلانسر صارت تكتب هناك،
+//    فمنوخذ بس المنشورات اللي أول سطر فيها Contract / Freelance / Part-time.
 const HN_RELEVANT = /android|kotlin|mobile app|\bapp\b|apps\b|\bai\b|\bllm|gpt|gemini|claude|openai|agent|automation|automate|chatbot|\bbot\b|firebase|play store|google play|webview|scrap/i;
+const HN_FREELANCE_HEAD = /contract|freelanc|part[- ]?time|consult/i;
+async function hnThreads(query, titleRe, n) {
+  const r = await fetch(`https://hn.algolia.com/api/v1/search_by_date?tags=story&query=${encodeURIComponent(query)}&hitsPerPage=30`);
+  if (!r.ok) { log('hn', `search "${query}" HTTP ${r.status}`); return []; }
+  const hits = ((await r.json())?.hits || []).filter(h => titleRe.test(h.title || '') && (h.num_comments || 0) > 0);
+  const official = hits.filter(h => h.author === 'whoishiring');
+  return (official.length && /hiring/i.test(query) ? official : hits)
+    .sort((a, b) => b.created_at_i - a.created_at_i).slice(0, n);
+}
+const hnText = h => strip(String(h || '').replace(/<p>/gi, '\n').replace(/&#x([0-9a-f]+);/gi, (_, x) => String.fromCharCode(parseInt(x, 16))))
+  // Algolia أحياناً بيلزّق عنوان الخيط بأول الرد ("... on: Ask HN: ... (November 2026)")
+  .replace(/^[\s\S]{0,250}?\bon:\s*Ask HN:[^)]*\)\s*/i, '')
+  .replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
 async function hnFeed() {
   const list = [];
   try {
-    const q = await fetch('https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&query=freelancer&hitsPerPage=3');
-    if (!q.ok) { log('hn', `search HTTP ${q.status}`); return list; }
-    const hits = ((await q.json())?.hits || []).filter(h => /seeking freelancer/i.test(h.title || ''));
-    if (!hits.length) { log('hn', 'no "Seeking freelancer" thread found'); return list; }
-    // الخيط الحالي، ولو عمره أقل من 5 أيام كمان اللي قبله
-    const threads = hits.slice(0, (Date.now() / 1000 - hits[0].created_at_i) < 5 * 86400 ? 2 : 1);
     const now = Date.now() / 1000;
-    let total = 0, skipped = 0;
-    for (const th of threads) {
+    const fThreads = await hnThreads('Freelancer? Seeking freelancer?', /freelancer\?\s*seeking freelancer/i, 2);
+    const hThreads = await hnThreads('Ask HN: Who is hiring?', /^ask hn: who is hiring\?/i, 1);
+    if (!fThreads.length && !hThreads.length) { log('hn', 'no threads found'); return list; }
+    const stats = [];
+    for (const [kind, th] of [...fThreads.map(t => ['freelancer', t]), ...hThreads.map(t => ['hiring', t])]) {
+      if (now - th.created_at_i > 40 * 86400) { stats.push(`${kind}: "${th.title}" too old`); continue; }
       const r = await fetch(`https://hn.algolia.com/api/v1/items/${th.objectID}`);
-      if (!r.ok) { log('hn', `thread HTTP ${r.status}`); continue; }
-      const d = await r.json();
-      for (const c of d?.children || []) {
-        const text = strip(String(c.text || '').replace(/<p>/gi, '\n').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))).replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
-        if (!/^\s*seeking\s+freelancer/i.test(text)) continue;   // "SEEKING WORK" = ناس بيعرضوا حالهم، مش زباين
-        total++;
-        const age = now - (c.created_at_i || now);
-        if (age > 14 * 86400) { skipped++; continue; }
-        if (!HN_RELEVANT.test(text)) { skipped++; continue; }
-        const body = text.replace(/^\s*seeking\s+freelancer\s*[|:\-–—]*\s*/i, '');
+      if (!r.ok) { log('hn', `thread ${th.objectID} HTTP ${r.status}`); continue; }
+      const kids = (await r.json())?.children || [];
+      let match = 0, kept = 0;
+      for (const c of kids) {
+        const text = hnText(c.text);
+        if (!text) continue;
+        const head = text.slice(0, 200);
+        if (kind === 'freelancer') {
+          if (/^\s*seeking\s+work/i.test(text) || !/seeking\s+freelancer/i.test(head)) continue;   // SEEKING WORK = ناس بيعرضوا حالهم
+        } else if (!HN_FREELANCE_HEAD.test(text.split('\n')[0].slice(0, 250))) continue;
+        match++;
+        if (now - (c.created_at_i || now) > 35 * 86400) continue;
+        if (!HN_RELEVANT.test(text)) continue;
+        kept++;
+        const body = text.replace(/^\s*seeking\s+freelancers?\s*[|:\-–—]*\s*/i, '');
         const lines = body.split('\n').map(x => x.trim()).filter(Boolean);
         const title = (lines[0] || body) + (lines[1] ? ' — ' + lines[1].slice(0, 90) : '');
         list.push({
@@ -443,11 +462,15 @@ async function hnFeed() {
           url: `https://news.ycombinator.com/item?id=${c.id}`,
           market: 'west', platform: 'HackerNews', country: /\bremote\b/i.test(text) ? 'Remote' : '', budget: '',
           posted: ago(c.created_at_i || now), proposals: '',
-          language: 'en', summary: body.slice(0, 220), pageText: body.slice(0, 1800)
+          language: 'en', summary: body.slice(0, 220), pageText: body.slice(0, 1800),
+          _t: c.created_at_i || 0, _k: kind
         });
       }
+      stats.push(`${kind}: "${th.title}" ${kids.length} replies, ${match} want a freelancer, ${kept} app/AI`);
     }
-    log('hn', `${list.length} relevant "Seeking freelancer" posts (${total} in thread, ${skipped} skipped: old or not app/AI)`);
+    list.sort((a, b) => (a._k === b._k ? b._t - a._t : a._k === 'freelancer' ? -1 : 1));
+    list.forEach(l => { delete l._t; delete l._k; });
+    log('hn', `${list.length} relevant posts | ${stats.join(' | ')}`);
   } catch (e) {
     log('hn', e.message);
   }
