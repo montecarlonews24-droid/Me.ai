@@ -1,124 +1,146 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T00:22:30.157Z",
+  "generatedAt": "2026-11-20T12:22:09.959Z",
   "model": "gemini-2.5-flash",
-  "summary": "معظم الأفكار المقترحة كانت تعاني من تشبع عالٍ في السوق أو كانت معقدة للغاية لتنفيذها بواسطة مطور واحد في غضون 3 أسابيع، خاصة تلك التي تستهدف الأسواق العالمية. الفكرة الوحيدة التي تبرز هي 'مرشد قانوني' والتي تتماشى بقوة مع اهتمامات Moe السابقة في تبسيط الوثائق والإجراءات القانونية باللغة العربية في منطقة الخليج.",
+  "summary": "يركز هذا التقييم على أفكار تطبيقات الذكاء الاصطناعي التي تبسط المستندات المعقدة، مع تفضيل الحلول العربية الأولى التي تستهدف منطقة الخليج والعالم العربي. تم قبول فكرتين فقط لتوافقهما التام مع اهتمامات المطور وقدراته.",
   "trends": [
-    "الذكاء الاصطناعي لتبسيط الوثائق والإجراءات المعقدة",
-    "الحلول المحلية المدعومة بالذكاء الاصطناعي (خاصة باللغة العربية ومنطقة الخليج)",
-    "تطبيقات المساعد الشخصي بالذكاء الاصطناعي التي تسد فجوات محددة للمستخدمين العاديين"
+    "الذكاء الاصطناعي لتبسيط المستندات",
+    "تطبيقات الذكاء الاصطناعي العربية الأولى",
+    "حلول موجهة للمستهلك في قطاعات متخصصة"
   ],
   "ideas": [
     {
-      "name": "مرشد قانوني",
-      "pitch": "مساعد ذكاء اصطناعي يبسط الإجراءات والوثائق القانونية الشائعة (مثل عقود الإيجار، حقوق الموظفين) في دول الخليج العربي.",
-      "problem": "يجد الأفراد والشركات الصغيرة في دول الخليج صعوبة في فهم المصطلحات القانونية المعقدة والإجراءات الحكومية، مما يؤدي إلى عدم اليقين والأخطاء.",
-      "audience": "الأفراد وأصحاب الشركات الناشئة في دول مجلس التعاون الخليجي (السعودية، الإمارات، قطر، الكويت) الذين يحتاجون إلى إرشادات قانونية مبسطة باللغة العربية.",
-      "whyNow": "تظهر أسواق الخليج معدلات LTV (القيمة الدائمة للعميل) عالية، مما يشير إلى استعداد لدفع مقابل الحلول. يعكس هذا التطبيق تفضيل Moe لمساعدي الذكاء الاصطناعي لتبسيط المستندات والإجراءات، مع توسيع النطاق ليشمل المنطقة العربية بأكملها.",
-      "competition": "متوسطة",
+      "name": "HealthTranslate AI (ترجمة صحية ذكية)",
+      "pitch": "تطبيق ذكاء اصطناعي عربي-أول لتبسيط التقارير الطبية والمعلومات الصحية (مثل نتائج الفحوصات المخبرية، تعليمات الأدوية، التشخيصات الشائعة) إلى لغة عربية سهلة الفهم للمرضى ومقدمي الرعاية في جميع أنحاء العالم العربي.",
+      "problem": "يواجه المرضى ومقدمو الرعاية الناطقون باللغة العربية صعوبة في فهم المصطلحات الطبية المعقدة في تقاريرهم الصحية، مما يؤثر على مشاركتهم في رحلة علاجهم.",
+      "audience": "المرضى ومقدمو الرعاية في جميع أنحاء العالم العربي والخليج.",
+      "whyNow": "يوجد طلب كبير على تبسيط المعلومات الطبية للمرضى. يتوافق هذا مع فكرة Sahhati AI التي أعجب بها Moe. مع وجود أدوات النسخ الطبي العربية المدعومة بالذكاء الاصطناعي، يمكن لمو أن يطور تطبيقًا يركز على المريض ومقدم الرعاية في وقت قصير، مستفيدًا من قدرات معالجة اللغة العربية للذكاء الاصطناعي.",
+      "competition": "منخفضة",
       "competitors": [
-        "LexisNexis",
-        "LAITRON",
-        "Waddah AI",
-        "realLaw AI",
-        "GulfLaw.ai / Qanu",
-        "LexArab",
-        "Sylos"
+        "HealthOrbit AI",
+        "Arabic.ai (HIKMA AI)"
       ],
-      "edge": "التركيز على الأفراد والشركات الصغيرة في دول الخليج العربي، وتبسيط الإجراءات والوثائق القانونية الشائعة إلى لغة عربية سهلة الفهم، على عكس المنافسين الذين يستهدفون المحترفين القانونيين والمهام القانونية المتقدمة.",
-      "monetization": "نموذج فريميوم: تبسيط أساسي مجاني، واشتراك للميزات المتقدمة مثل قوالب الوثائق القانونية القابلة للتخصيص، وشروحات متعمقة، واستشارات افتراضية لمواضيع محددة، أو تحليل عدد أكبر من الوثائق.",
+      "edge": "تطبيق ذكاء اصطناعي عربي-أول يركز بشكل خاص على تبسيط التقارير الطبية والمعلومات الصحية المعقدة إلى لغة عربية سهلة الفهم ومناسبة لعامة المرضى ومقدمي الرعاية، مع مراعاة اللهجات والفروق الثقافية لتعزيز الثقة والتواصل الواضح، على عكس الأدوات الموجهة للمراكز الطبية أو المهنيين.",
+      "monetization": "نموذج فريميوم (تقارير مجانية محدودة)، اشتراك للتقارير غير المحدودة والميزات المتقدمة (مثل تتبع الاتجاهات الصحية، نصائح صحية مخصصة).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 14,
+      "score": 9.5,
+      "firstStep": "جمع عينة من التقارير الطبية العربية الشائعة (نتائج مختبرات، وصفات أدوية) لتدريب أو ضبط نموذج الذكاء الاصطناعي على تبسيطها."
+    },
+    {
+      "name": "LegalLens AI (عدسة قانونية)",
+      "pitch": "تطبيق ذكاء اصطناعي عربي-أول لتبسيط المستندات والعقود القانونية العامة (مثل عقود العمل، اتفاقيات العقارات الشائعة في الخليج والعالم العربي) إلى لغة عربية واضحة، مع شرح المصطلحات القانونية وتحديد البنود الرئيسية، مع التركيز على المفاهيم القانونية الشائعة عبر المنطقة.",
+      "problem": "يجد الأفراد والشركات الصغيرة في العالم العربي صعوبة في فهم المستندات القانونية المعقدة والصيغ القانونية التي غالبًا ما تختلف في اللهجات وتطبيقاتها.",
+      "audience": "الأفراد والمهنيون في جميع أنحاء العالم العربي والخليج (المملكة العربية السعودية، الإمارات العربية المتحدة، قطر، الكويت، إلخ).",
+      "whyNow": "يتوافق هذا مع اهتمام Moe بتبسيط المستندات القانونية (مثل Aqari AI وWadih). بينما توجد أدوات قانونية عربية متخصصة، يمكن أن يستهدف هذا التطبيق شريحة المستهلكين الأوسع التي تبحث عن فهم مبسط للوثائق القانونية الشائعة عبر المنطقة، مع تجنب التعمق في القوانين المحلية المعقدة لدولة واحدة.",
+      "competition": "منخفضة",
+      "competitors": [
+        "Arabic.ai (LLM-X)",
+        "أدوات ترجمة عامة بالذكاء الاصطناعي"
+      ],
+      "edge": "فجوة واضحة في تطبيقات الذكاء الاصطناعي العربية الأولى المخصصة لتبسيط المستندات والعقود القانونية العامة، مع تركيز خاص على المفاهيم القانونية الشائعة في الخليج والعالم العربي، وشرح المصطلحات القانونية بوضوح وتحديد البنود الرئيسية بلغة عربية سهلة الفهم، مع مراعاة الفروق الدقيقة الإقليمية، على عكس النماذج اللغوية العامة أو أدوات الترجمة.",
+      "monetization": "نموذج فريميوم (ملخصات مجانية محدودة)، اشتراك للوثائق غير المحدودة والميزات المتقدمة (مثل حفظ الوثائق، تسليط الضوء على بنود محددة).",
       "buildDifficulty": "متوسط",
       "buildDays": 15,
       "score": 9,
-      "firstStep": "تحديد 2-3 من الإجراءات أو الوثائق القانونية الأكثر شيوعًا في دولة خليجية واحدة (مثل عقود الإيجار الأساسية في الأردن أو السعودية) وجمع نصوصها القانونية لتدريب النموذج الأولي."
+      "firstStep": "تحديد قائمة بالعقود والوثائق القانونية العربية العامة الأكثر شيوعًا في المنطقة (مثل عقود الإيجار النموذجية، اتفاقيات العمل الأساسية) التي سيتم التركيز عليها في المرحلة الأولى."
     }
   ],
   "rejected": [
     {
-      "name": "ContractSense AI",
-      "reason": "الفكرة واسعة النطاق للغاية (عالمية، قانونية ومالية معاً) ومعقدة جداً لمطور واحد في 3 أسابيع، خاصة فيما يتعلق بضمان الدقة القانونية والمالية عبر ولايات قضائية مختلفة. كما أن السوق مشبع بالعديد من الأدوات الموجهة للمحترفين أو التي تركز على جانب واحد فقط."
+      "name": "Contract Clarity AI",
+      "reason": "تشبع عالٍ في السوق الإنجليزية العالمية، ولا يتوافق مع تفضيل Moe للحلول العربية الأولى والمحلية. نطاق العمل القانوني يتطلب دقة عالية ومسؤولية كبيرة يصعب تحقيقها في إطار زمني قصير لمطور واحد."
     },
     {
-      "name": "ReGenie AI",
-      "reason": "السوق مشبع للغاية بتطبيقات الصحة والعافية المدعومة بالذكاء الاصطناعي. الفجوة المقترحة (تدريب تكيفي شامل) تتطلب مستوى عالٍ جداً من التعقيد في الذكاء الاصطناعي وتكامل البيانات، وهو أمر يتجاوز قدرة مطور واحد في 3 أسابيع. كما أنها لا تتماشى مع اهتمامات Moe السابقة."
+      "name": "Medical Insight AI",
+      "reason": "على الرغم من أن المجال (تبسيط المعلومات الطبية) يثير اهتمام Moe، إلا أن هذا الاقتراح يستهدف السوق الإنجليزية العالمية بدلاً من التركيز العربي الأول والمحلي الذي يفضله Moe. المنافسة متوسطة في هذا السوق، وبناء حل موثوق به في 1-3 أسابيع صعب نظرًا لحساسية المعلومات الطبية."
     },
     {
-      "name": "MoneyMind AI",
-      "reason": "السوق مشبع بتطبيقات التمويل الشخصي. على الرغم من أن الفجوة تشير إلى التخصيص العربي، إلا أن الفكرة الأصلية تستهدف جمهوراً عالمياً (الولايات المتحدة، أوروبا، أستراليا)، مما يجعلها معقدة للغاية في تكامل البيانات المصرفية عبر مناطق متعددة. كما أن Moe رفض أفكاراً مالية مشابهة سابقاً."
+      "name": "Policy Pal AI",
+      "reason": "يتعارض هذا الاقتراح مع أفكار سابقة لم تعجب Moe في مجال تبسيط الوثائق المالية/السياسات (مثل Taminee AI وMizaniyati AI)، حتى لو كان يركز على تبسيط المستندات. كما أنه يستهدف السوق الإنجليزية العالمية بدلاً من التركيز العربي الأول والمحلي."
     },
     {
-      "name": "StudyFlow AI",
-      "reason": "السوق مشبع جداً بأدوات التعليم المدعومة بالذكاء الاصطناعي. الفجوة المقترحة (إدارة سير عمل دراسي شاملة وتكيفية) تتطلب تطوير ذكاء اصطناعي معقد لتنظيم المواد وتكييف المحتوى وتوليده، وهو أمر يتجاوز قدرة مطور واحد في 3 أسابيع. كما أنها لا تتماشى مع اهتمامات Moe السابقة."
+      "name": "Smart Study Summarizer",
+      "reason": "تشبع عالٍ في السوق الإنجليزية العالمية لأدوات تلخيص الدراسة. لا يتوافق مع تفضيل Moe للحلول العربية الأولى والمحلية، والمجال الأكاديمي ليس ضمن اهتماماته الرئيسية الموضحة."
     },
     {
-      "name": "Momentum Pal AI",
-      "reason": "السوق مشبع بتطبيقات الإنتاجية المصممة لاضطراب فرط الحركة ونقص الانتباه. الفجوة المقترحة (إشعارات استباقية وشخصية للغاية وغير تطفلية) تتطلب ذكاءً اصطناعياً معقداً لفهم الأنماط السلوكية والتوقيت الأمثل، وهو أمر يتجاوز قدرة مطور واحد في 3 أسابيع. كما أنها لا تتماشى مع اهتمامات Moe السابقة."
+      "name": "Global Compliance Navigator AI",
+      "reason": "نطاق 'الامتثال العالمي' واسع ومعقد للغاية لمطور واحد في 1-3 أسابيع، ويحمل مخاطر مسؤولية قانونية كبيرة. كما أنه يستهدف السوق الإنجليزية العالمية بدلاً من التركيز العربي الأول والمحلي الذي يفضله Moe، على الرغم من أن مجال تأسيس الأعمال يثير اهتمامه."
     },
     {
-      "name": "CareCircle AI",
-      "reason": "السوق مشبع بتطبيقات رعاية كبار السن. الفجوة المقترحة (إشعارات فحص يومي سلبية وغير تدخلية للغاية بناءً على نشاط الجهاز) تتطلب تقنية معقدة وحساسة أخلاقياً، ومن الصعب تنفيذها بشكل موثوق وفعال بواسطة مطور واحد في 3 أسابيع. كما أنها لا تتماشى مع اهتمامات Moe السابقة."
-    },
-    {
-      "name": "فهم مالي",
-      "reason": "على الرغم من التركيز على اللغة العربية ومنطقة الخليج، إلا أن Moe رفض أفكاراً مالية مشابهة سابقاً (مثل 'Maliyati Al-Wadiha' و 'Mizaniyati AI'). التحدي التقني المتمثل في التكامل الآمن مع البنوك المتعددة في الخليج أو تحليل كشوفات الحسابات المصرفية المتنوعة باللغة العربية مع تقديم رؤى تفسيرية عميقة، كبير جداً لمطور واحد في 3 أسابيع."
+      "name": "Personal Finance Decoder AI",
+      "reason": "رفض Moe سابقًا أفكارًا متعلقة بالتمويل الشخصي والميزانية (مثل Maliyati Al-Wadiha وMizaniyati AI)، مما يشير إلى أن هذا المجال لا يثير اهتمامه. بالإضافة إلى ذلك، فإن التعامل مع المستندات المالية العالمية وتقديم 'رؤى قابلة للتنفيذ' يحمل مخاطر عالية ويتطلب دقة فائقة يصعب تحقيقها في إطار زمني قصير لمطور واحد."
     }
   ],
   "en": {
-    "summary": "Most proposed ideas suffered from high market saturation or were too complex for a single developer to implement within 3 weeks, especially those targeting global markets. The only idea that stands out is 'Legal Guide', which strongly aligns with Moe's previous interests in simplifying legal documents and procedures in Arabic in the Gulf region.",
+    "summary": "This evaluation focuses on AI application ideas that simplify complex documents, prioritizing Arabic-first solutions targeting the Gulf region and the Arab world. Only two ideas were accepted due to their full alignment with the developer's interests and capabilities.",
     "trends": [
-      "AI for simplifying complex documents and procedures",
-      "Local AI-powered solutions (especially in Arabic and the Gulf region)",
-      "AI personal assistant apps that fill specific gaps for everyday users"
+      "AI for Document Simplification",
+      "Arabic-First AI Applications",
+      "Consumer-Oriented Solutions in Specialized Sectors"
     ],
     "ideas": [
       {
-        "name": "مرشد قانوني",
-        "pitch": "An AI assistant that simplifies common legal procedures and documents (such as lease agreements, employee rights) in Arab Gulf countries.",
-        "problem": "Individuals and small businesses in Gulf countries find it difficult to understand complex legal terminology and government procedures, leading to uncertainty and errors.",
-        "audience": "Individuals and startup owners in GCC countries (Saudi Arabia, UAE, Qatar, Kuwait) who need simplified legal guidance in Arabic.",
-        "whyNow": "Gulf markets show high LTV (Customer Lifetime Value) rates, indicating a willingness to pay for solutions. This app reflects Moe's preference for AI assistants to simplify documents and procedures, while expanding the scope to cover the entire Arab region.",
-        "competition": "Medium",
+        "name": "HealthTranslate AI (ترجمة صحية ذكية)",
+        "pitch": "An Arabic-first AI application to simplify medical reports and health information (such as lab test results, medication instructions, common diagnoses) into easy-to-understand Arabic for patients and caregivers across the Arab world.",
+        "problem": "Arabic-speaking patients and caregivers struggle to understand complex medical terminology in their health reports, affecting their participation in their treatment journey.",
+        "audience": "Patients and caregivers across the Arab world and the Gulf.",
+        "whyNow": "There is a high demand for simplifying medical information for patients. This aligns with the Sahhati AI idea that Moe liked. With existing Arabic AI-powered medical transcription tools, Moe can quickly develop a patient and caregiver-focused application, leveraging AI's Arabic language processing capabilities.",
+        "competition": "Low",
         "competitors": [
-          "LexisNexis",
-          "LAITRON",
-          "Waddah AI",
-          "realLaw AI",
-          "GulfLaw.ai / Qanu",
-          "LexArab",
-          "Sylos"
+          "HealthOrbit AI",
+          "Arabic.ai (HIKMA AI)"
         ],
-        "edge": "Focus on individuals and small businesses in Arab Gulf countries, simplifying common legal procedures and documents into easy-to-understand Arabic, unlike competitors who target legal professionals and advanced legal tasks.",
-        "monetization": "Freemium model: free basic simplification, and a subscription for advanced features such as customizable legal document templates, in-depth explanations, virtual consultations for specific topics, or analysis of a larger number of documents.",
+        "edge": "An Arabic-first AI application specifically focused on simplifying complex medical reports and health information into easy-to-understand Arabic suitable for general patients and caregivers, taking into account dialects and cultural nuances to foster trust and clear communication, unlike tools aimed at medical centers or professionals.",
+        "monetization": "Freemium model (limited free reports), subscription for unlimited reports and advanced features (e.g., health trend tracking, personalized health tips).",
+        "buildDifficulty": "Medium",
+        "buildDays": 14,
+        "score": 9.5,
+        "firstStep": "Collect a sample of common Arabic medical reports (lab results, medication prescriptions) to train or fine-tune the AI model for simplification."
+      },
+      {
+        "name": "LegalLens AI (عدسة قانونية)",
+        "pitch": "An Arabic-first AI application to simplify general legal documents and contracts (such as employment contracts, common real estate agreements in the Gulf and Arab world) into clear Arabic, explaining legal terms and identifying key clauses, with a focus on common legal concepts across the region.",
+        "problem": "Individuals and small businesses in the Arab world find it difficult to understand complex legal documents and legal formulations that often vary in dialects and their applications.",
+        "audience": "Individuals and professionals across the Arab world and the Gulf (Saudi Arabia, UAE, Qatar, Kuwait, etc.).",
+        "whyNow": "This aligns with Moe's interest in simplifying legal documents (e.g., Aqari AI and Wadih). While specialized Arabic legal tools exist, this application can target the broader consumer segment seeking a simplified understanding of common legal documents across the region, avoiding deep dives into complex local laws of a single country.",
+        "competition": "Low",
+        "competitors": [
+          "Arabic.ai (LLM-X)",
+          "أدوات ترجمة عامة بالذكاء الاصطناعي"
+        ],
+        "edge": "A clear gap in Arabic-first AI applications dedicated to simplifying general legal documents and contracts, with a special focus on common legal concepts in the Gulf and Arab world, clearly explaining legal terms and identifying key clauses in easy-to-understand Arabic, taking into account regional nuances, unlike general language models or translation tools.",
+        "monetization": "Freemium model (limited free summaries), subscription for unlimited documents and advanced features (e.g., document saving, highlighting specific clauses).",
         "buildDifficulty": "Medium",
         "buildDays": 15,
         "score": 9,
-        "firstStep": "Identify 2-3 of the most common legal procedures or documents in one Gulf country (e.g., basic lease agreements in Jordan or Saudi Arabia) and collect their legal texts to train the prototype."
+        "firstStep": "Identify a list of the most common general Arabic legal contracts and documents in the region (e.g., standard lease agreements, basic employment agreements) to focus on in the first phase."
       }
     ],
     "rejected": [
       {
-        "name": "ReGenie AI",
-        "reason": "The market is highly saturated with AI-powered health and wellness apps. The proposed gap (comprehensive adaptive training) requires a very high level of AI complexity and data integration, which is beyond the capacity of a single developer in 3 weeks. It also does not align with Moe's previous interests."
+        "name": "Contract Clarity AI",
+        "reason": "High saturation in the global English market, and does not align with Moe's preference for Arabic-first and local solutions. The scope of legal work requires high accuracy and significant responsibility, which is difficult for a single developer to achieve within a short timeframe."
       },
       {
-        "name": "MoneyMind AI",
-        "reason": "The market is saturated with personal finance apps. Although the gap points to Arabic customization, the original idea targets a global audience (USA, Europe, Australia), making it extremely complex for banking data integration across multiple regions. Moe has also previously rejected similar financial ideas."
+        "name": "Medical Insight AI",
+        "reason": "Although the field (simplifying medical information) interests Moe, this proposal targets the global English market instead of the Arabic-first and local focus Moe prefers. Competition is moderate in this market, and building a reliable solution in 1-3 weeks is difficult given the sensitivity of medical information."
       },
       {
-        "name": "StudyFlow AI",
-        "reason": "The market is highly saturated with AI-powered education tools. The proposed gap (comprehensive and adaptive study workflow management) requires complex AI development for organizing materials, adapting content, and generating it, which is beyond the capacity of a single developer in 3 weeks. It also does not align with Moe's previous interests."
+        "name": "Policy Pal AI",
+        "reason": "This proposal contradicts previous ideas Moe disliked in the field of simplifying financial documents/policies (e.g., Taminee AI and Mizaniyati AI), even if it focuses on document simplification. It also targets the global English market instead of the Arabic-first and local focus."
       },
       {
-        "name": "Momentum Pal AI",
-        "reason": "The market is saturated with productivity apps designed for ADHD. The proposed gap (proactive, highly personalized, and non-intrusive notifications) requires complex AI to understand behavioral patterns and optimal timing, which is beyond the capacity of a single developer in 3 weeks. It also does not align with Moe's previous interests."
+        "name": "Smart Study Summarizer",
+        "reason": "High saturation in the global English market for study summarization tools. It does not align with Moe's preference for Arabic-first and local solutions, and the academic field is not among his stated main interests."
       },
       {
-        "name": "CareCircle AI",
-        "reason": "The market is saturated with elder care apps. The proposed gap (highly passive and non-intrusive daily check-in notifications based on device activity) requires complex and ethically sensitive technology, and it's difficult to implement reliably and effectively by a single developer in 3 weeks. It also does not align with Moe's previous interests."
+        "name": "Global Compliance Navigator AI",
+        "reason": "The scope of 'global compliance' is too broad and complex for a single developer in 1-3 weeks, and carries significant legal liability risks. It also targets the global English market instead of the Arabic-first and local focus Moe prefers, although the field of business establishment interests him."
       },
       {
-        "name": "Financial Understanding",
-        "reason": "Despite the focus on Arabic and the Gulf region, Moe has previously rejected similar financial ideas (such as 'Maliyati Al-Wadiha' and 'Mizaniyati AI'). The technical challenge of securely integrating with multiple banks in the Gulf or analyzing diverse Arabic bank statements while providing deep interpretive insights is too great for a single developer in 3 weeks."
+        "name": "Personal Finance Decoder AI",
+        "reason": "Moe previously rejected ideas related to personal finance and budgeting (e.g., Maliyati Al-Wadiha and Mizaniyati AI), indicating that this field does not interest him. Furthermore, dealing with global financial documents and providing 'actionable insights' carries high risks and requires extreme accuracy, which is difficult for a single developer to achieve within a short timeframe."
       }
     ]
   },
@@ -128,11 +150,11 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "58 past ideas, 6 liked, 16 disliked"
+        "msg": "59 past ideas, 6 liked, 16 disliked"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: ContractSense AI, ReGenie AI, MoneyMind AI, StudyFlow AI, Momentum Pal AI, CareCircle AI, مرشد قانوني (Murshid Qanuni), فهم مالي (Fahim Mali)"
+        "msg": "8 candidates via gemini-2.5-flash: Contract Clarity AI, Medical Insight AI, Policy Pal AI, Smart Study Summarizer, Global Compliance Navigator AI, Personal Finance Decoder AI, LegalLens AI (عدسة قانونية), HealthTranslate AI (ترجمة صحية ذكية)"
       },
       {
         "step": "compete",
@@ -140,7 +162,7 @@
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 7 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 6 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -150,84 +172,84 @@
   },
   "sources": [
     {
-      "title": "tech-stack.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjudPUUfFMr-Z2UcYaSPP8WeKIs3TfG3QZYnV9PEKFEPkMN6eFjzOQ2y9r2av-owBfikK1LcoMngoGV7U0HFFrjJVO9TP_3i0JXsvDmO8bxQMIJcONoA9D8WOMfrsFuVqeZoc="
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHN2L26KlMbE20X7nWhMPLV8epp1iHlZF2yDbM3_g0ILJVUU1TRneFkHX_P3f9U2AMKmVsc1go-upYnq3MVibNe5b1WZ3U1VNB5EToPvJ0nMk0wNbnlWTUXkB6gCOF9TtR3XtcjbXxyNgJAAO94ADni9h_V785dxN3efolI3VgjHxMuEwiZsZ1QfFLdUMARql3YQrjJ6QoBR9TgjOWyrQ8FfRpuPWdBJX1iM2nGJExeZub9dI="
+    },
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6QDZbNxHvYv_n3Ey1hOsPTHjvCZkxSCslBT7WGLJGO4n1r97xiSCUVw759PAmOCcnsx_Aaqy4DM5a_CJ9vdDV7rlAEnTosI2nl6vC7U_jN4w3CcS9z4KxTht2zYImvPIxLaYl0Y0tYFLfarTx9pqabYEeWjydtqk8ZWgi4AyxPrVAkHO--PHNZbYofP8UoU-42HaqwFWhkMBqIgprOROy95CG"
     },
     {
       "title": "rocketeams.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYQg5lcXXQqUtmvbUaqxfr4rNKjaWoliaBhtfcKsbiexe2f4Mbyymvj9qH6AlXlz5V6K_ggdGTxpcuDfLy8aECJPOyy9CPZoGGY6N1qSBBMV9fcpK0Dqd5R4lk-vswcXCZXNRFONTbVlIZEOrS_trBa98qtuNnFg4kCeinfH_xsrt-8Ho="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBZzTpxSF6E_iAaWet5SYhAfg4P4V_l_5MoszWLt76u4HZpOtHpNHgvXqeQPfEQsBA8m-UbWWnpNALXfubHT9csUSi-8tOcx4plUIu4GG6wXGVOO-ZUxdcRhTp9DiSRnQzUr_f5DBB_NVyrr71wuiPLb68OBKmYcVuVCpyxX7-pqsxTDM="
     },
     {
-      "title": "dreamprogramming.in",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZz0VSxSmyCllK-UZr9ibt436LgewLBR_4ojcleHYZ-PV3LfgELiOgen2CH_Ofe3LruLkTYUd89e6NMrtEC8t_ck0n0KRYW5SsGCcd_oAyIyfcim6GCKc1qVcO-Oifnkx7wn5at-XQ-lGNL1Ma2R_1GylY20owzYbMApI33l1DdyWBLODZi9o8FfI="
-    },
-    {
-      "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5wdUK-7_DX-Czpe8W2SE2USthEn-VI2nz9hOZigt8zPMae92eyMpqej68OVA6865z6HDwAt24zeJ6_LtY42x726rvvGrQRpTkxoofo-XRtHmh7mbAfkkuHYuVhqrwoHmv6MPOo5QRuRw-aqQKbY7N-oCOWgSoH4-0AhUd1PsVRQiHfDeF1P557uQV"
-    },
-    {
-      "title": "firebase.blog",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDtoclgc5tKJ2U8r3ALb4e_SF_TtTW8HF2PVL52nUyvDiEC41pw1JVqvYyM9Rr0bJXtj4WKZXNiRZkFmeeYM9V4AU2pcLKR75AuCHWYavHu7VfT76ngawfar95WmQnjjeHgtpmw3R1UiDm6eUeH18P6QIBQWe2QCWKB4s="
-    },
-    {
-      "title": "healnova.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGILWNdQVWIM6yyLk2M6TUPG--ybyXYMynUHTMkiXpKUsfOAkoOuZ205-pDqvI7OtwBnldMXArVjeQ_Vjs2dtqoSVXWgh0t-GcA5-_mhd2I61EhbgIoTzXV7GTqZ0dQiqL9QVBzBD-5jBufetOgWCLGsQfJCJ1DiH-nY2Vfvpit9sGhCMGCSeNqXjrL"
-    },
-    {
-      "title": "inveritasoft.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmTEq6-iye8IP2mwhyCDDzo8NsHnTGMGa-wq2EXzyBoAnVXbiFTJJI-b2ZhprIfruXt2mLoSUwiEMNA4hMOS8lBoMR-jrNpTtNfoY22bDQaMnL4fae7fbILBl5De6PTcQA-i_qypUTpLlOolecT4O-JXshjEA7WFiLDWlIPqPhAHswdIqhHxuSK4="
-    },
-    {
-      "title": "getitplanned.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1jHh3qfQpa7QS0XG9hm67mfWV4CLHddmvGJjCROFm9xJZWC6JCa_dZazaNT_GxDHo3EbQDOZQoytcIYnLOOBpXX_JSUKbPGZSUNwCRrUUfShf4FJ3UWbiWSUKVEapJu0uIOAxdqd3_33AjOIkZJDjTn_z3b9emHt2SxPzog3sKPeHBw=="
-    },
-    {
-      "title": "notesxp.app",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQAa20pjuGT0p_sb5LTv2hLMnTvy2kcGx83dAyFY8QQCy0p_EFzc-pgxY-LktyXnzjh4FGlV75TH4PUi9yHZaqP_1QzSvCu-mGVfjYWGLTRegM3Ch0kc_mr2zylt0cM4epqCp0xIvmotd_SvMurw=="
-    },
-    {
-      "title": "developex.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9q3PmtDGPblCJXdpT8DSYz29yv1fdOcVTsrt6Sx-BoMxC7hPBGii1NcVWIYRSYHTl76RSI2vAUki_cdCGFFV8zWmd14GxUk6X5Mlv-Zz_aQrDJG8ag2IhCQSZ9Zr81ZE5wKhN0aINv_oRKJ6V3j9QpJPGsNNw7xQFjEUyTDt4zuo5LCwrAS0PIg=="
-    },
-    {
-      "title": "itransition.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwvwHFD7TVcu5cvA0kDpGx2dc5N1t1gFLimsZxae-8ZkzkxAFFOrnMyqDll1VYrJsJP3bmVokWB8b_Ir_mn-h6HWvjdbX6ylY1L5GKvgBJQkJHTKrNND8X7CYXCkToF26bzZRANy348QNEOlZhMjL731IBuduNS4uvjwXsyEqWFV7C_-xge0oL"
+      "title": "googleblog.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY4oN4JIRYMBISZCv-1dJTKTNp8IQnMDCZKCptUdrdAu6OM0WybBDa_OxIcow1daSy9zxcwEp9l5-glRqfvQ3ddAbpUIRHuv2JKPYqf9hW9b5xBkn6UGAFjqiMrv5SF2T6rpKX2SgXtvTVRqQb4wO7V9lstoCGDhXnFy0yDjl9bb0fmRgkFoSz2vwYV3Y7Vg=="
     },
     {
       "title": "42matters.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUsjEPRwQWuadluKZ1YlCNaRqk1s0iL9USrvZeSKvbH_8IMl-XtZC72rOnXD2gILMoN53QLl60ZW0MtieW656h6ZINY4mievL8_5zg4D3UpxPeeTsDD7ScIQrP-Im6p0BAxeLHHiFjf4uIKWtsPqURW57URnfZ8DFAvvF2wh7EB_E="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVrnbKpsw31eON-s4q2IrVmwKkp09RbT1t1aFH5huOdMsdB1sJQB_sX4ZIsuUrOXlw9IXTEJMoRa-lS4_taLq9Z9t1uXs8nlfzQu0_V6nJfT1ZNH6C7iTUFZPS6pgLw4f_w847-6G23wSMEopn9VQLhO2wkqursTKPWWu-eAxLX3Q="
     },
     {
-      "title": "getfinny.app",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2K-E-xaqxRTcKrGjUMgEIpNbr0xB-wjng5jR5eDT7h1Ptt-GfBelTiBr3jMch04daM4VpaxtDNTHJCZKTYQjzNNoSk4A8aXTd0k0iGFKJBqroNjg8FxBSKupadbpVw3vZgfzB_Y83rIou-4uv9DU2zYzwXdCQI9I7Pg="
+      "title": "itransition.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH53yAIZJFTBLpKdr92kZ8nWZ81RVRC1UKtSScFXjVEH-bLvKIbZBNn9-PSk79RD7ffYez-APsl_wDppSZlF58dCIR5peif463-1Asppqyrk2wj1np1V4yFHfcac17lMT8Jr-QO0Zrz1jLa-V45jQ1WA8M7vF7XdxpNxbUiJWoZDs8_rFFC9w1J"
     },
     {
-      "title": "fridayaiclub.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3ekpW3dBVZT0rTLpe__sduE2oudKusyYppNV1kGPxnq6VvXb6Jca-cFGwYm40zfaHBtpWR3U82iecBZ1-2OLf68ibmQf2P2V_rmm0NPm27jWTQrCS4jtqO4wyN_mdoHVKA_nm8I2AVFFYrEG8Os5vXSybJs0BmoPvu2nzJVS_nzH0HQn2mOsLLpKbrAqmPe1Lawh2XLAC0UPpazjr-U="
+      "title": "morso.app",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIm3ImbkgmQ2z3fZfEejfa8kjZteTtDIwTEOBF_AWLz9BDuJyF7FM96yU6gdP71R9gmviSYha7I8TUf42PgaxyMaXYWevmkgAuH8nkTlnKJPVEaeFytcc8fTtNNvQlU4h01PozxER28VIbx84OU1Q="
     },
     {
-      "title": "adapty.io",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8bdzaQHJhJ3Iun23OWkURHKfsvLalO4RmkDuDPGNDfLekDpH-Nh7ZGFvR-XLQDFzfL67OwTc4fkSxqTMJIGuDlbMfC8fCmHNBMndH5BB87JcmQOMWoBvQ9fpGUkhG8nvtJ0qLehzKqhqFge0m5lM0YHg="
+      "title": "ai-tutor.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT8wE9BzoIWvxe020PjyGPyqcn7GUhpXGAFcMDoRzInBsgiA2eftqPgdfYwHss7LHlMBAuvu4FelwvKGpfT8R1dWz1x756ek2D3t-iWB6obeITauiOLOmpBJ2HtCyPen6aST_2RIkR4A=="
     },
     {
-      "title": "godaddy.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQWxxy7sCCMFh_E_tRb6sBJdRgln7oml3e8V9vrKpYMLcaSBvXJALdpfow5iCj2Vi8JOV85c8wEgSHx-vy_UC_veMzQINyAEH566Qi2min2F4Sspp6xlJoVzm01P-Nf-aCHgh_O9qUNL385P1gigqFL6Ydp42KWDwYQzunVOde9Q=="
+      "title": "fast.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_AV_WQK0LStPeOi0aqkyQuTAWVBSBu5UHO3KMG7l1Bwoyhc0Aj19WYQ8JPXlu_BmdttEfbUWyDOu786MpqQEWKdVsRFYEn17zRhnYp9ZfbHfzedt4-qtXZspb2RekwoIlHIfy0NVVgA4kmYh78vxWovaadMYhvdz5"
     },
     {
-      "title": "macaron.im",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYnEMe4g90z4IO-AS7Ro35BDFCtOaon3RRiWlsRQ3M81furiE3iJKw4jYeAHtoLzeMNRM3bXJGHjKKZkmeF0lX9p8uogM3tcgzZuop2pavE7yineJklDMstIEVZOey9rGOB9CLhac3MKrfUgY="
+      "title": "qurio-inc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh25O_7j4xjbZ4Ov0P0Lm7QeJWBC0WWpCc58dp5NEJdP_31QMdWjbkbRwg8KbES--UBBvKZn5hE-FJ0DkJVaLnRpA9_Qkxin-oC3nInYiR8r8S-chrxZQEpfOlhy_8abJMH58ICIe6dUL2RxhA098="
     },
     {
-      "title": "richify.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBDEOnPhCZmcLHjKTPbI9kXaXM4sYvkQOOjF1IiJOHAmzVEAwLZ7t0r0qrns_kP0GTcf6CQgD8aXa5t41OgCj0zIqHqyYg9bw9eUY1k-bRf7_nJU6tq3Url2w2EQ1S8hBq2eRsswAx8gMvlQsk"
+      "title": "deckary.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUaleGzTTJfYta6i0zCUAnazE7KM9TDQ5ZOtTo6F72ixH8SrZa8pINImIXxNUGjrguPbHU6WPCO2ELYkhUcd2smaf_dmrNU7iNu1UQaSrtsnPVD_RC3lDE3XUyVK-Sh4kdbz49UIeDQKk="
     },
     {
-      "title": "bonsave.app",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE55j5NhpMljxhryx8tS7c1GJa2X_tSTjI8Zqa1sdjqU2nAm9RDNqr76T9KRBDFq93rXCmEPxQCQyOopXc5lhY4eZtL8K7Z_I2rhpzSrPO-Ub2Bu2L2FO8s9_zg_JCrlkjndCHXS0aQOlkzQn82vldn-ygCmf0="
+      "title": "quillbot.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhr0EwOgeFTvwq0YSXsb05V-U4ojUpjnUmm17Ax0HUlQV9z6DCD4OU7aq4IF-HEkxi-2f8BYFGm2ye3xomxqNoK09gwkwU45QSyOf3twCvNK19wntE6EFV"
     },
     {
-      "title": "youtube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELnI9kpCyZ5OXQR_QrDf8XMW4Djd109rlNPeImGDZIzJHsRzfy8n-sF5nISvANgxO38XylSpQl5W5ovejot8Zh-llgdB4-mM2tCsIKL_EXCxjMkvKlqLwr65wkkItZf9ypyWByBg=="
+      "title": "google.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAtONIbNiO6Lw1A0tXlQrnv-Cn5X2lcf25do0s9jBxJXUXFBsCU35mC7lNXkWeNb7_1vxUllC-Hm0dRiJ54t0UZZ1Q_QHwflSXO9_0eSbAGtJJQAG0RyjJyxmzmGLPSK5BKAV6mQ04mPrsJUgE1I33Ug9WTUjGj8-caxGPo23wkMyhuSwjMhsj"
+    },
+    {
+      "title": "docusign.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIrolCbjqFHxRJooHOshEynLc9mmjB5wFIXzh830f3XEKKbuhBFTEA4KlCPuieOclQ5zz2Jqr4bdRuJCnCQZsm_tBlQP7pxORX86QSEpXvKz5_01Rz-qObf8SSfznXxh23QIJaphcPR3uanEYG3bKRvWSKsEWb31ngRpATOg=="
+    },
+    {
+      "title": "google.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3oWQKpAxGccCqZijRMyTW_-_DGZQ56VZWZxrwnGSyTErfSNLyQL-2C5_Kv_sd--STT8p8qp04GCqyaQs7N4IPieAw6pyXPHhYD4rINBZZEopRtl3rGWvUP6ZJSsphXrQiaJOq0qVim71EKqSSQ2sw2gwBJEhX_ITeIROxoldXoRk="
+    },
+    {
+      "title": "smokeball.com.au",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeEk1NsfkjUbHl4abMY1ntc5CZBi00wCjye1ICx96yrT62fF636hXLJ3HQMAosKqSuVd92TS5daw0FZ7jsUhDzD4dSHvkvMjPtKJE7MWyZzhXRAycPMrj25RYWO9rcYAxo32WAGpeGJA2TPEH4A6aiIC1Iz2b57Jl6JhmRmgwz4vxSNDZ5RQ=="
+    },
+    {
+      "title": "gc.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-OCTvJ9KKxPUkYepl6OhTlpCmGgnwIMbbLkqvQKkUqbwXqDP4ktBCSdKpsOAb2QRdGhkkfRvLuSMzRuZsgVio-d8HklUG7WaDEC8E5c0PqMAqOcIxU4W9xNdn3LYRfYWv"
+    },
+    {
+      "title": "localchat.app",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCxi2QG5T3ilJzAakwvSt0gw3b2Fn42dqDDj35_O6CzocMGJ2XNwOnxasUFjJqk8ohASVWUNYXAoh_D4arum7OeiDsET2e7ctMJUSkdoMyuifjOETj7Z4z7cjuBi3Mxge3Et5OSBePpNN8kx1wP5TZxsmm_g=="
+    },
+    {
+      "title": "contracts-ai-app.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEI_4j49Rql6-MYYPbeOIzaeUzAhAAFvqYUNTaj2Ox4fQjGpCav8T3rq0MumWgUQWQSmlFcV7KD5lIae3CyJXtkzC7nLiXa0QxUnM7R-hz-FZuHR-9J3oFMe8t"
+    },
+    {
+      "title": "apple.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS2srJYHeC3Pcx0SltD7oVTfBxCq0DKrqrvOW1YrRF7J360bPZO4e0FSLnaYBBbTSrjDaQSKd9ajyp45x6fvEzSSQ9yJ29sYFHAJBndUEQXaaa1MoT-YwlfocwutKM_ePxBUiSxz7Ar7AkLi7VVnEx4d4Sd0RckrKkgVWfJz3v7fY="
     }
   ]
 }
