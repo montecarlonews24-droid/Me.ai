@@ -1,13 +1,40 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-19T23:11:40.554Z",
+  "generatedAt": "2026-11-20T03:26:40.344Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص اليوم لأنها كانت وظائف بدوام كامل، أو تتطلب تقنيات لا يستخدمها Moe مثل Flutter و React Native، أو كانت طلبات تسويق وليست تطوير تطبيقات. تم الاحتفاظ بفرصة واحدة تتعلق بأتمتة الذكاء الاصطناعي.",
+    "en": "Most leads today were rejected for being full-time jobs, requiring technologies Moe doesn't use (Flutter, React Native), or being marketing requests rather than app development. One lead for AI automation was kept."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Daily Ops & AI Automation Assistant",
+      "url": "https://www.freelancer.com/projects/email-marketing/Daily-Ops-Automation-Assistant",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "750-1500 USD",
+      "posted": "1 hours ago",
+      "proposals": "10",
+      "flId": 40826989,
+      "postedAt": 1795142859,
+      "bidsAt": "2026-11-20T03:24:02.508Z",
+      "language": "en",
+      "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
+      "fit": 8,
+      "why": {
+        "ar": "Moe يبني وكلاء ذكاء اصطناعي يوميين (مثل تطبيق Me.ai الخاص به) ويمكنه تنفيذ أتمتة الذكاء الاصطناعي، وهو ما يتوافق مع طلب أتمتة المهام اليومية والتواصل عبر البريد الإلكتروني.",
+        "en": "Moe builds daily AI research/monitoring agents (like his Me.ai app) and can implement AI automations, which aligns with the request for AI automations for daily tasks and email outreach."
+      },
+      "watch": {
+        "ar": "التأكد من أن 'التواصل عبر البريد الإلكتروني' يتضمن إعداد وكيل ذكاء اصطناعي للمساعدة في رسائل البريد الإلكتروني، وليس إرسال رسائل بريد إلكتروني يدوياً.",
+        "en": "Ensure 'email outreach' involves setting up an AI agent to assist with emails, not manual email sending."
+      },
+      "proposal": "I can help you streamline your daily operations by building AI automations, including for email outreach and other recurring tasks. I build native Kotlin Android apps with AI-assisted development, and I have experience creating custom AI agents. For example, I use my own daily AI research agent, Me.ai, which leverages Gemini and web search to automate information gathering. This allows for efficient and consistent handling of routine business processes. I can set up intelligent systems to manage and automate parts of your workflow.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific types of email outreach and daily tasks you're looking to automate with AI?",
+      "foundAt": "2026-11-20T03:26:40.149Z",
+      "fresh": true
+    },
     {
       "title": "بناء بوت واتساب شامل",
       "url": "https://mostaql.com/project/1293982-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A8%D9%88%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%B4%D8%A7%D9%85%D9%84",
@@ -84,6 +111,54 @@
   ],
   "rejected": [
     {
+      "title": "Aplikasi Marketplace Fashion Lokal",
+      "url": "https://www.freelancer.com/projects/flutter/Aplikasi-Marketplace-Fashion-Lokal",
+      "reason": {
+        "ar": "يتطلب المشروع استخدام Flutter و React Native، وهما تقنيتان لا يستخدمهما Moe. كما أن نص المشروع ليس باللغة الإنجليزية أو العربية.",
+        "en": "The project requires Flutter and React Native, which Moe cannot do. Additionally, the project text is not in English or Arabic."
+      }
+    },
+    {
+      "title": "Promote AI Development Book to Tech Audiences",
+      "url": "https://www.freelancer.com/projects/affiliate-marketing/Promote-Development-Book-Tech-Audiences",
+      "reason": {
+        "ar": "هذا المشروع يتعلق بالتسويق والترويج للكتب، وهي خدمة لا يقدمها Moe.",
+        "en": "This project is about book marketing and promotion, which is not a service Moe provides."
+      }
+    },
+    {
+      "title": "Hiring 3 Upwork Bidders – AI Full-Stack Development & Data Engineering Agency",
+      "url": "https://www.freelancer.com/projects/full-stack-development/Hiring-Upwork-Bidders-Full-Stack",
+      "reason": {
+        "ar": "هذا إعلان لوظيفة (Upwork Bidders) لوكالة، وليس مشروعاً لعميل يبحث عن تطوير تطبيقات.",
+        "en": "This is an advertisement for a job role (Upwork Bidders) for an agency, not a client project for app development."
+      }
+    },
+    {
+      "title": "Implement GPT for Workplace Efficiency",
+      "url": "https://www.freelancer.com/projects/ai-chatbot/Implement-GPT-for-Workplace-Efficiency",
+      "reason": {
+        "ar": "يركز المشروع على إنشاء مطالبات (prompts) وإجراءات تشغيل قياسية (SOPs) وتدريب على استخدام أدوات GPT الموجودة، بدلاً من بناء تطبيق يعمل بالذكاء الاصطناعي أو وكيل ذكاء اصطناعي مخصص، وهو خارج نطاق خدمات Moe الأساسية.",
+        "en": "The project focuses on creating prompts, SOPs, and training for using existing GPT tools, rather than building an AI-powered app or a custom AI agent, which is outside Moe's core service offering."
+      }
+    },
+    {
+      "title": "Expo App Security Audit & Fixes",
+      "url": "https://www.freelancer.com/projects/react-native/Expo-App-Security-Audit-Fixes",
+      "reason": {
+        "ar": "يتطلب المشروع العمل على قاعدة كود React Native موجودة، وهو ما لا يستطيع Moe فعله.",
+        "en": "The project requires working with an existing React Native codebase, which Moe cannot do."
+      }
+    },
+    {
+      "title": "Software Engineer- Graduate Trainee ( UAE Nationals)",
+      "url": "https://www.linkedin.com/jobs/view/4484181260/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل (مهندس برمجيات - متدرب خريج) في شركة، وليست مشروعاً مستقلاً.",
+        "en": "This is a full-time staff job (Software Engineer- Graduate Trainee) at a company, not a freelance project."
+      }
+    },
+    {
       "title": "Migración y Sincronización Carbonio Productiva",
       "url": "https://www.freelancer.com/projects/microsoft-365/Migraci-Sincronizaci-Carbonio-Productiva",
       "reason": {
@@ -95,11 +170,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 7,
     "steps": [
       {
         "step": "memory",
-        "msg": "645 leads seen before"
+        "msg": "660 leads seen before"
       },
       {
         "step": "verify",
@@ -107,7 +182,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (88 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 76 skipped: not app/AI work)"
+        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (76 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -151,67 +226,91 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Android Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Android Engineer III"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Android) - Service Agreement"
+        "msg": "skipped (full-time): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (title): Sr. Software Developer - Android Apps"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Mobile Technical Lead, RCS For Business"
+        "msg": "skipped (full-time): Software Engineer, Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, AI Transformation"
+        "msg": "skipped (title): Senior Android Engineer, App Experience & Frameworks"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+        "msg": "skipped (title): Senior Android Developer with Kotlin Multiplatform (f/m/x)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - AI Agents"
+        "msg": "skipped (title): Senior Android Developer with Kotlin Multiplatform (f/m/x)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
+        "msg": "skipped (title): Senior Android Engineer Poland (m/f/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
+        "msg": "skipped (title): Senior Android Entwickler (m/w/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Agentic AI Engineer"
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Vice President, AI/ML Software Engineer"
+        "msg": "skipped (full-time): Android Product Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Development Engineer"
+        "msg": "skipped (full-time): Android App Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Innovation AI Developer"
+        "msg": "skipped (title): Senior Mobile Platform Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
+        "msg": "skipped (title): Senior Technical Lead"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4484181260: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Audio DSP Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Java Fullstack Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Unity Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): iOS Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 14 new LinkedIn jobs added"
+        "msg": "1 of 20 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -219,11 +318,11 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "6 new Freelancer projects added, 7 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 6 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
