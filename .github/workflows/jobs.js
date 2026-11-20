@@ -174,7 +174,15 @@ const PROJECT_PAGE = /(upwork\.com\/(freelance-jobs\/apply|jobs)\/|linkedin\.com
 const deep = u => { try { return new URL(u).pathname.replace(/\/+$/, '').length > 1; } catch { return false; } };
 
 // (روابط Hacker News كلها item?id=، فمنخلّي الرقم عشان ما يصيروا كلهم نفس الرابط)
-const clean = u => { const x = String(u || '').trim(); const hn = x.match(/news\.ycombinator\.com\/item\?id=(\d+)/i); return hn ? `https://news.ycombinator.com/item?id=${hn[1]}` : x.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase(); };
+// (مستقل وخمسات: نفس المشروع بييجي مرة "project/1293982" ومرة "project/1293982-بناء-بوت..."، فمنخلّي الرقم بس)
+const clean = u => {
+  const x = String(u || '').trim();
+  const hn = x.match(/news\.ycombinator\.com\/item\?id=(\d+)/i);
+  if (hn) return `https://news.ycombinator.com/item?id=${hn[1]}`;
+  const ar = x.match(/(mostaql\.com\/projects?|khamsat\.com\/community\/requests)\/(\d+)/i);
+  if (ar) return `https://${ar[1].toLowerCase()}/${ar[2]}`;
+  return x.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
+};
 
 const ABOUT = `Moe (Mohammad) is an independent app maker in Amman, Jordan (brand: Monte-Carlo24). He builds AI-powered Android apps with AI-assisted development: he designs, plans, directs, tests and publishes; AI tools help write the code. He works from a phone, alone.
 Proven, live work:
