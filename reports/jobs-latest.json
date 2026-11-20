@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T15:49:34.112Z",
+  "generatedAt": "2026-11-20T17:10:54.098Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 12 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -259,7 +259,7 @@
       "proposals": "35",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-20T15:49:34.112Z",
+      "bidsAt": "2026-11-20T17:10:54.097Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -302,6 +302,46 @@
     }
   ],
   "rejected": [
+    {
+      "title": "im looking to present with someone to 2 hours day! phonk radio station and we be promoting ai music on my show so need somone with uk or  usa engllish accent not foreiegn must know how to speak english.100 usd for 1 month. ",
+      "url": "https://www.freelancer.com/projects/ai-music/looking-present-with-someone-hours",
+      "reason": {
+        "ar": "هذا طلب لمقدم إذاعي/مضيف مشارك، ويتطلب مهارات في التقديم الصوتي وإنشاء المحتوى، وهو خارج نطاق ما يمكن لـ Moe تقديمه (ليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي).",
+        "en": "This is a request for a radio co-host/presenter, requiring voice acting and content creation skills, which is outside what Moe can deliver (not app development or AI agent work)."
+      }
+    },
+    {
+      "title": "Phonk & AI Radio Host 100 usd",
+      "url": "https://www.freelancer.com/projects/audio-editing/Phonk-Radio-Host-usd",
+      "reason": {
+        "ar": "هذا طلب لمضيف إذاعي، ويتطلب مهارات في الإنتاج الصوتي وتقديم المحتوى، وهو خارج نطاق ما يمكن لـ Moe تقديمه (ليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي).",
+        "en": "This is a request for a radio host, requiring audio production and content delivery skills, which is outside what Moe can deliver (not app development or AI agent work)."
+      }
+    },
+    {
+      "title": "im looking to present with someone to 2 hours day! ",
+      "url": "https://www.freelancer.com/projects/broadcast-engineering/looking-present-with-someone-hours",
+      "reason": {
+        "ar": "هذا طلب لمقدم إذاعي/مضيف مشارك، ويتطلب مهارات في التقديم الصوتي وإنشاء المحتوى، وهو خارج نطاق ما يمكن لـ Moe تقديمه (ليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي).",
+        "en": "This is a request for a radio co-host/presenter, requiring voice acting and content creation skills, which is outside what Moe can deliver (not app development or AI agent work)."
+      }
+    },
+    {
+      "title": " Create & Qualify Transcription Platform Accounts",
+      "url": "https://www.freelancer.com/projects/account-management/Create-Qualify-Transcription-Platform",
+      "reason": {
+        "ar": "هذا المشروع يتطلب إنشاء وتأهيل حسابات على منصات النسخ، ويتضمن إدخال بيانات وإدارة حسابات، وهو خارج نطاق ما يمكن لـ Moe تقديمه (ليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي). الميزانية منخفضة جداً أيضاً.",
+        "en": "This project requires creating and qualifying transcription platform accounts, involving data entry and account management, which is outside what Moe can deliver (not app development or AI agent work). The budget is also very low."
+      }
+    },
+    {
+      "title": "AI Tutoring: Maths to Models",
+      "url": "https://www.freelancer.com/projects/deep-learning/Tutoring-Maths-Models",
+      "reason": {
+        "ar": "هذا طلب لدروس خصوصية في الذكاء الاصطناعي والرياضيات والبرمجة، وليس طلباً حقيقياً من عميل لتوظيف Moe لمشروع تطوير تطبيق أو بناء وكيل ذكاء اصطناعي.",
+        "en": "This is a request for AI tutoring in maths and programming, and not a real request from a client hiring Moe for an app development or AI agent building project."
+      }
+    },
     {
       "title": "iOS Developer - Ads Platform",
       "url": "https://www.linkedin.com/jobs/view/4484840488/",
@@ -501,56 +541,16 @@
         "ar": "المشروع أقدم من 14 يوماً.",
         "en": "The project is older than 14 days."
       }
-    },
-    {
-      "title": "Vivral (Nair Engineering) | ML, Systems (GPU), Hardware, and Embedded Engineers | Gainesville, FL (UF students) | Part-time | Equity — Vivral is an AI health as",
-      "url": "https://news.ycombinator.com/item?id=50344410",
-      "reason": {
-        "ar": "المشروع أقدم من 14 يوماً.",
-        "en": "The project is older than 14 days."
-      }
-    },
-    {
-      "title": "Educational Certificate Verification needed in Malta ",
-      "url": "https://www.freelancer.com/projects/photography/Educational-Certificate-Verification-40827590",
-      "reason": {
-        "ar": "يتطلب المشروع التواجد الفعلي وجمع البيانات في مالطا، وليس تطوير التطبيقات عن بُعد.",
-        "en": "Project requires physical presence and data collection in Malta, not remote app development."
-      }
-    },
-    {
-      "title": "Rancang Aplikasi Keuangan Freelancer Sederhana",
-      "url": "https://www.freelancer.com/projects/app-development/Rancang-Aplikasi-Keuangan-Freelancer",
-      "reason": {
-        "ar": "نص المشروع باللغة الإندونيسية، وليست العربية أو الإنجليزية.",
-        "en": "Project text is in Indonesian, not Arabic or English."
-      }
-    },
-    {
-      "title": "AI Marketing Video Creation",
-      "url": "https://www.freelancer.com/projects/ai-video-editing/Marketing-Video-Creation",
-      "reason": {
-        "ar": "المشروع يتعلق بإنشاء مقاطع فيديو باستخدام الذكاء الاصطناعي، وليس تطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
-        "en": "Project is for AI video creation, not app development or AI agent building."
-      }
-    },
-    {
-      "title": "خبير ذكاء اصطناعي والتعامل مع Claud code +opin AI",
-      "url": "https://mostaql.com/project/1290962",
-      "reason": {
-        "ar": "هذه وظيفة بدوام كامل تتطلب خبرة محددة (أكثر من سنتين)، وليست مشروعًا مستقلاً.",
-        "en": "This is a full-time staff position requiring specific years of experience, not a freelance project."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "834 leads seen before"
+        "msg": "841 leads seen before"
       },
       {
         "step": "verify",
@@ -558,7 +558,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (92 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 79 skipped: not app/AI work)"
+        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (87 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 85 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -574,7 +574,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 67 projects on the lists, 0 sent (HTTP 200 160722ch 28 links; HTTP 200 157640ch 26 links; HTTP 200 164538ch 27 links; )"
+        "msg": "phone relay last read 1 hours ago: 67 projects on the lists, 0 sent (HTTP 200 160722ch 28 links; HTTP 200 157640ch 26 links; HTTP 200 164538ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -610,39 +610,11 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI App Developer / United States: busy (429), stopping search this run"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4484840488: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4476934430: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer III, Mobile, iOS"
+        "msg": "Kotlin Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "2 of 7 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -650,11 +622,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 2 to judge"
+        "msg": "5 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
