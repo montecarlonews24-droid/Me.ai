@@ -1,10 +1,10 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T14:17:18.153Z",
+  "generatedAt": "2026-11-20T14:25:11.506Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 14 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 14 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 13 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 13 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -259,7 +259,7 @@
       "proposals": "34",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-20T14:17:18.153Z",
+      "bidsAt": "2026-11-20T14:25:11.505Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -275,30 +275,6 @@
       "foundAt": "2026-11-20T03:26:40.149Z",
       "fresh": false,
       "crowded": true
-    },
-    {
-      "title": "بناء بوت واتساب شامل",
-      "url": "https://mostaql.com/project/1293982-%D8%A8%D9%86%D8%A7%D8%A1-%D8%A8%D9%88%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%B4%D8%A7%D9%85%D9%84",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "",
-      "fit": 8,
-      "why": {
-        "ar": "المشروع يطلب بناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن، مع ربط API ببوابات الدفع وشركات الشحن ولوحة تحكم بسيطة. Moe يبني وكلاء ذكاء اصطناعي وأتمتة (مثل وكيل Me.ai الخاص به) ويمكنه التعامل مع ربط API وتطوير لوحات تحكم بسيطة باستخدام Firebase.",
-        "en": "The project requests building a comprehensive WhatsApp bot for automating shipping policy issuance, including API integration with payment gateways and shipping companies, and a simple dashboard. Moe builds AI agents and automation bots (like his Me.ai agent) and can handle API integration and simple dashboard development using Firebase."
-      },
-      "watch": {
-        "ar": "يجب على Moe التأكد من تفاصيل متطلبات بوت الواتساب والربط مع APIs المحددة، وأن لوحة التحكم البسيطة تقع ضمن نطاق Firebase.",
-        "en": "Moe should confirm the specific requirements for the WhatsApp bot and integration with the specified APIs, and ensure the simple dashboard falls within Firebase capabilities."
-      },
-      "proposal": "أهلاً بك،\nأرى أنك تبحث عن مطور لبناء بوت واتساب شامل لأتمتة إصدار بوالص الشحن وربطها ببوابات الدفع وشركات الشحن، مع لوحة تحكم بسيطة. يمكنني مساعدتك في هذا المشروع.\nأقوم ببناء تطبيقات الأتمتة ووكلاء الذكاء الاصطناعي، تماماً مثل وكيل البحث اليومي Me.ai الخاص بي الذي يستخدم Gemini وGitHub Actions. يمكنني التعامل مع الربط البرمجي (API) المطلوب لإصدار البوالص ومعالجة الدفع، وبناء لوحة تحكم بسيطة لإدارة الشحنات.\nتقدر تجرب تطبيقاتي المنشورة من هون:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nما هي أنواع شركات الشحن التي تخطط للربط معها في البداية؟",
-      "foundAt": "2026-11-19T18:28:20.975Z",
-      "fresh": false
     },
     {
       "title": "عمل بوت للرد على الايملات",
@@ -351,6 +327,46 @@
     }
   ],
   "rejected": [
+    {
+      "title": "مطلوب متخصص ذكاء اصطناعي وأتمتة أعمال لشركة استشارات هندسية",
+      "url": "https://mostaql.com/project/1289621",
+      "reason": {
+        "ar": "الفرصة منشورة منذ 20 يومًا، وهذا أقدم من الحد الأقصى المسموح به وهو 14 يومًا للمنصات غير Hacker News.",
+        "en": "The lead was posted 20 days ago, which is older than the maximum allowed 14 days for platforms other than Hacker News."
+      }
+    },
+    {
+      "title": "تطوير مساعد ذكي بالذكاء الاصطناعي لإدارة المكالمات الهاتفية الواردة والصادرة ومحادثات WhatsApp",
+      "url": "https://mostaql.com/project/1290429",
+      "reason": {
+        "ar": "الفرصة منشورة منذ 17 يومًا، وهذا أقدم من الحد الأقصى المسموح به وهو 14 يومًا للمنصات غير Hacker News.",
+        "en": "The lead was posted 17 days ago, which is older than the maximum allowed 14 days for platforms other than Hacker News."
+      }
+    },
+    {
+      "title": "مبرمج خبير في أتمتة n8n إنتاج الفيديوهات التعليمية ثلاثية الأبعاد",
+      "url": "https://mostaql.com/project/1290761",
+      "reason": {
+        "ar": "الفرصة منشورة منذ 15 يومًا، وهذا أقدم من الحد الأقصى المسموح به وهو 14 يومًا للمنصات غير Hacker News.",
+        "en": "The lead was posted 15 days ago, which is older than the maximum allowed 14 days for platforms other than Hacker News."
+      }
+    },
+    {
+      "title": "Artificial Intelligence Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4491376967/",
+      "reason": {
+        "ar": "الوصف يشير إلى وظيفة بدوام كامل أو شبه دائم (Mid-Senior level, عقد طويل الأمد لأكثر من سنتين، عمل في الموقع، جزء من فريق داخلي) وليس مشروعًا مستقلًا.",
+        "en": "The description indicates a full-time or staff-like position (Mid-Senior level, 2+ years long-term contract, onsite work, embedded in an internal team) rather than a project-based freelance engagement."
+      }
+    },
+    {
+      "title": "Software Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4492172716/",
+      "reason": {
+        "ar": "الوصف يشير إلى وظيفة بدوام كامل أو شبه دائم (Mid-Senior level) وتتطلب العمل على قواعد بيانات موجودة بلغات متعددة (Python3, Java, Rust, C++, Go, TypeScript) وتدريب نماذج الذكاء الاصطناعي وتقييمها، وهو خارج نطاق عمل Moe الذي يركز على بناء تطبيقات جديدة ووكلاء ذكاء اصطناعي.",
+        "en": "The description indicates a full-time or staff-like position (Mid-Senior level) and requires working on existing codebases in multiple languages (Python3, Java, Rust, C++, Go, TypeScript) and training/evaluating AI models, which is outside Moe's scope of building new apps and AI agents."
+      }
+    },
     {
       "title": "Don't Use This Code: https://dutc.io | Training & Consulting | Full-Time (W-2) | Fully Remote (US-only) — Don't Use This Code's mission statement grew out of a ",
       "url": "https://news.ycombinator.com/item?id=50343929",
@@ -550,56 +566,16 @@
         "ar": "هذه وظيفة مهندس ذكاء اصطناعي رفيع المستوى (Senior) بدوام كامل وتتطلب خبرة تزيد عن 5 سنوات، وليست مشروعًا مستقلاً.",
         "en": "This is a senior, full-time/staff AI engineering position requiring more than 5 years of experience, not a freelance project."
       }
-    },
-    {
-      "title": "3D Visualisation & XR Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4492513553/",
-      "reason": {
-        "ar": "يتطلب المشروع مهارات متخصصة في Unity/Unreal Engine و C#/C++ وتطوير 3D/XR، وهي خارج قدرات Moe.",
-        "en": "Requires specialized skills in Unity/Unreal Engine, C#/C++, and 3D/XR development, which are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Full Stack Developer",
-      "url": "https://www.linkedin.com/jobs/view/4488112642/",
-      "reason": {
-        "ar": "عنوان الوظيفة 'Full Stack Developer' عام للغاية ومن المحتمل أن يكون وظيفة بدوام كامل؛ لا يمكن التحقق مما إذا كان دورًا تعاقديًا/مستقلاً بدون تسجيل الدخول إلى LinkedIn.",
-        "en": "Job title 'Full Stack Developer' is too general and likely a full-time position; cannot verify if it's a contract/freelance role without LinkedIn login."
-      }
-    },
-    {
-      "title": "Correspondence Management Developer",
-      "url": "https://www.linkedin.com/jobs/view/4491902140/",
-      "reason": {
-        "ar": "يتطلب المشروع مهارات تطوير برمجيات المؤسسات العامة (C#, Java, TypeScript, microservices, COTS) والتي تقع خارج نطاق تركيز Moe على تطبيقات الهاتف المحمول و Firebase و Gemini.",
-        "en": "Requires general enterprise software development skills (C#, Java, TypeScript, microservices, COTS) which are outside Moe's mobile-first, Firebase/Gemini-focused capabilities."
-      }
-    },
-    {
-      "title": "Intern, Software Engineer [PDMS-D&M-GDSIMENG]",
-      "url": "https://www.linkedin.com/jobs/view/4484820212/",
-      "reason": {
-        "ar": "هذا منصب تدريب داخلي (Intern)، وليس مشروعًا مستقلاً.",
-        "en": "This is an intern position, not a freelance project."
-      }
-    },
-    {
-      "title": "Software Developer",
-      "url": "https://www.linkedin.com/jobs/view/4477418105/",
-      "reason": {
-        "ar": "عنوان الوظيفة 'Software Developer' عام للغاية ومن المحتمل أن يكون وظيفة بدوام كامل؛ لا يمكن التحقق مما إذا كان دورًا تعاقديًا/مستقلاً بدون تسجيل الدخول إلى LinkedIn.",
-        "en": "Job title 'Software Developer' is too general and likely a full-time position; cannot verify if it's a contract/freelance role without LinkedIn login."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 6,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "819 leads seen before"
+        "msg": "821 leads seen before"
       },
       {
         "step": "verify",
@@ -607,7 +583,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (109 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 75 skipped: not app/AI work)"
+        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (106 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 78 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -619,19 +595,19 @@
       },
       {
         "step": "verify",
-        "msg": "5 new Hacker News posts added"
+        "msg": "0 new Hacker News posts added"
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 1 hours ago: 67 projects on the lists, 8 sent (HTTP 200 160727ch 28 links; HTTP 200 157638ch 26 links; HTTP 200 164063ch 28 links; )"
+        "msg": "phone relay last read less than an hour ago: 67 projects on the lists, 8 sent (HTTP 200 160721ch 28 links; HTTP 200 157638ch 26 links; HTTP 200 164063ch 28 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "24 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "3 new Mostaql projects added from the phone"
       },
       {
         "step": "arab",
@@ -655,27 +631,23 @@
       },
       {
         "step": "linkedin",
-        "msg": "255 jobs from Gmail alerts (last 5 days)"
+        "msg": "260 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "AI App Developer / Middle East: busy (429), stopping search this run"
+        "msg": "AI App Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "post 4491903668: HTTP 429"
+        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Associate or Senior Associate, AI Engineer (Python)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer, Internal Business Processes"
+        "msg": "skipped (12+ years required): Mendix Developer"
       },
       {
         "step": "verify",
-        "msg": "1 of 3 new LinkedIn jobs added"
+        "msg": "2 of 4 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -683,11 +655,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 6 to judge"
+        "msg": "0 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
