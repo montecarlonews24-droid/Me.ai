@@ -196,7 +196,7 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is posted by a recruitment agency, staffing firm or job board (they want an employee with a CV and interviews), unless the post clearly says contract or freelance for a defined project.
 - It is a full-time or staff job at a company (titles with Senior, Staff, Lead, Engineer, "X years experience", interviews, relocation, salary per year).
 - It requires Flutter, React Native, or working inside an existing large codebase (including an existing Swift/iOS codebase). New Android + iOS apps are OK: the iOS side goes to his iOS partner.
-- It is closed, expired, or older than 14 days.
+- It is closed, expired, or older than 14 days. Exception: Hacker News leads (platform HackerNews) come from a monthly thread, so accept them up to 35 days old.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
 - For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI agent / chatbot / automation) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
@@ -449,7 +449,7 @@ async function hnFeed() {
         const head = text.slice(0, 200);
         if (kind === 'freelancer') {
           if (/^\s*seeking\s+work/i.test(text) || !/seeking\s+freelancer/i.test(head)) continue;   // SEEKING WORK = ناس بيعرضوا حالهم
-        } else if (!HN_FREELANCE_HEAD.test(text.split('\n')[0].slice(0, 250))) continue;
+        } else if (/^\s*seeking\s+(work|freelance\b)/i.test(text) || !HN_FREELANCE_HEAD.test(text.split('\n')[0].slice(0, 250))) continue;   // ناس بيعرضوا حالهم
         match++;
         if (now - (c.created_at_i || now) > 35 * 86400) continue;
         if (!HN_RELEVANT.test(text)) continue;
