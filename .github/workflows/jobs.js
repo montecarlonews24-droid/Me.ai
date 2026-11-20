@@ -407,7 +407,7 @@ async function mostaqlRelayFeed() {
       list.push({
         title: String(p.title), url: p.url,
         market: 'arab', platform: 'Mostaql', country: '', budget: String(p.budget || ''),
-        posted: ago(Number(p.created) || now), proposals: offers >= 0 ? String(offers) : '',
+        posted: '', proposals: offers >= 0 ? String(offers) : '',   // created = وقت ما شافه الموبايل، مش وقت النشر، فما منعرضه
         language: 'ar', summary: text.slice(0, 220), pageText: text.slice(0, 1800)
       });
     }
@@ -572,6 +572,23 @@ const BRAG_WHY = /تخصص|خبير|خبرة واسعة|متمرس|محترف|ي
 function honestWhy(t) {
   const kept = String(t || '').split(/(?<=[.!؟?])\s+/).filter(s => !BRAG_WHY.test(s)).join(' ').trim();
   return kept || '';
+}
+// مستقل وخمسات بيرفضوا أي عرض فيه رابط: منشيل الروابط ومنحط جملة معرض الأعمال بدالها
+const NO_LINK_PLATFORMS = /^(mostaql|khamsat)$/i;
+function noLinks(p, platform) {
+  if (!NO_LINK_PLATFORMS.test(String(platform || ''))) return p;
+  let t = String(p || '');
+  const had = /https?:\/\/|www\.|play\.google/i.test(t);
+  t = t.split('\n')
+    .filter(line => !/https?:\/\/|www\.|play\.google\.com/i.test(line))
+    .filter(line => !/(تقدر|يمكنك|بتقدر)\s+(تجرب|تشوف|تجربة|مشاهدة).*(من هون|من هنا|هنا)\s*:?\s*$/.test(line.trim()))
+    .join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  if (had && !/معرض أعمالي/.test(t)) {
+    const q = t.lastIndexOf('\n');
+    const line = 'تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.';
+    t = q > 0 ? t.slice(0, q) + '\n\n' + line + t.slice(q) : t + '\n\n' + line;
+  }
+  return t;
 }
 function honest(p) {
   const lines = String(p).replace(/,?\s*(and\s+)?in-app billing/gi, '').split(/\n/).map(line =>
@@ -823,6 +840,7 @@ For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - Only mention skills from the "CAN deliver" list. Never write that he is skilled, adept, experienced or an expert in anything outside it. Never stretch an app as proof of a skill it does not show.
 - If you cannot write an honest proposal without claiming a skill he does not have, REJECT the lead instead.
 - Include the portfolio link once, on its own line, introduced naturally (e.g. "You can try my live apps here:" or "تقدر تجرب تطبيقاتي المنشورة من هون:").
+- EXCEPTION: for Mostaql and Khamsat leads (platform Mostaql or Khamsat) do NOT write any link or URL at all, because these sites block proposals that contain links. Instead write one sentence like "تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي."
 - End with one specific question about their project.
 
 Respond with ONLY JSON:
@@ -851,7 +869,7 @@ Respond with ONLY JSON:
           fit: Math.max(0, Math.min(10, num(k.fit))),
           why: { ar: honestWhy(k.why_ar), en: honestWhy(k.why_en) },
           watch: { ar: k.watch_ar || '', en: k.watch_en || '' },
-          proposal: honest(k.proposal || ''),
+          proposal: noLinks(honest(k.proposal || ''), l.platform),
           ...(l.liChecked ? { liChecked: true } : {})
         };
       })
@@ -927,7 +945,7 @@ Respond with ONLY JSON:
       if (full) l.liChecked = true;
       await new Promise(r => setTimeout(r, 2000 + Math.random() * 2000));
     }
-    older.push({ ...l, proposal: honest(l.proposal || ''), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
+    older.push({ ...l, ...(/^mostaql$/i.test(l.platform || '') ? { posted: '' } : {}), proposal: noLinks(honest(l.proposal || ''), l.platform), why: { ar: honestWhy(l.why?.ar), en: honestWhy(l.why?.en) }, fresh: false });
   }
   // Freelancer: منحدّث عدد العروض للفرص القديمة. العدد بيكبر بسرعة، فاللي صار فوق 30 منعلّمه "زحمة"
   // (التطبيق بيخفيه، إلا إذا Moe قدّم عليه). والمسكّر منشيله.
