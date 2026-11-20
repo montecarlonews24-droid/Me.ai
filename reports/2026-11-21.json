@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T23:43:32.564Z",
+  "model": "gemini-2.5-flash",
+  "summary": "تظهر الأفكار الواعدة اتجاهًا قويًا نحو تبسيط المستندات والإجراءات المعقدة باستخدام الذكاء الاصطناعي، خاصة في السياقات الإقليمية العربية والعالمية. يتم التركيز على حل المشكلات الحقيقية للأفراد والشركات الصغيرة من خلال أدوات ذكية قابلة للبناء بواسطة مطور واحد.",
+  "trends": [
+    "الذكاء الاصطناعي التفسيري (Explainable AI)",
+    "التعلم المصغر التكيفي (Adaptive Micro-learning)",
+    "تبسيط المستندات المدعوم بالذكاء الاصطناعي (AI-Powered Document Simplification)"
+  ],
+  "ideas": [
+    {
+      "name": "Dalil Hukoomi",
+      "pitch": "مساعد ذكاء اصطناعي للوطن العربي والخليج يبسط ويوجه المستخدمين عبر الإجراءات والوثائق الحكومية والإدارية الشائعة بلغة عربية سهلة الفهم.",
+      "problem": "يواجه الأفراد في العالم العربي والخليج تعقيداً في فهم الإجراءات والوثائق الحكومية والإدارية العامة (مثل طلبات التأشيرات، إجراءات تأسيس الأعمال الأساسية، التصاريح الشائعة غير المرتبطة بقوانين دولة واحدة)، مما يؤدي إلى الإحباط والأخطاء.",
+      "audience": "الأفراد ورواد الأعمال والمقيمون في العالم العربي ومنطقة الخليج الذين يتعاملون مع الإجراءات الإدارية الحكومية العامة.",
+      "whyNow": "تُظهر تجربة أستراليا في رقمنة الخدمات الحكومية طلبًا على التبسيط. يتماشى هذا مع تفضيل Moe لتطبيقات الذكاء الاصطناعي التي تبسط المستندات والإجراءات المعقدة. يمكن لـ Firebase AI Logic تقديم الشروحات والتوجيهات خطوة بخطوة باللغة العربية، مع التركيز على المفاهيم الإدارية المشتركة في المنطقة بدلاً من القوانين الخاصة بدولة واحدة، مما يجعله قابلاً للتطبيق في سوق أوسع.",
+      "competition": "low",
+      "competitors": [],
+      "edge": "مساعد ذكاء اصطناعي مخصص يفهم الفروق الدقيقة في الإجراءات والوثائق الحكومية والإدارية في العالم العربي ومنطقة الخليج، ويمكنه ترجمة اللغة العربية الرسمية، والمعقدة غالبًا، إلى تعليمات وتفسيرات عربية بسيطة وقابلة للتنفيذ للمواطن العادي. يتطلب هذا فهمًا عميقًا للغة والعمليات البيروقراطية المحلية.",
+      "monetization": "نموذج فريميوم (Freemium) مع اشتراك للميزات المتقدمة أو عدد غير محدود من الاستفسارات/الوثائق.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 14,
+      "score": 9.5,
+      "firstStep": "تطوير واجهة مستخدم بسيطة لتحميل المستندات أو إدخال الاستفسارات النصية، ودمج نموذج Gemini Nano أو Firebase AI Logic لتقديم تلخيصات وإرشادات أولية باللغة العربية."
+    },
+    {
+      "name": "Maliyati الذكية",
+      "pitch": "مساعد ذكاء اصطناعي للوطن العربي والخليج يبسط كشوفات الحسابات البنكية والعروض المالية ووثائق الاستثمار إلى لغة عربية سهلة الفهم، مع رؤى قابلة للتنفيذ.",
+      "problem": "يجد المستخدمون في العالم العربي والخليج صعوبة في فهم اللغة المعقدة في الوثائق المالية المختلفة، مثل كشوفات الحسابات البنكية وعروض القروض ووثائق الاستثمار العامة، مما يعيق اتخاذ القرارات المالية السليمة.",
+      "audience": "الأفراد في العالم العربي ومنطقة الخليج (السعودية، الإمارات، قطر، الكويت) الذين يرغبون في فهم أفضل لوثائقهم المالية الشخصية.",
+      "whyNow": "هناك طلب متزايد على الذكاء الاصطناعي الذي يقدم رؤى شخصية وتوصيات في قطاع الخدمات المالية في أوروبا، وهذا ينطبق على العالم العربي أيضاً. يمكن لـ Firebase AI Logic معالجة النصوص العربية وتلخيصها، وتقديم شروحات مبسطة تتناسب مع السياق الثقافي للمنطقة. يركز على التبسيط والتوجيه، وهو ما يتماشى مع تفضيلات Moe.",
+      "competition": "low",
+      "competitors": [],
+      "edge": "الجمع بين (1) تبسيط كشوفات الحسابات البنكية، و (2) تحليل العروض المالية، و (3) تبسيط وثائق الاستثمار، كل ذلك في (4) لغة عربية سهلة الفهم، مع (5) رؤى قابلة للتنفيذ، 'مصممة خصيصًا للسياق المالي والمصطلحات الخاصة بالعالم العربي ومنطقة الخليج'، يبدو فجوة كبيرة. قد لا تقدم التطبيقات المالية العامة الحالية هذا الفهم اللغوي والسياقي العميق.",
+      "monetization": "نموذج فريميوم (Freemium) مع اشتراك للميزات المتقدمة أو عدد غير محدود من الوثائق/التحليلات.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 16,
+      "score": 9,
+      "firstStep": "بناء وظيفة أساسية لتحميل صور أو ملفات PDF لكشوفات الحسابات البنكية، واستخدام الذكاء الاصطناعي (Gemini Nano أو Firebase AI Logic) لاستخراج المعلومات الرئيسية وتقديم ملخص مبسط باللغة العربية."
+    },
+    {
+      "name": "ProDocSimplify",
+      "pitch": "مساعد ذكاء اصطناعي عالمي يبسط ويوضح المصطلحات القانونية والتجارية المعقدة في العقود والوثائق الرسمية باللغة الإنجليزية.",
+      "problem": "يواجه الأفراد والشركات الصغيرة صعوبة في فهم المصطلحات القانونية والتجارية المعقدة في العقود الدولية وشروط الخدمة، مما يؤدي إلى الارتباك والمخاطر.",
+      "audience": "رواد الأعمال والمستقلون والأفراد في الأسواق العالمية (الولايات المتحدة، أوروبا، أستراليا) الذين يتعاملون مع الوثائق القانونية والتجارية.",
+      "whyNow": "يُعد تبسيط المستندات المعقدة اتجاهًا رئيسيًا للذكاء الاصطناعي في عام 2026. يمكن لـ Firebase AI Logic و Gemini Nano معالجة وتحليل المستندات لتقديم تفسيرات مبسطة، مع إمكانية العمل على الجهاز للوثائق الحساسة. يلبي هذا فجوة في الأسواق الكبيرة التي تحتاج إلى فهم أوضح للالتزامات القانونية.",
+      "competition": "medium",
+      "competitors": [
+        "HyperWrite (Legal Document Simplifier)",
+        "LogicBalls AI (AI Legal Dejargonize)",
+        "simplifylegaldocument (AI Legal Document Simplifier)"
+      ],
+      "edge": "أداة تجمع بشكل فريد بين تبسيط المصطلحات القانونية والتجارية المعقدة، وتقدم رؤى تجارية قابلة للتنفيذ ونصائح استراتيجية مستمدة من المصطلحات المبسطة، وليس مجرد توضيح الصياغة. ربما تكامل أعمق مع السياق التجاري والمصطلحات الخاصة بالصناعة.",
+      "monetization": "نموذج فريميوم (Freemium) مع اشتراك للميزات المتقدمة أو عدد غير محدود من الوثائق/التحليلات.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 12,
+      "score": 8.5,
+      "firstStep": "تطوير وظيفة أساسية لتحميل المستندات النصية أو ملفات PDF باللغة الإنجليزية، واستخدام الذكاء الاصطناعي (Gemini Nano أو Firebase AI Logic) لتحديد المصطلحات القانونية والتجارية المعقدة وتقديم شروحات مبسطة."
+    },
+    {
+      "name": "NutriGuide AI",
+      "pitch": "تطبيق عالمي يقدم إرشادات غذائية مخصصة بناءً على تحليل ملصقات الطعام (عبر الكاميرا) وتفضيلات المستخدم ويسهل فهم المعلومات الغذائية.",
+      "problem": "يجد الكثيرون صعوبة في فهم المعلومات الغذائية المعقدة على ملصقات الطعام، أو مطابقة المنتجات مع قيودهم الغذائية وأهدافهم الصحية.",
+      "audience": "الأفراد المهتمون بالصحة واللياقة البدنية، ومن لديهم حساسيات غذائية أو أنظمة غذائية محددة، في الأسواق العالمية.",
+      "whyNow": "مع تزايد الوعي الصحي، هناك طلب كبير على أدوات تساعد في اتخاذ قرارات غذائية مستنيرة. يمكن لـ AI على الجهاز تحليل صور ملصقات الطعام بسرعة وتقديم معلومات مبسطة وتوصيات شخصية. يتناسب مع اتجاه تطبيقات الصحة واللياقة البدنية التي تستفيد من الذكاء الاصطناعي للتخصيص.",
+      "competition": "medium",
+      "competitors": [
+        "InnerBuddies (AI Personalized Nutrition Plans)",
+        "BiteKit (AI Food Label Analyzer)",
+        "NutriShot AI (AI Food Scanner)"
+      ],
+      "edge": "ذكاء اصطناعي ذكي يجمع بسلاسة بين مسح ملصقات الطعام بالكاميرا مع فهم شامل لتفضيلات المستخدم وأهدافه الصحية وقيوده الغذائية لتقديم 'نصائح قابلة للتنفيذ وسهلة الفهم ومخصصة' حول كيفية دمج هذا الطعام في نظامه الغذائي، أو اقتراح بدائل أفضل مصممة خصيصًا لملفه الشخصي، وشرح 'السبب' بعبارات بسيطة. جزء 'سهل الفهم' للمستخدمين العاديين هو المفتاح.",
+      "monetization": "نموذج فريميوم (Freemium) لعدد محدود من عمليات المسح، واشتراك للميزات المتقدمة والتوصيات الشخصية غير المحدودة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 8,
+      "firstStep": "تطوير وظيفة مسح ملصقات الطعام باستخدام كاميرا الجهاز والتعرف البصري على الحروف (OCR)، واستخراج المعلومات الغذائية الأساسية، ثم عرضها بشكل مبسط مع تسليط الضوء على المكونات الرئيسية."
+    },
+    {
+      "name": "EduPath AI",
+      "pitch": "تطبيق تعليمي عالمي مدعوم بالذكاء الاصطناعي يحول المستندات التعليمية إلى دروس مصغرة وتلخيصات واختبارات تكيفية مخصصة.",
+      "problem": "يرغب الناس في التعلم ولكن ليس لديهم الوقت الكافي لجلسات دراسية طويلة، وغالبًا ما تكون المواد التعليمية غير شخصية أو غير فعالة. لا توجد أداة تحول أي مستند PDF إلى اختبار يومي مدته خمس دقائق.",
+      "audience": "الطلاب والمهنيون الذين يسعون لتطوير مهاراتهم وتعلم مواضيع جديدة بكفاءة، خاصة في الأسواق الناطقة بالإنجليزية.",
+      "whyNow": "التعلم المصغر التكيفي هو اتجاه قوي في عام 2026، حيث يبحث المستخدمون عن طرق تعلم مرنة ومخصصة. يمكن لـ Gemini Nano معالجة المستندات على الجهاز لتلخيصها وإنشاء أسئلة، مع استخدام Firebase لتخزين محتوى المستخدم وتتبع التقدم. هذا يلبي حاجة واضحة لتبسيط التعلم وجعله أكثر سهولة.",
+      "competition": "medium",
+      "competitors": [
+        "Evernote (AI Note Summarizer for Schools)",
+        "Studley AI (AI PDF Summarizer)",
+        "Studingo (AI Notes Summarizer)"
+      ],
+      "edge": "تكمن الفجوة في تقديم 'الدروس المصغرة' والاختبارات التكيفية المخصصة حقًا التي تتكيف مع مستوى تقدم المتعلم وتعدل المحتوى بناءً على أدائه. هناك حاجة إلى إطار عمل تعليمي قوي لتوليد الدروس المدفوعة بالذكاء الاصطناعي.",
+      "monetization": "نموذج فريميوم (Freemium) لعدد محدود من المستندات/الاختبارات، واشتراك للوصول غير المحدود والميزات التعليمية المتقدمة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 15,
+      "score": 7.5,
+      "firstStep": "تطوير وظيفة أساسية لتحميل ملفات PDF، واستخدام الذكاء الاصطناعي (Gemini Nano أو Firebase AI Logic) لتلخيص المستندات وإنشاء أسئلة اختبار بسيطة متعددة الخيارات."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SubscriptionAudit AI",
+      "reason": "المنافسة عالية جدًا في هذا المجال، والفجوة المقترحة (مثل التفاوض على الصفقات أو تجميع الخدمات) تتطلب قدرات ذكاء اصطناعي متقدمة جدًا وتكاملات مالية معقدة تتجاوز قدرة مطور واحد في 3 أسابيع. بالإضافة إلى ذلك، يميل Moe إلى عدم تفضيل تطبيقات الإدارة المالية العامة أو الميزانية."
+    },
+    {
+      "name": "SmartReceipt AI",
+      "reason": "المنافسة عالية جدًا في مجال مسح الإيصالات وتصنيف النفقات. الميزة الفريدة المقترحة وهي 'تحديد البنود القابلة للخصم الضريبي' تتطلب فهمًا عميقًا ودائم التحديث للقوانين الضريبية لبلدان متعددة، وهو أمر معقد للغاية ويصعب على مطور واحد الحفاظ عليه وتطويره. يميل Moe إلى عدم تفضيل تطبيقات الإدارة المالية العامة أو الميزانية."
+    }
+  ],
+  "en": {
+    "summary": "Promising ideas show a strong trend towards simplifying complex documents and procedures using AI, especially in Arab regional and global contexts. The focus is on solving real problems for individuals and small businesses through smart tools buildable by a single developer.",
+    "trends": [
+      "Explainable AI",
+      "Adaptive Micro-learning",
+      "AI-Powered Document Simplification"
+    ],
+    "ideas": [
+      {
+        "name": "Dalil Hukoomi",
+        "pitch": "An AI assistant for the Arab world and the Gulf that simplifies and guides users through common government and administrative procedures and documents in easy-to-understand Arabic.",
+        "problem": "Individuals in the Arab world and the Gulf face complexity in understanding general government and administrative procedures and documents (such as visa applications, basic business setup procedures, common permits not tied to a single country's laws), leading to frustration and errors.",
+        "audience": "Individuals, entrepreneurs, and residents in the Arab world and Gulf region who deal with general government administrative procedures.",
+        "whyNow": "Australia's experience in digitizing government services shows a demand for simplification. This aligns with Moe's preference for AI applications that simplify complex documents and procedures. Firebase AI Logic can provide step-by-step explanations and guidance in Arabic, focusing on common administrative concepts in the region rather than country-specific laws, making it applicable to a wider market.",
+        "competition": "low",
+        "competitors": [],
+        "edge": "A specialized AI assistant that understands the nuances of government and administrative procedures and documents in the Arab world and the Gulf region, and can translate formal, often complex, Arabic into simple, actionable Arabic instructions and explanations for the average citizen. This requires a deep understanding of the language and local bureaucratic processes.",
+        "monetization": "Freemium model with a subscription for advanced features or unlimited inquiries/documents.",
+        "buildDifficulty": "Medium",
+        "buildDays": 14,
+        "score": 9.5,
+        "firstStep": "Develop a simple user interface for uploading documents or entering text inquiries, and integrate Gemini Nano or Firebase AI Logic to provide initial summaries and guidance in Arabic."
+      },
+      {
+        "name": "Maliyati الذكية",
+        "pitch": "An AI assistant for the Arab world and the Gulf that simplifies bank statements, financial offers, and investment documents into easy-to-understand Arabic, with actionable insights.",
+        "problem": "Users in the Arab world and the Gulf find it difficult to understand the complex language in various financial documents, such as bank statements, loan offers, and general investment documents, which hinders sound financial decision-making.",
+        "audience": "Individuals in the Arab world and the Gulf region (Saudi Arabia, UAE, Qatar, Kuwait) who want to better understand their personal financial documents.",
+        "whyNow": "There is a growing demand for AI that provides personalized insights and recommendations in the financial services sector in Europe, and this also applies to the Arab world. Firebase AI Logic can process and summarize Arabic texts, providing simplified explanations that fit the region's cultural context. It focuses on simplification and guidance, which aligns with Moe's preferences.",
+        "competition": "low",
+        "competitors": [],
+        "edge": "The combination of (1) simplifying bank statements, (2) analyzing financial offers, and (3) simplifying investment documents, all in (4) easy-to-understand Arabic, with (5) actionable insights, 'tailored specifically to the financial context and terminology of the Arab world and the Gulf region,' appears to be a significant gap. Current general financial applications may not offer this deep linguistic and contextual understanding.",
+        "monetization": "Freemium model with a subscription for advanced features or unlimited documents/analyses.",
+        "buildDifficulty": "Medium",
+        "buildDays": 16,
+        "score": 9,
+        "firstStep": "Build a basic function to upload images or PDF files of bank statements, and use AI (Gemini Nano or Firebase AI Logic) to extract key information and provide a simplified summary in Arabic."
+      },
+      {
+        "name": "ProDocSimplify",
+        "pitch": "A global AI assistant that simplifies and clarifies complex legal and business terms in contracts and official documents in English.",
+        "problem": "Individuals and small businesses face difficulty understanding complex legal and business terms in international contracts and terms of service, leading to confusion and risks.",
+        "audience": "Entrepreneurs, freelancers, and individuals in global markets (USA, Europe, Australia) who deal with legal and business documents.",
+        "whyNow": "Simplifying complex documents is a major AI trend in 2026. Firebase AI Logic and Gemini Nano can process and analyze documents to provide simplified explanations, with on-device capability for sensitive documents. This addresses a gap in large markets that need a clearer understanding of legal obligations.",
+        "competition": "medium",
+        "competitors": [
+          "HyperWrite (Legal Document Simplifier)",
+          "LogicBalls AI (AI Legal Dejargonize)",
+          "simplifylegaldocument (AI Legal Document Simplifier)"
+        ],
+        "edge": "A tool that uniquely combines the simplification of complex legal and business terms, providing actionable business insights and strategic advice derived from the simplified terms, not just clarifying phrasing. Perhaps deeper integration with business context and industry-specific terminology.",
+        "monetization": "Freemium model with a subscription for advanced features or unlimited documents/analyses.",
+        "buildDifficulty": "Medium",
+        "buildDays": 12,
+        "score": 8.5,
+        "firstStep": "Develop a basic function to upload text documents or PDF files in English, and use AI (Gemini Nano or Firebase AI Logic) to identify complex legal and business terms and provide simplified explanations."
+      },
+      {
+        "name": "NutriGuide AI",
+        "pitch": "A global application that provides personalized nutritional guidance based on food label analysis (via camera) and user preferences, making nutritional information easy to understand.",
+        "problem": "Many find it difficult to understand complex nutritional information on food labels, or to match products with their dietary restrictions and health goals.",
+        "audience": "Individuals interested in health and fitness, and those with food sensitivities or specific diets, in global markets.",
+        "whyNow": "With increasing health awareness, there is a high demand for tools that help make informed dietary decisions. On-device AI can quickly analyze food label images and provide simplified information and personalized recommendations. This aligns with the trend of health and fitness applications that leverage AI for personalization.",
+        "competition": "medium",
+        "competitors": [
+          "InnerBuddies (AI Personalized Nutrition Plans)",
+          "BiteKit (AI Food Label Analyzer)",
+          "NutriShot AI (AI Food Scanner)"
+        ],
+        "edge": "Smart AI that seamlessly combines camera-based food label scanning with a comprehensive understanding of user preferences, health goals, and dietary restrictions to provide 'actionable, easy-to-understand, and personalized advice' on how to integrate this food into their diet, or suggest better alternatives tailored to their profile, and explain 'why' in simple terms. The 'easy-to-understand' part for average users is key.",
+        "monetization": "Freemium model for a limited number of scans, and a subscription for advanced features and unlimited personalized recommendations.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 8,
+        "firstStep": "Develop a food label scanning function using the device's camera and Optical Character Recognition (OCR), extract basic nutritional information, and then display it in a simplified manner, highlighting key ingredients."
+      },
+      {
+        "name": "EduPath AI",
+        "pitch": "A global AI-powered educational application that transforms educational documents into micro-lessons, summaries, and personalized adaptive quizzes.",
+        "problem": "People want to learn but don't have enough time for long study sessions, and educational materials are often impersonal or ineffective. There is no tool that turns any PDF document into a five-minute daily quiz.",
+        "audience": "Students and professionals seeking to develop their skills and learn new topics efficiently, especially in English-speaking markets.",
+        "whyNow": "Adaptive micro-learning is a strong trend in 2026, as users seek flexible and personalized learning methods. Gemini Nano can process documents on-device to summarize them and generate questions, with Firebase used to store user content and track progress. This addresses a clear need to simplify learning and make it more accessible.",
+        "competition": "medium",
+        "competitors": [
+          "Evernote (AI Note Summarizer for Schools)",
+          "Studley AI (AI PDF Summarizer)",
+          "Studingo (AI Notes Summarizer)"
+        ],
+        "edge": "The gap lies in providing truly 'micro-lessons' and personalized adaptive quizzes that adapt to the learner's progress level and adjust content based on their performance. A robust educational framework is needed for AI-driven lesson generation.",
+        "monetization": "Freemium model for a limited number of documents/quizzes, and a subscription for unlimited access and advanced educational features.",
+        "buildDifficulty": "Medium",
+        "buildDays": 15,
+        "score": 7.5,
+        "firstStep": "Develop a basic function to upload PDF files, and use AI (Gemini Nano or Firebase AI Logic) to summarize documents and generate simple multiple-choice quiz questions."
+      }
+    ],
+    "rejected": [
+      {
+        "name": "SubscriptionAudit AI",
+        "reason": "Competition is very high in this field, and the proposed gap (e.g., negotiating deals or bundling services) requires very advanced AI capabilities and complex financial integrations that exceed the capacity of a single developer in 3 weeks. Additionally, Moe tends not to favor general financial management or budgeting applications."
+      },
+      {
+        "name": "SmartReceipt AI",
+        "reason": "Competition is very high in the field of receipt scanning and expense categorization. The proposed unique feature of 'identifying tax-deductible items' requires a deep and constantly updated understanding of tax laws for multiple countries, which is extremely complex and difficult for a single developer to maintain and develop. Moe tends not to favor general financial management or budgeting applications."
+      }
+    ]
+  },
+  "agent": {
+    "version": 3,
+    "candidates": 8,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "61 past ideas, 6 liked, 18 disliked"
+      },
+      {
+        "step": "scout",
+        "msg": "8 candidates via gemini-2.5-flash: SubscriptionAudit AI, EduPath AI, ProDocSimplify, CareCoordi AI, SmartReceipt AI, NutriGuide AI, Maliyati الذكية, Dalil Hukoomi"
+      },
+      {
+        "step": "compete",
+        "msg": "checked 8 candidates via gemini-2.5-flash"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 5, rejected 2 via gemini-2.5-flash"
+      },
+      {
+        "step": "translate",
+        "msg": "English version ready"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "medium.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGccgSXufIUSqwrAaKnD-yya6xd0gqBeKxdYZie6rnKyyN-c_QyMGYPjmtl5XF0HwxApXEBoVxOai2psMgWiO9pAvypHQzjjbwA-JHT9rR_vpYHims4WKiqd5w9obqKqW2E_V-kDi88FTLHxprmvk7Z-1xRq6zxBoBzfSzpOJboAtkhONtpab0tw2TfF1oCx7IzFSPnZ3PbnK9gHzbinAzDD5PQAg=="
+    },
+    {
+      "title": "lagenio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw1LKINFTzBnOgPwpy7Y4AwIX70Ya7uuNy33Vj4lGjWnL2-_FlFG3SOu3Jua2P0LoRKGpzlDB6EsxLA-GRjgevBssV41Bt0dKFlNc6CY9-am9u4vLhhrdoWFFO-ApXEO6J-QygtuFuslQt-VSN6n-aRyq35l6RudSuzpXBPrxC1BNCpg=="
+    },
+    {
+      "title": "newly.app",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtQVVN4cFRnOuqIN_D8qeenm9zoQHsXic5hTVsXH8RH7VDDLJicsW04Lu24k3-R9yQFnMTtI7qUxMzmBiIdXzrHgzbOWwVufCrb5WUYVSS58eBrKxr8tFFYrUfI7DFaeKULqCKAnomTUJJZ6U="
+    },
+    {
+      "title": "technotalkative.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu16wHQQN1KI5HXQZs0beotIHjeGTDh2InneP_EiQwgqNHiQaFGv9cBt29LlFvRA2XNKMgD2AasQwv75yAqZmrgSSFITzxTytlA3pfc1f9Kw1KqJR29YGuJi1RmIpPd9KBQ4n2WtDoseNOhjndMEC1rdM0TBoC6yI="
+    },
+    {
+      "title": "galaxiumcoding.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkDiR4luHpFc6HdEPzPftTYiZhpfBZ--U0b3IJiIK5-UGqLNJTzKzY64G7-hXdI8cHMBnu1AC6g99ExQkSXBoJarDwQMvQCDegflDy84JxPTqHXHlFckH7vtYjJMnF5-qjZWE0GDgA1beonm5QD6l2fFHzwjc2HpMMLLxfPdRZJ47JM8uKGDoJVsizZ_FzK1ILg5zHPiNipwZuPVUzkOTiyB1CITKBG3ivxm-fp1K-Mt0XcWWfbpCxkyOe8dogHGRi"
+    },
+    {
+      "title": "appgurus.com.au",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUzR3n02LLHbvF6ecmluuaKOY_hky8_-QYhn1Wxx4_tq8CKTb7_OrJ3BXLIEOhILF7nSaAg9e1pGnefWWra_rkGI_rQcXd_VMvgLzZUsY_mZXlV0lX2QVaRjGp5X4qRX6GgYC-ipNiwztjYPTTlEHLpCX6bHvaV2UtzIa-w0j4bmBWFe0sj9qIVQ75YqsDbLdn4oX0_TjK4hGlV2el1DLB"
+    },
+    {
+      "title": "firebase.blog",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH30ON-MixRWm6aKaTTFqRY0OX0EQ6Os5dimc-J61c11Upeg8zSzTNIiRmEGJUKuQ469D3GkR1_nl_d4p8D6Lc0E8X45Wz3pIWk9vA9RSZAPJg3z42rQ7dXknkrNfjyDFPv2Seoh0FAJOcfffeQ1u5F94nOCZBAL3Ofz9ZOFA=="
+    },
+    {
+      "title": "androidauthority.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYcRJiSxnJXInxnmg91r8aKJdmO6nYpJqXRahv0BzgFp3Ts8jQQ_VSFKe994tRhn1kt2SHVwbvRnbR-CkYlplCAziEd1yqeGX8KjUwlodSVeSWIWAyISBYZPtof5KoqZfQm9KTFOaZPrrnQiCgjPZT0Zaj-3QwobLqg31iDWBn7Q=="
+    },
+    {
+      "title": "vocal.media",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_whFg4vDMXJbDtbnjt9NAeSFpPCpbHdK9Bh_sFqyxf3vJ9oTDH3JOyCPKI13a9Lv2gWhZJ7TQO5VONgldAM5s9nI24uWRnoD5wlGu0fl8w7jJh_4Iwns3iyrqaXQK5lQmfzI8ljFQXZqOUUkXtKIFLGTLx-cv0TClewflFVbGTFfpCGENLyWHDO_6G5L1"
+    },
+    {
+      "title": "kotlinlang.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG7An8zcgz-lL_WtEZGPYRHcoO_YfTAwWe-NyapSfeiy0p17ybmu3A4A7a_g41tGz2MgX755dKGCa6vGAHwkyRoatOqs3z-XkQL2tFQ042g6qpiTE172JJb5z924rW6n0EF4r6LIieFcDXZXWRJevmnJQv8cTzsiNYiEoHat1d"
+    },
+    {
+      "title": "kotlinlang.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFivAyLNkKJ54jW_Qbelg1caEn7rcMRR_slQMHyG_Fjg91OuBuo3pc-Snf821Znt6dHyiU4_s8DHaY8bJWYmmEC6l0RcdjLDKt4gbVErnTZ-YWEJBS9Pg-LT-AWeaJ_C8il0nnVhntG"
+    },
+    {
+      "title": "firebase.blog",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrCiaqsm9B3X3COz0yW-pBbapkosc1K6VYJgnA5A7RMhoArcKNbnu583f1Ti7_BKKm6vQ-7a5-2VIlmEKLrPImwz7DBksvntyfFWSx1XV2xfl8t7vfz_klYgoGr7ah2J5vfV2w8w90lIvNVi1x3qRl-CHf4sVpWFeN083w"
+    },
+    {
+      "title": "ravirupareliya.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_37k0UUSs16HJHQJKvYohKTVMnJpfBihCnMcWpF4y_zv2o_OkQiMXDWZVrxF9JsUSOksBLQOucyKdBXheGtt7YU30b3EYkxF6qopGU9sSCOKosiJH_ynBhcmg8jeJHFWSd1un5FQKJJxzQ397zWV0"
+    },
+    {
+      "title": "releasebot.io",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsdCzLIERDdTXoAk4QbBhJW4eHJi8eVZU3N7k5sQYHbXhqgMpfJf70KgYpIgQDZSJP7M57cul5zNVIwlANKaDD3cfoNSjJsSO2O6JfNe78wbjxRwd9hwQIvnVYJmHwQqdHJ7Vll7cyTA=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUVRIn0MlGu-xBhhsUfaSvWKKmI8COC_ZXW7nVWQ41j9X8ELM0TcWpdmF91_rPzvOgzBbTZjE7M6-7v3i4LZpxnUhNq0P36YfNwVSWB4TlcQHu0tsW12Pu7vunQyLr8_SlwZ0raAU="
+    },
+    {
+      "title": "marketdataforecast.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKypzxTi1AGtxpx45XRbhMcsav621wty_hqXIiM3upZ4XysTxRWv9GPRKSjQejxEg2z81CziK7IJb0O7zoWALb7dUk9fNdwwaFOR5THVEMv0aghHcfIfsMy2DMVYAI7BLnxA-7Wz0S10614-p83tgT9TaqVLOvTxnSqSB_23leqGAaQCfGRTR9Ebzt22M="
+    },
+    {
+      "title": "appscrip.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaz25kUnwoaoUAL2VW9VG_Z142emKeo-K73FnOizbpOFnNw97LttzCqLvY-bWoUJ8lcz1rgMdYz1xEvhJCo7exT6x1pZw1wfAo5AANgNeeg0IO4p1Kq1rcV6Y85JMqCC75vek38w=="
+    },
+    {
+      "title": "mybzz.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcVoy7BrO5d-0aCvlw19fz7lVvlXCTeDTOgPPtFvb3FuHrxaBtW9n5Z55n5tJhJqFXOPxPtaqFwM6kdOF_qbmy3i1igopUUF2tMfe2BQfTm-TwTCTJRRq4bqrYp1e04N7qcWDG_oSeMC5-X2YDGBhXo7NpTsStDk-ok0Q8QGA="
+    },
+    {
+      "title": "bigideasdb.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIMCr7Ga_TqU8LhjZLt4RvAVuFkSLnFwNh9I_otAZ4RrFSpAAY6PVDLfp115kwpRbkjsEu8BHWB49HwS1Ld6uz7CYVzZHBV6caoUeT-KzdT7ToK-Qi5K4vuTZg_QMUGP4grI-LI8ipdTI2KCx0c55K"
+    },
+    {
+      "title": "businessofapps.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3m23g7O3ysgB019M-NgBX1t7mJ4l3ADLzdS8xgWw4RmtDP5t1SpICudIGrqUg4hD1vDbbp-JCQsxDCDimIkyxdxmYNOYwLs8_rt-u4OVAxHQVMngjgjIn5wYZS1fNJkZ-s2wmuw5VF61KSspcFUDL3jBLFg=="
+    }
+  ]
+}
