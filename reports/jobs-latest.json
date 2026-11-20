@@ -1,12 +1,12 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T03:26:40.344Z",
+  "generatedAt": "2026-11-20T07:42:31.305Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم لأنها كانت وظائف بدوام كامل، أو تتطلب تقنيات لا يستخدمها Moe مثل Flutter و React Native، أو كانت طلبات تسويق وليست تطوير تطبيقات. تم الاحتفاظ بفرصة واحدة تتعلق بأتمتة الذكاء الاصطناعي.",
-    "en": "Most leads today were rejected for being full-time jobs, requiring technologies Moe doesn't use (Flutter, React Native), or being marketing requests rather than app development. One lead for AI automation was kept."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 4 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 4 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "Daily Ops & AI Automation Assistant",
@@ -16,10 +16,10 @@
       "country": "",
       "budget": "750-1500 USD",
       "posted": "1 hours ago",
-      "proposals": "10",
+      "proposals": "28",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-20T03:24:02.508Z",
+      "bidsAt": "2026-11-20T07:42:31.305Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -33,7 +33,8 @@
       },
       "proposal": "I can help you streamline your daily operations by building AI automations, including for email outreach and other recurring tasks. I build native Kotlin Android apps with AI-assisted development, and I have experience creating custom AI agents. For example, I use my own daily AI research agent, Me.ai, which leverages Gemini and web search to automate information gathering. This allows for efficient and consistent handling of routine business processes. I can set up intelligent systems to manage and automate parts of your workflow.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific types of email outreach and daily tasks you're looking to automate with AI?",
       "foundAt": "2026-11-20T03:26:40.149Z",
-      "fresh": true
+      "fresh": false,
+      "crowded": false
     },
     {
       "title": "بناء بوت واتساب شامل",
@@ -111,6 +112,70 @@
   ],
   "rejected": [
     {
+      "title": "Institute for Social Security and Services for State Workers (ISSSTE) - Regional Hospital of León (Hospital Regional ISSSTE León), located in León, Guanajuato, Mexico.",
+      "url": "https://www.freelancer.com/projects/photography/Institute-for-Social-Security-Services",
+      "reason": {
+        "ar": "هذه وظيفة بحث ميداني وتصوير، وليست تطوير تطبيقات أو ذكاء اصطناعي، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "This is a field research and photography job, not app development or AI, and is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Chinese Payment API Testing Help",
+      "url": "https://www.freelancer.com/projects/api-testing/Chinese-Payment-API-Testing-Help",
+      "reason": {
+        "ar": "هذه وظيفة اختبار تتطلب هوية محلية صينية محددة، وليست تطوير تطبيقات، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "This is a testing job requiring specific local Chinese identity, not app development, and is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Testers en Colombia · Desde tu celular · USD 50 por prueba completada",
+      "url": "https://www.freelancer.com/projects/mobile-app-testing/Testers-Colombia-Desde-celular-USD",
+      "reason": {
+        "ar": "هذه وظيفة اختبار تطبيقات تتطلب وجودًا محددًا في كولومبيا ومشاركة مالية شخصية، وليست تطوير تطبيقات، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "This is a mobile app testing job requiring specific location in Colombia and personal financial involvement, not app development, and is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Japanese Gmail Interaction Testers",
+      "url": "https://www.freelancer.com/projects/user-experience-research/Japanese-Gmail-Interaction-Testers",
+      "reason": {
+        "ar": "هذه وظيفة تقييم واختبار للذكاء الاصطناعي تتطلب متحدثين أصليين للغة اليابانية، وليست بناء تطبيقات أو وكلاء ذكاء اصطناعي، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "This is an AI evaluation and testing job requiring native Japanese speakers, not app development or AI agent building, and is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Email Support Assistant Automation",
+      "url": "https://www.freelancer.com/projects/customer-service/Email-Support-Assistant-Automation",
+      "reason": {
+        "ar": "هذه وظيفة مساعد افتراضي/دعم عملاء، وليست تطوير تطبيقات أو بناء وكلاء ذكاء اصطناعي، وهي خارج نطاق ما يمكن لـ Moe تقديمه.",
+        "en": "This is a virtual assistant/customer support job, not app development or AI agent building, and is outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "Training & Refinement of Edge AI Models for Maritime and Industrial Safety",
+      "url": "https://www.freelancer.com/projects/computer-vision/Training-Refinement-Edge-Models-for",
+      "reason": {
+        "ar": "Moe يدمج ميزات Gemini AI ولكنه ليس متخصصًا في تدريب وتحسين نماذج التعلم العميق المخصصة للرؤية الحاسوبية. النطاق المطلوب يتجاوز قدراته، والميزانية منخفضة جدًا بالنسبة لهذا النوع من العمل المتخصص.",
+        "en": "Moe integrates Gemini AI features but is not a specialist in training and refining custom deep learning models for computer vision. The required scope is beyond his capabilities, and the budget is too low for this type of specialized work."
+      }
+    },
+    {
+      "title": "Aplikasi Chat Grup Android Sederhana",
+      "url": "https://www.freelancer.com/projects/android-app-development/Aplikasi-Chat-Grup-Android-Sederhana",
+      "reason": {
+        "ar": "وصف المشروع مكتوب باللغة الإندونيسية، وليس باللغة الإنجليزية أو العربية.",
+        "en": "The project description is in Indonesian, not English or Arabic."
+      }
+    },
+    {
+      "title": "iOS Developer (4 month Contract)",
+      "url": "https://www.linkedin.com/jobs/view/4491393260/",
+      "reason": {
+        "ar": "يطلب هذا العرض مطور iOS بخبرة قوية في Swift/SwiftUI ويتطلب أن يكون المستقل مقيمًا في الإمارات العربية المتحدة. Moe لا يطور تطبيقات iOS بنفسه ولا يقيم في الإمارات العربية المتحدة.",
+        "en": "This lead explicitly requests an iOS developer with strong Swift/SwiftUI experience and requires the freelancer to be based in the UAE. Moe does not develop iOS apps himself and is not based in the UAE."
+      }
+    },
+    {
       "title": "Aplikasi Marketplace Fashion Lokal",
       "url": "https://www.freelancer.com/projects/flutter/Aplikasi-Marketplace-Fashion-Lokal",
       "reason": {
@@ -170,11 +235,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 7,
+    "verified": 8,
     "steps": [
       {
         "step": "memory",
-        "msg": "660 leads seen before"
+        "msg": "686 leads seen before"
       },
       {
         "step": "verify",
@@ -182,7 +247,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "17 open projects from the last 5 days worldwide with budget 100+ USD (76 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
+        "msg": "18 open projects from the last 5 days worldwide with budget 100+ USD (92 skipped: India/Pakistan/Bangladesh under 250 USD, 0 skipped: budget under 100 USD, 83 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -222,95 +287,111 @@
       },
       {
         "step": "linkedin",
-        "msg": "201 jobs from Gmail alerts (last 5 days)"
+        "msg": "234 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / Canada: busy (429), stopping search this run"
+        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer III"
+        "msg": "skipped (full-time): Machine Learning Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer"
+        "msg": "skipped (full-time): Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Software Developer - Android Apps"
+        "msg": "skipped (full-time): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Android"
+        "msg": "skipped (full-time): GenAI Engineer- R&D and Innovation Center"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer, App Experience & Frameworks"
+        "msg": "skipped (full-time): Generative AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer with Kotlin Multiplatform (f/m/x)"
+        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer with Kotlin Multiplatform (f/m/x)"
+        "msg": "skipped (full-time): Software Engineer (starter)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer Poland (m/f/d)"
+        "msg": "skipped (full-time): Junior Software Developer – AI Applications"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Entwickler (m/w/d)"
+        "msg": "skipped (full-time): AI Full Stack Engineer | GenAI, agentes de IA y SDD"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Software Developer AI Solutions (m/f/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Product Engineer"
+        "msg": "skipped (full-time): Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android App Developer"
+        "msg": "skipped (full-time): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Platform Engineer"
+        "msg": "skipped (full-time): AI Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Technical Lead"
+        "msg": "skipped (full-time): Software Engineer IA / Full-Stack (H/F)"
       },
       {
         "step": "linkedin",
-        "msg": "post 4484181260: HTTP 429"
+        "msg": "skipped (full-time): AI/ML Software Engineer, Enterprise AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Audio DSP Software Engineer"
+        "msg": "skipped (full-time): AI/ML Software Engineer, Enterprise AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Java Fullstack Developer"
+        "msg": "skipped (full-time): AI Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Unity Developer"
+        "msg": "skipped (full-time): Application Engineering Associate"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Application Developer"
+        "msg": "skipped (full-time): AI Software Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Developer III"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full Stack AI Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Application Developer"
       },
       {
         "step": "linkedin",
         "msg": "skipped (full-time): iOS Developer"
       },
       {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer – Podme"
+      },
+      {
         "step": "verify",
-        "msg": "1 of 20 new LinkedIn jobs added"
+        "msg": "1 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -318,11 +399,11 @@
       },
       {
         "step": "verify",
-        "msg": "6 new Freelancer projects added, 7 to judge"
+        "msg": "7 new Freelancer projects added, 8 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 8 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
