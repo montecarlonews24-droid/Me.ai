@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T05:57:44.986Z",
+  "generatedAt": "2026-11-21T10:27:13.520Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 14 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -304,10 +304,10 @@
       "country": "",
       "budget": "750-1500 USD",
       "posted": "1 hours ago",
-      "proposals": "41",
+      "proposals": "43",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-21T05:57:44.985Z",
+      "bidsAt": "2026-11-21T10:27:13.520Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -350,6 +350,134 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Zoho Client Finder: Paid Only for Clients Who Sign",
+      "url": "https://www.freelancer.com/projects/zoho-crm/Zoho-Client-Finder-Paid-Only",
+      "reason": {
+        "ar": "المشروع يتطلب مطور أعمال أو مسؤول توليد عملاء محتملين، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات.",
+        "en": "The project requires a business developer or lead generation specialist, which is outside Moe's scope of work focused on app development."
+      }
+    },
+    {
+      "title": "(Japanese only)Review Japanese AI Responses (by Heikin Ashi Company)",
+      "url": "https://www.freelancer.com/projects/natural-language-processing/Review-Japanese-Responses-Heikin-Ashi",
+      "reason": {
+        "ar": "يتطلب المشروع مراجعة ردود الذكاء الاصطناعي باللغة اليابانية بمستوى لغوي أصلي، وMoe لا يتحدث اليابانية، كما أن هذا العمل ليس تطوير تطبيقات.",
+        "en": "The project requires reviewing AI responses in Japanese at a native fluency level, and Moe does not speak Japanese. This work is also not app development."
+      }
+    },
+    {
+      "title": "Aplikasi E-Hailing Kereta & Moto",
+      "url": "https://www.freelancer.com/projects/api-developmet/Aplikasi-Hailing-Kereta-Moto",
+      "reason": {
+        "ar": "نص المشروع مكتوب بلغة الملايو/الإندونيسية، وهي ليست الإنجليزية أو العربية، مما يجعله خارج نطاق العمل المقبول.",
+        "en": "The project text is written in Malay/Indonesian, which is neither English nor Arabic, making it outside the acceptable language scope."
+      }
+    },
+    {
+      "title": "Beginner Social Chat App Tutorial",
+      "url": "https://www.freelancer.com/projects/flutter/Beginner-Social-Chat-App-Tutorial",
+      "reason": {
+        "ar": "العميل يبحث عن دروس تعليمية ومسار تعلم لتطوير تطبيق شات باستخدام Flutter أو React Native، وهذا ليس مشروع تطوير تطبيق مباشر، كما أن Moe لا يعمل بـ Flutter أو React Native.",
+        "en": "The client is looking for tutorials and a learning path to build a chat app using Flutter or React Native. This is not a direct app development project, and Moe does not work with Flutter or React Native."
+      }
+    },
+    {
+      "title": "Finalize and Optimize Custom Claude Long-Term Memory System",
+      "url": "https://www.freelancer.com/projects/ai-integration/Finalize-Optimize-Custom-Claude-Long",
+      "reason": {
+        "ar": "المشروع يتطلب مهندس برمجيات كبير (Senior Software Engineer) لتحسين نظام معقد للذاكرة طويلة الأمد لـ Claude، بما في ذلك إصلاح الأخطاء وتحسين الأداء وأمن الخادم وترحيل الأجهزة. هذا يتجاوز قدرات Moe في بناء تطبيقات Android ووكلاء الذكاء الاصطناعي ولا يندرج ضمن نطاق عمله في البنية الخلفية الكبيرة أو هندسة الأنظمة.",
+        "en": "The project requires a 'Senior Software Engineer' to optimize a complex long-term memory system for Claude, including bug fixing, performance optimization, server security, and hardware migration. This goes beyond Moe's capabilities in building Android apps and AI agents and is outside his scope for large backends or system engineering."
+      }
+    },
+    {
+      "title": "Drive Registrations for Consumer App",
+      "url": "https://www.freelancer.com/projects/mobile-app-development/Drive-Registrations-for-Consumer-App",
+      "reason": {
+        "ar": "المشروع يطلب دعمًا لزيادة تسجيلات المستخدمين لتطبيق جوال من خلال التسويق الرقمي واكتساب المستخدمين، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات.",
+        "en": "The project requests support for driving user registrations for a mobile app through digital marketing and user acquisition, which is outside Moe's scope of app development."
+      }
+    },
+    {
+      "title": "تطوير تطبيق جوال متكامل للخدمات المنزلية - مشروع لقطة",
+      "url": "https://mostaql.com/project/1294396",
+      "reason": {
+        "ar": "المشروع يذكر صراحة الحاجة إلى Flutter في المهارات المطلوبة، وMoe لا يعمل بتقنيات Flutter.",
+        "en": "The project explicitly mentions Flutter in the required skills, and Moe does not work with Flutter technologies."
+      }
+    },
+    {
+      "title": "تحليل بيانات تطبيق ألعاب موبايل (Firebase / BigQuery) وتوصيات لتحسين الاحتفاظ",
+      "url": "https://mostaql.com/project/1294404",
+      "reason": {
+        "ar": "المشروع يتطلب محلل بيانات لتحليل بيانات تطبيق ألعاب موبايل باستخدام Firebase و BigQuery وإنشاء لوحات تحكم Looker Studio، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات وليس تحليل البيانات.",
+        "en": "The project requires a data analyst to analyze mobile game app data using Firebase and BigQuery and create Looker Studio dashboards, which is outside Moe's scope of app development and not data analysis."
+      }
+    },
+    {
+      "title": "مطلوب مستقل مقيم بالسعودية لتسجيل 50 فيديو شرح تطبيقات سعودية لليوتيوب",
+      "url": "https://mostaql.com/project/1294420",
+      "reason": {
+        "ar": "المشروع يتطلب شخصًا مقيمًا في المملكة العربية السعودية لتسجيل فيديوهات شرح تطبيقات، وMoe مقيم في الأردن، كما أن هذا العمل خارج نطاق تطوير التطبيقات.",
+        "en": "The project requires someone residing in Saudi Arabia to record app tutorial videos, and Moe is based in Jordan. This work is also outside the scope of app development."
+      }
+    },
+    {
+      "title": "مطلوب Media Buyer متخصص في إعلانات TikTok Ads وSnapchat Ads لعيادة أسنان",
+      "url": "https://mostaql.com/project/1294424",
+      "reason": {
+        "ar": "المشروع يبحث عن Media Buyer متخصص في إعلانات TikTok و Snapchat، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات وليس التسويق الرقمي.",
+        "en": "The project is looking for a Media Buyer specialized in TikTok Ads and Snapchat Ads, which is outside Moe's scope of app development and not digital marketing."
+      }
+    },
+    {
+      "title": "اريد شخص متخصص في عمل فيديو كرتوني ذكاء اصطناعي",
+      "url": "https://khamsat.com/community/requests/800992-%D8%A7%D8%B1%D9%8A%D8%AF-%D8%B4%D8%AE%D8%B5-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D9%81%D9%8A-%D8%B9%D9%85%D9%84-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D8%B1%D8%AA%D9%88%D9%86%D9%8A-%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+      "reason": {
+        "ar": "المشروع يطلب شخصًا متخصصًا في عمل فيديوهات كرتونية بالذكاء الاصطناعي، وهو خارج نطاق عمل Moe الذي يركز على تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي، وليس إنشاء المحتوى المرئي.",
+        "en": "The project requests someone specialized in creating AI cartoon videos, which is outside Moe's scope of developing Android apps and AI agents, and not visual content creation."
+      }
+    },
+    {
+      "title": "مساعده في تطبيق ALIPAY",
+      "url": "https://khamsat.com/community/requests/800993-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D9%87-%D9%81%D9%8A-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-alipay",
+      "reason": {
+        "ar": "الطلب غامض للغاية ويشير إلى 'مساعدة في تطبيق ALIPAY'، وهو على الأرجح طلب دعم فني أو استخدام تطبيق موجود، وليس مشروع تطوير جديد.",
+        "en": "The request is too vague, asking for 'help with ALIPAY app,' which is likely a request for technical support or assistance with an existing application, not a new development project."
+      }
+    },
+    {
+      "title": "Mobile App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478299520/",
+      "reason": {
+        "ar": "الوظيفة هي 'مهندس برمجيات جوال أول' (Senior Mobile Software Engineer) وتتطلب العمل كمتعاقد لتدريب أنظمة الذكاء الاصطناعي من خلال إنشاء مهام برمجية معقدة. هذا دور هندسي رفيع المستوى ضمن فريق، وليس مشروع تطوير تطبيق مستقل، كما أنها تذكر Flutter/React Native.",
+        "en": "The role is for a 'Senior Mobile Software Engineer' and involves contracting to train AI systems by creating complex coding tasks. This is a senior-level engineering role within a team, not an independent app development project, and it also mentions Flutter/React Native."
+      }
+    },
+    {
+      "title": "Mobile App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478608110/",
+      "reason": {
+        "ar": "الوظيفة هي 'مهندس برمجيات جوال أول' (Senior Mobile Software Engineer) وتتطلب العمل كمتعاقد لتدريب أنظمة الذكاء الاصطناعي من خلال إنشاء مهام برمجية معقدة. هذا دور هندسي رفيع المستوى ضمن فريق، وليس مشروع تطوير تطبيق مستقل، كما أنها تذكر Flutter/React Native.",
+        "en": "The role is for a 'Senior Mobile Software Engineer' and involves contracting to train AI systems by creating complex coding tasks. This is a senior-level engineering role within a team, not an independent app development project, and it also mentions Flutter/React Native."
+      }
+    },
+    {
+      "title": "Mobile Developer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492138778/",
+      "reason": {
+        "ar": "الوظيفة هي 'مطور جوال أول' (Senior Mobile Developer) وتتطلب العمل كمتعاقد لإنشاء بيئات تعلم معزز لاختبار نماذج الذكاء الاصطناعي. هذا دور هندسي رفيع المستوى ضمن فريق، وليس مشروع تطوير تطبيق مستقل، كما أنها تذكر Flutter/React Native.",
+        "en": "The role is for a 'Senior Mobile Developer' and involves contracting to create Reinforcement Learning Environments to test AI models. This is a senior-level engineering role within a team, not an independent app development project, and it also mentions Flutter/React Native."
+      }
+    },
+    {
+      "title": "Software Engineer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492148441/",
+      "reason": {
+        "ar": "الوظيفة هي 'مطور جوال أول' (Senior Mobile Developer) وتتطلب العمل كمتعاقد لإنشاء بيئات تعلم معزز لاختبار نماذج الذكاء الاصطناعي. هذا دور هندسي رفيع المستوى ضمن فريق، وليس مشروع تطوير تطبيق مستقل، كما أنها تذكر Flutter/React Native.",
+        "en": "The role is for a 'Senior Mobile Developer' and involves contracting to create Reinforcement Learning Environments to test AI models. This is a senior-level engineering role within a team, not an independent app development project, and it also mentions Flutter/React Native."
+      }
+    },
     {
       "title": "عمل بوت تليجرام",
       "url": "https://khamsat.com/community/requests/800882-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D8%AA%D9%84%D9%8A%D8%AC%D8%B1%D8%A7%D9%85",
@@ -461,72 +589,16 @@
         "ar": "المشروع يطلب تقديم ملاحظات كمستخدم لتطبيق أندرويد، وليس تطوير تطبيقات. Moe هو مطور تطبيقات وليس مختبر مستخدمين عام.",
         "en": "The project requests user feedback for an Android app, not app development. Moe is an app maker, not a general user tester."
       }
-    },
-    {
-      "title": "تطوير تطبيق توصيل ركاب",
-      "url": "https://mostaql.com/project/1294337",
-      "reason": {
-        "ar": "المشروع يتطلب تطوير تطبيق توصيل ركاب مثل أوبر، وهذا يتطلب بنية خلفية (backend) كبيرة ومعقدة تتجاوز قدرات Moe المحددة في Firebase (تسجيل الدخول، قاعدة بيانات، إشعارات).",
-        "en": "The project requires developing a ride-hailing app like Uber, which demands a large and complex backend, exceeding Moe's specified Firebase capabilities (login, database, push)."
-      }
-    },
-    {
-      "title": "Software Engineer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492148444/",
-      "reason": {
-        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
-        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
-      }
-    },
-    {
-      "title": "Mobile Developer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492149357/",
-      "reason": {
-        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
-        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
-      }
-    },
-    {
-      "title": "Mobile Developer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492149358/",
-      "reason": {
-        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
-        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
-      }
-    },
-    {
-      "title": "Software Engineer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492153023/",
-      "reason": {
-        "ar": "الوظيفة هي عقد عمل 'Senior Mobile Developer' وتتضمن عمليات توظيف تقليدية مثل تقييم السيرة الذاتية والمقابلات، وهي خارج نطاق عمل Moe كمطور مستقل لمشاريع محددة.",
-        "en": "This is a 'Senior Mobile Developer' contract role involving traditional hiring processes like resume evaluation and interviews, which falls outside Moe's scope as an independent app maker for defined projects."
-      }
-    },
-    {
-      "title": "Full Stack Engineer — AI Agents & Channels",
-      "url": "https://www.linkedin.com/jobs/view/4492913012/",
-      "reason": {
-        "ar": "عنوان الوظيفة 'Full Stack Engineer' يشير إلى وظيفة دائمة أو عقد طويل الأجل ضمن فريق شركة، وهو ما لا يفعله Moe.",
-        "en": "The job title 'Full Stack Engineer' indicates a staff or long-term contract role within a company team, which Moe does not undertake."
-      }
-    },
-    {
-      "title": "Software Engineer — Data & AI",
-      "url": "https://www.linkedin.com/jobs/view/4492948140/",
-      "reason": {
-        "ar": "عنوان الوظيفة 'Software Engineer' يشير إلى وظيفة دائمة أو عقد طويل الأجل ضمن فريق شركة، وهو ما لا يفعله Moe.",
-        "en": "The job title 'Software Engineer' indicates a staff or long-term contract role within a company team, which Moe does not undertake."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 16,
     "steps": [
       {
         "step": "memory",
-        "msg": "917 leads seen before"
+        "msg": "920 leads seen before"
       },
       {
         "step": "verify",
@@ -534,7 +606,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (88 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
+        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (141 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 75 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -550,39 +622,123 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 161820ch 29 links; HTTP 200 161350ch 27 links; HTTP 200 164295ch 27 links; )"
+        "msg": "phone relay last read 2 hours ago: 64 projects on the lists, 0 sent (HTTP 200 161057ch 29 links; HTTP 200 160407ch 27 links; HTTP 200 163353ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "33 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "37 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "4 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 5 sent (HTTP 200 133962ch 25 links; HTTP 200 133962ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133870ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
+        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "3 new Khamsat requests added from the phone"
+        "msg": "2 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "307 jobs from Gmail alerts (last 5 days)"
+        "msg": "315 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer (Unity / C# / Mobile SDKs)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Mobile Software Engineer (Milan)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur Android - F/H"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer III- Android- JPM Personal Investing"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer | Freelance | Full Remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Fullstack Mobile Engineer (KMP/Java)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. React Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Predictions (Mobile)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Software Developer - Android Apps"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): iOS Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (IOS)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): iOS Senior Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile iOS Software Engineer (Milan)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full-Stack Engineer - React Native, Next.js, Backend, Product Engineering"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - .NET (Fullstack)"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "4 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -590,15 +746,15 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 3 to judge"
+        "msg": "6 new Freelancer projects added, 16 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 16 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (41 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (43 bids): Daily Ops & AI Automation Assistant"
       },
       {
         "step": "freelancer",
