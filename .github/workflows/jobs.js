@@ -211,8 +211,12 @@ const RULES = `REJECT a lead if ANY of these is true:
 - The project text is not in English or Arabic (for example Indonesian, Spanish, Hindi, Portuguese, Chinese). Arabic projects are welcome (Gulf clients); write those proposals in Arabic.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
+- It is automation or bot work that is not an app: n8n, Make, Zapier, ManyChat, WhatsApp Business API / Instagram / Meta bots, CRM or e-commerce store automation (Salla, Shopify, WooCommerce), email bots. Moe builds apps, not automation pipelines.
+- It needs AI engineering tools Moe does not use: LangChain, LangGraph, LangSmith, RAG pipelines, vector databases, training or fine-tuning models, Python/ML, trading or stock-analysis bots (TradingView, options flow).
+- The client wants a mentor, trainer or teacher, not a delivered product.
+Moe's real core is: Android apps (new app from an idea, website-to-app, an app with AI features like Gemini chat/vision), Google Play publishing and rejection fixes, simple daily AI research agents like his own Me.ai. If a lead is not clearly one of these, give fit 6 or less.
 PREFER: Android-only apps, website-to-app, AI features in an app, AI agents/automation/research bots, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
-IMPORTANT: an Android app, website-to-app, or AI chatbot/agent project with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
+IMPORTANT: an Android app, website-to-app, or an Android app with an AI chatbot/agent inside it, with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, Hacker News "SEEKING FREELANCER" posts (startups; contact is usually an email in the post), public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
@@ -584,7 +588,7 @@ async function linkedinSearch() {
   const out = new Map();
   // كل جولة بتعمل 5 بحثات بس، وبتلف على باقي الكلمات والمناطق بالجولات الجاية (مش 30 ورا بعض)
   const combos = LI_KEYWORDS.flatMap(kw => LI_PLACES.map(loc => [kw, loc]));
-  const slot = Math.floor(Date.now() / (4 * 3600 * 1000));
+  const slot = Math.floor(Date.now() / (2 * 3600 * 1000));
   const pick = Array.from({ length: 5 }, (_, i) => combos[(slot * 5 + i) % combos.length]);
   for (const [kw, loc] of pick) {
     {
