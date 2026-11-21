@@ -140,14 +140,48 @@ Previous ideas (do NOT repeat or closely resemble): ${index.pastIdeas.join(' | '
 Ideas Moe LIKED (lean toward similar themes): ${fb.liked.join(' | ') || 'none yet'}
 Ideas Moe DISLIKED (avoid these directions): ${fb.disliked.join(' | ') || 'none yet'}`;
 
+  // ---------- Step 0: World scan ----------
+  // الـ Agent ما بيبدأ من سوق التطبيقات: بيدرس شو عم يتغير بالعالم كله أول (الأرض، الفضاء، الشمس، الناس، الاقتصاد، القوانين...)
+  // وبعدين الأفكار بتطلع من هالتغيرات، مش من نسخ تطبيقات موجودة
+  const s0 = await ask(`
+TODAY is ${today}. You are a world-change researcher. Use Google Search to find what is changing RIGHT NOW (last weeks and coming months) that affects ordinary people's daily lives anywhere in the world. Look at ALL of these areas, not only technology:
+1) SPACE & SUN: solar activity and storms, auroras, radiation and UV levels, satellites and launches, eclipses, meteor showers, the Moon, space weather effects on GPS, radio and power grids.
+2) EARTH & CLIMATE: heat waves, wildfires and smoke, air quality, floods, droughts, pollen seasons, earthquakes, oceans, insects and animal migrations.
+3) BODY & DAILY LIFE: sleep, daylight and seasons, noise, screen time, ageing populations, loneliness, pets, food prices and habits (no medical treatment advice).
+4) MONEY & WORK: prices, energy bills, remote work, side incomes, new consumer behaviours.
+5) TECHNOLOGY: new phone sensors and Android features, satellite messaging, new AI abilities, wearables, smart home.
+6) RULES & SOCIETY: new laws (EU, USA, others) that force people or businesses to change what they do, big events, cultural shifts.
+7) CONNECTIONS: changes in one area that affect another (for example sun activity -> GPS errors -> farmers and drivers; heat -> sleep -> work).
+Prefer concrete, recent, checkable changes with a source over general topics.
+
+Respond with ONLY JSON. Values in Arabic:
+{
+  "signals": [
+    { "area": "الفضاء والشمس", "change": "شو عم يتغير بالضبط", "who": "مين بيتأثر وكيف", "evidence": "الدليل: مصدر أو رقم أو تاريخ" }
+  ],
+  "links": ["ربط بين مجالين: تغيير بمجال بيأثر على مجال ثاني"]
+}
+Give 12-16 signals covering at least 6 different areas, and 3-5 links.`, { search: true });
+  const signals = s0.json.signals || [];
+  const links = s0.json.links || [];
+  log('world', `${signals.length} world changes, ${links.length} cross-links via ${s0.model}: ${[...new Set(signals.map(x => x.area))].join(', ')}`);
+  const world = `
+WORLD CHANGES FOUND TODAY (build ideas from THESE, not from copying existing apps):
+${signals.map((x, i) => `${i + 1}. [${x.area}] ${x.change} | who: ${x.who} | evidence: ${x.evidence}`).join('\n')}
+CROSS-LINKS: ${links.join(' | ') || 'none'}`;
+
   // ---------- Step 1: Scout ----------
   const s1 = await ask(`
 ${ABOUT}
-TODAY is ${today}. Use Google Search to research what is happening RIGHT NOW: trending app categories on Google Play, real user complaints ("I wish there was an app..."), new APIs/AI capabilities, and gaps in big paying markets.
-TARGET MARKETS: Moe lives in Jordan, but the Jordanian market is too small and pays little. Do NOT propose ideas built for Jordan (no Jordan-only banks, laws, documents, services or users).
-- At least 6 of the 8 ideas: GLOBAL apps in English for users in the USA, Europe, Australia and other high-paying countries (subscriptions and ads pay much more there).
-- At most 2 ideas: Arabic apps for the whole Arab world or the Gulf (Saudi Arabia, UAE, Qatar, Kuwait), never for one small country.
-- Prefer problems that exist everywhere, so the same app can sell worldwide.
+TODAY is ${today}.
+${world}
+
+Turn these world changes into app ideas. Each idea MUST start from one or two of the changes above (say which), ideally connecting two different areas (for example Earth and space, climate and sleep, a new law and money). Use Google Search only to check details and real user needs; do NOT start from "what apps are trending on Google Play".
+TARGET MARKET: GLOBAL ONLY. Every idea must be an English app for users worldwide (USA, Europe, Australia and other high-paying countries).
+- Do NOT propose regional apps: nothing built for the Arab world, the Gulf, Jordan or any single country, and no "X for Arabs" / "Arabic version of an existing app".
+NOVELTY: Moe wants only NEW KINDS of apps that do not exist yet on Google Play.
+- Do NOT propose a better/cheaper/AI version of an app category that already exists (no AI document simplifier, no AI nutrition scanner, no habit tracker, no AI tutor, no AI chat assistant, no budget app, etc.).
+- Each idea needs a core function that no popular app offers today: a new use of a phone sensor, a new AI capability, a new behaviour or trend from the last few months, or two things nobody has combined.
 ${prefs}
 
 Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "name" (short English app name):
@@ -155,7 +189,7 @@ Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "
   "marketNotes": "ملاحظات السوق اليوم",
   "trends": ["ترند", "ترند", "ترند"],
   "candidates": [
-    { "name": "AppName", "pitch": "جملة", "problem": "المشكلة", "audience": "الجمهور", "whyNow": "ليش هلأ مع الدليل" }
+    { "name": "AppName", "signal": "التغيير بالعالم اللي طلعت منه الفكرة", "pitch": "جملة", "problem": "المشكلة", "audience": "الجمهور", "whyNow": "ليش هلأ مع الدليل" }
   ]
 }`, { search: true });
   const candidates = s1.json.candidates || [];
@@ -164,7 +198,7 @@ Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "
 
   // ---------- Step 2: Competition check ----------
   const s2 = await ask(`
-For each candidate app below, search Google Play and the web for EXISTING apps that already do the same thing. Be honest and specific: name real apps. If strong competitors exist, say so.
+For each candidate app below, search Google Play and the web for EXISTING apps that already do the same thing or the same core function. Be honest and specific: name real apps. If any app already does the core function, say so and mark saturation at least "medium".
 
 Candidates:
 ${candidates.map(c => `- ${c.name}: ${c.pitch}`).join('\n')}
@@ -190,10 +224,16 @@ You are a strict product judge. Below are candidate ideas and a competition chec
 ${prefs}
 
 Rules:
+- REJECT any idea that is regional (Arab world, Gulf, one country) or Arabic-only. Moe wants global English apps only.
+- REJECT any idea where the competition check found an existing app that already does the same core thing, even if Moe's version would be better. Moe wants NEW KINDS of apps only. Keep only saturation "low" with no direct competitor.
 - REJECT ideas with high saturation and no clear gap.
+- REJECT ideas that are not built on a real world change from the list below, or whose link to that change is weak or invented.
+- Prefer ideas that connect two different areas (Earth and space, climate and daily life, a new law and money).
 - REJECT ideas too big for one person in 3 weeks.
 - Prefer ideas with a clear way to make money and a real, specific gap.
 - Pick the best 5 (fewer if fewer deserve it). Score honestly 1-10.
+
+${world}
 
 Candidates:
 ${JSON.stringify(candidates)}
@@ -204,14 +244,16 @@ ${JSON.stringify(checks)}
 Respond with ONLY JSON. Values in Arabic except app names:
 {
   "summary": "ملخص اليوم بجملتين",
-  "trends": ["ترند", "ترند", "ترند"],
+  "trends": ["أهم 3-5 تغييرات بالعالم اللي طلعت منها أفكار اليوم، كل واحد بجملة قصيرة"],
   "ideas": [
     {
       "name": "AppName",
+      "signal": "التغيير بالعالم اللي طلعت منه الفكرة",
       "pitch": "جملة",
       "problem": "المشكلة",
       "audience": "الجمهور",
       "whyNow": "ليش هلأ",
+      "novelty": "شو الجديد فيها اللي ما في تطبيق بيعمله",
       "competition": "منخفضة أو متوسطة أو عالية",
       "competitors": ["App 1", "App 2"],
       "edge": "كيف نتفوق على المنافسين",
@@ -263,7 +305,7 @@ Sort ideas by score, highest first.`);
 
   // ---------- Save ----------
   const seen = new Set();
-  const sources = [...s1.sources, ...s2.sources].filter(s => !seen.has(s.url) && seen.add(s.url)).slice(0, 20);
+  const sources = [...s0.sources, ...s1.sources, ...s2.sources].filter(s => !seen.has(s.url) && seen.add(s.url)).slice(0, 30);
 
   const report = {
     date: today,
@@ -271,10 +313,11 @@ Sort ideas by score, highest first.`);
     model: s3.model,
     summary: final.summary,
     trends: final.trends?.length ? final.trends : s1.json.trends,
+    world: { signals, links },
     ideas: final.ideas,
     rejected: final.rejected || [],
     en,
-    agent: { version: 3, candidates: candidates.length, steps: trace },
+    agent: { version: 4, candidates: candidates.length, steps: trace },
     sources
   };
 
