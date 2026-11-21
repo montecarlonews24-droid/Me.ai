@@ -2,7 +2,7 @@ name: Me.ai Daily Job Scout
 
 on:
   schedule:
-    - cron: '30 */4 * * *'   # كل 4 ساعات: 3:30، 7:30، 11:30، 3:30 العصر، 7:30، 11:30 بالليل (عمّان)
+    - cron: '30 */2 * * *'   # كل ساعتين (Gemini بيشتغل بس إذا في فرص جديدة، فالكلفة ما بتتضاعف)
   workflow_dispatch:
 
 permissions:
