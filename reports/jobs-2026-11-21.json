@@ -1,13 +1,37 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T15:35:20.695Z",
+  "generatedAt": "2026-11-21T18:25:08.220Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص بسبب عدم مطابقتها لمهارات Moe أو كونها وظائف بدوام كامل أو من وكالات توظيف. تم قبول فرصة واحدة لرفع ونشر تطبيق أندرويد على Google Play.",
-    "en": "Most leads were rejected due to not matching Moe's skills, being full-time positions, or coming from recruitment agencies. One lead for Android app publishing on Google Play was accepted."
+    "ar": "تم قبول طلب واحد لتطوير تطبيق أندرويد جديد باللغة العربية، ورفض ثلاثة طلبات أخرى بسبب عدم مطابقتها لخبرات Moe في تطوير الويب المسبق أو الأنظمة المدمجة أو متطلبات العمل كمهندس برمجيات متفرغ.",
+    "en": "One lead for a new Android app development in Arabic was accepted, while three others were rejected due to requiring existing web development, embedded systems expertise, or full-time software engineering roles."
   },
   "fresh": 1,
   "leads": [
+    {
+      "title": "صناعة تطبيق اندرويد عبر كلود",
+      "url": "https://khamsat.com/community/requests/800960-%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D8%B9%D8%A8%D8%B1-%D9%83%D9%84%D9%88%D8%AF",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 9,
+      "why": {
+        "ar": "هذا طلب مباشر لتطوير تطبيق أندرويد جديد، وهو من صميم عمل Moe. يمكنه بناء التطبيق باستخدام Kotlin أو WebView مع دعم Firebase للخلفية، وتقديم التطبيق باللغة العربية مع دعم RTL.",
+        "en": "This is a direct request for developing a new Android app, which is Moe's core work. He can build the app using Kotlin or WebView with Firebase backend support, and deliver it in Arabic with RTL support."
+      },
+      "watch": {
+        "ar": "التأكد من تفاصيل 'عبر كلود' لتحديد متطلبات الخلفية، وتقديم سعر مناسب لتطبيق أندرويد فقط أو حزمة أندرويد و iOS إذا كان العميل مهتمًا.",
+        "en": "Confirm the 'via cloud' details to understand backend requirements, and propose a suitable price for an Android-only app or an Android + iOS bundle if the client is interested."
+      },
+      "proposal": "أهلاً بك،\nأنا مطور تطبيقات أندرويد مستقل، وأبني تطبيقات جديدة من الصفر باستخدام تقنيات الذكاء الاصطناعي في عملية التطوير. يمكنني بناء تطبيق أندرويد احترافي لك، سواء كان تطبيقًا أصليًا (Native Kotlin) أو هجينًا (WebView)، مع دمج خدمات الخلفية مثل Firebase لتسجيل الدخول وقواعد البيانات والإشعارات.\nلدي خبرة في بناء تطبيقات باللغة العربية مع دعم كامل للاتجاه من اليمين لليسار (RTL)، مثل تطبيق \"Islam Rising\" الذي يستخدمه الملايين في 177 دولة. أضمن لك تطبيقًا عالي الجودة جاهزًا للنشر على Google Play.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nما هي الفكرة الأساسية لتطبيق الأندرويد الذي ترغب في بنائه وما هي الميزات الرئيسية التي تتخيلها؟",
+      "foundAt": "2026-11-21T18:25:08.030Z",
+      "fresh": true
+    },
     {
       "title": "رفع ونشر تطبيق أندرويد على حساب Google Play Console مفعل",
       "url": "https://mostaql.com/project/1294492",
@@ -30,7 +54,7 @@
       },
       "proposal": "أهلاً بك،\nأتفهم حاجتك لرفع ونشر تطبيقك الأندرويد على Google Play Console وتجهيزه بالكامل للمراجعة والنشر. يمكنني مساعدتك في هذه المهمة، حيث أقوم برفع ملف التطبيق (AAB)، إعداد صفحة المتجر بالوصف والصور، وتلبية متطلبات سياسة الخصوصية وأمان البيانات، ومتابعة مراجعة جوجل حتى الموافقة النهائية.\nلقد قمت بنشر عدة تطبيقات على Google Play، منها تطبيق \"Islam Rising\" الذي يستخدم في 177 دولة. أعمل على تطوير تطبيقاتي بمساعدة الذكاء الاصطناعي لضمان الجودة والكفاءة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك أي متطلبات خاصة لعملية النشر أو تفاصيل إضافية حول التطبيق؟",
       "foundAt": "2026-11-21T15:35:20.550Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية",
@@ -319,37 +343,33 @@
       "proposal": "أهلاً بك،\nأتفهم حاجتك لبناء بوت واتساب شامل لإصدار بوالص الشحن، يتضمن طلب معلومات العميل، التحقق عبر OTP، عرض خيارات الشحن، ومعالجة الدفع عبر بوابة ميسر، ثم إصدار البوليصة عبر API وإرسالها كملف PDF. أعمل على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة بمساعدة الذكاء الاصطناعي، ولدي خبرة في ربط الأنظمة بواجهات برمجية (APIs). وكيل الذكاء الاصطناعي الخاص بي، Me.ai، هو مثال على قدرتي على بناء أنظمة آلية ذكية. يمكنني بناء هذا البوت لتبسيط عملية إصدار بوالص الشحن لعملائك.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك وثائق API جاهزة لشركات الشحن وبوابة ميسر؟",
       "foundAt": "2026-11-20T09:25:34.451Z",
       "fresh": false
-    },
-    {
-      "title": "Daily Ops & AI Automation Assistant",
-      "url": "https://www.freelancer.com/projects/email-marketing/Daily-Ops-Automation-Assistant",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "750-1500 USD",
-      "posted": "1 hours ago",
-      "proposals": "46",
-      "flId": 40826989,
-      "postedAt": 1795142859,
-      "bidsAt": "2026-11-21T15:35:20.694Z",
-      "language": "en",
-      "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
-      "fit": 8,
-      "why": {
-        "ar": "Moe يبني وكلاء ذكاء اصطناعي يوميين (مثل تطبيق Me.ai الخاص به) ويمكنه تنفيذ أتمتة الذكاء الاصطناعي، وهو ما يتوافق مع طلب أتمتة المهام اليومية والتواصل عبر البريد الإلكتروني.",
-        "en": "Moe builds daily AI research/monitoring agents (like his Me.ai app) and can implement AI automations, which aligns with the request for AI automations for daily tasks and email outreach."
-      },
-      "watch": {
-        "ar": "التأكد من أن 'التواصل عبر البريد الإلكتروني' يتضمن إعداد وكيل ذكاء اصطناعي للمساعدة في رسائل البريد الإلكتروني، وليس إرسال رسائل بريد إلكتروني يدوياً.",
-        "en": "Ensure 'email outreach' involves setting up an AI agent to assist with emails, not manual email sending."
-      },
-      "proposal": "I can help you streamline your daily operations by building AI automations, including for email outreach and other recurring tasks. I build native Kotlin Android apps with AI-assisted development, and I have experience creating custom AI agents. For example, I use my own daily AI research agent, Me.ai, which leverages Gemini and web search to automate information gathering. This allows for efficient and consistent handling of routine business processes. I can set up intelligent systems to manage and automate parts of your workflow.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you tell me more about the specific types of email outreach and daily tasks you're looking to automate with AI?",
-      "foundAt": "2026-11-20T03:26:40.149Z",
-      "fresh": false,
-      "crowded": true
     }
   ],
   "rejected": [
+    {
+      "title": "CRM Performance Optimization, Bug Fixes, AI Integration",
+      "url": "https://www.freelancer.com/projects/react-js/CRM-Performance-Optimization-Bug-Fixes",
+      "reason": {
+        "ar": "الطلب يتطلب العمل على منصة CRM ويب موجودة مبنية بتقنيات React.js و Node.js و Supabase، وهي خارج نطاق عمل Moe الذي يركز على تطبيقات الأندرويد الجديدة وخدمات Firebase. كما أن الميزانية منخفضة جداً بالنسبة لعمل مطور ويب متكامل.",
+        "en": "The request requires working on an existing web-based CRM platform built with React.js, Node.js, and Supabase, which is outside Moe's scope of building new Android apps and Firebase services. The budget is also too low for a full-stack web developer role."
+      }
+    },
+    {
+      "title": "PIR-Activated SAMD21 LED Control",
+      "url": "https://www.freelancer.com/projects/embedded-systems/PIR-Activated-SAMD-LED-Control",
+      "reason": {
+        "ar": "المشروع يتعلق بالأنظمة المدمجة والإلكترونيات وتصميم الدوائر الكهربائية وبرمجة المتحكمات الدقيقة (SAMD21) للتحكم في الأضواء، وهو مجال خارج تماماً عن خبرة Moe في تطوير تطبيقات الأندرويد.",
+        "en": "The project involves embedded systems, electronics, circuit design, and programming microcontrollers (SAMD21) for LED control, which is entirely outside Moe's expertise in Android app development."
+      }
+    },
+    {
+      "title": "Software Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4469496215/",
+      "reason": {
+        "ar": "هذا طلب لوظيفة مهندس برمجيات تعاقدي (Contract Software Engineer) للعمل على تطبيقات ويب كاملة (full-stack web apps) باستخدام TypeScript و React و Node، ويتضمن العمل على قواعد أكواد موجودة. هذا يتعارض مع قدرة Moe على الانضمام إلى فرق عمل الشركات أو العمل على قواعد أكواد Flutter/React Native/Swift الموجودة، كما أن التقنيات المطلوبة ليست ضمن ما يقدمه.",
+        "en": "This is a request for a contract Software Engineer to work on full-stack web apps using TypeScript, React, and Node, involving existing codebases. This conflicts with Moe's inability to join company teams or work on existing Flutter/React Native/Swift codebases, and the required technologies are not within his offerings."
+      }
+    },
     {
       "title": "Admin Chat Marketplace Responsif",
       "url": "https://www.freelancer.com/projects/customer-service/Admin-Chat-Marketplace-Responsif-40829071",
@@ -565,40 +585,16 @@
         "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
         "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
       }
-    },
-    {
-      "title": "مطلوب موقع أو تطبيق",
-      "url": "https://khamsat.com/community/requests/800980-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D9%88%D9%82%D8%B9-%D8%A3%D9%88-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82",
-      "reason": {
-        "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
-        "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
-      }
-    },
-    {
-      "title": "عمل تطبيق اندرويد بسيط",
-      "url": "https://khamsat.com/community/requests/800989-%D8%B9%D9%85%D9%84-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D8%A8%D8%B3%D9%8A%D8%B7",
-      "reason": {
-        "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
-        "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
-      }
-    },
-    {
-      "title": "White-Label AI Cybersecurity SaaS Needed",
-      "url": "https://www.freelancer.com/projects/saas/White-Label-Cybersecurity-SaaS-Needed",
-      "reason": {
-        "ar": "نطاق المشروع (نظام SaaS للأمن السيبراني بالذكاء الاصطناعي) كبير جداً ومتخصص للغاية بالنسبة لميزانية 280 دولاراً أمريكياً ولقدرات Moe، الذي يركز على تطبيقات الأجهزة المحمولة ووكلاء الذكاء الاصطناعي للبحث والمراقبة، وليس منتجات الأمن السيبراني.",
-        "en": "The project scope (AI Cybersecurity SaaS) is far too large and specialized for a $280 budget and for Moe's capabilities, who focuses on mobile apps and AI agents for research/monitoring, not cybersecurity products."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 6,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
-        "msg": "986 leads seen before"
+        "msg": "996 leads seen before"
       },
       {
         "step": "verify",
@@ -606,11 +602,11 @@
       },
       {
         "step": "freelancer",
-        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (167 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 53 skipped: not app/AI work)"
+        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (160 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 53 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
-        "msg": "6 [Hiring] posts from the phone relay (last 5 days)"
+        "msg": "3 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "hn",
@@ -622,7 +618,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 160595ch 30 links; HTTP 200 160840ch 27 links; HTTP 200 165262ch 26 links; )"
+        "msg": "phone relay last read 2 hours ago: 0 projects on the lists, 0 sent (HTTP 202 2387ch 0 links; HTTP 202 2387ch 0 links; HTTP 202 2387ch 0 links; )"
       },
       {
         "step": "mostaql",
@@ -630,15 +626,15 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 133182ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 0 projects on the lists, 0 sent (err Unable to resolve host \"khamsat.com\": No; )"
       },
       {
         "step": "khamsat",
-        "msg": "8 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
+        "msg": "9 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -646,31 +642,83 @@
       },
       {
         "step": "linkedin",
-        "msg": "315 jobs from Gmail alerts (last 5 days)"
+        "msg": "337 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
+        "msg": "AI App Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Forward Deployed Engineer (FDE) Enterprise Data, AI & Automation"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (4+ years required): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Android)"
+        "msg": "skipped (10+ years required): Software Engineer-Murex Datamart"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer (Iceland)"
+        "msg": "skipped (title): Senior AI Forward Deployed Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Technical Engineer – Java, Microservices & Event-Driven Architecture"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Backend Developers / Lead (Arabic Speaker Only)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Futureheads Recruitment | B Corp™)): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Ingénieur Intelligence Artificielle - Workflows Agentiques - H/F"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer - Azure (Onsite)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Applied AI + NLP Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Agentic AI Engineer — Healthcare AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): AI Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Associate Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): SR Mobile Engineer"
       },
       {
         "step": "verify",
-        "msg": "1 of 5 new LinkedIn jobs added"
+        "msg": "1 of 18 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -678,19 +726,15 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 6 to judge"
+        "msg": "2 new Freelancer projects added, 4 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 5 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (46 bids): Daily Ops & AI Automation Assistant"
-      },
-      {
-        "step": "freelancer",
-        "msg": "closed, removed: Build Autonomous API-Driven CEO Agent"
+        "msg": "crowded now (48 bids): Daily Ops & AI Automation Assistant"
       }
     ]
   }
