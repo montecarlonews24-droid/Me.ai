@@ -1,12 +1,12 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-20T21:29:51.626Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-21T01:42:15.211Z",
+  "model": "",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم بسبب كونها وظائف بدوام كامل/عقود طويلة الأجل أو تتطلب اختبار مستخدم في موقع جغرافي محدد أو تتجاوز قدرات Moe في البنية الخلفية. تم قبول فرصة واحدة فقط تتعلق بأتمتة الذكاء الاصطناعي باللغة العربية.",
-    "en": "Most leads today were rejected for being full-time/long-term contract roles, requiring user testing in a specific geographical location, or exceeding Moe's backend capabilities. Only one AI automation lead in Arabic was kept."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 13 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 13 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "أتمتة متجر إلكتروني",
@@ -30,7 +30,7 @@
       },
       "proposal": "أهلاً بك، أرى أنك تبحث عن أتمتة متجرك الإلكتروني على منصة سلة وربطه بـ WhatsApp Business وجداول البيانات، مع بناء وكيل ذكاء اصطناعي لمطابقة الطلبات والردود. يمكنني مساعدتك في بناء نظام الأتمتة هذا باستخدام واجهات API والذكاء الاصطناعي. أعمل على تطوير التطبيقات والوكلاء الذكية بمساعدة الذكاء الاصطناعي. على سبيل المثال، لدي وكيل ذكاء اصطناعي خاص بي (Me.ai) يستخدم Gemini للبحث اليومي والأتمتة. هذا يوضح قدرتي على بناء حلول ذكاء اصطناعي مخصصة. تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي. هل لديك تفاصيل إضافية حول أنواع الردود التي تتوقعها من وكيل الذكاء الاصطناعي؟",
       "foundAt": "2026-11-20T21:29:51.278Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتصميم الفعاليات",
@@ -280,10 +280,10 @@
       "country": "",
       "budget": "750-1500 USD",
       "posted": "1 hours ago",
-      "proposals": "38",
+      "proposals": "39",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-20T21:29:51.626Z",
+      "bidsAt": "2026-11-21T01:42:15.210Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -402,11 +402,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 10,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "846 leads seen before"
+        "msg": "875 leads seen before"
       },
       {
         "step": "verify",
@@ -414,7 +414,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "14 open projects from the last 5 days worldwide with budget 100+ USD (77 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 96 skipped: not app/AI work)"
+        "msg": "14 open projects from the last 5 days worldwide with budget 100+ USD (68 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 85 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -430,7 +430,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161120ch 28 links; HTTP 200 160994ch 27 links; HTTP 200 164144ch 27 links; )"
+        "msg": "phone relay last read 6 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161120ch 28 links; HTTP 200 160994ch 27 links; HTTP 200 164144ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -438,7 +438,7 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "arab",
@@ -466,15 +466,35 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Android Developer"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer"
+        "msg": "skipped (closed): Mobile Software Engineer iOS/Android (Remote Worldwide)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer, Government Products"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Mobile, Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Software Engineer (Android)-Digital Products"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Mobile, Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer"
       },
       {
         "step": "linkedin",
@@ -482,79 +502,23 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full Stack Agent Platform Developer"
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
+        "msg": "skipped (full-time): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Mid) - Backend AI Engineer"
+        "msg": "skipped (title): Senior Staff Android App Developer — Android Automotive OS Applications"
       },
       {
         "step": "linkedin",
-        "msg": "post 4492913012: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, AI Agent Platform"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Software Engineer(EN)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Agentic AI - Forward Deployed Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4492948140: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Agentic AI Engineer, Senior - Anthropic/Claude"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Agent Developer & Integration Specialist"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI/ML Senior Lead Software Engineer - Agentic Pricing"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Talently)): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Agent Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Copilot & AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Applied AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer (Internal Tools & Agents)"
+        "msg": "skipped (title): Senior Android Engineer, Profile & Community"
       },
       {
         "step": "verify",
-        "msg": "6 of 25 new LinkedIn jobs added"
+        "msg": "0 of 12 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -562,15 +526,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 10 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 1, rejected 9 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (38 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (39 bids): Daily Ops & AI Automation Assistant"
       },
       {
         "step": "freelancer",
