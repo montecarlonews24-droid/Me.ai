@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-21T21:25:38.291Z",
+  "generatedAt": "2026-11-21T21:48:11.975Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -347,6 +347,22 @@
   ],
   "rejected": [
     {
+      "title": "Software Engineer I, Backend (Streaming Infra)",
+      "url": "https://www.linkedin.com/jobs/view/4492862824/",
+      "reason": {
+        "ar": "هذه وظيفة مهندس برمجيات بدوام كامل مع راتب سنوي، وليست مشروع عمل حر. كما أنها تتطلب العمل على أنظمة خلفية كبيرة (streaming infrastructure) ومهارات في تقنيات مثل Kafka و Flink و Spark و Kubernetes، وهي خارج نطاق خدمات Moe الذي يركز على تطبيقات الأندرويد و Firebase كخلفية.",
+        "en": "This is a full-time Software Engineer position with an annual salary, not a freelance project. It also requires working on large backend streaming infrastructure and skills in technologies like Kafka, Flink, Spark, and Kubernetes, which are outside Moe's scope, as he focuses on Android apps and Firebase for backend."
+      }
+    },
+    {
+      "title": "Software Engineer I, Backend (Streaming Infra)",
+      "url": "https://www.linkedin.com/jobs/view/4492876217/",
+      "reason": {
+        "ar": "هذه وظيفة مهندس برمجيات بدوام كامل مع راتب سنوي، وليست مشروع عمل حر. كما أنها تتطلب العمل على أنظمة خلفية كبيرة (streaming infrastructure) ومهارات في تقنيات مثل Kafka و Flink و Spark و Kubernetes، وهي خارج نطاق خدمات Moe الذي يركز على تطبيقات الأندرويد و Firebase كخلفية.",
+        "en": "This is a full-time Software Engineer position with an annual salary, not a freelance project. It also requires working on large backend streaming infrastructure and skills in technologies like Kafka, Flink, Spark, and Kubernetes, which are outside Moe's scope, as he focuses on Android apps and Firebase for backend."
+      }
+    },
+    {
       "title": "Associate Director for AI Film Production",
       "url": "https://www.freelancer.com/projects/ai-video-editing/Associate-Director-for-Film-Production",
       "reason": {
@@ -382,11 +398,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 4,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
-        "msg": "1017 leads seen before"
+        "msg": "1039 leads seen before"
       },
       {
         "step": "verify",
@@ -394,7 +410,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (141 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 57 skipped: not app/AI work)"
+        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (147 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 60 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -418,7 +434,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
@@ -430,7 +446,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
@@ -438,83 +454,55 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Kotlin Developer / Middle East: busy (429), stopping search this run"
+        "msg": "Kotlin Developer / Australia: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile App developer"
+        "msg": "skipped (title): Senior Backend Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (iOS)"
+        "msg": "skipped (title): Technical Lead"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (iOS)"
+        "msg": "skipped (title): Senior Software Engineer – Kubernetes AI Foundations Open Source"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Ingeniero/a Soluciones IA_Madrid"
+        "msg": "skipped (title): Senior Java Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (10+ years required): Solutions Developer - SwiftUI, UI Design"
+        "msg": "skipped (title): Staff Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer 3 (AI Foundations)"
+        "msg": "skipped (title): Android Senior Developer - OTT Team (French Services) (Telework/Hybrid)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Software Engineer, Consumer Engineering"
+        "msg": "skipped (title): Senior Software Engineering, Vehicle Data Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer - Fan Monetization"
+        "msg": "skipped (full-time): Software Engineer, Streaming Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer, New York"
+        "msg": "skipped (title): Senior Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile (Android)"
+        "msg": "skipped (full-time): Java Azure Developer (Supply Chain Applications)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Java Developer- API & Data Integration"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Java Developer- API & Data Integration"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Développeur Back-End (F/H)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Software Engineer (Java/Kotlin)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Clera Talent)): Junior Softwareentwickler (m/w/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java / Kotlin Microservices Engineer (m/w/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Java Developer – Cloud R&D Product"
+        "msg": "skipped (title): Senior Software Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 18 new LinkedIn jobs added"
+        "msg": "2 of 13 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -522,11 +510,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 4 to judge"
+        "msg": "0 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
