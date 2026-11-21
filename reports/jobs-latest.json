@@ -1,13 +1,37 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T01:42:15.211Z",
-  "model": "",
+  "generatedAt": "2026-11-21T05:36:27.043Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 13 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 13 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص اليوم بسبب كونها وظائف بدوام كامل، أو تتطلب مهارات تطوير ويب متقدمة، أو ميزانيات منخفضة جداً، أو أدوار تسويقية. تم قبول فرصة واحدة لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية.",
+    "en": "Most leads today were rejected due to being full-time positions, requiring advanced web development skills, very low budgets, or marketing roles. One lead for AI model training for medical image classification was accepted."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية",
+      "url": "https://mostaql.com/project/1294352",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع السلام عليكم أنا طالبة وأشتغل على مشروع فيه نموذج يصنف صور طبية لفئتين، ويطلع النتيجة مع نسبة الثقة. أحتاج شخص يوجهني ويشتغل معي خطوة بخطوة في جزء تدريب النموذج، بحيث أفهم كل شي وأقدر أشرحه وأطوره بنفسي بع",
+      "fit": 8,
+      "why": {
+        "ar": "يطلب العميل توجيهاً وعملاً مشتركاً لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية. يمتلك Moe خبرة في تطبيقات الذكاء الاصطناعي ورؤية الكمبيوتر (SCANIQ) وبناء وكلاء الذكاء الاصطناعي (Me.ai)، مما يجعله مناسباً لتقديم هذا النوع من الدعم والتدريب. الميزانية مناسبة.",
+        "en": "The client seeks guidance and collaboration on training an AI model for medical image classification. Moe has experience with AI-powered apps and computer vision (SCANIQ) and building AI agents (Me.ai), making him suitable to provide this type of support and training. The budget is appropriate."
+      },
+      "watch": {
+        "ar": "التأكد من أن العميل يفهم أن التركيز سيكون على توجيهها في تدريب النموذج باستخدام أدوات مثل Google Colab أو Teachable Machine، وليس بالضرورة كتابة كود بايثون معقد من الصفر، وأن Moe مطور تطبيقات وليس مدرباً أكاديمياً متخصصاً في التعلم الآلي.",
+        "en": "Ensure the client understands that the focus will be on guiding her through model training using tools like Google Colab or Teachable Machine, rather than necessarily writing complex Python code from scratch, and that Moe is an app developer, not a specialized academic ML trainer."
+      },
+      "proposal": "أهلاً بكِ،\nيسعدني مساعدتك في مشروعك لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية وفهم كل خطوة. أنا مطور تطبيقات أندرويد مستقل، وأبني تطبيقاتي باستخدام الذكاء الاصطناعي، ولدي خبرة في دمج ميزات الذكاء الاصطناعي مثل Gemini Vision في التطبيقات.\n\nأحد تطبيقاتي، SCANIQ، يستخدم التعرف على الصور بالذكاء الاصطناعي، مما يمنحني فهماً جيداً لعملية تصنيف الصور وتقييم النماذج. يمكنني توجيهك خطوة بخطوة في تجهيز البيانات، تدريب النموذج باستخدام Transfer Learning على Google Colab أو Teachable Machine، وتقييم الأداء، وتصدير النموذج.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديكِ بيانات صور طبية محددة جاهزة للعمل عليها، أم أننا سنبدأ بالبحث عنها على Kaggle؟",
+      "foundAt": "2026-11-21T05:36:26.701Z",
+      "fresh": true
+    },
     {
       "title": "أتمتة متجر إلكتروني",
       "url": "https://mostaql.com/project/1294329",
@@ -280,10 +304,10 @@
       "country": "",
       "budget": "750-1500 USD",
       "posted": "1 hours ago",
-      "proposals": "39",
+      "proposals": "41",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-21T01:42:15.210Z",
+      "bidsAt": "2026-11-21T05:36:27.043Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -326,6 +350,78 @@
     }
   ],
   "rejected": [
+    {
+      "title": "White-Label AI Cybersecurity SaaS Needed",
+      "url": "https://www.freelancer.com/projects/saas/White-Label-Cybersecurity-SaaS-Needed",
+      "reason": {
+        "ar": "نطاق المشروع (نظام SaaS للأمن السيبراني بالذكاء الاصطناعي) كبير جداً ومتخصص للغاية بالنسبة لميزانية 280 دولاراً أمريكياً ولقدرات Moe، الذي يركز على تطبيقات الأجهزة المحمولة ووكلاء الذكاء الاصطناعي للبحث والمراقبة، وليس منتجات الأمن السيبراني.",
+        "en": "The project scope (AI Cybersecurity SaaS) is far too large and specialized for a $280 budget and for Moe's capabilities, who focuses on mobile apps and AI agents for research/monitoring, not cybersecurity products."
+      }
+    },
+    {
+      "title": "مطوّر Full-stack لإكمال تكاملات واعتماد تطبيقات منصة (Next.js + Supabase)",
+      "url": "https://mostaql.com/project/1289321",
+      "reason": {
+        "ar": "يتطلب المشروع مطور Full-stack للعمل على منصة ويب قائمة باستخدام تقنيات مثل Next.js و React و Supabase و Docker، وهي خارج نطاق مهارات Moe الذي يركز على تطبيقات الأندرويد و Firebase كخلفية.",
+        "en": "The project requires a full-stack developer to work on an existing web platform using technologies like Next.js, React, Supabase, and Docker, which are outside Moe's skillset focused on Android apps and Firebase backend."
+      }
+    },
+    {
+      "title": "تسويق وتفاوض مشروع تطبيقي أمني سيبراني",
+      "url": "https://mostaql.com/project/1294279",
+      "reason": {
+        "ar": "هذا المشروع يتطلب مهارات تسويق وتفاوض، وليس تطوير تطبيقات، وهو خارج نطاق عمل Moe تماماً.",
+        "en": "This project requires marketing and negotiation skills, not app development, and is completely outside Moe's scope of work."
+      }
+    },
+    {
+      "title": "تحويل موقع ويب (GitHub Pages) إلى تطبيق أندرويد وربط إعلانات AdMob (Banner + Rewarded)",
+      "url": "https://mostaql.com/project/1294374",
+      "reason": {
+        "ar": "الميزانية المقترحة 50 دولاراً أمريكياً أقل بكثير من الحد الأدنى لأسعار Moe لتحويل موقع ويب إلى تطبيق أندرويد مع دمج AdMob وتسليم الكود المصدري.",
+        "en": "The proposed budget of $50 is significantly below Moe's minimum pricing for a website-to-app conversion with AdMob integration and source code delivery."
+      }
+    },
+    {
+      "title": "Android Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4492915234/",
+      "reason": {
+        "ar": "وظيفة LinkedIn خلف جدار تسجيل الدخول. لا يمكن التحقق مما إذا كانت وظيفة تعاقدية/مستقلة، وعنوان \"Android Engineer\" يشير عادةً إلى وظيفة بدوام كامل، وهو ما لا يمكن لـ Moe قبوله.",
+        "en": "LinkedIn job post behind a login wall. Cannot verify if it is a contract/freelance role, and the title \"Android Engineer\" typically implies a full-time position, which Moe cannot accept."
+      }
+    },
+    {
+      "title": "Mobile Developer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492147436/",
+      "reason": {
+        "ar": "الوظيفة هي \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
+        "en": "This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
+      }
+    },
+    {
+      "title": "Software Engineer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492148446/",
+      "reason": {
+        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
+        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
+      }
+    },
+    {
+      "title": "Software Engineer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492134948/",
+      "reason": {
+        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
+        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
+      }
+    },
+    {
+      "title": "Mobile Developer | Remote",
+      "url": "https://www.linkedin.com/jobs/view/4492148381/",
+      "reason": {
+        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
+        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
+      }
+    },
     {
       "title": "USA Android Subscription Test",
       "url": "https://www.freelancer.com/projects/mobile-app-testing/USA-Android-Subscription-Test",
@@ -402,11 +498,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 10,
     "steps": [
       {
         "step": "memory",
-        "msg": "875 leads seen before"
+        "msg": "887 leads seen before"
       },
       {
         "step": "verify",
@@ -414,7 +510,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "14 open projects from the last 5 days worldwide with budget 100+ USD (68 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 85 skipped: not app/AI work)"
+        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (84 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 78 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -430,95 +526,123 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 6 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161120ch 28 links; HTTP 200 160994ch 27 links; HTTP 200 164144ch 27 links; )"
+        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 161818ch 29 links; HTTP 200 161350ch 27 links; HTTP 200 164293ch 27 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "29 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "33 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "4 new Mostaql projects added from the phone"
       },
       {
-        "step": "arab",
-        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
+        "step": "khamsat",
+        "msg": "phone relay has not run yet (open the jobs screen in the Me.ai app)"
       },
       {
-        "step": "arab",
-        "msg": "Mostaql: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
-      },
-      {
-        "step": "arab",
-        "msg": "Khamsat: 0 on page (HTTP 202, 0 chars, title \"\", 0 project links)"
-      },
-      {
-        "step": "arab",
-        "msg": "0 relevant Arabic projects"
+        "step": "khamsat",
+        "msg": "firebase HTTP 401"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql/Khamsat projects added"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "294 jobs from Gmail alerts (last 5 days)"
+        "msg": "310 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+        "msg": "skipped (recruitment agency (LeadingEdge HR Solutions)): Flutter and Java Spring Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Mobile Software Engineer iOS/Android (Remote Worldwide)"
+        "msg": "skipped (full-time): Backend Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer, Government Products"
+        "msg": "skipped (full-time): DIGITAL CLOUD PLATFORMS SOFTWARE DEVELOPER (JAVA)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Mobile, Android"
+        "msg": "skipped (full-time): Mobil Backend Geliştirici"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Software Engineer (Android)-Digital Products"
+        "msg": "skipped (full-time): Software Engineer (Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Mobile, Android"
+        "msg": "skipped (full-time): Software Engineer (Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (full-time): Android Developer (Kotlin/Java) – Hybrid Lisbon. International Project"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Junior Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Software Engineer (Android)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer"
+        "msg": "post 4492915234: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Staff Android App Developer — Android Automotive OS Applications"
+        "msg": "skipped (full-time): Android Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer, Profile & Community"
+        "msg": "skipped (full-time): Software Engineer (Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Backend Software Engineer (Java/ Kotlin)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Mobile, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Mobile, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Software Engineer - iOS Lead"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Engineer (Applied AI) - New York, NY"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Developer II - Android Apps"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Lead Software Engineer Mobile"
       },
       {
         "step": "verify",
-        "msg": "0 of 12 new LinkedIn jobs added"
+        "msg": "5 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -526,11 +650,15 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 10 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 9 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (39 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (41 bids): Daily Ops & AI Automation Assistant"
       },
       {
         "step": "freelancer",
