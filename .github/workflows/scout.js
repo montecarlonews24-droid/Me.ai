@@ -269,7 +269,7 @@ Respond with ONLY JSON. Values in Arabic except app names:
 "score" and "buildDays" MUST be plain JSON numbers using Western digits 0-9 (e.g. 8 or 7.5), never text and never Arabic-Indic digits.
 Sort ideas by score, highest first.`);
   const final = s3.json;
-  if (!Array.isArray(final.ideas) || !final.ideas.length) throw new Error('Judge returned no ideas');
+  if (!Array.isArray(final.ideas)) throw new Error('Judge returned no ideas list');
 
   // الأرقام لازم تكون أرقام عادية: بنحوّل ٨ أو "8/10" أو "8.5" لرقم
   const toNum = v => {
@@ -288,7 +288,24 @@ Sort ideas by score, highest first.`);
       buildDays: toNum(x.buildDays)
     }))
     .sort((a, b) => b.score - a.score);
-  if (final.ideas.every(x => !x.score)) log('warn', 'all scores are 0, check judge output');
+  // الحكم أحياناً بيتساهل: أي فكرة إلها منافسة متوسطة أو عالية، أو فحص المنافسين لقى إلها منافسين مباشرين، بتنشال هون بالكود
+  final.rejected = final.rejected || [];
+  final.ideas = final.ideas.filter(x => {
+    const chk = checks.find(c => String(c.name || '').trim().toLowerCase() === String(x.name || '').trim().toLowerCase());
+    const sat = String(chk?.saturation || '').toLowerCase();
+    const comp = String(x.competition || '');
+    if (/متوسط|عالي|medium|high/i.test(comp) || /medium|high/.test(sat)) {
+      final.rejected.push({ name: x.name, reason: `في تطبيقات بتعمل نفس الشي (${(x.competitors || []).slice(0, 3).join('، ') || 'منافسين موجودين'})، وMoe بده أفكار جديدة من نوعها بس.` });
+      log('judge', `removed (competitors exist): ${x.name}`);
+      return false;
+    }
+    return true;
+  });
+  if (!final.ideas.length) {
+    final.summary = 'ما لقيت اليوم فكرة جديدة من نوعها فعلاً: كل الأفكار كان إلها تطبيقات بتعمل نفس الشي. هاي التغييرات اللي درستها بالعالم، ورح أدوّر مرة تانية بالجولة الجاية.';
+    log('judge', 'no truly new idea today');
+  }
+  if (final.ideas.length && final.ideas.every(x => !x.score)) log('warn', 'all scores are 0, check judge output');
   log('judge', `kept ${final.ideas.length}, rejected ${(final.rejected || []).length} via ${s3.model}`);
 
   // ---------- English version ----------
