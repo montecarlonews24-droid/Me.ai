@@ -1,12 +1,12 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T05:36:27.043Z",
+  "generatedAt": "2026-11-21T05:57:44.986Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم بسبب كونها وظائف بدوام كامل، أو تتطلب مهارات تطوير ويب متقدمة، أو ميزانيات منخفضة جداً، أو أدوار تسويقية. تم قبول فرصة واحدة لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية.",
-    "en": "Most leads today were rejected due to being full-time positions, requiring advanced web development skills, very low budgets, or marketing roles. One lead for AI model training for medical image classification was accepted."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 14 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 14 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية",
@@ -30,7 +30,7 @@
       },
       "proposal": "أهلاً بكِ،\nيسعدني مساعدتك في مشروعك لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية وفهم كل خطوة. أنا مطور تطبيقات أندرويد مستقل، وأبني تطبيقاتي باستخدام الذكاء الاصطناعي، ولدي خبرة في دمج ميزات الذكاء الاصطناعي مثل Gemini Vision في التطبيقات.\n\nأحد تطبيقاتي، SCANIQ، يستخدم التعرف على الصور بالذكاء الاصطناعي، مما يمنحني فهماً جيداً لعملية تصنيف الصور وتقييم النماذج. يمكنني توجيهك خطوة بخطوة في تجهيز البيانات، تدريب النموذج باستخدام Transfer Learning على Google Colab أو Teachable Machine، وتقييم الأداء، وتصدير النموذج.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديكِ بيانات صور طبية محددة جاهزة للعمل عليها، أم أننا سنبدأ بالبحث عنها على Kaggle؟",
       "foundAt": "2026-11-21T05:36:26.701Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "أتمتة متجر إلكتروني",
@@ -307,7 +307,7 @@
       "proposals": "41",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-21T05:36:27.043Z",
+      "bidsAt": "2026-11-21T05:57:44.985Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -350,6 +350,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "عمل بوت تليجرام",
+      "url": "https://khamsat.com/community/requests/800882-%D8%B9%D9%85%D9%84-%D8%A8%D9%88%D8%AA-%D8%AA%D9%84%D9%8A%D8%AC%D8%B1%D8%A7%D9%85",
+      "reason": {
+        "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
+        "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
+      }
+    },
+    {
+      "title": "مطلوب موقع أو تطبيق",
+      "url": "https://khamsat.com/community/requests/800980-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D9%88%D9%82%D8%B9-%D8%A3%D9%88-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82",
+      "reason": {
+        "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
+        "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
+      }
+    },
+    {
+      "title": "عمل تطبيق اندرويد بسيط",
+      "url": "https://khamsat.com/community/requests/800989-%D8%B9%D9%85%D9%84-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D8%A8%D8%B3%D9%8A%D8%B7",
+      "reason": {
+        "ar": "صفحة المشروع غير قابلة للقراءة (JavaScript disabled)، ولا يمكن التحقق من تفاصيل الطلب أو مدى ملاءمته.",
+        "en": "Project page is unreadable (JavaScript disabled), making it impossible to verify request details or suitability."
+      }
+    },
     {
       "title": "White-Label AI Cybersecurity SaaS Needed",
       "url": "https://www.freelancer.com/projects/saas/White-Label-Cybersecurity-SaaS-Needed",
@@ -498,11 +522,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 10,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
-        "msg": "887 leads seen before"
+        "msg": "917 leads seen before"
       },
       {
         "step": "verify",
@@ -510,7 +534,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (84 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 78 skipped: not app/AI work)"
+        "msg": "13 open projects from the last 5 days worldwide with budget 100+ USD (88 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -526,7 +550,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 161818ch 29 links; HTTP 200 161350ch 27 links; HTTP 200 164293ch 27 links; )"
+        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 161820ch 29 links; HTTP 200 161350ch 27 links; HTTP 200 164295ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -534,115 +558,31 @@
       },
       {
         "step": "verify",
-        "msg": "4 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay has not run yet (open the jobs screen in the Me.ai app)"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 5 sent (HTTP 200 133962ch 25 links; HTTP 200 133962ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "firebase HTTP 401"
+        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "3 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "310 jobs from Gmail alerts (last 5 days)"
+        "msg": "307 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (LeadingEdge HR Solutions)): Flutter and Java Spring Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Backend Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): DIGITAL CLOUD PLATFORMS SOFTWARE DEVELOPER (JAVA)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobil Backend Geliştirici"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer (Kotlin/Java) – Hybrid Lisbon. International Project"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Junior Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4492915234: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Backend Software Engineer (Java/ Kotlin)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Mobile, iOS"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Mobile, iOS"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead Software Engineer - iOS Lead"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer (Applied AI) - New York, NY"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Developer II - Android Apps"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Lead Software Engineer Mobile"
+        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "5 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -650,11 +590,11 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 10 to judge"
+        "msg": "0 new Freelancer projects added, 3 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 9 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
