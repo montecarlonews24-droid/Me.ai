@@ -369,7 +369,9 @@ async function relayFeed(name, node, { filter = false } = {}) {
       if (age > 4 * 86400) continue;
       const offers = Number(p.offers);
       if (offers > MAX_BIDS) { crowded++; continue; }
-      const text = String(p.text || '');
+      let text = String(p.text || '');
+      // إذا الصفحة رجّعت رسالة "فعّل JavaScript" بدل الوصف: منحكم من العنوان بدل ما نرفض
+      if (/javascript|جافا ?سكريبت/i.test(text) && text.length < 400) text = '';
       // خمسات: طلبات المجتمع فيها كل إشي (تصميم، كتابة...)، فمنخلّي بس التطبيقات والـ AI
       if (filter && (!AR_RELEVANT.test(`${p.title} ${text.slice(0, 300)}`) || AR_OFF.test(String(p.title)))) { off++; continue; }
       list.push({
