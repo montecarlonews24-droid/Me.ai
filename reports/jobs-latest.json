@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T10:27:13.520Z",
+  "generatedAt": "2026-11-21T12:58:41.079Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 14 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -304,10 +304,10 @@
       "country": "",
       "budget": "750-1500 USD",
       "posted": "1 hours ago",
-      "proposals": "43",
+      "proposals": "45",
       "flId": 40826989,
       "postedAt": 1795142859,
-      "bidsAt": "2026-11-21T10:27:13.520Z",
+      "bidsAt": "2026-11-21T12:58:41.079Z",
       "language": "en",
       "summary": "Hi there, I'm looking for someone to help us with some day-to-day tasks in my business. This involves helping me with email outreach, ai automations, and more tasks that need managing everyday. Skills required: - Good co",
       "fit": 8,
@@ -350,6 +350,46 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Looking for a Freelance Business Development Partner – AI & Web Projects (40% Commission)",
+      "url": "https://www.freelancer.com/projects/business-development/Looking-for-Freelance-Business-40828926",
+      "reason": {
+        "ar": "هذا الطلب يبحث عن شريك لتطوير الأعمال وليس مطور تطبيقات لمشروع محدد. Moe يبني التطبيقات ولا يقوم بأعمال تطوير الأعمال لشركات أخرى.",
+        "en": "This request is for a business development partner, not an app developer for a defined project. Moe builds apps and does not perform business development for other companies."
+      }
+    },
+    {
+      "title": "Siemens TIA Automation Estimation",
+      "url": "https://www.freelancer.com/projects/automation/Siemens-TIA-Automation-Estimation",
+      "reason": {
+        "ar": "المشروع يتطلب خبرة في أنظمة الأتمتة الصناعية ومكونات Siemens TIA وPLCs وSCADA، وهي خارج نطاق ما يقدمه Moe الذي يركز على تطبيقات الأندرويد ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requires expertise in industrial automation systems, Siemens TIA components, PLCs, and SCADA, which are outside Moe's scope of work focused on Android apps and AI agents."
+      }
+    },
+    {
+      "title": "Water Pump Automation Design Sri Lanka",
+      "url": "https://www.freelancer.com/projects/mechatronics/Water-Pump-Automation-Design-Sri",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم أتمتة لمضخة مياه وخبرة في الهندسة الكهربائية والميكاترونكس، وهي مجالات لا يعمل بها Moe.",
+        "en": "The project requires water pump automation design and expertise in electrical engineering and mechatronics, which are outside Moe's areas of work."
+      }
+    },
+    {
+      "title": "Industrial Machine Video & Posters -- 2",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Industrial-Machine-Video-Posters",
+      "reason": {
+        "ar": "المشروع يتطلب تصميم جرافيك وتحرير فيديو وإنشاء ملصقات وفيديوهات بالذكاء الاصطناعي، وهي مهارات لا يقدمها Moe الذي يركز على تطوير تطبيقات الأندرويد ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requires graphic design, video editing, and creating posters and AI-generated videos, which are not skills Moe offers. He focuses on Android app development and AI agents."
+      }
+    },
+    {
+      "title": "Innovation Software Engineer 1",
+      "url": "https://www.linkedin.com/jobs/view/4485649024/",
+      "reason": {
+        "ar": "هذه وظيفة مهندس برمجيات بدوام كامل في شركة، وليست مشروعًا مستقلاً أو تعاقديًا لمطور تطبيقات.",
+        "en": "This is a full-time software engineer position at a company, not a freelance or contract project for an app developer."
+      }
+    },
     {
       "title": "Zoho Client Finder: Paid Only for Clients Who Sign",
       "url": "https://www.freelancer.com/projects/zoho-crm/Zoho-Client-Finder-Paid-Only",
@@ -549,56 +589,16 @@
         "ar": "الوظيفة هي \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
         "en": "This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
       }
-    },
-    {
-      "title": "Software Engineer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492148446/",
-      "reason": {
-        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
-        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
-      }
-    },
-    {
-      "title": "Software Engineer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492134948/",
-      "reason": {
-        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
-        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
-      }
-    },
-    {
-      "title": "Mobile Developer | Remote",
-      "url": "https://www.linkedin.com/jobs/view/4492148381/",
-      "reason": {
-        "ar": "نفس أسباب الرفض للفرصة رقم 6: وظيفة \"مطور موبايل أول\" (Senior Mobile Developer) بعقد طويل الأجل (10-40 ساعة/أسبوع) وبمعدل بالساعة، وهو ما لا يتوافق مع عمل Moe المستقل القائم على المشاريع. كما تتطلب مهارات هندسة تعلم آلة متقدمة (بيئات التعلم المعزز) وتقنيات (Dart/Flutter, TypeScript/JavaScript) خارج نطاق قدراته.",
-        "en": "Same rejection reasons as lead 6: This is a \"Senior Mobile Developer\" role with a long-term contract (10-40 hrs/week) and an hourly rate, which does not align with Moe's freelance project-based work. It also requires advanced AI/ML engineering skills (Reinforcement Learning Environments) and technologies (Dart/Flutter, TypeScript/JavaScript) outside his capabilities."
-      }
-    },
-    {
-      "title": "USA Android Subscription Test",
-      "url": "https://www.freelancer.com/projects/mobile-app-testing/USA-Android-Subscription-Test",
-      "reason": {
-        "ar": "المشروع يتطلب اختبار اشتراكات تطبيق أندرويد من داخل الولايات المتحدة الأمريكية، وMoe لا يقيم هناك.",
-        "en": "The project requires testing Android app subscriptions from within the United States, and Moe is not located there."
-      }
-    },
-    {
-      "title": "Android Brain Game App User Feedback",
-      "url": "https://www.freelancer.com/projects/android/Android-Brain-Game-App-User",
-      "reason": {
-        "ar": "المشروع يطلب تقديم ملاحظات كمستخدم لتطبيق أندرويد، وليس تطوير تطبيقات. Moe هو مطور تطبيقات وليس مختبر مستخدمين عام.",
-        "en": "The project requests user feedback for an Android app, not app development. Moe is an app maker, not a general user tester."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 16,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "920 leads seen before"
+        "msg": "957 leads seen before"
       },
       {
         "step": "verify",
@@ -606,11 +606,11 @@
       },
       {
         "step": "freelancer",
-        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (141 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 75 skipped: not app/AI work)"
+        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (175 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 70 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
-        "msg": "7 [Hiring] posts from the phone relay (last 5 days)"
+        "msg": "6 [Hiring] posts from the phone relay (last 5 days)"
       },
       {
         "step": "hn",
@@ -622,7 +622,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 64 projects on the lists, 0 sent (HTTP 200 161057ch 29 links; HTTP 200 160407ch 27 links; HTTP 200 163353ch 26 links; )"
+        "msg": "phone relay last read 5 hours ago: 64 projects on the lists, 0 sent (HTTP 200 161057ch 29 links; HTTP 200 160407ch 27 links; HTTP 200 163353ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -630,11 +630,11 @@
       },
       {
         "step": "verify",
-        "msg": "4 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133870ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133870ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -642,103 +642,115 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "315 jobs from Gmail alerts (last 5 days)"
+        "msg": "309 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "AI App Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (Unity / C# / Mobile SDKs)"
+        "msg": "skipped (full-time): Software Engineer II- Full-stack Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Application Developer"
+        "msg": "skipped (full-time): Software Engineer II- Full-stack Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Mobile Software Engineer (Milan)"
+        "msg": "skipped (full-time): Python/AI Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Développeur Android - F/H"
+        "msg": "skipped (full-time): Junior AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Python / Agentic AI Software Engineer III"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (full-time): Software Engineer, Agent Systems"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer III- Android- JPM Personal Investing"
+        "msg": "skipped (title): Senior Software Engineer-AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer | Freelance | Full Remote"
+        "msg": "skipped (full-time): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Fullstack Mobile Engineer (KMP/Java)"
+        "msg": "skipped (full-time): Junior AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (full-time): Front Office Software Engineer - £110,000"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. React Native Developer"
+        "msg": "skipped (full-time): Graduate Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Predictions (Mobile)"
+        "msg": "skipped (full-time): Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Software Developer - Android Apps"
+        "msg": "skipped (full-time): AI Full-Stack Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer"
+        "msg": "skipped (full-time): 🤖 AI Engineer | Agentes y LLMs en producción | €45K - €55K"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (IOS)"
+        "msg": "skipped (full-time): Applied AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android developer"
+        "msg": "skipped (full-time): AI Engineer- Associate"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): iOS Senior Developer"
+        "msg": "skipped (title): Senior AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile iOS Software Engineer (Milan)"
+        "msg": "skipped (title): Member of Technical Staff (UAE)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Developer"
+        "msg": "skipped (title): Senior Software Developer - CNF"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Full-Stack Engineer - React Native, Next.js, Backend, Product Engineering"
+        "msg": "skipped (title): Senior Backend Engineer, Voice AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - .NET (Fullstack)"
+        "msg": "skipped (full-time): Software Development Engineer 1 (UAE National)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer II, Search AI Answers Quality"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior ML Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Core AI Software - Haifa"
       },
       {
         "step": "verify",
-        "msg": "4 of 25 new LinkedIn jobs added"
+        "msg": "1 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -746,15 +758,15 @@
       },
       {
         "step": "verify",
-        "msg": "6 new Freelancer projects added, 16 to judge"
+        "msg": "4 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 16 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (43 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (45 bids): Daily Ops & AI Automation Assistant"
       },
       {
         "step": "freelancer",
