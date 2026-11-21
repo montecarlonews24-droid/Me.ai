@@ -341,82 +341,52 @@ async function freelancerFeed() {
 // Reddit بيسكّر على سيرفرات GitHub، فتطبيق Me.ai على الموبايل بيقرأ الـ RSS وبيرفع بوستات [Hiring] لـ /reddit
 const FIREBASE = (process.env.FIREBASE_DB || 'https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app').replace(/\/$/, '');
 // ---------- مستقل وخمسات: مشاريع عربية (عملاء الخليج وغيرهم) ----------
-const AR_SOURCES = [
-  { name: 'Mostaql', url: 'https://mostaql.com/projects?category=development&sort=latest', re: /href=["']((?:https?:\/\/(?:www\.)?mostaql\.com)?\/projects?\/(\d{4,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://mostaql.com' },
-  { name: 'Mostaql', url: 'https://mostaql.com/projects?keyword=%D8%AA%D8%B7%D8%A8%D9%8A%D9%82&sort=latest', re: /href=["']((?:https?:\/\/(?:www\.)?mostaql\.com)?\/projects?\/(\d{4,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://mostaql.com' },
-  { name: 'Khamsat', url: 'https://khamsat.com/community/requests', re: /href=["']((?:https?:\/\/(?:www\.)?khamsat\.com)?\/community\/requests\/(\d{3,})[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi, base: 'https://khamsat.com' }
-];
+// القراءة المباشرة من سيرفر GitHub انشالت: الموقعين بيرجّعوا صفحة فاضية (HTTP 202) لسيرفرات GitHub.
+// الاثنين بيوصلوا هلّق من موبايل Moe عن طريق Firebase (/mostaql و /khamsat).
 const AR_RELEVANT = /تطبيق|أندرويد|اندرويد|android|موبايل|جوال|هاتف|ذكاء اصطناعي|ذكاء إصطناعي|\bai\b|بوت|شات|chat|فايربيس|firebase|play|متجر جوجل|قوقل بلاي|webview|تحويل موقع|أتمتة|وكيل/i;
 const AR_OFF = /flutter|فلاتر|react native|ios فقط|ووردبريس|wordpress|شوبيفاي|سلة|زد|تصميم شعار|لوجو|مونتاج|كتابة|ترجمة|تسويق|إعلانات ممولة/i;
-async function arabFeed() {
-  const out = new Map();
-  for (const src of AR_SOURCES) {
-    try {
-      const r = await fetch(src.url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36', 'Accept-Language': 'ar,en;q=0.8' },
-        signal: AbortSignal.timeout(15000)
-      });
-      if (!r.ok) { log('arab', `${src.name}: HTTP ${r.status}`); continue; }
-      const h = await r.text();
-      let m, n = 0;
-      src.re.lastIndex = 0;
-      while ((m = src.re.exec(h))) {
-        const title = strip(m[3]).replace(/\s+/g, ' ').trim();
-        if (!title || title.length < 8 || title.length > 200) continue;
-        const url = (m[1].startsWith('http') ? m[1] : src.base + m[1]).replace(/[?#].*$/, '');
-        const key = src.name + m[2];
-        if (out.has(key)) continue;
-        n++;
-        if (!AR_RELEVANT.test(title) || AR_OFF.test(title)) continue;
-        out.set(key, { title, url, market: 'arab', platform: src.name, country: '', budget: '', posted: '', proposals: '', language: 'ar', summary: '', pageText: '' });
-      }
-      const pageTitle = strip((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1]).slice(0, 80);
-      log('arab', `${src.name}: ${n} on page (HTTP ${r.status}, ${h.length} chars, title "${pageTitle}", ${(h.match(/\/project\/|\/requests\//g) || []).length} project links)`);
-    } catch (e) {
-      log('arab', `${src.name}: ${e.message}`);
-    }
-  }
-  const list = [...out.values()];
-  log('arab', `${list.length} relevant Arabic projects`);
-  return list;
-}
 
-// ---------- مستقل من موبايل Moe: تطبيق Me.ai بيقرأ المشاريع وبيرفعها لـ /mostaql ----------
-async function mostaqlRelayFeed() {
+// ---------- مستقل وخمسات من موبايل Moe: تطبيق Me.ai بيقرأ المشاريع وبيرفعها لـ /mostaql و /khamsat ----------
+async function relayFeed(name, node, { filter = false } = {}) {
+  const tag = name.toLowerCase();
   const list = [];
   try {
-    const st = await fetch(`${FIREBASE}/mostaqlStatus.json`).then(r => r.ok ? r.json() : null).catch(() => null);
-    if (st?.at) log('mostaql', `phone relay last read ${ago(st.at)}: ${st.found} projects on the lists, ${st.sent} sent (${String(st.lists || '').slice(0, 160)})`);
-    else log('mostaql', 'phone relay has not run yet (open the jobs screen in the Me.ai app)');
-    const r = await fetch(`${FIREBASE}/mostaql.json`);
-    if (!r.ok) { log('mostaql', `firebase HTTP ${r.status}`); return list; }
+    const st = await fetch(`${FIREBASE}/${node}Status.json`).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (st?.at) log(tag, `phone relay last read ${ago(st.at)}: ${st.found} projects on the lists, ${st.sent} sent (${String(st.lists || '').slice(0, 160)})`);
+    else log(tag, 'phone relay has not run yet (open the jobs screen in the Me.ai app)');
+    const r = await fetch(`${FIREBASE}/${node}.json`);
+    if (!r.ok) { log(tag, `firebase HTTP ${r.status}`); return list; }
     const d = (await r.json()) || {};
     const now = Date.now() / 1000;
-    let crowded = 0;
+    let crowded = 0, off = 0;
     for (const [id, p] of Object.entries(d)) {
       if (!p?.url || !p?.title) continue;
       const age = now - (Number(p.created) || now);
       if (age > 7 * 86400) {
-        fetch(`${FIREBASE}/mostaql/${encodeURIComponent(id)}.json`, { method: 'DELETE' }).catch(() => {});
+        fetch(`${FIREBASE}/${node}/${encodeURIComponent(id)}.json`, { method: 'DELETE' }).catch(() => {});
         continue;
       }
       if (age > 4 * 86400) continue;
       const offers = Number(p.offers);
       if (offers > MAX_BIDS) { crowded++; continue; }
       const text = String(p.text || '');
+      // خمسات: طلبات المجتمع فيها كل إشي (تصميم، كتابة...)، فمنخلّي بس التطبيقات والـ AI
+      if (filter && (!AR_RELEVANT.test(`${p.title} ${text.slice(0, 300)}`) || AR_OFF.test(String(p.title)))) { off++; continue; }
       list.push({
         title: String(p.title), url: p.url,
-        market: 'arab', platform: 'Mostaql', country: '', budget: String(p.budget || ''),
+        market: 'arab', platform: name, country: '', budget: String(p.budget || ''),
         posted: '', proposals: offers >= 0 ? String(offers) : '',   // created = وقت ما شافه الموبايل، مش وقت النشر، فما منعرضه
         language: 'ar', summary: text.slice(0, 220), pageText: text.slice(0, 1800)
       });
     }
-    log('mostaql', `${list.length} projects from the phone relay (last 4 days, ${crowded} skipped: over ${MAX_BIDS} offers)`);
+    log(tag, `${list.length} projects from the phone relay (last 4 days, ${crowded} skipped: over ${MAX_BIDS} offers${filter ? `, ${off} skipped: not app/AI work` : ''})`);
   } catch (e) {
-    log('mostaql', e.message);
+    log(tag, e.message);
   }
   return list;
 }
+const mostaqlRelayFeed = () => relayFeed('Mostaql', 'mostaql');
+const khamsatRelayFeed = () => relayFeed('Khamsat', 'khamsat', { filter: true });
 
 // ---------- Hacker News ----------
 // 1) خيط "Freelancer? Seeking freelancer?" الشهري. HN وقّف ينشره من حساب whoishiring بعد أكتوبر 2025،
@@ -762,7 +732,7 @@ function linkedinBlock(p) {
   hn.forEach(l => checked.push(l));
   log('verify', `${hn.length} new Hacker News posts added`);
   // مستقل وخمسات: منقرأ صفحة كل مشروع (الوصف والميزانية) قبل الحكم
-  // مستقل من الموبايل أول (عنده الوصف جاهز)، وبعدين القراءة المباشرة (غالباً بتنسكّر على GitHub)
+  // مستقل وخمسات من الموبايل (عندهم الوصف جاهز)
   const mq = (await mostaqlRelayFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
@@ -771,19 +741,14 @@ function linkedinBlock(p) {
   }).slice(0, 12);
   mq.forEach(l => checked.push(l));
   log('verify', `${mq.length} new Mostaql projects added from the phone`);
-  const ar = (await arabFeed()).filter(l => {
+  const kh = (await khamsatRelayFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
     dupes.add(u);
     return true;
   }).slice(0, 10);
-  for (const l of ar) {
-    const pg = await page(l.url);
-    l.pageText = pg.text || '(page blocked, judge from title only)';
-    checked.push(l);
-    await new Promise(r => setTimeout(r, 1500));
-  }
-  log('verify', `${ar.length} new Mostaql/Khamsat projects added`);
+  kh.forEach(l => checked.push(l));
+  log('verify', `${kh.length} new Khamsat requests added from the phone`);
   const li = [...(await linkedinFeed()), ...(await linkedinSearch())].filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
