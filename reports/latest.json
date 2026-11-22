@@ -1,298 +1,230 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-21T22:49:11.707Z",
+  "generatedAt": "2026-11-22T12:12:54.473Z",
   "model": "gemini-2.5-flash",
-  "summary": "اليوم، ركزنا على أفكار تطبيقات عالمية باللغة الإنجليزية تستفيد من التطورات في وكلاء الذكاء الاصطناعي المستقلين لمواجهة التحديات الاجتماعية والمناخية والتنظيمية الجديدة، مع التركيز على التخصيص والتبسيط للمستخدمين. تم رفض الأفكار التي كانت إما إقليمية أو عربية فقط، أو ذات نطاق واسع جدًا لجهد مطور واحد في ثلاثة أسابيع.",
+  "summary": "اليوم، ركزنا على أفكار تطبيقات عالمية باللغة الإنجليزية تستفيد من التغيرات العالمية الكبرى، مع رفض صارم للأفكار الإقليمية أو التي تواجه منافسة مباشرة. تم اختيار فكرتين فقط تستوفيان معايير الجدة وقابلية البناء.",
   "trends": [
-    "تطور الذكاء الاصطناعي نحو وكلاء مستقلين قادرين على أداء مهام معقدة.",
-    "تزايد الشعور بالوحدة والتحول نحو 'إعادة الترسية' والبحث عن الاتصال بالطبيعة والتقاليد.",
-    "تفاقم المخاطر المناخية العالمية مثل حرائق الغابات والجفاف.",
-    "دخول تشريعات جديدة لحماية المستهلك وحوكمة الذكاء الاصطناعي حيز التنفيذ."
+    "ارتفاع تكاليف رعاية الحيوانات الأليفة يفرض تحديات مالية على أصحابها.",
+    "تطور الذكاء الاصطناعي نحو وكلاء مستقلين ونماذج متعددة الوسائط يفتح آفاقًا جديدة.",
+    "توقع أحداث فلكية كبرى مثل زخات الشهب وتقابل الكواكب يوفر فرصًا فريدة للمراقبة المجتمعية."
   ],
   "world": {
     "signals": [
       {
         "area": "الفضاء والشمس",
-        "change": "ذروة زخات شهب الجوزاء في 13-14 ديسمبر 2026، مع ظروف رؤية ممتازة بسبب القمر الخفيف الذي يغرب مبكراً.",
-        "who": "المهتمون بعلم الفلك وعامة الناس في نصفي الكرة الشمالي والجنوبي.",
-        "evidence": "13-14 ديسمبر 2026، القمر هلال رفيع يغرب حوالي الساعة 9 مساءً بالتوقيت المحلي."
+        "change": "توقع زخات شهب قوية مثل الجوزاء (Geminids) في 13-14 ديسمبر 2026، حيث يمكن رؤية ما يصل إلى 120 شهابًا في الساعة في نصف الكرة الشمالي، وزخات شهب الرباعيات (Quadrantids) من 28 ديسمبر 2026 إلى 12 يناير 2027.",
+        "who": "عشاق الفلك، ومراقبو السماء، وربما يتأثر الملاحة الفضائية بشكل طفيف.",
+        "evidence": "ذروة شهب الجوزاء 13-14 ديسمبر 2026، والرباعيات 3-4 يناير 2027."
       },
       {
         "area": "الفضاء والشمس",
-        "change": "توقعات بعواصف مغناطيسية أرضية طفيفة (G1) في أواخر 17 نوفمبر وأوائل 18 نوفمبر 2026، مع احتمالية حدوث تقلبات ضعيفة في شبكة الطاقة وتأثيرات طفيفة على عمليات الأقمار الصناعية ورؤية الشفق القطبي عند خطوط العرض العليا.",
-        "who": "مشغلو شبكات الطاقة، وخدمات الأقمار الصناعية، والأشخاص في المناطق ذات خطوط العرض العالية.",
-        "evidence": "توقعات مركز التنبؤ بالطقس الفضائي التابع للإدارة الوطنية للمحيطات والغلاف الجوي (NOAA) بتاريخ 17 نوفمبر 2026."
+        "change": "يصل كوكب أورانوس إلى وضع التقابل مع الشمس في 25 نوفمبر 2026، مما يجعله أكثر سطوعًا وأقرب إلى الأرض، وهي أفضل فرصة لمراقبته.",
+        "who": "هواة الفلك ومهتمو رصد الكواكب.",
+        "evidence": "25 نوفمبر 2026."
       },
       {
         "area": "الأرض والمناخ",
-        "change": "شهد موسم حرائق الغابات لعام 2026 احتراق أكثر من 8.5 مليون فدان في الولايات المتحدة بحلول منتصف سبتمبر، وهو ما يمثل 146% من متوسط العشر سنوات، مع تزايد المخاطر على المستوى الوطني وليس الإقليمي فقط.",
-        "who": "المجتمعات المتأثرة بالحرائق والدخان، وشركات التأمين، خدمات الطوارئ، والقطاعات الزراعية.",
-        "evidence": "تقرير المركز الوطني المشترك لمكافحة الحرائق (NIFC) وTriple-I لعام 2026."
+        "change": "لا تزال مدينة لاهور الباكستانية تتصدر قائمة المدن الأكثر تلوثًا في العالم، حيث سجل مؤشر جودة الهواء 538 نقطة في 22 نوفمبر 2026، وتليها نيودلهي الهندية بمستويات تلوث خطيرة.",
+        "who": "سكان لاهور ونيودلهي والمناطق المحيطة بها، يعانون من مخاطر صحية جسيمة وضعف الرؤية.",
+        "evidence": "قراءة مؤشر جودة الهواء في لاهور 538 نقطة في 22 نوفمبر 2026."
       },
       {
         "area": "الأرض والمناخ",
-        "change": "استمرار ظروف الجفاف في 38% على الأقل من الولايات المتحدة وبورتوريكو (اعتبارًا من يوليو 2026)، مما يساهم في تفاقم حرائق الغابات.",
-        "who": "المجتمعات المحلية، والمزارعون، وإمدادات المياه، والنظم البيئية.",
-        "evidence": "تقرير مركز الكوارث الخيرية، يوليو 2026."
+        "change": "شهد عام 2026 موجات حر وحرائق غابات وفيضانات مدمرة في عدة مناطق حول العالم، مع استمرار ظروف الجفاف غير الطبيعي في شرق أفريقيا وأمريكا الوسطى وأجزاء من آسيا وأمريكا الجنوبية.",
+        "who": "المجتمعات المتضررة من الكوارث الطبيعية، مما يؤدي إلى وفيات ونزوح وأضرار بالممتلكات.",
+        "evidence": "تقرير المنظمة العالمية للأرصاد الجوية في 9 نوفمبر 2026 يشير إلى أن عام 2026 يواصل سلسلة درجات الحرارة العالمية الاستثنائية."
       },
       {
         "area": "الأرض والمناخ",
-        "change": "من المتوقع أن يؤدي نمط الطقس 'النينيو الخارق' إلى هواء أكثر جفافاً وحرارة عبر الولايات المتحدة في عام 2026، مما يؤجج ظروف حرائق الغابات ويزيد الدخان في المدن الكبرى.",
-        "who": "المدن الكبرى التي تعاني من سوء جودة الهواء، والمجتمعات المعرضة لحرائق الغابات، والقطاع الزراعي.",
-        "evidence": "تقرير مركز الكوارث الخيرية، يوليو 2026."
+        "change": "تتفاقم ظاهرة النينيو القوية للغاية، ومن المتوقع أن تؤدي إلى تفاقم الحر والظواهر الجوية المتطرفة في عام 2027.",
+        "who": "السكان في جميع أنحاء العالم، وخاصة في المناطق المعرضة للطقس المتطرف والجفاف والفيضانات.",
+        "evidence": "تقرير المنظمة العالمية للأرصاد الجوية في 9 نوفمبر 2026."
       },
       {
-        "area": "الجسد والحياة اليومية",
-        "change": "الوحدة توصف بأنها 'الوباء الجديد' في عام 2026، مع شعور الجيل Z بالعزلة العميقة رغم الاتصال المستمر، مما يدفع الشركات نحو حملات تركز على الاتصال العاطفي.",
-        "who": "الشباب بشكل خاص، والشركات التي تستهدفهم، والمجتمعات بشكل عام.",
-        "evidence": "تقرير Redscout لعام 2026 حول التحولات الثقافية."
+        "area": "الجسم والحياة اليومية",
+        "change": "ارتفاع تكاليف امتلاك الحيوانات الأليفة بنسبة 15% في العام الماضي، حيث يبلغ متوسط الرعاية الروتينية للكلب أو القط 4272 دولارًا سنويًا في عام 2026.",
+        "who": "أصحاب الحيوانات الأليفة، مما يتطلب تخطيطًا ماليًا دقيقًا.",
+        "evidence": "مسح Money و Healthy Paws Pet Insurance لعام 2026."
       },
       {
-        "area": "الجسد والحياة اليومية",
-        "change": "تحول ثقافي عالمي نحو 'إعادة الترسية'، حيث يعيد الناس اكتشاف الراحة في التقاليد والاستمرارية والجذور في عام 2026، بعيداً عن الحداثة بلا حدود.",
-        "who": "المستهلكون في جميع أنحاء العالم، والشركات التي تتكيف مع تفضيلاتهم، والمنتجات التي تعكس هذه التغييرات.",
-        "evidence": "تحليل الاتجاهات 2026 بواسطة راجيف جوبيناث (نوفمبر 2025)."
+        "area": "الجسم والحياة اليومية",
+        "change": "انخفضت أسعار الغذاء العالمية بشكل طفيف في أكتوبر 2026، ولكنها لا تزال أعلى بنحو 6% مما كانت عليه قبل عام.",
+        "who": "المستهلكون على مستوى العالم، مما يؤثر على ميزانيات الأسر وقوة الشراء.",
+        "evidence": "مؤشر أسعار الغذاء لمنظمة الأغذية والزراعة (الفاو) في نوفمبر 2026."
       },
       {
-        "area": "المال والعمل",
-        "change": "من المتوقع أن ترتفع أسعار السلع الغذائية العالمية بنحو 10% في عام 2026 و7% إضافية في عام 2027، مدفوعة بالصراعات وتعطيل أسواق الطاقة والظروف المناخية المعاكسة وارتفاع تكاليف الأسمدة.",
-        "who": "المستهلكون في جميع أنحاء العالم، وخاصة في الأسواق المعتمدة على الاستيراد، وصناعة الأغذية.",
-        "evidence": "تحذيرات البنك الدولي، أكتوبر ونوفمبر 2026."
-      },
-      {
-        "area": "المال والعمل",
-        "change": "توقعات بارتفاع التضخم في منطقة اليورو إلى حوالي 3.0% لعام 2026 و2.6% لعام 2027، وفي المملكة المتحدة إلى حوالي 3.7% في الربع الأخير من 2026 و4.2% في الربع الأول من 2027، مدفوعًا بشكل أساسي بارتفاع أسعار الطاقة.",
-        "who": "المستهلكون الذين يعانون من ارتفاع تكاليف المعيشة، والشركات التي تواجه زيادة في التكاليف، والبنوك المركزية.",
-        "evidence": "نتائج مسح توقعات المحترفين للبنك المركزي الأوروبي (أكتوبر 2026) وخطاب بنك إنجلترا (سبتمبر 2026)."
+        "area": "الجسم والحياة اليومية",
+        "change": "من المتوقع انخفاض أسعار البن والكاكاو واستقرار أسعار الشاي مع بداية شتاء 2026.",
+        "who": "المستهلكون ومستوردو ومصدرو هذه السلع.",
+        "evidence": "تقرير الأسعار العالمية للسلع الاستراتيجية في 15 نوفمبر 2026."
       },
       {
         "area": "المال والعمل",
-        "change": "تطور العمل عن بعد نحو نماذج هجينة أكثر تنظيماً، مع انخفاض فرص العمل عن بعد للمبتدئين ومعايير أهلية أكثر صرامة للأدوار المتوسطة والعليا، مع التركيز على النتائج بدلاً من الساعات.",
-        "who": "الباحثون عن عمل، الموظفون عن بعد، أصحاب العمل، ومديرو الموارد البشرية.",
-        "evidence": "تقارير حول تطور العمل عن بعد لعام 2026."
+        "change": "ازدياد الطلب على المهارات المتعلقة بالذكاء الاصطناعي (AI Copilots، Prompt Engineering، تحليل البيانات بالذكاء الاصطناعي) في سوق العمل عن بُعد لعام 2026، حيث يتوقع أصحاب العمل من الموظفين دمج هذه الأدوات في عملهم اليومي.",
+        "who": "العمال والباحثون عن عمل، مما يتطلب منهم تطوير مهاراتهم الرقمية والمتعلقة بالذكاء الاصطناعي.",
+        "evidence": "دراسات Microsoft وتقارير Bayt.com لعام 2026."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تتبنى الشركات الرائدة سياسات عمل عن بُعد أكثر مرونة في عام 2026، مع التركيز على 'النتائج أولاً' وتوفير خيارات مثل العمل المضغوط (4 أيام في الأسبوع) والساعات المرنة.",
+        "who": "الموظفون عن بُعد، مما يوفر توازنًا أفضل بين الحياة والعمل ويزيد من الإنتاجية.",
+        "evidence": "تقرير BeBee حول سياسات العمل عن بُعد في 12 يونيو 2026."
       },
       {
         "area": "التكنولوجيا",
-        "change": "تحول كبير في مجال الذكاء الاصطناعي نحو 'وكلاء الذكاء الاصطناعي المستقلين' القادرين على أداء مهام معقدة ومتعددة الخطوات دون تدخل بشري مستمر، مما يغير طريقة العمل.",
-        "who": "المطورون، والشركات، والعاملون الذين تتأثر مهامهم بالأتمتة، والمستخدمون النهائيون للذكاء الاصطناعي.",
-        "evidence": "تقارير أخبار الذكاء الاصطناعي لشهر نوفمبر 2026."
+        "change": "تحديث Android 17 في نوفمبر 2026 يجلب أكثر من 12 ميزة جديدة لهواتف وساعات Pixel، مع تركيز كبير على Gemini Intelligence، وأتمتة أكثر ذكاءً، وميزات مثل Rambler التي تزيل الكلمات الزائدة من الكلام.",
+        "who": "مستخدمو هواتف Pixel وساعاتها الذكية، مما يعزز تجربة المستخدم ويزيد من كفاءة التفاعل اليومي.",
+        "evidence": "إطلاق Google لتحديث Android 17 في 10 نوفمبر 2026."
       },
       {
         "area": "التكنولوجيا",
-        "change": "إطلاق نماذج ذكاء اصطناعي جديدة ومتطورة مثل Gemini 4 Hydrogen من جوجل (للبحث والوكلاء) وGPT-6 Cyber من OpenAI (للأمن السيبراني) وClaude Fable 5.2 من Anthropic (للعمل التقني المعقد).",
-        "who": "المطورون، مستخدمو الذكاء الاصطناعي، خبراء الأمن السيبراني، الشركات.",
-        "evidence": "أخبار الذكاء الاصطناعي لشهر نوفمبر 2026."
+        "change": "تتوسع قدرات المراسلة عبر الأقمار الصناعية على الهواتف الذكية في عام 2026 (بما في ذلك Apple و Google Pixel و Samsung و Huawei)، مما يتيح إرسال الرسائل النصية وتنبيهات الطوارئ بدون إشارة خلوية، وتتجه نحو دعم الاتصال ذي الاتجاهين.",
+        "who": "المسافرون والمقيمون في المناطق النائية، مما يوفر شبكة أمان إضافية وقدرات اتصال موسعة.",
+        "evidence": "تقرير iSwap Pakistan في 7 سبتمبر 2026 وتقرير الجزيرة نت في 13 نوفمبر 2026."
       },
       {
-        "area": "القواعد والمجتمع",
-        "change": "دخول المتطلبات الأكثر صرامة لـ'أنظمة الذكاء الاصطناعي عالية المخاطر' في قانون الذكاء الاصطناعي للاتحاد الأوروبي حيز التنفيذ الكامل في أغسطس 2026، مما يفرض رقابة بشرية وشفافية وتوثيقًا ومراقبة مستمرة.",
-        "who": "شركات التكنولوجيا التي تطور أو تستخدم أنظمة الذكاء الاصطناعي عالية المخاطر في الاتحاد الأوروبي، والمواطنون الأوروبيون.",
-        "evidence": "تقرير ComplyOne و Nortal حول المشهد التنظيمي للاتحاد الأوروبي لعام 2026."
-      },
-      {
-        "area": "القواعد والمجتمع",
-        "change": "بدء تطبيق لائحة الاتحاد الأوروبي لإزالة الغابات (EUDR) اعتبارًا من 30 ديسمبر 2026، والتي تفرض متطلبات العناية الواجبة الصارمة على المنتجات المرتبطة بالسلع التي تسبب إزالة الغابات، مما يتطلب رؤية أكبر لسلاسل التوريد.",
-        "who": "الشركات التي تستورد أو تصدر سلعًا مثل الأخشاب والقهوة وزيت النخيل إلى الاتحاد الأوروبي، والمستهلكون المهتمون بالاستدامة.",
-        "evidence": "GM Business Growth Hub، 6 نوفمبر 2026."
-      },
-      {
-        "area": "القواعد والمجتمع",
-        "change": "تقديم تشريعات جديدة لحماية المستهلك في الولايات المتحدة، مثل قانون 'الدفاع عن المستهلك وحمايته' (CAP Act) المقترح في نوفمبر 2026، لتعزيز سلطة لجنة سلامة المنتجات الاستهلاكية (CPSC) في فرض عقوبات على انتهاكات السلامة.",
-        "who": "الشركات المصنعة والمستوردة والموزعة للمنتجات الاستهلاكية، والمستهلكون الأمريكيون.",
-        "evidence": "بيان صحفي من مكتب النائبة شاكوفسكي، 20 نوفمبر 2026."
+        "area": "التكنولوجيا",
+        "change": "تطور الذكاء الاصطناعي في عام 2026 نحو 'وكلاء الذكاء الاصطناعي' (AI Agents) القادرين على تنفيذ مهام متعددة بشكل مستقل، ونماذج متعددة الوسائط تفهم النصوص والصور والصوت والفيديو.",
+        "who": "الأفراد والشركات على حد سواء، مما يؤدي إلى زيادة الأتمتة في المهام اليومية والمهنية وتغيير طبيعة العمل.",
+        "evidence": "تقارير متعددة حول تطور الذكاء الاصطناعي في 2026."
       }
     ],
     "links": [
-      "نشاط النينيو الخارق (الأرض والمناخ) يؤدي إلى تفاقم حرائق الغابات والجفاف، ويؤثر على المحاصيل العالمية (المال والعمل) مما يساهم في ارتفاع أسعار الغذاء.",
-      "ارتفاع تكاليف الطاقة (المال والعمل) يدفع إلى زيادة التضخم ورفع أسعار المواد الغذائية بسبب تكاليف الإنتاج والنقل الأعلى.",
-      "تطورات الذكاء الاصطناعي (التكنولوجيا) تحول طبيعة العمل من خلال وكلاء الذكاء الاصطناعي المستقلين (المال والعمل) وتوفر أدوات جديدة للأمن السيبراني.",
-      "القوانين والتشريعات الجديدة للاتحاد الأوروبي، مثل قانون الذكاء الاصطناعي ولائحة إزالة الغابات (القواعد والمجتمع)، تجبر الشركات على تغيير ممارساتها التشغيلية وسلاسل التوريد (المال والعمل)، مما يؤثر في نهاية المطاف على المنتجات المتاحة للمستهلكين."
+      "الطقس القاسي (موجات الحر والفيضانات) ← الحياة اليومية والعمل: موجات الحر والفيضانات الشديدة تؤدي إلى وفيات ونزوح وتدمير للبنية التحتية، مما يؤثر بشكل مباشر على سلامة الناس وممتلكاتهم وقدرتهم على العمل والتنقل.",
+      "تلوث الهواء الشديد ← الصحة العامة والنقل: مستويات تلوث الهواء الخطيرة في مدن مثل لاهور ودلهي تسبب مشاكل صحية خطيرة (تهيج الحلق، صعوبة التنفس، حكة العينين) وتؤدي إلى ضعف الرؤية وإغلاق الطرق، مما يعطل الحياة اليومية والتنقل.",
+      "تطور الذكاء الاصطناعي وميزات أندرويد الجديدة ← العمل وسلوك المستهلك: دمج الذكاء الاصطناعي في الهواتف (مثل Gemini Intelligence في Android 17) يمكّن من أتمتة المهام اليومية (طلب الطعام، حجز المواصلات، التسوق) ويغير مهارات العمل المطلوبة، مما يؤثر على إنتاجية الأفراد وسلوكياتهم الاستهلاكية والمهنية.",
+      "ارتفاع تكاليف رعاية الحيوانات الأليفة ← القرارات المالية للأسر: الزيادة الكبيرة في تكاليف امتلاك الحيوانات الأليفة، خاصة الرعاية البيطرية، تفرض ضغوطًا مالية على الأسر وتجعل التخطيط المالي للحيوانات الأليفة أمرًا بالغ الأهمية."
     ]
   },
   "ideas": [
     {
-      "name": "AI Citizen Compass",
-      "signal": "متطلبات 'أنظمة الذكاء الاصطناعي عالية المخاطر' في قانون الذكاء الاصطناعي للاتحاد الأوروبي (13)، وكلاء الذكاء الاصطناعي المستقلون (11).",
-      "pitch": "وكيل ذكاء اصطناعي مستقل يمكّن المواطنين من فهم وتبسيط حقوقهم بموجب قانون الذكاء الاصطناعي للاتحاد الأوروبي، وتقديم إرشادات قابلة للتنفيذ حول كيفية طلب الرقابة البشرية أو استئناف القرارات الآلية من أنظمة الذكاء الاصطناعي عالية المخاطر.",
-      "problem": "يدخل قانون الذكاء الاصطناعي للاتحاد الأوروبي حيز التنفيذ الكامل في أغسطس 2026، مما يفرض متطلبات صارمة على أنظمة الذكاء الاصطناعي عالية المخاطر. ومع ذلك، يجد المواطنون العاديون صعوبة في فهم حقوقهم أو كيفية التفاعل مع هذه الأنظمة المعقدة.",
-      "audience": "المواطنون الأوروبيون الذين قد يتفاعلون مع أنظمة الذكاء الاصطناعي عالية المخاطر في حياتهم اليومية، والمستهلكون في المناطق الأخرى الذين يهتمون بحقوق الذكاء الاصطناعي.",
-      "whyNow": "مع دخول قانون الذكاء الاصطناعي للاتحاد الأوروبي حيز التنفيذ الكامل في أغسطس 2026، تزداد الحاجة إلى أدوات تبسط هذه اللوائح للمواطنين. يمكن لوكلاء الذكاء الاصطناعي المستقلين أن يعملوا كوسطاء شخصيين لتوضيح الحقوق وتقديم الإرشادات العملية.",
-      "novelty": "يقدم هذا التطبيق وكيل ذكاء اصطناعي مستقل متخصص في تبسيط قانون الذكاء الاصطناعي للاتحاد الأوروبي وتقديم إرشادات عملية للمواطنين حول حقوقهم، مثل طلب الرقابة البشرية أو استئناف القرارات الآلية من أنظمة الذكاء الاصطناعي عالية المخاطر، وهو ما لا تقدمه أي تطبيقات حالية.",
+      "name": "PetFinance Predict",
+      "signal": "ارتفاع تكاليف امتلاك الحيوانات الأليفة بنسبة 15% (6)، تطور الذكاء الاصطناعي (وكلاء الذكاء الاصطناعي، تحليل البيانات بالذكاء الاصطناعي) (13)",
+      "pitch": "مخطط مالي يعمل بالذكاء الاصطناعي لأصحاب الحيوانات الأليفة، يتتبع النفقات، ويتنبأ بالتكاليف المستقبلية، ويقترح استراتيجيات لتوفير المال.",
+      "problem": "يواجه أصحاب الحيوانات الأليفة تكاليف متزايدة وغير متوقعة، مما يجعل التخطيط المالي لرعاية حيواناتهم الأليفة أمرًا صعبًا.",
+      "audience": "أصحاب الحيوانات الأليفة حول العالم الذين يهتمون بإدارة نفقات حيواناتهم الأليفة.",
+      "whyNow": "الزيادة الكبيرة في تكاليف رعاية الحيوانات الأليفة تبرز الحاجة الماسة لأدوات تخطيط مالي أفضل، ويسمح الذكاء الاصطناعي بتقديم تحليل تنبؤي دقيق.",
+      "novelty": "تطبيق مالي متخصص ومدعوم بالذكاء الاصطناعي يركز حصريًا على التكاليف التنبؤية للحيوانات الأليفة واستراتيجيات التوفير، وليس مجرد تتبع النفقات العامة.",
       "competition": "منخفضة",
-      "competitors": [
-        "Right to Know (للهند)",
-        "Plainly (General Legal Info)",
-        "LexisNexis / Westlaw (Professional Legal Research Tools)"
-      ],
-      "edge": "التركيز الدقيق على قانون الذكاء الاصطناعي للاتحاد الأوروبي وحقوق المواطنين المحددة المتعلقة بأنظمة الذكاء الاصطناعي عالية المخاطر، وتقديم إرشادات قابلة للتنفيذ بلغة مبسطة، بدلاً من المعلومات القانونية العامة أو أدوات البحث الاحترافية.",
-      "monetization": "اشتراك للميزات المتميزة مثل إنشاء قوالب للطعون، روابط مباشرة للسلطات المعنية، وتتبع الحالات.",
+      "competitors": [],
+      "edge": "تقديم رؤى مالية تنبؤية دقيقة ومخصصة للحيوانات الأليفة، مع اقتراحات عملية لتوفير المال، تتجاوز مجرد تتبع النفقات.",
+      "monetization": "اشتراكات مميزة لميزات تحليل متقدمة، تقارير مفصلة، وتوصيات مخصصة، بالإضافة إلى شراكات مع شركات التأمين على الحيوانات الأليفة أو متاجر المستلزمات.",
       "buildDifficulty": "متوسط",
       "buildDays": 18,
-      "firstStep": "بناء نموذج ذكاء اصطناعي أولي لتبسيط نصوص قانون الذكاء الاصطناعي للاتحاد الأوروبي وتحديد النقاط الرئيسية المتعلقة بحقوق المواطنين.",
-      "score": 0
+      "score": 7.5,
+      "firstStep": "جمع بيانات أولية عن متوسط تكاليف رعاية الحيوانات الأليفة وتطوير نموذج أولي لتتبع النفقات الأساسية."
     },
     {
-      "name": "Climate Sentinel AI",
-      "signal": "موسم حرائق الغابات (3)، ظروف الجفاف (4)، النينيو الخارق (5)، وكلاء الذكاء الاصطناعي المستقلون (11).",
-      "pitch": "وكيل ذكاء اصطناعي مستقل يقدم إرشادات مُخصصة للغاية للتكيف مع المناخ لمنازل الأفراد وصحتهم، بالاعتماد على البيانات المحلية لحرائق الغابات والجفاف وتأثيرات النينيو، لتقديم نصائح استباقية وقابلة للتنفيذ.",
-      "problem": "تتزايد المخاطر المناخية مثل حرائق الغابات والجفاف وسوء جودة الهواء بسبب النينيو الخارق، مما يتطلب من الأفراد اتخاذ تدابير وقائية تتجاوز التنبيهات العامة.",
-      "audience": "المجتمعات المتأثرة بالحرائق والجفاف وسوء جودة الهواء، وأصحاب المنازل، والأشخاص الذين يعيشون في المناطق المعرضة للمخاطر المناخية في الولايات المتحدة وأوروبا وأستراليا.",
-      "whyNow": "يشهد عام 2026 موسم حرائق غابات قياسيًا وظروف جفاف مستمرة، ويتوقع نمط النينيو الخارق أن يزيد هذه المخاطر. يمكن لوكلاء الذكاء الاصطناعي المستقلين الآن دمج هذه البيانات العالمية والمحلية لتوفير إرشادات شخصية لا مثيل لها للمرونة المناخية.",
-      "novelty": "يقدم وكيل ذكاء اصطناعي مستقل إرشادات تكيف مناخي مُخصصة للغاية للمنازل والصحة، مع دمج بيانات محلية متعددة (حرائق، جفاف، النينيو) لتقديم نصائح استباقية وقابلة للتنفيذ، وهو ما لا توفره تطبيقات الطقس أو تتبع الكوارث الحالية.",
+      "name": "SkySync Live",
+      "signal": "توقع زخات شهب قوية مثل الجوزاء (1)، وصول كوكب أورانوس لوضع التقابل (2)",
+      "pitch": "تطبيق اجتماعي عالمي لمشاهدة ومناقشة الأحداث الفلكية الكبرى مباشرة، مع توجيهات للمشاهدة في الوقت الفعلي ومحادثات صوتية/نصية مشتركة.",
+      "problem": "غالبًا ما يختبر هواة الفلك الأحداث السماوية بمفردهم أو يفتقرون إلى التفاعل في الوقت الفعلي أثناء المشاهدة.",
+      "audience": "عشاق الفلك ومراقبو السماء حول العالم الذين يرغبون في مشاركة تجربة المشاهدة الحية.",
+      "whyNow": "الأحداث الفلكية الكبرى القادمة، مثل زخات الشهب وتقابل أورانوس، توفر فرصًا فريدة لتجربة مشاهدة مشتركة وحية تخلق شعوراً بالمجتمع الفلكي العالمي.",
+      "novelty": "يركز على التفاعل الاجتماعي الحي والمباشر (صوت/نص) أثناء الأحداث الفلكية، مما يخلق تجربة مجتمعية مشتركة في الوقت الفعلي، بدلاً من كونه مجرد أداة تعليمية أو تحديد.",
       "competition": "منخفضة",
-      "competitors": [
-        "My Hurricane Tracker & Alerts",
-        "FireReady (لأستراليا)",
-        "Drought Monitor (Web-based)",
-        "Weather Underground",
-        "The Weather Channel"
-      ],
-      "edge": "التركيز على التخصيص الشامل للمنزل والصحة، ودمج أنواع متعددة من التحديات المناخية (وليس نوعًا واحدًا)، وتقديم نصائح وقائية قابلة للتنفيذ بناءً على بيانات محلية دقيقة، بدلاً من التنبؤات العامة أو المعلومات المجردة.",
-      "monetization": "اشتراك للتنبيهات المتميزة، خطط التكيف التفصيلية، استشارات الخبراء (إذا تم الشراكة)، ودمج المنزل الذكي.",
+      "competitors": [],
+      "edge": "بناء مجتمع عالمي متفاعل حول شغف الفلك، وتقديم تجربة مشاهدة حية ومشاركة فورية، مما يعزز الانتماء والشعور بالحدث.",
+      "monetization": "اشتراكات مميزة لميزات مثل غرف دردشة خاصة، جودة صوت أفضل، أو الوصول إلى محتوى حصري، بالإضافة إلى تبرعات لدعم المجتمع.",
       "buildDifficulty": "متوسط",
       "buildDays": 20,
-      "firstStep": "تحديد مصادر البيانات الرئيسية لحرائق الغابات والجفاف وتأثيرات النينيو في مناطق مستهدفة، وإنشاء واجهة برمجة تطبيقات (API) لاستقبال هذه البيانات.",
-      "score": 0
-    },
-    {
-      "name": "GuardianGoods AI",
-      "signal": "تشريعات جديدة لحماية المستهلك في الولايات المتحدة (CAP Act) (15)، وكلاء الذكاء الاصطناعي المستقلون (11).",
-      "pitch": "وكيل ذكاء اصطناعي مستقل يعمل كمراقب شخصي لسلامة المنتجات، حيث يراقب استباقيًا قواعد بيانات السلامة العالمية (مثل CPSC) للمنتجات المسجلة من قبل المستخدم، ويقدم تنبيهات مبسطة وقابلة للتنفيذ حول الاستدعاءات أو المخاطر المحتملة.",
-      "problem": "على الرغم من التشريعات الجديدة لحماية المستهلك مثل قانون CAP المقترح في الولايات المتحدة، لا يزال المستهلكون يواجهون تحديات في البقاء على اطلاع دائم باستدعاءات المنتجات أو المخاطر المحتملة للعناصر التي يمتلكونها.",
-      "audience": "المستهلكون في الولايات المتحدة وأوروبا وأستراليا الذين يرغبون في مراقبة سلامة منتجاتهم المنزلية بشكل استباقي.",
-      "whyNow": "مع تقديم تشريعات جديدة لحماية المستهلك في الولايات المتحدة (CAP Act) في نوفمبر 2026، يزداد التركيز على سلامة المنتج. يمكن لوكلاء الذكاء الاصطناعي المستقلين أن يقدموا الآن حلًا فريدًا لمراقبة سلامة المنتجات بشكل شخصي واستباقي للمستهلكين.",
-      "novelty": "يقدم وكيل ذكاء اصطناعي مستقل مراقبة شخصية واستباقية لسلامة المنتجات المسجلة من قبل المستخدم، من خلال ربطها بقواعد بيانات السلامة العالمية وتقديم تنبيهات مبسطة وقابلة للتنفيذ، وهو ما لا توفره المواقع الحكومية أو تطبيقات تتبع المخزون الحالية.",
-      "competition": "منخفضة",
-      "competitors": [
-        "Recall notifications (CPSC website / Recalls.gov)",
-        "Consumer Product Safety Commission (CPSC) app (if any, would be limited)",
-        "بعض تطبيقات تتبع المخزون الشخصي أو الضمانات"
-      ],
-      "edge": "الجمع بين تسجيل المنتجات الشخصية والمراقبة الاستباقية لقواعد بيانات السلامة العالمية، مع معالجة الذكاء الاصطناعي لإشعارات الاستدعاء وتقديمها بلغة مبسطة ومباشرة للمستخدم، بدلاً من البحث اليدوي أو التنبيهات العامة.",
-      "monetization": "اشتراك لتسجيل عدد غير محدود من المنتجات، تنبيهات في الوقت الفعلي، تعليمات استدعاء مفصلة، ودمج مع المنزل الذكي لسلامة الأجهزة.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 17,
-      "firstStep": "تطوير واجهة مستخدم لتسجيل المنتجات (يدويًا أو عن طريق مسح الباركود) وإنشاء اتصال أولي بواجهة برمجة تطبيقات (API) لقاعدة بيانات CPSC الأمريكية.",
-      "score": 0
+      "score": 7,
+      "firstStep": "بناء هيكل أساسي لتطبيق اجتماعي مع ميزة الدردشة النصية في الوقت الفعلي وجدولة الأحداث الفلكية."
     }
   ],
   "rejected": [
     {
-      "name": "ThriveAI Budget",
-      "reason": "الفكرة طموحة للغاية ونطاقها واسع جدًا لكي يتم بناؤها بواسطة مطور واحد في غضون 3 أسابيع، حيث تتطلب دمج توقعات الأسعار العالمية، وتحسين قوائم البقالة وخطط الوجبات، وتحسين استهلاك الطاقة المنزلية في تطبيق واحد."
+      "name": "Celestial AI Observer",
+      "reason": "تم رفض الفكرة لأن فحص المنافسة أظهر وجود تطبيقات حالية تقوم بنفس الوظيفة الأساسية (تحديد الأجرام السماوية)، مما يتعارض مع شرط 'أنواع جديدة من التطبيقات فقط' و'تشبع منخفض بدون منافس مباشر'. كما أن بناء ذكاء اصطناعي متعدد الوسائط قوي لتحليل الصور والفيديوهات المعقدة في 3 أسابيع يعتبر صعبًا للغاية لمطور واحد."
     },
     {
-      "name": "EcoTrace AI",
-      "reason": "الفكرة تتطلب جمع ومعالجة كميات هائلة من البيانات حول سلاسل التوريد وتقييم مخاطر إزالة الغابات على مستوى عالمي، وهو تحدٍ ضخم جدًا لمطور واحد في 3 أسابيع."
+      "name": "Air Quality Sentinel AI",
+      "reason": "تم رفض الفكرة بسبب صعوبة البناء العالية لمطور واحد في 3 أسابيع، خاصة فيما يتعلق بتقديم نصائح صحية شخصية دقيقة وحساسة تتطلب خبرة طبية وتكامل بيانات معقدة. كما أن التركيز على 'Gemini Intelligence' يحد من التطبيق على هواتف Pixel فقط، مما يقلل من نطاق وصوله العالمي."
     },
     {
-      "name": "FlowWeave AI",
-      "reason": "الفكرة معقدة للغاية وتتطلب تكاملاً عميقًا مع بيئات العمل الرقمية المتنوعة وتقديم استراتيجيات شخصية متعددة الأوجه للإنتاجية والرفاهية ومكافحة العزلة وتعزيز 'إعادة الترسية'، وهو نطاق واسع جدًا لمطور واحد في 3 أسابيع."
+      "name": "ClimateComm Satellite",
+      "reason": "تم رفض الفكرة لأن الميزة الأساسية (المراسلة عبر الأقمار الصناعية) تعتمد على تكامل عميق مع نظام التشغيل وعتاد الهواتف الذكية، وقد لا تكون واجهات برمجة التطبيقات (APIs) اللازمة متاحة بسهولة لمطور طرف ثالث لبناء تطبيق مخصص في 3 أسابيع."
     },
     {
-      "name": "Cosmic Anchor AI",
-      "reason": "في تطبيقات بتعمل نفس الشي (SkyView® Lite، Star Walk 2 Plus: Live Sky Map / Star Walk 2 Pro: Night Sky View، Meteor Showers Tracker / زخة شهب: تنبيهات وتقويم)، وMoe بده أفكار جديدة من نوعها بس."
+      "name": "RemoteAI SkillUp",
+      "reason": "تم رفض الفكرة لأنها معقدة للغاية لمطور واحد في 3 أسابيع، خاصة فيما يتعلق بـ 'وكيل الذكاء الاصطناعي الذي يدمج التحديات في سير العمل اليومي' و'التكيف مع السياق'. يتطلب ذلك تكاملات متعددة مع أدوات العمل المختلفة وبناء نظام تعلم متكيف متقدم."
     },
     {
-      "name": "Rooted AI",
-      "reason": "في تطبيقات بتعمل نفس الشي (Forest: Stay focused, be present، Offscreen، Moment - Screen Time Tracker)، وMoe بده أفكار جديدة من نوعها بس."
+      "name": "Gemini Flow Architect",
+      "reason": "تم رفض الفكرة بسبب اعتمادها على واجهات برمجة تطبيقات (APIs) محددة لـ Gemini Intelligence في Android 17 قد لا تكون متاحة أو سهلة الاستخدام لمطور واحد في 3 أسابيع. كما أن بناء نظام أتمتة 'استباقي وواعٍ بالسياق' يتوقع احتياجات المستخدم يمثل تحديًا تقنيًا كبيرًا في فترة زمنية قصيرة، والتركيز على هواتف Pixel يحد من نطاق الوصول العالمي."
+    },
+    {
+      "name": "Global Harvest Insight",
+      "reason": "تم رفض الفكرة لأن جمع بيانات أسعار التجزئة المحلية الموثوقة وفي الوقت الفعلي عبر مناطق عالمية مختلفة يمثل تحديًا هائلاً في الحصول على البيانات، وهو أمر مكلف ويستغرق وقتًا طويلاً ويتجاوز قدرة مطور واحد في 3 أسابيع."
     }
   ],
   "en": {
-    "summary": "Today, we focused on global English app ideas that leverage advancements in autonomous AI agents to address new social, climate, and regulatory challenges, emphasizing personalization and simplification for users. Ideas that were either regional or Arabic-only, or too broad in scope for a single developer's three-week effort, were rejected.",
+    "summary": "Today, we focused on global English-language app ideas that leverage major global changes, with a strict rejection of regional ideas or those facing direct competition. Only two ideas were selected that met the criteria of novelty and buildability.",
     "trends": [
-      "AI's evolution towards autonomous agents capable of performing complex tasks.",
-      "Increasing feelings of loneliness and a shift towards 're-rooting' and seeking connection with nature and traditions.",
-      "Worsening global climate risks such as wildfires and droughts.",
-      "New consumer protection and AI governance legislation coming into effect."
+      "Rising pet care costs pose financial challenges for owners.",
+      "The evolution of AI towards autonomous agents and multimodal models opens new horizons.",
+      "Anticipating major astronomical events like meteor showers and planetary oppositions provides unique opportunities for community observation."
     ],
     "ideas": [
       {
-        "name": "AI Citizen Compass",
-        "signal": "Requirements for 'high-risk AI systems' in the EU AI Act (13), autonomous AI agents (11).",
-        "pitch": "An autonomous AI agent that empowers citizens to understand and simplify their rights under the EU AI Act, providing actionable guidance on how to request human oversight or appeal automated decisions from high-risk AI systems.",
-        "problem": "The EU AI Act comes into full effect in August 2026, imposing strict requirements on high-risk AI systems. However, ordinary citizens find it difficult to understand their rights or how to interact with these complex systems.",
-        "audience": "European citizens who may interact with high-risk AI systems in their daily lives, and consumers in other regions interested in AI rights.",
-        "whyNow": "With the EU AI Act coming into full effect in August 2026, the need for tools that simplify these regulations for citizens is increasing. Autonomous AI agents can act as personal intermediaries to clarify rights and provide practical guidance.",
-        "novelty": "This application introduces an autonomous AI agent specialized in simplifying the EU AI Act and providing practical guidance to citizens on their rights, such as requesting human oversight or appealing automated decisions from high-risk AI systems, which no current applications offer.",
+        "name": "PetFinance Predict",
+        "signal": "Pet ownership costs rising by 15% (6), AI evolution (AI agents, AI data analysis) (13)",
+        "pitch": "An AI-powered financial planner for pet owners, tracking expenses, predicting future costs, and suggesting money-saving strategies.",
+        "problem": "Pet owners face increasing and unpredictable costs, making financial planning for their pets' care challenging.",
+        "audience": "Pet owners worldwide who are interested in managing their pet's expenses.",
+        "whyNow": "The significant increase in pet care costs highlights the urgent need for better financial planning tools, and AI allows for accurate predictive analysis.",
+        "novelty": "A specialized AI-powered financial app focused exclusively on predictive pet costs and saving strategies, not just general expense tracking.",
         "competition": "Low",
-        "competitors": [
-          "Right to Know (for India)",
-          "Plainly (General Legal Info)",
-          "LexisNexis / Westlaw (Professional Legal Research Tools)"
-        ],
-        "edge": "Precise focus on the EU AI Act and specific citizen rights related to high-risk AI systems, providing actionable guidance in simplified language, rather than general legal information or professional research tools.",
-        "monetization": "Subscription for premium features such as generating appeal templates, direct links to relevant authorities, and case tracking.",
-        "buildDifficulty": "Medium",
+        "competitors": [],
+        "edge": "Providing accurate and personalized predictive financial insights for pets, with practical money-saving suggestions, going beyond mere expense tracking.",
+        "monetization": "Premium subscriptions for advanced analysis features, detailed reports, and personalized recommendations, plus partnerships with pet insurance companies or supply stores.",
+        "buildDifficulty": "متوسط",
         "buildDays": 18,
-        "firstStep": "Build an initial AI model to simplify the text of the EU AI Act and identify key points related to citizen rights.",
-        "score": 0
+        "score": 7.5,
+        "firstStep": "Gather initial data on average pet care costs and develop a prototype for basic expense tracking."
       },
       {
-        "name": "Climate Sentinel AI",
-        "signal": "Wildfire season (3), drought conditions (4), super El Niño (5), autonomous AI agents (11).",
-        "pitch": "An autonomous AI agent that provides highly personalized climate adaptation guidance for individuals' homes and health, leveraging local data for wildfires, droughts, and El Niño impacts, to offer proactive and actionable advice.",
-        "problem": "Climate risks such as wildfires, droughts, and poor air quality due to a super El Niño are increasing, requiring individuals to take preventative measures beyond general alerts.",
-        "audience": "Communities affected by fires, droughts, and poor air quality, homeowners, and people living in climate-risk prone areas in the US, Europe, and Australia.",
-        "whyNow": "2026 is experiencing a record wildfire season and ongoing drought conditions, and the super El Niño pattern is expected to exacerbate these risks. Autonomous AI agents can now integrate this global and local data to provide unparalleled personalized guidance for climate resilience.",
-        "novelty": "An autonomous AI agent provides highly personalized climate adaptation guidance for homes and health, integrating multiple local data points (fires, drought, El Niño) to offer proactive and actionable advice, which current weather or disaster tracking apps do not provide.",
+        "name": "SkySync Live",
+        "signal": "Anticipation of strong meteor showers like the Geminids (1), Uranus reaching opposition (2)",
+        "pitch": "A global social app for live viewing and discussion of major astronomical events, with real-time viewing guidance and shared voice/text chats.",
+        "problem": "Astronomy enthusiasts often experience celestial events alone or lack real-time interaction while observing.",
+        "audience": "Astronomy enthusiasts and skywatchers worldwide who want to share the live viewing experience.",
+        "whyNow": "Upcoming major astronomical events, such as meteor showers and Uranus's opposition, provide unique opportunities for a shared and live viewing experience that creates a sense of a global astronomical community.",
+        "novelty": "Focuses on live and direct social interaction (voice/text) during astronomical events, creating a shared real-time community experience, rather than just being an educational or identification tool.",
         "competition": "Low",
-        "competitors": [
-          "My Hurricane Tracker & Alerts",
-          "FireReady (for Australia)",
-          "Drought Monitor (Web-based)",
-          "Weather Underground",
-          "The Weather Channel"
-        ],
-        "edge": "Focus on comprehensive personalization for home and health, integrating multiple types of climate challenges (not just one type), and providing actionable preventative advice based on accurate local data, rather than general forecasts or abstract information.",
-        "monetization": "Subscription for premium alerts, detailed adaptation plans, expert consultations (if partnered), and smart home integration.",
-        "buildDifficulty": "Medium",
+        "competitors": [],
+        "edge": "Building an interactive global community around the passion for astronomy, offering a live viewing experience and instant sharing, which enhances belonging and the sense of the event.",
+        "monetization": "Premium subscriptions for features like private chat rooms, better audio quality, or access to exclusive content, plus donations to support the community.",
+        "buildDifficulty": "متوسط",
         "buildDays": 20,
-        "firstStep": "Identify key data sources for wildfires, droughts, and El Niño impacts in targeted regions, and create an API to receive this data.",
-        "score": 0
-      },
-      {
-        "name": "GuardianGoods AI",
-        "signal": "New consumer protection legislation in the US (CAP Act) (15), autonomous AI agents (11).",
-        "pitch": "An autonomous AI agent that acts as a personal product safety monitor, proactively tracking global safety databases (like CPSC) for user-registered products, and providing simplified, actionable alerts about recalls or potential risks.",
-        "problem": "Despite new consumer protection legislation like the proposed CAP Act in the US, consumers still face challenges in staying up-to-date with product recalls or potential risks for items they own.",
-        "audience": "Consumers in the US, Europe, and Australia who want to proactively monitor the safety of their household products.",
-        "whyNow": "With new consumer protection legislation introduced in the US (CAP Act) in November 2026, there is an increased focus on product safety. Autonomous AI agents can now offer a unique solution for personalized and proactive product safety monitoring for consumers.",
-        "novelty": "An autonomous AI agent provides personalized and proactive monitoring of user-registered product safety by linking them to global safety databases and providing simplified, actionable alerts, which government websites or current inventory tracking apps do not offer.",
-        "competition": "Low",
-        "competitors": [
-          "Recall notifications (CPSC website / Recalls.gov)",
-          "Consumer Product Safety Commission (CPSC) app (if any, would be limited)",
-          "Some personal inventory or warranty tracking apps"
-        ],
-        "edge": "Combining personal product registration with proactive monitoring of global safety databases, with AI processing recall notifications and presenting them in simplified, direct language to the user, rather than manual searching or general alerts.",
-        "monetization": "Subscription for unlimited product registration, real-time alerts, detailed recall instructions, and smart home integration for appliance safety.",
-        "buildDifficulty": "Medium",
-        "buildDays": 17,
-        "firstStep": "Develop a user interface for product registration (manually or via barcode scanning) and establish an initial connection to an API for the US CPSC database.",
-        "score": 0
+        "score": 7,
+        "firstStep": "Build a basic social app structure with real-time text chat and astronomical event scheduling."
       }
     ],
     "rejected": [
       {
-        "name": "ThriveAI Budget",
-        "reason": "The idea is too ambitious and broad in scope to be built by a single developer within 3 weeks, as it requires integrating global price forecasts, optimizing grocery lists and meal plans, and optimizing home energy consumption into one application."
+        "name": "Celestial AI Observer",
+        "reason": "The idea was rejected because a competition analysis showed existing apps performing the same basic function (identifying celestial bodies), which conflicts with the requirement of 'new types of apps only' and 'low saturation with no direct competitor'. Also, building a powerful multimodal AI for complex image and video analysis in 3 weeks is considered extremely difficult for a single developer."
       },
       {
-        "name": "EcoTrace AI",
-        "reason": "The idea requires collecting and processing massive amounts of data on supply chains and assessing deforestation risks on a global level, which is too huge a challenge for one developer in 3 weeks."
+        "name": "Air Quality Sentinel AI",
+        "reason": "The idea was rejected due to the high build difficulty for a single developer in 3 weeks, especially regarding providing accurate and sensitive personalized health advice that requires medical expertise and complex data integration. Also, focusing on 'Gemini Intelligence' limits the app to Pixel phones only, reducing its global reach."
       },
       {
-        "name": "FlowWeave AI",
-        "reason": "The idea is too complex and requires deep integration with diverse digital work environments and providing multifaceted personalized strategies for productivity, well-being, combating isolation, and fostering 're-rooting,' which is too broad in scope for one developer in 3 weeks."
+        "name": "ClimateComm Satellite",
+        "reason": "The idea was rejected because the core feature (satellite messaging) relies on deep integration with the operating system and smartphone hardware, and the necessary APIs might not be readily available for a third-party developer to build a dedicated app in 3 weeks."
       },
       {
-        "name": "Cosmic Anchor AI",
-        "reason": "There are apps that do the same thing (SkyView® Lite, Star Walk 2 Plus: Live Sky Map / Star Walk 2 Pro: Night Sky View, Meteor Showers Tracker / Meteor Shower: Alerts & Calendar), and Moe only wants new, unique ideas."
+        "name": "RemoteAI SkillUp",
+        "reason": "The idea was rejected because it is too complex for a single developer in 3 weeks, especially concerning an 'AI agent that integrates challenges into daily workflow' and 'context adaptation'. This requires multiple integrations with various work tools and building an advanced adaptive learning system."
       },
       {
-        "name": "Rooted AI",
-        "reason": "There are apps that do the same thing (Forest: Stay focused, be present, Offscreen, Moment - Screen Time Tracker), and Moe only wants new, unique ideas."
+        "name": "Gemini Flow Architect",
+        "reason": "The idea was rejected due to its reliance on specific Gemini Intelligence APIs in Android 17 that might not be available or easy to use for a single developer in 3 weeks. Also, building a 'proactive and context-aware' automation system that anticipates user needs presents a significant technical challenge in a short timeframe, and focusing on Pixel phones limits global reach."
+      },
+      {
+        "name": "Global Harvest Insight",
+        "reason": "The idea was rejected because collecting reliable and real-time local retail price data across different global regions presents an enormous data acquisition challenge, which is costly, time-consuming, and beyond the capacity of a single developer in 3 weeks."
       }
     ]
   },
@@ -302,35 +234,23 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "74 past ideas, 6 liked, 21 disliked"
+        "msg": "77 past ideas, 6 liked, 21 disliked"
       },
       {
         "step": "world",
-        "msg": "15 world changes, 4 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسد والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+        "msg": "13 world changes, 4 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسم والحياة اليومية, المال والعمل, التكنولوجيا"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: Cosmic Anchor AI, Rooted AI, Climate Sentinel AI, ThriveAI Budget, AI Citizen Compass, EcoTrace AI, GuardianGoods AI, FlowWeave AI"
+        "msg": "8 candidates via gemini-2.5-flash: Celestial AI Observer, Air Quality Sentinel AI, ClimateComm Satellite, PetFinance Predict, RemoteAI SkillUp, Gemini Flow Architect, Global Harvest Insight, SkySync Live"
       },
       {
         "step": "compete",
-        "msg": "checked 8 candidates via gemini-2.5-flash"
+        "msg": "checked 1 candidates via gemini-2.5-flash"
       },
       {
         "step": "judge",
-        "msg": "removed (competitors exist): Cosmic Anchor AI"
-      },
-      {
-        "step": "judge",
-        "msg": "removed (competitors exist): Rooted AI"
-      },
-      {
-        "step": "warn",
-        "msg": "all scores are 0, check judge output"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 3, rejected 5 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 6 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -340,124 +260,124 @@
   },
   "sources": [
     {
-      "title": "outerspacetrip.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqnt4X095CAc89PscJC9RjjpC2PruYLDFg_SxJNC_nirIr3BUAX4sLZ_asb9fdt0plHDexhJD7ocoljkgrSTpKtLwN0y-Yqw3qG90l5_4jN2T__NvjIolJupYFeciG_eOrOW1_tdFgruWjVS1MziObB7A="
+      "title": "imo.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyAEUb8ne1LJNsZc22uDZMuYIbH3ujhb_YhRFZls3BZdw0pEeh735wO5H_H6huI57ohCDG-FsM18WA7x0MY5qM6n4nvt4YZmGVSMwnNGOwf2_o_lSk81mv"
     },
     {
-      "title": "earthsky.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNibcTRaC9epPuL8AtnnEOxvvjVGjofckokKyayY5sonS6fP6hF6djI6PoM6DOjatV2PCMnkf0E1DmesLFRUsSxOCTSY1LtvhJYdwuHZMi_Dg1da_Q2Yve6glKs5KRq2bPdjiuMf2N4RhrgYjrr8A1J-tshYo6SwwLhw8YkzMXZks"
+      "title": "almasryalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn5QhhsB3W9WCjWGlXGdpElHGqRlD9Oq7MdyuI7vpVM1odf32MXB1k6oR3XgRv5WnbgMT1TgKO_CW9qS38rhP_zYMvl_e9nA5ay0P8-TtsIUttI8MevLvwRegWNZOsG7TUhytjs8EhW58etTdD"
     },
     {
-      "title": "darklightcollection.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo0BSUOYdUu0za2YfFt20-Zi7OptZP5tr7XuaVuZ0hi4WNdowF304dwQ25XojpFLwWrnZ77k3oFv9GozFmNL6syf3zj9r_HSmSDjvKJdrQtV0kVxawacBq3HbOdy8lLZ0TCbW3Mzbmjt6UfYbSgjunbEbPQirw0e7ophA="
+      "title": "masrawy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUQZ8l3l5QRWTC5MJhrES1d7WyIwrGjmbytxjIeLCT-lJ7O85vUypyCnvv51EwTOKzyXK2GfFvfJJ6qE0ruqlG8UyqvubHvSLtNZK3Kx4sJ8hShfJ-5UpANDWcTzmmNCt9LfIidCt1YrUL5QUi5lFeHOivAnXc76_tiCeaL3WP1oNesCUXydOJ9WwzutCnLoPTzat9hoS3GZutqzZgOkudF-kCFRf9gP0RIL9NO5vkLUpFamCEQT5GpYHMG3koW6qOrwTy2ej0AGKIQVhAJg8WzBysGDjd2Ay9gnTQ_dOb8jVtc20gJ1NAkk9WwpMfBti-oNunAkWDVhJSimDKaJCrcD33mRNSbzq4Xai5UMvG_JvoLLem2h0NgkUlAWYhAdRlu0UNHfiJgrp70VFL1NndUKsZA5N-T7xi0Q38ptFM2l3_bM2F5RWbvakL2U4XdYnKBLM="
     },
     {
-      "title": "wildernessresource.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET_eSdRGQzTtqx1cDK_OyNBSdrHKfNs4TJ6HZhukqMrj8yZtAMDv-bSmC6hTGtzK7L37Syb9QrsKiSss5SfKUNiOgQ-sJor9B4HsFrO5IVZeHATUugVqaS4R87H15U5JAnKjYfkbGMN2huDe6uMmLfpI6oY150xRCnfzrSYevJXdptSy2xTig="
+      "title": "akhbarelyom.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm2sefmxjeJYy4N5RFlGBdbw1TZogRhDkbKzOI2j_7XQE74JKZWoSu9L8BPzoLqi1L0qFDVrHht8EeHMKkEM66mozV4iWTxkyhwqegfy_g_xWae5Y2Q-UNO18__8kpHbK9cu41BLhH5SEKdINyy20pE0FiX_bhpxW3ImXLXUK2DIoVTBFOh7zirgsrUBkPBCiEC8-XtiaEcK7DBSEIepE7bCB5QMb73nLyeQU6MZXKgQRVQlNv0DD1q9y-W_AWRdlDSVcM23ttGWl9fVF7VPynkBT710w9odcDTi_a5p_Otzo-JS-Omn6F_8wcGsnqmhrmUQa9hodQ6hbq3hcEwK0L3ZwIphKV6ABeoak_wrZF1ZyYumnRr_pP_G1Esxo37NLcUO56r7QgZaX9vbyb3UDP3vEK8bMBeS6sHr6OXQ=="
     },
     {
-      "title": "watchers.news",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtHMBhgfldKJUlu7eTnMqdIlhvwDWogx0AlQEbmPZBBp_5nlxd8CoveL8DLbVLPRszUsdb-F66fiHXqTCn237cxsfoFIczI7wO2IiqJedGChlov-p3woG4N3CYEmCRKbsGUZBUwd1ne6I_orOLmfUJEs2Jv4Rkcm2D07YkLSt5P2SqLy12woa5KcTeRf_HmKVPGg=="
+      "title": "aljarida.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-ssOMV9-fDtkYEIKrvBU6Z06qYuKDOra94aDj5VeQb03xdKv4w5lDXAPxN4aBSpxcD8sh5dZAurulYn5m_oZoB0r7GIwb9kFlPNlaQpcDaoDk6AQlAsAXBLZNGDj7BOxWQ=="
     },
     {
-      "title": "forbes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDYo1Mw3reK94dpr8E7Si5KgzWhc5jMQnbYl31ee1MUK676pZ_q3dCwBBgbh8Bnw8QTd3GHaoQjsY89ayV3lXNwEo9xdpA9q60-efJPXpfTXaEx6tsstU3utCsstFP6NORIkQXzDjICWM-JSrEUGqE2J9DorZx-Rj4hdeFKhkaRjzHmVCMOkqi4yN5XD4hP-VKSYw8IlB8ogxaiQCjJSTSRcd8-I-isBorK-C9lyDubPrTBw=="
+      "title": "jinhaagency.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0OIEXqj5a8MQpQIeHmtReYoojPXr4KxHBmxtvwgu1z9gLzX__Ja5BmUIV830kPzGd8-w2m1RnsaL7YFM19msrXK4cENYf0mXY424Z_polRUlNMH7IhUYdxHG3x4ZAPykzGFDKSrEeNZwq1G-hZDBRHjWo1WhJFvWnKoVTh4rU9GnhcSfcRFQ2Qc9TvHMS8ocyYLx"
     },
     {
-      "title": "open.kg",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8LGeHxVtG6khUkFEZi5qQkEvrX4tW7QUKGrUWVy5uSM_2B80cm1kXLay3w7QYtjEw6_iDfYj1b0NHtgxV5arAwQ7dA7tAIWRdMyg9hY7x3ntNi-WXdoB7ywlfmp5N85wnWyJt4J-nX9tt6LliVExamkprM83q1YtfzD6cPUo82IKW1ofiyR_ttUJjDAjaq5NOyDTDrMV31fcbVcuB2K1gvO1Z_glA_GA_C4oDYp1Hgs5ycwGr1oNoE7643xzxTFB_DiM="
+      "title": "hespress.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETssUtWz70YHsiy0aESl4FQCJT-ANUTrxoFobinuNSQVEoNUUWwF10pv983pi7kD8gNApIAc91xAOeObQagFdeJsDMTMTgsNqDuqRTh8Ie4XMT9V_geN2mUbAv84zZewu2Iyc2N98Xq4fInLxsHkCg7fgU9bD8np-RVNC33F_bpehH_KxYmXek70v_6CWgPfXDlOTh6abnXwbeJAlp6WrsJWZL8NyxNwUGNAUQ8Lr1am2dvEEW5F1cfRzXiV9GyPnsFhEcaUOwg-6DHxve6d55rNrvwk3z697UhpCyUv_A9fs3XLHMhu979sBvSjfelGR4dqCHF3uA6tEk8ilceyt2sw2mCMLr3j1_SZvxAAmmx24QBdzIvadtDWxxGE_Oin6mUrbqX9vC-w=="
     },
     {
-      "title": "xras.ru",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVQz9p9t5dd-qpiplFXPBVbZXNhXNRZzk2BqRyK36uzwIW-Hq13rtE_oSyPnA2AInFzEd-xJp7UZ_8yvdgP4MN2l5BgoSQGX-5BrZuqvPUrx2hkzCLgju-BVmrvyM64mzGERZax1kJpGChTag="
+      "title": "shorouknews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPHV3I0dxzOGhFAyJDzz9ggrA-y_jJ8PEjdRONwOhBKEJYhQURX4YDEGhhqeaKh89aRBOtD3DenPLQ2SwzdugvxzwMb8es8uIFryPsy5K_3GHefe8q0fY1LTgEf2onW6ND6KVzCm8fOOreE3S7oc-jgq2nvlaRGeXwSpsjNENPfEbznxB2-dC_lk1KM1JtWP18xkaQnwfWEfM9kmyLG9XMybOE"
     },
     {
-      "title": "redzone.co",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVZaHEHAQGVvI19lbbQYUNN3VpoHsg7Xy76AORmJNwiZkzhNvbDuIi4yHx0Qlv21cHog3iXA5N2Ul2zgAEuqwRjgrEFOZNfd_ll74vtQJsTmFI2o8YoVp9mzIrA7iTXmbqNXeJaEOLl2C0VihNitByG-e8yXL5aAKy29Ky2JrnNNCjEXJqML-evOsUkSH1e27OTCuY-_PA5Q4-25U="
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH09v-hbKWH9s3w539-HXPo_EfHs4yQRpvN7M5X_zLQWymjKQ3wVq25uLq6JghG62BCqVJbuhniQ5xB3U6-Nc7GOLCO3gZxFVpSO0HEmz0-FR-_ZNbnRTWJ5nnB_xgb5HmBtvNqzdw-Yg6zv4cvi13MCaZI9DEmkU8V5OXtlljk1Eur5Bhpxg9I-5qfdmgzg1Tfj81Qt4vtycKqslYKk9c4wrI7MVpU6Ejlo0x3azxbTu_4OokgccEgyoxgSqesMk2dbInCrIuDW1k6wUQyPrYMsLW76xzINGKsr524x4XNiSRgsM7Zx-o_-j3WU9cBnNp0dplffBn0_sE4Q_9VFPc8ruxYsQMN8Smft4ZD"
     },
     {
-      "title": "iii.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlFJCcAm3ebU2C524BWgyvVBZSxeNtkQO0hPhSU4MWFmLQ-w3GserPpFYNbvP2AjthkoZ12yFRlLgpl7JtGXM6RkQZtl849aXCX87f3oC02yZW6kYSKtVcV_7ORuol9mbEUpwmeacTJ7vnmg4kh7o2wUqSCElfwjmtZtrhbLkDec9Uepv55LmZRHwOinmbnqealVsZ7ur9vNbLl8_eGm6FyFc6Zl845M0="
+      "title": "shiawaves.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGs-UScWxDFmAb86aqHziySUeXaAqCCdsebXxkO1g0kynhS8Y9P2XC_lF1ZUIvRD81RILDFTBVWbyCR3y8-dxN3UZYnY8UGVJJmkJTSRZbuVrXnJ1sNMW-lKyWt_Y2hlDKRbMLwdPFfhASfqCGmTTOy007cSulSCaH3OzJrVNroRY8o5MVC-_CpjfVlr8PF3leYpk69WuZdaEo2JipE2_oV8aHSzURpEX8yYsDVp85MQQ5v2xUwHTiPt5vSmWceLMbj-K4eZRU"
     },
     {
-      "title": "preventionweb.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYsgciEypFS5yCvaz8l-YqyP4h2XkS8nwpQcsC1MqSVgA3OiiNIdh093SDiWHB4vHEJEcWF1YdFdzpdoKjofa3GZzR4ioN5JCZFDGYjl0VRzFal1e0MZmNUu1md_q9vy7OIgGxf0LATCQqkGlUQwvLMGC_-cLagUVVWPqCAjW09E3UNCKEPN9DRMwV6A3FfDkfgLiIR7HbSMvgJdtLFIh5Y-8JUMEpMtfYiQil"
+      "title": "reliefweb.int",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBB85TIKudl7AQuipdt-SGO_XBOlsWWi_LxthBiTr-iaS4Ojp0pLiZX58PqpxZ0TzdifDj2fLGlej8G595Whv0wngkSs21lQIzJbimpZkcgCYwIdpLFRKjJMNEn8nhCop8QILPgraM3I9BkzhVflFlwnGPxkxd_Z6NfYxeu30CKNP4X9UIDNZmKB90jZJfBk2igQtAkG2qx75oohuqrw=="
     },
     {
-      "title": "greatergood.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbP6YMoghBoI4LVcPXWa0T_cQIeQykt_CEiArsBXJChzm706s-Aumww_j0wPLGUvP8_xH93zjxzZHdI36tMtPCjEjogRrLESzUzW6tWWjFAVLi2jxItAmyVJtbipG4x46Y-gq4VR1G1vvIg68_9zlS8vhISMnjww=="
+      "title": "reliefweb.int",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEIcROOpJf7BUh3e3jEGx5x0M5kkPePe14CLAxU6m_ULcB2jhBMCgXdNDAHl0x1q5PJ0DJw2oD7ItecXhndZaMXV3gm5xGS5KP3Tok6PRhe2xegFcJin0j5grah64vaTqENvqNtcI3z_myRvdtK2865J7I3pc1YgMLCfQeBs3U1xk4ZKKE5ZX9FYAmr3jh18DGDQbJERaBBF61bP8="
     },
     {
-      "title": "disasterphilanthropy.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhzWFYMt0VFD2_PCz9UnQ_-ZDrbEYqOCrOs-ah6xj7tNhkrEaGD5r9DfwcOeNg8_nRg1Qq5C4IVv34OmCHHo2xQGTY0dHNz_N19DPmEiNpeQ2i6KIwCMYos_iEUHNiga17xXdLA1tTjGsVz8cjV3sHjLiK0gXd3B06TFtDeaDchRfVGw=="
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH6NAugtatbaPAM207KUgOB3FFFFGoZIJZzUYcCiidZ_QpdL5vUcgVZ8CdgUCr8aTGA4ODO8Rjwext4H8TUeTLIdfaX4YUITR1LKb_SLSYvNS72xeJJATxU8sPPo-v1oOa56Ca7GrNsHN0oj0wLB5vRHTfJsR_FymNKsiVoocRzjk6QqZOpX7s4RDsE7PaT9X4uMJGJx-b_er2CmWoBrxOBRtP5P_pMzGWyLUqtk5w_mkQLPIXiMuHswjSSbY="
     },
     {
-      "title": "redscout.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4b4kFMCwAGGVcZpQ7kj0Fb0sNLV0kZh1CGf0QBB7yHR7vClps19fKLY2UvySddjiJFIfgGRq9lQDmgU69iK06uGn5DCO97fDY7yFW5yNLh85g36BbItxM6wlRTXOKmIN6Kzb7YtVMyFT4IFzJEH8msvyxFonwWRfsQUjKheS5rhPNk24xdW51DNV9hzAhs6gNi-Y-P0Ddm90s"
+      "title": "wmo.int",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzdXnNLEpEmCe5ObzyZzll6lV8u9yIbZDvMKAHU8cP98PQoCaN1nTstpXaXbHFJNlWOwUSRAlmVaMbOt-kZWtYpZze-ZblzhvS9UjZ-V99omKs5pgamMO26N9XxxCVviJVHcbiqGm2jVZwfsYDoRjPptQbp0EZJW7nnMj9cSMfmaaC5JdK5QE1E3atqwoNKkAAe_97VAIVIpg="
     },
     {
-      "title": "medium.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjozUxpp_QlMpy0aor_O4fOPtygK1-HqeHxB_krAgqT1kQ5hBasVF5qjg1fgQZUvNegzxnRyl2noCwwtMBR9aws5hpqDmsdC3KEj5EF8vGNq5n5aRerX5fRn6qqAv_BYf5b4zQ69pDKJD32b2WAEUGbMvSPUsZhYCADNgj6eCqCe525rluFHd4EQYzyRb8eyB8jrcxm2ErUqgaB1PRKIwS5thfKC4Rp-yh-zDg-J1hWlbIKCx89oDDTDHNoOhM4tMpcgQ9cg=="
+      "title": "livenowfox.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1zmOmo2V2teQ8T-6UYUNOhWkonIao4313uUAbLep0DlUG2PN6A2ifuZCdOk5YGToaSdT8qJMBOk2KaQWjnNEgpczMGa2IDoWAZjotRczDueas_vPsatpBKivhy5R3TMO6ovBkgipHeBqbj_KKTLv17YP_hQqbi3pTuLk0AfTa6g=="
     },
     {
-      "title": "worldbank.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVT7I0wHBhqQBqpIyEEOE9DlCgw9VVc94p2hgBnKFwNu7UgGgYn9CvKT7oEXGc9IeONNuzp8nAmJtBvDHgs_hx4TdqAYYpMwnhjoAlcdX3dI5FBrlmiiqiQRlmNK5hjABcDfd8sQBZpbFbULu79lfLKZz1-uQKobOgKEoiGZ-D6hTkgWjfckr0o_8gG5lhjndNdcYOfTHpZi6n5Uhd3CFkuA=="
+      "title": "money.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwfMU0IHHNaG8qPuAYPBMMr76YV-uSIMfYcCMgjhNQ9K0WVoVexc_F8K1TISDIwKOIEo52wea0Xd54p6kIEGOUPdf7t6wuh87h9dTC8HiI0WIyjS88RACv3eZmXm-YqfXBReWGXSOyX8dns3QmEQMPR34="
     },
     {
-      "title": "mexicobusiness.news",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa2_WoWVHxg4m1riX6nCFp0w8RqNWSsRXPEZw2Ch5piCJ7JGCT4mnsYm7A3D5i35L9yJTL53b8Z1A8aOzVigTEStglYd14cvtIPvzCzRO8Por-pr-NtXfnmbTgKwet4gQNs-AXGxemJSQNexhnFu1W546JB_Us0uQdkgEXbnGkyz7HMcwBBuc9cSDJNJduDue6iA=="
+      "title": "thepoultrysite.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW5XblhSCv_IMXQGAlEiq2PxydsIty_R_66IrunItSAXSYmUHD5zVWYzW9J3BBMvLp6SvPwgR4PvS0yzgX9MH0YXodKE9kExdYarTnqAHWIEmIMAL8onw-kJIsN20WOqkxa4rzbnsPaQxW7h1twurgpLkxc73b667m40HISO6oo4aYP8rVmKW1NwvVqyG2U2tjFR7bEz7-3IuQO-at3F5FTPSmsy8wJw=="
     },
     {
-      "title": "indiatimes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGpg1yhiXNzjYLYGS687ipJ0-wApKsILBkAWI1sTwnidMJEnwDtJdxs_N2OX61oPBCbelAqV1efMCMAtIKJ1BLHaqOi-8xvDtNS4wGUw6LWpYUvDcjc5IaRieKdJLsuV8cQWlU_JiT009SrQ7W1DiX3DHwdsG8j8aZcVu0ZCkwOvRUGWd72LEqCztKFLM27ru-5GqK5lYkc0sKurtsHRPhL-w="
+      "title": "foodfoundation.org.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLY5wlSbBFzYCiQ4P9izLS9SfxjRXsotr7fYPcOBVEV7wNv8T6_RkfVa93gDXoyKU8Kl_Wc1CnnnECmU2hCtEYLi0-tn__ZL1vvVxu5HZKiytQ-i8nk_nX_fWiID8KSbFZoVIIpw1GJqU_67KipYi3V1_cYEmIXQskcykmbKE"
+    },
+    {
+      "title": "fao.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBpmRJ-UbeiO4XSeqb2oUWgVqz1ukt_t2EsdQEJrl17d8Gl949i3qzWm5aMJWSqfs9CTxNr4FxPkI_ardGzOWNkhOP-K60cvfqBz2CnBb38ZhD65dVhohhfqorTjQ4rBfEMrONZAUzjuoIUUc8GsIlBvm-Oo1LOXuU_rdH-HVEegphvoLcMuLN71Zl5jHY0VI6OYeD8TKhSFsK0DDhQCiihKfUJ3wI4WTfhvzbOgeGWyZ6Qqh9gpZ"
+    },
+    {
+      "title": "alfilahia.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPwLmKt07uyXbr1kCclm9d8ekHq8zdFplXI0Y3SH0_MztI7UwOhjSzNQZF_zw3jLlVwCJM55MU_apPuxZJtJfJzT3WAkOlWJXgUMCRm3bFqGffCcsma64Nr6nTff0Re5g_F9e2h103RyGaHG10aa6DUZSp4yVIwoFODdQQLhK1GKCBdlzYdNg15FwVo62gvsJvry80qogYOJmbWwzoV3bvPnrrBLEFz5rfpd8xFqBKR0rVuhT9qGYqf9R2abcIkQOhyBVwvWZg3rbZ-jHZLoJ0rvx3tjZaCJ-sLY6GZZXgxEFq_tBqB2mRndsOv0JSFmKEExn0RbpoCWYIK0HGSfBU7ve-zrz4Mnt4Gegmvv2cJ3CAB-jCLeJ7ow=="
+    },
+    {
+      "title": "vornixhost.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXOa8yihGDTXdf14AWZGv813seNOJI-qKPMBkglUllBDylfGM598vkUmn1cF9ughoDnJmSi_yi8LcKc_8_4mN-aAeQ9BkDIzWa370gg-p5jwdV00ldsYvS8517drWEadct5WxXrp0QkPjX44fljLP78WdsXpACdg=="
+    },
+    {
+      "title": "gamilankum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPxVB0CyZUIzWHPUhK5XtS4fcCkWFjEGt4uMUKxVh6mW2RuZ6v3-5c5uk3r_h77fdLCCDG3Zf85e0nMGD_y2EaDBLim2AgrB3dJkPQPqt4UyHrHPAEQzJMRb-zDLlRH2k0grKlVay9_l79QARbAxHCJs9gqO4FspOmev4gKe-kE1ByG7I0MKBS9sp0soOAt_sqsTbL_qHjurvK7wr43eqqVHul97HyNdR5SLOkq_waV-VDltgHtMMG5iPprCft"
+    },
+    {
+      "title": "bebee.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiOEXpVGOkBMcBPHje8psfHO_d2BesrV4_4cUvRO5i_41CSDxIikOFj-r-MBY_8vXaxwcvMjkc8jILKQhhtK8CBDi7qhrvcr1MbkJ9rPT2Uwqe90p41sRtOqcJpe2OZd0czz1yPweM0kc1G6E1oET_v2ss8iGZjrentCfXXmGguagNik9XnlZS2zneqFZ9fMGh94oHN9tpY-AUbdjMoQk4WobQtSYOhAYdzHfz6gWBvws="
+    },
+    {
+      "title": "sammyfans.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGra4OoSwpon5afNV-oNoe_1a1fTInO6JfHWyL_adgkCFT4X-19P1f4vePvxBAMuq9rXmiuDQZsCkV15x6RGhqRXNHL-B_lSyHIGQ8sHn24dAMbO-tZ24Oo4ThZBDQNJG8vPYRGPydftSMHamvpGqO2NRfof2wvTIvS4tQ-fPg2w-UKrEFHga61nLc6KRCLsKJC6RbH7oo1RadUiJ0="
     },
     {
       "title": "youtube.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgZBQkjQzB1rkuRAxb96HiRaiE4CUoWILwnjP-t5ExjmKOJPRiFcjEypoG5h7htTjdEKZJMIA4VClVfjM3Zk5L_wsMXwQHRKSjL759_uT47edvUj9Y0AKrmZuFgvhiYitgPDUtKw=="
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgUpdm6KbsiWdfKhgLSKZ3r7SPE9HgFHsFO4NRcUAnkC04vSoS2x_tDhZYK6VrRWh9qt_zEGJbD78c2s_riY6mJil9zfqg3JUsFxzKDwg6JMANUHdDGcCUx2p5_ljYEiNgAd_OVrY="
     },
     {
-      "title": "hylios.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW6wVOyVUKUWvOPxdc1ILaCZrHcDEnSepeRSLdn6tuxmqWjcbfvvKUk4li-Jo0kT94T34gViiCEknrmAYO51fVUogRdvVROTX0nv3Isekh7QRsEOpw0GvxExAuRh2XGvIo4PNYXJ6RCPYO507FR7ir3x1P9UquWwZSTGUfvNiACkZuX0GajOThaVYNPQY7"
+      "title": "9to5google.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD3ovuCeublm5WHnHlSHypaQoonDxMibHR_KMtwKvpMQqpcjS41gjo9mcFBFozBGrlxNBpDGPX6zGTXjb9UNfwf2KMoBr2__4Ai5mAJ0c4pB6gUb4GunH9_gKDkCHBcGt5UvsWdnwWyL2pE6T_yclDA5ey9vZfPghYEhB6OS8bcDY="
     },
     {
-      "title": "bankofengland.co.uk",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLc1rclDoTwGQv6Y4WxAdr8k4I0BojmBt-hbn3cwfQB8qbcvpBSV-nx79E-gJpHpR6tE11-LbEg7Pde7jS-y_SNTstRxXrRWSEbu3XPdRD_pLG3MMaQ5IwZfC5iOq_gRmx4zBUvDSB_cihb_DLevunS6SOXp2ojqsFPlsz84tUzYGGj8INokqAUu-AjNo8z43sCDS6RGTXZFk4wMMhptPNNruYUvhFfLiUOMWlH5a_kw=="
+      "title": "crayon.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5LVccR1OFxRj_JQ2YGOnnYq8Ae0h367Sr_VaAz9H9fvb88tuPciKL77Xv5vdBlcPQF3O217n0u8wJIYfWzmyzCQPKDr05ELx-NxaBrPUASADTL5qUr9tbjpZerNxSecq717lpAvmr8kr6gZ-kZHk6RshD_j8C4oPfnYymA3mwcfv7h3o7qV-qhsjMfL3KvsPIt5oB"
     },
     {
-      "title": "europa.eu",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbfWIpb9NmG2NVDRWs0iNb84cyoI-jAxyVtyn7aC4hJ3yLeffdmaqlR-6gQ4UOPX-w2e_RZRIdGXDvyt6CTX5c5y9CnjR01nXj8tn-WixQVYxuiw12ooOYioHGaRvOyQbtnYyk28XiBlGjPbc1P4IpyMyoyi7DBMzE0vJm8Yew855lOburgiwBdB-T"
+      "title": "iswap.pk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZZ2iWzbl9hui5whNybOGQAApjK39hl6_8Sjah79kfPgKovpJcC-PsVMrc0eE5eLMe-WmHOX9gRxcJ9lOJ02aNRv1dDRNLS_BqDGKZW-1NC1Ze0BgibE8ixKZLChN4AyK-7ItUMEjeI8T2ERZ--hUZs6hsYSUrjbarZJm36UziuvZk7yPChKc="
     },
     {
-      "title": "wfh.team",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkVicnW7DMDpsa_h6m_7MzoAIoOax1YDZW_gbSPm_KmnaFNy4KyN7sOCC6-Z0RbtPuBvaaj8_sNCbaARsDNEeAYqkQS1t1kqr9oWcA8gbqYtmRmXEYOpGnheCLavtNF5EDROz70Pa5ac4inHn-m3EpF3jF8Ddpompi3xFqAmGQSMpRCnU37b5wymz7QtAfkElZx69hBuM="
+      "title": "apple.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtPGELPd_7PtmgGDYKAkMwYgX9pa5RY1VC4jhgDlrQgDd9g3IQeSVtEsZNZp8ERsZ_W_I0YDmjDK0hSTWgifl2p5YF8fYOMPJ4voa7ofRXQRR_YvH6hVlNLzv_e3adw--E"
     },
     {
-      "title": "hrserviceinc.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD5tJeBykSWoSfC1jFZ7mqbY28rDdPE0KBqlcCB55368pNxtkwJXALeLDPn2EzNUgQeH_fbAHaXvhKOY_PSTL5WQsJts-bP63wpnNBo8G5S4fG1j27d6cm9C2lW7aLkIEoTdmhpBNSXZUSj_4fnLHb6Js_7CHKyA=="
-    },
-    {
-      "title": "adculture.ca",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0X0UVO3YU46NItbvJSSjzoGl230Ntkqf6wXzt54aATp8Eaw40wFxNjPaZUq4A9SsooYNDelfjpZXQqELBIqxKkF6sXGiALjfor3aQ7LoRM6VZ_RDEnJD1t_rD6c2F7r2AytubNWklnXTHeA=="
-    },
-    {
-      "title": "teamed.global",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Yy--dZe3BwNKiveoIJYZiAI5EstdSZuQBwlh7BSR_teHc3f_f9HIOq0gmFqLZgskJVHT-uLO3V5s67xseFBwaWhVQLdHdqC2yLpwl0QX4aZjQXK1vDszYAcW1p7uMLwIVnmZG8vzkd9jc83Cd47sE42x5CvBC_nm3r9A9LGc51uMiSTpk9fW7k5T81WNtn5mCRs="
-    },
-    {
-      "title": "neat.no",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpbADE6znZqRvKUoc2NNHIq9q1Jb4xhxjQJ021c_I9LDc6iIV6QgU0FxAjtPlFPaEWvK1QvRmUmse2wSM4rf1AyoUPolR2lOCTmFNf6H0BX8gf4rk-5TuVA62GT1mAxV-WMhGeQwoCR3AmywCsJLJh3mF-NovrzRKryxpviLRrnFt271VsmyXrsfmOh4Y="
-    },
-    {
-      "title": "beyondcode.in",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcmPBZl3_EOOhIh6zCgn9UsfccTIalzhFCi2_xt_euOEtbQs4ds45SHX1FdV76h1EAhIQmdh8kS80_M8HH_27sTtON8KZaBcrUpTLYGfIpaz9TjCP5yZo0Si4ohLz1TjuvL3O0YoMfO22Ew6qAyQz2TZwRJoTg"
-    },
-    {
-      "title": "joinaiweek.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9i_yH-rDFJ7WRH73LUxxU9oyc8AfLAIGyW5dVUw-7FW7KW00qox7NN_xm65vcymHTdBCxdS00J9zfTh5iQjWN3tasSutCyWuhkvCQqXLjswsuS_qP2ZFKt1l-ljf6CL3sQhY4m-9wAarQqxXfxGvGXyNh"
-    },
-    {
-      "title": "tuya.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF941kJtS_awrs0sSDxxmXUl9g8GNUhTSH5HdQ4tcdFTyqO-D-70Ne7CbbJd9BNU0Ai8cnQkrdTdx8llNMaL3D575Q-EqoTi0OZHzYfo2RDFtN7xLjAVSUAlkjk9ZKMrpoffaOSX7pejtJiTU5BWuWDK2KpGHM="
+      "title": "alarabiya.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmeByi2455Vvh6KMLg-y0U14FS7ZN0qrNRn4orxC7j2DtiQ-YDPwplTf3fxR404RfDwiCP2iuGiGHEdUzg9SgoBDr0sEO0v8a18SEeR7xUc8d_ZhBCs2Pxjy_huoPRCB508d0lOS1obwZgD12HKjqyxBBo7JNFMjP6QOhg8ow6C8AfgJurI5nCbzX8Q1RMxra-FFSQtgw5wrtNRNHLKg3wy1wlTMljSyN5cau-hZ9h0VouBJEKtmFR2MATXJUEPjCNA6bRKHjl5qDw8rRSAasYDmHeay5MeArLdu9GakfQXduKGnaJc6crkZky8U0Wq4dmG9BN67qxwgNqfk9HfF19lsb9alHBtV3p5d-AUOAg0-WBOUej2JdAKtXt6aMGrQlxIPA82yuBPORqLkW-9EOpB1AsJWhyzYjGnXcQHT3Ij-TufiWYah7QwF9oeeWahNL_kXlL5NyBXkV8iaOIb0LqfMpU2ISBIKlYMS5vxKzLxcf076qhgTIiivSqjDg86tm1fTdDNJa61X5jdndBCt7pXsQfsXiq9-4vryl-r1oGhG5cMJ_KVKOie9KxZSnWZFxj8MqNl4WDATKbGhry1w4="
     }
   ]
 }
