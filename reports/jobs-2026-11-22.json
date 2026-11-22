@@ -1,12 +1,12 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T10:10:30.312Z",
+  "generatedAt": "2026-11-22T13:28:50.883Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض 4 مشاريع لأنها خارج نطاق عمل Moe (تطوير أعمال، مراجعة لغوية، استخراج بيانات، متطلبات شهادات). تم قبول مشروع واحد لتطوير تطبيق توصيل محلي لنظامي Android و iOS.",
-    "en": "4 projects were rejected as they are outside Moe's scope (business development, linguistic review, data scraping, certification requirements). One project for a local delivery app for Android and iOS was kept."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 17 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 17 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "تطوير تطبيق توصيل طلبات محلي",
@@ -30,7 +30,7 @@
       },
       "proposal": "السلام عليكم أستاذ إسلام،\n\nفهمت أنك تبحث عن مطور لتطبيق توصيل محلي متكامل للمستخدمين والمناديب، مع لوحة تحكم إدارية. هذا النوع من التطبيقات هو بالضبط ما أبني، مع التركيز على تجربة المستخدم السلسة والوظائف القوية.\n\nأبني تطبيقات Android الأصلية (Kotlin) أو الهجينة (WebView) بمساعدة الذكاء الاصطناعي، وأوفر قاعدة بيانات Firebase لتسجيل الدخول، وإدارة البيانات، والإشعارات. أما نسخة iOS، فيقوم ببنائها ونشرها شريكي الموثوق به، بحيث تحصل على التطبيقين من نقطة اتصال واحدة.\n\nكمثال على تطبيقاتي التي تخدم جمهوراً واسعاً وتدعم اللغة العربية بشكل كامل، يمكنك الاطلاع على تطبيق \"Islam Rising\" المنشور على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\n\nبميزانية 1000 دولار، يمكننا بناء تطبيق Android و iOS هجين (WebView) بالكامل. يرجى العلم أن رسوم حساب مطور Apple (99 دولاراً سنوياً) يدفعها العميل.\n\nهل لديك أي ميزات محددة في ذهنك لتتبع الطلبات أو إدارة المناديب؟",
       "foundAt": "2026-11-22T10:10:30.179Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "صناعة تطبيق اندرويد عبر كلود",
@@ -347,6 +347,86 @@
   ],
   "rejected": [
     {
+      "title": "US Mobile Shopper Testers Needed",
+      "url": "https://www.freelancer.com/projects/market-research/Mobile-Shopper-Testers-Needed",
+      "reason": {
+        "ar": "هذا المشروع لعمل اختبارات استخدام وتجربة مستخدم لتطبيق جوال، وليس لتطوير تطبيق جديد أو إضافة ميزات AI، وهو خارج نطاق عمل Moe.",
+        "en": "This project is for mobile app usability testing and user experience research, not for developing a new app or adding AI features, which is outside Moe's scope of work."
+      }
+    },
+    {
+      "title": "Claude AI 账号设置协助",
+      "url": "https://www.freelancer.com/projects/ai-chatbot/Claude-40830029",
+      "reason": {
+        "ar": "وصف المشروع مكتوب باللغة الصينية، وMoe يعمل فقط باللغتين العربية والإنجليزية.",
+        "en": "The project description is in Chinese, and Moe only works in Arabic and English."
+      }
+    },
+    {
+      "title": "DataAnnotation Account Partnership Opportunity |  potentially earn more than $1,000 per month.",
+      "url": "https://www.freelancer.com/projects/data-annotation/DataAnnotation-Account-Partnership",
+      "reason": {
+        "ar": "هذا المشروع عبارة عن فرصة شراكة لاستخدام حساب DataAnnotation، وليس مشروعاً لتطوير تطبيق أو بناء وكيل AI للعميل.",
+        "en": "This project is an offer for a DataAnnotation account partnership, not a project to build an app or an AI agent for a client."
+      }
+    },
+    {
+      "title": "Manual Verification of 796 Pilates & Yoga Studios in Lithuania – NO AI / NO AUTOMATION",
+      "url": "https://www.freelancer.com/projects/research/Manual-Verification-Pilates-Yoga-Studios",
+      "reason": {
+        "ar": "يتطلب هذا المشروع إدخال بيانات يدوياً والتحقق منها، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات ووكلاء AI.",
+        "en": "This project requires manual data entry and verification, which is outside Moe's scope of app development and AI agent creation."
+      }
+    },
+    {
+      "title": "Futuristic Streetwear AI Prompt Creation",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Futuristic-Streetwear-Prompt-Creation",
+      "reason": {
+        "ar": "هذا المشروع لإنشاء أوامر (prompts) لإنشاء صور AI، وليس لتطوير تطبيق يعتمد على AI أو وكيل AI، وهو خارج نطاق عمل Moe.",
+        "en": "This project is for creating AI prompts for image generation, not for developing an AI-powered app or an AI agent, which is outside Moe's scope of work."
+      }
+    },
+    {
+      "title": "Python AI Business Data Automation",
+      "url": "https://www.freelancer.com/projects/fastapi/Python-Business-Data-Automation",
+      "reason": {
+        "ar": "يتطلب هذا المشروع استخدام Python وFastAPI/Flask وStreamlit/Dash وقواعد بيانات مثل Postgres، وهي تقنيات خارج نطاق Moe الذي يعمل بـ Kotlin/WebView وFirebase وميزات Gemini AI.",
+        "en": "This project requires Python, FastAPI/Flask, Streamlit/Dash, and databases like Postgres, which are technologies outside Moe's stack (Kotlin/WebView, Firebase, and Gemini AI features)."
+      }
+    },
+    {
+      "title": "Fix Mobile App Server Check-In",
+      "url": "https://www.freelancer.com/projects/backend-development/Fix-Mobile-App-Server-Check",
+      "reason": {
+        "ar": "يتضمن المشروع تصحيح أخطاء في تطبيق جوال موجود وتواصله مع الخادم، وهو يتطلب العمل على قاعدة كود موجودة وربما backend غير Firebase، والميزانية منخفضة جداً لهذا النوع من العمل.",
+        "en": "The project involves debugging an existing mobile app's server communication, which requires working with an existing codebase and potentially a non-Firebase backend. The budget is also too low for this type of debugging."
+      }
+    },
+    {
+      "title": "Junior Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4459312273/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل (Junior Android Developer) وليست مشروعاً مستقلاً.",
+        "en": "This is a full-time staff job position (Junior Android Developer), not a freelance project."
+      }
+    },
+    {
+      "title": "Mobile Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4492348527/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل (Mobile Engineer) وليست مشروعاً مستقلاً.",
+        "en": "This is a full-time staff job position (Mobile Engineer), not a freelance project."
+      }
+    },
+    {
+      "title": "Temenos Quantum (Infinity) Developer",
+      "url": "https://www.linkedin.com/jobs/view/4493364509/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب متخصصاً في Temenos Quantum (Infinity)، وهي تقنية خارج نطاق عمل Moe.",
+        "en": "This is a full-time staff job position requiring a specialist in Temenos Quantum (Infinity), which is outside Moe's technology stack."
+      }
+    },
+    {
       "title": "Power Automate Business Development Partner Needed",
       "url": "https://www.freelancer.com/projects/power-automate/Power-Automate-Business-Development",
       "reason": {
@@ -505,40 +585,16 @@
         "ar": "هذا طلب لوظيفة بدوام كامل في إنتاج الأفلام والذكاء الاصطناعي، وليس لتطوير تطبيقات الأندرويد أو وكلاء الذكاء الاصطناعي. كما يتطلب مهارات في تحرير الفيديو والرسوم المتحركة ثلاثية الأبعاد لا يمتلكها Moe.",
         "en": "This is a request for a full-time, on-site Associate Director role in AI film production, not Android app development or AI agents. It also requires skills in video editing and 3D animation that Moe does not possess."
       }
-    },
-    {
-      "title": "Two-Arm Robot for Material Feeding",
-      "url": "https://www.freelancer.com/projects/robotics/Two-Arm-Robot-for-Material",
-      "reason": {
-        "ar": "هذا المشروع يتعلق بالروبوتات الصناعية المادية والهندسة الميكانيكية والكهربائية والتركيب في الموقع، وهو خارج نطاق ما يمكن لـ Moe تقديمه. Moe يبني تطبيقات أندرويد ووكلاء ذكاء اصطناعي، وليس أنظمة روبوتات مادية.",
-        "en": "This project is about physical industrial robotics, mechanical/electrical engineering, and on-site installation, which is outside Moe's scope of work. Moe builds Android apps and AI agents, not physical robot systems."
-      }
-    },
-    {
-      "title": "تسويق لموقع وتطبيق",
-      "url": "https://mostaql.com/project/1294556",
-      "reason": {
-        "ar": "المشروع يتعلق بالتسويق الرقمي وإدارة الحملات الإعلانية لتطبيق وموقع ويب، وليس تطوير التطبيقات. Moe لا يقدم خدمات التسويق.",
-        "en": "This project is about digital marketing and managing advertising campaigns for an app and website, not app development. Moe does not provide marketing services."
-      }
-    },
-    {
-      "title": "مطلوب فيديو شرح احترافي لتطبيق جوال (ريلز) بأسلوب",
-      "url": "https://khamsat.com/community/requests/800899-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B4%D8%B1%D8%AD-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%AC%D9%88%D8%A7%D9%84-%D8%B1%D9%8A%D9%84%D8%B2-%D8%A8%D8%A3%D8%B3%D9%84%D9%88%D8%A8",
-      "reason": {
-        "ar": "المشروع يطلب إنشاء فيديو شرح احترافي لتطبيق جوال (ريلز)، وهو عمل إنتاج فيديو وليس تطوير تطبيقات. Moe لا يقوم بإنتاج الفيديوهات الترويجية.",
-        "en": "This project requests the creation of a professional explanatory video (Reels) for a mobile app, which is video production work, not app development. Moe does not produce promotional videos."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 5,
+    "verified": 10,
     "steps": [
       {
         "step": "memory",
-        "msg": "1117 leads seen before"
+        "msg": "1134 leads seen before"
       },
       {
         "step": "verify",
@@ -546,7 +602,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "14 open projects from the last 5 days worldwide with budget 100+ USD (140 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 80 skipped: not app/AI work)"
+        "msg": "16 open projects from the last 5 days worldwide with budget 100+ USD (161 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 61 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -554,7 +610,7 @@
       },
       {
         "step": "hn",
-        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (September 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 242 replies, 18 want a freelancer, 14 app/AI"
+        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 242 replies, 18 want a freelancer, 14 app/AI"
       },
       {
         "step": "verify",
@@ -562,7 +618,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 1 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160710ch 29 links; HTTP 200 160497ch 27 links; HTTP 200 163691ch 28 links; )"
+        "msg": "phone relay last read 5 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160710ch 29 links; HTTP 200 160497ch 27 links; HTTP 200 163691ch 28 links; )"
       },
       {
         "step": "mostaql",
@@ -570,11 +626,11 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133383ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133383ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -586,63 +642,115 @@
       },
       {
         "step": "linkedin",
-        "msg": "371 jobs from Gmail alerts (last 5 days)"
+        "msg": "370 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
+        "msg": "39 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Talent)): Full Stack Developer (.Net and Angular 22)"
+        "msg": "skipped (title): Senior Mobile Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer - Magnet One (front-end, back-end, or full-stack opportunities)"
+        "msg": "skipped (title): Tech Lead - Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer - SE3"
+        "msg": "skipped (title): Senior Mobile App Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Salesforce Platform Developer"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (Executive): Junior Front-End Developer - Remote"
+        "msg": "skipped (full-time): Software Engineer III - Android Developer- Business Banking"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Product Engineer (Frontend & UX)"
+        "msg": "skipped (title): Lead Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full-Stack Web Developer"
+        "msg": "skipped (title): Lead Software Engineer - Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (Executive): Graduate Front-End Developer – Remote"
+        "msg": "skipped (full-time): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Salesforce Developer"
+        "msg": "skipped (full-time): OT-DA Mobile-App-Entwickler / Mobile-App-Developer (m/w/d) für Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (iOS)"
+        "msg": "skipped (full-time): Software Engineer - Mobile Application | Android (m/w/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Junior Unity Developer"
+        "msg": "skipped (title): Lead développeur Android - Lille, France (H/F)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer (iOS)"
+        "msg": "post 4459312273: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (iOS & Android Native)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Middle C++\\Android AOSP Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4492348527: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4493364509: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): IoT & RFID Solutions Architect"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - React Native - Consumer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Developer (iOS & Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Fullstack (App Experience)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Product Engineer - Canada"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 12 new LinkedIn jobs added"
+        "msg": "3 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -650,11 +758,11 @@
       },
       {
         "step": "verify",
-        "msg": "4 new Freelancer projects added, 5 to judge"
+        "msg": "7 new Freelancer projects added, 10 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 4 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 10 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
