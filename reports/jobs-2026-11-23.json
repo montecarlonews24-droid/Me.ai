@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-22T21:26:53.008Z",
+  "generatedAt": "2026-11-22T23:45:20.955Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -347,6 +347,38 @@
   ],
   "rejected": [
     {
+      "title": "iOS Slot App Compliance Build in United States",
+      "url": "https://www.freelancer.com/projects/ios/iOS-Slot-App-Compliance-Build-40830686",
+      "reason": {
+        "ar": "المشروع يطلب تطوير تطبيق iOS فقط. Moe لا يقوم بمشاريع iOS فقط؛ شريكه يقوم ببناء نسخة iOS عندما يبني Moe تطبيق الأندرويد ويدير المشروع كاملاً.",
+        "en": "The project requests iOS-only app development. Moe does not take on iOS-only projects; his partner builds the iOS version when Moe builds the Android app and manages the overall project."
+      }
+    },
+    {
+      "title": "Prototype-to-Production Electronics Engineer (Los Angeles Area)",
+      "url": "https://www.freelancer.com/projects/3d-modelling/Prototype-Production-Electronics",
+      "reason": {
+        "ar": "هذا الدور هو لمهندس إلكترونيات للعمل على تصميم الأجهزة والأنظمة المدمجة، وليس لتطوير تطبيقات الهاتف المحمول. كما أنه يشير إلى عقد طويل الأجل أو توظيف بدوام كامل.",
+        "en": "This role is for an electronics engineer working on hardware design and embedded systems, not mobile app development. It also indicates a long-term contract or full-time employment."
+      }
+    },
+    {
+      "title": "Digital Artist Needed for Precise Illustration Retouching — Preserve Original Artwork ",
+      "url": "https://www.freelancer.com/projects/digital-art/Digital-Artist-Needed-for-Precise",
+      "reason": {
+        "ar": "المشروع يتطلب فنانًا رقميًا لترميم الرسوم التوضيحية وتعديلها، وهي مهارات تصميم فني وليست ضمن نطاق عمل Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
+        "en": "The project requires a digital artist for illustration retouching and refinement, which are artistic design skills and not within Moe's scope of app development or AI agents."
+      }
+    },
+    {
+      "title": "Event Video Creation",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Event-Video-Creation",
+      "reason": {
+        "ar": "المشروع يتعلق بإنشاء وتحرير مقاطع الفيديو باستخدام الذكاء الاصطناعي، وهي مهارة إنتاج فيديو وليست ضمن خدمات Moe في تطوير التطبيقات.",
+        "en": "The project is about creating and editing videos using AI, which is a video production skill and not within Moe's app development services."
+      }
+    },
+    {
       "title": "Ultra-Mini Deep-Insertion Earbud Design",
       "url": "https://www.freelancer.com/projects/3d-modelling/Ultra-Mini-Deep-Insertion-Earbud",
       "reason": {
@@ -358,11 +390,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
-        "msg": "1216 leads seen before"
+        "msg": "1242 leads seen before"
       },
       {
         "step": "verify",
@@ -370,7 +402,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (173 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 56 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (163 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 51 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -386,7 +418,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 3 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
+        "msg": "phone relay last read 6 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -398,7 +430,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
+        "msg": "phone relay last read 6 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -410,111 +442,111 @@
       },
       {
         "step": "linkedin",
-        "msg": "390 jobs from Gmail alerts (last 5 days)"
+        "msg": "391 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "AI Agent Developer / Australia: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer III - Java / Kafka"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Software Engineer"
+        "msg": "skipped (full-time): Mobile Security Engineer (Android / Web)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer, Associate"
+        "msg": "skipped (title): Senior Software Engineer, Native Mobile - International"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Software Development Engineer (Lead)"
+        "msg": "skipped (full-time): AI Engineer 3 (AI Foundations)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Software Development Engineer (Lead)"
+        "msg": "skipped (full-time): AI Engineer 3 (AI Foundations)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Backend Software Development Engineer - Mid/Senior/Lead/Principal"
+        "msg": "skipped (full-time): AI Solutions Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Backend Software Development Engineer - Mid/Senior/Lead/Principal"
+        "msg": "skipped (title): Senior OpenAI Forward Deployed Engineer - GPS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Backend Engineer (Kotlin) - Cards"
+        "msg": "skipped (full-time): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Kotlin developer (medior)"
+        "msg": "skipped (full-time): AI and Agentic Engineer II"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Junior Backend developer"
+        "msg": "skipped (title): Senior OpenAI Forward Deployed Engineer - GPS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
+        "msg": "skipped (full-time): AI Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Java Spring Boot"
+        "msg": "skipped (recruitment agency (TalentHop)): AI Engineer - Multiple Openings and Multiple Seniority Levels"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Backend Developer"
+        "msg": "skipped (full-time): Forward Deployed Engineer AI & Agentic Systems"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Cloud Team"
+        "msg": "skipped (full-time): AI Application Developer H/F - Eviden"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full Stack Developer Cloud"
+        "msg": "skipped (full-time): Software Engineer - Customer Facing Applied AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Software Engineer, Lyft Urban Solutions"
+        "msg": "skipped (title): Senior AI Developer / AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Android Engineer"
+        "msg": "skipped (title): Applied AIML Lead-Python & Agentic AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Developer, Connectivity and Application Development"
+        "msg": "skipped (full-time): Generative AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Back-end/Server)"
+        "msg": "skipped (full-time): AI Engineer Expérimenté H/F"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Back-end/Server)"
+        "msg": "skipped (full-time): AI Software Engineer / Développeur Augmenté (H/F)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Développeur Applicatif Full-Stack (Kotlin-Java/React)"
+        "msg": "skipped (title): Senior GenAI Engineer (all genders)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full-Stack Application Developer (Kotlin-Java/React)"
+        "msg": "skipped (title): Senior GenAI Engineer (all genders)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Full Stack Developers"
+        "msg": "skipped (full-time): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Software Engineer / Senior Software Engineer"
+        "msg": "skipped (title): Principal AI Software Engineer (CORA AI)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Java Developer"
+        "msg": "skipped (title): Senior AI Engineer - LLM, RAG & Agent Systems (Telecom & Banking)"
       },
       {
         "step": "verify",
@@ -526,11 +558,11 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "4 new Freelancer projects added, 4 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
