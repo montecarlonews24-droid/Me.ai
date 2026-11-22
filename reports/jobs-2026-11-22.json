@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T16:26:34.348Z",
+  "generatedAt": "2026-11-22T17:59:29.685Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 17 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -347,6 +347,38 @@
   ],
   "rejected": [
     {
+      "title": "Highway Speed & Plate Detection",
+      "url": "https://www.freelancer.com/projects/computer-vision/Highway-Speed-Plate-Detection",
+      "reason": {
+        "ar": "يتطلب هذا المشروع خبرة عميقة في هندسة تعلم الآلة وأدوات مثل Python و OpenCV و YOLO و TensorFlow و C++، وهي أدوات لا يستخدمها Moe في تطوير ميزات الذكاء الاصطناعي (هو يستخدم ميزات Gemini AI). كما أن الميزانية المقترحة صغيرة جدًا بالنسبة لنطاق المشروع المعقد.",
+        "en": "This project requires deep machine learning engineering expertise and tools like Python, OpenCV, YOLO, TensorFlow, and C++, which Moe does not use for AI feature development (he uses Gemini AI features). The proposed budget is also significantly too low for the complex scope."
+      }
+    },
+    {
+      "title": "تجربة موقع مسلسلات من الجوال لشخص مقيم في السعودية مع شراء باقة 1.99$",
+      "url": "https://mostaql.com/project/1294692",
+      "reason": {
+        "ar": "هذا المشروع عبارة عن مهمة اختبار مستخدم (User Testing) لموقع ويب، وليس مشروع تطوير تطبيقات. Moe يقوم ببناء التطبيقات، وليس تقديم خدمات اختبار لمواقع أو تطبيقات الآخرين.",
+        "en": "This project is a user testing task for a website, not an app development project. Moe builds apps, he does not provide testing services for other people's websites or apps."
+      }
+    },
+    {
+      "title": "تصميم هوية بصرية تطبيقية متكاملة",
+      "url": "https://mostaql.com/project/1294710",
+      "reason": {
+        "ar": "هذا المشروع يطلب تصميم هوية بصرية متكاملة ومطبوعات مكتبية، وهو عمل تصميم جرافيك بحت. Moe مطور تطبيقات وليس مصمم جرافيك.",
+        "en": "This project requests the design of an integrated visual identity and office stationery, which is purely graphic design work. Moe is an app developer, not a graphic designer."
+      }
+    },
+    {
+      "title": "مطلوب اعادة تصميم 3-5 شاشات لتطبيق",
+      "url": "https://khamsat.com/community/requests/800791-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3-5-%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82",
+      "reason": {
+        "ar": "صفحة المشروع محجوبة والملخص فارغ، مما يجعل تقييم النطاق مستحيلاً. العنوان يشير إلى إعادة تصميم شاشات تطبيق، وهو ما قد يكون مجرد تصميم واجهة مستخدم (UI/UX) بدون تنفيذ برمجي، وهو ليس ضمن خدمات Moe الأساسية في بناء التطبيقات.",
+        "en": "The project page is blocked and the summary is empty, making scope assessment impossible. The title suggests redesigning app screens, which could be a pure UI/UX design task without development implementation, and this is not within Moe's core service of building apps."
+      }
+    },
+    {
       "title": "Agency Structure & Sales Boost",
       "url": "https://www.freelancer.com/projects/business-development/Agency-Structure-Sales-Boost",
       "reason": {
@@ -553,48 +585,16 @@
         "ar": "الطلب هو لكتابة تقرير بحثي حول حلول المدن الذكية، وليس لتطوير تطبيق. Moe يبني تطبيقات ووكلاء ذكاء اصطناعي، وليس كاتب تقارير فنية.",
         "en": "The request is for writing a research report on AI-powered urban solutions, not for developing an app. Moe builds apps and AI agents, he is not a technical report writer."
       }
-    },
-    {
-      "title": "Backend Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4493106880/",
-      "reason": {
-        "ar": "هذا طلب لمهندس برمجيات خلفية (Backend Software Engineer) بمستوى متوسط إلى كبير، ويتضمن متطلبات خبرة في بناء خدمات وخلفيات قابلة للتطوير ولغات برمجة مثل Java وNode.js وPython، بالإضافة إلى مقابلات وتقييمات فنية. Moe يركز على تطوير تطبيقات Android باستخدام Firebase كخلفية بسيطة، ولا يعمل كمهندس خلفية تقليدي أو في مشاريع تتطلب خبرة واسعة في أنظمة خلفية كبيرة أو تدريب نماذج الذكاء الاصطناعي بهذه الطريقة.",
-        "en": "This is a request for a Mid-Senior level Backend Software Engineer, requiring experience in building scalable services and backends with languages like Java, Node.js, and Python, along with interviews and technical assessments. Moe focuses on Android app development with simple Firebase backends and does not work as a traditional backend engineer or on projects requiring extensive experience in large backend systems or AI model training in this manner."
-      }
-    },
-    {
-      "title": "Technical Interview Communication Specialist",
-      "url": "https://www.freelancer.com/projects/software-engineering/Technical-Interview-Communication",
-      "reason": {
-        "ar": "هذا ليس طلبًا حقيقيًا من عميل يوظف لعمل مشروع؛ إنه لوظيفة أخصائي تواصل ومقابلات تقنية، وليس لتطوير تطبيقات.",
-        "en": "This is not a real request from a client hiring for a project; it's for a communication and technical interview specialist, not app development."
-      }
-    },
-    {
-      "title": "Futuristic Streetwear Scene Prompts",
-      "url": "https://www.freelancer.com/projects/3d-animation/Futuristic-Streetwear-Scene-Prompts",
-      "reason": {
-        "ar": "خارج نطاق ما يمكن لـ Moe تقديمه (هندسة الأوامر لـ Midjourney ليست ضمن تركيزه في الذكاء الاصطناعي).",
-        "en": "Outside what Moe can deliver (prompt engineering for Midjourney is not his AI focus)."
-      }
-    },
-    {
-      "title": "AI-Powered Video Editing Tool",
-      "url": "https://www.freelancer.com/projects/ai-video-editing/Powered-Video-Editing-Tool",
-      "reason": {
-        "ar": "خارج نطاق ما يمكن لـ Moe تقديمه (تطوير تطبيقات ويب/سطح مكتب، والذكاء الاصطناعي المتخصص في تحرير الفيديو).",
-        "en": "Outside what Moe can deliver (web/desktop application development and specialized AI video editing)."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 10,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
-        "msg": "1166 leads seen before"
+        "msg": "1201 leads seen before"
       },
       {
         "step": "verify",
@@ -602,7 +602,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (148 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 49 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (159 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 48 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -618,11 +618,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 3 hours ago: 72 projects on the lists, 0 sent (HTTP 200 161722ch 28 links; HTTP 200 160396ch 27 links; HTTP 200 163165ch 28 links; )"
+        "msg": "phone relay last read less than an hour ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "45 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "47 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -630,127 +630,71 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133660ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "13 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
+        "msg": "14 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "3 new Khamsat requests added from the phone"
+        "msg": "1 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "384 jobs from Gmail alerts (last 5 days)"
+        "msg": "394 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "48 Remote contract jobs found by searching LinkedIn directly"
+        "msg": "Mobile App Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Software Benchmark Engineer (Remote)"
+        "msg": "skipped (full-time): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Junior Software Engineer (Remote)"
+        "msg": "skipped (full-time): Software Engineer, Mobile"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
+        "msg": "skipped (full-time): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Competitive Programmer (Remote)"
+        "msg": "skipped (full-time): Software Engineer, iOS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Software Engineer (Remote)"
+        "msg": "skipped (full-time): iOS Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (closed): Application Security Engineer (Remote)"
+        "msg": "skipped (title): Senior Android Engineer / FitnessTech"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Applied AI Engineer - ANZ"
+        "msg": "skipped (title): [Job-32275] Senior Mobile Developer ( Kotlin and Android SDK )"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Data Engineer"
+        "msg": "skipped (full-time): Unity Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Agent Deployment Engineer"
+        "msg": "skipped (7+ years required): Mobile Application Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Machine Learning Engineer, Safety and Customer Care AI"
+        "msg": "skipped (title): Certified Senior Outsystems Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Researcher"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Platform AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI / LLM Engineer — Agentic Orchestration (LangGraph)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Junior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Native)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (IOS)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer III - iOS Developer- Business Banking"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Mobile Developer Senior"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer (m/f/x)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile App Developer (English)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Mobile (Repayment UX)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer - KMP"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior iOS Engineer"
+        "msg": "skipped (full-time): Teamlead Frontend Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 25 new LinkedIn jobs added"
+        "msg": "0 of 11 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -758,15 +702,15 @@
       },
       {
         "step": "verify",
-        "msg": "5 new Freelancer projects added, 10 to judge"
+        "msg": "1 new Freelancer projects added, 4 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 10 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (52 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (53 bids): Daily Ops & AI Automation Assistant"
       }
     ]
   }
