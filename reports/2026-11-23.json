@@ -1,0 +1,418 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T23:19:02.393Z",
+  "model": "gemini-2.5-flash",
+  "summary": "تظهر الأفكار المقبولة اليوم تركيزًا قويًا على استغلال ميزات الذكاء الاصطناعي الجديدة في Android 17 لتقديم حلول شخصية ومبسطة لمشاكل عالمية، من تحسين النوم والتصوير الفلكي إلى التنقل الصحي وتأسيس الشركات.",
+  "trends": [
+    "تزايد التركيز على الذكاء الاصطناعي في أنظمة التشغيل مثل Android 17 لتقديم تجارب شخصية وميزات مساعدة.",
+    "تغير المناخ يؤثر بشكل مباشر على الحياة اليومية، مثل جودة الهواء وأنماط النوم، مما يخلق حاجة لحلول تكيفية.",
+    "تسهيل الإجراءات القانونية وتأسيس الشركات على المستوى الدولي، مثل نظام 'EU Inc.' الجديد، يفتح آفاقًا لريادة الأعمال.",
+    "الظواهر الفلكية النادرة المتوقعة في 2026 تزيد من اهتمام الجمهور بالتصوير الفلكي.",
+    "ميزات جديدة في أنظمة التشغيل مثل 'Motion Assist' في Android 17 تعالج مشاكل صحية يومية مثل دوار الحركة."
+  ],
+  "world": {
+    "signals": [
+      {
+        "area": "الفضاء والشمس",
+        "change": "ذروة زخة شهب التوأميات يومي 13 و 14 ديسمبر 2026، مع إمكانية مشاهدة ما يصل إلى 120 شهابًا في الساعة، وذروة زخة شهب الثوريات يوم 12 نوفمبر 2026، بالإضافة إلى ذروة زخة شهب الدب يومي 21 و22 ديسمبر 2026.",
+        "who": "عشاق الفلك والمصورون وهواة مراقبة السماء.",
+        "evidence": "ظواهر فلكية نادرة تزين السماء حتى نهاية 2026 (11 نوفمبر 2026)."
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "اكتمال القمر العملاق (قمر القندس) يوم 24 نوفمبر 2026، يليه اكتمال بدر ديسمبر (القمر البارد) يوم 23 ديسمبر 2026، وهو آخر الأقمار العملاقة المتتالية لعام 2026.",
+        "who": "الجمهور العام، عشاق الفلك، والمصورون.",
+        "evidence": "حدث فلكي ينتظره الملايين.. القمر العملاق يضيء السماء قبل نهاية نوفمبر 2026 (19 نوفمبر 2026)."
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "توقعات بنشاط الشفق القطبي في نوفمبر 2026 في مناطق خطوط العرض العليا بسبب تيار رياح شمسية قادم من ثقب إكليلي، مع فرصة طفيفة لعواصف G1 (صغيرة) حوالي 16-17 نوفمبر.",
+        "who": "المسافرون إلى المناطق القطبية، منظمو الرحلات السياحية، والمهتمون بالظواهر الطبيعية.",
+        "evidence": "Aurora Forecast November 2026: Northern Lights & Solar Storm Outlook (3 نوفمبر 2026)."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تدهور جودة الهواء عالمياً، حيث تصدرت مدن مثل لاهور (باكستان) والكويت قائمة المدن الأكثر تلوثاً بمستويات خطيرة في مؤشر جودة الهواء.",
+        "who": "الجمهور العام، وخاصة الفئات الحساسة في المدن المتضررة، والسكان في باكستان وبنغلاديش وطاجيكستان وتشاد والهند.",
+        "evidence": "الضباب الدخاني يجعل لاهور أكثر مدن العالم تلوثا (22 نوفمبر 2026)."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تغير المناخ يؤدي إلى زيادة اضطرابات النوم، حيث يفقد الفرد عالمياً حوالي 56 ساعة من النوم سنوياً بين 2020 و2025 بسبب ارتفاع درجات الحرارة الليلية، وتتأثر مدن الشرق الأوسط وجنوب شرق آسيا بشكل خاص.",
+        "who": "الجمهور العام، وخاصة سكان المناطق الحارة، والنساء، وكبار السن، والأشخاص الذين يعانون من أمراض مزمنة.",
+        "evidence": "دراسة تؤكد.. تغير المناخ وراء عدم قدرتك على النوم الهادئ (23 يوليو 2026)."
+      },
+      {
+        "area": "الجسد والحياة اليومية",
+        "change": "توقعات بارتفاع أسعار المواد الغذائية عالمياً بحلول نهاية 2026 وبشكل أكبر في 2027، مدفوعة بصدمات الحروب، اضطرابات الشحن، وتداعيات ظاهرة النينيو، مع ارتفاع ملحوظ في أسعار السكر.",
+        "who": "الجمهور العام، وخاصة الأسر ذات الدخل المنخفض في الشرق الأوسط وشمال أفريقيا وآسيا.",
+        "evidence": "توقعات بارتفاع أسعار المواد الغذائية عالمياً نهاية 2026 (5 أغسطس 2026)."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تتجه حكومة المغرب لتقنين 'العمل عن بعد' في 2027 ومراجعة مدونة الشغل لتشمل أشكال العمل الناشئة لضمان حقوق العاملين وتوفير تغطية اجتماعية وظروف عمل كريمة.",
+        "who": "العاملون عن بعد في المغرب، الشركات التي توظف عن بعد، وصناع السياسات.",
+        "evidence": "تقنين 'العمل عن بعد' وربط الدعم بـ'الشغل اللائق'.. هذه مُستجدات التشغيل بـ2027 (30 أكتوبر 2026)."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "المستهلكون يتجهون نحو تفضيل التجارب الشخصية والقيمة العاطفية على السعر وحده، مع تزايد دور الذكاء الاصطناعي في إلهام المنتجات وتوصياتها وقرارات الشراء.",
+        "who": "المستهلكون، الشركات والعلامات التجارية، خبراء التسويق وتطوير المنتجات.",
+        "evidence": "4 Trends That Will Shape Consumer Behaviour in 2026 (12 يناير 2026)."
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "إطلاق نظام Android 17 رسميًا في يونيو 2026، مع ميزات جديدة تركز على الذكاء الاصطناعي، الأمان، وتعدد المهام (مثل النوافذ العائمة)، وقدرة 'جيميناي' على تذكر أماكن الأشياء التي يضعها المستخدم.",
+        "who": "مستخدمو هواتف أندرويد، خاصة أجهزة Pixel، وصناع المحتوى.",
+        "evidence": "أهم ميزات Android 17 في 2026: الذكاء الاصطناعي والأمان (20 أكتوبر 2026)."
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "إضافة ميزة 'Motion Assist' الجديدة إلى Android 17 لتقليل الشعور بدوار الحركة عند استخدام الهاتف أثناء ركوب السيارة، من خلال عرض نقاط متحركة على الشاشة.",
+        "who": "مستخدمو هواتف أندرويد 17 الذين يعانون من دوار الحركة أثناء التنقل.",
+        "evidence": "5 تغييرات جديدة تصل إلى هواتف أندرويد هذا الشهر (21 سبتمبر 2026)."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "الاتحاد الأوروبي يعتمد نظامًا قانونيًا جديدًا 'EU Inc.' لتيسير تأسيس الشركات عبر الإنترنت خلال أقل من 48 ساعة، بدون رأس مال مبدئي وتكاليف محدودة (أقل من 100 يورو).",
+        "who": "رواد الأعمال، الشركات الصغيرة والمتوسطة، والمستثمرون في الاتحاد الأوروبي.",
+        "evidence": "الاتحاد الأوروبي يعتمد نظاماً جديداً لتيسير تأسيس الشركات (24 أكتوبر 2026)."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "الاتحاد الأوروبي يخطط لإقرار 'قانون العمل الجيد الجديد' ابتداءً من عام 2026، بهدف تحسين ظروف العمل، خلق وظائف برواتب عادلة، وتأمين وظيفي.",
+        "who": "العمال، الشركات، والنقابات في دول الاتحاد الأوروبي.",
+        "evidence": "قانون عمل جديد يهز أوروبا بداية من 2026.. اعرف أهدافه ومميزاته (8 ديسمبر 2025)."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "تغييرات حاسمة في قوانين الهجرة الأمريكية لعام 2026، حيث ستدخل إرشادات 'العبء العام' الجديدة حيز التنفيذ بدءًا من 18 سبتمبر 2026، وستنظر في مجموعة أوسع من المزايا العامة عند تقييم المتقدمين للجرين كارد.",
+        "who": "المهاجرون، الطلاب، وطالبو اللجوء في الولايات المتحدة.",
+        "evidence": "5 تغييرات حاسمة في قوانين الهجرة الأمريكية لعام 2026: دليل شامل للمهاجرين والطلاب (28 أغسطس 2026)."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "قواعد جمركية جديدة للاتحاد الأوروبي دخلت حيز التنفيذ، تتطلب تصريحات دقيقة للمنتجات وأكواد HS وقيم الشحنات من الشركات التي تشحن إلى الاتحاد الأوروبي.",
+        "who": "الشركات التي تشحن منتجات إلى العملاء في الاتحاد الأوروبي.",
+        "evidence": "قواعد الجمارك الجديدة للاتحاد الأوروبي 2026 (3 يوليو 2026)."
+      }
+    ],
+    "links": [
+      "التغير المناخي يؤثر على النوم: ارتفاع درجات الحرارة الليلية نتيجة التغير المناخي يجعل النوم أكثر صعوبة، مما يؤثر على الصحة العامة والإنتاجية اليومية للأفراد.",
+      "النشاط الشمسي يؤثر على السياحة: النشاط الشمسي وتوقعات الشفق القطبي المتزايدة في نوفمبر وديسمبر 2026 تزيد من فرص مشاهدة هذه الظاهرة، مما يؤثر على السياحة في مناطق خطوط العرض العليا.",
+      "التكنولوجيا (الذكاء الاصطناعي) تؤثر على سلوك المستهلك: دمج الذكاء الاصطناعي في أنظمة التشغيل مثل Android 17 يغير سلوك المستهلكين من خلال تقديم توصيات شخصية وميزات مساعدة (مثل تذكر أماكن الأشياء)، مما يؤثر على عادات الشراء والتفاعل مع الأجهزة.",
+      "الصراعات العالمية والمناخ يؤثران على أسعار الغذاء: الحروب واضطرابات الشحن وظاهرة النينيو تؤدي إلى ارتفاع أسعار المواد الغذائية العالمية، مما يؤثر بشكل مباشر على تكلفة المعيشة اليومية وميزانيات الأسر.",
+      "القوانين الجديدة في الاتحاد الأوروبي (للشركات) تؤثر على الاقتصاد وسوق العمل: نظام 'EU Inc.' الجديد لتسهيل تأسيس الشركات سيشجع على ريادة الأعمال، مما قد يؤدي إلى خلق فرص عمل جديدة وتنشيط الاقتصاد في الاتحاد الأوروبي."
+    ]
+  },
+  "ideas": [
+    {
+      "name": "EU Startup Pilot",
+      "signal": "الاتحاد الأوروبي يعتمد نظاماً قانونياً جديداً 'EU Inc.' لتيسير تأسيس الشركات (11) و إطلاق Android 17 بميزات الذكاء الاصطناعي (9)",
+      "pitch": "مساعد ذكاء اصطناعي يبسط ويُرشد رواد الأعمال خلال عملية تأسيس الشركات الجديدة في الاتحاد الأوروبي عبر نظام 'EU Inc.' الجديد، من التسجيل إلى المتطلبات القانونية الأولية.",
+      "problem": "تأسيس شركة جديدة، حتى في الأنظمة المبسطة، قد يكون مربكًا بسبب المصطلحات القانونية والإجراءات المتعددة، مما يثبط رواد الأعمال المحتملين.",
+      "audience": "رواد الأعمال والمستثمرون من جميع الجنسيات الذين يهدفون لتأسيس شركات في الاتحاد الأوروبي.",
+      "whyNow": "يعتمد الاتحاد الأوروبي نظام 'EU Inc.' لتيسير تأسيس الشركات عبر الإنترنت خلال أقل من 48 ساعة، بدون رأس مال مبدئي وتكاليف محدودة (أقل من 100 يورو). هذا التغيير القانوني الحديث، بالإضافة إلى إمكانيات الذكاء الاصطناعي في Android 17، يخلق فرصة لتطبيق يبسط هذه العملية الثورية.",
+      "novelty": "مساعد ذكاء اصطناعي مصمم خصيصًا لتبسيط وتوجيه المستخدمين بشكل تفاعلي خلال عملية تأسيس الشركات الجديدة ضمن نظام 'EU Inc.'، مع تقديم تفسيرات قانونية واضحة ومبسطة ودعم في إنشاء المستندات المطلوبة، مستفيدًا من حداثة هذا التغيير القانوني.",
+      "competition": "low",
+      "competitors": [
+        "Company Formation Services",
+        "Official EU Websites and National Government Portals"
+      ],
+      "edge": "يركز التطبيق بشكل حصري على نظام 'EU Inc.' الجديد والمبسط، ويقدم توجيهًا تفاعليًا ومخصصًا بالذكاء الاصطناعي، مما يجعله أكثر سهولة وفعالية من الخدمات التقليدية أو المواقع الرسمية المعقدة.",
+      "monetization": "نموذج فريميوم: معلومات أساسية وقائمة تحقق مجانية. اشتراك مميز للحصول على مساعدة الذكاء الاصطناعي في إنشاء المستندات، استشارات قانونية شخصية، وتحديثات الامتثال المستمرة.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9,
+      "firstStep": "فهم تفصيلي لنظام 'EU Inc.' الجديد ومتطلباته القانونية لتدريب نموذج الذكاء الاصطناعي."
+    },
+    {
+      "name": "TravelSoothe AI",
+      "signal": "إضافة ميزة 'Motion Assist' الجديدة إلى Android 17 لتقليل دوار الحركة (10) و توقعات الشفق القطبي (3) (أو أي سياق سفر)",
+      "pitch": "مساعد ذكاء اصطناعي يعزز ميزة 'Motion Assist' في Android 17 من خلال التعلم من أنماط دوار الحركة لدى المستخدم وتقديم نصائح استباقية وتوقعات لمناطق السفر المختلفة، لضمان تجربة سفر أكثر راحة.",
+      "problem": "يعاني الكثيرون من دوار الحركة أثناء استخدام هواتفهم في وسائل النقل، مما يحد من قدرتهم على الاستفادة من وقت السفر أو الاستمتاع بالتجارب السياحية.",
+      "audience": "مستخدمو هواتف أندرويد 17 الذين يعانون من دوار الحركة، وخاصة المسافرون الدائمون.",
+      "whyNow": "إطلاق ميزة 'Motion Assist' الجديدة في Android 17 لتقليل دوار الحركة يمثل نقطة انطلاق. يمكن للذكاء الاصطناعي توسيع هذه الميزة لتقديم تجربة شخصية وتنبؤية، مما يجعلها ضرورية للمسافرين الذين يعانون من هذه المشكلة.",
+      "novelty": "مساعد ذكاء اصطناعي يخصص ويعزز ميزة 'Motion Assist' الأصلية في Android 17 من خلال التعلم المستمر من أنماط دوار الحركة الفردية للمستخدم، ثم يقدم تحذيرات تنبؤية ونصائح مخصصة لقطاعات السفر القادمة (مثل 'هذه الطريق بالحافلة قد تسبب لك دوار الحركة، فكر في الخيار X').",
+      "competition": "low",
+      "competitors": [
+        "Motion Sickness Apps (e.g., Reliefband App, Travel Pal)",
+        "Health Tracking Apps (Google Fit, Apple Health)"
+      ],
+      "edge": "يقدم تخصيصًا عميقًا وتنبؤًا استباقيًا، بالبناء مباشرة على ميزة نظام تشغيل جديدة لتجربة سلسة، مما يميزه عن التطبيقات العامة التي تقدم علاجات تفاعلية أو نصائح عامة.",
+      "monetization": "نموذج فريميوم: تحسين أساسي لميزة Motion Assist مجاني. اشتراك مميز للتعلم الشخصي، التنبؤات التنبؤية، النصائح المتقدمة، ودمج التطبيق مع تطبيقات السفر الأخرى.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 17,
+      "score": 8.5,
+      "firstStep": "فهم واجهات برمجة تطبيقات (APIs) ميزة 'Motion Assist' في Android 17 وكيفية التفاعل معها."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Global RemoteGuide",
+      "reason": "صعوبة البناء عالية جدًا بالنسبة لمطور واحد في 3 أسابيع، حيث يتطلب الحفاظ على دقة المعلومات القانونية عبر ولايات قضائية دولية متعددة تحديثًا مستمرًا وخبرة قانونية واسعة."
+    },
+    {
+      "name": "MemoryWeaver AI",
+      "reason": "تعتمد الفكرة الأساسية على ميزة محددة في Android 17/Gemini (تذكر أماكن الأشياء المادية) والتي قد تكون قد أسيء تفسيرها أو لا تكون متاحة حاليًا لربط السياق الرقمي العميق، مما يضعف جدوى الفكرة ومدى ارتباطها بالتغيير العالمي."
+    },
+    {
+      "name": "FoodShield AI",
+      "reason": "صعوبة البناء عالية جدًا بالنسبة لمطور واحد في 3 أسابيع، حيث أن الحصول على بيانات موثوقة ودقيقة لتوقعات أسعار الغذاء المستقبلية (العالمية والمحلية) يمثل تحديًا كبيرًا ويتطلب نماذج اقتصادية معقدة."
+    },
+    {
+      "name": "Celestial Lens AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (PhotoPills، Stellarium Mobile / SkyView Lite / Star Walk، Manual Camera Apps (ProCam, Halide))، وMoe بده أفكار جديدة من نوعها بس."
+    },
+    {
+      "name": "SleepClimate AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (Eight Sleep Pod/Cover، CircadiaOS، Feelsleep CoolWarmMat APP)، وMoe بده أفكار جديدة من نوعها بس."
+    },
+    {
+      "name": "AirPath AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (IQAir AirVisual / Plume Labs: Air Quality App / BreezoMeter، Google Maps / Apple Maps)، وMoe بده أفكار جديدة من نوعها بس."
+    }
+  ],
+  "en": {
+    "summary": "Today's accepted ideas show a strong focus on leveraging new AI features in Android 17 to provide personalized and simplified solutions to global problems, from improving sleep and astrophotography to healthy navigation and company formation.",
+    "trends": [
+      "Increasing focus on AI in operating systems like Android 17 to provide personalized experiences and assistive features.",
+      "Climate change directly impacts daily life, such as air quality and sleep patterns, creating a need for adaptive solutions.",
+      "Facilitating legal procedures and company formation at an international level, such as the new 'EU Inc.' system, opens horizons for entrepreneurship.",
+      "Rare astronomical phenomena expected in 2026 increase public interest in astrophotography.",
+      "New features in operating systems like 'Motion Assist' in Android 17 address daily health issues such as motion sickness."
+    ],
+    "ideas": [
+      {
+        "name": "EU Startup Pilot",
+        "signal": "The European Union adopts a new legal system 'EU Inc.' to facilitate company formation (11) and the launch of Android 17 with AI features (9)",
+        "pitch": "An AI assistant that simplifies and guides entrepreneurs through the process of forming new companies in the European Union via the new 'EU Inc.' system, from registration to initial legal requirements.",
+        "problem": "Forming a new company, even in simplified systems, can be confusing due to legal terminology and multiple procedures, discouraging potential entrepreneurs.",
+        "audience": "Entrepreneurs and investors of all nationalities aiming to establish companies in the European Union.",
+        "whyNow": "The European Union adopts the 'EU Inc.' system to facilitate online company formation in less than 48 hours, without initial capital and with limited costs (less than 100 euros). This recent legal change, combined with the AI capabilities in Android 17, creates an opportunity for an application that simplifies this revolutionary process.",
+        "novelty": "An AI assistant specifically designed to interactively simplify and guide users through the process of forming new companies within the 'EU Inc.' system, providing clear and simplified legal explanations and support in creating required documents, leveraging the novelty of this legal change.",
+        "competition": "low",
+        "competitors": [
+          "Company Formation Services",
+          "Official EU Websites and National Government Portals"
+        ],
+        "edge": "The application focuses exclusively on the new and simplified 'EU Inc.' system, offering interactive and personalized AI guidance, making it more user-friendly and effective than traditional services or complex official websites.",
+        "monetization": "Freemium model: basic information and a free checklist. Premium subscription for AI assistance in document creation, personalized legal consultations, and continuous compliance updates.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9,
+        "firstStep": "Detailed understanding of the new 'EU Inc.' system and its legal requirements to train the AI model."
+      },
+      {
+        "name": "TravelSoothe AI",
+        "signal": "Adding the new 'Motion Assist' feature to Android 17 to reduce motion sickness (10) and aurora borealis forecasts (3) (or any travel context)",
+        "pitch": "An AI assistant that enhances the 'Motion Assist' feature in Android 17 by learning from user motion sickness patterns and providing proactive advice and forecasts for different travel areas, to ensure a more comfortable travel experience.",
+        "problem": "Many people suffer from motion sickness while using their phones in transport, limiting their ability to make use of travel time or enjoy tourist experiences.",
+        "audience": "Android 17 phone users who suffer from motion sickness, especially frequent travelers.",
+        "whyNow": "The launch of the new 'Motion Assist' feature in Android 17 to reduce motion sickness is a starting point. AI can extend this feature to provide a personalized and predictive experience, making it essential for travelers suffering from this problem.",
+        "novelty": "An AI assistant that customizes and enhances the original 'Motion Assist' feature in Android 17 by continuously learning from the user's individual motion sickness patterns, then provides predictive warnings and personalized advice for upcoming travel segments (e.g., 'This bus route might cause you motion sickness, consider option X').",
+        "competition": "low",
+        "competitors": [
+          "Motion Sickness Apps (e.g., Reliefband App, Travel Pal)",
+          "Health Tracking Apps (Google Fit, Apple Health)"
+        ],
+        "edge": "It offers deep personalization and proactive prediction, building directly on a new operating system feature for a seamless experience, distinguishing it from general apps that offer interactive remedies or general advice.",
+        "monetization": "Freemium model: basic enhancement of Motion Assist feature is free. Premium subscription for personalized learning, predictive forecasts, advanced tips, and integration with other travel apps.",
+        "buildDifficulty": "Medium",
+        "buildDays": 17,
+        "score": 8.5,
+        "firstStep": "Understanding the APIs of the 'Motion Assist' feature in Android 17 and how to interact with them."
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Global RemoteGuide",
+        "reason": "Build difficulty is too high for a single developer in 3 weeks, as maintaining the accuracy of legal information across multiple international jurisdictions requires continuous updates and extensive legal expertise."
+      },
+      {
+        "name": "MemoryWeaver AI",
+        "reason": "The core idea relies on a specific feature in Android 17/Gemini (remembering the locations of physical objects) which might have been misinterpreted or is not currently available for deep digital context linking, weakening the feasibility of the idea and its relevance to global change."
+      },
+      {
+        "name": "FoodShield AI",
+        "reason": "Build difficulty is too high for a single developer in 3 weeks, as obtaining reliable and accurate data for future food price forecasts (global and local) is a significant challenge and requires complex economic models."
+      },
+      {
+        "name": "Celestial Lens AI",
+        "reason": "There are apps that do the same thing (PhotoPills, Stellarium Mobile / SkyView Lite / Star Walk, Manual Camera Apps (ProCam, Halide)), and Moe only wants novel ideas."
+      },
+      {
+        "name": "SleepClimate AI",
+        "reason": "There are apps that do the same thing (Eight Sleep Pod/Cover, CircadiaOS, Feelsleep CoolWarmMat APP), and Moe only wants novel ideas."
+      },
+      {
+        "name": "AirPath AI",
+        "reason": "There are apps that do the same thing (IQAir AirVisual / Plume Labs: Air Quality App / BreezoMeter, Google Maps / Apple Maps), and Moe only wants novel ideas."
+      }
+    ]
+  },
+  "agent": {
+    "version": 4,
+    "candidates": 8,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "79 past ideas, 6 liked, 24 disliked"
+      },
+      {
+        "step": "world",
+        "msg": "14 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسد والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+      },
+      {
+        "step": "scout",
+        "msg": "8 candidates via gemini-2.5-flash: SleepClimate AI, Celestial Lens AI, AirPath AI, Global RemoteGuide, MemoryWeaver AI, FoodShield AI, EU Startup Pilot, TravelSoothe AI"
+      },
+      {
+        "step": "compete",
+        "msg": "checked 8 candidates via gemini-2.5-flash"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): Celestial Lens AI"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): SleepClimate AI"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): AirPath AI"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 2, rejected 6 via gemini-2.5-flash"
+      },
+      {
+        "step": "translate",
+        "msg": "English version ready"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "akhbarelyom.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMfW5B8x5odGSjtwyw5W7pFUFOoMAZhOsyT3lxmXFWz4SzqqutsXiSLEWC54iYmv1uTAb7r7Y4efmUDdL9V0TacqZHplYSQvvuJk86qGc8pAFx4tloyKO_kChgj9UB1lMOFAQeSuCKCWJ1eMx7rWu2D_DyZ1iHj8MZHtVjYuvTBSxCGXybJg2yHccAtwHnx-5sl59Lj8-L8G2_VL5_AoMfN611mSK47ETea3mCAbfsotCD71RlajGx8_aYQZgjZcmq7c4S1OBnxtRPnN8t3xymJW2vaebY-175SDvbKwHLBCr2bTNNLdGiadWDumwHArvKr4AtyNIsxMP_xFJPNFGxP5g2WZNXFbla2h8O_RijugUVdJmOorc7QZW3vnzIqGltDJUZ-pvJdFLrpIQjfsgXxJ0TiwF7CUqHyA1l"
+    },
+    {
+      "title": "alnahdanews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZHB4-ZuG5OWaqYa6i5XA2mlx1ohfvy5Lr8qhI0u73kkCBp5rvD1C_lh6MRVJO7m2ZlCimca2NL4ankx0BblxuJjzeoB6_V5GWr0b4XxcqAb6kxggUR-Jsudm5E9IBHUGJagzbiHFtRsVcVDVsOMWBHm-VukT5V2KSBANCC_eA_yps106DWnyY-moMx6x5TRSavswNXtKu3xSmWAztHHlJ5jJD6Iw2WF1lDPsZzM2iiz5gDo_Ak6kcYcZHttmlfM8H7c9S3Gfs9aw1WghJyjwMs3FRD1QDyvA7Eh8snHc82TIws4gQkI4JynFAZD0mqhGb6z2Ydfhlm-hucNshwyGVkhy8tBV-awmdaUfaz-Pou7yym7utwOYFYEKj_KyEUQTmuzV9lqOgi3jmkga-ZNIcWXHfjxxSsZKg8XbbKeTkDnx_HPeeOLQJrfx36x3r0xetHpiiSXXudEkA11SxDjtQxLpiXU0szWYHF34bN1gg_WECNyh-YmN0xnlv5jRhsYcRrcledLMsZ9tNgJMeRCFcSI-3wGsZGaLLT_Xmx51DMYgxwSrylQKx4Y0-wMdFgQ=="
+    },
+    {
+      "title": "almasryalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEotkBroT81TYVxUtUGSxNflcosH2hclmzVpcOMFseNhS7kSRbWb5IqO7TpopLHdfpAj20u59jOGfF0HFfsdgxIoUgJP20HfdK3o7DG78YSTZaDlbQJTb6XwjQ_STXG0FAguLbkAFbUrM3CrE8="
+    },
+    {
+      "title": "jnptravel.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGDb2psMWn5_I_qN_Dee30vrJvkDT5zv5DuMu-apHDtrmzoYbA_Ps4fDF5Vlc7vBRCjReGc7YLDPgyFuVdegGB_cUQm6PaoHMMxPyqY0L3h9hKXhwAlHKVThi9cfIz0p6E4gS7x5Gq_7qIrSLrmhiAr-2m_QcQYHTc4xev5PF5LCw8h027VWXYjQ=="
+    },
+    {
+      "title": "jnptravel.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYri_qZbugYfr4envJSnahwQLlNhrjbtKNI1zAV95y2Vlf52qX-tstb4UjIrlxQHZxxQ8R687r-uwVQRVD_JoN-zqKr57UOg8gOjnSTgkhgCwnLb6uohiAb3FDSFnZjdvNLrwMNKSB2_wutfUK09vi70wwsy86xt5s7_1lUg=="
+    },
+    {
+      "title": "albilad.ca",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE92HXSZZN4iRSHi4L_HCZD2JvChQi4Yk-LMr5uZyA-RN4nwKk1xlsoQO3UBgrHld8X7TBn0fPgC0M2HBllE_YdmUJKugbWRoYR6lV-AXxIGDXGydWKW4WKb5NoiASQI770O1cGag3NuVvEMis6jAQ--E4zUTWxjF2_lR7D1lSeqiYHznqEZx6dkLoE4ZRghDKYDNZcCNTyraaLYy3DZVzQv3AxRUU0qlXRAaWKRckOP8rKVBO2tf0y2C-WO97tGyGp08vT6Lo8erfaGOAJ9aBy2QzGIU36jY_W1iFLmcAHFWsEakW14TMTim02afoDRmTtmFmQUSh3VxZdLKdE6ts11lMWr23jJ63GUMBnmTnZV6w="
+    },
+    {
+      "title": "hespress.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsLMONdSdxVKWstJfLbTQuG9B4lDMYt91_T-r6bzFoiXjgL1_C8hFoCEqWyEJeI5CtudNr-lbqv7Sf1Su_VwBXAN8GaqHZ_whf6IKhO2NinyWKGFnp9CO8H9w-lnyjOMi6xN0PGdxJeE7cQAqy1m2GO50FT2BolQdbEuZfXDSGCF-gWEIjtKaV-fCvqC_M5L8qqE31YuZbB6Gdvs-8ssTwqXTCdk_P54ThEhB0ionpay6QfnF25jNYJrOeJxa3DXl-7Oy2uBXPWDw7qVcyNrYf0GHtHfu5csXvK5OG6M06GplxRF9ixzeucs4fxzQh_SL_7qrfIN0hZsrWEiw-TyOSMGf3VjQccaR4r-tyVzUfG9hgwf3nSDVw440fSipRwtXuOljGv_sB"
+    },
+    {
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhX6BWAje-uQuOL8pHzDjUMto8UKN_L-kS4AQhMfm5_H4DBBzvDjTsXeuTxnKPRBPnAmGo2Ia2ssDiHrS-I8XJW9WGe_TqC3r5wVgtoYWPAyhxlODEjFSA3OvxoyihbeV92ai4S3saPUNLIC-kx4__tPRGvAv1Fa09kGDQdEGDc804Edj6CrARpvMJ5hqaxAXKMt3GPQI8NQMh-WZyOBy5w-y3bUblcINaETR1"
+    },
+    {
+      "title": "sleepeducation.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_nn1V-zVrZ82Ne5lgKn05rIGSl9xlUpLejuJfwChhe37_r5OJ3cznZjhgCApDHHwBxstxnoYKHG_4Jtv0OQIcn12XVIqDu3-AsEyH9IgBhITKutKrelT6MGkbyi5urQ3gXPHd_CC8F2hG509fCZP_IQwQjXU="
+    },
+    {
+      "title": "climatecentral.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxC_du9lHY0enVai--KDBVNSI85J0kp1uLlaZ7eg1g6lZUh_qWKwsoUp_AXwNalMrBg_ZrldRRYEO6NvMHsboPe-RkOpSozvVJMsgpdWziDPSHy5GQznZTHlU8616rAPuoGhZ3GrhVhT2vktXwXoA-zP67Nny3r7YfbGsDA8W90mDU"
+    },
+    {
+      "title": "almaalomah.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgpscIrbN3k05rySpl3pBwnv3dU97azJaEV_5qSlbKc8fyJHlTHqg69JX6F-G9wgBuGRaYbZW4oz2V4Izt6asxz-eyqtEVLUpMDqEab9djLKGcPEfnP2NisguIOsAVxcEX9W9yZTz3ZR3RyThefRZxBCVnGfnu-TAkRj6BBw48kSDvQ1uQf0KVUybP1O4blvFZChnytZxmiX6yQ--fORYmGGlG9zjLPhj5g1wU6zTq7Z5z8ld3Ouc2RLWZkVynQuWd0MThIqB_214rbpeT_vl7sft-UEcagWgT-4Z4arsfqiuGPAPuUMTQqMxM_fH5Jaddl1XIWiTIx2V6T8NWK3I3w2WfJ41HqKHZtT_W7h3raMadPj1ZSjuZos5eVjKpM-rj0J9feAU9rSjxbOWGjAK_dEV96aGgb3aFyN60VKogFnRX9dCrxgXKGjIYyV45RCvIhOgH0qHBEXt5Yh-M4S-lbgZQuc_43iY4kvgdkWS-MrPHvOxZ5OTpaj55Vn6Vv_WAgoKFF0RFBjuOc6-_mGch"
+    },
+    {
+      "title": "darelhilal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqfpah2QVf9l5zj6tFcq69HIucQgP_Z2llF5pq55S3yaFb_c_gUUzO5uHD2KCCz58PNbBKl4dryG3jp4jF-mpPK0pW1s0GyOD7uD8FK8g9juVVQmgvrAkM78Et98L-R-rfbQ=="
+    },
+    {
+      "title": "annahar.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHo9VApLHk77orVeiA8vMPgIDCIkba8K5ijH3LHV9SnZVW8yOBq-DulXGz8bf6hWZwD3Y89bIwEyhXse8CxyrlJDs8V3I8AhaYDjhyqPJ64SuROUbnFuMsnLWisRc5crQZ8kzgx9CKWwUe5gNEUK-7aLrraPAWhel6k9WdEGU4Jgy4bIN59Us7ZZp7KsfyG1AmyFFFM2DhGcNTfl4U1ovwtgMKW8yenOxAmiNOY8VqrupzjlVQrCHz5EdB2n57mtGTHMv7kKt_BskTc0tJPzdQ4LmrLTmSDKfS_1rQncl1ATCe_NUfYBg1LHklqAqdbo9BmPLKQ7UsZaUex4B2WenprD9c-31mY4squWw8_stkp50QFqM_aPJkDztqCNIya3Ph5Y9C3W-6Cd8YCnA7H8nodLyL_TR1YGN1KeFWnirNPRxauXE6pv2QPj2yRi8kUp5a2hBHuWmdrCppWJRdQQ-79Zg6uS2oNq9ue80Ely_2_LPlRuNtjegWTBFKSGdXNj6EItkK3Nj_QhG2XXk24602wI-M-6vLHxMozfLZEts8g4aWpTK58oTwkcdFgooLw47TWqrs2w=="
+    },
+    {
+      "title": "alaraby.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4fugERwM8TEJVGb55SSPZ5c7zFG0Cginore30F2EUD_7xE8fpxDMqiKXcD7ZGedlhtn8fSubFjd2w_4C5sIEpLuC7UMtN-vLnAgmv2UYLrOueVB9CLRm3lnoXJRBlOaSGHT7QRieEYH1r1FMiblo1ED-P5pwEfyoKnm4J3lgH-BAtDzJ5ajGCdq4N46c6fBI9Ra290P5A3x-HKu8tINa4VIEgYvMKxNt-i9M7WKlN7BBVI4ttaDaGnpbZPvrJOnL_Ih78okv_cb7-QbFgmT2muMzQ5Fq24opAzsld71qD2IB423T2XfrdfbmQ6JTwCIgAXjdIjs7HBQR1f2Hdp1yZ8HYnM-5-i75_70XM60nAJ0_PPn8gFktzxTt_m6JmvFrUhKV3-A7NU29olqZCdYRqp7e5Ykh-WYMjU3NlqDhRogF9T1pB-4BNZit4Gv6ap049t1EGf1esnoPmt5rXiPURz6ckTprjwCYn8dubrJGoRF_EZc9K6oQAixp__ORqHxd_CsoP7A=="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJyMDbkNbcbpRRoD6t82jcgMvYB74Gp_oVxYu33BLWEBFxCLDiJ6NoSriQGr-t8tPQY1ClOl472MoccBddeOoLq42j69i6br4P84kT55ZkHWaDBwmKNmc15Gvbt0i8ne1x85WzI32u7svpllMAnB6sy57wiSyhA53i7Pz10_hlMW2YPaIDcaBwgviS346PhNsHBGj4p4YjFreC9iedruNPOQUSfCRqMbiOEz6QA9Hz-vfLPBDlsH0Bvzi5Us5FrcleeS4asaeY8jA85jZNXM9JxwU7pwuswCbD7VJwNlxQSNDof6gBn8_HB__mRFd44R7eKkJUzjahhcXHDTKzJvXfETG03TPS-YuljluziuRXS0u0B243jMMXQYadDx25gStrTw=="
+    },
+    {
+      "title": "alquds.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfndgVeJHV_TzA9VZjU0uok-iTMuiPLcMfXtFKXjrITXQ6ynZyeVPbj0lzwGoXmtMb_sEu3s0Zm0S6vrshipw8hKdQInC9U2U4xhkolBP5aUDTghIu72ucDf5lTUb0RLdj1bOGqqsAjkb_L3zJfrgi62Dba1i036uo3k5O14MOEMY="
+    },
+    {
+      "title": "madar21.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTC8b6sA4GqTPeHgnpDLYggj--I3ysBsX2BKpeKybtUanQDIhvk9ZcO1Y-6r4C1MvtYEezQnJczvJoywt5SxZ0Z4Ysayu7WHuolRc-VPtQOvBRVKkpXdT--w=="
+    },
+    {
+      "title": "adm-indicia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqxy-ueLOIGJSfuN1GPSQCnjbDd--V0077OeDm73yxVzd1Xc2qEQKyZPAxmPRqCPe1mTSFKWRn27g6T3lc4m6tX8wZGnk3bIjLlbDvJY3_qt0uyrazGEzxPxSJhB6bb7cWVd7myJ4iy9oIvbUwtwyquDMrZQ6CJfDAI9CVDHMHfyDo9UfqeAYIyeOMfxEaHQ=="
+    },
+    {
+      "title": "salsify.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3wUzDi-dEaeC6LxNQYyvK_iBx0gin7sSYPCGhZns6b0LqF87dD5ghchpn7A95gZEtJF6yTFH80drk5Y8s0YNp6IbvKmfRi9PPhqHG1DHGSyLXkHqYwjrC1xHaLi5BBJP442GaR-G6jBM_Hxa2q2dTIAPE3qjDMy_LvJbUUWwxRC5pKzud7ks="
+    },
+    {
+      "title": "zapulse.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcYQBTksL4Fml38w5931bilUAsZxIMCPDvlqEJD2Sjt3thyu4IAy3cbEGjIyBhD8vhz6op2S-LljVyxJuVv2QSiFxpVHrYYMj8ViP7YW9gsb1-ATQaVYZbGejBDLAaWT2LwDmpmu1uWP52TwFh"
+    },
+    {
+      "title": "thatagency.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEefaGtIFsTOz4YMu5LhcYx7GmYbGGay0xhxEZMbfAVZz1bs4lLMBbKoFxXW6ydL4ntByd2VAYYDasxBHywQZ_d9eiP5_P7PqsayEbyOzqiadV18T_3hKjukJWIVp2iuA8RgaUUGdarWvzvekkxvdTHHMBn0A=="
+    },
+    {
+      "title": "saiftech.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8fFEbhvIYS1o7WLAzWAHaMyBmvCaSSPI8N0wi-3ddUrhG_zckSU3tU4aXw9cFA3nvx1q_Ii5WJ4SymaUQ19YJZ0djIGogGACjSjByfV5lXhfuUeDsXM8qPnSa8Tu9KAVFU8wa"
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwf6M85L7NGP0ujUdKvlhlGT7B3PV3AsIxymG_uLhL8Rt2SOwKYCHXp3gR2ENmYNZLgcAi5kwbRAZJ5_UhaemCh3XImWzifucdnNdgpaq6UtgRv8DDMdzy5xeGyhbkTJNXKS9Tr7UxUCmaTTOu9V4nfQqp_v_tALlBWmw1mrTH5yInKIhfx3om0PFDNZd8Dt-MH_dHNZW4VhiQHSzHXyHZ_QfFgKDOxFOzv_3Npp6aCErYQlZDhVq6dpwvgnZYHScet3eEb5jhVjNcPd69E7JqdyNGkD0i6KCgUfofjgANUbdd6NEqIZr4iwen6woYgtml9krvay4X5NFvMw9BN3taZzwL2XnCoU0r77bujkueSsJHD7JEXMOlPmK2OZf4Lw=="
+    },
+    {
+      "title": "techcabal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvH15sCJbffWJJ7iZzuXKxhZafa9hAdnDvxmwaOLep2i1b1m97f3Sx4G6Qm9jCTxCJzyMn00VQM5OQpppQGYO89y33PaTe8PU1DCLD3T38zoBONhWP5iCTJCrbdBELgtorubsSIHdhW6qN3eaFHCnD5NNgKaIpeNuregLoagmJVYpbMjWhWBO2"
+    },
+    {
+      "title": "alborsaanews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8dP7xl1JaxVvZt2fX36UKTU19llFVFHxgmv79BqL48ZJqbSSITP2xyE7zyQ7wgsVLqCd798OSRAbIcpOeg7fVacz_7QiN63DlvGAsM4LIosZZ-jpSwWQAz09zxVoFAJQQOZ5Fdw=="
+    },
+    {
+      "title": "europa.eu",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcXDrzvCmtqXD3_qVhtI0iBSCbSWcPfytoPXMU2w8IWJb65wdfr7ahtKuwP_EJYYFmK7AOFN1wYDYUxauOlAPyxts_bVW2CCTwciOvtHyRCe1HUjlBwyFeOtfDRZTH4rr8UkX6fzuorDRzneg0x9zXrtdy7-AF_iswwHYL0LBzStf031fT-y6UGkSKfiUw97kwZRXQ8WJY_0CoQ3x6Iv21ka8IEBc="
+    },
+    {
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDNwk3qBO-YaQuArJ51VDsEFQKDPD-L8-xfeG-qe-0leHRzot07jfIe78TuwJRvWlNe3Mp-PGpyzL1uUw_VyT4socwPGR-GE-WpDUsbUjjFNbCAG_YgrolUFhjteUNNgk9SuyMjPtfhCLoq_8MS0ZOKD_WBAAV6eisVVzmT4yz2rNsgm9pnXTRsOvkMV7WBQEM6pNeFXVSi1YNjPpFsMakGLlfd-HpZjkM7mmleJtXOwqIZmd3kN_HywKCIzeBbSOxu72vU12G376B4PHpFiu1tyvBAduROh0snJNzzIl5JHI6eY_qqXTnjoWsRUHfqhsK49E0OCRy-X3Gn5awDIY7fq3zityqTPMNCxB5_ocD5ghYyra2x7Q5txPk4qilv5H0cP-IzILvQbxgpMc4hAeWjy8VW-qlUOthv7uHsVjL1pKAWdb33QIK1di__TLcWPUGS-ZEHWcojsJp"
+    },
+    {
+      "title": "usastepbystep.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Z5d8x66aXJd4UHSKHOAS3KGiAeEgy5AcIquIRk2OYOQpDJ4fbx0vddpXW4uUa02UfwjHQo4t69IPkzg8R5EmXcW2XLAulVacrQJbU7lzFWDvU2MMQmis5NSY9-9azVJO5BAdY6KSHVhzfibF7dB89oeLWf_gyJ6ixvvo"
+    },
+    {
+      "title": "pigeepost.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGE29LzHELFuakzhAQCiuNL17-rgB8kBLWxUkbq2ejxqFBwvxkeNsAL9H1PvA6glHaATwNqH7WM8mdJMcUIhwohsO-POI7_HdHD3GDgCbXrovX1AKwl75esijTD3yEGfryJpBV0iJmnFiEYqb_XSzxNg7d0HSdq9tjthzGmMzT53y-yITpl0wG2U8_pvBo6BZIETikFrO9ABjLvlXMrRbL_3y43mb0-KnCMBss1UI-"
+    },
+    {
+      "title": "aurora-expeditions.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNiKxOzVxlWUXLgLLFqZbr7Pn_UdgXrxtkzSBKM6jHavMyBavHfPU3YLu2lRqxTI4sg4XWp06m-W7wMmd4DWPWZ9dMTR_ZVqtAa-CvqmqUb3ulhLmCHnFFYC1rPAQRssHLKgNq7TueRWNFoVu3qaf7GJLEWPSn8qdDqT8H7A=="
+    }
+  ]
+}
