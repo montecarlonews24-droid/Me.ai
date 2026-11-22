@@ -1,13 +1,37 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T02:29:04.238Z",
+  "generatedAt": "2026-11-22T05:27:04.475Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 16 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص لأنها لا تتناسب مع مهارات Moe (مثل أدوار التواصل، إنشاء أوامر Midjourney، أدوات تحرير الفيديو على الويب، أو تطوير إضافات Minecraft). تم رفض فرص أخرى لأنها وظائف بدوام كامل أو تتطلب أدوات AI لا يستخدمها Moe. تم الاحتفاظ بفرصة واحدة لتطوير تطبيقات الجوال مع ملاحظة للتأكد من أنها عمل حر.",
+    "en": "Most leads were rejected as they did not align with Moe's skills (e.g., communication roles, Midjourney prompt creation, web-based video editing tools, or Minecraft plugin development). Other rejections were due to full-time roles or requiring AI tools Moe does not use. One mobile development lead was kept with a note to verify it's a freelance project."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Mobile Developer",
+      "url": "https://www.linkedin.com/jobs/view/4466633645/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Ukraine",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Creatio · Ukraine",
+      "fit": 7,
+      "why": {
+        "ar": "Moe يبني تطبيقات أندرويد أصلية (Kotlin) وتطبيقات هجينة (WebView)، ويمكنه التعامل مع نشر التطبيقات على Google Play.",
+        "en": "Moe builds native Kotlin Android apps and hybrid WebView apps, and can handle Google Play publishing and rejection fixes."
+      },
+      "watch": {
+        "ar": "يجب على العميل تأكيد أن هذا مشروع مستقل/عقد وليس وظيفة بدوام كامل.",
+        "en": "The client needs to confirm this is a freelance/contract project, not a full-time employee position."
+      },
+      "proposal": "I can help you develop a new Android mobile application. I build native Kotlin Android apps with AI-assisted development, like Flicker (currently in closed testing on Google Play) and hybrid apps like Islam Rising, which is used in 177 countries. I also handle Google Play publishing and rejection fixes, ensuring your app reaches its audience. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more details about your project idea and whether you are looking for a contract or full-time engagement?",
+      "foundAt": "2026-11-22T05:27:04.278Z",
+      "fresh": true
+    },
     {
       "title": "صناعة تطبيق اندرويد عبر كلود",
       "url": "https://khamsat.com/community/requests/800960-%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D8%B9%D8%A8%D8%B1-%D9%83%D9%84%D9%88%D8%AF",
@@ -319,33 +343,57 @@
       "proposal": "أهلاً بك،\nأتفهم حاجتك لنشر تطبيقك الموجود على Apple Store إلى Google Play، بالإضافة إلى إدارة إجراءات المختبرين. لدي خبرة عملية في نشر تطبيقات أندرويد على Google Play وإدارة متطلباتها، وقد قمت بنشر 4 تطبيقات خاصة بي بنجاح. أستخدم أدوات الذكاء الاصطناعي في تطوير التطبيقات، وهذا يضمن كفاءة العمل. يمكنني مساعدتك في إتمام عملية النشر بسلاسة والتعامل مع أي تحديات قد تظهر، مستفيداً من حسابي القديم على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك ملف Android App Bundle (AAB) أو APK جاهز للنشر، أم ستحتاج إلى مساعدتي في تجهيزه؟",
       "foundAt": "2026-11-20T09:25:34.451Z",
       "fresh": false
-    },
-    {
-      "title": "بناء بوت واتساب شامل",
-      "url": "https://mostaql.com/project/1293982",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع بناء بوت واتساب لإصدار بوالص الشحن. يطلب اسم العميل. رقم الجوال العميل ارسال otp للتاكد من صحة الرقم مدينة الارسال. المرحلة الثانية: اسم المستلم رقم الجوال العنوان الوطني المختصر المرحلة الثالثة عرض شركات ",
-      "fit": 8,
-      "why": {
-        "ar": "يتوافق هذا المشروع مع قدرة Moe على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة، مع خبرته في التكامل مع واجهات برمجية (APIs).",
-        "en": "This project aligns with Moe's ability to build AI agents and automation systems, along with his experience in API integration."
-      },
-      "watch": {
-        "ar": "يجب التأكد من توفر وثائق واجهات برمجة التطبيقات (APIs) لشركات الشحن وبوابة الدفع (ميسر) لضمان سلاسة التكامل.",
-        "en": "Ensure that API documentation for shipping companies and the payment gateway (Moyasar) is available to ensure smooth integration."
-      },
-      "proposal": "أهلاً بك،\nأتفهم حاجتك لبناء بوت واتساب شامل لإصدار بوالص الشحن، يتضمن طلب معلومات العميل، التحقق عبر OTP، عرض خيارات الشحن، ومعالجة الدفع عبر بوابة ميسر، ثم إصدار البوليصة عبر API وإرسالها كملف PDF. أعمل على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة بمساعدة الذكاء الاصطناعي، ولدي خبرة في ربط الأنظمة بواجهات برمجية (APIs). وكيل الذكاء الاصطناعي الخاص بي، Me.ai، هو مثال على قدرتي على بناء أنظمة آلية ذكية. يمكنني بناء هذا البوت لتبسيط عملية إصدار بوالص الشحن لعملائك.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك وثائق API جاهزة لشركات الشحن وبوابة ميسر؟",
-      "foundAt": "2026-11-20T09:25:34.451Z",
-      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Technical Interview Communication Specialist",
+      "url": "https://www.freelancer.com/projects/software-engineering/Technical-Interview-Communication",
+      "reason": {
+        "ar": "هذا ليس طلبًا حقيقيًا من عميل يوظف لعمل مشروع؛ إنه لوظيفة أخصائي تواصل ومقابلات تقنية، وليس لتطوير تطبيقات.",
+        "en": "This is not a real request from a client hiring for a project; it's for a communication and technical interview specialist, not app development."
+      }
+    },
+    {
+      "title": "Futuristic Streetwear Scene Prompts",
+      "url": "https://www.freelancer.com/projects/3d-animation/Futuristic-Streetwear-Scene-Prompts",
+      "reason": {
+        "ar": "خارج نطاق ما يمكن لـ Moe تقديمه (هندسة الأوامر لـ Midjourney ليست ضمن تركيزه في الذكاء الاصطناعي).",
+        "en": "Outside what Moe can deliver (prompt engineering for Midjourney is not his AI focus)."
+      }
+    },
+    {
+      "title": "AI-Powered Video Editing Tool",
+      "url": "https://www.freelancer.com/projects/ai-video-editing/Powered-Video-Editing-Tool",
+      "reason": {
+        "ar": "خارج نطاق ما يمكن لـ Moe تقديمه (تطوير تطبيقات ويب/سطح مكتب، والذكاء الاصطناعي المتخصص في تحرير الفيديو).",
+        "en": "Outside what Moe can deliver (web/desktop application development and specialized AI video editing)."
+      }
+    },
+    {
+      "title": "Custom SMP Server Plugin Development",
+      "url": "https://www.freelancer.com/projects/game-development/Custom-SMP-Server-Plugin-Development",
+      "reason": {
+        "ar": "خارج نطاق ما يمكن لـ Moe تقديمه (تطوير إضافات خادم Minecraft)؛ الميزانية منخفضة جدًا.",
+        "en": "Outside what Moe can deliver (Minecraft server plugin development); the budget is too low."
+      }
+    },
+    {
+      "title": "شات ذكاء اصطناعي مختص بالمنافسات الحكومية",
+      "url": "https://mostaql.com/project/1294407",
+      "reason": {
+        "ar": "يتطلب أدوات هندسة ذكاء اصطناعي لا يستخدمها Moe (على الأرجح مسارات RAG أو نماذج تعلم آلة مخصصة لتحليل المستندات).",
+        "en": "Needs AI engineering tools Moe does not use (likely RAG pipelines or custom ML models for document analysis)."
+      }
+    },
+    {
+      "title": "Backend Security Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4493122377/",
+      "reason": {
+        "ar": "وظيفة بدوام كامل أو وظيفية في شركة؛ تتطلب Flutter/React Native أو العمل ضمن قاعدة كود موجودة كبيرة (Python/ML backend)؛ تتطلب أدوات هندسة ذكاء اصطناعي لا يستخدمها Moe (مسارات RAG، بنية تحتية للتعلم الآلي، Python/ML).",
+        "en": "Full-time or staff job at a company; requires Flutter/React Native or working inside an existing large codebase (Python/ML backend); needs AI engineering tools Moe does not use (RAG pipelines, ML infrastructure, Python/ML)."
+      }
+    },
     {
       "title": "Sci-Fi Streetwear Close-Up Prompts",
       "url": "https://www.freelancer.com/projects/ai-image-generation/Sci-Streetwear-Close-Prompts",
@@ -430,11 +478,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 7,
     "steps": [
       {
         "step": "memory",
-        "msg": "1058 leads seen before"
+        "msg": "1060 leads seen before"
       },
       {
         "step": "verify",
@@ -442,7 +490,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (120 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 87 skipped: not app/AI work)"
+        "msg": "15 open projects from the last 5 days worldwide with budget 100+ USD (122 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 94 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -458,19 +506,19 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 6 hours ago: 67 projects on the lists, 0 sent (HTTP 200 160908ch 30 links; HTTP 200 160836ch 27 links; HTTP 200 164177ch 27 links; )"
+        "msg": "phone relay last read 1 hours ago: 68 projects on the lists, 0 sent (HTTP 200 161067ch 30 links; HTTP 200 160494ch 27 links; HTTP 200 165161ch 27 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "41 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "42 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "1 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 6 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133359ch 25 links; )"
+        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134036ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -482,15 +530,111 @@
       },
       {
         "step": "linkedin",
-        "msg": "343 jobs from Gmail alerts (last 5 days)"
+        "msg": "362 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
+        "msg": "Mobile App Developer / Middle East: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer 2 - Mobile Development"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior AI Forward Engineer, Foodics Online"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer 3"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Data Scientist - Technical AI Solutions"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI/ML Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI / ML Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur(se) en IA"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur(se) en IA"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Python/AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer II - AI Engineering"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): ML/AI Engineer - QMTC"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Engineer (LLM)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Solutions & Integration Specialist"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Forward Deployed AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Engineer (iOS / Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Engineer (iOS / Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (IOS)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr iOS Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): React Native Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Front-End Mobile Engineer, Aza & PXT AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Front-End Mobile Engineer, Aza & PXT AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4466633645: HTTP 429"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "2 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -498,11 +642,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
+        "msg": "4 new Freelancer projects added, 7 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 6 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
