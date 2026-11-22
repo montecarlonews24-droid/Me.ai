@@ -663,11 +663,14 @@ async function linkedinPost(url) {
 // مكاتب توظيف ومواقع بتعيد نشر الوظائف: بدهم موظف وCV ومقابلات، مش فريلانسر
 const AGGREGATOR = /hiredbuddy|jobgether|jobot|lensa|talent\.com|jooble|dice\b|crossover|braintrust|toptal|turing/i;
 const AGENCY = /recruit|staffing|talent|consultan|\bhr\b|personnel|resourcing|search partners|oliver james|thornton gregory|emagine|hays|randstad|adecco|robert half|michael page|harnham/i;
+// إذا العنوان نفسه بيقول فريلانس أو عقد أو بالساعة: منصدّق العنوان، مش خانة "نوع الوظيفة" (الشركات بتعبيها غلط)
+const FREELANCE_TITLE = /freelanc|contract|contractor|hourly|part[- ]time|\bgig\b|project[- ]based/i;
 function linkedinBlock(p) {
   if (p.closed) return 'closed';
+  const freelance = FREELANCE_TITLE.test(p.title || '');
   if (AGGREGATOR.test(p.company || '')) return `job board (${p.company})`;
-  if (AGENCY.test(p.company || '') && !/contract|freelance|temporary/i.test(p.type || '')) return `recruitment agency (${p.company})`;
-  if (/full-time/i.test(p.type)) return 'full-time';
+  if (AGENCY.test(p.company || '') && !freelance && !/contract|freelance|temporary/i.test(p.type || '')) return `recruitment agency (${p.company})`;
+  if (/full-time/i.test(p.type) && !freelance) return 'full-time';
   if (/director|executive/i.test(p.level)) return p.level;
   const yrs = [...p.text.matchAll(/(\d{1,2})\s*\+?\s*(?:-\s*\d{1,2}\s*)?years?/gi)].map(m => Number(m[1])).filter(n => n >= 3 && n <= 20);
   if (yrs.length) return `${Math.max(...yrs)}+ years required`;
