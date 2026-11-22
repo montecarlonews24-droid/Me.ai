@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T17:59:29.685Z",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T21:26:53.008Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 17 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 17 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 16 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -347,254 +347,22 @@
   ],
   "rejected": [
     {
-      "title": "Highway Speed & Plate Detection",
-      "url": "https://www.freelancer.com/projects/computer-vision/Highway-Speed-Plate-Detection",
+      "title": "Ultra-Mini Deep-Insertion Earbud Design",
+      "url": "https://www.freelancer.com/projects/3d-modelling/Ultra-Mini-Deep-Insertion-Earbud",
       "reason": {
-        "ar": "يتطلب هذا المشروع خبرة عميقة في هندسة تعلم الآلة وأدوات مثل Python و OpenCV و YOLO و TensorFlow و C++، وهي أدوات لا يستخدمها Moe في تطوير ميزات الذكاء الاصطناعي (هو يستخدم ميزات Gemini AI). كما أن الميزانية المقترحة صغيرة جدًا بالنسبة لنطاق المشروع المعقد.",
-        "en": "This project requires deep machine learning engineering expertise and tools like Python, OpenCV, YOLO, TensorFlow, and C++, which Moe does not use for AI feature development (he uses Gemini AI features). The proposed budget is also significantly too low for the complex scope."
-      }
-    },
-    {
-      "title": "تجربة موقع مسلسلات من الجوال لشخص مقيم في السعودية مع شراء باقة 1.99$",
-      "url": "https://mostaql.com/project/1294692",
-      "reason": {
-        "ar": "هذا المشروع عبارة عن مهمة اختبار مستخدم (User Testing) لموقع ويب، وليس مشروع تطوير تطبيقات. Moe يقوم ببناء التطبيقات، وليس تقديم خدمات اختبار لمواقع أو تطبيقات الآخرين.",
-        "en": "This project is a user testing task for a website, not an app development project. Moe builds apps, he does not provide testing services for other people's websites or apps."
-      }
-    },
-    {
-      "title": "تصميم هوية بصرية تطبيقية متكاملة",
-      "url": "https://mostaql.com/project/1294710",
-      "reason": {
-        "ar": "هذا المشروع يطلب تصميم هوية بصرية متكاملة ومطبوعات مكتبية، وهو عمل تصميم جرافيك بحت. Moe مطور تطبيقات وليس مصمم جرافيك.",
-        "en": "This project requests the design of an integrated visual identity and office stationery, which is purely graphic design work. Moe is an app developer, not a graphic designer."
-      }
-    },
-    {
-      "title": "مطلوب اعادة تصميم 3-5 شاشات لتطبيق",
-      "url": "https://khamsat.com/community/requests/800791-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%A7%D8%B9%D8%A7%D8%AF%D8%A9-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3-5-%D8%B4%D8%A7%D8%B4%D8%A7%D8%AA-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82",
-      "reason": {
-        "ar": "صفحة المشروع محجوبة والملخص فارغ، مما يجعل تقييم النطاق مستحيلاً. العنوان يشير إلى إعادة تصميم شاشات تطبيق، وهو ما قد يكون مجرد تصميم واجهة مستخدم (UI/UX) بدون تنفيذ برمجي، وهو ليس ضمن خدمات Moe الأساسية في بناء التطبيقات.",
-        "en": "The project page is blocked and the summary is empty, making scope assessment impossible. The title suggests redesigning app screens, which could be a pure UI/UX design task without development implementation, and this is not within Moe's core service of building apps."
-      }
-    },
-    {
-      "title": "Agency Structure & Sales Boost",
-      "url": "https://www.freelancer.com/projects/business-development/Agency-Structure-Sales-Boost",
-      "reason": {
-        "ar": "المشروع يتعلق بالاستشارات التجارية وتطوير الأعمال واستراتيجيات التسويق، وليس تطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
-        "en": "The project is about business consulting, sales, marketing strategy, and business development, not app development or AI agent building."
-      }
-    },
-    {
-      "title": "Gritty Streetwear AI Prompts",
-      "url": "https://www.freelancer.com/projects/ai-content-creation/Gritty-Streetwear-Prompts",
-      "reason": {
-        "ar": "المشروع يتطلب هندسة أو إنشاء أوامر (prompts) لبرامج توليد الصور بالذكاء الاصطناعي مثل Midjourney وDALL-E، وهذا يختلف عن عمل Moe في دمج ميزات Gemini AI داخل التطبيقات أو بناء وكلاء بحث يومية.",
-        "en": "The project requires prompt engineering for AI image generation platforms like Midjourney and DALL-E, which is different from Moe's work integrating Gemini AI features into apps or building daily research agents."
-      }
-    },
-    {
-      "title": "Taiwan Travel Shorts Creation & Publishing(Target: Philippine audiences)",
-      "url": "https://www.freelancer.com/projects/Taiwan-Travel-Shorts-Creation-Publishing",
-      "reason": {
-        "ar": "المشروع يتعلق بإنشاء وتحرير مقاطع فيديو قصيرة ونشرها على وسائل التواصل الاجتماعي، وليس تطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
-        "en": "This project is about creating and editing short videos for social media publishing, not app development or AI agent building."
-      }
-    },
-    {
-      "title": "English AI Training Knowledge Interview",
-      "url": "https://www.freelancer.com/projects/english-translation/English-Training-Knowledge-Interview",
-      "reason": {
-        "ar": "الطلب هو لمقابلة مدفوعة لتقييم المعرفة بالذكاء الاصطناعي واللغة الإنجليزية، وليس مشروعًا لتسليم منتج أو تطبيق.",
-        "en": "The request is for a paid interview to assess AI knowledge and English proficiency, not a project to deliver a product or application."
-      }
-    },
-    {
-      "title": "FlutterFlow MVP para Viajeros",
-      "url": "https://www.freelancer.com/projects/flutter/FlutterFlow-MVP-para-Viajeros",
-      "reason": {
-        "ar": "المشروع يتطلب استخدام FlutterFlow، وMoe لا يعمل بتقنيات Flutter أو React Native.",
-        "en": "The project explicitly requires FlutterFlow, and Moe does not work with Flutter or React Native technologies."
-      }
-    },
-    {
-      "title": "إعادة هيكلة وتحسين متجر طباع على Shopify (موبايل وكمبيوتر) وتنظيم الأقسام والواتساب",
-      "url": "https://mostaql.com/project/1294639",
-      "reason": {
-        "ar": "المشروع يتطلب إعادة هيكلة وتحسين متجر Shopify، وMoe لا يعمل على منصات التجارة الإلكترونية مثل Shopify.",
-        "en": "The project requires restructuring and optimizing a Shopify store, and Moe does not work with e-commerce platforms like Shopify."
-      }
-    },
-    {
-      "title": "جمع بيانات تواصل لصالح تطبيق للرحلات البحرية في السعودية",
-      "url": "https://mostaql.com/project/1294655",
-      "reason": {
-        "ar": "المشروع يتضمن جمع بيانات اتصال شخصية (أرقام هواتف، رسائل بريد إلكتروني)، وMoe لا يمكنه القيام بأي عمل يتضمن جمع أو تصدير البيانات الشخصية.",
-        "en": "The project involves collecting personal contact data (phone numbers, emails), and Moe explicitly cannot do anything that collects or exports personal data."
-      }
-    },
-    {
-      "title": "مطلوب مصمم فيديوهات AI ريلز",
-      "url": "https://khamsat.com/community/requests/800497-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%B5%D9%85%D9%85-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-ai-%D8%B1%D9%8A%D9%84%D8%B2",
-      "reason": {
-        "ar": "المشروع يتعلق بتصميم فيديوهات بتقنيات الذكاء الاصطناعي لمنصات الريلز، وليس تطوير التطبيقات أو بناء وكلاء الذكاء الاصطناعي.",
-        "en": "This project is about designing AI-powered videos for Reels, not app development or AI agent building."
-      }
-    },
-    {
-      "title": "مطلوب نشر تطبيق اسلامي من خلال مؤثرين",
-      "url": "https://khamsat.com/community/requests/800942-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%86%D8%B4%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A-%D9%85%D9%86-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D8%A4%D8%AB%D8%B1%D9%8A%D9%86",
-      "reason": {
-        "ar": "المشروع يتعلق بنشر تطبيق إسلامي من خلال المؤثرين، وهذا عمل تسويقي وليس تطوير تطبيقات أو إصلاح مشاكل النشر على Google Play.",
-        "en": "This project is about promoting an Islamic app through influencers, which is marketing work, not app development or Google Play publishing/rejection fixes."
-      }
-    },
-    {
-      "title": "مطلوب شخص من السعودية لتجربة موقع من الجوال",
-      "url": "https://khamsat.com/community/requests/801083-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%B4%D8%AE%D8%B5-%D9%85%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D9%88%D9%82%D8%B9-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%84",
-      "reason": {
-        "ar": "المشروع يتطلب تجربة موقع ويب من الجوال، وهو عمل اختبار مستخدم وليس تطوير تطبيقات.",
-        "en": "The project requires testing a website from a mobile device, which is user testing work, not app development."
-      }
-    },
-    {
-      "title": "US Mobile Shopper Testers Needed",
-      "url": "https://www.freelancer.com/projects/market-research/Mobile-Shopper-Testers-Needed",
-      "reason": {
-        "ar": "هذا المشروع لعمل اختبارات استخدام وتجربة مستخدم لتطبيق جوال، وليس لتطوير تطبيق جديد أو إضافة ميزات AI، وهو خارج نطاق عمل Moe.",
-        "en": "This project is for mobile app usability testing and user experience research, not for developing a new app or adding AI features, which is outside Moe's scope of work."
-      }
-    },
-    {
-      "title": "Claude AI 账号设置协助",
-      "url": "https://www.freelancer.com/projects/ai-chatbot/Claude-40830029",
-      "reason": {
-        "ar": "وصف المشروع مكتوب باللغة الصينية، وMoe يعمل فقط باللغتين العربية والإنجليزية.",
-        "en": "The project description is in Chinese, and Moe only works in Arabic and English."
-      }
-    },
-    {
-      "title": "DataAnnotation Account Partnership Opportunity |  potentially earn more than $1,000 per month.",
-      "url": "https://www.freelancer.com/projects/data-annotation/DataAnnotation-Account-Partnership",
-      "reason": {
-        "ar": "هذا المشروع عبارة عن فرصة شراكة لاستخدام حساب DataAnnotation، وليس مشروعاً لتطوير تطبيق أو بناء وكيل AI للعميل.",
-        "en": "This project is an offer for a DataAnnotation account partnership, not a project to build an app or an AI agent for a client."
-      }
-    },
-    {
-      "title": "Manual Verification of 796 Pilates & Yoga Studios in Lithuania – NO AI / NO AUTOMATION",
-      "url": "https://www.freelancer.com/projects/research/Manual-Verification-Pilates-Yoga-Studios",
-      "reason": {
-        "ar": "يتطلب هذا المشروع إدخال بيانات يدوياً والتحقق منها، وهو خارج نطاق عمل Moe الذي يركز على تطوير التطبيقات ووكلاء AI.",
-        "en": "This project requires manual data entry and verification, which is outside Moe's scope of app development and AI agent creation."
-      }
-    },
-    {
-      "title": "Futuristic Streetwear AI Prompt Creation",
-      "url": "https://www.freelancer.com/projects/ai-content-creation/Futuristic-Streetwear-Prompt-Creation",
-      "reason": {
-        "ar": "هذا المشروع لإنشاء أوامر (prompts) لإنشاء صور AI، وليس لتطوير تطبيق يعتمد على AI أو وكيل AI، وهو خارج نطاق عمل Moe.",
-        "en": "This project is for creating AI prompts for image generation, not for developing an AI-powered app or an AI agent, which is outside Moe's scope of work."
-      }
-    },
-    {
-      "title": "Python AI Business Data Automation",
-      "url": "https://www.freelancer.com/projects/fastapi/Python-Business-Data-Automation",
-      "reason": {
-        "ar": "يتطلب هذا المشروع استخدام Python وFastAPI/Flask وStreamlit/Dash وقواعد بيانات مثل Postgres، وهي تقنيات خارج نطاق Moe الذي يعمل بـ Kotlin/WebView وFirebase وميزات Gemini AI.",
-        "en": "This project requires Python, FastAPI/Flask, Streamlit/Dash, and databases like Postgres, which are technologies outside Moe's stack (Kotlin/WebView, Firebase, and Gemini AI features)."
-      }
-    },
-    {
-      "title": "Fix Mobile App Server Check-In",
-      "url": "https://www.freelancer.com/projects/backend-development/Fix-Mobile-App-Server-Check",
-      "reason": {
-        "ar": "يتضمن المشروع تصحيح أخطاء في تطبيق جوال موجود وتواصله مع الخادم، وهو يتطلب العمل على قاعدة كود موجودة وربما backend غير Firebase، والميزانية منخفضة جداً لهذا النوع من العمل.",
-        "en": "The project involves debugging an existing mobile app's server communication, which requires working with an existing codebase and potentially a non-Firebase backend. The budget is also too low for this type of debugging."
-      }
-    },
-    {
-      "title": "Junior Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4459312273/",
-      "reason": {
-        "ar": "هذه وظيفة بدوام كامل (Junior Android Developer) وليست مشروعاً مستقلاً.",
-        "en": "This is a full-time staff job position (Junior Android Developer), not a freelance project."
-      }
-    },
-    {
-      "title": "Mobile Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4492348527/",
-      "reason": {
-        "ar": "هذه وظيفة بدوام كامل (Mobile Engineer) وليست مشروعاً مستقلاً.",
-        "en": "This is a full-time staff job position (Mobile Engineer), not a freelance project."
-      }
-    },
-    {
-      "title": "Temenos Quantum (Infinity) Developer",
-      "url": "https://www.linkedin.com/jobs/view/4493364509/",
-      "reason": {
-        "ar": "هذه وظيفة بدوام كامل تتطلب متخصصاً في Temenos Quantum (Infinity)، وهي تقنية خارج نطاق عمل Moe.",
-        "en": "This is a full-time staff job position requiring a specialist in Temenos Quantum (Infinity), which is outside Moe's technology stack."
-      }
-    },
-    {
-      "title": "Power Automate Business Development Partner Needed",
-      "url": "https://www.freelancer.com/projects/power-automate/Power-Automate-Business-Development",
-      "reason": {
-        "ar": "المشروع يتعلق بتطوير أعمال وشراكات لـ Microsoft Power Automate، وليس تطوير تطبيقات جوال أو وكلاء ذكاء اصطناعي.",
-        "en": "The project is about business development and partnerships for Microsoft Power Automate, not mobile app development or AI agents."
-      }
-    },
-    {
-      "title": "Live Korean Avatar Speech Review",
-      "url": "https://www.freelancer.com/projects/korean-translator/Live-Korean-Avatar-Speech-Review",
-      "reason": {
-        "ar": "المشروع يتطلب مراجعة لغوية حية لمتحدث كوري أصلي، وليس تطوير تطبيقات. Moe لا يتحدث الكورية.",
-        "en": "The project requires live linguistic review by a native Korean speaker, not app development. Moe does not speak Korean."
-      }
-    },
-    {
-      "title": "Telegram Bot Job Data Scraping Consultation",
-      "url": "https://www.freelancer.com/projects/api-developmet/Telegram-Bot-Job-Data-Scraping",
-      "reason": {
-        "ar": "المشروع يتضمن استخراج بيانات (web scraping) من مصادر متعددة وبناء بوت Telegram، وهي خارج نطاق خدمات Moe الذي يبني تطبيقات ولا يعمل على استخراج البيانات أو منصات الأتمتة مثل Apify.",
-        "en": "The project involves web scraping from multiple sources and building a Telegram bot, which is outside Moe's services. He builds apps and does not work on data extraction or automation platforms like Apify."
-      }
-    },
-    {
-      "title": "Microsoft 365 and AI Services Administrator Associate Certified Associate for Partner Account",
-      "url": "https://www.freelancer.com/projects/microsoft-365/Microsoft-Services-Administrator",
-      "reason": {
-        "ar": "المشروع يطلب شخصاً يحمل شهادة Microsoft 365 و AI Services Administrator Associate لربطها بحساب شريك، وليس لتطوير تطبيق أو وكيل ذكاء اصطناعي.",
-        "en": "The project requests someone with a Microsoft 365 and AI Services Administrator Associate certification to link to a partner account, not to develop an app or AI agent."
-      }
-    },
-    {
-      "title": "Dominos Pizza Part-Time Delivery Rider",
-      "url": "https://www.freelancer.com/projects/delivery/Dominos-Pizza-Part-Time-Delivery",
-      "reason": {
-        "ar": "هذا طلب لوظيفة سائق توصيل بدوام جزئي، وليس مشروع تطوير تطبيقات. Moe يبني تطبيقات، ولا يعمل في توصيل الطلبات.",
-        "en": "This is a request for a part-time delivery rider job, not an app development project. Moe builds apps, he does not work in food delivery."
-      }
-    },
-    {
-      "title": "AI Automation Report for Riyadh",
-      "url": "https://www.freelancer.com/projects/ai-automation/Automation-Report-for-Riyadh",
-      "reason": {
-        "ar": "الطلب هو لكتابة تقرير بحثي حول حلول المدن الذكية، وليس لتطوير تطبيق. Moe يبني تطبيقات ووكلاء ذكاء اصطناعي، وليس كاتب تقارير فنية.",
-        "en": "The request is for writing a research report on AI-powered urban solutions, not for developing an app. Moe builds apps and AI agents, he is not a technical report writer."
+        "ar": "المشروع يتطلب تصميم إلكترونيات ومنتجات، تصميم لوحات PCB، نمذجة ثلاثية الأبعاد، وهندسة ميكانيكية، وهي مهارات خارج نطاق عمل Moe الذي يركز على تطوير تطبيقات الأندرويد.",
+        "en": "The project requires electronics and product design, PCB layout, 3D modelling, and mechanical engineering, which are skills outside Moe's scope of work, as he focuses on Android app development."
       }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 4,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
-        "msg": "1201 leads seen before"
+        "msg": "1216 leads seen before"
       },
       {
         "step": "verify",
@@ -602,7 +370,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (159 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 48 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (173 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 56 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -618,7 +386,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
+        "msg": "phone relay last read 3 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -626,11 +394,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
+        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -638,63 +406,119 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "394 jobs from Gmail alerts (last 5 days)"
+        "msg": "390 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / Canada: busy (429), stopping search this run"
+        "msg": "50 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
+        "msg": "skipped (full-time): Software Engineer III - Java / Kafka"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Mobile"
+        "msg": "skipped (title): Lead Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
+        "msg": "skipped (full-time): Android Developer, Associate"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, iOS"
+        "msg": "skipped (title): Software Development Engineer (Lead)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): iOS Engineer"
+        "msg": "skipped (title): Software Development Engineer (Lead)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer / FitnessTech"
+        "msg": "skipped (title): Backend Software Development Engineer - Mid/Senior/Lead/Principal"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): [Job-32275] Senior Mobile Developer ( Kotlin and Android SDK )"
+        "msg": "skipped (title): Backend Software Development Engineer - Mid/Senior/Lead/Principal"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Unity Developer"
+        "msg": "skipped (title): Senior Backend Engineer (Kotlin) - Cards"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (7+ years required): Mobile Application Developer"
+        "msg": "skipped (full-time): Kotlin developer (medior)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Certified Senior Outsystems Developer"
+        "msg": "skipped (full-time): Junior Backend developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Teamlead Frontend Developer"
+        "msg": "skipped (title): Senior Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Java Spring Boot"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Backend Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Cloud Team"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full Stack Developer Cloud"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Software Engineer, Lyft Urban Solutions"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Developer, Connectivity and Application Development"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer (Back-end/Server)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer (Back-end/Server)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur Applicatif Full-Stack (Kotlin-Java/React)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full-Stack Application Developer (Kotlin-Java/React)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full Stack Developers"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Software Engineer / Senior Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Java Developer"
       },
       {
         "step": "verify",
-        "msg": "0 of 11 new LinkedIn jobs added"
+        "msg": "0 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -702,15 +526,15 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 4 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (53 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (54 bids): Daily Ops & AI Automation Assistant"
       }
     ]
   }
