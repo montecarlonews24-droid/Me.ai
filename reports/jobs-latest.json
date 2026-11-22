@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T00:24:37.458Z",
+  "generatedAt": "2026-11-22T02:29:04.238Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -347,6 +347,22 @@
   ],
   "rejected": [
     {
+      "title": "Sci-Fi Streetwear Close-Up Prompts",
+      "url": "https://www.freelancer.com/projects/ai-image-generation/Sci-Streetwear-Close-Prompts",
+      "reason": {
+        "ar": "المشروع يتطلب صياغة أوامر (prompts) محددة لنماذج توليد الصور مثل Midjourney و Stable Diffusion. Moe يقدم ميزات Gemini AI ضمن تطبيقات Android أو وكلاء بحث AI يوميين، وليس هندسة أوامر لنماذج توليد الصور.",
+        "en": "The project requires crafting specific prompts for image generation models like Midjourney and Stable Diffusion. Moe delivers Gemini AI features within Android apps or daily AI research agents, not prompt engineering for image generation models."
+      }
+    },
+    {
+      "title": "Futuristic Streetwear AI Prompts",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Futuristic-Streetwear-Prompts",
+      "reason": {
+        "ar": "المشروع يتطلب صياغة أوامر (prompts) محددة لنماذج توليد الصور مثل Midjourney و Stable Diffusion. Moe يقدم ميزات Gemini AI ضمن تطبيقات Android أو وكلاء بحث AI يوميين، وليس هندسة أوامر لنماذج توليد الصور.",
+        "en": "The project requires crafting specific prompts for image generation models like Midjourney and Stable Diffusion. Moe delivers Gemini AI features within Android apps or daily AI research agents, not prompt engineering for image generation models."
+      }
+    },
+    {
       "title": "Roblox Clash Mini-style Game Development",
       "url": "https://www.freelancer.com/projects/roblox/Roblox-Clash-Mini-style-Game",
       "reason": {
@@ -418,7 +434,7 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "1052 leads seen before"
+        "msg": "1058 leads seen before"
       },
       {
         "step": "verify",
@@ -426,7 +442,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (131 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 60 skipped: not app/AI work)"
+        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (120 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 87 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -442,7 +458,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 4 hours ago: 67 projects on the lists, 0 sent (HTTP 200 160908ch 30 links; HTTP 200 160836ch 27 links; HTTP 200 164177ch 27 links; )"
+        "msg": "phone relay last read 6 hours ago: 67 projects on the lists, 0 sent (HTTP 200 160908ch 30 links; HTTP 200 160836ch 27 links; HTTP 200 164177ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -454,7 +470,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 4 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133359ch 25 links; )"
+        "msg": "phone relay last read 6 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133359ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -470,27 +486,11 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile (Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer (Mobile)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer - Offroad"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior / Staff Software Engineer, Android"
+        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "0 of 4 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -506,7 +506,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (50 bids): Daily Ops & AI Automation Assistant"
+        "msg": "crowded now (51 bids): Daily Ops & AI Automation Assistant"
       }
     ]
   }
