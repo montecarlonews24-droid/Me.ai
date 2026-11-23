@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T05:25:06.019Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-23T08:20:52.696Z",
+  "model": "gemini-4-hydrogen",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 15 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 15 open leads from the last 3 days."
@@ -347,6 +347,22 @@
   ],
   "rejected": [
     {
+      "title": "P&C Insurance Experts for AI Training",
+      "url": "https://www.freelancer.com/projects/ai-hw-sw/Insurance-Experts-for-Training",
+      "reason": {
+        "ar": "يتطلب خبرة مهنية في تأمين الممتلكات والحوادث وإنشاء بيانات تدريب وتقييم للذكاء الاصطناعي، وهو خارج نطاق ما يقدمه Moe.",
+        "en": "Requires professional Property & Casualty insurance experience and AI training/data annotation, which is outside what Moe delivers."
+      }
+    },
+    {
+      "title": "AI Prompts: Futuristic Streetwear Scenes",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/Prompts-Futuristic-Streetwear-Scenes",
+      "reason": {
+        "ar": "المشروع يطلب كتابة أوامر (Prompts) لتوليد صور عبر Midjourney ومحتوى إبداعي، وهو خارج نطاق تطوير التطبيقات أو وكلاء البحث.",
+        "en": "Project asks for writing Midjourney image-generation prompts for streetwear content, which is outside Android app and AI agent development."
+      }
+    },
+    {
       "title": "Ai bakers life",
       "url": "https://www.freelancer.com/projects/3d-modelling/bakers-life",
       "reason": {
@@ -454,11 +470,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 5,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
-        "msg": "1274 leads seen before"
+        "msg": "1282 leads seen before"
       },
       {
         "step": "verify",
@@ -466,7 +482,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "10 open projects from the last 5 days worldwide with budget 100+ USD (144 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 53 skipped: not app/AI work)"
+        "msg": "10 open projects from the last 5 days worldwide with budget 100+ USD (188 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 43 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -482,7 +498,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 11 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
+        "msg": "phone relay last read 14 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -494,7 +510,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 11 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
+        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -506,27 +522,115 @@
       },
       {
         "step": "linkedin",
-        "msg": "388 jobs from Gmail alerts (last 5 days)"
+        "msg": "384 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / Middle East: busy (429), stopping search this run"
+        "msg": "49 Remote contract jobs found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Expert Executive Recruiters (EER Global))): Founding Mobile Developer (Android/ IoS/ Swift)"
+        "msg": "skipped (title): Senior Software Engineer - Azure Bot Service Team"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (TalentHop)): Android Developer (Remote)"
+        "msg": "skipped (full-time): Software Development Engineer I"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Programmatori Mobile iOS"
+        "msg": "skipped (full-time): Software Development Engineer II - AI Software Components"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): A/AI Machine Learning Engineering Stf - E4"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Fullstack Engineer, Solve"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer 2: AI Builder"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): A/AI Machine Learning Engineering Stf - E4"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Anthropic Forward Deployed Engineer - GPS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Junior AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Solutions Software Engineer Fullstack Python / React (H/F)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Software Engineer AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Softwareentwickler C#/.NET – KI- und LLM-Anwendungen (m/w/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Full AI stack engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Developer - Python, AI & Cloud Integrations"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Hays)): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Forward Deployed Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Backend AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Applied Engineer – Product Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Specialist, AI Solutions Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): We're Hiring: Full Stack Mid level Software Engineer – AI & Enterprise SaaS | GTA, Canada"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Developer, Agentic AI - Canada"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): AI Applied Engineer – AI Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 3 new LinkedIn jobs added"
+        "msg": "0 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -534,11 +638,11 @@
       },
       {
         "step": "verify",
-        "msg": "5 new Freelancer projects added, 5 to judge"
+        "msg": "2 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-4-hydrogen"
       }
     ]
   }
