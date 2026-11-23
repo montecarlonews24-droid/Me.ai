@@ -181,6 +181,7 @@ TARGET MARKET: GLOBAL ONLY. Every idea must be an English app for users worldwid
 - Do NOT propose regional apps: nothing built for the Arab world, the Gulf, Jordan or any single country, and no "X for Arabs" / "Arabic version of an existing app".
 NOVELTY: Moe wants only NEW KINDS of apps that do not exist yet on Google Play.
 - Do NOT propose a better/cheaper/AI version of an app category that already exists (no AI document simplifier, no AI nutrition scanner, no habit tracker, no AI tutor, no AI chat assistant, no budget app, etc.).
+- Every idea MUST be a phone app that a person installs from Google Play and uses on an Android phone (screens, buttons, the phone's own sensors/camera/GPS/notifications, AI inside the app). NOT an autonomous AI agent, NOT a smart-home or IoT system, NOT hardware, NOT a web platform, NOT a B2B service or automation.
 - Each idea needs a core function that no popular app offers today: a new use of a phone sensor, a new AI capability, a new behaviour or trend from the last few months, or two things nobody has combined.
 ${prefs}
 
@@ -230,6 +231,7 @@ Rules:
 - REJECT ideas that are not built on a real world change from the list below, or whose link to that change is weak or invented.
 - Prefer ideas that connect two different areas (Earth and space, climate and daily life, a new law and money).
 - REJECT ideas too big for one person in 3 weeks.
+- REJECT any idea that is not a phone app the user installs and uses on Android: autonomous AI agents, smart-home/IoT control systems, hardware, web platforms, B2B services or automation.
 - Prefer ideas with a clear way to make money and a real, specific gap.
 - Pick the best 5 (fewer if fewer deserve it). Score honestly 1-10.
 
