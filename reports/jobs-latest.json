@@ -1,13 +1,62 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T15:51:50.950Z",
+  "generatedAt": "2026-11-23T17:59:53.330Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
+    "ar": "تم رفض معظم الفرص اليوم بسبب متطلبات الخبرة العالية (Senior/Lead/CTO) أو لأنها قوائم وظائف، أو تتطلب تقنيات لا يستخدمها Moe، أو تتطلب العمل الميداني. تم قبول فرصتين: واحدة لنشر تطبيق أندرويد على Huawei AppGallery، والأخرى لوظيفة مهندس أندرويد عن بعد مع دمج الذكاء الاصطناعي.",
+    "en": "Most leads today were rejected due to high experience requirements (Senior/Lead/CTO), being job boards, requiring technologies Moe doesn't use, or needing on-site work. Two leads were accepted: one for Android app publishing on Huawei AppGallery, and another for a remote Android Engineer role with AI integration."
   },
-  "fresh": 0,
+  "fresh": 2,
   "leads": [
+    {
+      "title": "Android Engineer - Creative App",
+      "url": "https://www.linkedin.com/jobs/view/4486153915/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "United States",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "ElevenLabs · United States",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتطلب مهندس أندرويد لتطوير تطبيق أصلي (Native Kotlin) مع دمج ميزات الذكاء الاصطناعي، وهو ما يتقنه Moe. يمتلك Moe تطبيق Flicker المبني بـ Kotlin وتطبيق Me.ai الذي يدمج الذكاء الاصطناعي.",
+        "en": "This project requires an Android Engineer to develop a native Kotlin app with AI feature integration, which is a core skill for Moe. Moe has built Flicker (native Kotlin) and Me.ai (AI agent with native Android app)."
+      },
+      "watch": {
+        "ar": "الوظيفة بدوام كامل، يجب على Moe التأكد من أنها تناسبه، وأنها بالفعل عن بعد عالمياً.",
+        "en": "This is a full-time role; Moe should ensure it aligns with his work preference and confirm it is indeed remote worldwide."
+      },
+      "proposal": "I understand you're looking for an Android Engineer to build a creative app, integrating AI-driven audio models. I develop native Kotlin Android apps with AI-assisted development, focusing on delivering robust features and user engagement. My work includes integrating Gemini AI features for chat, vision, and smart search into Android apps. I have experience building native Kotlin apps like Flicker (currently in closed testing), which handles NFC, Bluetooth, and Wi-Fi features. I can help shape the app's architecture and technical direction, ensuring tight integration with your AI models.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more about the specific AI audio models you plan to integrate and the desired user experience?",
+      "liChecked": true,
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": true
+    },
+    {
+      "title": "رفع تطبيق اندرويد على منصة هواوي جاليري",
+      "url": "https://mostaql.com/project/1294921",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع لدي تطبيق اندرويد Apk كنت ناوي انشره على كوكل بلاي ولكن كونه يحتوي على ميزات مدفوعة وان كوكل بلاي لاتقبل الميزات المدفوعة للتطبيقات في العراق فاني اريد نشره على منصة هواوي كاليري ولهذا اريد تعديل ملف التطب",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يتطلب تعديل تطبيق أندرويد ليتوافق مع متطلبات Huawei AppGallery ورفعه، وهو يقع ضمن نطاق عمل Moe في نشر التطبيقات وإصلاح مشكلات الرفض.",
+        "en": ""
+      },
+      "watch": {
+        "ar": "الميزانية 50 دولارًا أمريكيًا، وهي أقل من الحد الأدنى المفضل، لكن المهمة بسيطة ومباشرة.",
+        "en": "The budget is $50 USD, which is below the preferred minimum, but the task is simple and straightforward."
+      },
+      "proposal": "أهلاً بك،\nفهمت أنك تحتاج إلى تعديل تطبيقك ليتوافق مع متطلبات Huawei AppGallery ورفعه للنشر، مع ضمان ظهوره على المنصة قبل التسليم. أنا أقوم بنشر تطبيقات أندرويد وأتعامل مع متطلبات المتاجر المختلفة، ويمكنني مساعدتك في تجهيز تطبيقك لـ Huawei AppGallery. أعمل على تطوير تطبيقات أندرويد باستخدام الذكاء الاصطناعي، ولدي خبرة في التعامل مع تحديات النشر.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل هناك أي تفاصيل تقنية محددة حول التعديلات المطلوبة للتوافق مع Huawei AppGallery؟",
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": true
+    },
     {
       "title": "تطوير تطبيق توصيل طلبات محلي",
       "url": "https://mostaql.com/project/1294611",
@@ -82,6 +131,86 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Indian Mythology AI Movie Creation",
+      "url": "https://www.freelancer.com/projects/ai-hw-sw/Indian-Mythology-Movie-Creation",
+      "reason": {
+        "ar": "المشروع يتعلق بإنتاج فيلم طويل باستخدام الذكاء الاصطناعي، وليس تطوير تطبيقات أندرويد أو وكلاء ذكاء اصطناعي، وهو خارج نطاق عمل Moe.",
+        "en": "The project is about producing a full-length AI-powered movie, not Android app development or AI agents, which is outside Moe's scope of work."
+      }
+    },
+    {
+      "title": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time — We build AI agents that help companies work with thei",
+      "url": "https://news.ycombinator.com/item?id=50481529",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Forward-Deployed Product Engineer' يشير إلى دور يتطلب مستوى عالٍ من الخبرة والمسؤولية، وهو ما يتجاوز ما يبحث عنه Moe حالياً.",
+        "en": "The job title 'Forward-Deployed Product Engineer' suggests a role requiring a high level of experience and responsibility, which is beyond what Moe is currently seeking."
+      }
+    },
+    {
+      "title": "Alternative Payments | Senior Software Engineer, Alti (AI agents) | REMOTE (Brazil) | Full-time | $90k–105k + equity — We’re building the financial operating sy",
+      "url": "https://news.ycombinator.com/item?id=50474550",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Senior Software Engineer' يتجاوز مستوى الخبرة الذي يبحث عنه Moe، حيث يرفض الأدوار التي تحمل ألقاب Senior/Staff/Lead/Principal.",
+        "en": "The job title 'Senior Software Engineer' exceeds the experience level Moe is looking for, as he rejects roles with Senior/Staff/Lead/Principal titles."
+      }
+    },
+    {
+      "title": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents — We’re building Cursor for mechanical engineering.",
+      "url": "https://news.ycombinator.com/item?id=50398466",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Senior/Staff Software Engineer' يتجاوز مستوى الخبرة الذي يبحث عنه Moe، كما أن المشروع يتطلب العمل بـ React وهو خارج تقنيات Moe.",
+        "en": "The job title 'Senior/Staff Software Engineer' exceeds the experience level Moe is looking for, and the project requires React, which is outside Moe's tech stack."
+      }
+    },
+    {
+      "title": "Radar Labs | Software Engineers (SRE, ML, backend, full-stack, mobile, security, QA) | Remote (US), NYC | Full Time | https://radar.com — - Radar is the geo-loc",
+      "url": "https://news.ycombinator.com/item?id=50357486",
+      "reason": {
+        "ar": "هذا الإعلان عبارة عن قائمة بوظائف شاغرة متعددة (SRE, ML, backend, full-stack, mobile, security, QA) وليس مشروعاً واحداً محدداً، وMoe يرفض قوائم الوظائف.",
+        "en": "This advertisement is a list of multiple vacancies (SRE, ML, backend, full-stack, mobile, security, QA) rather than a single specific project, and Moe rejects job boards or lists of vacancies."
+      }
+    },
+    {
+      "title": "Tether | Product Engineering Lead, Keet | REMOTE (Worldwide) — We're looking for a Product Engineering Lead to help build and scale Keet, a fully peer-to",
+      "url": "https://news.ycombinator.com/item?id=50355834",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Product Engineering Lead' يتجاوز مستوى الخبرة الذي يبحث عنه Moe، حيث يرفض الأدوار التي تحمل ألقاب Senior/Staff/Lead/Principal.",
+        "en": "The job title 'Product Engineering Lead' exceeds the experience level Moe is looking for, as he rejects roles with Senior/Staff/Lead/Principal titles."
+      }
+    },
+    {
+      "title": "TheraPlug | Founding CTO / Technical Lead | Detroit preferred; remote considered | Equity-first, pre-funding — I’m Marcelus Brice, founder of TheraPlug ( https:",
+      "url": "https://news.ycombinator.com/item?id=50352937",
+      "reason": {
+        "ar": "عنوان الوظيفة 'Founding CTO / Technical Lead' يتجاوز مستوى الخبرة الذي يبحث عنه Moe، كما أن الدور يتطلب قيادة فريق وتأسيس معماري وهو خارج نطاق عمله الحالي.",
+        "en": "The job title 'Founding CTO / Technical Lead' exceeds the experience level Moe is looking for, and the role requires team leadership and architectural foundation, which is outside his current scope."
+      }
+    },
+    {
+      "title": "حصر ميداني لتطبيق صيانة منزلية",
+      "url": "https://mostaql.com/project/1294933",
+      "reason": {
+        "ar": "المشروع يتطلب 'حصر ميداني' في مدن سعودية، مما يعني أنه ليس عملاً عن بعد ويتطلب تواجداً فعلياً، وهو خارج نطاق عمل Moe الذي يقتصر على العمل عن بعد.",
+        "en": "The project requires a 'field survey' in Saudi Arabian cities, meaning it is not remote work and requires physical presence, which is outside Moe's scope as he only takes remote jobs."
+      }
+    },
+    {
+      "title": "AI Engineer – Multi-Agent Systems",
+      "url": "https://www.linkedin.com/jobs/view/4493647855/",
+      "reason": {
+        "ar": "الوظيفة تتطلب مهارات في LangGraph وRAG pipelines وVector search وPython/ML، وهي أدوات وتقنيات لا يستخدمها Moe، كما أنها ليست عن بعد بوضوح.",
+        "en": "The job requires skills in LangGraph, RAG pipelines, Vector search, and Python/ML, which are tools and technologies Moe does not use. Additionally, it is not clearly remote."
+      }
+    },
+    {
+      "title": "Salesforce Developer",
+      "url": "https://www.linkedin.com/jobs/view/4493553389/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بـ Salesforce وJava، وهي تقنيات لا يستخدمها Moe. كما أنها تتطلب الحضور في المكتب ليومين على الأقل أسبوعياً، مما يجعلها ليست عن بعد بالكامل.",
+        "en": "The job requires working with Salesforce and Java, which are technologies Moe does not use. It also requires being in the office at least 2 days per week, making it not fully remote."
+      }
+    },
     {
       "title": "Pattaya Travel App Photography",
       "url": "https://www.freelancer.com/projects/photography/Pattaya-Travel-App-Photography",
@@ -241,96 +370,16 @@
         "ar": "العنوان يشير إلى وظيفة مطور/ة Full-Stack AI براتب، وهذا يعني وظيفة دوام كامل أو موظف وليس مشروعًا حرًا.",
         "en": "The title indicates a Full-Stack AI Developer job with a salary, implying a full-time or staff position rather than a freelance project."
       }
-    },
-    {
-      "title": "Junior Software Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4493114703/",
-      "reason": {
-        "ar": "العنوان يشير إلى وظيفة 'Junior Software Engineer' وهي وظيفة دوام كامل أو موظف في شركة، وليس مشروعًا حرًا.",
-        "en": "The title 'Junior Software Engineer' indicates a full-time or staff position at a company, not a freelance project."
-      }
-    },
-    {
-      "title": "Artificial Intelligence Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4493544663/",
-      "reason": {
-        "ar": "هذه وظيفة 'Mid-Senior level' تتطلب 4+ سنوات خبرة، وتتضمن ملكية لمنصات بيانات وذكاء اصطناعي، وتتطلب مهارات في Python وSpark وRAG وAzure، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
-        "en": "This is a Mid-Senior level position requiring 4+ years of experience, involving ownership of data and AI platforms, and requiring skills in Python, Spark, RAG, and Azure. These are full-time job responsibilities and requirements that do not fit Moe."
-      }
-    },
-    {
-      "title": "Backend Security Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4493500289/",
-      "reason": {
-        "ar": "هذه وظيفة 'Mid-Senior level' بدوام كامل مع راتب مرتفع، وتتطلب خبرة في Python وهندسة ML وRAG pipelines وأدوات AI متقدمة مثل LangChain، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
-        "en": "This is a Mid-Senior level, full-time position with a high salary, requiring Python experience, ML engineering, RAG pipelines, and advanced AI tools like LangChain. These are full-time job responsibilities and requirements that do not fit Moe."
-      }
-    },
-    {
-      "title": "Backend Security Engineer (Remote)",
-      "url": "https://www.linkedin.com/jobs/view/4493700233/",
-      "reason": {
-        "ar": "هذه وظيفة 'Mid-Senior level' بدوام كامل مع راتب مرتفع، وتتطلب خبرة في Python وهندسة ML وRAG pipelines وأدوات AI متقدمة مثل LangChain، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
-        "en": "This is a Mid-Senior level, full-time position with a high salary, requiring Python experience, ML engineering, RAG pipelines, and advanced AI tools like LangChain. These are full-time job responsibilities and requirements that do not fit Moe."
-      }
-    },
-    {
-      "title": "P&C Insurance Experts for AI Training",
-      "url": "https://www.freelancer.com/projects/ai-hw-sw/Insurance-Experts-for-Training",
-      "reason": {
-        "ar": "يتطلب خبرة مهنية في تأمين الممتلكات والحوادث وإنشاء بيانات تدريب وتقييم للذكاء الاصطناعي، وهو خارج نطاق ما يقدمه Moe.",
-        "en": "Requires professional Property & Casualty insurance experience and AI training/data annotation, which is outside what Moe delivers."
-      }
-    },
-    {
-      "title": "AI Prompts: Futuristic Streetwear Scenes",
-      "url": "https://www.freelancer.com/projects/ai-content-creation/Prompts-Futuristic-Streetwear-Scenes",
-      "reason": {
-        "ar": "المشروع يطلب كتابة أوامر (Prompts) لتوليد صور عبر Midjourney ومحتوى إبداعي، وهو خارج نطاق تطوير التطبيقات أو وكلاء البحث.",
-        "en": "Project asks for writing Midjourney image-generation prompts for streetwear content, which is outside Android app and AI agent development."
-      }
-    },
-    {
-      "title": "Ai bakers life",
-      "url": "https://www.freelancer.com/projects/3d-modelling/bakers-life",
-      "reason": {
-        "ar": "المشروع يتطلب هندسة أو تصميم موجه لإنشاء صور بالذكاء الاصطناعي باستخدام أدوات مثل Midjourney أو Stable Diffusion أو DALL·E 3، وهي خارج نطاق مهارات محمد الذي يركز على ميزات Gemini AI ضمن تطبيقات Android.",
-        "en": "The project requires prompt engineering or design for AI image generation using tools like Midjourney, Stable Diffusion, or DALL·E 3, which is outside Moe's skill set focused on Gemini AI features within Android apps."
-      }
-    },
-    {
-      "title": "3D AI Cartoon Movie Creation",
-      "url": "https://www.freelancer.com/projects/ai-animation/Cartoon-Movie-Creation",
-      "reason": {
-        "ar": "المشروع يتطلب إنشاء فيلم رسوم متحركة ثلاثي الأبعاد باستخدام أدوات تحرير الفيديو والرسوم المتحركة بالذكاء الاصطناعي، وهي مهارات (مثل 3D rendering، Animation، Video Editing) لا يمتلكها محمد.",
-        "en": "The project requires creating a 3D animated movie using AI video editing and animation tools. These skills (e.g., 3D rendering, Animation, Video Editing) are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "I supply **Seedance 2.5 API Token** for AI video generation.",
-      "url": "https://www.freelancer.com/projects/ai-video/supply-Seedance-API-Token-for",
-      "reason": {
-        "ar": "هذا الإعلان هو لبيع حصص API لخدمة توليد الفيديو بالذكاء الاصطناعي، وليس طلبًا من عميل لتوظيف مستقل لمشروع تطوير.",
-        "en": "This post is an advertisement for selling API tokens for an AI video generation service, not a real request from a client hiring a freelancer for a development project."
-      }
-    },
-    {
-      "title": "Croatian Mobile App QA Tester",
-      "url": "https://www.freelancer.com/projects/mobile-app-testing/Croatian-Mobile-App-Tester",
-      "reason": {
-        "ar": "العميل يبحث عن مختبر جودة تطبيقات (QA Tester) وليس مطور تطبيقات. بالإضافة إلى ذلك، يتطلب المشروع أن يكون المستقل مقيمًا في كرواتيا، ومحمد يقيم في الأردن.",
-        "en": "The client is looking for a Mobile App QA Tester, not an app developer. Additionally, the project has a mandatory requirement for the freelancer to be based in Croatia, and Moe is based in Jordan."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 7,
+    "verified": 12,
     "steps": [
       {
         "step": "memory",
-        "msg": "1354 leads seen before"
+        "msg": "1382 leads seen before"
       },
       {
         "step": "verify",
@@ -338,7 +387,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 91 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (201 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 148 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -346,31 +395,31 @@
       },
       {
         "step": "hn",
-        "msg": "5 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 240 replies, 18 want a freelancer, 5 app/AI"
+        "msg": "37 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 240 replies, 125 want a freelancer, 37 app/AI"
       },
       {
         "step": "verify",
-        "msg": "0 new Hacker News posts added"
+        "msg": "10 new Hacker News posts added"
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 162879ch 27 links; HTTP 200 160398ch 27 links; HTTP 200 162965ch 26 links; )"
+        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 1 sent (HTTP 200 162743ch 27 links; HTTP 200 160400ch 27 links; HTTP 200 162121ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "56 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "58 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "5 new Mostaql projects added from the phone"
+        "msg": "2 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134234ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 133989ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "9 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 7 skipped: not app/AI work)"
+        "msg": "9 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 8 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -378,91 +427,51 @@
       },
       {
         "step": "linkedin",
-        "msg": "368 jobs from Gmail alerts (last 5 days)"
+        "msg": "378 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / Canada: busy (429), stopping search this run"
+        "msg": "Freelance Android Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Application Developer - Kotlin Primary (FTE / Hybrid / Fully Remote)"
+        "msg": "skipped (5+ years required): Montréal [Hybrid] AI-Native Python Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
+        "msg": "skipped (20+ years required): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Android Developer Sr"
+        "msg": "skipped (on-site/hybrid): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer, Android"
+        "msg": "skipped (6+ years required): React Native Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Android Developer"
+        "msg": "skipped (20+ years required): Android Developer (IOS)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Software Engineer"
+        "msg": "post 4493784770: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Developer Android (F/H/N)"
+        "msg": "skipped (on-site/hybrid): Product Engineer, Mobile & UX"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Développeur android H/F"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer - Dublin based"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Native Android Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Embedded Linux & Android Engineer – Multimedia Platforms"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Development Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Full Stack Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Java Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): CXP Designer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): SW Design Engineer"
+        "msg": "skipped (8+ years required): Android Developer (Only w2)"
       },
       {
         "step": "verify",
-        "msg": "2 of 21 new LinkedIn jobs added"
+        "msg": "17 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -470,23 +479,87 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app project): Eğitim İçeriği Geliştiricisi (Gönüllü)"
+        "msg": "skipped (design only (not development)): Product Engineer, Mobile & UX"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app project): إنشاء فيديو AI"
+        "msg": "skipped (not an app or AI agent project): Application Engineer (Remote)"
       },
       {
         "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Application Developer (Remote)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (Flutter/React Native/Unity): React Native developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Java Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI/LLM Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer 3 (AI Foundations)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer - Core AI Engineering (Cognitive Engine) - Kantoor Antwepen"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer - H/F - CDI"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): Engineer, PEG AI and Machine Learning Engineering"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI/ML Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): NetBird | Berlin, Germany (or remote, CET overlap) | Full-time — https://netbird"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Hemant Singh | Software Engineer / Backend Engineer | India (REMOTE / ONSITE) — "
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Foji | Full Stack Engineer (TypeScript/React/Node) | Atlanta (hybrid) or REMOTE "
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Bechtel | Penetration Tester | Remote or onsite (US + many countries) | Full-tim"
+      },
+      {
+        "step": "filter",
+        "msg": "18 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 7 to judge"
+        "msg": "1 new Freelancer projects added, 12 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 7 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 10 via gemini-2.5-flash"
       },
       {
         "step": "filter",
@@ -498,15 +571,11 @@
       },
       {
         "step": "filter",
-        "msg": "removed old lead (not an app project): مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتص"
+        "msg": "removed old lead (not an app or AI agent project): مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتص"
       },
       {
         "step": "filter",
-        "msg": "removed old lead (not an app project): بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة"
-      },
-      {
-        "step": "filter",
-        "msg": "removed old lead (not an app project): إنشاء وكيل ذكاء اصطناعي للمساعدة بتحليل حركة الأسهم"
+        "msg": "removed old lead (not an app or AI agent project): بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة"
       },
       {
         "step": "filter",
@@ -514,19 +583,7 @@
       },
       {
         "step": "filter",
-        "msg": "removed old lead (not an app project): متخصص محترف في بناء ai agent"
-      },
-      {
-        "step": "filter",
         "msg": "removed old lead (AI engineering (not an app)): بناء وكلاء ذكاء اصطناعي باستخدام RAG"
-      },
-      {
-        "step": "filter",
-        "msg": "removed old lead (not an app project): متخصص محترف في بناء ai agent"
-      },
-      {
-        "step": "filter",
-        "msg": "removed old lead (not an app project): عمل وكيل ذكاء اصطناعي /وكيل سكريتير , لادارة الملفات"
       },
       {
         "step": "filter",
@@ -538,7 +595,7 @@
       },
       {
         "step": "filter",
-        "msg": "removed old lead (not an app project): عمل بوت للرد على الايملات"
+        "msg": "removed old lead (not an app or AI agent project): عمل بوت للرد على الايملات"
       }
     ]
   }
