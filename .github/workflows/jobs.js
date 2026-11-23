@@ -190,7 +190,7 @@ Proven, live work:
 - Flicker: native Kotlin NFC & tracker scanner (Bluetooth/Wi-Fi/NFC), in closed testing
 - Me.ai: his own daily AI research agent (Gemini + web search on GitHub Actions, no server) with a native Android app
 What he CAN deliver: Android apps (native Kotlin or hybrid WebView), website-to-app, Firebase backend for his apps (login, database, push), AdMob, Gemini AI features inside apps (vision, chat, smart search), NFC/Wi-Fi/Bluetooth features, Google Play publishing and rejection fixes, Arabic + English apps with full RTL.
-What he TAKES: freelance projects only, and only Android apps, Google Play publishing, or Android apps with AI inside.
+What he TAKES: freelance projects only: Android apps, Google Play publishing, Android apps with AI inside, and AI agents / agentic AI (an agent that searches, reads, decides and reports or acts on a schedule, like his own Me.ai built with Gemini + web search on GitHub Actions, with an Android app to view results).
 iOS: he delivers the iOS version through a trusted iOS partner (a vetted Fiverr developer). He builds the Android app and the web/Firebase side and manages the whole project; the partner builds and publishes the iOS app to the App Store on the client's Apple Developer account. Typical extra price for the iOS version: about 150-200 USD for a WebView app, about 300-400 USD for a simple native app (4-5 screens). The Apple Developer account (99 USD/year) is paid by the client.
 Price guide (use it when the project budget is open or when suggesting a price; adapt to the scope):
 - Android only: website-to-app 100-200 USD; app from an idea 100-250 USD.
@@ -213,22 +213,22 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
 - It is automation or bot work that is not an app: n8n, Make, Zapier, ManyChat, WhatsApp Business API / Telegram / Instagram / Meta bots, CRM or e-commerce store automation (Salla, Shopify, WooCommerce), email bots. Moe builds apps, not automation pipelines.
-- It is a standalone AI agent, AI assistant or chatbot for a website, a business or a desktop (for example a website chatbot, a secretary agent, a sales agent, a stock-analysis agent). Moe only takes AI work when the AI is a feature INSIDE an Android app he delivers.
+- It is a plain FAQ chatbot or customer-service chatbot for a website (not an agent). AI agents and agentic AI ARE welcome (see below).
 - It is UI/UX design, logo or branding only, marketing, app promotion, app testers, reviews or installs, content or video work.
 - It needs AI engineering tools Moe does not use: LangChain, LangGraph, LangSmith, RAG pipelines, vector databases, training or fine-tuning models, Python/ML, trading or stock-analysis bots (TradingView, options flow).
 - The client wants a mentor, trainer, consultant or teacher, not a delivered product.
 - It is not freelance: any full-time, part-time salaried, or staff position, even if remote.
-Moe ONLY wants freelance projects in exactly these three areas: (1) Android apps (new app from an idea, website-to-app, native Kotlin or WebView), (2) Google Play publishing, upload, and rejection/policy fixes, (3) Android apps with AI features inside them (Gemini chat, vision, smart search). If a lead is not clearly one of these, REJECT it.
-PREFER: Android-only apps, website-to-app, AI features inside an Android app, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
+Moe ONLY wants freelance projects in exactly these four areas: (1) Android apps (new app from an idea, website-to-app, native Kotlin or WebView; Android + iOS is OK, iOS goes to his partner), (2) Google Play publishing, upload, and rejection/policy fixes, (3) Android apps with AI features inside them (Gemini chat, vision, smart search), (4) AI agents / agentic AI built with an LLM API (Gemini/OpenAI) and web search, running on a schedule or on request, optionally with an Android app on top. Agents that need LangChain/RAG/vector DBs, n8n/Make/Zapier, WhatsApp/Telegram/Instagram bots or trading are still rejected (see above). If a lead is not clearly one of these, REJECT it.
+PREFER: Android-only apps, website-to-app, AI features inside an Android app, AI agents / agentic AI, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 IMPORTANT: an Android app, website-to-app, Google Play publishing job, or an Android app with an AI chatbot/agent inside it, with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
 const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير تطبيق أندرويد، برمجة تطبيق جوال، ذكاء اصطناعي، تحويل موقع إلى تطبيق)، khamsat.com requests، Arabic projects on freelancer.com، public LinkedIn posts "مطلوب مطور تطبيقات". Clients in Saudi Arabia, UAE, Qatar, Kuwait, Jordan, Egypt.
 2) USA & EUROPE remote (label "west"): Upwork jobs, freelancer.com projects, Reddit r/forhire "[Hiring]" posts, Hacker News "SEEKING FREELANCER" posts (startups; contact is usually an email in the post), public LinkedIn posts "looking for an Android developer" / "need an app developer" / "build an AI agent".
 3) FAR EAST & AUSTRALIA remote (label "east"): clients in Singapore, Japan, Hong Kong, South Korea, Malaysia, Australia on freelancer.com, Upwork, LinkedIn.
-Topics for all: Android app, website to Android app, AI features inside an Android app, Google Play publishing or rejection fix.`;
+Topics for all: Android app, website to Android app, AI features inside an Android app, AI agent / agentic AI, Google Play publishing or rejection fix.`;
 
 // ---------- Freelancer.com: مشاريع مفتوحة هلا من الـ API العام (بدون مفتاح) ----------
-const FL_QUERIES = ['android app', 'android ios app', 'android', 'mobile app', 'android ai app', 'ai mobile app', 'chatbot app', 'website to app', 'webview app', 'google play', 'play store', 'publish app', 'apk', 'kotlin'];
+const FL_QUERIES = ['android app', 'android ios app', 'android', 'mobile app', 'android ai app', 'ai mobile app', 'chatbot app', 'ai agent', 'agentic ai', 'ai agent developer', 'website to app', 'webview app', 'google play', 'play store', 'publish app', 'apk', 'kotlin'];
 const ago = sec => {
   const h = Math.max(0, Math.round((Date.now() / 1000 - sec) / 3600));
   return h < 1 ? 'less than an hour ago' : h < 48 ? `${h} hours ago` : `${Math.round(h / 24)} days ago`;
@@ -403,7 +403,7 @@ const khamsatRelayFeed = () => relayFeed('Khamsat', 'khamsat', { filter: true })
 //    وصار ينزل من مستخدمين عاديين، فمندوّر عليه بالعنوان مش بالكاتب.
 // 2) خيط "Who is hiring?" الرسمي (لسا من whoishiring): الشركات اللي بدها فريلانسر صارت تكتب هناك،
 //    فمنوخذ بس المنشورات اللي أول سطر فيها Contract / Freelance / Part-time.
-const HN_RELEVANT = /android|kotlin|mobile app|\bapp\b|apps\b|play store|google play|webview/i;
+const HN_RELEVANT = /android|kotlin|mobile app|\bapp\b|apps\b|play store|google play|webview|ai agents?\b|agentic/i;
 const HN_FREELANCE_HEAD = /contract|freelanc|part[- ]?time|consult/i;
 async function hnThreads(query, titleRe, n) {
   const r = await fetch(`https://hn.algolia.com/api/v1/search_by_date?tags=story&query=${encodeURIComponent(query)}&hitsPerPage=30`);
@@ -569,7 +569,9 @@ const F_SOFT = [
   [/wordpress|ووردبريس|shopify|شوبيفاي|woocommerce|متجر سلة|منصة سلة|منصة زد|متجر زد|\bsalla\b|laravel|\.net\b|\bphp\b|scrap|سحب بيانات|data entry|excel|اكسل|إكسل/i, 'web/other stack (not Android)']
 ];
 const F_DESIGN = /تصميم|مصمم|design|figma|فيجما|ui\/ux|\bux\b|wireframe|mockup|موك ?اب|شعار|لوجو|logo|هوية|illustrat|thumbnail/i;
-const F_BOT = /agent|وكيل|chat ?bot|شات ?بوت|بوت|\bbot\b|assistant|مساعد/i;
+const F_BOT = /chat ?bot|شات ?بوت|بوت|\bbot\b/i;
+// AI Agent / Agentic AI: بتنقبل حتى لو مش تطبيق (متل Me.ai)
+const F_AGENT = /\bagents?\b|agentic|وكيل|وكلاء|ai assistant|مساعد (ذكي|ذكاء|بالذكاء)/i;
 const F_IOS_ONLY = /\bios\b|iphone|ipad|آيفون|ايفون|swift|app store|ابل ستور/i;
 const F_WEB_ONLY = /web ?app|website|web site|landing page|تطبيق ويب|موقع|متجر إلكتروني|متجر الكتروني|dashboard|لوحة تحكم|saas|extension|إضافة/i;
 
@@ -585,11 +587,12 @@ function appOnly(l) {
   if (l.platform !== 'LinkedIn' && /دوام كامل|براتب شهري|راتب شهري|full-time (role|position|employee)/i.test(body)) return 'full-time/staff job (not freelance)';
   // تصميم بدون برمجة ("تصميم تطبيق" = واجهات بس؛ "تصميم وبرمجة تطبيق" = تطوير، منقبله)
   if (F_DESIGN.test(title) && !F_DEV.test(title.replace(/تصميم|مصمم|design(er)?/gi, ''))) return 'design only (not development)';
-  if (!F_APP.test(all)) return 'not an app project';
+  const agent = F_AGENT.test(title);
+  if (!agent && !F_APP.test(all)) return 'not an app or AI agent project';
   // Agent أو بوت لحاله (لموقع أو شركة)، مش جوا تطبيق أندرويد
-  if (F_BOT.test(title) && !appTitle && !F_ANDROID.test(all)) return 'standalone AI agent/bot (not an app)';
+  if (!agent && F_BOT.test(title) && !appTitle && !F_ANDROID.test(all)) return 'plain chatbot/bot (not an app or agent)';
   if (F_IOS_ONLY.test(title) && !F_ANDROID.test(all)) return 'iOS-only';
-  if (F_WEB_ONLY.test(title) && !F_ANDROID.test(all)) return 'web-only (not Android)';
+  if (!agent && F_WEB_ONLY.test(title) && !F_ANDROID.test(all)) return 'web-only (not Android)';
   return '';
 }
 
@@ -634,7 +637,7 @@ const strip = h => String(h || '').replace(/<(br|\/p|\/li|\/div|\/h\d)[^>]*>/gi,
   .replace(/&amp;/g, '&').replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
   .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
 // بحث LinkedIn العام (بدون تسجيل دخول): الـ Agent بيدوّر لحاله، Remote + Contract، آخر 24 ساعة
-const LI_KEYWORDS = ['Freelance Android Developer', 'Android Developer', 'Android iOS Developer', 'Mobile App Developer', 'AI App Developer', 'Kotlin Developer'];
+const LI_KEYWORDS = ['Freelance Android Developer', 'Android Developer', 'Android iOS Developer', 'Mobile App Developer', 'AI App Developer', 'Kotlin Developer', 'AI Agent Developer'];
 const LI_PLACES = ['United States', 'EMEA', 'Middle East', 'Canada', 'Australia'];
 async function linkedinSearch() {
   const out = new Map();
@@ -869,7 +872,7 @@ In why_ar / why_en, say plainly which of his live apps or skills matches. Never 
 
 For every KEPT lead (max 10, best first), write a ready-to-send proposal:
 - In Arabic (Modern Standard, simple and warm) if the lead language is "ar", otherwise in English.
-- 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE live app of Moe's as proof, the one closest to the client's need (AI vision or camera -> SCANIQ; AI chat or assistant inside an app -> Me.ai; NFC, Bluetooth or native Kotlin -> Flicker, saying it is in testing; Arabic, RTL or big audience -> Islam Rising; news, chat or dashboards -> Peace & Conflict 24; STACK! only for games).
+- 80-130 words. Start with the client's actual need, not with "Hi I am". Mention ONE live app of Moe's as proof, the one closest to the client's need (AI vision or camera -> SCANIQ; AI agents, agentic AI, or an AI assistant -> Me.ai; NFC, Bluetooth or native Kotlin -> Flicker, saying it is in testing; Arabic, RTL or big audience -> Islam Rising; news, chat or dashboards -> Peace & Conflict 24; STACK! only for games).
 - Be honest: say he builds with AI-assisted development. Never promise approval by Google or Apple.
 - If the client needs iOS too, say plainly: "I build the Android app myself, and the iOS version is built and published by my trusted iOS partner, so you get both from one point of contact." Never claim Moe codes the iOS app himself. When it fits, give one clear bundle price from the price guide (Android + iOS together) instead of two separate prices, and say the Apple Developer account fee is paid by the client.
 - Never write "I specialize in", "I focus on", "specialist", "expert", "expertise" or "my experience in". Describe what he has built, not what he is. His newer apps are native Kotlin (Flicker, in testing on Google Play, and the Me.ai Android app); his 4 older live apps are hybrid (WebView + Firebase). He can say "I build native Kotlin Android apps with AI-assisted development" and give Flicker as the Kotlin example, saying it is in testing. Never claim years of Kotlin experience.
