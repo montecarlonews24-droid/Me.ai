@@ -1,234 +1,221 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T13:54:47.220Z",
+  "generatedAt": "2026-11-23T15:53:05.194Z",
   "model": "gemini-2.5-flash",
-  "summary": "اليوم، ركزنا على أفكار تطبيقات عالمية باللغة الإنجليزية تستفيد من التغيرات العالمية الأخيرة، مع رفض صارم للأفكار الإقليمية أو العربية فقط. تم قبول خمسة أفكار مبتكرة تتميز بدمج الذكاء الاصطناعي مع تقنيات أندرويد الجديدة لمعالجة مشاكل حقيقية، مع التأكد من قابليتها للتطوير بواسطة شخص واحد في غضون 1-3 أسابيع.",
+  "summary": "اليوم، ركزنا على أفكار تطبيقات عالمية باللغة الإنجليزية تستفيد من التغيرات العالمية الكبرى في المناخ والتكنولوجيا، مع تجنب الأفكار الإقليمية أو المشابهة لتطبيقات موجودة. تم اختيار أربع أفكار تتميز بالابتكار، ووضوح الفجوة السوقية، وإمكانية البناء في فترة قصيرة.",
   "trends": [
-    "ظهور وكلاء الذكاء الاصطناعي المستقلين القادرين على إنجاز مهام معقدة متعددة الخطوات.",
-    "تحديثات أندرويد الجديدة التي تضيف ميزات مثل 'المساحة الخاصة' و'Find Hub' و'Motion Assist'.",
-    "تزايد دمج أنظمة إدارة الطاقة في المنازل الذكية وتطورها نحو التحكم الموحد بفضل معيار Matter.",
-    "انتشار رسائل الأقمار الصناعية على الهواتف الذكية القياسية، مما يوفر اتصالاً في المناطق النائية.",
-    "توقعات بظاهرة النينيو التي تعزز هطول الأمطار فوق المعدل الطبيعي في جنوب وشرق الولايات المتحدة."
+    "توسع تقنية الاتصال المباشر بالأقمار الصناعية للهواتف المحمولة يفتح آفاقًا جديدة لتطبيقات الأمان في المناطق النائية.",
+    "ارتفاع أسعار السلع الغذائية العالمية يدفع الحاجة إلى أدوات تساعد المستهلكين على بناء المرونة الغذائية.",
+    "تغير المناخ وارتفاع درجات الحرارة يؤثران سلبًا على نوعية النوم، مما يخلق طلبًا على حلول ذكية للتكيف.",
+    "تزايد حرائق الغابات وتلوث الهواء المرتبط بها يبرز الحاجة إلى حماية شخصية استباقية من التلوث."
   ],
   "world": {
     "signals": [
       {
-        "area": "الفضاء والشمس",
-        "change": "تعزيز رؤية الشفق القطبي بسبب عواصف مغناطيسية أرضية خفيفة (G1) متوقعة في مناطق خطوط العرض العليا حول 16-18 نوفمبر، و27-28 نوفمبر، و4-5 ديسمبر 2026.",
-        "who": "سكان المناطق ذات خطوط العرض العليا (مثل أيسلندا، النرويج، فنلندا، ألاسكا، شمال الولايات المتحدة) قد يشهدون عروضاً أكثر حيوية للشفق القطبي.",
-        "evidence": "توقعات من NOAA ومكتب الأرصاد الجوية في المملكة المتحدة تشير إلى عواصف G1 خفيفة في 16-18 نوفمبر، وتوقعات لـ G1 أخرى في 27-28 نوفمبر و4-5 ديسمبر."
-      },
-      {
-        "area": "الفضاء والشمس",
-        "change": "نشاط شمسي منخفض بشكل عام مع احتمالية لنشاط متوسط (فئة M) خلال الفترة من 16 نوفمبر إلى 12 ديسمبر 2026، مدفوعاً بتيارات الرياح الشمسية عالية السرعة من الثقوب الإكليلية.",
-        "who": "لا يؤثر بشكل مباشر على معظم الناس، ولكن خبراء الطقس الفضائي ومشغلي الأقمار الصناعية يراقبون التأثيرات المحتملة على الاتصالات والملاحة.",
-        "evidence": "المركز التنبؤي بالطقس الفضائي التابع لـ NOAA يتوقع نشاطاً شمسياً منخفضاً مع فرصة لنشاط من الفئة M."
+        "area": "الأرض والمناخ",
+        "change": "تحذيرات من المنظمة العالمية للأرصاد الجوية بأن حرائق الغابات وموجات الحر تزيد من تلوث الهواء بشكل كبير، خاصة بالجسيمات الدقيقة PM2.5، مما يقوض جهود تحسين جودة الهواء.",
+        "who": "العامة في المناطق المتأثرة بدخان حرائق الغابات، خاصة مرضى الجهاز التنفسي والقلب والأوعية الدموية.",
+        "evidence": "تقرير المنظمة العالمية للأرصاد الجوية، سبتمبر 2026"
       },
       {
         "area": "الأرض والمناخ",
-        "change": "ظاهرة النينيو تعزز توقعات هطول الأمطار فوق المعدل الطبيعي في جنوب وشرق الولايات المتحدة خلال فصل الشتاء.",
-        "who": "المزارعون والسائقون والمقيمون في جنوب وشرق الولايات المتحدة قد يشهدون ظروفاً جوية أكثر رطوبة، مما يؤثر على الزراعة والنقل اليومي.",
-        "evidence": "توقعات NOAA تشير إلى أن ظاهرة النينيو تعزز هذه التوقعات."
+        "change": "موسم حرائق الغابات العالمي يمتد ويصبح أكثر شدة، حيث تجاوزت أوروبا 600 ألف هكتار محترق وكندا 4 ملايين هكتار في عام 2026.",
+        "who": "السكان في المناطق المعرضة للحرائق ودخانها، مع تأثيرات صحية خطيرة.",
+        "evidence": "تقرير IQAir السعودية، سبتمبر 2026"
       },
       {
         "area": "الأرض والمناخ",
-        "change": "فوران الحمم البركانية متوقع في بركان كيلاويا بإيت، هاواي، خلال الفترة من 22 إلى 26 نوفمبر 2026.",
-        "who": "السكان المحليون والسياح في منطقة بركان كيلاويا بإيت قد يشهدون النشاط البركاني وقد يتأثرون بإغلاق الطرق أو تحويل مساراتها أو جودة الهواء.",
-        "evidence": "هيئة المسح الجيولوجي الأمريكية (USGS) تتوقع حلقة فوران الحمم البركانية 57."
+        "change": "مواسم حبوب اللقاح في أوروبا أصبحت أطول وتبدأ أبكر، وتزداد كثافتها بسبب ارتفاع درجات الحرارة وتغير المناخ.",
+        "who": "الملايين من المصابين بالحساسية في أوروبا، حيث يشهدون معاناة متزايدة مع الأعراض.",
+        "evidence": "يورونيوز، أبريل 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تغير المناخ وارتفاع درجات الحرارة يؤثران سلبًا على نوعية وعدد ساعات النوم، مع توقع خسارة ما يصل إلى 50-58 ساعة نوم للشخص سنويًا بحلول عام 2099.",
+        "who": "العامة في جميع أنحاء العالم، وخاصة كبار السن والمقيمين في البلدان ذات الدخل المنخفض.",
+        "evidence": "دراسات من جامعات كوبنهاغن وباريس سيتي ومجلة 'وان إيرث' و'سليب ميدسين' (دراسات من 2022-2025)"
       },
       {
         "area": "الجسم والحياة اليومية",
-        "change": "انتهاء التوقيت الصيفي في معظم الولايات المتحدة في 1 نوفمبر 2026، مما أدى إلى شروق الشمس مبكراً وغروبها مبكراً، مع استئنافه في 14 مارس 2027.",
-        "who": "معظم سكان الولايات المتحدة يكتسبون ساعة نوم إضافية ليلة التغيير، ويواجهون صباحات أكثر إشراقاً ومساءات أكثر قتامة.",
-        "evidence": "انتهى التوقيت الصيفي في 1 نوفمبر 2026، وسيبدأ في 14 مارس 2027."
+        "change": "توقعات بارتفاع أسعار السلع الغذائية العالمية بنسبة 10% في 2026 و7% إضافية في 2027، بزيادة تراكمية 18% بسبب اضطراب شحنات الحبوب وارتفاع تكاليف الوقود والأسمدة.",
+        "who": "المستهلكون على مستوى العالم، وخاصة في البلدان منخفضة ومتوسطة الدخل التي تشهد ضغوطًا تضخمية.",
+        "evidence": "البنك الدولي، نوفمبر 2026"
       },
       {
         "area": "الجسم والحياة اليومية",
-        "change": "انخفاض طفيف في ملكية الحيوانات الأليفة في الولايات المتحدة وتحول نحو القطط، خاصة بين المستهلكين الأصغر سناً، بسبب ارتفاع التكاليف. العديد من المالكين يواجهون صعوبة في تحمل فواتير الأطباء البيطريين، حيث تخطى 52% الرعاية الموصى بها بسبب التكلفة.",
-        "who": "أصحاب الحيوانات الأليفة قد يغيرون عاداتهم الشرائية والرعائية، وقد يؤثر هذا على صناعة رعاية الحيوانات الأليفة.",
-        "evidence": "تقرير APPA لعام 2026 ومسح Morgan Stanley AlphaWise يشيران إلى هذه الاتجاهات."
+        "change": "أسعار الأرز والسلع الأساسية في مصر تشهد استقرارًا هشًا في نوفمبر 2026، وسط توقع تضخم بنسبة 12.3% في السنة المالية 2027.",
+        "who": "المستهلكون في مصر، حيث يواجهون استقرارًا مؤقتًا قد يتبعه ارتفاع في الأسعار.",
+        "evidence": "المصري اليوم، نوفمبر 2026"
       },
       {
         "area": "المال والعمل",
-        "change": "ارتفاع نسبة الوظائف المكتبية بالكامل في الولايات المتحدة من 65% في الربع الرابع من عام 2025 إلى 85% في الربع الثالث من عام 2026، مما يشير إلى عودة قوية للمكاتب.",
-        "who": "العديد من الموظفين يجدون أنفسهم مطالبين بالعودة إلى العمل المكتبي، مما يؤثر على جداولهم اليومية وتكاليف التنقل وخيارات السكن.",
-        "evidence": "تحليل لـ Robert Half لاتجاهات الوظائف في الولايات المتحدة."
+        "change": "توقعات بارتفاع فواتير التدفئة للأسر الأمريكية بنحو 21% هذا الشتاء بسبب ارتفاع أسعار الوقود وتراجع الإمدادات.",
+        "who": "الأسر الأمريكية، وتحديداً نحو 3% منهم يعتمدون على زيت التدفئة، معظمهم في الشمال الشرقي.",
+        "evidence": "إدارة معلومات الطاقة، أكتوبر 2026"
       },
       {
         "area": "المال والعمل",
-        "change": "تزايد دمج أنظمة إدارة الطاقة في المنازل الذكية لمراقبة الاستهلاك وتحسين استخدام الطاقة وتقليل فواتير المرافق.",
-        "who": "أصحاب المنازل يمكنهم خفض فواتير الطاقة لديهم والمساهمة في الاستهلاك الواعي بيئياً.",
-        "evidence": "اتجاهات المنازل الذكية لعام 2026 تؤكد على أهمية إدارة الطاقة."
+        "change": "توقعات بارتفاع فواتير الطاقة البريطانية بنسبة 26% في يناير 2027، نتيجة لتداعيات حرب إيران وارتفاع أسعار الكهرباء والغاز بالجملة.",
+        "who": "الأسر البريطانية، حيث ستواجه ضغوطًا معيشية متزايدة.",
+        "evidence": "كورنوال إنسايت، نوفمبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "ارتفعت أسعار الغاز والكهرباء المنزلية في عواصم الاتحاد الأوروبي بمتوسط 12% للغاز و4.2% للكهرباء بين فبراير وسبتمبر 2026.",
+        "who": "الأسر الأوروبية، مع تباين الزيادات بين المدن، حيث سجلت لشبونة أكبر زيادة في الكهرباء بنسبة 22%.",
+        "evidence": "يورونيوز بزنس، أكتوبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "العمل عن بعد أصبح ركيزة هيكلية في الاقتصاد العالمي عام 2026، حيث يعمل 52% من الموظفين بنظام هجين و26-28% عن بعد بالكامل.",
+        "who": "العمال والموظفون، والشركات على حد سواء، مع تحول في 'العقد الاجتماعي' للعمل وزيادة في الإنتاجية لفرق العمل الهجينة.",
+        "evidence": "دراسات وبيانات مطلع عام 2026"
       },
       {
         "area": "التكنولوجيا",
-        "change": "ظهور وكلاء الذكاء الاصطناعي المستقلين (AI agents) من شركات مثل OpenAI و Google، القادرين على التخطيط وإنجاز مهام معقدة متعددة الخطوات عبر تطبيقات مختلفة.",
-        "who": "المستخدمون في الأعمال والأفراد قد يستفيدون من أتمتة المهام المعقدة، مما يزيد الإنتاجية ولكن يتطلب التكيف مع طرق عمل جديدة.",
-        "evidence": "إطلاق OpenAI لـ ChatGPT Wallet و Google Gemini كـ 'وكيل عالمي للعمل' في نوفمبر 2026."
+        "change": "إطلاق Android 17 رسميًا في يونيو 2026، مع ميزات جديدة تركز على الذكاء الاصطناعي، الأمان، والإنتاجية، وتوسع استخدام Gemini داخل المنظومة.",
+        "who": "مستخدمو هواتف أندرويد، خاصة أجهزة Pixel 11 والأجهزة الرائدة الأخرى المزودة بذاكرة وصول عشوائي (RAM) سعتها 12 جيجابايت أو أكثر.",
+        "evidence": "جوجل، يونيو 2026"
       },
       {
         "area": "التكنولوجيا",
-        "change": "انتشار رسائل الأقمار الصناعية (Satellite Messaging) على الهواتف الذكية القياسية، مما يوفر وسيلة للاتصال في المناطق النائية بعيداً عن تغطية الشبكة الخلوية.",
-        "who": "المتنزهون والمسافرون والبحارة وسكان المناطق الريفية يحصلون على شبكة أمان للاتصال في حالات الطوارئ أو مشاركة الموقع.",
-        "evidence": "تكنولوجيا الرسائل عبر الأقمار الصناعية أصبحت متاحة على المزيد من الهواتف في عام 2026."
+        "change": "تطور الذكاء الاصطناعي في 2026 يشهد انتقالًا نحو وكلاء الذكاء الاصطناعي (AI Agents) القادرين على تحليل المعلومات ووضع خطط وتنفيذ مهام متعددة الخطوات باستقلالية أكبر.",
+        "who": "الأفراد والشركات في مختلف القطاعات، حيث سيتغير عملهم وتفاعلهم مع الأنظمة الذكية.",
+        "evidence": "تقارير وتحليلات لعام 2026"
       },
       {
         "area": "التكنولوجيا",
-        "change": "تحديثات Android الجديدة (Android 17 وتحديث سبتمبر 2026) تضيف ميزات مثل 'المساحة الخاصة' لإخفاء التطبيقات، و'Find Hub' لتتبع العناصر المفقودة باستخدام Gemini، و'Motion Assist' لتقليل دوار الحركة.",
-        "who": "مستخدمو هواتف Android يحصلون على أدوات جديدة لتعزيز الخصوصية والأمان والتنظيم والراحة في الحياة اليومية.",
-        "evidence": "إعلانات جوجل لتحديثات Android في سبتمبر 2026 و Android 17."
+        "change": "توسع تقنية الاتصال المباشر بالأقمار الصناعية للهواتف المحمولة (Direct-to-Cell) في 2026، مما يتيح إرسال الرسائل في مناطق بلا تغطية خلوية، وتدعمها Apple وGoogle Pixel وSamsung.",
+        "who": "الأشخاص الذين يسافرون إلى مناطق نائية أو يفتقرون لتغطية الشبكة الخلوية، مما يعزز سلامتهم وقدرتهم على التواصل.",
+        "evidence": "دليل iSwap Pakistan لعام 2026، سبتمبر 2026"
       },
       {
-        "area": "التكنولوجيا",
-        "change": "تطور المنازل الذكية نحو التحكم الموحد، قابلية التشغيل البيني المحسّنة (بفضل معيار Matter)، وأنظمة أمان أكثر تطوراً، مع التركيز على الكفاءة في استخدام الطاقة.",
-        "who": "أصحاب المنازل يمكنهم الاستمتاع بأنظمة منزلية أكثر تكاملاً وسهولة في الاستخدام وأكثر أماناً وكفاءة في استخدام الطاقة.",
-        "evidence": "اتجاهات المنازل الذكية لعام 2026 تشير إلى هذه التطورات."
-      },
-      {
-        "area": "القواعد والمجتمع",
-        "change": "تحول ثقافي في مكان العمل نحو العودة للعمل المكتبي، حيث تفرض العديد من الشركات سياسات العودة إلى المكتب بعد سنوات من نماذج العمل عن بعد.",
-        "who": "الموظفون في العديد من الصناعات يواجهون متطلبات متزايدة للعمل من المكتب، مما يؤثر على توازنهم بين العمل والحياة وتكاليفهم اليومية.",
-        "evidence": "ارتفاع نسبة الوظائف المكتبية بالكامل في الولايات المتحدة (من 65% إلى 85%)."
+        "area": "القوانين والمجتمع",
+        "change": "تغييرات جذرية في قوانين الهجرة الأمريكية في خريف 2026، تشمل قواعد جديدة للعبء العام، وإلغاء برنامج تأشيرات التنوع، وتقييد مسارات الهجرة العائلية.",
+        "who": "المهاجرون، الطلاب، وطالبو اللجوء في الولايات المتحدة، والذين يتقدمون للحصول على البطاقة الخضراء (الجرين كارد).",
+        "evidence": "دائرة خدمات المواطنة والهجرة الأمريكية (USCIS) ووزارة الأمن الداخلي (DHS)، سبتمبر 2026"
       }
     ],
     "links": [
-      "نشاط الشمس (العواصف المغناطيسية الأرضية) يمكن أن يؤثر على تشغيل الأقمار الصناعية، مما قد يؤثر على خدمات GPS التي يعتمد عليها المزارعون والسائقون في مهامهم اليومية.",
-      "ارتفاع تكاليف المعيشة والضغوط الاقتصادية تؤثر على ميزانيات الأسر، مما يؤدي إلى تغييرات في عادات ملكية الحيوانات الأليفة وخيارات الرعاية البيطرية، مثل تخطي الرعاية الموصى بها.",
-      "تطور تقنيات المنازل الذكية في إدارة الطاقة يساعد الأفراد على تقليل فواتير الطاقة الشهرية ويساهم في السلوك الاستهلاكي الواعي بيئياً.",
-      "التحول نحو العودة للعمل المكتبي (قواعد وسياسات الشركات) يغير روتين الحياة اليومية للعديد من الأشخاص، ويؤثر على خياراتهم المتعلقة بالسكن والنقل والإنفاق اليومي."
+      "تغير المناخ وارتفاع درجات الحرارة (الأرض والمناخ) يؤثران سلبًا على نوعية وعدد ساعات النوم (الجسم والحياة اليومية).",
+      "حرائق الغابات (الأرض والمناخ)، التي تزداد شدة بسبب تغير المناخ، تساهم بشكل كبير في تلوث الهواء (الأرض والمناخ) وتهدد جهود تحسين جودته.",
+      "ارتفاع درجات الحرارة وتغير المناخ (الأرض والمناخ) يؤديان إلى مواسم حبوب لقاح أطول وأكثر كثافة (الأرض والمناخ)، مما يزيد معاناة المصابين بالحساسية.",
+      "ارتفاع تكاليف الوقود والأسمدة (المال والعمل) يساهم في ارتفاع أسعار السلع الغذائية العالمية (الجسم والحياة اليومية).",
+      "الاندماج العميق للذكاء الاصطناعي (التكنولوجيا) في نماذج العمل عن بعد (المال والعمل) يغير من طبيعة العمل ويزيد من الإنتاجية في الفرق الهجينة."
     ]
   },
   "ideas": [
     {
-      "name": "RTO SmartHome AI",
-      "signal": "ارتفاع نسبة الوظائف المكتبية بالكامل والعودة إلى المكتب (7, 13) + تزايد دمج أنظمة إدارة الطاقة في المنازل الذكية (8, 12) + ظهور وكلاء الذكاء الاصطناعي المستقلين (9)",
-      "pitch": "وكيل ذكاء اصطناعي مستقل يعمل على تحسين استهلاك الطاقة في المنزل وتكييف بيئته ديناميكيًا بناءً على جدول العمل المكتبي المتغير للمستخدم، مما يضمن الراحة وتوفير التكاليف.",
-      "problem": "تتسبب متطلبات العودة إلى المكتب غير المتوقعة أو الهجينة في جداول منزلية غير منتظمة، مما يجعل الجدولة الثابتة للمنازل الذكية غير فعالة لتوفير الطاقة والراحة.",
-      "audience": "الموظفون الذين يعملون بنظام العمل الهجين أو يتأثرون بسياسات العودة إلى المكتب ولديهم منازل ذكية.",
-      "whyNow": "تحليل روبرت هاف يُظهر ارتفاعًا كبيرًا في الوظائف المكتبية بالكامل، بينما تؤكد اتجاهات المنازل الذكية لعام 2026 على أهمية إدارة الطاقة، مما يخلق حاجة لوكيل ذكاء اصطناعي تكيفي.",
-      "novelty": "وكيل ذكاء اصطناعي يتكيف ديناميكيًا مع جداول العمل المكتبية المتغيرة (RTO) لتحسين استهلاك الطاقة والبيئة المنزلية، وهو ما يتجاوز الأتمتة العامة للمنازل الذكية.",
+      "name": "SatConnect Guardian",
+      "signal": "توسع تقنية الاتصال المباشر بالأقمار الصناعية للهواتف المحمولة (Direct-to-Cell) في 2026، مما يتيح إرسال الرسائل في مناطق بلا تغطية خلوية.",
+      "pitch": "تطبيق أمان شخصي يستفيد من الاتصال المباشر بالأقمار الصناعية لضمان سلامة المسافرين في المناطق النائية.",
+      "problem": "يواجه المسافرون إلى المناطق النائية أو التي تفتقر إلى تغطية الشبكة الخلوية خطر العزلة في حالات الطوارئ، وتحتاج هذه التقنية الجديدة إلى تطبيق يقدم ميزات أمان استباقية ومُحسّنة.",
+      "audience": "الأشخاص الذين يسافرون إلى مناطق نائية أو يفتقرون لتغطية الشبكة الخلوية في جميع أنحاء العالم، بما في ذلك متسلقو الجبال وممارسو رياضة المشي لمسافات طويلة والسائقون في المناطق الصحراوية.",
+      "whyNow": "مع توسع تقنية الاتصال المباشر بالأقمار الصناعية للهواتف المحمولة في عام 2026 ودعمها من قبل الشركات الكبرى مثل Apple وGoogle Pixel وSamsung، يمكن لهذا التطبيق تعزيز سلامة وقدرة المستخدمين على التواصل في أي مكان.",
+      "novelty": "يستفيد التطبيق من تقنية الاتصال المباشر بالأقمار الصناعية المدمجة في الهواتف الذكية القياسية، مما يلغي الحاجة إلى أجهزة ساتلية منفصلة ومكلفة، ويقدم حل أمان شخصي غير مسبوق على الهواتف الذكية في المناطق النائية.",
       "competition": "low",
-      "competitors": [],
-      "edge": "التركيز المباشر على جداول RTO المتغيرة والتكيف الديناميكي المدعوم بالذكاء الاصطناعي لتحقيق أقصى قدر من الراحة وتوفير الطاقة، مع الاستفادة من معيار Matter للتوافق الواسع مع الأجهزة.",
-      "monetization": "اشتراك للميزات المتقدمة مثل تقارير توفير الطاقة التفصيلية، والتكامل مع أنظمة المنزل الذكي المميزة.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 15,
+      "competitors": [
+        "Garmin inReach",
+        "Spot devices",
+        "Noonlight / Citizen"
+      ],
+      "edge": "يتفوق على المنافسين بكونه تطبيقًا يعمل مباشرة على الهواتف الذكية المدعومة بتقنية Direct-to-Cell، دون الحاجة لأجهزة إضافية، مما يجعله أكثر سهولة في الوصول والتكلفة مقارنة بأجهزة الاتصال الفضائية المخصصة، وأكثر فعالية من تطبيقات الأمان المعتمدة على الشبكة الخلوية في المناطق النائية.",
+      "monetization": "اشتراك شهري أو سنوي لميزات متقدمة مثل تتبع الموقع المستمر، إرسال رسائل استغاثة متقدمة مع تفاصيل طبية، وتنبيهات الطوارئ للمسافرين الآخرين في نفس المنطقة.",
+      "buildDifficulty": "سهل",
+      "buildDays": 10,
       "score": 9,
-      "firstStep": "البحث في واجهات برمجة تطبيقات Matter/Smart Home وتصميم تدفق المستخدم لإدخال جدول RTO."
-    },
-    {
-      "name": "Proactive RideSoothe AI",
-      "signal": "تحديثات Android الجديدة (Motion Assist لتقليل دوار الحركة) (11) + ظهور وكلاء الذكاء الاصطناعي المستقلين (9)",
-      "pitch": "وكيل ذكاء اصطناعي يتعلم أنماط دوار الحركة لدى المستخدم ويقترح بشكل استباقي مسارات سفر مثالية وتوقيتات وتعديلات بيئية لتقليل الغثيان قبل وأثناء الرحلة، متجاوزًا مجرد التخفيف التفاعلي للأعراض.",
-      "problem": "يؤثر دوار الحركة بشكل كبير على راحة السفر، والحلول الحالية غالبًا ما تكون تفاعلية أو تتطلب تخطيطًا يدويًا، ولا تستفيد من التعلم المخصص.",
-      "audience": "الأفراد المعرضون لدوار الحركة، المسافرون المتكررون، ركاب المركبات.",
-      "whyNow": "تضيف تحديثات Android الجديدة ميزة 'Motion Assist' لتقليل دوار الحركة، مما يوفر نقطة انطلاق لوكيل ذكاء اصطناعي مستقل لتعزيزها بالتخطيط الاستباقي والتعلم المخصص.",
-      "novelty": "وكيل ذكاء اصطناعي يتعلم أنماط دوار الحركة الفردية ويقدم بشكل استباقي اقتراحات سفر مُحسّنة لمنع الغثيان، بناءً على ميزة Motion Assist في Android.",
-      "competition": "low",
-      "competitors": [],
-      "edge": "الوقاية الشخصية والتنبؤية المدعومة بالذكاء الاصطناعي لدوار الحركة، تتجاوز إدارة الأعراض التفاعلية من خلال التعلم من بيانات المستخدم المحددة.",
-      "monetization": "ميزات متميزة لتنبؤات أكثر تقدمًا، ونصائح شخصية، وتكامل مع أنظمة السيارات الذكية.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 12,
-      "score": 8,
-      "firstStep": "تصميم نظام لجمع البيانات لأنماط دوار الحركة للمستخدم، والبحث في واجهة برمجة تطبيقات Android Motion Assist."
+      "firstStep": "تطوير واجهة مستخدم بسيطة لإرسال رسائل استغاثة SOS ومشاريع الموقع، مع التركيز على الاستفادة من واجهات برمجة التطبيقات (APIs) الخاصة بالاتصال المباشر بالأقمار الصناعية في Android 17."
     }
   ],
   "rejected": [
     {
-      "name": "Aurora Expedition AI",
-      "reason": "الفكرة كبيرة جدًا ومعقدة للغاية بالنسبة لمطور واحد لإنجازها في 1-3 أسابيع، حيث يتضمن 'تخطيط وتنظيم رحلات' شاملة تتطلب لوجستيات معقدة وحجوزات ديناميكية تتجاوز نطاق التطبيق الفردي."
+      "name": "PollenWise AI",
+      "reason": "المنافسة عالية جداً والفجوة السوقية صغيرة، مما لا يجعله 'نوعاً جديداً' من التطبيقات كما يفضل Moe."
     },
     {
-      "name": "PetCare Navigator AI",
-      "reason": "الفكرة كبيرة جدًا ومعقدة للغاية بالنسبة لمطور واحد لإنجازها في 1-3 أسابيع، حيث يتضمن 'تقديم بدائل رعاية وقائية موثوقة' و'تحليل خطط التأمين الصحي للحيوانات الأليفة بشكل استباقي' مما يتطلب خبرة طبية ومسؤولية قانونية وتحليلاً عميقًا يتجاوز نطاق التطبيق الفردي."
+      "name": "RemoteFlow AI",
+      "reason": "الفكرة كبيرة جداً على مطور واحد في 3 أسابيع، وتتطلب تكاملات مع تطبيقات متعددة. كما أنها تشبه مفهوم 'وكلاء الذكاء الاصطناعي المستقلين' الذي رفضه Moe سابقاً."
     },
     {
-      "name": "MatterFlow Agent",
-      "reason": "الفكرة كبيرة جدًا ومعقدة للغاية بالنسبة لمطور واحد لإنجازها في 1-3 أسابيع، حيث يتضمن 'تبسيط إعداد واستكشاف الأخطاء وإصلاحها وتحسين أنظمة المنزل الذكي المعقدة عبر مختلف العلامات التجارية' مما يتطلب ذكاءً اصطناعيًا متقدمًا للغاية للتشخيص والإصلاح والتحسين عبر نظام بيئي متنوع."
+      "name": "HomeEnergy Advisor",
+      "reason": "المنافسة عالية جداً في هذا المجال، وعلى الرغم من وجود فجوة في الاستقلالية عن الأجهزة، إلا أن تنفيذها عالمياً يتطلب تكاملات مع مزودي الطاقة وهو أمر صعب لمطور واحد. لا يعتبر 'نوعاً جديداً' من التطبيقات."
     },
     {
-      "name": "Hydro-Defense AI",
-      "reason": "في تطبيقات بتعمل نفس الشي (FloodAlert، Google's Flood Hub، HomeGuard Weather)، وMoe بده أفكار جديدة من نوعها بس."
+      "name": "GlobalLegalEase",
+      "reason": "الفكرة مشابهة جداً لتطبيق 'ProDocSimplify' الذي رفضه Moe سابقاً (بالرغم من كونه عالمياً وباللغة الإنجليزية). كما أن فهم السياقات القانونية والإدارية من 'مختلف البلدان' هو مشروع ضخم جداً يتجاوز قدرة مطور واحد في 3 أسابيع."
     },
     {
-      "name": "Remote Guardian Hub",
-      "reason": "في تطبيقات بتعمل نفس الشي (Google's Find Hub، Garmin inReach devices (e.g., inReach Mini 3 Plus)، SPOT devices (e.g., SPOT Gen4 Satellite Tracker))، وMoe بده أفكار جديدة من نوعها بس."
+      "name": "FoodResilience AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (Julyu / Ai-ShopSmartly، MUNCH / MealAI / FoodiePrep / AI Budget Meal Planner، مبادرات الأمن الغذائي المدعومة بالذكاء الاصطناعي (مثل SmartAgriGuard))، وMoe بده أفكار جديدة من نوعها بس."
     },
     {
-      "name": "Aurora Safetrek",
-      "reason": "في تطبيقات بتعمل نفس الشي (My Aurora Forecast & Alerts، AuroraMe، Garmin inReach devices)، وMoe بده أفكار جديدة من نوعها بس."
+      "name": "ClimateSleep AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (Sleep Cycle، Calm / Headspace، The Weather Channel / AccuWeather)، وMoe بده أفكار جديدة من نوعها بس."
+    },
+    {
+      "name": "AirShield Protect",
+      "reason": "في تطبيقات بتعمل نفس الشي (IQAir AirVisual، BreezoMeter، AccuWeather / The Weather Channel)، وMoe بده أفكار جديدة من نوعها بس."
     }
   ],
   "en": {
-    "summary": "Today, we focused on global English app ideas that leverage recent global changes, with a strict rejection of regional or solely Arabic ideas. Five innovative ideas were accepted, characterized by integrating AI with new Android technologies to address real problems, ensuring they are developable by one person within 1-3 weeks.",
+    "summary": "Today, we focused on global English app ideas that leverage major global changes in climate and technology, while avoiding regional ideas or those similar to existing applications. Four ideas were chosen, characterized by innovation, clear market gaps, and the possibility of building them in a short period.",
     "trends": [
-      "Emergence of autonomous AI agents capable of completing complex multi-step tasks.",
-      "New Android updates adding features like 'Private Space', 'Find Hub', and 'Motion Assist'.",
-      "Increasing integration of energy management systems in smart homes and their evolution towards unified control thanks to the Matter standard.",
-      "Spread of satellite messaging on standard smartphones, providing connectivity in remote areas.",
-      "El Niño forecasts enhancing above-average rainfall in the Southern and Eastern United States."
+      "The expansion of direct-to-satellite mobile phone technology opens new horizons for safety applications in remote areas.",
+      "Rising global food prices drive the need for tools that help consumers build food resilience.",
+      "Climate change and rising temperatures negatively affect sleep quality, creating demand for smart adaptation solutions.",
+      "The increase in wildfires and associated air pollution highlights the need for proactive personal protection from pollution."
     ],
     "ideas": [
       {
-        "name": "RTO SmartHome AI",
-        "signal": "ارتفاع نسبة الوظائف المكتبية بالكامل والعودة إلى المكتب (7, 13) + تزايد دمج أنظمة إدارة الطاقة في المنازل الذكية (8, 12) + ظهور وكلاء الذكاء الاصطناعي المستقلين (9)",
-        "pitch": "An autonomous AI agent that optimizes home energy consumption and dynamically adapts its environment based on the user's fluctuating return-to-office (RTO) schedule, ensuring comfort and cost savings.",
-        "problem": "Unpredictable or hybrid return-to-office requirements lead to irregular home schedules, making fixed smart home scheduling inefficient for energy saving and comfort.",
-        "audience": "Employees working hybrid or affected by return-to-office policies who own smart homes.",
-        "whyNow": "Robert Half's analysis shows a significant rise in fully in-office roles, while smart home trends for 2026 emphasize energy management, creating a need for an adaptive AI agent.",
-        "novelty": "An AI agent that dynamically adapts to fluctuating return-to-office (RTO) schedules to optimize home energy consumption and environment, going beyond general smart home automation.",
+        "name": "SatConnect Guardian",
+        "signal": "The expansion of Direct-to-Cell mobile satellite communication technology in 2026, enabling message sending in areas without cellular coverage.",
+        "pitch": "A personal safety app that leverages direct-to-satellite communication to ensure the safety of travelers in remote areas.",
+        "problem": "Travelers to remote areas or those lacking cellular network coverage face the risk of isolation in emergencies, and this new technology needs an application that provides proactive and enhanced safety features.",
+        "audience": "People who travel to remote areas or lack cellular network coverage worldwide, including mountaineers, hikers, and drivers in desert regions.",
+        "whyNow": "With the expansion of Direct-to-Cell mobile satellite communication technology in 2026 and its support by major companies like Apple, Google Pixel, and Samsung, this app can enhance users' safety and ability to communicate anywhere.",
+        "novelty": "The app leverages direct-to-satellite communication technology integrated into standard smartphones, eliminating the need for separate, expensive satellite devices, and offers an unprecedented personal safety solution on smartphones in remote areas.",
         "competition": "low",
-        "competitors": [],
-        "edge": "Direct focus on fluctuating RTO schedules and dynamic AI-powered adaptation for maximum comfort and energy savings, leveraging the Matter standard for broad device compatibility.",
-        "monetization": "Subscription for advanced features like detailed energy saving reports and integration with premium smart home systems.",
-        "buildDifficulty": "Medium",
-        "buildDays": 15,
+        "competitors": [
+          "Garmin inReach",
+          "Spot devices",
+          "Noonlight / Citizen"
+        ],
+        "edge": "It surpasses competitors by being an app that runs directly on Direct-to-Cell enabled smartphones, without the need for additional devices, making it more accessible and cost-effective compared to dedicated satellite communication devices, and more effective than cellular network-dependent safety apps in remote areas.",
+        "monetization": "Monthly or annual subscription for advanced features such as continuous location tracking, sending advanced distress messages with medical details, and emergency alerts for other travelers in the same area.",
+        "buildDifficulty": "Easy",
+        "buildDays": 10,
         "score": 9,
-        "firstStep": "Research Matter/Smart Home APIs and design user flow for RTO schedule input."
-      },
-      {
-        "name": "Proactive RideSoothe AI",
-        "signal": "تحديثات Android الجديدة (Motion Assist لتقليل دوار الحركة) (11) + ظهور وكلاء الذكاء الاصطناعي المستقلين (9)",
-        "pitch": "An AI agent that learns user motion sickness patterns and proactively suggests optimal travel routes, timings, and environmental adjustments to minimize nausea before and during a journey, going beyond mere reactive symptom relief.",
-        "problem": "Motion sickness significantly impacts travel comfort, and current solutions are often reactive or require manual planning, failing to leverage personalized learning.",
-        "audience": "Individuals prone to motion sickness, frequent travelers, vehicle passengers.",
-        "whyNow": "New Android updates add a 'Motion Assist' feature to reduce motion sickness, providing a springboard for an autonomous AI agent to enhance it with proactive planning and personalized learning.",
-        "novelty": "An AI agent that learns individual motion sickness patterns and proactively offers optimized travel suggestions to prevent nausea, building upon Android's Motion Assist feature.",
-        "competition": "low",
-        "competitors": [],
-        "edge": "Personalized and predictive AI-powered prevention of motion sickness, going beyond reactive symptom management by learning from specific user data.",
-        "monetization": "Premium features for more advanced predictions, personalized tips, and integration with smart car systems.",
-        "buildDifficulty": "Medium",
-        "buildDays": 12,
-        "score": 8,
-        "firstStep": "Design a data collection system for user motion sickness patterns, and research the Android Motion Assist API."
+        "firstStep": "Develop a simple user interface for sending SOS distress messages and location sharing, focusing on leveraging Direct-to-Satellite APIs in Android 17."
       }
     ],
     "rejected": [
       {
-        "name": "Aurora Expedition AI",
-        "reason": "The idea is too large and overly complex for a single developer to accomplish in 1-3 weeks, as it involves comprehensive 'trip planning and organization' requiring complex logistics and dynamic bookings that exceed the scope of a solo application."
+        "name": "PollenWise AI",
+        "reason": "Competition is very high and the market gap is small, which does not make it a 'new type' of application as Moe prefers."
       },
       {
-        "name": "PetCare Navigator AI",
-        "reason": "The idea is too large and overly complex for a single developer to accomplish in 1-3 weeks, as it involves 'providing reliable preventive care alternatives' and 'proactively analyzing pet health insurance plans' which require medical expertise, legal responsibility, and deep analysis beyond the scope of a solo application."
+        "name": "RemoteFlow AI",
+        "reason": "The idea is too big for one developer in 3 weeks and requires integrations with multiple applications. It also resembles the concept of 'autonomous AI agents' which Moe previously rejected."
       },
       {
-        "name": "MatterFlow Agent",
-        "reason": "The idea is too large and overly complex for a single developer to accomplish in 1-3 weeks, as it involves 'simplifying setup, troubleshooting, and optimizing complex smart home systems across various brands' which requires extremely advanced AI for diagnosis, repair, and optimization across a diverse ecosystem."
+        "name": "HomeEnergy Advisor",
+        "reason": "Competition is very high in this field, and despite a gap in device independence, implementing it globally requires integrations with energy providers, which is difficult for one developer. It is not considered a 'new type' of application."
       },
       {
-        "name": "Hydro-Defense AI",
-        "reason": "There are existing apps that do the same thing (FloodAlert, Google's Flood Hub, HomeGuard Weather), and Moe only wants novel ideas."
+        "name": "GlobalLegalEase",
+        "reason": "The idea is very similar to the 'ProDocSimplify' app that Moe previously rejected (despite being global and in English). Also, understanding legal and administrative contexts from 'different countries' is a very huge project that exceeds the capacity of one developer in 3 weeks."
       },
       {
-        "name": "Remote Guardian Hub",
-        "reason": "There are existing apps that do the same thing (Google's Find Hub, Garmin inReach devices (e.g., inReach Mini 3 Plus), SPOT devices (e.g., SPOT Gen4 Satellite Tracker)), and Moe only wants novel ideas."
+        "name": "FoodResilience AI",
+        "reason": "There are apps that do the same thing (Julyu / Ai-ShopSmartly, MUNCH / MealAI / FoodiePrep / AI Budget Meal Planner, AI-powered food security initiatives (like SmartAgriGuard)), and Moe only wants new types of ideas."
       },
       {
-        "name": "Aurora Safetrek",
-        "reason": "There are existing apps that do the same thing (My Aurora Forecast & Alerts, AuroraMe, Garmin inReach devices), and Moe only wants novel ideas."
+        "name": "ClimateSleep AI",
+        "reason": "There are apps that do the same thing (Sleep Cycle, Calm / Headspace, The Weather Channel / AccuWeather), and Moe only wants new types of ideas."
+      },
+      {
+        "name": "AirShield Protect",
+        "reason": "There are apps that do the same thing (IQAir AirVisual, BreezoMeter, AccuWeather / The Weather Channel), and Moe only wants new types of ideas."
       }
     ]
   },
@@ -238,15 +225,15 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "81 past ideas, 6 liked, 26 disliked"
+        "msg": "83 past ideas, 6 liked, 26 disliked"
       },
       {
         "step": "world",
-        "msg": "13 world changes, 4 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+        "msg": "14 world changes, 5 cross-links via gemini-2.5-flash: الأرض والمناخ, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القوانين والمجتمع"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: Aurora Expedition AI, PetCare Navigator AI, RTO SmartHome AI, Hydro-Defense AI, Remote Guardian Hub, Proactive RideSoothe AI, MatterFlow Agent, Aurora Safetrek"
+        "msg": "8 candidates via gemini-2.5-flash: ClimateSleep AI, AirShield Protect, PollenWise AI, RemoteFlow AI, HomeEnergy Advisor, SatConnect Guardian, FoodResilience AI, GlobalLegalEase"
       },
       {
         "step": "compete",
@@ -254,19 +241,19 @@
       },
       {
         "step": "judge",
-        "msg": "removed (competitors exist): Hydro-Defense AI"
+        "msg": "removed (competitors exist): FoodResilience AI"
       },
       {
         "step": "judge",
-        "msg": "removed (competitors exist): Remote Guardian Hub"
+        "msg": "removed (competitors exist): ClimateSleep AI"
       },
       {
         "step": "judge",
-        "msg": "removed (competitors exist): Aurora Safetrek"
+        "msg": "removed (competitors exist): AirShield Protect"
       },
       {
         "step": "judge",
-        "msg": "kept 2, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 7 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -276,124 +263,124 @@
   },
   "sources": [
     {
-      "title": "jnptravel.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7rTLVG-zgqxdg9uDWhZwhboffqoacRQKH4xA6B1CyKjEoB8nYjagybkBqoIVPLlvVD4DA0jGz6qp8Vtm0LTM2gAJ4IlZF-XsUHHgWgJ53-p2FSCdPDZHiVIFGUeD2dROPkRGBW3CVyPk0UYUstGlXDva2MJneTJkpkVqhMQ=="
+      "title": "asharq.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdblVoG5Hj02YeCJtVnkoOEWvACXrSFnCX73JWA150RW4ONqSZFdsyklDzqCPkb02j7SzqC9lDkaA2zmKzyFJj67TABn4CbhABRd9L4C-eXCjzRzunI7MFro39Fmcttk7L8KShfCjswtkNNV9K6zoIXo8kbQLdIj2fyzijsX31zbs63Hu-x5yA7MvnsqqZ7n4abbOHuBAM2MVkI7FyYbFsbhmSakpOx_orCwLP5F9jn5PdQhZfkVaF0xcxUtDqbqLTcQYdjfCMS829dNekDJtS9KOVUT1VqPNvsXoZo9bInb2zDQrbAAIW9_5UleTRUwUomH1DSm4NKOjg-V-84eMBPqA5NOo28j5WAX-pZ1BrCx5S3q4jcB8JU2efzXNLGUQz5MEjMK_NLcnDSRUPx66__yrZjEUn4xDmxkh74G3xLDlQWZsULMH734r6y67stGr-mKbJ6dIusVP7UiHgeAMI0x749YoDbs2cxVk0K1WzhP_2LVV9oHw6bvgEBuSV6-7_rn_MB3vGk8lYPdzMSsERjnx2"
     },
     {
-      "title": "forbes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqOmRwbjEumzBGjeVpmGKJqoQNOtvGVtq_9WLWmpFG83JzLQ8LRfoQLO2BTDiJuWTiY5RW_ZK-QX8-oFHXUSF--okjDmmSjsg8xc9Qr8bNZucopFbpqH55fIKfy1JoFLz3LhMxyEHJvvje8eR0suvfxGJgJGI7vZE-WcQ3Wl2oPe9pCI28X4gxZjkj7stbvCrj1TmH_Ae4AU5QiQk_ESjswHeSjDBSR3YTQQrVxzI-UtZmtg=="
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_lcDaII9BdX-eizeLlzYMD0xFray88_Uka1u-x9GshVjgi3SdL6o_kN7jhKGMuXVJXcU7blZn_SX7E9iil1w4qsSyDdpPGVJiOhUFEQChwDUpupeev5VJMzMpkE284cqeMoRw3LVc1msGCjBba6_xBXGMvcWCLdnnVDJOyIgss8Z32H4aZDLcyCn-mdQjtoWmkOS-Lm_Vow_QSdbY2ZtsIjfAQmCDfMFfF4hf2yB5tgvGPU8r"
     },
     {
-      "title": "pogodnik.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv3X43n79eoswpaJau25HZkOLPFoZMIPX0H-w2eAGW7H3vwwG4e1TdSpX-kJytnMvpZimPAibRz6lAURr8-1pglUwSUTKCIP2K9APxLdnrVrlcKhmbYbg-4QJYg--fUZlgcuGxDU36avBoCzJNbDFUSg6x8Q=="
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzvGGgv9iwDYAG6LhlNlvRnAefjrMRglz21FCVRYxBwO-kbXt16j-FNe7hUNgAOAY8ha3qUhfpJ7sZ_BhmC3EBdF3zeJfYVlxHzknIDLnbvtypLWFxzen9rWtUHROrJWK1TVLGjMSV5MVubkt8miTI95i7Hp4hjXuztjv3vu9nufdmcKY7XntT6nMNAd-qssjfgHxpI2pJggftS7X2EKLIdDpQ6DyDpSHqFMSD6daHwFYzGD_YgO9yIM-3QPU5pJCHvwgtkUv5R-aJCIbLk7cmBVwQP_wubqf9wSRUbmQ3y4MRWVNFDq5pLpoWBmLkpZcOxmTb3Yg9vjqaEdFJfcinRFCMTatpxY-2zVsvbvT9F2Z3mvZ8LiIQhJU39H6mljMLG6a4eBReByqGBEcHVkgYo6VkyFJzGndI53TsFqiLhLjpUEk3ay8l1cMJFQOhljAN7Nbdj1E5pUb2zc3wkHzTEg3s-kCq-ssm0kSchW2_NRB7M4OoM92hX98QyEc5qwGRwtRcDITOUfEAmQ=="
     },
     {
-      "title": "spaceweather.gov",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-YMCtwhFxeczYPe39YZR6gQ-N91H23dBphdR2NkW__nVZRd3_U1mlPYPI9ZE3FKb9nlvFHzQUehf1hjRV7wwfPKRoghsZwmlwY_losOdse9ql-Py6h8N3YacgPTxg0PCvqcOz2iau2gnNXwPVBYbDW_tiO5c1VtW7EEBwMzkvmqUJOaYY"
+      "title": "nessma.tv",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOi9KeXxgQQN5Fi21sNz3esw7JdMpNVbi58Z7cxkgK3MR-XnEMkRDaX4kH48M-O2pCJ2WMDpsycGlQUVZJFXO2mc9jvcH7aa7_GucgAjsclic_5tL3dErKcjj7FVXhMhSUBSM_H5Sf80BWV1XLWNqdMz8k7tKosWSXBQZoqVsOmsOLoDlXj0GxxicKt7KurkthLzAXTeRo4jNcb6shFgamtuL3THeO_xyFamnLk25jBnW_NX1dvrCF4s4gCzM3t7TlSIe4h9KU3mQYK1jiCqpTQpGu_34mFfz6uQzcF1l3m56qLN_PCjF03Z5nBuKcFQ2vf2jY-d7Hic_1il9rMbpM_chs1oIhll5ir58m9IOUWft15D97YtzJ_fbV4ttkJ0YQdu0wr0oej2VXKUG6zVgMqH1Ba_6Qc83d9UCIOTcvOMajcSsLoogM2F9UOU949op7la_vOHT6npFsMeJiK1Ayg9F4di-fZ5_SvmHDOoGh672Fb-LlUICyweIr4sEXi6aSKQXTt45mmG0Mgsi6uZ0h3TSo-E-EpcW-PgyopIyDcNB1fM2iLBEJs1eGPY-C30soJsqHuyetHwbGm-3FuxE-PqM5FQ-mHyahJBjKQPxpmkfbY4G6aY6sLaRWgcRyYJ-buKWNHg2JKMz_mDldu1ywrhJqvW-W5Q=="
     },
     {
-      "title": "watchers.news",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4p5PvNLAcH0ggzhe7524b_ft1mvEDCUYNcGBvStsVcJKd05z7nBLHnEQscukxEfhRT6ckUCb5lR3edqPROPFCQEuOooxCBnDgwJr6FwzV7LEYL_Seyq0Gp-dz9zTJYqFxUB80T9pRXNZ2EfFmKPM_bq-TjFdF483otLygKhuin8nHmEDfbKDI6X8dbIj5owSQjA=="
+      "title": "iqair.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvsSPL7kJulmPWR-warsrp-OMuA6gm9UiZNTh-oXL_AemaPAbxXERE6-OAiHZiMP60r0eGzDQC2RcoSc3mqfomx_KjuwbZlxm9IdLwRrHnHZkd8VexYg9HWSoaaGNCUxalp2TRqt3P3EhbX7S1nR38gQHJcZRvEdxdjHAPJ00dFaLq58SrsmnVSj1Z7eylBuIGe6k="
     },
     {
-      "title": "reginajosegalindo.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoewW19OKQr62rcXggy1LtqqBi__g6ppQ37ATMxbab0REaLRcu7uiTT7beQARFV9Pw3-aOP-k5NjH5Q6h9_Qz3QH0l1fBw3NF4nyXBwxJLfqMYgsqrLK-6hOGIUH9EBT1KNL9gljx4DJ7nVSEw5FVU3Zl__VBi0e3PBnIgYqr1NQ4_aKIDQNw95VPxsaGQe7CnTCux6DLRlk3so4u1bXHfSWd68rFCaBw2zMO8nD6XERgfDA=="
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw13phDwKmWwZtshgbMw6xU3xJOPP-ixkZg3khThaXHrMR05ep2ZxZNyI8ecjOcPeXV57fjbwQvpe5Kg3gi2-5G00jlOk8MPBInPCwcYk07b9eJUPx-EGksrShu9VTdVXpbqKXbrQ__N8SrFrHdHPydSHWTIGggqHcreaqMQ5ppq8VCHm0RRIHOvau3kfQB6LauX2T1qeCFtJqJCa903JsJGpOAbsdK3iHLrM="
     },
     {
-      "title": "dailygalaxy.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ-6KiCFAlm0EnfhNOiVHZ28TwPNl9j0LRwfp4WZ4Y5F2x8H0f2lqnAL2dwR1be8rwEfwKHEZ3iKmKvrQckebiel1ycgM4uMceg6a7_x6zZ1gmNG36YCyZdRUaFEe8mt9XmlO6vegYYUGbPN-Co6gOLpMkk5XAkQQfpQdweFzFBPnNsHWzA8CK"
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIG9WVPEsQYZSR6E54YV3TMyJBB7MvjV7YoditN0frcEkLMAOFyie9j9f5bN46N2UxenMM8Y-mxEFFdi0XOHarMdrxuRDQJHKHBIJSCNWMYGD8j2eag1P3aRBn9IETPasDHS1PWwD9IwNah-mapsvYcGyItd2LAz5hYhiAhQJTB6YXW-Q6L1ogsGA3bPV4pQsynIhbs-otjWRyWE31EQWueU0WuBNHLFCGqN-izr4a4pxqNvvOuVg3XNVkQ5A_1N2xGCOy9fpOVsOmGM2wixBUqUMBM05sA2iZqpItkwiVUAdohVOGli3HRx9ieoNiARrkpdmY6lNI43OYdeHddOecKN5E39fYPZTVKk9Ga2w66rRWzsfY349eU3gYFolvyTt75ZCBxAjgJGACbaNtsOpolmz3NI70BHh7Q7zvcFyclPYHS4iKmdxxbnPLS-lpNdzEqVKYX7Qam3vQrTIIcajYhPwFRXKEjDr6Ckvtmdr-p7bwtP6w0y9BU18wZ7_cSM1-8TsPPydeRptLKFs3VAgoXt2t163-Qhhqdv9-Gp07PYUQw2fs_OeSead31rBUTVETg3VSWg=="
     },
     {
-      "title": "watchers.news",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG15VvnUDt9XNgsJ0R-84t7BmId2d6RLvfJONetKA5zd9PYI9opWamaUb1kLsQAUYuWyVN4nS6Gh8rn0q_0LRgEH8xM4FhhHdbzUh9gqnPBYYTbIpjwNGDuo2kni4wcxQfZK8b9XFJbLsSG1bQHm6n4KgReIReW4iWpOMJSw0TljF0XYCIep_lznMRgCaJ-gevHI79HOMB0AJYsLZurbgQZ3V-NOoZFiFtkY7mvakA="
+      "title": "bund.de",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyPZANiQKtvi8Ii4vC9rl8ogJsPdMOK6L8yDHlioWTajxEsMxB7SnqCmv9Um_HzzaIHIb2bNBNv6h0E7SUAzGhcaXoE_7q_qBIowj3jePZVo7NaabWVUEHTS_-LO5kOCvT6DZbR9I6duSBioA="
     },
     {
-      "title": "jnptravel.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfUBpJCBYgCVs5xusWuZPIjiDXhCFn3uEj5L_enoaaamn6c7iXoDdA9wHzt-0w_5YaDHAymMVBfORatQs7-BlG4GuyxqCXT5U6swrr0c4g8D3AUlf4TiKBFxU3GFeSTocejp_xH_r4fzbFxhQNPp3p__en9XgR92LBbk5bx2Q3_S0B_q56S0yHPQ=="
+      "title": "tebcan.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGPdBifc1peX-zekOoOI3Ymu9X3phwBk7KnrVerZJk7OEtZdC495dIRNfy49QCaxowHecQKHVmC1DhBrm6CxqHPVLuA5gsCIhLUxw2Dg9Q8X6ZWjfqfQpQ2IHi_SI217A-PYtmpeujWe97xOw_bb6XLLn5-t6hBguU2eS3av-8TsW7zFz2MjuJXeKgEgzOwun1yVC1w8bE0d50AvSOVBrJXOjGSknbN-dFG6VdNen_8mceGGTANsoPPkp6D1PqeXoQVI0Qc4VWMInzYPPIHwyBuuJA5BOvfuVSm1EE75SzfU8zgKweCB4-fDrYTqJBN4-ip0IA7A=="
     },
     {
-      "title": "time.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEityUwzn3g7iqntfRr_Y4DlUNgnmJStX3_dBUSeQxszgEi2wNCphawDx_zSZbSzEY_yYshwV67e4Wj_--PlBYV1JJLNBHwt9b6u5ZGycrtMDKbjkdPxFVNy0zjgTVdo0gLx6QlyD-JcLJptmcJ-ZVKPF3VpJufzNONmlO1wpONSO14yhATBXLwjP45EEc85FamhSJWgt3KRn_Gf8GH87cP"
+      "title": "belg24.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSS-ihYFvovRkT_F-IctgGV0KyBAIPmaUwp6ErrCekWZ7E7cxMHAGKrXaEM1GH-RxqzCEvXbkMXctjAU4S7aDO7HZ_aq8O8Ul_pIC2LBKLo9Z-LIQARUSZ0w2iVm5KNIVW-1wzgmDNkd5xYdDMTI-_nrr32Y4kqImxn8vTAfeySi47fw3dIM3U-_ddw0-oL6cEQ0nZEji2UgaMY-u_nNJ7qQKLMrfPcVys_Ypi5idoipBk5_gzK4AdgAx9umDRGZH7CdBxyuptrt52jhomtS1iOO4xeQuINdwIk7lJDtZMN1X7xvjCxKLt1FvArhDI_fGT0Cu5F-DXkdQLYCa0J62DFwdGv1SYodPXrMUKx27rQb06_If_tuiDGQ=="
     },
     {
-      "title": "farmersalmanac.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8ocpc1-ZUMS6_fvfyRnU6EKgkPWv4VYRjF_yVueKZYM3gy7AmCb6qnpfVLOgrp_j9aNm39qsqhyJmVetWTjTcAFrZ6WwXijk7ySoybLqAG3wGJzGGEbsi051iy9883MKQipsCynVrWLcUlShVGhsvVVGd6Q=="
+      "title": "alaraby.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ40qck4-_VjCqfEV7iZnbRc-BBGUxQSimLKTr4Bx1nJfH2IqGGLzS-uA8-RnhfkK7r9syo01YtZJW4ZdjRkLaPdx9pvJLrdSBFvFz5aMJ1GRV00qbTJIZUIabj-4Sbti6q_D4q25TJaVbEFx0S7tEqw1sz7i9jMzpf7NxoJ6uSFBjT-HbbzOvi47uihQevfZg5rwtn5eKgdi77HWjcL4T1EFqyOIsvKdRbSFofLLtzHbESttro1x6kehAjhPY3zOy8LKYUlahmQ_PlQl_xZqMGrANp89eUPXV97ZoP5N0zv1n0ER3sVKncJ6M1dXrABNJ5sHXjiEegFWkDGoD3WNlvHm0kwcQmf_VOF73ZydxNC34UPU1-WqY6kP6T7PPLGsks-3jGC_j1lum804jBM3ha8jfMQ737jjbqFM_NmaRJkMtKmqPy-rRU-bG1kb6ZyzmvYlKvEr0v-A5R9JWFIMxI4meczW36oJUr4HedWK3b7XKs7FUABKtJbg_R8iEt21sly_OvS86CIm9bmO1KOYprWo5TH5kkHUVjg=="
     },
     {
-      "title": "cbsnews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyLAQmJmhxz06AYxAnMtH3z7R7-Xw9qRxoCvuF7xldAJKaPuSh2dMNFBOx3WiXfJyEeW7-YB4FNJ4qVpySZK7U2riz0escNjJB10Rem5WGf6FCL_g7VG_-6I0Yb9rYBQv95V9UdbK41zxBCl08qRwOJ_CgRj3N"
+      "title": "sawtbeirut.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSi22-DAewcHrQxjnEjMLA5diiRvHzlk9L2DB66Z0sc6mbo3Utjf_KX6_JZAaFUiCuQrwpUXr7NJRLjIYmP_6ps_c5aFZ115fc88z05Xj1j85zkGroWS1AiYVptvdlco3kVCHktAZ8dyXXuKaRf2VXx37_hP_eO-CP2GwABcWkW2UkVFv7nrOtk7k62A7iLW5fDb3OgSJp5G1lBSSb5BVlGf3jzdr8P-YtWlnqKCR__RFtojIukgZOREAaw2fTTGujvgT1vd2Y5j8MmshFp97nxgIhJNRtjVia52XvSwQWZfDZSthjV6bDKld3y5eS6L_PA1wqqWLuBjwafY3XHZX3dGaubrK5fDSzypdgu_8c38iSwWARfYBfL8cd4Uw30aoxyOpD"
     },
     {
-      "title": "almanac.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgtZ5qu2QH937Ui_ABYQ6lo2neapP4he8-Fo2SSFFNyafS4ZP652HmVIb3YF1-yRnivhhfRq2lE_pgCRb4oYjBjHHrIL8kzwmnpA5kJa_I0KJp0MotprxAX-MLSeAkYX0KhXGcfZY3PICiKW3IMK_zus9l"
+      "title": "aawsat.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcemks9jyAzUrXL5uwEQ4sQs9aUInpXEEMrAypnZE-82d9X6Czo2nzVAvyPfy_2AK-b-zrquucGpXAgqe9WcarjnYhbP589AJ_n4cZfiYcbjWupsa4meivQoWT8R9lvo1fQjBE7XYBdsKwwK0Ya93yuNsGcBH5SDqujmARtse6KEc7V6wCslYXVVxj17Wk0Pr8CSl5g_e4CZDP1-DIRM378WanOY96dAGhJYhkl572Naw-tE_WYjcggPBLbr7XyJhRgwV_gWLuuqiBTufrVRL7odVBtE9ERPQ2xUAtr7Y5Rq1qAS7iFEz4DEBahRiCFukiQDujVFEDd9ivtZR3Guep9wbYJuLab_MRbEC1LoSHb-569ZxS-5IHvhSY0gzCM3Pm6HOgWa5p7qaqlINT9Z-_Nhuwf7T-80Tqt0kTqPcIFaUlEO1fGET0zps7qF5sEg=="
     },
     {
-      "title": "latimes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEccmvsXIfkgZ_LZwrHzcDDkF6o5ceQpEVe-orAj9l2_4z21RdzlqrClvuvL5oU--YQQ_dsJIPE1Ew_mCYTTGe3Zab_DjaZXoFllkZU0iOCNBm-oX2RAKy1pEW2CO2v2_JS-OSt8JbwaUOVQ5hEzklYsXm8LwfIAhmXIfI7DFAulfwvTkftBAIPHkeR_bzGGVJQZ7ZgjbmLSRC_miFY9hOqI0ivDXLwPd4Y7_PrGiOFBIO1"
+      "title": "nih.gov",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy6klzc1M2gNkeetCecp4nvF_jCObDzV9G-xB9TuUhn-JoabWqPnJbn2dwVUO6UdOaiEx4dO2eXGVwp59XW0RrL-D_Hfp-XWJZOw30wqKtocLm687gOHeioyQYnshWnVLD4a88bcBMyyWyRX8="
     },
     {
-      "title": "inbeat.agency",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEixG5OMg42dNCILEXxnR61L3t8Gv-hREnoeeQWkOlYxsG9fmElgUqzIAOPwIYZJJ3R_w10CV6UStKk51QWIXPBuq573OzmmG83EUHp3E9Clv7d_T8OklSy-ei1I8kkLh-J5v2aRj9jeQ=="
+      "title": "skynewsarabia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt6Ia18d-jNoGPGiAib9tqfJDl8gYoyhuXWLfeoo-PoBD7ymaw7H7PvSyewQ4eibLIvR_lN3YXSeqeNrhXvD8or1tZYPISTa4RQeWL1nfVEpd-ha9hdnGFoiGqGW_0dSiFsafuR_4q4EOwhWwiAyFZDhnLavCirf9f9d_HdeLF0aAciggUYV4TRbTt-g4j1iFTAZiBCGRSmr2uWKPHMzNmUQsjbwJ14J48CYdwGKHscX9AOhmrtXv_Jils-DoEnF0vjpDNOVMIZlxlfOEnaUQtsZNvEEfHkR_UtjjDAEGc0hn6DhmaK4obhLBwIs9SBOgTkd0JxlrJEDuD29aeVkGRvRYTPr39Z-JIG2DsyCt3eTS2Z5i7o04xi8r_vH-GLDf5lGv7MFUv-2W1EtS5ea1Fyzvx73a7IacvdQTX6Pj2kaf4JqcIWVcBv3-QDfgyLAXY"
     },
     {
-      "title": "forbes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj93KfFXnrLgXEC_9fiN-rfEvhPxh9PdeJw4ssykMoHNlxLdqdeN1QcM7RZhOCY1Owbc2Heq6xh2f1ojPwWfjOyd_AkZcrHbdAhMrQGopdI3u_XE6UZuvTOrMHo8ZVqa0KOgB8jronBhvwLcdNdVJ-lBdaTbV_YdOWK_275WMZcA=="
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgFsBWmnOQsYy11GkgvQDPnraIMGWgsmR68S8JfOW1-GXi8_-dS3jS6BxYh197mraodAv7zTkJ1SeM7wdLLFZ6mHxrwkA1-yqL6aCoyjQXZBpuJbnL0N4g9ERIfaW_-KkutD91"
     },
     {
-      "title": "morganstanley.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHad9oxJw3KcH2znZPemzgokIiQvmiBq2o4ha_NlHGYxklZux3V89gBstUlOf5zD_f7Vqm6Zhgp2sOytCS6CXaqlWMB1O0qIt57Q3vyWSJsKXt_AybaYdIE_pVO8Vl-opxO1WRXqnhdFKbMM3DO3iR4Z9gjAucEM0aN6Si8aYGlOCwmVAb4aEbMUNI="
+      "title": "worldbank.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrPmXgrxRQl3fo_0VIYZX90MNdo0dEvPbe9JbR8HzTYfOIPX9Z-t_kxUs6qvz6WJhMkqVHZsRi2e7E8GGeSBw-KDifFrrZQmijkh5p07IPONx9GzCAD5dZf_vMxwdQKF08dCRmPJJEOjnLk0VDsQFiQEEkOFCzEhVh4chXeTmIFMIgGjLucSVAsozT1nd1wtjitFJzgxi8AMJPVQ=="
     },
     {
-      "title": "roberthalf.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6wYkyIwvzrg8Ic0_JMvqFaOKFyi7mNGwipB7QoGDUi7I-MMyuDxMLMOgA56Ew-cq7-a_PIFi8j9E-L3hkaxNgPVgUbOquk9BOhbXW_JEg3NA1sD67xcIM4A_5PQ3kmQeEuNMsJoop_u4TuZPKchuvhPIWxH0Dk7qSaPGlk5r92WHWzt3gGZj7I2-WTUwy"
+      "title": "almasryalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUGZQ_hlhF9wAltXUnN4_1gDpex9hCb0JVbWBmVhcdQMO_3VXhj_5TNF4adB7EuxlhcAIpNAUOTB6RIqX9XBaR8ouuzVQiufqFCQ6R8bGw0Bk-V_5D-mm04_0jphwQzahx7JYme8Hen-lElwk="
     },
     {
-      "title": "niceforyou.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrYZa6K-8EimrKIC0LW9kVsyOypbNuU4tklaq-fOJAUWTfUIVaCnWYhVxQEs-ZD6bssucYfaTTBLKEEcqS-M17C6tdXijq2n1j1MJrQtrp-M2QncFbVmn1la02FCxVGUdkrQ4k_g3pEBAGsSrVQVHrtPl3MjVN4yn811-SlMKlWKN8VgIqFn7q0FzUtNdnq9X04ch3XVQ_YbiYsg8c-vFO7w=="
+      "title": "argaam.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC2VzLo8NyPmw2KY4CjgWSagfpGMWowe3K2BngeZFy5KtjVi_wMq_kUtRxlOdaQdZnqVrXsvpRumX50xqbbWsPBDEHIpG3ZcVscPM_sBJtTaFfx7BkcXmDHT9m7jM63hjWaa2dQW8LywQmONWm4YKgT1Ehgg=="
     },
     {
-      "title": "strategicmarketresearch.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjHWxqsL1_-4UOzKAs9UhGSnKGWqYZgBNlBKjTHA8FbnqmCjBDwn5v4v1ZUiswoAwTIQHuAo9HmeWmxGVos_XqeiBujl44cPr8br4in0mL4bW9ltaodYlvuHJaSmOf3z36dwgV9bIYCJcb8Pl-wlH3Sq2zql2LM6_05VgjAYA="
+      "title": "roayahnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRIL_Yk6sSC-Nn9KFz_x4JVojlf0sHMcGLnyF1ofIfBJ_yi0Q3UOUN9xO6c6KQK_WXPcjt7k8H_vYoLt7EQv_WjN-7l4zmFbQsvdCGMFwV4Q69q7Qpr6wTFEZ1fhSonoxSWnoxgqlcscIwa9bL9DFOVNSgM1-421E-6oia-XTBPPeBOVnLeoqzS4bykazKAo76IHg2q9sGOPAJSRjaWykfaTFQRfTTIApDS0Wvyjsu_toOrinSig4ik82PiS6QVb3b0cC1BB304aw3hKnb81eoz0CSSxDDL6O6Nf9OIOPMkApBHKppBPZbRO8rLvKoNON9fgNcdd-eehm_IO_MEEl7YmMbu_kr8zBdXCgBZEdc6_GaeFyvZOE="
     },
     {
-      "title": "brilliant.tech",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH14yabvbrwYNW-6IrVAXltj04ZNtFmmFAOw77ZVOZ8HytjRnRhlz3DBy3ATmaVEluhUDiJNkdpAwUvq9N6erdUi3GOSNsYwcsb7_Ve-wLVmGqGJUIVkqZ9lFz-HkQfKTHT-R0XecNzItAcF5JdV9MOegj09QE8hUNjf41pi7UxSh-Gi4urw=="
+      "title": "shorouknews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY3TxzKhgaGZR_IkizaiZl9WCGq27Hs5QeAH8NLe8v-hNnml_hyCzzbK3Q_43W2--boWKHufKzZtQpRLGnBAQSyYF9DbYFbgyT6TnYeGbJ703ya8hiYr5f6bTbHngRqHI6yjMrvS0YcGbu1CP6mo-cgUMkAAbHuCkUOLMLwzXna_bvPv_5Ym43HPe1fTG9gTUyYY63Sy68_KZ0NEAzPqwuv0k="
     },
     {
-      "title": "elevateinspectionservices.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjbWBuK7qEu8sZGw4PP64T233-p0OWhp5wrizl7RfODWHvDELcWhHN4znlqRIEs65pInOVTqmTbqdNubOMYbMhSBns4Qjj60kD8C4KjnzY04-Udb0D6mUV60X4TctwJk12x_zqHdyavmBtajda9hDMAbc5kI9LFEcZpFBfe3LKWFrMWdNs"
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgsvoB8SMFAbPbp-v4xM0vBSQkukRUdELg-P7WJUv0lFbE8sS08sTVaWLM8X95pNsRbfaOZZkpIwKdGkc0pcNPg44xhvNEfz25HYYAiox0E6Q0erMIjVweqEAu9SgZYhUsOInlsewTV8jMFyJEb4xO2_X0CUs1ym1wVUMZxIu-YgIp98bf-3LzqNI-3-O6xbEf5KCd327jFL0DPvDJRj9p6v8FYYI_p5gjbh4="
     },
     {
-      "title": "mean.ceo",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM7m-d0KbriPfozjSHsTpwur4jus3e9hh-ENulY0yE2lBrloLj6otF6Ur96UgvBvKHKSFUVNj52Oz_3UiOsmPMvrkWv4FgEprSpAWJhiN5RTvWXr7uqYYPHm7IHVXvpncF50q8mFrJyfHjM6JpzbOI8s3Z5lYqGKkNA-s="
+      "title": "albiladpress.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHupcqOp-OwfU9eGE8pmHkwlqdTnu-pcomAkzpjAjzoRpVxtgZwQB7bL0kaR5VSNKxcZfqnt8KD9vF4r4oy_HsdI8glnL2QsxREfofTP6TFDDFQNeBi3N-J3Hq8WkBBJUQc71xTnI0p2dhIGuGBVlSX6mMvDzQQW3k9"
     },
     {
-      "title": "intimetec.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXxd-gEnggAgv82z3tz1_kKS_2179yZoSMox8vt9herc_s1g4pl1e0eo4FNOe2WVNFgbnAWVxblzVXJbFtqWE2TWBwAnOklxIwj44S6_AsOU30_ZJWBj5f-DMWC51KfwyIYfeChWRl1hZLmUM="
+      "title": "lezrweb.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcGyXCImKxbauQWr8TjxD669fmlbtG87ZUGrCdqwUtluUkdCw_86BSy6dQW7WmalTRiRNaSPNRXUrAlAmpp-GKMWzjmJRpJavJvcujM9BBDZhbkmP2g8GCYwCtfNguUVcE1lTz8t12_4r9VzQ67YcYeX0CYC51FkhNl9nm8G6UzVKI20pXmXo4LV8Jk9mRvKA1DTH7PmQuaWHoBmEraWqe3wnUyPcjmz77xrp-biBcBPHcASJqDADeHk5Wwk5CKykBxErTnruoAm9MbmDk-USQDTjDaDa2lGCGY7RNbC9YXgE1wMCEwZtmEfoZqkUYAfxOZyYiZktXwuCIFKLUhLP8W-Muw5E1bcX3pidoccMJVUWyioK80SqWykGVqZ3ASIqO5Q=="
     },
     {
-      "title": "buildez.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVb3B8wGs8svX6i3pp6Nd5VEqTC3A8HV9uREbyvGrfHKJis8kbp1AVqrRtlh_OnrBAHn5aeZsmXNctiaMOOVbgrutGdUk0Y00dqdj_9cIto6BVU_M0BkUTKqPByDsQoa7vVt-XUS8R6SLOABde6lFK4WkR1Y7leLOv"
+      "title": "lorebeam.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSZVPP1kWkl8dRlELTbmRpeH6Xei-Vn3L84jooDWvHkxVlblcb4oaJcizkOamXNrGbQT5Gcq8fxZfRxepSUdjuJ6nRSbacGfVXZSzzlbk02U8JZibkj8Qv1vEYhXyYHu045-qKAimUHOrCCDnsK0NTAR8Cbpl1cYt5uxazK-1xcTJicBaG8G8X-VPGks7yS0vH3Hz"
     },
     {
-      "title": "reddit.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECd5QipkzJ-kOo3zsBlw4WCeAMBhjrkV3mDEgvRjY8VsawPyWssO6mqAdaj92-H1RohVi_D8ZEk02XegVNsx79KTGkolH2yk8MJZSldyNm5cBYxXrBBJ6qn2Wuef6VTrfW7Vo-Iu9o15zdf_Fk_ROw0nUaiSUn77XJx46xRIF1M-o8sEcgxmit5dgVDNoJM09QHLg8g529yXfyUg=="
+      "title": "almasryalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi2p9PcyPJTWsnsKnIfPS4YVi_c1gtd4gavX0wcWHcJleN7FVBRyJoMfmyQzdOsYSdLLpCj_irL63apjLhwBiSHR75mP3TNfWRU511Z2Uebw4N7TOprCVisES2CYH_kGXPzCeWd9W_cPyV4RU="
     },
     {
-      "title": "technewscentrals.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH5es50JWFPv_hZp3dYFmpAJVU6vwMzx-SDxpd7xXUZXhv-zeeCBh3mI3p94UHRVDeZz0ClXeKFmqqsW4SIYEWN-gDaJbmw12I04WpGwHiKTjqymHrNkjV8aG6nHbcUQk86pJS5EZUQ6iKJd_p6Zc-eHDYIyD6Uhwuxo8Nl1yxU5eFPNpQ4NOX"
+      "title": "remotepass.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU8Bp18tyLcHWSWruRV6P0_oY5h3gfmXDTyZMaCaxmdgwb2-7gtI7BytK3mlI9OZ1SY1oGdWLgDHC9szS9Uj8lfKwVO8A8rn6Qj27DU6OJJgVeUWwoxORGtvRNDG7b2LJlDtczXEHoXk9UTrd_sewZ6gVlpxQ="
     },
     {
-      "title": "ast-networks.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH81g28oUz50ku8VUunFWF85cGGFM-jsOvNZF9IQep6IxiN1oJoTqJNs4MVbYRTP3D08xos5KVaa0L4fuoy2hZuXs_S8VrBvjQVoysI9P7tRecFOyf4xyjO-GGfhjUF8XYr6Y33pTepqQEbIh82sq-9"
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoYbzl7fcNOtT-oML-kkSb0WRom3EX8xWzc6yWCuNiSLr4iMASaqqIdq2V0kZ5IZ2sMyI8a_8H3FWI7VdJUJtyoI3BgIiTNm0bhrewsOFQN5sMOI_ihwB7tcxR7RPuh0AhFHv1aw=="
     },
     {
-      "title": "t-mobile.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctCk-51SWbpXZ7kDSdMIGIQwyJiYh-X-nvJ1lc9gf7GSNDiIhXrsWE0_uwa2lLTCvZ3VNZj1AX24E5ByydPOPx5jorf3iRtlWuFGsTsf5BEjyMjZ4mOtQST74LpJ0ORtg-7kEb1ApsBxmaqCoYEQcjRbXKgf7L1CRIQ=="
+      "title": "saiftech.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOoEU8diAmhuTuqCMPWEdIGtqyImL2d5J_7-lVtK5wB-a8Pwpgx67RSnyH10yn_9MBXtwAIuw0nOd5a2TcwDsMwtN6posbZUPThIZ7g16HUgj5Z_8YK-ldhe2NUubWR_XvwZer"
     },
     {
-      "title": "blogspot.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbJBLo8puv0JLhMHfkOEDrO4bFijY2wINCnHmxjaf45Bcm4uC0RnhADvpBa1klCLOpeS7yKwAchMqtk_fIup78pLJ6FXJ3NE7kntY4_81AV4RLIdp1823J2Z7wTitz307XV-4zE9_2QM4XgALL8qLhjC8hwIblFX9YPi2OXWA7NT0RHfvFvbCs3-m3EDHIW5_3lFK_g=="
+      "title": "techcabal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6QB448QPc9PsSbXhpr97fTFZSYcoGKwKlu4vLryBHvDUAVAiQp_ICUs-vjo_4dqogSlvawX-OUFskKB-RoOejK4q9QkNr5GQRZilNvmgRtNZ5Yi1YvSti0pJ5GqWoVfewP-LoTTJRwgzG61E8f-m0b3EezDA_cQM4i_t7bCsF6tjKdLMDElGZ"
     }
   ]
 }
