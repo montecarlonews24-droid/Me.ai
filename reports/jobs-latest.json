@@ -1,10 +1,10 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T14:24:41.108Z",
+  "generatedAt": "2026-11-23T15:51:50.950Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 3 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 3 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -79,57 +79,65 @@
       "proposal": "أهلاً بك،\nأتفهم حاجتك لرفع ونشر تطبيقك الأندرويد على Google Play Console وتجهيزه بالكامل للمراجعة والنشر. يمكنني مساعدتك في هذه المهمة، حيث أقوم برفع ملف التطبيق (AAB)، إعداد صفحة المتجر بالوصف والصور، وتلبية متطلبات سياسة الخصوصية وأمان البيانات، ومتابعة مراجعة جوجل حتى الموافقة النهائية.\nلقد قمت بنشر عدة تطبيقات على Google Play، منها تطبيق \"Islam Rising\" الذي يستخدم في 177 دولة. أعمل على تطوير تطبيقاتي بمساعدة الذكاء الاصطناعي لضمان الجودة والكفاءة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك أي متطلبات خاصة لعملية النشر أو تفاصيل إضافية حول التطبيق؟",
       "foundAt": "2026-11-21T15:35:20.550Z",
       "fresh": false
-    },
-    {
-      "title": "مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية",
-      "url": "https://mostaql.com/project/1294352",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع السلام عليكم أنا طالبة وأشتغل على مشروع فيه نموذج يصنف صور طبية لفئتين، ويطلع النتيجة مع نسبة الثقة. أحتاج شخص يوجهني ويشتغل معي خطوة بخطوة في جزء تدريب النموذج، بحيث أفهم كل شي وأقدر أشرحه وأطوره بنفسي بع",
-      "fit": 8,
-      "why": {
-        "ar": "يطلب العميل توجيهاً وعملاً مشتركاً لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية. يمتلك Moe خبرة في تطبيقات الذكاء الاصطناعي ورؤية الكمبيوتر (SCANIQ) وبناء وكلاء الذكاء الاصطناعي (Me.ai)، مما يجعله مناسباً لتقديم هذا النوع من الدعم والتدريب. الميزانية مناسبة.",
-        "en": "The client seeks guidance and collaboration on training an AI model for medical image classification. Moe has experience with AI-powered apps and computer vision (SCANIQ) and building AI agents (Me.ai), making him suitable to provide this type of support and training. The budget is appropriate."
-      },
-      "watch": {
-        "ar": "التأكد من أن العميل يفهم أن التركيز سيكون على توجيهها في تدريب النموذج باستخدام أدوات مثل Google Colab أو Teachable Machine، وليس بالضرورة كتابة كود بايثون معقد من الصفر، وأن Moe مطور تطبيقات وليس مدرباً أكاديمياً متخصصاً في التعلم الآلي.",
-        "en": "Ensure the client understands that the focus will be on guiding her through model training using tools like Google Colab or Teachable Machine, rather than necessarily writing complex Python code from scratch, and that Moe is an app developer, not a specialized academic ML trainer."
-      },
-      "proposal": "أهلاً بكِ،\nيسعدني مساعدتك في مشروعك لتدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية وفهم كل خطوة. أنا مطور تطبيقات أندرويد مستقل، وأبني تطبيقاتي باستخدام الذكاء الاصطناعي، ولدي خبرة في دمج ميزات الذكاء الاصطناعي مثل Gemini Vision في التطبيقات.\n\nأحد تطبيقاتي، SCANIQ، يستخدم التعرف على الصور بالذكاء الاصطناعي، مما يمنحني فهماً جيداً لعملية تصنيف الصور وتقييم النماذج. يمكنني توجيهك خطوة بخطوة في تجهيز البيانات، تدريب النموذج باستخدام Transfer Learning على Google Colab أو Teachable Machine، وتقييم الأداء، وتصدير النموذج.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديكِ بيانات صور طبية محددة جاهزة للعمل عليها، أم أننا سنبدأ بالبحث عنها على Kaggle؟",
-      "foundAt": "2026-11-21T05:36:26.701Z",
-      "fresh": false
-    },
-    {
-      "title": "أتمتة متجر إلكتروني",
-      "url": "https://mostaql.com/project/1294329",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع السلام عليكم، عندي متجر إلكتروني على منصة سلة، وأبحث عن متخصص في AI Automation لتنفيذ نظام أتمتة متكامل باستخدام n8n وواجهات API. المطلوب مبدئيًا: 1. ربط WhatsApp Business لاستقبال طلبات العملاء ومتابعتها.",
-      "fit": 9,
-      "why": {
-        "ar": "المشروع يتضمن أتمتة متجر إلكتروني وبناء وكيل ذكاء اصطناعي لربط WhatsApp Business وجداول البيانات ومنصة سلة، وهو يتوافق تمامًا مع قدرة Moe على بناء وكلاء الذكاء الاصطناعي والأتمتة باستخدام API، كما يظهر في وكيله الخاص Me.ai. الميزانية جيدة واللغة عربية.",
-        "en": "The project involves e-commerce store automation and building an AI agent to connect WhatsApp Business, spreadsheets, and the Salla platform, which aligns perfectly with Moe's ability to build AI agents and automation using APIs, as demonstrated by his own Me.ai agent. The budget is good and the language is Arabic."
-      },
-      "watch": {
-        "ar": "التأكد من أن متطلبات n8n لا تتطلب خبرة متخصصة تتجاوز قدرة Moe على ربط APIs وبناء الوكيل الذكي.",
-        "en": "Ensure that the n8n requirements do not demand specialized expertise beyond Moe's capability to connect APIs and build the AI agent."
-      },
-      "proposal": "أهلاً بك، أرى أنك تبحث عن أتمتة متجرك الإلكتروني على منصة سلة وربطه بـ WhatsApp Business وجداول البيانات، مع بناء وكيل ذكاء اصطناعي لمطابقة الطلبات والردود. يمكنني مساعدتك في بناء نظام الأتمتة هذا باستخدام واجهات API والذكاء الاصطناعي. أعمل على تطوير التطبيقات والوكلاء الذكية بمساعدة الذكاء الاصطناعي. على سبيل المثال، لدي وكيل ذكاء اصطناعي خاص بي (Me.ai) يستخدم Gemini للبحث اليومي والأتمتة. هذا يوضح قدرتي على بناء حلول ذكاء اصطناعي مخصصة. تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي. هل لديك تفاصيل إضافية حول أنواع الردود التي تتوقعها من وكيل الذكاء الاصطناعي؟",
-      "foundAt": "2026-11-20T21:29:51.278Z",
-      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Pattaya Travel App Photography",
+      "url": "https://www.freelancer.com/projects/photography/Pattaya-Travel-App-Photography",
+      "reason": {
+        "ar": "المشروع يتطلب تصوير فوتوغرافي وإنتاج فيديو ومحتوى، وهي خدمات لا يقدمها Moe. يركز Moe على تطوير تطبيقات Android ونشرها.",
+        "en": "The project requires photography, video production, and content creation, which are services Moe does not offer. Moe focuses on Android app development and publishing."
+      }
+    },
+    {
+      "title": "Web App Review for Site Engineers",
+      "url": "https://www.freelancer.com/projects/civil-engineering/Web-App-Review-for-Site",
+      "reason": {
+        "ar": "المشروع يتطلب اختبار تطبيقات الويب وتقديم تقارير هندسية مدنية، وهي ليست ضمن خدمات Moe. Moe يقوم بتطوير التطبيقات وليس اختبار تطبيقات الآخرين، خاصة تلك التي تتطلب خبرة هندسية متخصصة.",
+        "en": "The project requires web app testing and civil engineering reports, which are outside Moe's services. Moe develops apps, he does not test other people's web applications, especially those requiring specialized engineering expertise."
+      }
+    },
+    {
+      "title": "تطوير تطبيق جوال لحجز صيانة المكيفات مع تطبيق للفني ولوحة إدارة",
+      "url": "https://mostaql.com/project/1294853",
+      "reason": {
+        "ar": "المشروع يشترط استخدام Flutter أو React Native لتطوير التطبيقات، وهي تقنيات لا يستخدمها Moe. Moe يبني تطبيقات Android باستخدام Kotlin الأصلية أو WebView.",
+        "en": "The project explicitly requires the use of Flutter or React Native for app development, which are technologies Moe does not use. Moe builds Android apps using native Kotlin or WebView."
+      }
+    },
+    {
+      "title": "تحويل موقع إلكتروني إلى تطبيق Android وبرنامج Desktop لنظام Windows (EXE)",
+      "url": "https://mostaql.com/project/1294882",
+      "reason": {
+        "ar": "المشروع يتطلب تحويل موقع إلكتروني إلى تطبيق Android وبرنامج سطح مكتب لنظام Windows. لا يستطيع Moe بناء تطبيقات سطح المكتب لـ Windows، كما أن الميزانية (250 دولارًا) منخفضة جدًا للنطاق المطلوب (تطبيق Android + iOS مستقبلي + برنامج سطح مكتب).",
+        "en": "The project requires converting a website into an Android app and a Windows Desktop program. Moe cannot build Windows Desktop applications, and the budget ($250) is too low for the requested scope (Android app + future iOS + Desktop program)."
+      }
+    },
+    {
+      "title": "تطوير تطبيق عيادات طبية",
+      "url": "https://mostaql.com/project/1294904",
+      "reason": {
+        "ar": "الميزانية المحددة للمشروع (100 دولار) منخفضة للغاية بالنسبة للنطاق المطلوب، والذي يشمل تطوير تطبيق Android موجود وتطوير نسخة iOS، بالإضافة إلى إضافة نظام دفع ولوحة تحكم إدارية وتحسين واجهة المستخدم.",
+        "en": "The specified budget for the project ($100) is extremely low for the requested scope, which includes developing an existing Android app, building an iOS version, adding a payment system, an admin panel, and improving the UI/UX."
+      }
+    },
+    {
+      "title": "اختبار تطبيق رقيم على أندرويد: 12 مختبرًا لمدة 14 يومًا",
+      "url": "https://mostaql.com/project/1294911",
+      "reason": {
+        "ar": "المشروع يطلب توفير 12 مختبرًا لتطبيق Android، وهي خدمة تقديم مختبرين لا يقدمها Moe. يركز Moe على بناء التطبيقات ونشرها على Google Play.",
+        "en": "The project requests providing 12 testers for an Android app, which is a testing service Moe does not offer. Moe focuses on building and publishing apps to Google Play."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4492622600/",
+      "reason": {
+        "ar": "هذه وظيفة 'Android Developer' بمستوى 'Senior' ونوع 'Contract' لشركة، وتتطلب العمل ضمن فريق بخبرة واسعة في بيئة عمل مؤسسية (CI/CD, Jira, Agile). Moe يرفض الانضمام إلى فرق عمل الشركات أو الوظائف بدوام كامل/جزئي أو الوظائف التي تتطلب مستوى 'Senior' أو 'Staff'.",
+        "en": "This is a 'Senior Android Developer' contract role for a company, requiring extensive experience in a corporate team environment (CI/CD, Jira, Agile). Moe rejects joining company teams or full-time/part-time salaried positions, or roles designated as 'Senior' or 'Staff'."
+      }
+    },
     {
       "title": "Console Gameplay Recording for YouTube",
       "url": "https://www.freelancer.com/projects/youtube/Console-Gameplay-Recording-for-YouTube",
@@ -313,72 +321,16 @@
         "ar": "العميل يبحث عن مختبر جودة تطبيقات (QA Tester) وليس مطور تطبيقات. بالإضافة إلى ذلك، يتطلب المشروع أن يكون المستقل مقيمًا في كرواتيا، ومحمد يقيم في الأردن.",
         "en": "The client is looking for a Mobile App QA Tester, not an app developer. Additionally, the project has a mandatory requirement for the freelancer to be based in Croatia, and Moe is based in Jordan."
       }
-    },
-    {
-      "title": "TikTok Shop Manager – Content Creation & Growth",
-      "url": "https://www.freelancer.com/projects/ai-content-creation/TikTok-Shop-Manager-Content-Creation",
-      "reason": {
-        "ar": "المشروع يتطلب مدير متجر TikTok يركز على إنشاء المحتوى وتحرير الفيديو وإدارة وسائل التواصل الاجتماعي، وهي مهام خارج نطاق عمل محمد في تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي.",
-        "en": "The project requires a TikTok Shop Manager focused on content creation, video editing, and social media management, which are outside Moe's scope of work in Android app development and AI agents."
-      }
-    },
-    {
-      "title": "Install Two Streaming TV Mounts",
-      "url": "https://www.freelancer.com/projects/installation/Install-Two-Streaming-Mounts",
-      "reason": {
-        "ar": "المشروع يتطلب تركيب أجهزة تلفاز وخدمات يدوية أخرى، وهذا خارج نطاق عمل Moe في تطوير التطبيقات.",
-        "en": "The project requires TV installation and other manual services, which is outside Moe's scope of app development work."
-      }
-    },
-    {
-      "title": "Recruit 50 Active App Testers",
-      "url": "https://www.freelancer.com/projects/market-research/Recruit-Active-App-Testers",
-      "reason": {
-        "ar": "المشروع يطلب توظيف مختبرين للتطبيق وتسويق، وهذا ليس من خدمات Moe الذي يركز على بناء التطبيقات.",
-        "en": "The project requests recruiting app testers and marketing, which is not among Moe's services, as he focuses on app development."
-      }
-    },
-    {
-      "title": "Classified Ads Lead Generation",
-      "url": "https://www.freelancer.com/projects/lead-generation/Classified-Ads-Lead-Generation-40830911",
-      "reason": {
-        "ar": "المشروع يتعلق بالتسويق وتوليد العملاء المحتملين لتطبيق آخر، وهذا خارج نطاق عمل Moe في تطوير التطبيقات.",
-        "en": "The project is about marketing and lead generation for another app, which is outside Moe's scope of app development work."
-      }
-    },
-    {
-      "title": "iOS Slot App Compliance Build in United States",
-      "url": "https://www.freelancer.com/projects/ios/iOS-Slot-App-Compliance-Build-40830686",
-      "reason": {
-        "ar": "المشروع يطلب تطوير تطبيق iOS فقط. Moe لا يقوم بمشاريع iOS فقط؛ شريكه يقوم ببناء نسخة iOS عندما يبني Moe تطبيق الأندرويد ويدير المشروع كاملاً.",
-        "en": "The project requests iOS-only app development. Moe does not take on iOS-only projects; his partner builds the iOS version when Moe builds the Android app and manages the overall project."
-      }
-    },
-    {
-      "title": "Prototype-to-Production Electronics Engineer (Los Angeles Area)",
-      "url": "https://www.freelancer.com/projects/3d-modelling/Prototype-Production-Electronics",
-      "reason": {
-        "ar": "هذا الدور هو لمهندس إلكترونيات للعمل على تصميم الأجهزة والأنظمة المدمجة، وليس لتطوير تطبيقات الهاتف المحمول. كما أنه يشير إلى عقد طويل الأجل أو توظيف بدوام كامل.",
-        "en": "This role is for an electronics engineer working on hardware design and embedded systems, not mobile app development. It also indicates a long-term contract or full-time employment."
-      }
-    },
-    {
-      "title": "Digital Artist Needed for Precise Illustration Retouching — Preserve Original Artwork ",
-      "url": "https://www.freelancer.com/projects/digital-art/Digital-Artist-Needed-for-Precise",
-      "reason": {
-        "ar": "المشروع يتطلب فنانًا رقميًا لترميم الرسوم التوضيحية وتعديلها، وهي مهارات تصميم فني وليست ضمن نطاق عمل Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
-        "en": "The project requires a digital artist for illustration retouching and refinement, which are artistic design skills and not within Moe's scope of app development or AI agents."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 7,
     "steps": [
       {
         "step": "memory",
-        "msg": "1344 leads seen before"
+        "msg": "1354 leads seen before"
       },
       {
         "step": "verify",
@@ -386,7 +338,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "12 open projects from the last 5 days worldwide with budget 100+ USD (135 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 57 skipped: not app/AI work)"
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 91 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -394,7 +346,7 @@
       },
       {
         "step": "hn",
-        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 240 replies, 18 want a freelancer, 14 app/AI"
+        "msg": "5 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 240 replies, 18 want a freelancer, 5 app/AI"
       },
       {
         "step": "verify",
@@ -402,23 +354,23 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 5 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162721ch 27 links; HTTP 200 160395ch 27 links; HTTP 200 162951ch 26 links; )"
+        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 162879ch 27 links; HTTP 200 160398ch 27 links; HTTP 200 162965ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "51 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "56 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "5 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133753ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134234ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "15 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
+        "msg": "9 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 7 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -426,55 +378,167 @@
       },
       {
         "step": "linkedin",
-        "msg": "395 jobs from Gmail alerts (last 5 days)"
+        "msg": "368 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Android Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Founding/Senior Mobile Developer (iOS, Swift, Kotlin) – New York – Hybrid – Opportunity to work for a well-known Series D Funded Company!"
+        "msg": "skipped (full-time): Mobile Application Developer - Kotlin Primary (FTE / Hybrid / Fully Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Software Engineer- Mobile Development"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Engineer"
+        "msg": "skipped (title): Android Developer Sr"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android"
+        "msg": "skipped (full-time): Software Engineer, Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Mobile Software Engineer iOS/Android (Remote Worldwide)"
+        "msg": "skipped (title): Lead Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Android Lead Software Engineer"
+        "msg": "skipped (title): Lead Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Android Engineer - Remote"
+        "msg": "skipped (full-time): Software Developer Android (F/H/N)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Développeur android H/F"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer - Dublin based"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Native Android Mobile Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Embedded Linux & Android Engineer – Multimedia Platforms"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Mobile Development Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full Stack Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Java Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): CXP Designer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): SW Design Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 7 new LinkedIn jobs added"
+        "msg": "2 of 21 new LinkedIn jobs added"
       },
       {
         "step": "verify",
         "msg": "0 new Reddit posts added"
       },
       {
+        "step": "filter",
+        "msg": "skipped (not an app project): Eğitim İçeriği Geliştiricisi (Gönüllü)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app project): إنشاء فيديو AI"
+      },
+      {
+        "step": "filter",
+        "msg": "2 skipped by the app-only filter"
+      },
+      {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 3 to judge"
+        "msg": "2 new Freelancer projects added, 7 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 7 via gemini-2.5-flash"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (AI engineering (not an app)): مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (automation (not an app)): أتمتة متجر إلكتروني"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتص"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): إنشاء وكيل ذكاء اصطناعي للمساعدة بتحليل حركة الأسهم"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (messaging/social/email bot (not an app)): مساعد ذكاء اصطناعي ل ادارة حساب انستجرام"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): متخصص محترف في بناء ai agent"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (AI engineering (not an app)): بناء وكلاء ذكاء اصطناعي باستخدام RAG"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): متخصص محترف في بناء ai agent"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): عمل وكيل ذكاء اصطناعي /وكيل سكريتير , لادارة الملفات"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (messaging/social/email bot (not an app)): بناء بوت واتساب شامل"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (automation (not an app)): Daily Ops & AI Automation Assistant"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app project): عمل بوت للرد على الايملات"
       }
     ]
   }
