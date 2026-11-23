@@ -199,7 +199,7 @@ Propose 8 candidate app ideas. Respond with ONLY JSON. Values in Arabic except "
 
   // ---------- Step 2: Competition check ----------
   const s2 = await ask(`
-For each candidate app below, search Google Play and the web for EXISTING apps that already do the same thing or the same core function. Be honest and specific: name real apps. If any app already does the core function, say so and mark saturation at least "medium".
+For each candidate app below, search Google Play and the web for EXISTING apps that already do the same thing or the same core function. Be honest and specific: name real apps. Mark saturation "low" if there are no competitors or only a few weak/small ones that leave a clear gap, "medium" if there are several decent apps, "high" if the space is crowded with strong popular apps.
 
 Candidates:
 ${candidates.map(c => `- ${c.name}: ${c.pitch}`).join('\n')}
@@ -226,8 +226,8 @@ ${prefs}
 
 Rules:
 - REJECT any idea that is regional (Arab world, Gulf, one country) or Arabic-only. Moe wants global English apps only.
-- REJECT any idea where the competition check found an existing app that already does the same core thing, even if Moe's version would be better. Moe wants NEW KINDS of apps only. Keep only saturation "low" with no direct competitor.
-- REJECT ideas with high saturation and no clear gap.
+- REJECT ideas with saturation "high" (crowded with strong popular apps).
+- Ideas with weak or few competitors are OK when there is a clear, specific gap they miss: write that gap in "edge". REJECT a "medium" idea if you cannot name a real gap.
 - REJECT ideas that are not built on a real world change from the list below, or whose link to that change is weak or invented.
 - Prefer ideas that connect two different areas (Earth and space, climate and daily life, a new law and money).
 - REJECT ideas too big for one person in 3 weeks.
@@ -296,7 +296,10 @@ Sort ideas by score, highest first.`);
     const chk = checks.find(c => String(c.name || '').trim().toLowerCase() === String(x.name || '').trim().toLowerCase());
     const sat = String(chk?.saturation || '').toLowerCase();
     const comp = String(x.competition || '');
-    if (/متوسط|عالي|medium|high/i.test(comp) || /medium|high/.test(sat)) {
+    // منافسة عالية = بتنشال. متوسطة = بتضل بس إذا في فجوة واضحة (edge). قليلة = بتضل
+    const high = /عالي|high/i.test(comp) || /high/.test(sat);
+    const medium = /متوسط|medium/i.test(comp) || /medium/.test(sat);
+    if (high || (medium && String(x.edge || '').trim().length < 15)) {
       final.rejected.push({ name: x.name, reason: `في تطبيقات بتعمل نفس الشي (${(x.competitors || []).slice(0, 3).join('، ') || 'منافسين موجودين'})، وMoe بده أفكار جديدة من نوعها بس.` });
       log('judge', `removed (competitors exist): ${x.name}`);
       return false;
