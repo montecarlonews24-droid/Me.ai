@@ -1,10 +1,10 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T08:20:52.696Z",
-  "model": "gemini-4-hydrogen",
+  "generatedAt": "2026-11-23T11:28:00.960Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 15 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 15 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 12 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 12 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -295,57 +295,121 @@
       "proposal": "مرحباً،\nأهلاً بك. أنا أساعد العملاء على بناء وكلاء ذكاء اصطناعي لأتمتة المهام والبحث. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير، ويمكنني بناء وكلاء ذكاء اصطناعي مع دمج تقنيات مثل RAG.\nمثلاً، لقد بنيت وكيل ذكاء اصطناعي خاص بي، Me.ai، وهو وكيل بحث يومي يستخدم Gemini والبحث عبر الويب على GitHub Actions. هذا يوضح قدرتي على بناء أنظمة وكلاء ذكاء اصطناعي فعالة.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nبما أن كل شيء جاهز من سيرفر واشتراكات، هل يمكننا تحديد المهام والأقسام التي تود أن تديرها هذه الوكلاء في شركتك الرقمية؟",
       "foundAt": "2026-11-20T13:53:44.003Z",
       "fresh": false
-    },
-    {
-      "title": "عمل وكيل ذكاء اصطناعي /وكيل سكريتير , لادارة الملفات",
-      "url": "https://mostaql.com/project/1294076",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع يكون مسؤول عن الفولدرات تبعت ملفاتي الشخصية، زي إيش؟ زي الهوية، زي جواز السفر، زي الإقامة، زي العقد الإيجار، زي ويكون مسؤول إنه متى بتنتهي هاي الأوراق ومتى بتخلص. ينبهني. ولما أقول له مثلاً ابعتلي صورة جوا",
-      "fit": 9,
-      "why": {
-        "ar": "يتطابق هذا المشروع مباشرة مع قدرة Moe على بناء وكلاء ذكاء اصطناعي وأنظمة أتمتة، وهو ما يفعله في وكيله الخاص Me.ai الذي يستخدم Gemini.",
-        "en": "This project directly matches Moe's capability to build AI agents and automation systems, as demonstrated by his own Me.ai agent which uses Gemini."
-      },
-      "watch": {
-        "ar": "يجب توضيح كيفية إدارة الوكيل للملفات (تخزين سحابي أو محلي) وآلية التكامل مع واتساب لإرسال الإشعارات والملفات.",
-        "en": "Clarify how the agent will manage files (cloud or local storage) and the mechanism for WhatsApp integration to send notifications and files."
-      },
-      "proposal": "أهلاً بك،\nأتفهم حاجتك لوكيل ذكاء اصطناعي يدير ملفاتك الشخصية، يتتبع تواريخ انتهاء الصلاحية، ويرسل لك التنبيهات، بالإضافة إلى إمكانية استرجاع الملفات والإجابة على استفساراتك. أعمل على بناء تطبيقات أندرويد ووكلاء ذكاء اصطناعي بمساعدة الذكاء الاصطناعي، وأستخدم تقنيات Gemini في تطوير هذه الأنظمة. لدي وكيل ذكاء اصطناعي خاص بي، Me.ai، يعمل كوكيل بحث يومي ويستخدم Gemini لجمع المعلومات. يمكنني بناء وكيل مشابه يلبي متطلبات إدارة ملفاتك بدقة وفعالية.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل تفضل أن يكون الوكيل متصلاً بنظام تخزين سحابي معين، أم سيكون له وصول إلى مجلدات محلية؟",
-      "foundAt": "2026-11-20T09:25:34.451Z",
-      "fresh": false
-    },
-    {
-      "title": "نشر تطبيق على نظام الاندرويد",
-      "url": "https://mostaql.com/project/1294231",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع السلام عليكم لدي تطبيق منشور على ابل ستور واحتاج شخص لديه الخبر في نشر التطبيق على نظام الاندرويد وحسابه قديم لنشر التطبيقات .. وايضا انهاء اجراءات المختبرين لنشر التطبيق عالحساب الشخصي فيما بعد بطاقة المش",
-      "fit": 9,
-      "why": {
-        "ar": "لدى Moe خبرة مثبتة في نشر التطبيقات على Google Play، حيث نشر 4 من تطبيقاته الخاصة، وهو ما يتوافق تمامًا مع هذا الطلب.",
-        "en": "Moe has proven experience in Google Play publishing, having published 4 of his own apps, which perfectly aligns with this request."
-      },
-      "watch": {
-        "ar": "يجب التأكد مما إذا كان العميل سيوفر ملف Android App Bundle (AAB) أو APK جاهزًا، وما إذا كانت هناك أي متطلبات خاصة للامتثال لسياسات Google Play.",
-        "en": "Confirm if the client will provide a ready Android App Bundle (AAB) or APK, and if there are any specific compliance requirements for Google Play policies."
-      },
-      "proposal": "أهلاً بك،\nأتفهم حاجتك لنشر تطبيقك الموجود على Apple Store إلى Google Play، بالإضافة إلى إدارة إجراءات المختبرين. لدي خبرة عملية في نشر تطبيقات أندرويد على Google Play وإدارة متطلباتها، وقد قمت بنشر 4 تطبيقات خاصة بي بنجاح. أستخدم أدوات الذكاء الاصطناعي في تطوير التطبيقات، وهذا يضمن كفاءة العمل. يمكنني مساعدتك في إتمام عملية النشر بسلاسة والتعامل مع أي تحديات قد تظهر، مستفيداً من حسابي القديم على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك ملف Android App Bundle (AAB) أو APK جاهز للنشر، أم ستحتاج إلى مساعدتي في تجهيزه؟",
-      "foundAt": "2026-11-20T09:25:34.451Z",
-      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Microsoft 365 & AI Services Administrator Associate association and checks",
+      "url": "https://www.freelancer.com/projects/microsoft-365/Microsoft-Services-Administrator-40831669",
+      "reason": {
+        "ar": "هذا المشروع يتطلب خدمات إدارية ومراقبة لحساب شريك Microsoft 365، وليس تطوير تطبيقات أو وكلاء ذكاء اصطناعي.",
+        "en": "This project requires administrative and monitoring services for a Microsoft 365 Partner account, not app development or AI agents."
+      }
+    },
+    {
+      "title": "Urban Futuristic Streetwear Prompts",
+      "url": "https://www.freelancer.com/projects/ai-art-creation/Urban-Futuristic-Streetwear-Prompts",
+      "reason": {
+        "ar": "المشروع يطلب إنشاء نصوص (prompts) لبرامج توليد الصور بالذكاء الاصطناعي مثل Midjourney، وهذا خارج نطاق عمل Moe الذي يركز على بناء تطبيقات Android ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requests creating prompts for AI image generation tools like Midjourney, which is outside Moe's scope of building Android apps and AI agents."
+      }
+    },
+    {
+      "title": "Bulk Remote Android Device Management -- 6",
+      "url": "https://www.freelancer.com/projects/android/Bulk-Remote-Android-Device-Management-40831506",
+      "reason": {
+        "ar": "المشروع عبارة عن عمل إداري مستمر لإدارة أجهزة Android عن بعد بمعدل أجر منخفض جدًا، وليس تطوير تطبيقات. كما أنه يشبه وظيفة بدوام كامل.",
+        "en": "This project is an ongoing administrative task for remote Android device management at a very low hourly rate, not app development. It also resembles a full-time job."
+      }
+    },
+    {
+      "title": "Remote AI Testing Generalist Canada",
+      "url": "https://www.freelancer.com/projects/software-testing/Remote-Testing-Generalist-Canada",
+      "reason": {
+        "ar": "المشروع يطلب مختبر ذكاء اصطناعي (AI Tester) ومقيم في كندا، وهو ليس مجال عمل Moe الذي يركز على بناء التطبيقات والوكلاء، كما أنه ليس مقيمًا في كندا.",
+        "en": "The project requires an AI Tester based in Canada, which is not Moe's area of expertise (building apps and agents), and he is not located in Canada."
+      }
+    },
+    {
+      "title": "Otomasi Chat WhatsApp untuk Pesanan",
+      "url": "https://www.freelancer.com/projects/api-integration/Otomasi-Chat-WhatsApp-untuk-Pesanan",
+      "reason": {
+        "ar": "المشروع يطلب بناء بوت واتساب لأتمتة الدردشة، وMoe لا يقوم ببناء بوتات WhatsApp Business API أو أتمتة منصات التجارة الإلكترونية.",
+        "en": "The project requests building a WhatsApp chatbot for chat automation, and Moe does not build WhatsApp Business API bots or e-commerce platform automation."
+      }
+    },
+    {
+      "title": "مبرمج ذو خبرة في دمج مكتبات الألعاب داخل تطبيقات الدردشة الصوتية وربطها بمحفظة المستخدم",
+      "url": "https://mostaql.com/project/1294485",
+      "reason": {
+        "ar": "المشروع يتطلب دمج مكتبات ألعاب داخل تطبيق دردشة صوتية موجود بالفعل، وهذا يعني العمل داخل قاعدة كود برمجية كبيرة وموجودة مسبقًا، وهو ما لا يستطيع Moe القيام به.",
+        "en": "The project requires integrating game libraries into an existing voice chat application, which means working within an existing large codebase, a task Moe cannot undertake."
+      }
+    },
+    {
+      "title": "مبرمج تطبيق بث مباشر طبق الأصل من Likee - مشروع لقطة",
+      "url": "https://mostaql.com/project/1294774",
+      "reason": {
+        "ar": "المشروع يحدد بوضوح استخدام Flutter و React Native، وMoe لا يعمل على هذه التقنيات.",
+        "en": "The project explicitly specifies Flutter and React Native, and Moe does not work with these technologies."
+      }
+    },
+    {
+      "title": "مطور أتمتة وذكاء اصطناعي لبناء نموذج تجريبي (MVP) لبوت واتساب لقطاع الذهب والمجوهرات",
+      "url": "https://mostaql.com/project/1294783",
+      "reason": {
+        "ar": "المشروع يطلب بناء بوت واتساب يعمل بالذكاء الاصطناعي، وMoe لا يقوم ببناء بوتات WhatsApp Business API أو أتمتة منصات التجارة الإلكترونية.",
+        "en": "The project requests building an AI-powered WhatsApp bot, and Moe does not build WhatsApp Business API bots or e-commerce platform automation."
+      }
+    },
+    {
+      "title": "مستشار تقني متخصص في YOLO وComputer Vision لمعالجة تحديات نظام ذكاء اصطناعي",
+      "url": "https://mostaql.com/project/1294791",
+      "reason": {
+        "ar": "المشروع يطلب مستشارًا تقنيًا متخصصًا في YOLO وComputer Vision لتشخيص وتحسين نماذج رؤية حاسوبية موجودة، وهذا يتجاوز قدرات Moe الذي يستخدم Gemini Vision في تطبيقاته ولا يعمل على تطوير أو تحسين نماذج التعلم الآلي المعقدة.",
+        "en": "The project requires a technical consultant specialized in YOLO and Computer Vision to diagnose and improve existing computer vision models. This goes beyond Moe's capabilities, as he uses Gemini Vision in his apps and does not develop or optimize complex machine learning models."
+      }
+    },
+    {
+      "title": "مطلوب مطور/ة Full-Stack AI عن بعد براتب",
+      "url": "https://khamsat.com/community/requests/801112-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D8%B7%D9%88%D8%B1%D8%A9-full-stack-ai-%D8%B9%D9%86-%D8%A8%D8%B9%D8%AF-%D8%A8%D8%B1%D8%A7%D8%AA%D8%A8",
+      "reason": {
+        "ar": "العنوان يشير إلى وظيفة مطور/ة Full-Stack AI براتب، وهذا يعني وظيفة دوام كامل أو موظف وليس مشروعًا حرًا.",
+        "en": "The title indicates a Full-Stack AI Developer job with a salary, implying a full-time or staff position rather than a freelance project."
+      }
+    },
+    {
+      "title": "Junior Software Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4493114703/",
+      "reason": {
+        "ar": "العنوان يشير إلى وظيفة 'Junior Software Engineer' وهي وظيفة دوام كامل أو موظف في شركة، وليس مشروعًا حرًا.",
+        "en": "The title 'Junior Software Engineer' indicates a full-time or staff position at a company, not a freelance project."
+      }
+    },
+    {
+      "title": "Artificial Intelligence Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4493544663/",
+      "reason": {
+        "ar": "هذه وظيفة 'Mid-Senior level' تتطلب 4+ سنوات خبرة، وتتضمن ملكية لمنصات بيانات وذكاء اصطناعي، وتتطلب مهارات في Python وSpark وRAG وAzure، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
+        "en": "This is a Mid-Senior level position requiring 4+ years of experience, involving ownership of data and AI platforms, and requiring skills in Python, Spark, RAG, and Azure. These are full-time job responsibilities and requirements that do not fit Moe."
+      }
+    },
+    {
+      "title": "Backend Security Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4493500289/",
+      "reason": {
+        "ar": "هذه وظيفة 'Mid-Senior level' بدوام كامل مع راتب مرتفع، وتتطلب خبرة في Python وهندسة ML وRAG pipelines وأدوات AI متقدمة مثل LangChain، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
+        "en": "This is a Mid-Senior level, full-time position with a high salary, requiring Python experience, ML engineering, RAG pipelines, and advanced AI tools like LangChain. These are full-time job responsibilities and requirements that do not fit Moe."
+      }
+    },
+    {
+      "title": "Backend Security Engineer (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4493700233/",
+      "reason": {
+        "ar": "هذه وظيفة 'Mid-Senior level' بدوام كامل مع راتب مرتفع، وتتطلب خبرة في Python وهندسة ML وRAG pipelines وأدوات AI متقدمة مثل LangChain، وهي مهام ووظيفة دوام كامل لا تتناسب مع Moe.",
+        "en": "This is a Mid-Senior level, full-time position with a high salary, requiring Python experience, ML engineering, RAG pipelines, and advanced AI tools like LangChain. These are full-time job responsibilities and requirements that do not fit Moe."
+      }
+    },
     {
       "title": "P&C Insurance Experts for AI Training",
       "url": "https://www.freelancer.com/projects/ai-hw-sw/Insurance-Experts-for-Training",
@@ -470,11 +534,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 14,
     "steps": [
       {
         "step": "memory",
-        "msg": "1282 leads seen before"
+        "msg": "1309 leads seen before"
       },
       {
         "step": "verify",
@@ -482,7 +546,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "10 open projects from the last 5 days worldwide with budget 100+ USD (188 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 43 skipped: not app/AI work)"
+        "msg": "10 open projects from the last 5 days worldwide with budget 100+ USD (180 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 44 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -490,7 +554,7 @@
       },
       {
         "step": "hn",
-        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 241 replies, 18 want a freelancer, 14 app/AI"
+        "msg": "14 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 240 replies, 18 want a freelancer, 14 app/AI"
       },
       {
         "step": "verify",
@@ -498,31 +562,31 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 14 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
+        "msg": "phone relay last read 2 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162721ch 27 links; HTTP 200 160395ch 27 links; HTTP 200 162951ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "47 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "51 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "4 new Mostaql projects added from the phone"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133753ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "14 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
+        "msg": "15 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 0 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "1 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "384 jobs from Gmail alerts (last 5 days)"
+        "msg": "400 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
@@ -530,35 +594,27 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Azure Bot Service Team"
+        "msg": "skipped (closed): Competitive Programmer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Development Engineer I"
+        "msg": "post 4493114703: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Development Engineer II - AI Software Components"
+        "msg": "skipped (closed): Software Benchmark Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): A/AI Machine Learning Engineering Stf - E4"
+        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Fullstack Engineer, Solve"
+        "msg": "skipped (full-time): AI Product Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer 2: AI Builder"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): A/AI Machine Learning Engineering Stf - E4"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): Anthropic Forward Deployed Engineer - GPS"
+        "msg": "skipped (full-time): AI Solutions Engineer"
       },
       {
         "step": "linkedin",
@@ -566,71 +622,67 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Junior AI Engineer"
+        "msg": "skipped (full-time): AI Solution Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Solutions Software Engineer Fullstack Python / React (H/F)"
+        "msg": "skipped (full-time): Forward Deployed Engineer, Agentic Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Software Engineer AI"
+        "msg": "skipped (full-time): Forward Deployed Engineer, Agentic Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Softwareentwickler C#/.NET – KI- und LLM-Anwendungen (m/w/d)"
+        "msg": "skipped (full-time): Software Developer, Payobrain"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Full AI stack engineer"
+        "msg": "skipped (full-time): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
+        "msg": "skipped (full-time): Forward Deployed Engineer (AI)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Developer - Python, AI & Cloud Integrations"
+        "msg": "skipped (full-time): Software Engineer III - Agent Builder Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Hays)): AI Engineer"
+        "msg": "skipped (title): Senior OpenAI Forward Deployed Engineer - GPS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Forward Deployed Engineer"
+        "msg": "skipped (recruitment agency (TalentHop)): AI Engineer - Multiple Openings and Multiple Seniority Levels"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Backend AI Engineer"
+        "msg": "skipped (title): Senior Artificial Intelligence Engineer - UAE National"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior AI Applied Engineer – Product Engineer"
+        "msg": "skipped (title): Senior Applied AI Engineer | LLMs | RAG | Claude Code | Hybrid | London, UK"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Specialist, AI Solutions Developer"
+        "msg": "skipped (full-time): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): We're Hiring: Full Stack Mid level Software Engineer – AI & Enterprise SaaS | GTA, Canada"
+        "msg": "skipped (title): Senior AI .NET Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (full-time): Fullstack Software Engineer (Remote)"
+        "msg": "skipped (title): Agentic AI Senior Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Developer, Agentic AI - Canada"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (full-time): AI Applied Engineer – AI Engineer"
+        "msg": "skipped (full-time): IA Engineer H/F"
       },
       {
         "step": "verify",
-        "msg": "0 of 25 new LinkedIn jobs added"
+        "msg": "4 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -638,11 +690,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
+        "msg": "5 new Freelancer projects added, 14 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-4-hydrogen"
+        "msg": "kept 0, rejected 14 via gemini-2.5-flash"
       }
     ]
   }
