@@ -396,6 +396,26 @@ async function relayFeed(name, node, { filter = false } = {}) {
   }
   return list;
 }
+// سجل نبض تطبيق Me.ai: كل فحص على الموبايل بيسجّل وقته ومصدره (alarm = بالخلفية، open = فتح التطبيق)
+async function keeperReport() {
+  try {
+    const d = (await fetch(`${FIREBASE}/mostaqlStatus/keeper.json`).then(r => r.ok ? r.json() : null)) || [];
+    const now = Date.now() / 1000;
+    const rows = Object.values(d).filter(v => v && v.at).sort((a, b) => a.at - b.at);
+    const recent = rows.filter(v => now - v.at < 12 * 3600);
+    if (!recent.length) { log('keeper', 'no phone checks in the last 12 hours'); return; }
+    const by = {};
+    for (const v of recent) by[v.src] = (by[v.src] || 0) + 1;
+    let gap = 0;
+    for (let i = 1; i < recent.length; i++) gap = Math.max(gap, recent[i].at - recent[i - 1].at);
+    const last = recent[recent.length - 1];
+    const amman = t => new Date(t * 1000).toLocaleTimeString('en-GB', { timeZone: 'Asia/Amman', hour: '2-digit', minute: '2-digit' });
+    log('keeper', `phone checks in last 12h: ${recent.length} (${Object.entries(by).map(([k, n]) => `${k} ${n}`).join(', ')}), longest gap ${Math.round(gap / 60)} min, last ${ago(last.at)} (${last.src}, v${last.v || '?'})`);
+    log('keeper', 'times (Amman): ' + recent.slice(-24).map(v => `${amman(v.at)}${v.src === 'alarm' ? '' : '*' + v.src}${v.idle ? 'z' : ''}${v.posted ? '!' : ''}`).join(' '));
+    const alerts = recent.filter(v => v.posted).slice(-5);
+    if (alerts.length) log('keeper', 'alerts posted: ' + alerts.map(v => `${amman(v.at)} ${v.posted}`).join(' || ').slice(0, 400));
+  } catch (e) { log('keeper', e.message); }
+}
 const mostaqlRelayFeed = () => relayFeed('Mostaql', 'mostaql');
 const khamsatRelayFeed = () => relayFeed('Khamsat', 'khamsat', { filter: true });
 
@@ -809,6 +829,7 @@ function linkedinBlock(p) {
   }).slice(0, 12);
   mq.forEach(l => checked.push(l));
   log('verify', `${mq.length} new Mostaql projects added from the phone`);
+  await keeperReport();
   const kh = (await khamsatRelayFeed()).filter(l => {
     const u = clean(l.url);
     if (seen.has(u) || dupes.has(u)) return false;
