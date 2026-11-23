@@ -1,10 +1,10 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T02:24:18.247Z",
+  "generatedAt": "2026-11-23T05:25:06.019Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 16 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 16 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 15 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 15 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -347,6 +347,46 @@
   ],
   "rejected": [
     {
+      "title": "Ai bakers life",
+      "url": "https://www.freelancer.com/projects/3d-modelling/bakers-life",
+      "reason": {
+        "ar": "المشروع يتطلب هندسة أو تصميم موجه لإنشاء صور بالذكاء الاصطناعي باستخدام أدوات مثل Midjourney أو Stable Diffusion أو DALL·E 3، وهي خارج نطاق مهارات محمد الذي يركز على ميزات Gemini AI ضمن تطبيقات Android.",
+        "en": "The project requires prompt engineering or design for AI image generation using tools like Midjourney, Stable Diffusion, or DALL·E 3, which is outside Moe's skill set focused on Gemini AI features within Android apps."
+      }
+    },
+    {
+      "title": "3D AI Cartoon Movie Creation",
+      "url": "https://www.freelancer.com/projects/ai-animation/Cartoon-Movie-Creation",
+      "reason": {
+        "ar": "المشروع يتطلب إنشاء فيلم رسوم متحركة ثلاثي الأبعاد باستخدام أدوات تحرير الفيديو والرسوم المتحركة بالذكاء الاصطناعي، وهي مهارات (مثل 3D rendering، Animation، Video Editing) لا يمتلكها محمد.",
+        "en": "The project requires creating a 3D animated movie using AI video editing and animation tools. These skills (e.g., 3D rendering, Animation, Video Editing) are outside Moe's capabilities."
+      }
+    },
+    {
+      "title": "I supply **Seedance 2.5 API Token** for AI video generation.",
+      "url": "https://www.freelancer.com/projects/ai-video/supply-Seedance-API-Token-for",
+      "reason": {
+        "ar": "هذا الإعلان هو لبيع حصص API لخدمة توليد الفيديو بالذكاء الاصطناعي، وليس طلبًا من عميل لتوظيف مستقل لمشروع تطوير.",
+        "en": "This post is an advertisement for selling API tokens for an AI video generation service, not a real request from a client hiring a freelancer for a development project."
+      }
+    },
+    {
+      "title": "Croatian Mobile App QA Tester",
+      "url": "https://www.freelancer.com/projects/mobile-app-testing/Croatian-Mobile-App-Tester",
+      "reason": {
+        "ar": "العميل يبحث عن مختبر جودة تطبيقات (QA Tester) وليس مطور تطبيقات. بالإضافة إلى ذلك، يتطلب المشروع أن يكون المستقل مقيمًا في كرواتيا، ومحمد يقيم في الأردن.",
+        "en": "The client is looking for a Mobile App QA Tester, not an app developer. Additionally, the project has a mandatory requirement for the freelancer to be based in Croatia, and Moe is based in Jordan."
+      }
+    },
+    {
+      "title": "TikTok Shop Manager – Content Creation & Growth",
+      "url": "https://www.freelancer.com/projects/ai-content-creation/TikTok-Shop-Manager-Content-Creation",
+      "reason": {
+        "ar": "المشروع يتطلب مدير متجر TikTok يركز على إنشاء المحتوى وتحرير الفيديو وإدارة وسائل التواصل الاجتماعي، وهي مهام خارج نطاق عمل محمد في تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requires a TikTok Shop Manager focused on content creation, video editing, and social media management, which are outside Moe's scope of work in Android app development and AI agents."
+      }
+    },
+    {
       "title": "Install Two Streaming TV Mounts",
       "url": "https://www.freelancer.com/projects/installation/Install-Two-Streaming-Mounts",
       "reason": {
@@ -414,11 +454,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
-        "msg": "1271 leads seen before"
+        "msg": "1274 leads seen before"
       },
       {
         "step": "verify",
@@ -426,7 +466,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (154 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 55 skipped: not app/AI work)"
+        "msg": "10 open projects from the last 5 days worldwide with budget 100+ USD (144 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 53 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -442,7 +482,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 8 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
+        "msg": "phone relay last read 11 hours ago: 72 projects on the lists, 0 sent (HTTP 200 160968ch 29 links; HTTP 200 160394ch 27 links; HTTP 200 161977ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -454,7 +494,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 8 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
+        "msg": "phone relay last read 11 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134049ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -466,15 +506,27 @@
       },
       {
         "step": "linkedin",
-        "msg": "389 jobs from Gmail alerts (last 5 days)"
+        "msg": "388 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
+        "msg": "Mobile App Developer / Middle East: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Expert Executive Recruiters (EER Global))): Founding Mobile Developer (Android/ IoS/ Swift)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (TalentHop)): Android Developer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (full-time): Programmatori Mobile iOS"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "0 of 3 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -482,15 +534,11 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Freelancer projects added, 3 to judge"
+        "msg": "5 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
-      },
-      {
-        "step": "freelancer",
-        "msg": "crowded now (54 bids): Daily Ops & AI Automation Assistant"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       }
     ]
   }
