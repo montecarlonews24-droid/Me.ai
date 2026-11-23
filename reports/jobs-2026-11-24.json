@@ -1,0 +1,446 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T23:27:57.125Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+  },
+  "fresh": 0,
+  "leads": [
+    {
+      "title": "Android Engineer - Creative App",
+      "url": "https://www.linkedin.com/jobs/view/4486153915/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "United States",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "ElevenLabs · United States",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتطلب مهندس أندرويد لتطوير تطبيق أصلي (Native Kotlin) مع دمج ميزات الذكاء الاصطناعي، وهو ما يتقنه Moe. يمتلك Moe تطبيق Flicker المبني بـ Kotlin وتطبيق Me.ai الذي يدمج الذكاء الاصطناعي.",
+        "en": "This project requires an Android Engineer to develop a native Kotlin app with AI feature integration, which is a core skill for Moe. Moe has built Flicker (native Kotlin) and Me.ai (AI agent with native Android app)."
+      },
+      "watch": {
+        "ar": "الوظيفة بدوام كامل، يجب على Moe التأكد من أنها تناسبه، وأنها بالفعل عن بعد عالمياً.",
+        "en": "This is a full-time role; Moe should ensure it aligns with his work preference and confirm it is indeed remote worldwide."
+      },
+      "proposal": "I understand you're looking for an Android Engineer to build a creative app, integrating AI-driven audio models. I develop native Kotlin Android apps with AI-assisted development, focusing on delivering robust features and user engagement. My work includes integrating Gemini AI features for chat, vision, and smart search into Android apps. I have experience building native Kotlin apps like Flicker (currently in closed testing), which handles NFC, Bluetooth, and Wi-Fi features. I can help shape the app's architecture and technical direction, ensuring tight integration with your AI models.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more about the specific AI audio models you plan to integrate and the desired user experience?",
+      "liChecked": true,
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": false
+    },
+    {
+      "title": "رفع تطبيق اندرويد على منصة هواوي جاليري",
+      "url": "https://mostaql.com/project/1294921",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع لدي تطبيق اندرويد Apk كنت ناوي انشره على كوكل بلاي ولكن كونه يحتوي على ميزات مدفوعة وان كوكل بلاي لاتقبل الميزات المدفوعة للتطبيقات في العراق فاني اريد نشره على منصة هواوي كاليري ولهذا اريد تعديل ملف التطب",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يتطلب تعديل تطبيق أندرويد ليتوافق مع متطلبات Huawei AppGallery ورفعه، وهو يقع ضمن نطاق عمل Moe في نشر التطبيقات وإصلاح مشكلات الرفض.",
+        "en": ""
+      },
+      "watch": {
+        "ar": "الميزانية 50 دولارًا أمريكيًا، وهي أقل من الحد الأدنى المفضل، لكن المهمة بسيطة ومباشرة.",
+        "en": "The budget is $50 USD, which is below the preferred minimum, but the task is simple and straightforward."
+      },
+      "proposal": "أهلاً بك،\nفهمت أنك تحتاج إلى تعديل تطبيقك ليتوافق مع متطلبات Huawei AppGallery ورفعه للنشر، مع ضمان ظهوره على المنصة قبل التسليم. أنا أقوم بنشر تطبيقات أندرويد وأتعامل مع متطلبات المتاجر المختلفة، ويمكنني مساعدتك في تجهيز تطبيقك لـ Huawei AppGallery. أعمل على تطوير تطبيقات أندرويد باستخدام الذكاء الاصطناعي، ولدي خبرة في التعامل مع تحديات النشر.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل هناك أي تفاصيل تقنية محددة حول التعديلات المطلوبة للتوافق مع Huawei AppGallery؟",
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": false
+    },
+    {
+      "title": "تطوير تطبيق توصيل طلبات محلي",
+      "url": "https://mostaql.com/project/1294611",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع مطلوب تطوير تطبيق توصيل محلي يخدم المنطقة، يتضمن واجهات للمستخدم، المناديب، ولوحة تحكم للإدارة. التفاصيل الكاملة والاتفاقية تتم لاحقاً مع المستقل المناسب نقسم المشروع لمراحل: شهر للتصميم والواجهات، شهرين ل",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتطلب تطوير تطبيق توصيل محلي لنظام Android، وهو من صميم عمل Moe. يمكنه بناء تطبيق Android (Kotlin أو WebView) مع قاعدة بيانات Firebase، وتقديم نسخة iOS عبر شريكه. الميزانية جيدة والمشروع حديث.",
+        "en": "The project requires developing a local delivery app for Android, which is core to Moe's work. He can build the Android app (Kotlin or WebView) with a Firebase backend, and provide the iOS version through his partner. The budget is good and the project is fresh."
+      },
+      "watch": {
+        "ar": "يجب التأكد من نطاق لوحة التحكم الإدارية (إذا كانت تتطلب تطوير ويب معقد، فهي خارج نطاق Moe). يجب توضيح أن Moe يبني تطبيقات Android (Kotlin أو WebView) وأن شريكه يتولى iOS، خاصة وأن بعض العروض الأخرى تذكر Flutter.",
+        "en": "Need to clarify the scope of the admin control panel (if it requires complex web development, it's out of Moe's scope). It's important to clarify that Moe builds Android apps (Kotlin or WebView) and his partner handles iOS, especially since some other proposals mention Flutter."
+      },
+      "proposal": "السلام عليكم أستاذ إسلام،\n\nفهمت أنك تبحث عن مطور لتطبيق توصيل محلي متكامل للمستخدمين والمناديب، مع لوحة تحكم إدارية. هذا النوع من التطبيقات هو بالضبط ما أبني، مع التركيز على تجربة المستخدم السلسة والوظائف القوية.\n\nأبني تطبيقات Android الأصلية (Kotlin) أو الهجينة (WebView) بمساعدة الذكاء الاصطناعي، وأوفر قاعدة بيانات Firebase لتسجيل الدخول، وإدارة البيانات، والإشعارات. أما نسخة iOS، فيقوم ببنائها ونشرها شريكي الموثوق به، بحيث تحصل على التطبيقين من نقطة اتصال واحدة.\n\nكمثال على تطبيقاتي التي تخدم جمهوراً واسعاً وتدعم اللغة العربية بشكل كامل، يمكنك الاطلاع على تطبيق \"Islam Rising\" المنشور على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\n\nبميزانية 1000 دولار، يمكننا بناء تطبيق Android و iOS هجين (WebView) بالكامل. يرجى العلم أن رسوم حساب مطور Apple (99 دولاراً سنوياً) يدفعها العميل.\n\nهل لديك أي ميزات محددة في ذهنك لتتبع الطلبات أو إدارة المناديب؟",
+      "foundAt": "2026-11-22T10:10:30.179Z",
+      "fresh": false
+    },
+    {
+      "title": "صناعة تطبيق اندرويد عبر كلود",
+      "url": "https://khamsat.com/community/requests/800960-%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D8%B9%D8%A8%D8%B1-%D9%83%D9%84%D9%88%D8%AF",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 9,
+      "why": {
+        "ar": "هذا طلب مباشر لتطوير تطبيق أندرويد جديد، وهو من صميم عمل Moe. يمكنه بناء التطبيق باستخدام Kotlin أو WebView مع دعم Firebase للخلفية، وتقديم التطبيق باللغة العربية مع دعم RTL.",
+        "en": "This is a direct request for developing a new Android app, which is Moe's core work. He can build the app using Kotlin or WebView with Firebase backend support, and deliver it in Arabic with RTL support."
+      },
+      "watch": {
+        "ar": "التأكد من تفاصيل 'عبر كلود' لتحديد متطلبات الخلفية، وتقديم سعر مناسب لتطبيق أندرويد فقط أو حزمة أندرويد و iOS إذا كان العميل مهتمًا.",
+        "en": "Confirm the 'via cloud' details to understand backend requirements, and propose a suitable price for an Android-only app or an Android + iOS bundle if the client is interested."
+      },
+      "proposal": "أهلاً بك،\nأنا مطور تطبيقات أندرويد مستقل، وأبني تطبيقات جديدة من الصفر باستخدام تقنيات الذكاء الاصطناعي في عملية التطوير. يمكنني بناء تطبيق أندرويد احترافي لك، سواء كان تطبيقًا أصليًا (Native Kotlin) أو هجينًا (WebView)، مع دمج خدمات الخلفية مثل Firebase لتسجيل الدخول وقواعد البيانات والإشعارات.\nلدي خبرة في بناء تطبيقات باللغة العربية مع دعم كامل للاتجاه من اليمين لليسار (RTL)، مثل تطبيق \"Islam Rising\" الذي يستخدمه الملايين في 177 دولة. أضمن لك تطبيقًا عالي الجودة جاهزًا للنشر على Google Play.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nما هي الفكرة الأساسية لتطبيق الأندرويد الذي ترغب في بنائه وما هي الميزات الرئيسية التي تتخيلها؟",
+      "foundAt": "2026-11-21T18:25:08.030Z",
+      "fresh": false
+    },
+    {
+      "title": "رفع ونشر تطبيق أندرويد على حساب Google Play Console مفعل",
+      "url": "https://mostaql.com/project/1294492",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع السلام عليكم، أبحث عن مستقل محترف يمتلك حساب مطورين مفعل وجاهز للنشر على متجر جوجل بلاي (Google Play Developer Console)، وذلك للمساعدة في رفع ونشر تطبيق أندرويد خاص بي على المتجر. تفاصيل العمل المطلوب: رفع",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتطابق تماماً مع قدرة Moe على نشر التطبيقات على Google Play Console وإدارة عملية المراجعة، وهي إحدى خدماته الأساسية. لديه خبرة في نشر تطبيقاته الخاصة مثل Islam Rising.",
+        "en": "This project perfectly matches Moe's ability to publish Android apps on Google Play Console and manage the review process, which is one of his core services. He has experience publishing his own apps like Islam Rising."
+      },
+      "watch": {
+        "ar": "الميزانية 50 دولارًا فقط، وهي أقل من المفضل (100 دولار+). يجب على Moe التأكد من أن هذا المبلغ يغطي وقته وجهده لهذه المهمة البسيطة.",
+        "en": "The budget is only $50, which is below the preferred minimum ($100+). Moe should ensure this amount covers his time and effort for this straightforward task."
+      },
+      "proposal": "أهلاً بك،\nأتفهم حاجتك لرفع ونشر تطبيقك الأندرويد على Google Play Console وتجهيزه بالكامل للمراجعة والنشر. يمكنني مساعدتك في هذه المهمة، حيث أقوم برفع ملف التطبيق (AAB)، إعداد صفحة المتجر بالوصف والصور، وتلبية متطلبات سياسة الخصوصية وأمان البيانات، ومتابعة مراجعة جوجل حتى الموافقة النهائية.\nلقد قمت بنشر عدة تطبيقات على Google Play، منها تطبيق \"Islam Rising\" الذي يستخدم في 177 دولة. أعمل على تطوير تطبيقاتي بمساعدة الذكاء الاصطناعي لضمان الجودة والكفاءة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل لديك أي متطلبات خاصة لعملية النشر أو تفاصيل إضافية حول التطبيق؟",
+      "foundAt": "2026-11-21T15:35:20.550Z",
+      "fresh": false
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Postscript (YC W19) | Senior Software Engineer, Full Stack | REMOTE (US, Canada) | Full-time | $180K to $220K base + equity — Postscript is an agentic retention",
+      "url": "https://news.ycombinator.com/item?id=50340820",
+      "reason": {
+        "ar": "الدور يتطلب مهندس برمجيات رفيع المستوى (Senior Software Engineer) ويتضمن تقنيات لا يستخدمها Moe مثل Rust وتطوير Full Stack. كما أن الوظيفة بدوام كامل ومحددة جغرافيًا (الولايات المتحدة وكندا).",
+        "en": "The role is for a Senior Software Engineer and requires technologies Moe doesn't use, such as Rust and full-stack development. It's also a full-time position with geographical restrictions (US, Canada)."
+      }
+    },
+    {
+      "title": "Rune Labs | Remote (US, CA) | Full Time | Senior or Lead Backend Engineer — Rune Labs is a precision neurology startup focused on helping people with Parkinson'",
+      "url": "https://news.ycombinator.com/item?id=50340242",
+      "reason": {
+        "ar": "الدور يتطلب مهندس Backend رفيع المستوى (Senior or Lead Backend Engineer) ويتجاوز نطاق عمل Moe في تطوير تطبيقات Android و Firebase. كما أن الوظيفة بدوام كامل ومحددة جغرافيًا (الولايات المتحدة وكاليفورنيا).",
+        "en": "The role is for a Senior or Lead Backend Engineer, which is beyond Moe's scope of Android app and Firebase backend development. It's also a full-time position with geographical restrictions (US, CA)."
+      }
+    },
+    {
+      "title": "River | Staff Engineers (Elixir) | NYC or REMOTE (US, Europe, South America) | Full-Time | $200K-$250K + equity | https://jobs.ashbyhq.com/river?utm_source=Zp9n",
+      "url": "https://news.ycombinator.com/item?id=50340101",
+      "reason": {
+        "ar": "الدور يتطلب مهندس Staff (Staff Engineers) ويتضمن تقنيات لا يستخدمها Moe مثل Elixir و Go و React Native، بالإضافة إلى أطر عمل ML/AI محددة. كما أن الوظيفة بدوام كامل ومحددة جغرافيًا (الولايات المتحدة وأوروبا وأمريكا الجنوبية).",
+        "en": "The role is for Staff Engineers and requires technologies Moe doesn't use, such as Elixir, Go, and React Native, as well as specific ML/AI frameworks. It's also a full-time position with geographical restrictions (US, Europe, South America)."
+      }
+    },
+    {
+      "title": "Stream | Multiple Positions | Amsterdam (NL), Skopje (North Macedonia) | Boulder, CO (US) | Toronto (Canada)) | Remote possible | Full Time | Visa Sponsorship |",
+      "url": "https://news.ycombinator.com/item?id=50339750",
+      "reason": {
+        "ar": "هذا إعلان عن قائمة وظائف متعددة (Multiple Positions)، وجميع الأدوار المذكورة هي على مستوى Senior أو Staff. بالإضافة إلى ذلك، خيار العمل عن بعد مقيد بالاتحاد الأوروبي أو يتطلب العمل الهجين في المكتب، مما لا يناسب Moe.",
+        "en": "This is a list of multiple vacancies, and all listed roles are at a Senior or Staff level. Furthermore, the remote option is restricted to the EU or requires hybrid work in the office, which does not fit Moe."
+      }
+    },
+    {
+      "title": "Mastra | Founding Sales (Founding AE) | US Remote | Full-time — Mastra is the open-source TypeScript framework for building AI agents (agents, workflows, ",
+      "url": "https://news.ycombinator.com/item?id=50339514",
+      "reason": {
+        "ar": "الدور المطلوب هو مبيعات (Founding Sales)، وليس تطوير برمجيات، وهو خارج نطاق عمل Moe.",
+        "en": "The requested role is for sales (Founding Sales), not software development, which is outside Moe's scope."
+      }
+    },
+    {
+      "title": "We The Flywheel | Remote | Brand Identity Designer (AI-agent team) | Hourly, flexible hours — We build and run our own brands (race finders, training tools, AI ",
+      "url": "https://news.ycombinator.com/item?id=50338830",
+      "reason": {
+        "ar": "الدور المطلوب هو مصمم هوية العلامة التجارية (Brand Identity Designer)، وهو عمل تصميمي بحت (UI/UX، شعارات، علامات تجارية) ولا يندرج ضمن ما يمكن لـ Moe تقديمه.",
+        "en": "The requested role is for a Brand Identity Designer, which is purely a design role (UI/UX, logo, branding) and not within Moe's capabilities."
+      }
+    },
+    {
+      "title": "Mobile Developer (React)",
+      "url": "https://www.linkedin.com/jobs/view/4494026809/",
+      "reason": {
+        "ar": "يتطلب المشروع React Native، وهي تقنية لا يستخدمها Moe. كما أن الوظيفة هجينة (90% عن بعد - 10% في المكتب) وليست عن بعد بالكامل.",
+        "en": "The project requires React Native, a technology Moe cannot work with. Additionally, the job is hybrid (90% remote - 10% on-site) and not fully remote."
+      }
+    },
+    {
+      "title": "Mobile Application Developer (iOS)",
+      "url": "https://www.linkedin.com/jobs/view/4492622680/",
+      "reason": {
+        "ar": "الدور على مستوى Mid-Senior ويتطلب خبرة 5 سنوات على الأقل، وهو أعلى من مستوى Moe. كما يتطلب العمل على تطوير iOS الأصلي (Swift) ضمن قاعدة بيانات موجودة، وهو ما لا يمكن لـ Moe القيام به (شريكه يتولى iOS الجديد). بالإضافة إلى ذلك، نص الإعلان باللغة الهنغارية وليس الإنجليزية أو العربية.",
+        "en": "The role is Mid-Senior level and requires at least 5 years of experience, which is above Moe's level. It also requires working with native iOS (Swift) within an existing codebase, which Moe cannot do (his partner handles new iOS apps). Furthermore, the job description is in Hungarian, not English or Arabic."
+      }
+    },
+    {
+      "title": "Mobile Application Developer (Android)",
+      "url": "https://www.linkedin.com/jobs/view/4492614859/",
+      "reason": {
+        "ar": "نص الإعلان هو مجرد مقتطف من نتائج البحث على LinkedIn ولا يوفر معلومات كافية لتقييم متطلبات الوظيفة أو مستوى الأقدمية أو حالة العمل عن بعد.",
+        "en": "The page text is only a LinkedIn search result snippet and does not provide enough information to evaluate the job's requirements, seniority, or remote status."
+      }
+    },
+    {
+      "title": "Mobile & Web App Developer",
+      "url": "https://www.linkedin.com/jobs/view/4492658196/",
+      "reason": {
+        "ar": "المهارات المفضلة المطلوبة تتضمن PHP و SQL و Capacitor و React Native أو Flutter، وهي تقنيات لا يستخدمها Moe صراحةً. على الرغم من ذكر تطوير بمساعدة الذكاء الاصطناعي، إلا أن عدم تطابق المكدس التقني الأساسي كبير جدًا.",
+        "en": "The preferred skills listed include PHP, SQL, Capacitor, React Native, or Flutter, which are technologies Moe explicitly cannot work with. While AI-assisted development is mentioned, the core tech stack mismatch is too significant."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 10,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "1457 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (145 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 110 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "0 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "hn",
+        "msg": "37 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 239 replies, 124 want a freelancer, 37 app/AI"
+      },
+      {
+        "step": "verify",
+        "msg": "10 new Hacker News posts added"
+      },
+      {
+        "step": "mostaql",
+        "msg": "phone relay last read 2 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162697ch 27 links; HTTP 200 160401ch 27 links; HTTP 200 162096ch 26 links; )"
+      },
+      {
+        "step": "mostaql",
+        "msg": "58 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql projects added from the phone"
+      },
+      {
+        "step": "keeper",
+        "msg": "phone checks in last 12h: 10 (start 1, open 6, worker 1, alarm 2), longest gap 101 min, last 2 hours ago (open, v1.9.1)"
+      },
+      {
+        "step": "keeper",
+        "msg": "times (Amman): 21:11*start! 21:59*open 21:59*worker! 22:00*open 22:00*open 22:24! 00:05*open 00:05! 00:09*open 00:09*open"
+      },
+      {
+        "step": "keeper",
+        "msg": "alerts posted: 21:11 💼 2 فرص شغل جديدة || 21:59 🔷 وظيفة Remote جديدة على LinkedIn (+12) || 22:24 🔷 وظيفة Remote جديدة على LinkedIn (+1) || 00:05 🔷 وظيفة Remote جديدة على LinkedIn (+2)"
+      },
+      {
+        "step": "khamsat",
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134007ch 25 links; )"
+      },
+      {
+        "step": "khamsat",
+        "msg": "10 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 8 skipped: not app/AI work)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Khamsat requests added from the phone"
+      },
+      {
+        "step": "linkedin",
+        "msg": "403 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Full Stack Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): iOS Developer – SwiftUI & Combine"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): iOS Developer #26-29543"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): iOS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Android Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Mobil Uygulama Geliştirici"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4492614859: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Mobile iOS Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior React Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full-Stack Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior / Staff React Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Lifecycle"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Principal Software Developer, Mobile Platform"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Principal Software Developer, Mobile Platform"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Video Player Engineer - Remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior React Native Developer – Mobile Apps"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer (Mobile)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior React Native Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Technical Lead (Mobile)"
+      },
+      {
+        "step": "verify",
+        "msg": "7 of 25 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Reddit posts added"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur mobile H/F"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (Flutter/React Native/Unity): Mobile Engineer | Flutter"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur mobile H/F"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): MixRank (YC S11) | Software Engineers | 100% Remote (Global) | Full-Time MixRank"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (automation (not an app)): Juro | AI Engineer (Agentic team) | London, UK | REMOTE (UK) | Full-time | £115k"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Cologne, Germany | UMH | Product Engineer | Full-time | 70k - 100k EUR | ONSITE "
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Mozilla | Sr. Staff Software Engineer, Browser (New Products) | REMOTE (US or Ca"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (marketing/content (not development)): Mobile Game Marketing & ASO Expert Needed for Bounce Courier (iOS)"
+      },
+      {
+        "step": "filter",
+        "msg": "8 skipped by the app-only filter"
+      },
+      {
+        "step": "verify",
+        "msg": "1 new Freelancer projects added, 10 to judge"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 10 via gemini-2.5-flash"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (AI engineering (not an app)): مدرب يوجهني ويشتغل معي على تدريب نموذج ذكاء اصطناعي لتصنيف الصور الطبية"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (automation (not an app)): أتمتة متجر إلكتروني"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app or AI agent project): مطلوب مطور لبناء منظومة ذكاء اصطناعي متكاملة لإدارة المبيعات واكتشاف العملاء وتص"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (not an app or AI agent project): بناء شات بوت ذكي (AI Chatbot) لخدمة العملاء لموقع عيادة"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (messaging/social/email bot (not an app)): مساعد ذكاء اصطناعي ل ادارة حساب انستجرام"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (AI engineering (not an app)): بناء وكلاء ذكاء اصطناعي باستخدام RAG"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (messaging/social/email bot (not an app)): بناء بوت واتساب شامل"
+      }
+    ]
+  }
+}
