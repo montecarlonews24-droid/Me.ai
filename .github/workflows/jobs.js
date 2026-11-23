@@ -190,25 +190,25 @@ Proven, live work:
 - Flicker: native Kotlin NFC & tracker scanner (Bluetooth/Wi-Fi/NFC), in closed testing
 - Me.ai: his own daily AI research agent (Gemini + web search on GitHub Actions, no server) with a native Android app
 What he CAN deliver: Android apps (native Kotlin or hybrid WebView), website-to-app, Firebase backend for his apps (login, database, push), AdMob, Gemini AI features inside apps (vision, chat, smart search), NFC/Wi-Fi/Bluetooth features, Google Play publishing and rejection fixes, Arabic + English apps with full RTL.
-What he TAKES: freelance projects only: Android apps, Google Play publishing, Android apps with AI inside, and AI agents / agentic AI (an agent that searches, reads, decides and reports or acts on a schedule, like his own Me.ai built with Gemini + web search on GitHub Actions, with an Android app to view results).
+What he TAKES (remote only, he works from home): freelance projects, contract jobs and remote jobs (full-time or part-time) in: Android apps, Google Play publishing, Android apps with AI inside, and AI agents / agentic AI (an agent that searches, reads, decides and reports or acts on a schedule, like his own Me.ai built with Gemini + web search on GitHub Actions, with an Android app to view results).
 iOS: he delivers the iOS version through a trusted iOS partner (a vetted Fiverr developer). He builds the Android app and the web/Firebase side and manages the whole project; the partner builds and publishes the iOS app to the App Store on the client's Apple Developer account. Typical extra price for the iOS version: about 150-200 USD for a WebView app, about 300-400 USD for a simple native app (4-5 screens). The Apple Developer account (99 USD/year) is paid by the client.
 Price guide (use it when the project budget is open or when suggesting a price; adapt to the scope):
 - Android only: website-to-app 100-200 USD; app from an idea 100-250 USD.
 - Android + iOS bundle (WebView/hybrid): website-to-app 250-380 USD; app from an idea 280-450 USD.
 - Android + iOS bundle (simple native, 4-5 screens): 600-900 USD.
 - If the client's budget is below the bundle price, offer Android first and iOS as a second phase.
-What he CANNOT do: iOS-only work inside an existing Swift codebase, Flutter/React Native codebases, joining a company team as a full-time engineer, live coding interviews, large backends, blockchain, games beyond simple casual.
+What he CANNOT do: iOS-only work inside an existing Swift codebase, Flutter/React Native codebases, on-site or hybrid jobs, relocation, live coding tests, large backends, blockchain, games beyond simple casual.
 Languages: Arabic (native) and English.
 Portfolio link (all his live apps on Google Play): https://play.google.com/store/apps/developer?id=MonteCarlo+News24`;
 
 const RULES = `REJECT a lead if ANY of these is true:
-- It is posted by a recruitment agency, staffing firm or job board (they want an employee with a CV and interviews), unless the post clearly says contract or freelance for a defined project.
-- It is a full-time or staff job at a company (titles with Senior, Staff, Lead, Engineer, "X years experience", interviews, relocation, salary per year).
+- It is a job board or a list of vacancies (not one real job or project).
+- It needs on-site or hybrid work, office days, or relocation. Remote jobs are OK whether freelance, contract, part-time or full-time. Still reject senior/staff/lead/principal titles and roles that ask for 3 or more years of professional experience.
 - It requires Flutter, React Native, or working inside an existing large codebase (including an existing Swift/iOS codebase). New Android + iOS apps are OK: the iOS side goes to his iOS partner.
 - It is closed, expired, or older than 14 days. Exception: Hacker News leads (platform HackerNews) come from a monthly thread, so accept them up to 35 days old.
 - The scope is clearly much bigger than the budget (example: Android + iOS + web admin + chat + maps for $250-750).
 - It is not a real request from a client hiring for a project (courses, training sessions, tutorials, articles, ads, product pages, job boards, careers pages, freelancers advertising themselves).
-- For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI-powered mobile app) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is contract/freelance.
+- For LinkedIn leads (platform LinkedIn): the "title" field may actually be the company or the location. Read pageText and work out the real job title, company and location; if you cannot find a real job title, REJECT it. Return the real job title in "title" for kept LinkedIn leads. Keep them only if the title clearly fits Moe (Android / mobile app / AI-powered mobile app) and is NOT senior/staff/lead/principal level; give fit 7 at most and say in watch_ar/watch_en to open the post and check it is fully remote.
 - The project text is not in English or Arabic (for example Indonesian, Spanish, Hindi, Portuguese, Chinese). Arabic projects are welcome (Gulf clients); write those proposals in Arabic.
 - It is outside what Moe can deliver (see profile). This includes: SQL/MySQL/PHP/WordPress work, database migration or data extraction, web scraping, data entry, DevOps/servers, and anything that collects or exports people's personal data (phone numbers, emails, contacts).
 - The client needs a specialist in a technology Moe does not use (e.g. Laravel, .NET, Unity, Flutter, React Native).
@@ -217,8 +217,9 @@ const RULES = `REJECT a lead if ANY of these is true:
 - It is UI/UX design, logo or branding only, marketing, app promotion, app testers, reviews or installs, content or video work.
 - It needs AI engineering tools Moe does not use: LangChain, LangGraph, LangSmith, RAG pipelines, vector databases, training or fine-tuning models, Python/ML, trading or stock-analysis bots (TradingView, options flow).
 - The client wants a mentor, trainer, consultant or teacher, not a delivered product.
-- It is not freelance: any full-time, part-time salaried, or staff position, even if remote.
-Moe ONLY wants freelance projects in exactly these four areas: (1) Android apps (new app from an idea, website-to-app, native Kotlin or WebView; Android + iOS is OK, iOS goes to his partner), (2) Google Play publishing, upload, and rejection/policy fixes, (3) Android apps with AI features inside them (Gemini chat, vision, smart search), (4) AI agents / agentic AI built with an LLM API (Gemini/OpenAI) and web search, running on a schedule or on request, optionally with an Android app on top. Agents that need LangChain/RAG/vector DBs, n8n/Make/Zapier, WhatsApp/Telegram/Instagram bots or trading are still rejected (see above). If a lead is not clearly one of these, REJECT it.
+- It is not remote: anything on-site, hybrid or requiring relocation.
+STRONG FIT: requests to build an app WITH AI tools ("صناعة تطبيق بالذكاء الاصطناعي", "تطبيق عبر كلود", ChatGPT, Claude, Cursor, vibe coding, AI-assisted app building). That is exactly how Moe works, so give these fit 8-9 when the scope fits.
+Moe ONLY wants remote work (freelance, contract or remote job) in exactly these four areas: (1) Android apps (new app from an idea, website-to-app, native Kotlin or WebView; Android + iOS is OK, iOS goes to his partner), (2) Google Play publishing, upload, and rejection/policy fixes, (3) Android apps with AI features inside them (Gemini chat, vision, smart search), (4) AI agents / agentic AI built with an LLM API (Gemini/OpenAI) and web search, running on a schedule or on request, optionally with an Android app on top. Agents that need LangChain/RAG/vector DBs, n8n/Make/Zapier, WhatsApp/Telegram/Instagram bots or trading are still rejected (see above). If a lead is not clearly one of these, REJECT it.
 PREFER: Android-only apps, website-to-app, AI features inside an Android app, AI agents / agentic AI, Google Play publishing or rejection fixes, NFC/Bluetooth apps, Arabic/RTL apps.
 IMPORTANT: an Android app, website-to-app, Google Play publishing job, or an Android app with an AI chatbot/agent inside it, with a budget of about 250 USD or more and fewer than 30 bids is usually a GOOD fit for Moe (fit 7-9), even with some competition. Do not reject a project only because there is competition or because Moe is new on the platform. Reject only for the reasons listed above.\nMoe works remotely with clients in any country in the world. Prefer projects with few proposals, and prefer budgets of 100 USD or more.`;
 
@@ -228,7 +229,7 @@ const MARKETS = `1) ARAB market (label "arab"): mostaql.com projects (تطوير
 Topics for all: Android app, website to Android app, AI features inside an Android app, AI agent / agentic AI, Google Play publishing or rejection fix.`;
 
 // ---------- Freelancer.com: مشاريع مفتوحة هلا من الـ API العام (بدون مفتاح) ----------
-const FL_QUERIES = ['android app', 'android ios app', 'android', 'mobile app', 'android ai app', 'ai mobile app', 'chatbot app', 'ai agent', 'agentic ai', 'ai agent developer', 'website to app', 'webview app', 'google play', 'play store', 'publish app', 'apk', 'kotlin'];
+const FL_QUERIES = ['android app', 'android ios app', 'android', 'mobile app', 'android ai app', 'ai mobile app', 'chatbot app', 'ai agent', 'vibe coding', 'build app with ai', 'claude', 'chatgpt app', 'agentic ai', 'ai agent developer', 'website to app', 'webview app', 'google play', 'play store', 'publish app', 'apk', 'kotlin'];
 const ago = sec => {
   const h = Math.max(0, Math.round((Date.now() / 1000 - sec) / 3600));
   return h < 1 ? 'less than an hour ago' : h < 48 ? `${h} hours ago` : `${Math.round(h / 24)} days ago`;
@@ -404,7 +405,7 @@ const khamsatRelayFeed = () => relayFeed('Khamsat', 'khamsat', { filter: true })
 // 2) خيط "Who is hiring?" الرسمي (لسا من whoishiring): الشركات اللي بدها فريلانسر صارت تكتب هناك،
 //    فمنوخذ بس المنشورات اللي أول سطر فيها Contract / Freelance / Part-time.
 const HN_RELEVANT = /android|kotlin|mobile app|\bapp\b|apps\b|play store|google play|webview|ai agents?\b|agentic/i;
-const HN_FREELANCE_HEAD = /contract|freelanc|part[- ]?time|consult/i;
+const HN_FREELANCE_HEAD = /contract|freelanc|part[- ]?time|consult|remote/i;
 async function hnThreads(query, titleRe, n) {
   const r = await fetch(`https://hn.algolia.com/api/v1/search_by_date?tags=story&query=${encodeURIComponent(query)}&hitsPerPage=30`);
   if (!r.ok) { log('hn', `search "${query}" HTTP ${r.status}`); return []; }
@@ -556,7 +557,7 @@ const F_DEV = /برمجة|تطوير|بناء|إنشاء|انشاء|عمل|صن�
 const F_BAN = [
   [/n8n|make\.com|zapier|manychat|integromat|أتمتة|اتمتة|automat/i, 'automation (not an app)'],
   [/langchain|langgraph|langsmith|\brag\b|vector (db|database)|fine-?tun|train(ing)? (an? |the )?(ai |ml )?model|تدريب (نموذج|موديل|نماذج)|machine learning|تعلم الآلة|yolo|computer vision|data scien/i, 'AI engineering (not an app)'],
-  [/full[- ]?time|دوام كامل|براتب|راتب شهري|salary|per annum|in-office|on-?site/i, 'full-time/staff job (not freelance)'],
+  [/in-office|on-?site|\bhybrid\b|حضوري|دوام في المكتب|من المكتب|relocat/i, 'on-site or hybrid work (Moe works from home only)'],
   [/flutter|فلاتر|react native|xamarin|unity|يونيتي/i, 'Flutter/React Native/Unity'],
   [/\btesters?\b|qa test|مختبرين|تقييمات|\breviews\b|\binstalls\b/i, 'testers/reviews (not development)'],
   [/mentor|tutor|teach me|يوجهني|يعلمني|مدرب خاص|مدرس خصوصي/i, 'mentoring (not a delivered app)']
@@ -571,6 +572,8 @@ const F_SOFT = [
 const F_DESIGN = /تصميم|مصمم|design|figma|فيجما|ui\/ux|\bux\b|wireframe|mockup|موك ?اب|شعار|لوجو|logo|هوية|illustrat|thumbnail/i;
 const F_BOT = /chat ?bot|شات ?بوت|بوت|\bbot\b/i;
 // AI Agent / Agentic AI: بتنقبل حتى لو مش تطبيق (متل Me.ai)
+// صناعة تطبيق بالذكاء الاصطناعي (vibe coding، كلود، ChatGPT...): بالزبط شغل Moe
+const F_AIBUILD = /vibe ?cod|claude|كلود|chat ?gpt|شات ?جي ?بي ?تي|cursor|(تطبيق|app).{0,25}(بالذكاء الاصطناعي|بالذكاء الإصطناعي|عبر الذكاء|بواسطة الذكاء|باستخدام الذكاء|with ai|using ai)|ai[- ]?(assisted|built) app|build (an? )?app with ai/i;
 const F_AGENT = /\bagents?\b|agentic|وكيل|وكلاء|ai assistant|مساعد (ذكي|ذكاء|بالذكاء)/i;
 const F_IOS_ONLY = /\bios\b|iphone|ipad|آيفون|ايفون|swift|app store|ابل ستور/i;
 const F_WEB_ONLY = /web ?app|website|web site|landing page|تطبيق ويب|موقع|متجر إلكتروني|متجر الكتروني|dashboard|لوحة تحكم|saas|extension|إضافة/i;
@@ -584,11 +587,12 @@ function appOnly(l) {
   for (const [re, why] of F_BAN) if (re.test(title)) return why;
   if (!appTitle) for (const [re, why] of F_SOFT) if (re.test(title)) return why;
   // دوام كامل من الوصف (LinkedIn له linkedinBlock اللي بيقرأ نوع الوظيفة)
-  if (l.platform !== 'LinkedIn' && /دوام كامل|براتب شهري|راتب شهري|full-time (role|position|employee)/i.test(body)) return 'full-time/staff job (not freelance)';
+  if (/دوام حضوري|العمل من المكتب|on-?site (role|position|only)|this (is an? )?(on-?site|hybrid)|\bhybrid (role|position|work)|must relocate|relocation required/i.test(body)) return 'on-site or hybrid work (Moe works from home only)';
   // تصميم بدون برمجة ("تصميم تطبيق" = واجهات بس؛ "تصميم وبرمجة تطبيق" = تطوير، منقبله)
   if (F_DESIGN.test(title) && !F_DEV.test(title.replace(/تصميم|مصمم|design(er)?/gi, ''))) return 'design only (not development)';
   const agent = F_AGENT.test(title);
-  if (!agent && !F_APP.test(all)) return 'not an app or AI agent project';
+  const aiBuild = F_AIBUILD.test(title);
+  if (!agent && !aiBuild && !F_APP.test(all)) return 'not an app or AI agent project';
   // Agent أو بوت لحاله (لموقع أو شركة)، مش جوا تطبيق أندرويد
   if (!agent && F_BOT.test(title) && !appTitle && !F_ANDROID.test(all)) return 'plain chatbot/bot (not an app or agent)';
   if (F_IOS_ONLY.test(title) && !F_ANDROID.test(all)) return 'iOS-only';
@@ -647,7 +651,7 @@ async function linkedinSearch() {
   const pick = Array.from({ length: 5 }, (_, i) => combos[(slot * 5 + i) % combos.length]);
   for (const [kw, loc] of pick) {
     {
-      const u = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(kw)}&location=${encodeURIComponent(loc)}&f_WT=2&f_JT=C%2CP%2CT&f_TPR=r86400&start=0`;
+      const u = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(kw)}&location=${encodeURIComponent(loc)}&f_WT=2&f_JT=F%2CC%2CP%2CT&f_TPR=r86400&start=0`;
       try {
         const r = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.9' }, signal: AbortSignal.timeout(15000) });
         if (r.status === 429) { log('linkedin-search', `${kw} / ${loc}: busy (429), stopping search this run`); return [...out.values()]; }
@@ -675,7 +679,7 @@ async function linkedinSearch() {
     }
   }
   const list = [...out.values()];
-  log('linkedin-search', `${list.length} Remote contract jobs found by searching LinkedIn directly`);
+  log('linkedin-search', `${list.length} Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly`);
   return list;
 }
 
@@ -725,7 +729,7 @@ function linkedinBlock(p) {
   const freelance = FREELANCE_TITLE.test(p.title || '');
   if (AGGREGATOR.test(p.company || '')) return `job board (${p.company})`;
   if (AGENCY.test(p.company || '') && !freelance && !/contract|freelance|temporary/i.test(p.type || '')) return `recruitment agency (${p.company})`;
-  if (/full-time/i.test(p.type) && !freelance) return 'full-time';
+  if (/\bhybrid\b|on-?site (role|position|only)|this (is an? )?(on-?site|hybrid)|in-office|must relocate|relocation required/i.test(`${p.place || ''} ${String(p.text || '').slice(0, 1500)}`)) return 'on-site/hybrid';
   if (/director|executive/i.test(p.level)) return p.level;
   const yrs = [...p.text.matchAll(/(\d{1,2})\s*\+?\s*(?:-\s*\d{1,2}\s*)?years?/gi)].map(m => Number(m[1])).filter(n => n >= 3 && n <= 20);
   if (yrs.length) return `${Math.max(...yrs)}+ years required`;
@@ -829,7 +833,7 @@ function linkedinBlock(p) {
     }
     const full = await linkedinPost(l.url);
     if (full) {
-      const why = linkedinBlock(full);
+      const why = linkedinBlock({ ...full, place: l.country });
       if (why) { log('linkedin', `skipped (${why}): ${full.title || l.title}`); skipped.push(clean(l.url)); continue; }
       if (full.title) l.title = full.title;
       if (full.company) l.summary = [full.company, l.country].filter(Boolean).join(' · ');
@@ -860,7 +864,7 @@ function linkedinBlock(p) {
     const s3 = await ask(`
 ${ABOUT}
 
-You are Moe's strict job agent. Below are freelance leads found today. Judge each one for Moe.
+You are Moe's strict job agent. Below are remote work leads (freelance, contract or remote jobs) found today. Judge each one for Moe.
 ${RULES}
 
 Leads:
