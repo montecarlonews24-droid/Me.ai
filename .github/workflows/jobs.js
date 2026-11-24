@@ -240,6 +240,17 @@ const ago = sec => {
 const WEST = ['United States', 'Canada', 'United Kingdom', 'Ireland', 'Germany', 'France', 'Netherlands', 'Belgium', 'Luxembourg', 'Switzerland', 'Austria', 'Italy', 'Spain', 'Portugal', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Iceland', 'Poland', 'Czech Republic', 'Czechia', 'Estonia', 'Lithuania', 'Latvia', 'Slovenia', 'Malta', 'Cyprus', 'Greece'];
 const EAST = ['Singapore', 'Japan', 'Hong Kong', 'South Korea', 'Korea, Republic of', 'Taiwan', 'Malaysia', 'Australia', 'New Zealand'];
 const GULF = ['Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'];
+// السوق النشط حسب ساعة عمّان: 4 الفجر-12 الظهر الخليج وآسيا، 12-5 العصر أوروبا، 5 العصر-4 الفجر أمريكا وكندا
+const AMMAN_HOUR = Number(new Date().toLocaleString('en-US', { timeZone: 'Asia/Amman', hour: 'numeric', hourCycle: 'h23' }));
+const ACTIVE_MARKET = AMMAN_HOUR >= 4 && AMMAN_HOUR < 12 ? 'arab-east' : AMMAN_HOUR >= 12 && AMMAN_HOUR < 17 ? 'europe' : 'americas';
+const AMERICAS = /united states|\busa?\b|canada|mexico|brazil|argentina|chile|colombia|, [A-Z]{2}\b|\b(new york|california|texas|florida|seattle|boston|chicago|toronto)\b/i;
+function inActiveMarket(l) {
+  const place = `${l.country || ''} ${l.budget || ''}`;
+  if (ACTIVE_MARKET === 'arab-east') return l.market === 'arab' || l.market === 'east';
+  if (l.market !== 'west') return false;
+  const us = AMERICAS.test(place) || /\bCAD\b/.test(place);
+  return ACTIVE_MARKET === 'americas' ? us : !us;
+}
 const regionOf = c => WEST.includes(c) ? 'west' : EAST.includes(c) ? 'east' : GULF.includes(c) ? 'arab' : '';
 const MIN_ANY_USD = 100; // كل دول العالم: بس إذا أعلى الميزانية 100 دولار وفوق (أو 10 دولار بالساعة)
 // عملة المشروع بتدل على بلد الزبون: هاي العملات بس منقبلها
@@ -943,7 +954,12 @@ Respond with ONLY JSON:
       .sort((a, b) => b.fit - a.fit);
     // بس الفرص القوية (7 وفوق) بتطلع لـ Moe، الباقي بيروح للمرفوضة مع السبب
     const weak = leads.filter(l => l.fit < 7);
-    leads = leads.filter(l => l.fit >= 7).slice(0, 10);
+    // فرص السوق النشط هلّق بتطلع أول (بنفس ترتيب التقييم جوا كل مجموعة)
+    leads = leads.filter(l => l.fit >= 7)
+      .map(l => ({ ...l, prime: inActiveMarket(l) }))
+      .sort((a, b) => (b.prime - a.prime) || (b.fit - a.fit))
+      .slice(0, 10);
+    log('market', `Amman hour ${AMMAN_HOUR}: active market ${ACTIVE_MARKET}, ${leads.filter(l => l.prime).length} prime leads`);
     rejected = (s3.json.rejected || []).filter(r => checked[r.id]).map(r => ({
       title: checked[r.id].title, url: checked[r.id].url,
       reason: { ar: r.reason_ar || '', en: r.reason_en || '' }

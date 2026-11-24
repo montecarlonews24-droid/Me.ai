@@ -42,7 +42,7 @@ function run() {
 /** باقي إيميلات LinkedIn (إشعارات، مين شاف بروفايلك، اقتراحات...): بتنمحى من الوارد.
  *  الرسائل الحقيقية من الناس (messages-noreply) ما بتنلمس. المحذوف بيضل 30 يوم بـ Trash. */
 /**
- * GitHub بيأخّر أو بيلغي التشغيل المجدول. فإذا آخر تقرير شغل أقدم من ساعتين ونص،
+ * GitHub بيأخّر أو بيلغي التشغيل المجدول. فإذا آخر تقرير شغل أقدم من ساعة ونص،
  * السكريبت بيشغّل الـ Job Scout بنفسه. المفتاح محفوظ بـ Script Properties باسم GH_TOKEN.
  */
 function kick() {
@@ -51,12 +51,12 @@ function kick() {
   if (!token) { console.log('kick: GH_TOKEN missing'); return; }
   const H = 3600 * 1000, now = Date.now();
   // ما منعيد التشغيل إذا شغّلناه قبل أقل من ساعتين
-  if (now - Number(props.getProperty('lastKick') || 0) < 2 * H) return;
+  if (now - Number(props.getProperty('lastKick') || 0) < 1 * H) return;
   const res = UrlFetchApp.fetch('https://raw.githubusercontent.com/montecarlonews24-droid/Me.ai/main/reports/jobs-latest.json?t=' + now, { muteHttpExceptions: true });
   let last = 0;
   try { last = new Date(JSON.parse(res.getContentText()).generatedAt).getTime() || 0; } catch (e) {}
   const age = (now - last) / H;
-  if (age < 2.5) { console.log('kick: last report ' + age.toFixed(1) + 'h old, no need'); return; }
+  if (age < 1.5) { console.log('kick: last report ' + age.toFixed(1) + 'h old, no need'); return; }
   const r = UrlFetchApp.fetch('https://api.github.com/repos/montecarlonews24-droid/Me.ai/actions/workflows/daily-jobs.yml/dispatches', {
     method: 'post',
     contentType: 'application/json',
