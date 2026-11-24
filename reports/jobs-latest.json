@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T05:38:18.972Z",
-  "model": "",
+  "generatedAt": "2026-11-24T07:26:37.855Z",
+  "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 5 open leads from the last 3 days."
@@ -132,6 +132,46 @@
   ],
   "rejected": [
     {
+      "title": "Software Engineer, Android, Level 4",
+      "url": "https://www.linkedin.com/jobs/view/4493687699/",
+      "reason": {
+        "ar": "المنشور يتطلب العمل من المكتب 4+ أيام في الأسبوع، وهو ليس عن بعد بالكامل. كما يطلب خبرة سنتين على الأقل مما يجعله أعلى من مستوى Moe.",
+        "en": "The post requires working in an office 4+ days per week, which is not fully remote. It also asks for 2+ years of experience, making it above Moe's level."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4494020974/",
+      "reason": {
+        "ar": "يطلب المنشور خبرة 3 سنوات على الأقل في تطوير تطبيقات Android، وهذا يتجاوز متطلبات الخبرة المناسبة لـ Moe.",
+        "en": "The post explicitly requires a minimum of 3 years of experience in Android app development, which exceeds the suitable experience level for Moe."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4492650075/",
+      "reason": {
+        "ar": "المنشور يحدد مستوى الخبرة على أنه 'Mid-Senior level' (متوسط إلى كبير)، وهو مستوى أعلى من المطلوب لـ Moe.",
+        "en": "The post specifies the seniority level as 'Mid-Senior level', which is higher than what is suitable for Moe."
+      }
+    },
+    {
+      "title": "Android Engineer - Tijdelijk",
+      "url": "https://www.linkedin.com/jobs/view/4492630017/",
+      "reason": {
+        "ar": "المنشور يحدد مستوى الخبرة على أنه 'Mid-Senior level' (متوسط إلى كبير)، وهو مستوى أعلى من المطلوب لـ Moe.",
+        "en": "The post specifies the seniority level as 'Mid-Senior level', which is higher than what is suitable for Moe."
+      }
+    },
+    {
+      "title": "Java Full Stack Developer",
+      "url": "https://www.linkedin.com/jobs/view/4494063368/",
+      "reason": {
+        "ar": "المنشور يحدد مستوى الخبرة على أنه 'Mid-Senior level' (متوسط إلى كبير)، وهو مستوى أعلى من المطلوب لـ Moe. كما أن الدور هو 'Java Full Stack Developer' وليس تركيز Moe الأساسي.",
+        "en": "The post specifies the seniority level as 'Mid-Senior level', which is higher than what is suitable for Moe. Additionally, the role is for a 'Java Full Stack Developer', which is not Moe's primary focus."
+      }
+    },
+    {
       "title": "Postscript (YC W19) | Senior Software Engineer, Full Stack | REMOTE (US, Canada) | Full-time | $180K to $220K base + equity — Postscript is an agentic retention",
       "url": "https://news.ycombinator.com/item?id=50340820",
       "reason": {
@@ -215,7 +255,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
@@ -227,7 +267,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "2 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 141 skipped: not app/AI work)"
+        "msg": "1 open projects from the last 5 days worldwide with budget 100+ USD (183 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 128 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -243,7 +283,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 1 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
+        "msg": "phone relay last read 3 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -255,19 +295,19 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 12 (start 1, open 7, worker 1, alarm 3), longest gap 423 min, last 1 hours ago (alarm, v1.9.1)"
+        "msg": "phone checks in last 12h: 7 (alarm 3, open 4), longest gap 423 min, last 3 hours ago (alarm, v1.9.1)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 21:11*start! 21:59*open 21:59*worker! 22:00*open 22:00*open 22:24! 00:05*open 00:05! 00:09*open 00:09*open 07:13*open 07:13"
+        "msg": "times (Amman): 22:24! 00:05*open 00:05! 00:09*open 00:09*open 07:13*open 07:13"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 21:11 💼 2 فرص شغل جديدة || 21:59 🔷 وظيفة Remote جديدة على LinkedIn (+12) || 22:24 🔷 وظيفة Remote جديدة على LinkedIn (+1) || 00:05 🔷 وظيفة Remote جديدة على LinkedIn (+2)"
+        "msg": "alerts posted: 22:24 🔷 وظيفة Remote جديدة على LinkedIn (+1) || 00:05 🔷 وظيفة Remote جديدة على LinkedIn (+2)"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
+        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -283,11 +323,83 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
+        "msg": "47 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (8+ years required): Mobile Developer- FLEX/ CONTRACT"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (14+ years required): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Android Engineer - 12 months Freelance Contract"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Android Engineer – eCommerce – Amsterdam (Hybrid)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Core Android Developer (For independent contractors)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (6+ years required): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (emagine)): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Software Engineer-Android-IOS (6 Months Contract)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): RQ11675 – Software Developer – CRM – Senior"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Flutter Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Engineer - AI Transformation"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "6 of 24 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -295,11 +407,23 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Creative Developer - 6 months FTC"
+      },
+      {
+        "step": "filter",
+        "msg": "1 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "0 new Freelancer projects added, 5 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 10: active market arab-east, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
       },
       {
         "step": "filter",
