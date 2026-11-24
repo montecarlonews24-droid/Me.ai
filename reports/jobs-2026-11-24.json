@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-23T23:27:57.125Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-24T02:24:13.988Z",
+  "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 5 open leads from the last 3 days."
@@ -215,11 +215,11 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 10,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
-        "msg": "1457 leads seen before"
+        "msg": "1493 leads seen before"
       },
       {
         "step": "verify",
@@ -227,7 +227,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (145 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 110 skipped: not app/AI work)"
+        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (141 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 134 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -239,11 +239,11 @@
       },
       {
         "step": "verify",
-        "msg": "10 new Hacker News posts added"
+        "msg": "0 new Hacker News posts added"
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162697ch 27 links; HTTP 200 160401ch 27 links; HTTP 200 162096ch 26 links; )"
+        "msg": "phone relay last read 5 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162697ch 27 links; HTTP 200 160401ch 27 links; HTTP 200 162096ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -255,7 +255,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 10 (start 1, open 6, worker 1, alarm 2), longest gap 101 min, last 2 hours ago (open, v1.9.1)"
+        "msg": "phone checks in last 12h: 10 (start 1, open 6, worker 1, alarm 2), longest gap 101 min, last 5 hours ago (open, v1.9.1)"
       },
       {
         "step": "keeper",
@@ -267,7 +267,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134007ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134007ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -279,91 +279,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "403 jobs from Gmail alerts (last 5 days)"
+        "msg": "400 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Full Stack Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): iOS Developer – SwiftUI & Combine"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): iOS Developer #26-29543"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): iOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr. Android Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Mobil Uygulama Geliştirici"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4492614859: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Mobile iOS Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior React Native Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Full-Stack Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior / Staff React Native Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Lifecycle"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Principal Software Developer, Mobile Platform"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Principal Software Developer, Mobile Platform"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Video Player Engineer - Remote"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior React Native Developer – Mobile Apps"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Mobile)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior React Native Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Technical Lead (Mobile)"
+        "msg": "Kotlin Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "7 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -371,47 +295,11 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur mobile H/F"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (Flutter/React Native/Unity): Mobile Engineer | Flutter"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur mobile H/F"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): MixRank (YC S11) | Software Engineers | 100% Remote (Global) | Full-Time MixRank"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (automation (not an app)): Juro | AI Engineer (Agentic team) | London, UK | REMOTE (UK) | Full-time | £115k"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Cologne, Germany | UMH | Product Engineer | Full-time | 70k - 100k EUR | ONSITE "
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Mozilla | Sr. Staff Software Engineer, Browser (New Products) | REMOTE (US or Ca"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (marketing/content (not development)): Mobile Game Marketing & ASO Expert Needed for Bounce Courier (iOS)"
-      },
-      {
-        "step": "filter",
-        "msg": "8 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 10 to judge"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 10 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       },
       {
         "step": "filter",
