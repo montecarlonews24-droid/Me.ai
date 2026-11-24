@@ -1,0 +1,488 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T04:51:08.300Z",
+  "model": "gemini-2.5-flash",
+  "summary": "يبحث Moe عن تطبيقات أندرويد عالمية باللغة الإنجليزية، يفضل الأفكار التي تبسط المعلومات المعقدة بمساعدة الذكاء الاصطناعي أو تعزز السلامة الشخصية، مع تجنب الأفكار الإقليمية أو المتعلقة بالتمويل الشخصي أو التحكم في المنزل الذكي.",
+  "trends": [
+    "تزايد القوانين العالمية لخصوصية البيانات والإنصاف الرقمي يعزز الحاجة لأدوات تبسيط وفهم الحقوق.",
+    "إطلاق أقمار صناعية جديدة يوفر اتصالًا مباشرًا للهواتف الذكية في المناطق النائية، مما يحسن التواصل في الطوارئ.",
+    "التغيرات المناخية المتطرفة مثل موجات الحر وحرائق الغابات تزيد من الحاجة لحلول صحية بيئية شخصية.",
+    "تغيير التوقيت الشتوي يؤدي إلى اضطرابات في أنماط النوم، مما يستدعي حلولًا لمساعدة الأفراد على التكيف.",
+    "الظواهر الفلكية الكبرى مثل زخات الشهب والأقمار العملاقة تثير اهتمامًا عالميًا وتتطلب أدوات مساعدة للمشاهدة."
+  ],
+  "world": {
+    "signals": [
+      {
+        "area": "الفضاء والشمس",
+        "change": "زخة شهب التوأميات ستصل ذروتها بين 13 و15 ديسمبر 2026، مع إمكانية رؤية ما يصل إلى 150 شهابًا في الساعة تحت الظروف المثالية.",
+        "who": "هواة الفلك وعامة الناس في نصف الكرة الشمالي يمكنهم الاستمتاع بهذا العرض الفلكي.",
+        "evidence": "الذروة: 13-15 ديسمبر 2026"
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "سيظهر القمر العملاق في 24 ديسمبر 2026، مما يجعله يبدو أكبر وأكثر إشراقًا بنسبة تتراوح بين 7% و14% وأكثر سطوعًا بنسبة 30% من البدر العادي.",
+        "who": "جميع سكان الأرض الذين يمكنهم رؤية القمر، وسيكون لافتًا بشكل خاص للمراقبين.",
+        "evidence": "ظهور القمر العملاق: 24 ديسمبر 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "من المتوقع أن يكون عام 2026 أحد أكثر أربعة أعوام حرارة على الإطلاق، متأثرًا بظاهرة النينيو القوية، مما يواصل اتجاه الاحترار العالمي المستمر منذ أكثر من عقد.",
+        "who": "جميع سكان العالم، مع زيادة التعرض لموجات الحر والظواهر الجوية المتطرفة.",
+        "evidence": "تقرير الأمم المتحدة، 9 نوفمبر 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تسببت حرائق الغابات في إندونيسيا في انبعاث حوالي 200 مليون طن متري من الكربون حتى 15 نوفمبر 2026، وهو ثالث أعلى حجم سنوي مسجل على الإطلاق، بسبب ظروف الجفاف الشديد وظاهرة النينيو المتطرفة.",
+        "who": "المواطنون في إندونيسيا والمنطقة المحيطة يتأثرون بتلوث الهواء، وجميع سكان العالم يتأثرون بزيادة انبعاثات الكربون.",
+        "evidence": "خدمة مراقبة المناخ التابعة للاتحاد الأوروبي (كوبرنيكوس)، 20 نوفمبر 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "ولاية أوريغون الأمريكية أعلنت انتهاء موسم قياسي لحرائق الغابات تجاوز 2.5 مليون فدان في 2026، متخطية الرقم السابق المسجل في 2024.",
+        "who": "سكان ولاية أوريغون والولايات الغربية في الولايات المتحدة يتأثرون بشكل مباشر، ومعهم جودة الهواء والمناخ العالمي.",
+        "evidence": "إدارة الغابات في ولاية أوريغون، 4 نوفمبر 2026"
+      },
+      {
+        "area": "الجسد والحياة اليومية",
+        "change": "تغيير الساعة إلى التوقيت الشتوي في أواخر أكتوبر 2026 في مناطق مثل مصر، قد يؤدي إلى اضطرابات في أنماط النوم، والشعور بالتعب والنعاس أو صعوبة التركيز.",
+        "who": "الأفراد في المناطق التي تطبق التوقيت الشتوي، حيث قد يواجهون تحديات في التكيف مع الساعة البيولوجية.",
+        "evidence": "مصراوي، الكونسلتو، اليوم السابع، 28-29 أكتوبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "من المتوقع أن ترتفع أسعار السلع الغذائية العالمية بنحو 10% في عام 2026، مع زيادة إضافية بنسبة 7% في عام 2027، مدفوعة باضطرابات شحنات الحبوب وتهديد ظاهرة النينيو للمحاصيل وارتفاع تكاليف الوقود والأسمدة.",
+        "who": "المستهلكون في جميع أنحاء العالم، وخاصة الأسر ذات الدخل المنخفض في البلدان النامية، سيواجهون ضغوطًا تضخمية متزايدة.",
+        "evidence": "البنك الدولي، فوربس الشرق الأوسط، 28 أكتوبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تُظهر التوقعات ارتفاع أسعار القمح بنسبة 28% في عام 2026 والأرز بنسبة 10% في نفس العام.",
+        "who": "المستهلكون والمزارعون على مستوى العالم، مع تأثير مباشر على تكلفة الغذاء اليومية.",
+        "evidence": "تقرير آفاق أسواق السلع الأولية لشهر أكتوبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تتجه المنازل الذكية نحو التركيز على إدارة الطاقة، مع توقع أن يصل سوق أنظمة إدارة الطاقة المنزلية (HEMS) إلى ما بين 3.9 و5.8 مليار دولار في عام 2026، استجابة لارتفاع فواتير الطاقة.",
+        "who": "أصحاب المنازل الذين يبحثون عن طرق لخفض تكاليف الطاقة وتحسين الكفاءة.",
+        "evidence": "GGI Lighting، GOG Electric، Brilliant's Smart Home Trends، 11 نوفمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "شهد نوفمبر 2026 إطلاق نماذج ذكاء اصطناعي متقدمة مثل Qwen4-Max من Alibaba، بقدرات بصرية محسنة وكفاءة تشغيلية أعلى، ونماذج Gemini 4 من Google.",
+        "who": "المطورون والشركات والأفراد الذين يستخدمون تطبيقات الذكاء الاصطناعي، مما يؤثر على قدراتهم وأدواتهم الرقمية.",
+        "evidence": "FollowICT، AIFOD، 22 نوفمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "كشفت أبحاث أمنية حديثة عن تحول خطير في الهجمات السيبرانية، حيث يستخدم المهاجمون وكلاء الذكاء الاصطناعي لأتمتة مراحل كاملة من الهجمات، مما يقلل الحاجة إلى التدخل البشري.",
+        "who": "الشركات والمؤسسات المسؤولة عن حماية البيانات والبنية الرقمية، والأفراد الذين يتعرضون لتهديدات سيبرانية متزايدة.",
+        "evidence": "FollowICT، 22 نوفمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "تم إطلاق ثلاثة أقمار صناعية عملاقة من نوع 'بلو بيرد' تابعة لشركة AST SpaceMobile في أغسطس 2026، مصممة لتوفير اتصال مباشر بالهواتف الذكية العادية، مما يوسع نطاق الاتصال للمناطق التي لا تغطيها الشبكات الأرضية.",
+        "who": "المستخدمون في المناطق النائية أو التي تعاني من ضعف التغطية الخلوية، وفرق الطوارئ.",
+        "evidence": "الجزيرة نت، يوتيوب، 11 سبتمبر 2026"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "دخلت قوانين خصوصية بيانات المستهلك الشاملة الجديدة حيز التنفيذ في أربع ولايات أمريكية (ألاباما، لويزيانا، أوكلاهوما، فيرمونت) في عام 2026، مما يرفع إجمالي الولايات التي لديها هذه الحماية إلى 24 ولاية. كما تم تشديد القيود على بيع بيانات الموقع الجغرافي الدقيقة في ولايات مثل كونيتيكت ونيوجيرسي وفيرجينيا.",
+        "who": "المستهلكون في هذه الولايات يتمتعون بحقوق أكبر في التحكم ببياناتهم، والشركات مطالبة بتعديل ممارساتها للامتثال.",
+        "evidence": "MultiState، Gunster، Americaneagle.com، 28 أكتوبر 2026"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "بدء تطبيق الالتزامات الرئيسية لقانون الاتحاد الأوروبي للمرونة السيبرانية (Cyber Resilience Act) على مصنعي المنتجات ذات العناصر الرقمية في 11 سبتمبر 2026، والتي تفرض واجبات إبلاغ إلزامية عن الثغرات الأمنية الخطيرة والحوادث الأمنية الجسيمة.",
+        "who": "الشركات المصنعة للمنتجات الرقمية والمستهلكون الذين يستخدمون هذه المنتجات، بهدف تعزيز الأمان السيبراني.",
+        "evidence": "Heuking، Pitch Law، 7 يناير 2026"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "اقترحت المفوضية الأوروبية 'قانون الإنصاف الرقمي' (Digital Fairness Act) في 11 نوفمبر 2026، لحظر الممارسات التلاعبية عبر الإنترنت، وتحسين شفافية الأسعار، وتعزيز حماية الأطفال، بما في ذلك حظر 'الأنماط المظلمة' ومنح المستهلكين خيار تعطيل خصائص التصميم الإدماني.",
+        "who": "المستهلكون في الاتحاد الأوروبي، وخاصة الأطفال، سيحظون بحماية أكبر من الممارسات الرقمية غير العادلة؛ وشركات التكنولوجيا ستكون ملزمة بتغيير تصميماتها وممارساتها.",
+        "evidence": "يورونيوز، قناة الفلوجة، 11-12 نوفمبر 2026"
+      }
+    ],
+    "links": [
+      "ربط بين مجالين: الأرض والمناخ -> المال والعمل: ظاهرة النينيو القوية وارتفاع درجات الحرارة العالمية تساهم في تفاقم حرائق الغابات (مثل إندونيسيا وأوريغون)، مما يؤثر على إنتاج المحاصيل ويزيد الضغط على سلاسل الإمداد العالمية، وبالتالي يرفع أسعار الغذاء بشكل ملحوظ.",
+      "ربط بين مجالين: الجسد والحياة اليومية -> المال والعمل: التوقيت الشتوي وتغير ساعات النهار يؤثر على الساعة البيولوجية وأنماط النوم، مما قد يؤدي إلى التعب وصعوبة التركيز. هذا يمكن أن يؤثر بدوره على الإنتاجية والأداء اليومي للأفراد في العمل والدراسة.",
+      "ربط بين مجالين: المال والعمل -> التكنولوجيا: ارتفاع تكاليف فواتير الطاقة يدفع المستهلكين بشكل متزايد نحو تبني تقنيات المنزل الذكي الموفرة للطاقة وأنظمة إدارة الطاقة المنزلية، مما يؤثر على سلوكيات الشراء والاستهلاك اليومية ويزيد من الطلب على الابتكارات في هذا المجال.",
+      "ربط بين مجالين: التكنولوجيا -> القواعد والمجتمع: التطور السريع في قدرات الذكاء الاصطناعي، بما في ذلك استخدام وكلاء الذكاء الاصطناعي في الهجمات السيبرانية المعقدة، يدفع الحكومات والهيئات التنظيمية (مثل الاتحاد الأوروبي والولايات المتحدة) إلى سن وتطبيق قوانين جديدة لخصوصية البيانات وتنظيم الذكاء الاصطناعي لضمان الأمان والحماية للمواطنين والشركات.",
+      "ربط بين مجالين: الفضاء والشمس -> التكنولوجيا: إطلاق أقمار صناعية جديدة توفر اتصالًا مباشرًا للهواتف الذكية يلغي المناطق التي لا توجد بها تغطية خلوية، مما يحسن بشكل كبير موثوقية الاتصالات للأفراد وفعالية فرق الطوارئ في المناطق النائية."
+    ]
+  },
+  "ideas": [
+    {
+      "name": "PolicyPal AI",
+      "signal": "دخول قوانين خصوصية بيانات المستهلك الشاملة حيز التنفيذ في ولايات أمريكية جديدة، واقتراح الاتحاد الأوروبي 'قانون الإنصاف الرقمي' لحظر الممارسات التلاعبية.",
+      "pitch": "يساعدك على فهم ومقارنة سياسات الخصوصية وشروط الخدمة للتطبيقات والخدمات الرقمية، ويسلط الضوء على البنود القانونية المهمة والممارسات التلاعبية.",
+      "problem": "يجد المستهلكون صعوبة بالغة في قراءة وفهم سياسات الخصوصية وشروط الخدمة الطويلة والمعقدة للخدمات الرقمية، مما يجعلهم غير مدركين لحقوقهم القانونية أو للممارسات التلاعبية المحتملة التي قد تؤثر على بياناتهم.",
+      "audience": "المستهلكون في الولايات المتحدة والاتحاد الأوروبي ومناطق أخرى حيث تتزايد قوانين حماية البيانات، والذين يرغبون في فهم أفضل لخصوصيتهم الرقمية.",
+      "whyNow": "مع دخول قوانين خصوصية بيانات المستهلك الجديدة حيز التنفيذ في عدة ولايات أمريكية واقتراح 'قانون الإنصاف الرقمي' في الاتحاد الأوروبي، هناك حاجة متزايدة لأداة تبسط هذه القوانين وتساعد المستهلكين على فهم ومقارنة كيفية تعامل الشركات مع بياناتهم الرقمية.",
+      "novelty": "تطبيق جوال مدعوم بالذكاء الاصطناعي لا يكتفي بتبسيط سياسات الخصوصية وشروط الخدمة فحسب، بل يقوم أيضًا بوضع علامات نشطة على الممارسات التلاعبية ومقارنة السياسات بمعايير قانونية (مثل اللائحة العامة لحماية البيانات، قانون خصوصية المستهلك في كاليفورنيا، قانون الإنصاف الرقمي) للمستهلك العادي.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Terms of Service; Didn't Read (ToS;DR)",
+        "Privacy Policy Generator AI tools"
+      ],
+      "edge": "بينما توجد أدوات لتلخيص السياسات، يفتقر السوق إلى تطبيق جوال يركز على المستهلك، يقوم بمقارنة السياسات بذكاء، ويبرز بشكل استباقي الممارسات التلاعبية (الأنماط المظلمة) مع ربطها بالقوانين الجديدة، مما يوفر فهمًا عميقًا وقابلًا للتنفيذ بدلاً من مجرد التلخيص.",
+      "monetization": "اشتراك للميزات المتقدمة (تحليل غير محدود، مقارنات متعمقة، تنبيهات مخصصة).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9.5,
+      "firstStep": "دمج واجهة برمجة تطبيقات لنموذج لغة كبير (LLM) لتحليل النصوص، وتصميم واجهة المستخدم لتبسيط وعرض السياسات، وجمع أمثلة لسياسات الخصوصية الشائعة والأنماط المظلمة."
+    },
+    {
+      "name": "RemoteConnect Assist",
+      "signal": "إطلاق أقمار صناعية عملاقة من نوع 'بلو بيرد' في أغسطس 2026 لتوفير اتصال مباشر بالهواتف الذكية العادية في المناطق النائية.",
+      "pitch": "مساعد ذكاء اصطناعي يسهل التواصل المنظم وتنسيق الموارد في حالات الطوارئ والمناطق النائية باستخدام الاتصال المباشر عبر الأقمار الصناعية.",
+      "problem": "يعاني المستخدمون في المناطق النائية أو التي تعاني من ضعف التغطية الخلوية من صعوبة في التواصل الفعال وطلب المساعدة أو تنسيق الموارد خلال حالات الطوارئ، حيث تكون الرسائل غالبًا غير كاملة أو تفتقر إلى التفاصيل الهامة.",
+      "audience": "المسافرون في المناطق النائية، فرق الطوارئ، الأفراد الذين يعيشون في مناطق ذات تغطية خلوية ضعيفة.",
+      "whyNow": "مع إطلاق أقمار صناعية مثل 'بلو بيرد' التي توفر اتصالًا مباشرًا بالهواتف الذكية في عام 2026، تظهر فرصة لإنشاء تطبيق يستغل هذه التقنية لتوفير حلول اتصال ذكية ومنظمة للمناطق المحرومة من الشبكات الأرضية، مما يعزز السلامة والاستجابة للطوارئ.",
+      "novelty": "اتصال منظم وتنسيق للموارد مدعوم بالذكاء الاصطناعي ومصمم خصيصًا لاتصال الأقمار الصناعية المباشر بالهواتف الذكية، مما يعزز الكفاءة في سيناريوهات الطوارئ والمناطق النائية.",
+      "competition": "منخفضة",
+      "competitors": [
+        "Zoleo",
+        "Garmin InReach",
+        "SatConnect Guardian (فكرة سابقة مشابهة ولكنها تركز على السلامة الشخصية وليس التنسيق)"
+      ],
+      "edge": "لا توجد تطبيقات تركز على الاتصال المنظم وتنسيق الموارد بمساعدة الذكاء الاصطناعي في حالات الطوارئ والمناطق النائية، مستفيدة بشكل مباشر من تقنية الاتصال بالأقمار الصناعية الجديدة. التطبيقات الحالية إما عامة للمراسلة أو تركز على السلامة الشخصية دون تنسيق الموارد الذكي.",
+      "monetization": "اشتراك للميزات المتقدمة (سعة رسائل أكبر، أدوات تنسيق إضافية، تقارير مفصلة).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 15,
+      "score": 9,
+      "firstStep": "تصميم واجهة مستخدم لرسائل الطوارئ المنظمة، والبحث عن أفضل الممارسات للاتصال في حالات الطوارئ، وتطوير منطق الذكاء الاصطناعي الأولي لهيكلة الرسائل."
+    },
+    {
+      "name": "BreatheWell AI",
+      "signal": "عام 2026 المتوقع أن يكون أحد أكثر الأعوام حرارة، وحرائق الغابات في إندونيسيا وأوريغون تسبب تلوث الهواء.",
+      "pitch": "يقدم تنبيهات مخصصة لجودة الهواء وتوصيات صحية استباقية بناءً على ملفك الصحي والظروف المناخية المحلية القاسية.",
+      "problem": "يعاني الأفراد، خاصة ذوي الحساسية أو مشاكل الجهاز التنفسي، من صعوبة في فهم تأثير تلوث الهواء والحرارة الشديدة الناتجة عن حرائق الغابات والظواهر المناخية المتطرفة على صحتهم، ويفتقرون إلى إرشادات شخصية حول كيفية الحماية.",
+      "audience": "جميع سكان العالم، وخاصة الأفراد الذين يعيشون في مناطق معرضة لتلوث الهواء أو موجات الحر الشديدة، والمهتمين بصحتهم البيئية.",
+      "whyNow": "مع توقع أن يكون عام 2026 أحد أكثر أربعة أعوام حرارة على الإطلاق وتأثر مناطق واسعة بحرائق الغابات وانبعاثات الكربون، هناك حاجة ماسة لحلول ذكية لمساعدة الأفراد على التكيف مع هذه التحديات المناخية المتزايدة وحماية صحتهم.",
+      "novelty": "ذكاء اصطناعي يجمع بين بيانات البيئة في الوقت الفعلي وملف صحي شخصي مفصل لإنشاء توصيات صحية استباقية وقابلة للتنفيذ ومحددة للغاية للظروف المناخية القاسية.",
+      "competition": "متوسطة",
+      "competitors": [
+        "AirVisual",
+        "IQAir",
+        "Plume Labs",
+        "BreezoMeter"
+      ],
+      "edge": "بينما توفر معظم تطبيقات جودة الهواء بيانات عامة، يفتقر السوق إلى مساعد ذكاء اصطناعي يقدم توصيات صحية استباقية ومخصصة للغاية بناءً على ملف صحي فردي مفصل (مثل الحساسية، الربو) ويترجم تأثير الظروف المناخية القاسية إلى نصائح قابلة للتنفيذ.",
+      "monetization": "اشتراك للميزات المتميزة (رؤى صحية أكثر تفصيلاً، تنبيهات متقدمة، تكامل مع الأجهزة القابلة للارتداء).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 16,
+      "score": 8.5,
+      "firstStep": "تصميم مدخلات الملف الصحي للمستخدم، ودمج واجهات برمجة تطبيقات جودة الهواء والطقس، وتطوير منطق الذكاء الاصطناعي الأولي للتوصيات الشخصية."
+    },
+    {
+      "name": "BioSync Prep",
+      "signal": "تغيير الساعة إلى التوقيت الشتوي في أواخر أكتوبر 2026 في مناطق مثل مصر، يؤدي إلى اضطرابات في أنماط النوم والتعب.",
+      "pitch": "مساعد ذكاء اصطناعي يوجهك استباقيًا لضبط جدول نومك وعاداتك اليومية قبل وبعد تغيير التوقيت الشتوي، لتقليل الاضطرابات الصحية.",
+      "problem": "يواجه الأفراد في المناطق التي تطبق التوقيت الشتوي صعوبة في التكيف مع التغير المفاجئ في الساعة البيولوجية، مما يؤدي إلى الأرق والتعب وصعوبة التركيز وانخفاض الإنتاجية.",
+      "audience": "الأفراد في الدول والمناطق التي تطبق التوقيت الصيفي والشتوي، والذين يعانون من تحديات في التكيف مع تغييرات الساعة البيولوجية.",
+      "whyNow": "مع تطبيق التوقيت الشتوي في أواخر أكتوبر 2026 في مناطق متعددة، تبرز الحاجة لأداة لمساعدة الأفراد على الاستعداد المسبق لهذه التغييرات وتقليل تأثيرها السلبي على صحتهم وإنتاجيتهم.",
+      "novelty": "مساعد ذكاء اصطناعي مخصص لضبط التوقيت الصيفي والشتوي بشكل استباقي وشخصي، يتعلم من النمط الزمني الفريد للمستخدم وأنماط التكيف السابقة لتقديم استراتيجيات مخصصة قبل وبعد التغيير.",
+      "competition": "منخفضة",
+      "competitors": [
+        "Sleep Cycle (عام)",
+        "Calm (عام)",
+        "Timeshifter (للسفر/فرق التوقيت)"
+      ],
+      "edge": "معظم تطبيقات النوم تركز على التتبع أو التحسين العام، ولا يوجد تطبيق مخصص يقدم إرشادات ذكاء اصطناعي استباقية وشخصية للغاية لضبط الساعة البيولوجية قبل وبعد تغيير التوقيت الشتوي، مع التعلم من استجابة المستخدم السابقة.",
+      "monetization": "اشتراك للميزات المتميزة (تكامل متقدم لتتبع النوم، تدريب شخصي، محتوى إضافي).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 14,
+      "score": 8,
+      "firstStep": "البحث عن جداول التوقيت الصيفي والشتوي العالمية، وتصميم عملية إعداد المستخدم لعادات النوم، وتطوير منطق الذكاء الاصطناعي الأولي لضبط الجدول الزمني."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "HarvestHedge AI",
+      "reason": "يقع هذا الاقتراح ضمن فئة التطبيقات المالية الشخصية وإدارة الميزانية، وهي فئة أشار Moe صراحة إلى عدم تفضيله لها في الأفكار السابقة (مثل Maliyati، Mizaniyati، ArabiScan Budget). بالإضافة إلى ذلك، يتطلب دمج بيانات أسعار البقالة المحلية مع توقعات السلع العالمية جهدًا كبيرًا يفوق قدرة مطور واحد في ثلاثة أسابيع."
+    },
+    {
+      "name": "EcoFlow Sync",
+      "reason": "يُعد هذا التطبيق نظام تحكم في المنزل الذكي/إنترنت الأشياء، وهي فئة أشار Moe صراحة إلى رفضها (مثل RTO SmartHome AI). كما أن دمج الأجهزة الذكية المتعددة من مصنعين مختلفين معقد للغاية ويستغرق وقتًا طويلاً لمطور واحد في ثلاثة أسابيع."
+    },
+    {
+      "name": "Digital Guardian AI",
+      "reason": "الجزء المتعلق بـ 'الدفاع ضد الهجمات السيبرانية المدعومة بالذكاء الاصطناعي' طموح للغاية ويتجاوز بكثير نطاق ما يمكن لمطور واحد إنجازه في ثلاثة أسابيع. على الرغم من أن تبسيط الحقوق القانونية يتماشى مع اهتمامات Moe، إلا أن التركيز الأساسي للفكرة يجعلها غير قابلة للتحقيق في الإطار الزمني المحدد، كما أنها قد تتشابه مع مفاهيم 'وكيل الذكاء الاصطناعي' التي لم يفضلها Moe."
+    },
+    {
+      "name": "SkyGazer Guide",
+      "reason": "في تطبيقات بتعمل نفس الشي (Light Pollution Map، Ouranos: Stargazing Forecast، Star Walk 2)، وMoe بده أفكار جديدة من نوعها بس."
+    }
+  ],
+  "en": {
+    "summary": "Moe is looking for global Android apps in English, preferring ideas that simplify complex information with AI assistance or enhance personal safety, while avoiding regional ideas or those related to personal finance or smart home control.",
+    "trends": [
+      "Increasing global data privacy and digital fairness laws drive the need for tools to simplify and understand rights.",
+      "Launching new satellites provides direct connectivity to smartphones in remote areas, improving emergency communication.",
+      "Extreme climate changes such as heatwaves and wildfires increase the need for personal environmental health solutions.",
+      "Daylight saving time changes lead to disruptions in sleep patterns, calling for solutions to help individuals adapt.",
+      "Major astronomical phenomena such as meteor showers and supermoons spark global interest and require viewing assistance tools."
+    ],
+    "ideas": [
+      {
+        "name": "PolicyPal AI",
+        "signal": "Comprehensive consumer data privacy laws coming into effect in new US states, and the EU proposing the 'Digital Fairness Act' to ban manipulative practices.",
+        "pitch": "Helps you understand and compare privacy policies and terms of service for apps and digital services, highlighting important legal clauses and manipulative practices.",
+        "problem": "Consumers find it extremely difficult to read and understand long, complex privacy policies and terms of service for digital services, leaving them unaware of their legal rights or potential manipulative practices that may affect their data.",
+        "audience": "Consumers in the US, EU, and other regions where data protection laws are increasing, who want a better understanding of their digital privacy.",
+        "whyNow": "With new consumer data privacy laws taking effect in several US states and the 'Digital Fairness Act' proposed in the EU, there is a growing need for a tool that simplifies these laws and helps consumers understand and compare how companies handle their digital data.",
+        "novelty": "An AI-powered mobile app that not only simplifies privacy policies and terms of service, but also actively flags manipulative practices and compares policies against legal standards (such as GDPR, CCPA, and the Digital Fairness Act) for the average consumer.",
+        "competition": "Medium",
+        "competitors": [
+          "Terms of Service; Didn't Read (ToS;DR)",
+          "Privacy Policy Generator AI tools"
+        ],
+        "edge": "While policy summarization tools exist, the market lacks a consumer-focused mobile app that smartly compares policies and proactively highlights manipulative practices (dark patterns) while linking them to new laws, providing deep and actionable understanding rather than mere summarization.",
+        "monetization": "Subscription for advanced features (unlimited analysis, in-depth comparisons, custom alerts).",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9.5,
+        "firstStep": "Integrate an LLM API for text analysis, design the UI to simplify and display policies, and collect examples of common privacy policies and dark patterns."
+      },
+      {
+        "name": "RemoteConnect Assist",
+        "signal": "Launch of giant BlueBird satellites in August 2026 to provide direct connectivity to regular smartphones in remote areas.",
+        "pitch": "An AI assistant that facilitates structured communication and resource coordination in emergencies and remote areas using direct satellite connectivity.",
+        "problem": "Users in remote areas or areas with poor cellular coverage struggle to communicate effectively, request help, or coordinate resources during emergencies, as messages are often incomplete or lack critical details.",
+        "audience": "Travelers in remote areas, emergency teams, and individuals living in areas with poor cellular coverage.",
+        "whyNow": "With the launch of satellites like BlueBird providing direct smartphone connectivity in 2026, an opportunity emerges to create an app leveraging this technology to provide smart, structured communication solutions for areas lacking terrestrial networks, enhancing safety and emergency response.",
+        "novelty": "AI-powered structured communication and resource coordination specifically designed for direct-to-smartphone satellite connectivity, boosting efficiency in emergencies and remote area scenarios.",
+        "competition": "Low",
+        "competitors": [
+          "Zoleo",
+          "Garmin InReach",
+          "SatConnect Guardian (a similar previous idea, but focused on personal safety rather than coordination)"
+        ],
+        "edge": "There are no apps focused on AI-assisted structured communication and resource coordination in emergencies and remote areas that directly leverage new satellite connectivity technology. Existing apps are either general messaging tools or focus on personal safety without smart resource coordination.",
+        "monetization": "Subscription for advanced features (higher message capacity, additional coordination tools, detailed reports).",
+        "buildDifficulty": "Medium",
+        "buildDays": 15,
+        "score": 9,
+        "firstStep": "Design a UI for structured emergency messages, research best practices for emergency communication, and develop initial AI logic for structuring messages."
+      },
+      {
+        "name": "BreatheWell AI",
+        "signal": "2026 is projected to be one of the hottest years, with wildfires in Indonesia and Oregon causing air pollution.",
+        "pitch": "Provides personalized air quality alerts and proactive health recommendations based on your health profile and severe local weather conditions.",
+        "problem": "Individuals, especially those with allergies or respiratory issues, struggle to understand the health impact of air pollution and extreme heat from wildfires and extreme weather events, and lack personalized guidance on how to protect themselves.",
+        "audience": "Global residents, especially individuals living in areas prone to air pollution or extreme heatwaves, and those interested in their environmental health.",
+        "whyNow": "With 2026 expected to be one of the four hottest years on record and wide areas affected by wildfires and carbon emissions, there is an urgent need for smart solutions to help individuals adapt to these growing climate challenges and protect their health.",
+        "novelty": "AI that combines real-time environmental data with a detailed personal health profile to generate proactive, actionable, and highly specific health recommendations for extreme weather conditions.",
+        "competition": "Medium",
+        "competitors": [
+          "AirVisual",
+          "IQAir",
+          "Plume Labs",
+          "BreezoMeter"
+        ],
+        "edge": "While most air quality apps provide general data, the market lacks an AI assistant that offers proactive, highly personalized health recommendations based on a detailed individual health profile (such as allergies, asthma) and translates the impact of extreme weather conditions into actionable advice.",
+        "monetization": "Subscription for premium features (more detailed health insights, advanced alerts, wearable device integration).",
+        "buildDifficulty": "Medium",
+        "buildDays": 16,
+        "score": 8.5,
+        "firstStep": "Design user health profile inputs, integrate air quality and weather APIs, and develop initial AI logic for personalized recommendations."
+      },
+      {
+        "name": "BioSync Prep",
+        "signal": "Clocks shifting to winter time in late October 2026 in regions like Egypt, leading to sleep pattern disruptions and fatigue.",
+        "pitch": "An AI assistant that proactively guides you to adjust your sleep schedule and daily habits before and after the winter time change to minimize health disruptions.",
+        "problem": "Individuals in regions implementing daylight saving time changes struggle to adapt to the sudden shift in their biological clock, leading to insomnia, fatigue, difficulty concentrating, and reduced productivity.",
+        "audience": "Individuals in countries and regions that observe daylight saving and standard time changes, who face challenges adapting to circadian rhythm shifts.",
+        "whyNow": "With the shift to winter time in late October 2026 in multiple regions, there is a need for a tool to help individuals prepare in advance for these changes and minimize their negative impact on health and productivity.",
+        "novelty": "An AI assistant dedicated to proactively and personally adjusting for daylight saving and standard time changes, learning from the user's unique chronotype and past adaptation patterns to offer tailored strategies before and after the change.",
+        "competition": "Low",
+        "competitors": [
+          "Sleep Cycle (general)",
+          "Calm (general)",
+          "Timeshifter (for travel/jet lag)"
+        ],
+        "edge": "Most sleep apps focus on general tracking or improvement, and there is no dedicated app offering proactive, highly personalized AI guidance to adjust the biological clock before and after winter time changes while learning from past user responses.",
+        "monetization": "Subscription for premium features (advanced sleep tracking integration, personal coaching, additional content).",
+        "buildDifficulty": "Medium",
+        "buildDays": 14,
+        "score": 8,
+        "firstStep": "Research global daylight saving and standard time schedules, design user onboarding for sleep habits, and develop initial AI logic for schedule adjustment."
+      }
+    ],
+    "rejected": [
+      {
+        "name": "HarvestHedge AI",
+        "reason": "This proposal falls under the personal finance and budgeting app category, a category Moe explicitly noted not preferring in previous ideas (such as Maliyati, Mizaniyati, ArabiScan Budget). Additionally, integrating local grocery price data with global commodity forecasts requires significant effort beyond the capacity of a single developer in three weeks."
+      },
+      {
+        "name": "EcoFlow Sync",
+        "reason": "This app is a smart home/IoT control system, a category Moe explicitly rejected (such as RTO SmartHome AI). Also, integrating multiple smart devices from different manufacturers is too complex and time-consuming for a single developer in three weeks."
+      },
+      {
+        "name": "Digital Guardian AI",
+        "reason": "The 'defense against AI-powered cyberattacks' portion is overly ambitious and far exceeds the scope of what a single developer can achieve in three weeks. Although simplifying legal rights aligns with Moe's interests, the core focus of the idea makes it unfeasible within the given timeframe, and it may also resemble 'AI agent' concepts that Moe did not prefer."
+      },
+      {
+        "name": "SkyGazer Guide",
+        "reason": "There are existing apps that do the same thing (Light Pollution Map, Ouranos: Stargazing Forecast, Star Walk 2), and Moe only wants one-of-a-kind new ideas."
+      }
+    ]
+  },
+  "agent": {
+    "version": 4,
+    "candidates": 8,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "84 past ideas, 7 liked, 26 disliked"
+      },
+      {
+        "step": "world",
+        "msg": "15 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسد والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+      },
+      {
+        "step": "scout",
+        "msg": "8 candidates via gemini-2.5-flash: SkyGazer Guide, BreatheWell AI, BioSync Prep, HarvestHedge AI, EcoFlow Sync, Digital Guardian AI, RemoteConnect Assist, PolicyPal AI"
+      },
+      {
+        "step": "compete",
+        "msg": "checked 1 candidates via gemini-2.5-flash"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): SkyGazer Guide"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 4, rejected 4 via gemini-2.5-flash"
+      },
+      {
+        "step": "translate",
+        "msg": "English version ready"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ohmyluna.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL7sE0UCk1F3BtCOlDnLAqeh-6gsg7CU432tyHjh-D5ROoOm__BvxNjvDY9Jszwlzguix9cP3hwft8QWY8r95lBy5b95X7vKzlfKAY6eFSpKiU-XXVuz4sGVnRwX9AYc3zshni77jBwKOy0sTzhAfMaENXxF3Y"
+    },
+    {
+      "title": "masrawy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaantDydYKGe9FEMSeitqjfEITb5-2euxvxprj5-D_vUp2b3S12RoXaIR5upp6b1MEWHWskNyGoFBGZR96Je6RtqJ6M2QUJOdNXKVtDm2wwmjKXLhegJ61De5I_4o-_M7l-7qHnRmrhqGbCcGGBSx8ZtkWdCmeY7l4aHCB7MdRVtANx_uoXyVLTbcUyTry-LcgAOcmOMyHR_SxVgYjQ1RrkOx9CTD1nwV4LXKZs3cAlkczlr2Z7J1djwAcdFdAGjXKrhiGWoVyit7oNF8nLlpOAO7dbMI0YLMYfZywU_YHIf3jMmtDZlOGEcyu1P8hwxSqGuLi6-5PwD8nYLSLpjrb-LO_D3Q1NKv5sFAj2sxgdB6hvTbXdB6nVnCDVcSLgdp28lilYWHYFrpqEJRTIwde7xZsHHj1xmT7lb5R4DY4ojH577LWP8E0C-aBQi4Y8RoQeMY="
+    },
+    {
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1SWgqOYteVRLgE0bsAKd2sHrreCeWIPPNnZoM1K9q24FJWHbrnWc21SXSBIuwnVMrk-STmbPJSMg53qihuVv0Bx-4TYFhe9knC9jtqUADgwm2PIi5pwDN1CENKR8mspzY0fSPIzVxQZQdiVcsiAmodx_bTnO2rxlplZX6dYOt1y3Bfp6qQRIx5pLg-u_j3YSIglmH18X9eA065pXMvYNaFlRQqqOGIDxpq_5zYBewYkgZ8fN8M12wn0E4KCRpcYvFuLQWlFjhBTesovcvTbN1ICyBQVwpFZY3Svf2osZtYMEgt4jtqhR3q2wpZC7BgMeyPB2eVv6_j3CXicUC7CsPMkL6brDdPqSs45Tepe_hus_VMN3uuyXYQ9ENb9vgScFuR9lKCeEvMryAkI-xapKZDteiFXY7IdNTMaprdgvd_KYYTij4Bme2PjDZESOg1d3zs3CJ8TcY-ixxNSv82P5OxM7gO75dMCr8NzFjEiwkCzYgj6mgbjVZIBPugqf3AD_00OH9mE6wNtzs1vSJgJ4WAHkxPjGXmEvOOrVN7-zjBcIiOztRWeZ87myegmFIHA=="
+    },
+    {
+      "title": "scoop-mix.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnbbJPYqt6iJOV_NQC66Tb3Oh9KyjLsGyqf5PoYstTZwEHuzi6l1jIqX71v4RGlancu3JDpH0AQ_mRsknWSEvj042T8fmZbqSQSsia5gE62Gzd3_6j014ZHuBQW1AuHdrBRkMcNjXPZ6b7BtXIKjYHtrS2fkEYXDF1THv9EJXtQqo5iy0sbFjDs82MdfZKIIIRczNMrc3aj7k4seMDxXJ-WO7fKJeRU7C4rhrGJSHVp4Mjk-TJZl8vyfWf_8tWqD1PU9qHJEEClGu5Mvr2EYJm6SMNWVyRIrY7B8WVYnq2oOiMLaJG-qY5d4GGLyE3qcYYZgy5cLHtpDaNyWRuL5DFTURZYpOpqqQicfPIqoskjuJL0UIDlNq4ZgPNDpTJuY4="
+    },
+    {
+      "title": "wmo.int",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOqxmIRMxqFAbvPK7U9c7BEOWilAyIRPvH0uy-T_S1gPGZ6YQi8_4QCp5b1CMyuLzqMrmWidsjv1Xc2En-PaZwdCZVKnzetM3hvEk6V_HDEQ0_376-DGHeMuvRtECbxXrgXO3wPFkaAH3NE7Fk0HLxyCEW_QWdOFqDx9N8nU1rxLlRvs-dEtpL6RxyK4j9GYC3dseeod4yXe0="
+    },
+    {
+      "title": "cnbcarabia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjCBRlEhKDl8mYhr0E6MvmPiwBImfoyOnWnIVf2RfK-N32Q4ANBvGNcOu79MPyrNm2ovuG5J0ob7Edn-KDIBUUyNTvboBSzlqndPn5AVE-5aUts9SEyaV3w-O1u2P_4u5s78ooj2_V_-lR7gxXf9wFwmdJgLOh4G9xCf1_MHa8pj-h7GoyzDu6_JJK-YUCNVqnt-tY1sqJttd8UYRQrD7jML7RTn0cbIL8UJCP9imj-BRM6f2VtLDRvfiHYoNHzEWBqxX2dLlhhnliDWxmBUTN7GgZ4kJEL4QrFn1ECF_-mzcqZV62zRXUX-qfFn-dwfT8XNycpugo4k8IHnYhFH95gWdgDANhAzi6MdvCGdj4cS8ObP5gHjY6KeyE1DPTH9LV0SejzQOmoEE8Y7JMwsELRYjgjsEBhItz5U7eL16cnv715Cm9LPVOUBKzrUlgYqICQ-EGpYFssBla1NZzWk9-IFnl7GINaTWUPyple_qs1ABOL-Zur_8drZXKsoPEERL5InGzkvhlCvRbFSf9dSE="
+    },
+    {
+      "title": "nessma.tv",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO9Lymknc3Mu0RQw11JP6yBYeK3v1a1XY6YKeRSM3HOZqdPu9p56Ii9EF3H_jisnFOAKD2pyR2sVjCC-HAoeGBn9L8hFq_-MVtbzqFC842rrmx_vdG7B5CR4u84mQ14axrhp1WqEj7AiJNvqokThileKMFjmceHPCpiTXBOtUZvJcueS4386ArGsSGfhtkUdk8IGdd5gtE1R0rPL_X1-VRjwkovU5yelzeSzujSUnaRyQnB_n3OPjLX24Bl1zUoCu6yFcdxTagFLhToVOgzjgXNBd76WeI8RH2OGX8BWklSWPQEQusxnBfVimpmvBKJ6bCeLMULzEKsg1Hj0EqU10dDVQSIDQ6OfsJ0YMeH-9Sfms0MlWSLfhtzRdwKg_ZL2fZ_TBoM6KmdCnmrRs9RrxwH_bB8uBUMrDy38Kjg3CCPvdMDIKjc_S-xuvfcQIjuYJvwvGYCjTT9Gg8Tj9Jb4j9BPDAGyknmZxSckSUnVAUJWXt9TMwbDvM_PQe2KJ5Iku7RzSjObaVKOw_i0Ud1697q2Mo5j8vdL_uLCMmpOqpGv2tVXlgxqwPTEwIFuH5fBrzlJ4rSTCqRyQlf_49mt6jhUetuehB9bTEBdxUBCSt27V2AuFmHMDnl0XVcF3OZtEGuT5lDXU="
+    },
+    {
+      "title": "alkhaleej.ae",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwTd35yPzyyIZVrV7580aW68twTk6Y4qRElm-4HKZhOXnBIdg_nxgcFACwBfUj_11o7aK0FCduVm3dXWUTzhtVqzKebLsnaWmaAygHyLnmLK7BgYB4BRm7UOEz8ohOtWUVn_l1QcDjMqNX67grnYguU6DIAK5H-0sa7RFeqh4PF7-L3eJMnXniIcaNW-81GBiCR6X0xXLMcsEW6gtLY345CBnr5IUBPD7R613YHnnf11GOp5GYV7l-z4qxdYgn5FLG8hMHhhX1ldfcsQ2muTYLCVU4LL2LzNwpF8PqrffK_yILlfLA20yGy4Zyo_Oe94Bdmt94SRwwdUn27u3zfH9MWI3FDzotuu3WAyX13iLy7NPHwP90_jP0FZo3Hpjb8L08OU6uUVpYDQFhN2eTsW0DqIZMxxfkOteDzGxWb-uIEYoMsHvgBNWmoFIXqii8ivRKhN1TtwdWOs0Wr44YuKcZtwqlxBr2ByxROULh0O1h"
+    },
+    {
+      "title": "almashhad.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzRtKa-tssekgqbHcwh7LnOBQeQLORf7Zv_TSAPG3UzpeoUMGeAAxMMLlFzMGNLs_sB8ioMqgSbhG-nFZAfhWErZmvPo8wc5ykQj2pAJSEkC-LJi6HDeDop7MS-SDcOUVgQRT96sXYn71z9hKS-Ekk1TT1yJTARet9e96Udvg8hQ7G8gQ_6r4TROfGy0zhe2_fEiWr5khf9SuOwcvgfM2f85zWDwBluizhBNuJnATfXUgrgG_GgDrKlD1EGkvtnNIffr92jkjmQOIuezJBpphI4ZHEXL0WAwb5OLX9czy49-PjJ6eJZfADRu4UdP8pAJ-8-XJA2adgA2ORhLCo7Mwwh-eyWc_fglDFxcxKH4eJLSM58B35GUsVx2nhKQE4gKAkQNv9DakSaan0Lf1h8ZJhtBDANoypqRORUimXejtc92ph2-Was62YgKh4bizLGPOBKJa8kE1Cq8k9PxMGFCyukUgWfkcJPO4MbFOYsPeBqPay1_uY8vmnqpr0tMfvRiTSDYtPbgBw8w_mKRSaSPXvRcnwBbZhwFPzKRrIdvVGhBuf_eUnPg2UizGwTBUuo35sri5q2tL0AWBopqPtlEHD9-6_IFvp"
+    },
+    {
+      "title": "alaraby.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpeC3pLG4Iylgf6NFnzXTPh1-Yl4IXmd3Wy0_dbwAJOMFQBkDk7ex3eOGJjrTkGbItYbOWnDvl7WTd4Ppzruxa4fr4SrysDa6jeLUVsmpW88GSfbBDxc_9FfqG2ThtyXKXLiLEInskKFkogpPHPlTPzSIobC2ZIWq5qFinG5zvGN7fyNFKoFMLYN2k6IoRk_gscHJMikHcVERrQy8ttrx3lJ8="
+    },
+    {
+      "title": "jahzih.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHvSTXCsWnTXG53BpJHNOYxnSUm-5RLprH7IzqKgSkBY6HUNYOnc0aq4SPlThDPAs3k3pi1DxE-tpxpxPkpt3exnSanplaQA0KHW2PwO1gOo2KAZwk7V0sFgtrTNF0D7tsuFjzHZdbtE6zH1bTVOcRdYH3xSV-3iGTsFWQ2xQFw=="
+    },
+    {
+      "title": "masrawy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvCeqxYWTrLEAafOk_Q4WbcqcgsugVGVPeIaE9vL3gZ3bpCridCjFXz0fOYP2XOHmpRzAnAhq5ydRTHlfekqHEG-YfgO45IEoZpL6ZaRQ4rbGP68Gx03TUOU_ltFCiLLnWSVDp2mHj45khdP6Ch9JASWuFu4oUYhOYc1iFUpLWsxPXuT5nS21xHk4TkMj3kebQ1c4wIIJjyj-IfSqdA2EJuLvsE0i1dac4Zi930HaseiC-kE2eyU_66M7cK8j-2KdZeggG5FpM7kZ0iITXOqVEdo6PzY8Vg-RHuzlpB-QQiWNPIhRcKhuruvuMDhlD-Nn8C-BgtjRLAVISvfSoATAUoTU6wpGb1FmchdpCjo8h6vuPWgCuzchDqQVh3pGvxBzIoJ2fWvahrIr_fDkAugSPq09hEAJwlrAhnDMTKXF0L8BR"
+    },
+    {
+      "title": "elconsolto.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFma6Z5B_puT6HpHtS5kS_7KedkfreCQOHSJRUxOCz4OOuPI52AMkaC6P0d2ooXXBeB5a8Xaqbr6OPCzBewSjjtkDZXmibLC3HYANOv0SttVfIbXJrAFwEaLGKMNbsZ-0uWuNeJAVogloWbshPCq5SrI7nT5QnJioVS_FWU8Jyi3wOazOFy-z0msTo1weBwBbdfnPP3umZgM7p3w2aikFUeKFN6SJqic-7lQyNFwXhpfmzc4U-VKDXTTY4Fo8XEUfopvaSVbBBOUA5KVPoiwISG1c9xbLhFWDejPv2bxqisE9fOABMsJ4KOvfKP6epx_1jhXMufTCGSAk_3rXNZSant-dovhQBNWGMpVDcSgjMQmqxcL1Kd6gr1ou56t-gZjofO3hNYgVaQuVKPXc7AdKFP1ODaOues4dQJMzG8UspdhqjDQdADleJtGvRJH0AWBIOc61GCAjAZw=="
+    },
+    {
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-cW7ciAWONG6FJPj9ILWjOIdPC34XJwxtkt-xYnbu7fg3Nu9XLQTocn6I9LP24ZMR9QkEhySnHv5ad_llJdwMfe5e50U5irl18ZyHNc4cEh1pN5aVppj9VohpJYjZ6x0gOEeOSM6lau15iglxh-vFEzciJ-ur0lzIngDAKsgavHhFd3cDIsgdnpqNXunLpUuZSMh1B9zYSTmQc3DGEEAl8m3XClKW_20xCRWVknYGppJNE-UBEhxfivbAsp6AAIr7ApPfO19beNipi35gdnc0r1ZY30pmP91gTD7ciNl-ISJqC34ecrVU6juLXvtYa2OtQBoWbxhSX9Frct-cFnfrNH_PWJj538w49JWMpGrN2yCysWL8Q6G7jhuBem21Y1OFwVx9oXaRM3Sam_GdBXreCtpN1nI6kB0utja_UXakeSLodXPUdwVGb3umaaHA-FtCEBwLq2z1QeJtrw1jReZjexjh0ERjW45FSz2zStgBBHlAfLLgOTk="
+    },
+    {
+      "title": "shorouknews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH55tjTZq4SxaolrhhiB5oXhArTcgfjYLtNcMwivY_P-xmLYZL2X8JRUdMdbk8qT6IO_0S7QqYGEmrzTR567_RPtmj1ELF_4ncOTOwZ0EO_pjdJU9dOZy9huf8yANCJLsemGN5IxYcURlkul-dcUjrPcL9jM_F-v9KVewjyhkctGNkTEgrud1O7wfIVlYKe-JMSaPWNPbhE7zLfKRS3t83LuH0D"
+    },
+    {
+      "title": "almasryalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEujwak_EUWzXwC7WXoW_7WCwGqfAxwmjxHCeVpC5fj96AqcX_f3ilULiSRX6pkSznihy-EikK_ezRuKsNrOVzi50czeKSvqnrGy_5WCAbju1BBVhSB3cJ3chYMXHb_XgFvPpRmZ9nlFOSmsrcE"
+    },
+    {
+      "title": "aleqt.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcSFbEy42Tp3pIehOuMNbe7dnGIYlY8zGEi31FpDpsHw-sHYpbm4_qzO3-Iz3NVM7XbLM8PCVF-7jNHmdTInMBwmykRdybvaS0afe40VIBmcLoOHIBPiZUjK8Haju2oFC78ca2ficiGxRJ1-iCip_1JpsVDR2UAvdDJMK-izIHjffYNhj0JYH4qkGcLsVVesfiw1pI0ktXB6AFgZSujWOufXhv0DuGOzZhIpR2Q6qXXYRNJe9nQtk9MEaR5e64bmvX-7ExbLdyEEo0F6nRvrJshkN-ySrYIr7LLtQgydwxJULWiv28Q_yPfR2KMo7FzocVDwEsViW4rTy2iWBkKXn4uoDIc3-L8Q1HJIeg01jwbIdtWM_SX_r8a-i4aE55RsTs9VtCC7UhfTodsCPI08LnUAqgMRvRSJJR60m6AMxYPyxtIu5WfNgTOowCN-W00K3zy1XktjYqX04qIsr9"
+    },
+    {
+      "title": "forbesmiddleeast.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7KGabZWgM3vrOv3pXaa4miK8oj67TMnoQe7Z5LAT80mW3qXbDVS6WFxGyLTCzU5D4fRj500F22__MY7k67qfM_qbp94h2u_Sd8l4T8fRzewCOi03b4cVryQaOHtzCz89fuDB7xvp9Bkwawc_-tTCvFvn5lqcRvR9mUrFlpX1LjG9bG8arqh5vkihK6MGnW3yjp9eAAraQcuCbkHzdZQ=="
+    },
+    {
+      "title": "alaraby.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFCnHlFVMaEqe_EXmQbaAjrNZ16F9AfrTxke5IZCEtdeHXojtwqfSgXhoZfwy98v6Efz00UGzUct3Nt5CSiCo3noByKMSqW2N626PXoG7dwzN1Unkg62MpBD0n066sf5Z0MRPHq40ywlVmJxSPWyFqR68npZpDDlwG_LBU8f9SlB7X5fHgv0UixYVaZpxBysdvxcu35RHwhF-EwXVo4781JaTtWCN4ai_JduXzXmijIIUvZlrGxd2_nvqNjP2PB2S1cWEbNWpD36bNHXQQ8IfjqwsRm1ovTUNT2tPx4o3p_vDH5hV1cErfOvGBA3fVIe3kH09m9qyKvDUiYmeTnAx5qZpXBa9AY8IEyqRdF27_1y6dqGclGFg9X13yjZ9g-ZRgIM29Mfn9xKIpA_PA6jtG-sfV70yjdM4DFjXovSCS0fjegYyckIWn9qAvXa6KSUYvuMYcN89MxEEpP2VAMqeOe3Z7TPZ8ExlaTUEvTt3PeCsyyU5-hIKt31o4XwWUihqSnYsEc88="
+    },
+    {
+      "title": "masrawy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4J6UNH-_xYEEnbNgn7vv-rNgFXNWgMI9W97BKNY8duq_brvX_6MH6n5F3jksPKuBTEj8KwZjL1L7TzFOEDJNHdPJzMKPLNOMnWZYc60GkMpDpR0Id9vKZ5qGm8PmvQ7qKF4rLxxIIEO3lXWkh0i2uZd76w6JaMxxsHK5XgMLcnUAbYXEMGhdnkghypT25ydWLggu-dZUs738E1kBxGwTH75PnyQuym4su6o0HRK5IhzGlFwZYmclqK28IlltneVYt2jdT00nCRqRgOYnU2uQ2b6Ujr5pKK7aYPQ7vntrf0bYDI7sZ-85_xPxP5SntyiUbqY0pT5jAIuh0kD1npXJC7gTmmi6Es338mbjLGs2Eb5mt0RxGvMqyUxNc7UmT5T333OMAxWsiv7pRhQPyn8mTjs9sTuIAOvhBdarS2H4HwWuUvsuEa90ZgztTbkUCztyUT30xkpg5Aofy0hDTR8ZIMvc1PeOcskeOkXz2MrWx0l7VfvNifwuxGtNb5EQw"
+    },
+    {
+      "title": "ggilighting.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHofSjG-HHv2XQzci2yBiNCWfX6ATktsQXKLM7xnmi1HECMDSri62KOsrI2K312MNOthoWH2jGW03BG4oRqZZGyo772EGSZNV9vuVLuJaR5xtd9GjMMFwpNP3qTbWBxGkgJ3h9bdXl9kPZ3peYczcmbgObIzSgzcJYi4z7Q0jJtI_ftlwxaWaji7Y3hYP6RVssib4r-7Mxl"
+    },
+    {
+      "title": "gog-elec.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpOd1mklFzbzaR3rRy25Bfw0nTBkMXoUZbJOWAcbdaWRMgmlw8KI6kumBS5Ua1O8I7qCjY40XDl9EnEPQ1-pIR3RI9ApWt7QocThbd0xhcmMi8YD7gPu88g4Zh-7NGjjrblzO2JcTauvmoICEktkP9gDMBjo5jeeOOBZlutoYNKHHtR8vNSZN4Mvk1"
+    },
+    {
+      "title": "niceforyou.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnTWHJS6pW37RdY11xxg2Q6cg9f6qdAtYn-TiVFodJAH4JvZrBQ9A2PpqxCgxwRsRK_cb9TAIp3IC3TfajY03XIdDKNQYVWlq0LlFVa_rxMtwCPecXbAbBAQr2zy7_Ba9xGXEgApvBWJSXnNtHAseGauifxRBmu5BCahtl4vff5We0EHyIN1xFzYLFSRW8orSoNt2NCz9QkFSay9oZY8d35jM="
+    },
+    {
+      "title": "brilliant.tech",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX6-_8PSlYM0vkCS5rLQ3BmLawtYWmxdl7w_0lkUC8JM3viaGLng3-viDFMsNUwaPAYPMZ4asd95JaC4z1bi4VuKxtiJ_AknT7JjcWIyTS453vO5DCSTAnzU6BkNmf2Mw3vkO71YRcVe0JQ7S0n9NF_GcT5-CmvB6G2qtfSPg2vrHNecpLWec="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYtn3Or2DzXhhhYUms807MHpAFJLyM_ZYNGkzA_lM1UtjCrOp-fYfMVOX68Xy_MsYzKvTfIl4xsh_l3UEkSOFsfivB8QE0NJGKOZ1Nsozg230Vu41CpNLovDzFfgcvdOWHBRPtZwU="
+    },
+    {
+      "title": "followict.news",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPwskjy2bLRQ9wfkpkdqUPX4XkUoXvbZy-k7MXBDbNrYrtK2V47dlSQRldGOWxbviBcPLIpAlzyCRxD02ROoyrGFS1WCIrrWoXRonmYnEVjKC4fdQ85NEN2d6wgKTktD1Cc9uBcPS3PzkB6ro8YUAA7g2H7yomY3YOQGbZ9CyOgxU09Tzb4CTLk2RlE20ujJ0Y6tzYSxCAB_EL1rMAhuMDt-f6l56-E_4LJp8cWo85A79QepmtfGs94OKc5t76s_g-f9GOlIzW9BzEwiWyPCS4IVXzuX6myZ3wgpkmva3TO9pQ-MxkBi6-hU5mgqXnL9UfIpbseU3K47g5oIPEW45iovAXT0ew0Srbdtq-tb1auVAFhcY="
+    },
+    {
+      "title": "af.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6ZKHu3gMXpPKSDJkvHV1Scv-uYVf9csIZS9qImj3yo7wn32rQAeI9pD9iY7R_Rk2cekRq3nPuRyNJ9s562Nvfyw8A6ZJ_BSJIBOGayjf2Y4H5NB49Gq9kNjOKdoaMPb9vxXvhCxVb5sEiV-23BYuUZ6XxmSGK"
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiE0cquhKAsfcaUstLvTIrsJH16Z3SsoRxDc9HME7bGJA-kd2Tp0GByamxIDfLYa3jIwnVZvGrMQrLrMHZar0MklNpDY2XKXNTG-2m_tyF_mwt5fX9xKEpY4UoL7Td6p7k7QlJVrGPzwC-domQfulaNMeoxKT6nmvVzLWYLvSeUCeSnwcSMkZTyQYrGkMW3nHj51dDGLf6nZjZBoD1JSVFI18aaturd6ISuWB0czJ3RZGJVbGDik_h_PCq-4aSoUCpk3_wfccOKVtGDyqJ-CuacDK2ZrJfCoBGr10heOjQox8tk0gxLVcT9ZTtZ4US2fZ2rftnP0wFTPv4L1FERgshcwtaBKCCE6fX9eLamX5ZD8Z_GpfR-5AFMLmuI54="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmSjvpeIX85E_mQMV1UFF5JRn39XK5LGvuOQVnX7Yno96T_IGuqPTLeeXKh3gMSR6drXPZ9n3lhI-iTavREHpCsHbNf-VRbz6Hu7h4Xxe_KG1LkVczvSG0YkUjpFMosYBjhXVAOFs="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5nUbZb6XXajyOkTVT4Qg4kmnT6Tl2dC6qHA9xyzFTt8umbEvC2bXiqJuwu4sEGp127chv-z449rrPbrD6CuCMzoCDUHeH2pFTqkpFz2CYazHqp51wyNtuTIroRUvvx6iVKhBvAbbDBDrePEV5oLinEi8SwyKrbQkmwJeTtssAiltyxOQ8Hr5yRNtO-dP-XS3bt-OoEQ6FCp1cZ_D_HybLzZ9V7zDziOXQCCVxka3jurbbcDfzStBYRb6owZNg5RX77Z-swmS02TpIX9oFPvnZfRlOuaXqsFZ3Qiq53O-V0yuoEznDXk4nLblDSbtsixrlXuhGWVA19gv1lHmpytk="
+    }
+  ]
+}
