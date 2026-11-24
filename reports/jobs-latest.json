@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T13:25:02.055Z",
+  "generatedAt": "2026-11-24T15:26:18.290Z",
   "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -19,7 +19,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-24T13:25:02.055Z",
+      "bidsAt": "2026-11-24T15:26:18.290Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -320,7 +320,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (210 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 108 skipped: not app/AI work)"
+        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (204 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 120 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -336,11 +336,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 9 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
+        "msg": "phone relay last read 11 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "50 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "31 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -348,7 +348,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 2 (open 1, alarm 1), longest gap 0 min, last 9 hours ago (alarm, v1.9.1)"
+        "msg": "phone checks in last 12h: 2 (open 1, alarm 1), longest gap 0 min, last 11 hours ago (alarm, v1.9.1)"
       },
       {
         "step": "keeper",
@@ -356,7 +356,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 9 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
+        "msg": "phone relay last read 11 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -368,23 +368,51 @@
       },
       {
         "step": "linkedin",
-        "msg": "380 jobs from Gmail alerts (last 5 days)"
+        "msg": "386 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
+        "msg": "AI App Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Freelance Senior iOS Developer"
+        "msg": "skipped (closed): Software Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "post 4487905048: HTTP 429"
+        "msg": "skipped (5+ years required): Odoo Migration & Customisation Consultant"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (closed): Application Security Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (6+ years required): Full Stack Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Robotics Engineer, Motion Planning (18 Months Contract) (m/f/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Python Developer - Systematic Applied AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer 'Generative AI'"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Developer - Python/Angular - Conversational AI"
       },
       {
         "step": "verify",
-        "msg": "1 of 2 new LinkedIn jobs added"
+        "msg": "15 of 24 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -392,11 +420,67 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Mobile Engineer"
+        "msg": "skipped (not an app or AI agent project): AI Engineer - Permanent"
       },
       {
         "step": "filter",
-        "msg": "1 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Full Stack Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Artificial Intelligence Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Ingénieur.e IA Appliquée"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): Junior AI Application Engineer – AI Products (LLM & RAG) (m/f/d)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): Junior AI Application Engineer – AI Products (LLM & RAG) (m/f/d)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Application Engineer confirmé(e)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Generative AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Solution Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Associate Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Junior Developer (AI/SI)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Software Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "15 skipped by the app-only filter"
       },
       {
         "step": "verify",
