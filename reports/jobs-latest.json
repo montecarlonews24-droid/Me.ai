@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T04:56:18.145Z",
+  "generatedAt": "2026-11-24T05:29:54.915Z",
   "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -219,7 +219,7 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "1493 leads seen before"
+        "msg": "1494 leads seen before"
       },
       {
         "step": "verify",
@@ -227,7 +227,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "2 open projects from the last 5 days worldwide with budget 100+ USD (148 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 121 skipped: not app/AI work)"
+        "msg": "2 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 139 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -283,95 +283,11 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / Australia: busy (429), stopping search this run"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Software Engineer (AI)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (TalentHop)): AI Engineer - Multiple Openings and Multiple Seniority Levels"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (10+ years required): Software Engineer - Advice Technology"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI/ML Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Software Engineer — T. Rowe Price Labs"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Software Engineer (Azure)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Applied AI Engineer | LLMs | RAG | Claude Code | Hybrid | London, UK"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Enabled Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Full Stack Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Generative AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI ENGINEER (LLM / OPENAI INTEGRATION)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI Lead Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Developer — AI Agents"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Concepteur(trice) principal(e) en IA - Gen AI et agentique"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer – Gen AI and Agentic"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
+        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "4 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -379,23 +295,7 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Developer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer - Project Creation"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer (Developer)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Software Engineer - Operations"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
