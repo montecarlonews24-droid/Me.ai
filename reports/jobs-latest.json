@@ -1,13 +1,41 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T09:25:20.125Z",
+  "generatedAt": "2026-11-24T11:25:06.927Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+    "ar": "تم رفض طلبين من LinkedIn لأنهما وظائف بدوام كامل تتطلب خبرة تتجاوز مستوى Moe. تم قبول مشروع تطبيق توصيل الزهور لأنه يتناسب مع قدرات Moe في بناء تطبيقات Android و iOS (عبر الشريك).",
+    "en": "Two LinkedIn leads were rejected as they are full-time jobs requiring experience beyond Moe's level. The flower delivery app project was accepted as it fits Moe's capabilities for building Android and iOS apps (via partner)."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Flower Delivery Ordering App",
+      "url": "https://www.freelancer.com/projects/android/Flower-Delivery-Ordering-App",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "15-25 USD/hr",
+      "posted": "1 hours ago",
+      "proposals": "0",
+      "flId": 40833292,
+      "postedAt": 1795515621,
+      "bidsAt": "2026-11-24T11:24:01.785Z",
+      "language": "en",
+      "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
+      "fit": 8,
+      "why": {
+        "ar": "يمكن لمحمد بناء تطبيق Android أصلي بلغة Kotlin مع Firebase لإدارة الطلبات. كما يمكنه إدارة نسخة iOS من خلال شريكه الموثوق. تطبيق Islam Rising يوضح قدرته على بناء تطبيقات وظيفية للمستخدمين.",
+        "en": "Moe can build native Kotlin Android apps with a Firebase backend for order management. He can also manage the iOS version through his trusted partner. His Islam Rising app demonstrates building functional applications for users."
+      },
+      "watch": {
+        "ar": "الميزانية محددة بالساعة، لذا يجب على محمد تقديم سعر ثابت بناءً على دليله لحزمة Android + iOS.",
+        "en": "The budget is hourly, so Moe should offer a fixed price based on his guide for an Android + iOS bundle."
+      },
+      "proposal": "I can build your flower delivery ordering app for Android and iOS, allowing customers to browse your catalogue, add items to a cart, and place \"Pay on Delivery\" orders. I build native Kotlin Android apps with AI-assisted development, ensuring a clean, modern UI and a solid codebase that can be extended later. My Islam Rising app, used in 177 countries, demonstrates my ability to deliver robust and user-friendly applications.\nI will build the Android app, and my trusted iOS partner will develop and publish the iOS version, providing you with both from a single point of contact. For a simple native Android + iOS app like this, a typical budget is around 750 USD, plus the Apple Developer account fee (99 USD/year) paid by the client.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share any design mockups or a more detailed feature list you have in mind?",
+      "prime": false,
+      "foundAt": "2026-11-24T11:25:06.924Z",
+      "fresh": true
+    },
     {
       "title": "Android Engineer - Creative App",
       "url": "https://www.linkedin.com/jobs/view/4486153915/",
@@ -131,6 +159,22 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Android Engineer - Creative App",
+      "url": "https://www.linkedin.com/jobs/view/4486156828/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب خبرة في تصميم وتشغيل اختبارات A/B وسجل حافل في شحن الميزات التي حسنت التفاعل، وهو ما يتجاوز مستوى Moe كصانع تطبيقات مستقل يستخدم الذكاء الاصطناعي للمساعدة في كتابة الكود.",
+        "en": "This is a full-time job requiring experience in designing and running A/B tests and a track record of shipping features that improved engagement, which is beyond Moe's level as an independent app maker using AI-assisted development."
+      }
+    },
+    {
+      "title": "Android Engineer - Creative App",
+      "url": "https://www.linkedin.com/jobs/view/4486161635/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب خبرة في تصميم وتشغيل اختبارات A/B وسجل حافل في شحن الميزات التي حسنت التفاعل، وهو ما يتجاوز مستوى Moe كصانع تطبيقات مستقل يستخدم الذكاء الاصطناعي للمساعدة في كتابة الكود. (مكرر للطلب السابق)",
+        "en": "This is a full-time job requiring experience in designing and running A/B tests and a track record of shipping features that improved engagement, which is beyond Moe's level as an independent app maker using AI-assisted development. (Duplicate of previous lead)"
+      }
+    },
     {
       "title": "Software Engineer, Android, Level 5",
       "url": "https://www.linkedin.com/jobs/view/4493906129/",
@@ -263,7 +307,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -275,7 +319,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "2 open projects from the last 5 days worldwide with budget 100+ USD (208 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 109 skipped: not app/AI work)"
+        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (215 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 112 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -291,7 +335,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 5 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
+        "msg": "phone relay last read 7 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -303,7 +347,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 2 (open 1, alarm 1), longest gap 0 min, last 5 hours ago (alarm, v1.9.1)"
+        "msg": "phone checks in last 12h: 2 (open 1, alarm 1), longest gap 0 min, last 7 hours ago (alarm, v1.9.1)"
       },
       {
         "step": "keeper",
@@ -311,7 +355,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
+        "msg": "phone relay last read 7 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -323,23 +367,19 @@
       },
       {
         "step": "linkedin",
-        "msg": "377 jobs from Gmail alerts (last 5 days)"
+        "msg": "380 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "post 4493906129: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android"
+        "msg": "skipped (3+ years required): Mobile IOS- Android Developer - Fulltime Role (/ GC)"
       },
       {
         "step": "verify",
-        "msg": "1 of 2 new LinkedIn jobs added"
+        "msg": "4 of 5 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -347,23 +387,27 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (testers/reviews (not development)): Mainland China API Payment Tester (KYC Required)"
+        "msg": "skipped (iOS-only): Software Engineer, iOS"
       },
       {
         "step": "filter",
-        "msg": "1 skipped by the app-only filter"
+        "msg": "skipped (iOS-only): Software Engineer, iOS"
+      },
+      {
+        "step": "filter",
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "1 new Freelancer projects added, 3 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 12: active market europe, 0 prime leads"
+        "msg": "Amman hour 14: active market europe, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 2 via gemini-2.5-flash"
       },
       {
         "step": "filter",
