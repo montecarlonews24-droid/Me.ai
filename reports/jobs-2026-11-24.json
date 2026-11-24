@@ -1,41 +1,13 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T17:27:05.409Z",
+  "generatedAt": "2026-11-24T18:04:22.220Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم رفض معظم الفرص اليوم بسبب متطلبات الخبرة العالية، أو الحاجة إلى العمل في الموقع، أو لغة الوصف غير الإنجليزية/العربية. تم قبول فرصة واحدة لتطوير تطبيق أندرويد و iOS، مع اقتراح سعر مناسب.",
-    "en": "Most leads today were rejected due to high experience requirements, on-site work, or non-English/Arabic job descriptions. One lead for Android and iOS app development was accepted with a suitable price proposal."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
-    {
-      "title": "Build iOS App for Criclive.in",
-      "url": "https://www.freelancer.com/projects/ios-development/Build-iOS-App-for-Criclive",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "500000-1000000 INR",
-      "posted": "1 hours ago",
-      "proposals": "27",
-      "flId": 40833779,
-      "postedAt": 1795538264,
-      "bidsAt": "2026-11-24T17:24:07.019Z",
-      "language": "en",
-      "summary": "Project Title: iOS App Development for Criclive.in – Similar to Existing Website I am looking for an experienced iOS app developer to develop a professional, modern, and high-performance iOS application for my website, C",
-      "fit": 8,
-      "why": {
-        "ar": "المشروع يتطلب تطوير تطبيق iOS يعكس موقع ويب موجود مع ميزات مثل التحديثات في الوقت الفعلي والإشعارات. يستطيع Moe بناء تطبيق الأندرويد (سواء WebView أو Kotlin أصلي) ويمكنه إدارة تطوير نسخة iOS من خلال شريكه الموثوق. لديه خبرة في لوحات المعلومات الإخبارية (Peace & Conflict 24) وتكامل Firebase للإشعارات.",
-        "en": "The project requires developing an iOS app that mirrors an existing website with features like real-time updates and notifications. Moe can build the Android app (either WebView or native Kotlin) and manage the iOS version through his trusted partner. He has experience with news dashboards (Peace & Conflict 24) and Firebase integration for push notifications."
-      },
-      "watch": {
-        "ar": "يجب على Moe توضيح نموذج عمله لبناء تطبيق الأندرويد وإدارة شريك iOS بوضوح. يجب أن يقترح حزمة الأندرويد و iOS مع سعر يعكس توقعات العميل لتطبيق عالي الأداء، ضمن نطاق أسعاره للتطبيقات الأصلية البسيطة.",
-        "en": "Moe should clearly explain his model of building the Android app and managing the iOS partner. He should propose an Android + iOS bundle with a price that reflects the client's expectation for a high-performance app, within his price guide for simple native apps."
-      },
-      "proposal": "I can help you build a professional, high-performance mobile application for Criclive.in that mirrors your existing website's design and functionality, including real-time updates and push notifications. I build native Kotlin Android apps myself, using AI-assisted development to ensure efficiency and quality. For similar projects, I have built Peace & Conflict 24, a news dashboard with live updates. The iOS version is built and published by my trusted iOS partner, ensuring a consistent experience across platforms from one point of contact. For an Android and iOS bundle, delivering a robust app with these features would typically be in the 600-900 USD range, depending on the complexity of native components. The Apple Developer account fee (99 USD/year) is paid by the client.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific APIs available for real-time data integration and how many unique screens you envision for the app?",
-      "prime": false,
-      "foundAt": "2026-11-24T17:27:05.174Z",
-      "fresh": true
-    },
     {
       "title": "Flower Delivery Ordering App",
       "url": "https://www.freelancer.com/projects/android/Flower-Delivery-Ordering-App",
@@ -47,7 +19,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-24T17:27:05.409Z",
+      "bidsAt": "2026-11-24T18:04:22.220Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -164,6 +136,46 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Elderly Medication Reminder Solution",
+      "url": "https://www.freelancer.com/projects/software-development/Elderly-Medication-Reminder-Solution",
+      "reason": {
+        "ar": "المشروع يتطلب دمج أجهزة إنترنت الأشياء (IoT) وصندوق أدوية مخصص، وهو خارج نطاق عمل Moe الذي يركز على تطوير تطبيقات الأندرويد وميزات NFC/Bluetooth داخل التطبيقات، وليس دمج الأجهزة المادية.",
+        "en": "The project requires IoT hardware integration and a specialized medicine box, which is outside Moe's scope of work. He focuses on Android app development and in-app NFC/Bluetooth features, not physical device integration."
+      }
+    },
+    {
+      "title": "Desbloquear iPhone 17 Pro Max -- 2",
+      "url": "https://www.freelancer.com/projects/ios/Desbloquear-iPhone-Pro-Max",
+      "reason": {
+        "ar": "المشروع يتعلق بالدعم الفني وفتح قفل جهاز iPhone موجود، وليس تطوير تطبيق جديد. كما أن نص المشروع باللغة الإسبانية.",
+        "en": "This project is about technical support and unlocking an existing iPhone device, not new app development. Additionally, the project text is in Spanish."
+      }
+    },
+    {
+      "title": "عمل تطبيق موبايل note app",
+      "url": "https://mostaql.com/project/1295052",
+      "reason": {
+        "ar": "الميزانية المقترحة للمشروع (50 دولارًا) منخفضة جدًا لتطوير تطبيق أندرويد من فكرة، وهي أقل بكثير من الحد الأدنى لأسعار Moe.",
+        "en": "The proposed budget for the project ($50) is extremely low for developing an Android app from an idea, falling significantly below Moe's minimum pricing."
+      }
+    },
+    {
+      "title": "تطوير منظومة تجارة إلكترونية وتطبيقات مترابطة لمتجر WooCommerce قائم",
+      "url": "https://mostaql.com/project/1295093",
+      "reason": {
+        "ar": "المشروع يركز على مراجعة وتطوير وصيانة متجر إلكتروني قائم على WordPress وWooCommerce، وهو نوع من العمل لا يقوم به Moe.",
+        "en": "The project focuses on reviewing, developing, and maintaining an existing e-commerce store built on WordPress and WooCommerce, which is a type of work Moe does not undertake."
+      }
+    },
+    {
+      "title": "Ingénieur IA Générative & Agentic AI F/H",
+      "url": "https://www.linkedin.com/jobs/view/4494340245/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل في موقع فعلي (La Défense, France) وليست عن بعد بشكل واضح. كما أنها تتطلب خبرة في أدوات هندسة الذكاء الاصطناعي مثل RAG و Python/ML التي لا يستخدمها Moe، ونص المشروع باللغة الفرنسية.",
+        "en": "The job requires on-site work (La Défense, France) and is not explicitly remote. It also demands expertise in AI engineering tools like RAG and Python/ML that Moe does not use, and the project text is in French."
+      }
+    },
     {
       "title": "Software Engineer 5 - Android (DVX Mobile Core)",
       "url": "https://www.linkedin.com/jobs/view/4484622463/",
@@ -360,7 +372,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 7,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
@@ -372,7 +384,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (176 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 156 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (193 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 157 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -388,7 +400,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 13 hours ago: 66 projects on the lists, 0 sent (HTTP 200 162728ch 27 links; HTTP 200 160399ch 27 links; HTTP 200 162928ch 26 links; )"
+        "msg": "phone relay last read less than an hour ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
       },
       {
         "step": "mostaql",
@@ -396,19 +408,27 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "2 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "no phone checks in the last 12 hours"
+        "msg": "phone checks in last 12h: 13 (open 11, alarm 1, start 1), longest gap 11 min, last less than an hour ago (open, v1.9.1)"
+      },
+      {
+        "step": "keeper",
+        "msg": "times (Amman): 20:31*open! 20:31*open 20:31*open 20:31*open 20:31*open 20:31! 20:31*open 20:31*open 20:37*open 20:37*start! 20:48*open 20:48*open 20:48*open"
+      },
+      {
+        "step": "keeper",
+        "msg": "alerts posted: 20:31 🔵 مشروع تطبيق جديد على مستقل (+1) || 20:31 🔷 وظيفة Remote جديدة على LinkedIn (+1) || 20:37 🟢 مشروع جديد على Freelancer"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 13 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134239ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "10 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 8 skipped: not app/AI work)"
+        "msg": "10 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 9 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -416,87 +436,55 @@
       },
       {
         "step": "linkedin",
-        "msg": "376 jobs from Gmail alerts (last 5 days)"
+        "msg": "385 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "AI Agent Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Software Engineer - Android"
+        "msg": "skipped (recruitment agency (Talent Insights Group)): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer -Ford Pro Intelligence"
+        "msg": "skipped (recruitment agency (The HR Ally)): AI Full Stack Engineer - SYD"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer, Android"
+        "msg": "skipped (title): Senior Agentic AI/LLM Engineer, Coverage Intelligence"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Software Engineer, Payments"
+        "msg": "skipped (4+ years required): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (title): Lead AI Engineer - Advanced AI (applied ML, Gen AI, ML Ops)(Remote Or Hybrid)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (title): Senior AI Engineer, Agentic Healthcare Platform - Remote"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Software Engineer"
+        "msg": "skipped (title): Senior AI Agent Developer — Deep Agents, LangChain"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Software Engineer"
+        "msg": "skipped (title): Senior Applied AI Engineer | LLMs | RAG | Claude Code | Hybrid | London, UK"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (title): Senior AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer with Kotlin Multiplatform (f/m/x)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Software-Entwickler (Java)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Agentic Product Senior Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer / Tech Lead (Nakitlink)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer – Kubernetes AI Foundations Open Source"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Backend Developer"
+        "msg": "skipped (recruitment agency (Hays)): AI Engineer (m/f/d)"
       },
       {
         "step": "verify",
-        "msg": "7 of 25 new LinkedIn jobs added"
+        "msg": "12 of 22 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -504,23 +492,71 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Associate Backend Developer"
+        "msg": "skipped (not an app or AI agent project): Ingénieur IA générative (LLM) confirmé (H/F)"
       },
       {
         "step": "filter",
-        "msg": "1 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Copilot & AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Applied AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): A/AI Machine Learning Engineering (junior career)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer Associate"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur ou développeuse agentique"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (automation (not an app)): AI & Automation Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (automation (not an app)): AI & Automation Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Solutions Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Graduate AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (training/consulting (not a delivered app)): Build Astrology Consultation Booking Website"
+      },
+      {
+        "step": "filter",
+        "msg": "12 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 7 to judge"
+        "msg": "3 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 20: active market americas, 0 prime leads"
+        "msg": "Amman hour 21: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (iOS-only): Build iOS App for Criclive.in"
       },
       {
         "step": "filter",
