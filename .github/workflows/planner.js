@@ -4,6 +4,9 @@ import fs from 'fs';
 import path from 'path';
 
 const KEYS = (process.env.GEMINI_API_KEY || '').split(',').map(s => s.trim()).filter(Boolean);
+// كل سكريبت بيبلّش بمفتاح مختلف، عشان ما يخلّصوا حصة نفس المشروع مع بعض (Build Planner يبلّش بالمفتاح الثاني)
+const START = Math.max(0, 1) % Math.max(1, KEYS.length);
+const ORDERED = KEYS.map((k, i) => [ (i + START) % KEYS.length + 1, KEYS[(i + START) % KEYS.length] ]);
 const MODELS = ['gemini-2.5-flash', 'gemini-3.8-flash', 'gemini-4-hydrogen'];
 const DB = (process.env.FIREBASE_DB || '').replace(/\/$/, '');
 const PLANS = path.join(process.cwd(), 'plans');
@@ -22,7 +25,7 @@ function extractJSON(text) {
 async function ask(prompt, { search = false } = {}) {
   let lastErr = '';
   for (const model of MODELS) {
-    for (const [i, key] of KEYS.entries()) {
+    for (const [num, key] of ORDERED) {
       try {
         const body = {
           contents: [{ role: 'user', parts: [{ text: prompt }] }],
@@ -46,7 +49,7 @@ async function ask(prompt, { search = false } = {}) {
           console.log(`  ~ ${model} busy, waiting ${20 * (attempt + 1)}s then retrying`);
           await new Promise(res => setTimeout(res, 20000 * (attempt + 1)));
         }
-        if (!r.ok) { lastErr = data.error?.message || r.status; console.log(`  x ${model} key${i + 1}: ${lastErr}`); continue; }
+        if (!r.ok) { lastErr = data.error?.message || r.status; console.log(`  x ${model} key${num}: ${lastErr}`); continue; }
         const cand = data.candidates?.[0];
         const text = (cand?.content?.parts || []).map(p => p.text || '').join('');
         const sources = (cand?.groundingMetadata?.groundingChunks || [])
@@ -77,7 +80,7 @@ async function ask(prompt, { search = false } = {}) {
         return { json, sources, model };
       } catch (e) {
         lastErr = e.message;
-        console.log(`  x ${model} key${i + 1}: ${e.message}`);
+        console.log(`  x ${model} key${num}: ${e.message}`);
       }
     }
   }
