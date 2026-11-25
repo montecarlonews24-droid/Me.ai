@@ -1,13 +1,41 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T12:27:54.754Z",
+  "generatedAt": "2026-11-25T13:17:38.692Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+    "ar": "تم قبول طلب واحد اليوم، وهو مشروع استشاري لتطوير تطبيق جوال، مع إمكانية بناء التطبيق لاحقًا.",
+    "en": "One lead was accepted today, a consulting project for mobile app development, with potential for future app building."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Guidance for Digital Project",
+      "url": "https://www.freelancer.com/projects/graphic-design/Guidance-for-Digital-Project",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "12500-37500 INR",
+      "posted": "less than an hour ago",
+      "proposals": "18",
+      "flId": 40835278,
+      "postedAt": 1795612267,
+      "bidsAt": "2026-11-25T13:16:49.150Z",
+      "language": "en",
+      "summary": "I’m Mr Injamul Sk and I’m still defining exactly what I need built. I may move forward with a new website or mobile app, commission a distinctive logo or other graphics, or even focus on writing, translation, or data-ent",
+      "fit": 7,
+      "why": {
+        "ar": "العميل يستكشف خيارات لمشروع رقمي، وتطوير تطبيقات الجوال هو أحد هذه الخيارات. يمكن لمحمد تقديم استشارته وبناء تطبيق أندرويد، وتطبيق iOS عبر شريكه.",
+        "en": "The client is exploring options for a digital project, and mobile app development is one of these options. Moe can provide his professional input and build an Android app, with an iOS app delivered via his partner."
+      },
+      "watch": {
+        "ar": "يجب على محمد التركيز في عرضه على جانب تطوير تطبيقات الجوال فقط، وتوضيح ما يمكنه تقديمه في هذا المجال.",
+        "en": "Moe should focus his proposal specifically on mobile app development and clearly state what he can deliver in this area."
+      },
+      "proposal": "Hello Mr. Injamul Sk,\n\nI understand you're exploring options for your digital project, including developing a mobile app. I can help you build a robust Android app, and also deliver an iOS version through my trusted partner, providing a complete solution from one point of contact. I use AI-assisted development to design and build native Kotlin or hybrid Android apps. For example, my app Islam Rising is a worship tracker used in 177 countries.\n\nFor a simple mobile app from your idea (Android + iOS bundle, hybrid/WebView), the cost would typically be around 350 USD. The Apple Developer account fee (99 USD/year) is paid by the client. I handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more about the core functionality you envision for your mobile app to help me tailor a more precise proposal?",
+      "prime": false,
+      "foundAt": "2026-11-25T13:17:38.610Z",
+      "fresh": true
+    },
     {
       "title": "Android Product Engineer",
       "url": "https://www.linkedin.com/jobs/view/4494349045/",
@@ -71,7 +99,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T12:27:54.754Z",
+      "bidsAt": "2026-11-25T13:17:38.692Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -280,7 +308,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -292,7 +320,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (139 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 129 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (110 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 126 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -340,91 +368,19 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (5+ years required): 𝗙𝗿𝗼𝗻𝘁-𝗘𝗻𝗱 𝗥𝗲𝗮𝗰𝘁.𝗷𝘀 + 𝗧𝘆𝗽𝗲𝗦𝗰𝗿𝗶𝗽𝘁 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 (𝗜𝗻𝘀𝗶𝗱𝗲 𝗨𝗔𝗘 𝗖𝗮𝗻𝗱𝗶𝗱𝗮𝘁𝗲 𝗢𝗻𝗹𝘆)"
+        "msg": "skipped (on-site/hybrid): Software Engineer - Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Principal Frontend Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (closed): Mobile Application Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android II"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineering, Android (All Teams)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineering, Android (All Teams)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Flutter Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): React Native Developer -- (Senior Level)."
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (6+ years required): System Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Microservices Integration Designer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (job board (Jobgether)): Mobile SDK Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Full-Stack Engineer - Mobile & Offline Sync"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Mobile Application Security Engineer (Canada )"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (React Native)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior React Native Resource"
+        "msg": "skipped (on-site/hybrid): Software Engineer - Android"
       },
       {
         "step": "verify",
-        "msg": "5 of 25 new LinkedIn jobs added"
+        "msg": "0 of 2 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -432,27 +388,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 3 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 15: active market europe, 0 prime leads"
+        "msg": "Amman hour 16: active market europe, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 0 via gemini-2.5-flash"
       },
       {
         "step": "filter",
