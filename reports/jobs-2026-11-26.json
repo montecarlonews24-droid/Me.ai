@@ -1,0 +1,401 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T21:27:29.900Z",
+  "model": "gemini-2.5-flash",
+  "summary": {
+    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
+  },
+  "fresh": 0,
+  "leads": [
+    {
+      "title": "تصميم وبرمجة تطبيق احترافي بالذكاء الاصطناعي",
+      "url": "https://mostaql.com/project/1295153",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع عندي فكرة تطبيق وابحث عن شخص محترف ومتمكن في تصميم وبرمجة التطبيقات المدعومة بالذكاء الاصطناعي. يهمني جودة التنفيذ والتصميم وسهولة الاستخدام وان يكون التطبيق متكامل وجاهز للنشر على App Store. تفاصيل المشرو",
+      "fit": 9,
+      "why": {
+        "ar": "المشروع يطلب بناء تطبيق أندرويد و iOS مدعوم بالذكاء الاصطناعي، وهو ما يطابق قدرات Moe في بناء تطبيقات أندرويد بالذكاء الاصطناعي وتقديم نسخة iOS عبر شريكه الموثوق. Moe يستخدم أدوات الذكاء الاصطناعي في تطوير تطبيقاته.",
+        "en": "The project requests building an AI-powered Android and iOS app, which perfectly matches Moe's ability to build AI-powered Android apps and deliver the iOS version through his trusted partner. Moe uses AI tools in his app development process."
+      },
+      "watch": {
+        "ar": "التأكد من أن نطاق ميزات الذكاء الاصطناعي يقع ضمن قدرات Gemini ولا يتطلب أدوات تعلم آلة معقدة أو تدريب نماذج. توضيح نموذج عمل شريك iOS وتكلفة حساب مطور Apple.",
+        "en": "Ensure the scope of AI features is within Gemini's capabilities and doesn't require complex ML tools or model training. Clarify the iOS partner model and the Apple Developer account fee."
+      },
+      "proposal": "أهلاً بك، يسعدني جداً العمل على فكرتك لتطبيق احترافي مدعوم بالذكاء الاصطناعي. أنا أركز على بناء تطبيقات أندرويد قوية ومبتكرة، وأستخدم أدوات الذكاء الاصطناعي المتقدمة في عملية التطوير نفسها، كما في تطبيق Me.ai الخاص بي الذي يعمل كوكيل بحث ذكي.\nبالنسبة لمتطلبات iOS، أنا أبني تطبيق الأندرويد بنفسي، ويتم بناء ونشر نسخة iOS بواسطة شريكي الموثوق والمتخصص في iOS، لتضمن الحصول على التطبيقين من نقطة اتصال واحدة.\nيمكنني دمج ميزات الذكاء الاصطناعي مثل Gemini Vision أو الدردشة الذكية داخل التطبيق.\nتكلفة تطبيق أندرويد و iOS (نسخة بسيطة 4-5 شاشات) مع ميزات الذكاء الاصطناعي يمكن أن تكون حوالي 600-900 دولار، ويدفع العميل رسوم حساب مطور Apple.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل يمكنك مشاركة المزيد من التفاصيل حول طبيعة ميزات الذكاء الاصطناعي التي تتخيلها في التطبيق؟",
+      "prime": false,
+      "foundAt": "2026-11-25T15:25:43.080Z",
+      "fresh": false
+    },
+    {
+      "title": "مطلوب نشر تطبيق على متجري Google Play و App Store",
+      "url": "https://khamsat.com/community/requests/801247-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%86%D8%B4%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B9%D9%84%D9%89-%D9%85%D8%AA%D8%AC%D8%B1%D9%8A-google-play-%D9%88-app-store",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب نشر تطبيق على Google Play و App Store، وهو ما يطابق قدرات Moe في نشر تطبيقات أندرويد وإصلاح مشكلات الرفض، وتقديم خدمة نشر iOS عبر شريكه.",
+        "en": "The project requests publishing an app to Google Play and the App Store, which matches Moe's capabilities in publishing Android apps and fixing rejections, and providing iOS publishing services through his partner."
+      },
+      "watch": {
+        "ar": "التأكد من أن التطبيق جاهز للنشر أو يحتاج فقط لإصلاحات بسيطة. التأكد من أن العميل لديه حساب مطور Apple.",
+        "en": "Confirm if the app is ready for publishing or only needs minor fixes. Confirm the client has an Apple Developer account."
+      },
+      "proposal": "أهلاً بك، يسعدني مساعدتك في نشر تطبيقك على متجري Google Play و App Store. لدي خبرة في التعامل مع متطلبات Google Play، بما في ذلك حل مشكلات الرفض والامتثال للسياسات، كما فعلت مع تطبيقاتي الأربعة المنشورة، مثل تطبيق Islam Rising الذي يستخدمه الملايين.\nبالنسبة لمتجر App Store، أنا أدير عملية النشر لنسخة iOS بالكامل عبر شريكي الموثوق والمتخصص في iOS، مما يضمن لك الحصول على خدمة متكاملة لنشر التطبيقين من نقطة اتصال واحدة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل التطبيق جاهز للنشر حالياً، أم يحتاج إلى أي تعديلات أو تجهيزات إضافية قبل الرفع؟",
+      "prime": false,
+      "foundAt": "2026-11-25T15:25:43.080Z",
+      "fresh": false
+    },
+    {
+      "title": "Android Product Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4494349045/",
+      "platform": "LinkedIn",
+      "market": "",
+      "country": "Madrid",
+      "budget": "",
+      "posted": "less than an hour ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "idealista · Madrid",
+      "fit": 8,
+      "why": {
+        "ar": "يناسب Moe لأن الوصف يذكر بوضوح استخدام أدوات الذكاء الاصطناعي في عملية التطوير، وهو ما يتبعه Moe في بناء تطبيقات Kotlin الأصلية لنظام Android. كما أن الوظيفة عن بعد وتتناسب مع مجال عمله.",
+        "en": "This fits Moe because the description explicitly mentions using AI tools in the development process, which is how Moe builds native Kotlin Android apps. The role is also remote and aligns with his work areas."
+      },
+      "watch": {
+        "ar": "التأكد من أن الوظيفة عن بعد 100% وليست هجينة، وأنها لا تتطلب الحضور للمكتب.",
+        "en": "Ensure the job is 100% remote and does not require any office presence."
+      },
+      "proposal": "I understand you're looking for an Android Product Engineer who uses AI tools in their daily workflow to build and improve Android applications. This aligns perfectly with my approach: I build native Kotlin Android apps with AI-assisted development, handling design, planning, testing, and publishing. My own daily AI research agent, Me.ai, is a native Android app built with Gemini and web search on GitHub Actions, demonstrating my capability in integrating AI. I can deliver robust Android apps and manage the entire project lifecycle.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific product area or features you're looking to develop?",
+      "liChecked": true,
+      "prime": false,
+      "foundAt": "2026-11-25T10:24:43.606Z",
+      "fresh": false
+    },
+    {
+      "title": "Product Engineer - New Apps & Agents",
+      "url": "https://www.linkedin.com/jobs/view/4494373856/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "Türkiye",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "Sociaaal · Türkiye",
+      "fit": 9,
+      "why": {
+        "ar": "هذه الوظيفة تتناسب بقوة مع Moe لأنه يبني تطبيقات أندرويد جديدة ووكلاء ذكاء اصطناعي (Agentic AI) باستخدام أدوات الذكاء الاصطناعي في عملية التطوير، وهو ما يطلبه العميل صراحة. كما أن الوظيفة عن بعد بالكامل.",
+        "en": "This role is a strong fit for Moe because he builds new Android apps and AI agents (Agentic AI) using AI-assisted development tools, which the client explicitly requests. The role is also fully remote."
+      },
+      "watch": {
+        "ar": "الوظيفة تتطلب مهندسًا لديه خلفية هندسية ومطورًا أطلق منتجات سابقة، وهو ما يتناسب مع Moe. يجب التأكد من أن مستوى الدخول لا يتعارض مع خبرته العملية.",
+        "en": "The role requires an engineer with an engineering background and a proven consumer builder who has shipped products, which aligns with Moe. Ensure the 'Entry level' seniority doesn't conflict with his practical experience."
+      },
+      "proposal": "I understand you're seeking a Product Engineer to drive the launch of new consumer apps and AI agents, leveraging AI coding agents for rapid development and iteration. This aligns perfectly with my approach. I build native Kotlin Android apps and AI agents using AI-assisted development, focusing on efficient delivery and user experience. My own daily AI research agent, Me.ai, built with Gemini and web search on GitHub Actions, demonstrates my capability in agentic AI, complete with its native Android app. I also have four apps live on Google Play, including Islam Rising, used in 177 countries, and SCANIQ, an AI image recognition app with Gemini Vision. For iOS versions, I collaborate with a trusted partner to ensure a seamless cross-platform delivery.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more about the specific types of consumer apps or agents you envision launching first?",
+      "liChecked": true,
+      "prime": false,
+      "foundAt": "2026-11-24T22:26:38.184Z",
+      "fresh": false
+    },
+    {
+      "title": "Flower Delivery Ordering App",
+      "url": "https://www.freelancer.com/projects/android/Flower-Delivery-Ordering-App",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "15-25 USD/hr",
+      "posted": "1 hours ago",
+      "proposals": "0",
+      "flId": 40833292,
+      "postedAt": 1795515621,
+      "bidsAt": "2026-11-25T21:27:29.900Z",
+      "language": "en",
+      "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
+      "fit": 8,
+      "why": {
+        "ar": "يمكن لمحمد بناء تطبيق Android أصلي بلغة Kotlin مع Firebase لإدارة الطلبات. كما يمكنه إدارة نسخة iOS من خلال شريكه الموثوق. تطبيق Islam Rising يوضح قدرته على بناء تطبيقات وظيفية للمستخدمين.",
+        "en": "Moe can build native Kotlin Android apps with a Firebase backend for order management. He can also manage the iOS version through his trusted partner. His Islam Rising app demonstrates building functional applications for users."
+      },
+      "watch": {
+        "ar": "الميزانية محددة بالساعة، لذا يجب على محمد تقديم سعر ثابت بناءً على دليله لحزمة Android + iOS.",
+        "en": "The budget is hourly, so Moe should offer a fixed price based on his guide for an Android + iOS bundle."
+      },
+      "proposal": "I can build your flower delivery ordering app for Android and iOS, allowing customers to browse your catalogue, add items to a cart, and place \"Pay on Delivery\" orders. I build native Kotlin Android apps with AI-assisted development, ensuring a clean, modern UI and a solid codebase that can be extended later. My Islam Rising app, used in 177 countries, demonstrates my ability to deliver robust and user-friendly applications.\nI will build the Android app, and my trusted iOS partner will develop and publish the iOS version, providing you with both from a single point of contact. For a simple native Android + iOS app like this, a typical budget is around 750 USD, plus the Apple Developer account fee (99 USD/year) paid by the client.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share any design mockups or a more detailed feature list you have in mind?",
+      "prime": false,
+      "foundAt": "2026-11-24T11:25:06.924Z",
+      "fresh": false,
+      "crowded": false
+    },
+    {
+      "title": "Android Engineer - Creative App",
+      "url": "https://www.linkedin.com/jobs/view/4486153915/",
+      "platform": "LinkedIn",
+      "market": "west",
+      "country": "United States",
+      "budget": "",
+      "posted": "last 24 hours",
+      "proposals": "",
+      "language": "en",
+      "summary": "ElevenLabs · United States",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتطلب مهندس أندرويد لتطوير تطبيق أصلي (Native Kotlin) مع دمج ميزات الذكاء الاصطناعي، وهو ما يتقنه Moe. يمتلك Moe تطبيق Flicker المبني بـ Kotlin وتطبيق Me.ai الذي يدمج الذكاء الاصطناعي.",
+        "en": "This project requires an Android Engineer to develop a native Kotlin app with AI feature integration, which is a core skill for Moe. Moe has built Flicker (native Kotlin) and Me.ai (AI agent with native Android app)."
+      },
+      "watch": {
+        "ar": "الوظيفة بدوام كامل، يجب على Moe التأكد من أنها تناسبه، وأنها بالفعل عن بعد عالمياً.",
+        "en": "This is a full-time role; Moe should ensure it aligns with his work preference and confirm it is indeed remote worldwide."
+      },
+      "proposal": "I understand you're looking for an Android Engineer to build a creative app, integrating AI-driven audio models. I develop native Kotlin Android apps with AI-assisted development, focusing on delivering robust features and user engagement. My work includes integrating Gemini AI features for chat, vision, and smart search into Android apps. I have experience building native Kotlin apps like Flicker (currently in closed testing), which handles NFC, Bluetooth, and Wi-Fi features. I can help shape the app's architecture and technical direction, ensuring tight integration with your AI models.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more about the specific AI audio models you plan to integrate and the desired user experience?",
+      "liChecked": true,
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": false
+    },
+    {
+      "title": "رفع تطبيق اندرويد على منصة هواوي جاليري",
+      "url": "https://mostaql.com/project/1294921",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع لدي تطبيق اندرويد Apk كنت ناوي انشره على كوكل بلاي ولكن كونه يحتوي على ميزات مدفوعة وان كوكل بلاي لاتقبل الميزات المدفوعة للتطبيقات في العراق فاني اريد نشره على منصة هواوي كاليري ولهذا اريد تعديل ملف التطب",
+      "fit": 7,
+      "why": {
+        "ar": "المشروع يتطلب تعديل تطبيق أندرويد ليتوافق مع متطلبات Huawei AppGallery ورفعه، وهو يقع ضمن نطاق عمل Moe في نشر التطبيقات وإصلاح مشكلات الرفض.",
+        "en": ""
+      },
+      "watch": {
+        "ar": "الميزانية 50 دولارًا أمريكيًا، وهي أقل من الحد الأدنى المفضل، لكن المهمة بسيطة ومباشرة.",
+        "en": "The budget is $50 USD, which is below the preferred minimum, but the task is simple and straightforward."
+      },
+      "proposal": "أهلاً بك،\nفهمت أنك تحتاج إلى تعديل تطبيقك ليتوافق مع متطلبات Huawei AppGallery ورفعه للنشر، مع ضمان ظهوره على المنصة قبل التسليم. أنا أقوم بنشر تطبيقات أندرويد وأتعامل مع متطلبات المتاجر المختلفة، ويمكنني مساعدتك في تجهيز تطبيقك لـ Huawei AppGallery. أعمل على تطوير تطبيقات أندرويد باستخدام الذكاء الاصطناعي، ولدي خبرة في التعامل مع تحديات النشر.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل هناك أي تفاصيل تقنية محددة حول التعديلات المطلوبة للتوافق مع Huawei AppGallery؟",
+      "foundAt": "2026-11-23T17:59:53.329Z",
+      "fresh": false
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Java/Kotlin Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4494799218/",
+      "reason": {
+        "ar": "الفرصة تتطلب مطورًا بمستوى خبرة متوسط-عالي (Mid-Senior) أو أعلى، وتتطلب العمل على قاعدة أكواد كبيرة موجودة مسبقًا، وهو ما لا يناسب Moe.",
+        "en": "The opportunity requires a Mid-Senior level or higher developer and involves working on a large existing codebase, which does not fit Moe."
+      }
+    },
+    {
+      "title": "Développeur Android Kotlin Multiplatform (KMP) (H/F)",
+      "url": "https://www.linkedin.com/jobs/view/4490865509/",
+      "reason": {
+        "ar": "تتطلب الفرصة العمل من الموقع (Montpellier) وتطلب خبرة 5 سنوات في تطوير Android، وهو ما لا يناسب Moe.",
+        "en": "The opportunity requires on-site work (Montpellier) and asks for 5 years of Android development experience, which does not fit Moe."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4486132480/",
+      "reason": {
+        "ar": "الفرصة تتطلب مطور Android بمستوى خبرة متوسط-عالي (Mid-Senior)، وهو ما لا يناسب Moe.",
+        "en": "The opportunity requires a Mid-Senior level Android developer, which does not fit Moe."
+      }
+    }
+  ],
+  "agent": {
+    "version": 2,
+    "found": 0,
+    "verified": 3,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "1494 leads seen before"
+      },
+      {
+        "step": "verify",
+        "msg": "0 found, 0 real and new"
+      },
+      {
+        "step": "freelancer",
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (199 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 157 skipped: not app/AI work)"
+      },
+      {
+        "step": "reddit",
+        "msg": "0 [Hiring] posts from the phone relay (last 5 days)"
+      },
+      {
+        "step": "hn",
+        "msg": "37 relevant posts | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (November 2026)\" 19 replies, 0 want a freelancer, 0 app/AI | freelancer: \"Ask HN: Freelancer? Seeking freelancer? (October 2026)\" too old | hiring: \"Ask HN: Who is hiring? (November 2026)\" 238 replies, 123 want a freelancer, 37 app/AI"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Hacker News posts added"
+      },
+      {
+        "step": "mostaql",
+        "msg": "phone relay last read 4 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+      },
+      {
+        "step": "mostaql",
+        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Mostaql projects added from the phone"
+      },
+      {
+        "step": "keeper",
+        "msg": "no phone checks in the last 12 hours"
+      },
+      {
+        "step": "khamsat",
+        "msg": "phone relay last read 4 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+      },
+      {
+        "step": "khamsat",
+        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Khamsat requests added from the phone"
+      },
+      {
+        "step": "linkedin",
+        "msg": "295 jobs from Gmail alerts (last 5 days)"
+      },
+      {
+        "step": "linkedin-search",
+        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Android"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Staff Software Engineer, Software & Frameworks (Android Applications)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr. Java/GCP Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Staff Software Engineer, Software & Frameworks (Android Applications)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer (Kotlin/Java) - Open for remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Software Engineer – Java, Kotlin, Spring Boot & GCP"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer - Engine by Starling"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer - Engine by Starling"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior / Principal Kotlin Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4475448562: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr Java Microservices Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Java Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Full Stack Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Software Engineer, Risk Engineering"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Backend - Data Streaming"
+      },
+      {
+        "step": "verify",
+        "msg": "9 of 25 new LinkedIn jobs added"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Reddit posts added"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Developer - Micro-Integration Platform"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Engineer II"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Java Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI-Native Java Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Software Engineer - Cloud, Identity Protection (Hybrid, ISR)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Backend Software Engineer (Finance/Trading background preferred)"
+      },
+      {
+        "step": "filter",
+        "msg": "6 skipped by the app-only filter"
+      },
+      {
+        "step": "verify",
+        "msg": "0 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 0: active market americas, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+      }
+    ]
+  }
+}
