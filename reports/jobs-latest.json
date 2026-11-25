@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T06:25:19.863Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-25T08:26:35.982Z",
+  "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 5 open leads from the last 3 days."
@@ -45,7 +45,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T06:25:19.863Z",
+      "bidsAt": "2026-11-25T08:26:35.982Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -238,7 +238,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
@@ -250,7 +250,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "9 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 130 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 170 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -266,11 +266,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 13 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
+        "msg": "phone relay last read 15 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "27 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "23 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -282,11 +282,11 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 13 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
+        "msg": "phone relay last read 15 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "8 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 6 skipped: not app/AI work)"
+        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -294,23 +294,103 @@
       },
       {
         "step": "linkedin",
-        "msg": "372 jobs from Gmail alerts (last 5 days)"
+        "msg": "350 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Kotlin Developer / Middle East: busy (429), stopping search this run"
+        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Software Engineer - Level 2 - Mobility"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (title): Service Delivery Center, AI Developer - Senior"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Agentic Engineer Senior"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Recruited)): Generative AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): (Senior) Agentic AI Algorithm Engineer (f/m/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Principal AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Native Development Lead - Reinvention Center"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Native Development Lead - Reinvention Center"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Developer, Agentic Platform"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Product Developer - Senior Associate / Manager"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI Product Developer - Senior Associate / Manager"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Artificial Intelligence Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Principal AI Enablement Builder (AI)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Backend AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Engineer - AI Innovation Office"
       },
       {
         "step": "verify",
-        "msg": "3 of 5 new LinkedIn jobs added"
+        "msg": "3 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -318,19 +398,27 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Junior AI Engineer | AI Innovations Team"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Enterprise AI Integration Engineer, AVP"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): A/AI Machine Learning Engineering (junior career)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (Flutter/React Native/Unity): Android App Testing Community Coordinators"
+      },
+      {
+        "step": "filter",
+        "msg": "4 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 3 to judge"
-      },
-      {
-        "step": "market",
-        "msg": "Amman hour 9: active market arab-east, 0 prime leads"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "1 new Freelancer projects added, 0 to judge"
       },
       {
         "step": "filter",
