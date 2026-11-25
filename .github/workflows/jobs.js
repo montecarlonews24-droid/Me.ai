@@ -257,6 +257,8 @@ const MIN_ANY_USD = 100; // كل دول العالم: بس إذا أعلى ال�
 const CUR_REGION = { USD: '', EUR: 'west', GBP: 'west', CHF: 'west', SEK: 'west', NOK: 'west', DKK: 'west', PLN: 'west', CAD: 'west', AUD: 'east', NZD: 'east', SGD: 'east', HKD: 'east', JPY: 'east', SAR: 'arab', AED: 'arab', QAR: 'arab', KWD: 'arab', BHD: 'arab', OMR: 'arab' };
 const BLOCK_COUNTRIES = ['India', 'Pakistan', 'Bangladesh'];
 const BLOCK_CURRENCIES = ['INR', 'PKR', 'BDT'];
+const BLOCK_PLACE = /\b(india|pakistan|bangladesh|bengaluru|bangalore|mumbai|delhi|hyderabad|chennai|pune|kolkata|noida|gurgaon|gurugram|ahmedabad|karachi|lahore|islamabad|rawalpindi|dhaka|chittagong)\b|₹|\b(inr|pkr|bdt)\b|\.in\b/i;
+const blockedPlace = l => BLOCK_PLACE.test(`${l.country || ''} ${l.budget || ''} ${l.title || ''} ${l.summary || ''}`);
 const BLOCK_MIN_USD = 150; // من الهند/باكستان/بنغلادش منقبل بس المشاريع اللي ميزانيتها 150 دولار وفوق (كانت 250)
 let skippedBlocked = 0;
 let skippedRegion = 0;
@@ -317,7 +319,8 @@ async function freelancerFeed() {
         // الهند وباكستان وبنغلادش: ميزانيات صغيرة ومنافسة عالية، منشيلهم دايماً
         // إلا إذا الميزانية كبيرة (150 دولار وفوق، أو 15 دولار بالساعة): ساعتها بتستاهل
         const bigBudget = p.type === 'hourly' ? usdMax >= 15 : usdMax >= BLOCK_MIN_USD;
-        if ((BLOCK_COUNTRIES.includes(country) || BLOCK_CURRENCIES.includes(curCode)) && !bigBudget) { skippedBlocked++; continue; }
+        // Moe ما بده مشاريع من الهند وباكستان وبنغلادش أبداً، حتى لو الميزانية كبيرة
+        if (BLOCK_COUNTRIES.includes(country) || BLOCK_CURRENCIES.includes(curCode)) { skippedBlocked++; continue; }
         const okPlace = country ? !!region : (curCode in CUR_REGION);
         if (!okPlace && !richBudget) { skippedRegion++; continue; }   // INR, IDR, PKR بميزانيات صغيرة
         const guessedRegion = region || CUR_REGION[curCode] || '';
@@ -955,7 +958,7 @@ Respond with ONLY JSON:
     // بس الفرص القوية (7 وفوق) بتطلع لـ Moe، الباقي بيروح للمرفوضة مع السبب
     const weak = leads.filter(l => l.fit < 7);
     // فرص السوق النشط هلّق بتطلع أول (بنفس ترتيب التقييم جوا كل مجموعة)
-    leads = leads.filter(l => l.fit >= 7)
+    leads = leads.filter(l => l.fit >= 7 && !blockedPlace(l))
       .map(l => ({ ...l, prime: inActiveMarket(l) }))
       .sort((a, b) => (b.prime - a.prime) || (b.fit - a.fit))
       .slice(0, 10);
@@ -1014,7 +1017,7 @@ Respond with ONLY JSON:
     if (Date.now() - new Date(l.foundAt).getTime() > KEEP_DAYS * 86400000) continue; // قديمة كثير
     // فرص قديمة من قبل فلتر الهند/باكستان/بنغلادش: منشيلها كمان
     // (الفرص الجديدة اللي فيها flId عدّت فلتر الميزانية وقت البحث، فما منشيلها)
-    if (!l.flId && BLOCK_CURRENCIES.some(c => new RegExp(`\\b${c}\\b`).test(l.budget || '')) || (!l.flId && BLOCK_COUNTRIES.includes(l.country))) continue;
+    if (blockedPlace(l)) { log('filter', `removed old lead (India/Pakistan/Bangladesh): ${String(l.title).slice(0, 80)}`); continue; }
 
     // فرص LinkedIn من جولات قبل الفلتر: منفحصها مرة كمان (دوام كامل، خبرة طويلة، مسكّرة)
     // مكاتب التوظيف ومواقع الوظائف: منشيلها دايماً من اسم الشركة، حتى لو انفحصت قبل
