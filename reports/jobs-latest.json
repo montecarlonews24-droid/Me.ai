@@ -1,13 +1,39 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T08:26:35.982Z",
-  "model": "",
+  "generatedAt": "2026-11-25T10:24:43.743Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+    "ar": "تم قبول عرض عمل واحد لتطوير تطبيقات Android باستخدام الذكاء الاصطناعي، وتم رفض عرضين آخرين بسبب مستوى الأقدمية أو عدم التوافق مع مجال عمل Moe.",
+    "en": "One lead for Android app development with AI assistance was accepted, while two others were rejected due to seniority level or misalignment with Moe's work scope."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Android Product Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4494349045/",
+      "platform": "LinkedIn",
+      "market": "",
+      "country": "Madrid",
+      "budget": "",
+      "posted": "less than an hour ago",
+      "proposals": "",
+      "language": "en",
+      "summary": "idealista · Madrid",
+      "fit": 8,
+      "why": {
+        "ar": "يناسب Moe لأن الوصف يذكر بوضوح استخدام أدوات الذكاء الاصطناعي في عملية التطوير، وهو ما يتبعه Moe في بناء تطبيقات Kotlin الأصلية لنظام Android. كما أن الوظيفة عن بعد وتتناسب مع مجال عمله.",
+        "en": "This fits Moe because the description explicitly mentions using AI tools in the development process, which is how Moe builds native Kotlin Android apps. The role is also remote and aligns with his work areas."
+      },
+      "watch": {
+        "ar": "التأكد من أن الوظيفة عن بعد 100% وليست هجينة، وأنها لا تتطلب الحضور للمكتب.",
+        "en": "Ensure the job is 100% remote and does not require any office presence."
+      },
+      "proposal": "I understand you're looking for an Android Product Engineer who uses AI tools in their daily workflow to build and improve Android applications. This aligns perfectly with my approach: I build native Kotlin Android apps with AI-assisted development, handling design, planning, testing, and publishing. My own daily AI research agent, Me.ai, is a native Android app built with Gemini and web search on GitHub Actions, demonstrating my capability in integrating AI. I can deliver robust Android apps and manage the entire project lifecycle.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more details about the specific product area or features you're looking to develop?",
+      "liChecked": true,
+      "prime": false,
+      "foundAt": "2026-11-25T10:24:43.606Z",
+      "fresh": true
+    },
     {
       "title": "Product Engineer - New Apps & Agents",
       "url": "https://www.linkedin.com/jobs/view/4494373856/",
@@ -45,7 +71,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T08:26:35.982Z",
+      "bidsAt": "2026-11-25T10:24:43.743Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -111,33 +137,25 @@
       "proposal": "أهلاً بك،\nفهمت أنك تحتاج إلى تعديل تطبيقك ليتوافق مع متطلبات Huawei AppGallery ورفعه للنشر، مع ضمان ظهوره على المنصة قبل التسليم. أنا أقوم بنشر تطبيقات أندرويد وأتعامل مع متطلبات المتاجر المختلفة، ويمكنني مساعدتك في تجهيز تطبيقك لـ Huawei AppGallery. أعمل على تطوير تطبيقات أندرويد باستخدام الذكاء الاصطناعي، ولدي خبرة في التعامل مع تحديات النشر.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل هناك أي تفاصيل تقنية محددة حول التعديلات المطلوبة للتوافق مع Huawei AppGallery؟",
       "foundAt": "2026-11-23T17:59:53.329Z",
       "fresh": false
-    },
-    {
-      "title": "تطوير تطبيق توصيل طلبات محلي",
-      "url": "https://mostaql.com/project/1294611",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع مطلوب تطوير تطبيق توصيل محلي يخدم المنطقة، يتضمن واجهات للمستخدم، المناديب، ولوحة تحكم للإدارة. التفاصيل الكاملة والاتفاقية تتم لاحقاً مع المستقل المناسب نقسم المشروع لمراحل: شهر للتصميم والواجهات، شهرين ل",
-      "fit": 8,
-      "why": {
-        "ar": "المشروع يتطلب تطوير تطبيق توصيل محلي لنظام Android، وهو من صميم عمل Moe. يمكنه بناء تطبيق Android (Kotlin أو WebView) مع قاعدة بيانات Firebase، وتقديم نسخة iOS عبر شريكه. الميزانية جيدة والمشروع حديث.",
-        "en": "The project requires developing a local delivery app for Android, which is core to Moe's work. He can build the Android app (Kotlin or WebView) with a Firebase backend, and provide the iOS version through his partner. The budget is good and the project is fresh."
-      },
-      "watch": {
-        "ar": "يجب التأكد من نطاق لوحة التحكم الإدارية (إذا كانت تتطلب تطوير ويب معقد، فهي خارج نطاق Moe). يجب توضيح أن Moe يبني تطبيقات Android (Kotlin أو WebView) وأن شريكه يتولى iOS، خاصة وأن بعض العروض الأخرى تذكر Flutter.",
-        "en": "Need to clarify the scope of the admin control panel (if it requires complex web development, it's out of Moe's scope). It's important to clarify that Moe builds Android apps (Kotlin or WebView) and his partner handles iOS, especially since some other proposals mention Flutter."
-      },
-      "proposal": "السلام عليكم أستاذ إسلام،\n\nفهمت أنك تبحث عن مطور لتطبيق توصيل محلي متكامل للمستخدمين والمناديب، مع لوحة تحكم إدارية. هذا النوع من التطبيقات هو بالضبط ما أبني، مع التركيز على تجربة المستخدم السلسة والوظائف القوية.\n\nأبني تطبيقات Android الأصلية (Kotlin) أو الهجينة (WebView) بمساعدة الذكاء الاصطناعي، وأوفر قاعدة بيانات Firebase لتسجيل الدخول، وإدارة البيانات، والإشعارات. أما نسخة iOS، فيقوم ببنائها ونشرها شريكي الموثوق به، بحيث تحصل على التطبيقين من نقطة اتصال واحدة.\n\nكمثال على تطبيقاتي التي تخدم جمهوراً واسعاً وتدعم اللغة العربية بشكل كامل، يمكنك الاطلاع على تطبيق \"Islam Rising\" المنشور على Google Play.\n\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\n\nبميزانية 1000 دولار، يمكننا بناء تطبيق Android و iOS هجين (WebView) بالكامل. يرجى العلم أن رسوم حساب مطور Apple (99 دولاراً سنوياً) يدفعها العميل.\n\nهل لديك أي ميزات محددة في ذهنك لتتبع الطلبات أو إدارة المناديب؟",
-      "foundAt": "2026-11-22T10:10:30.179Z",
-      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "Android Software Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4486839501/",
+      "reason": {
+        "ar": "الوظيفة بمستوى 'Mid-Senior level' وهو أعلى من مستوى Moe المقبول، وتتطلب دورًا وظيفيًا بدوام كامل في شركة وليس مشروعًا مستقلاً.",
+        "en": "The job is at a 'Mid-Senior level', which is above Moe's accepted scope, and requires a full-time corporate role rather than a freelance project."
+      }
+    },
+    {
+      "title": "iOS App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478609071/",
+      "reason": {
+        "ar": "الوظيفة بمستوى 'Senior Mobile Software Engineer' و'Mid-Senior level' وهو أعلى من مستوى Moe المقبول. كما أنها تركز على تدريب أنظمة الذكاء الاصطناعي في هندسة برمجيات الهاتف المحمول وتتطلب خبرة في iOS Swift أو Flutter/React Native، وهي مجالات لا يعمل فيها Moe بشكل مباشر أو على قواعد بيانات موجودة.",
+        "en": "The job is for a 'Senior Mobile Software Engineer' at a 'Mid-Senior level', which is above Moe's accepted scope. It also focuses on training AI systems in mobile software engineering and requires expertise in iOS Swift or Flutter/React Native, areas Moe does not work in directly or on existing codebases."
+      }
+    },
     {
       "title": "Android Developer Kotlin, Jetpack Compose",
       "url": "https://www.linkedin.com/jobs/view/4476045263/",
@@ -238,7 +256,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -250,7 +268,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (156 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 170 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (144 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 167 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -266,7 +284,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 15 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
+        "msg": "phone relay last read 17 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
       },
       {
         "step": "mostaql",
@@ -282,7 +300,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 15 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
+        "msg": "phone relay last read 17 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -294,103 +312,27 @@
       },
       {
         "step": "linkedin",
-        "msg": "350 jobs from Gmail alerts (last 5 days)"
+        "msg": "340 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "Freelance Android Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+        "msg": "skipped (5+ years required): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Service Delivery Center, AI Developer - Senior"
+        "msg": "skipped (closed): Backend Software Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Agentic Engineer Senior"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr AI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Recruited)): Generative AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): (Senior) Agentic AI Algorithm Engineer (f/m/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Principal AI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI Native Development Lead - Reinvention Center"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead AI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI Native Development Lead - Reinvention Center"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Developer, Agentic Platform"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI Product Developer - Senior Associate / Manager"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI Product Developer - Senior Associate / Manager"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Artificial Intelligence Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Principal AI Enablement Builder (AI)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Backend AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Engineer - AI Innovation Office"
+        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
       },
       {
         "step": "verify",
-        "msg": "3 of 25 new LinkedIn jobs added"
+        "msg": "3 of 6 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -398,27 +340,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Junior AI Engineer | AI Innovations Team"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Enterprise AI Integration Engineer, AVP"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (AI engineering (not an app)): A/AI Machine Learning Engineering (junior career)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (Flutter/React Native/Unity): Android App Testing Community Coordinators"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 0 to judge"
+        "msg": "0 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 13: active market europe, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 2 via gemini-2.5-flash"
       },
       {
         "step": "filter",
