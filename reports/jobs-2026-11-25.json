@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T17:09:53.668Z",
+  "generatedAt": "2026-11-25T19:25:09.650Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -121,7 +121,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T17:09:53.668Z",
+      "bidsAt": "2026-11-25T19:25:09.650Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -190,6 +190,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Employment Verification needed in Boston, MA, United States",
+      "url": "https://www.freelancer.com/projects/photography/Employment-Verification-needed-Boston",
+      "reason": {
+        "ar": "المشروع يتطلب حضوراً فعلياً في بوسطن، ماساتشوستس، وهو ما لا يتوافق مع تفضيل معاذ للعمل عن بعد فقط.",
+        "en": "The project requires on-site physical presence in Boston, MA, which is not compatible with Moe's remote-only work preference."
+      }
+    },
+    {
+      "title": "Android Developer with MVVM Architecture",
+      "url": "https://www.linkedin.com/jobs/view/4493421704/",
+      "reason": {
+        "ar": "المشروع يحدد مستوى 'Mid-Senior level' (متوسط-متقدم)، ومعاذ لا يبحث عن وظائف بمستوى قيادي أو متقدم.",
+        "en": "The job post specifies a 'Mid-Senior level' role, and Moe is not seeking senior-level positions."
+      }
+    },
+    {
+      "title": "Développeur Android Sénior",
+      "url": "https://www.linkedin.com/jobs/view/4493449038/",
+      "reason": {
+        "ar": "المشروع يتطلب مطور أندرويد 'Senior' بخبرة 7 سنوات أو أكثر، ونص المشروع باللغة الفرنسية، وكلاهما لا يتوافق مع ملف معاذ.",
+        "en": "The job requires a 'Senior' Android developer with 7+ years of experience, and the project text is in French, neither of which fits Moe's profile."
+      }
+    },
     {
       "title": "Mobile App Developer @ Kontron AG",
       "url": "https://www.linkedin.com/jobs/view/4494913521/",
@@ -362,7 +386,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -374,7 +398,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (258 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 209 skipped: not app/AI work)"
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (231 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 160 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -390,7 +414,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160378ch 29 links; HTTP 200 159671ch 27 links; HTTP 200 160602ch 27 links; )"
+        "msg": "phone relay last read 2 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -402,23 +426,15 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 7 (alarm 1, open 6), longest gap 12 min, last 2 hours ago (open, v1.9.2)"
-      },
-      {
-        "step": "keeper",
-        "msg": "times (Amman): 18:00! 18:01*open 18:01*open 18:01*open 18:01*open 18:01*open 18:13*open"
-      },
-      {
-        "step": "keeper",
-        "msg": "alerts posted: 18:00 🟡 طلب جديد على خمسات (+1) | 💼 1 فرص شغل جديدة"
+        "msg": "no phone checks in the last 12 hours"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134095ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -426,95 +442,31 @@
       },
       {
         "step": "linkedin",
-        "msg": "315 jobs from Gmail alerts (last 5 days)"
+        "msg": "297 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "AI App Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Développeur Flutter Mobile Senior (H/F)"
+        "msg": "skipped (title): Senior Software Engineer - AI Experiences"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Mobile Developer"
+        "msg": "skipped (8+ years required): AI Software Engineer (TS/SCI)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer - Store app"
+        "msg": "skipped (title): Senior Software Engineer - AI Experiences"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): App Developer (m/w/x)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Frontend Developer (React Native) - Paid in USD"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (7+ years required): Platform Engineer (iOS)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (7+ years required): Platform Engineer (iOS)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (10+ years required): Expert Full-Stack GIS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): MacOS Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, iOS (All Teams)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Application Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Product Engineer, Mobile & UX"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Product Engineer, Mobile & UX"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer II, Mobile - On App Ads (AI Native)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): App Developer – Remote (Canada)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Video Player Engineer - Remote"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): 4 Senior Full Stack Developers"
+        "msg": "skipped (title): Principal Developer - AI"
       },
       {
         "step": "verify",
-        "msg": "5 of 25 new LinkedIn jobs added"
+        "msg": "4 of 8 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -522,39 +474,27 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Dynamics 365 Developer"
+        "msg": "skipped (not an app or AI agent project): AI Software Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Associate Software Engineer"
+        "msg": "skipped (not an app or AI agent project): AI DEVELOPER II"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Specialist I (Front-End)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (Flutter/React Native/Unity): Desarrollador de Flutter"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 1 to judge"
+        "msg": "1 new Freelancer projects added, 3 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 20: active market americas, 0 prime leads"
+        "msg": "Amman hour 22: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
-      },
-      {
-        "step": "filter",
-        "msg": "removed old lead (India/Pakistan/Bangladesh): Guidance for Digital Project"
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "filter",
