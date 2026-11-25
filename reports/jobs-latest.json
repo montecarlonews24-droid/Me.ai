@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T02:24:23.487Z",
+  "generatedAt": "2026-11-25T02:42:26.541Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -45,7 +45,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T02:24:23.487Z",
+      "bidsAt": "2026-11-25T02:42:26.541Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -139,6 +139,14 @@
   ],
   "rejected": [
     {
+      "title": "Mobile App Developer - Remote",
+      "url": "https://www.linkedin.com/jobs/view/4478298551/",
+      "reason": {
+        "ar": "هذا الدور هو لمهندس برمجيات 'Senior' في مستوى 'Mid-Senior'، وهو ما يتجاوز نطاق عمل Moe. بالإضافة إلى ذلك، طبيعة العمل هي تدريب أنظمة الذكاء الاصطناعي وإنشاء بيئات تعلم معزز لاختبار قدرة نماذج الذكاء الاصطناعي على حل مشاكل هندسة البرمجيات، وليس بناء تطبيقات أندرويد أو وكلاء ذكاء اصطناعي للعملاء.",
+        "en": "This role is for a 'Senior Mobile Software Engineer' at a 'Mid-Senior' level, which is outside Moe's scope. Furthermore, the nature of the work involves training next-generation AI systems and creating reinforcement learning environments to test AI models' ability to solve software engineering problems, not building Android apps or AI agents for clients."
+      }
+    },
+    {
       "title": "Pengetikan Data via Android",
       "url": "https://www.freelancer.com/projects/google-docs/Pengetikan-Data-via-Android",
       "reason": {
@@ -190,7 +198,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -202,7 +210,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "9 open projects from the last 5 days worldwide with budget 100+ USD (133 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 107 skipped: not app/AI work)"
+        "msg": "9 open projects from the last 5 days worldwide with budget 100+ USD (135 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 105 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -258,19 +266,35 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
+        "msg": "Mobile App Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior WordPress Developer"
+        "msg": "skipped (5+ years required): Mobile Application Developer (Android and IOS) with Flutter"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Angular Developer"
+        "msg": "post 4470019500: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Flutter Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Mobile (React Native)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Mobile Application Developer"
       },
       {
         "step": "verify",
-        "msg": "1 of 3 new LinkedIn jobs added"
+        "msg": "3 of 8 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -278,15 +302,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (testers/reviews (not development)): Android App Testers for 14 Days"
+        "msg": "skipped (not an app or AI agent project): Mobile Software Developer"
       },
       {
         "step": "filter",
-        "msg": "1 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Software Development Engineer I (Mobile)"
+      },
+      {
+        "step": "filter",
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
+        "msg": "0 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "market",
@@ -294,7 +322,7 @@
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       },
       {
         "step": "filter",
