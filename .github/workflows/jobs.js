@@ -1087,7 +1087,9 @@ Respond with ONLY JSON:
           topic,
           title: `💼 ${fresh.length} فرص شغل جديدة`,
           message: fresh.slice(0, 3).map(l => `• ${l.title} (${l.fit}/10) · ${l.platform}${l.budget ? ' · ' + l.budget : ''}`).join('\n'),
-          click: top.url,
+          // الكبسة على الإشعار بتفتح شاشة الشغل بتطبيق Me.ai، وزر جانبي بيفتح رابط الفرصة مباشرة
+          click: 'meai://jobs',
+          actions: [{ action: 'view', label: 'فتح الفرصة', url: top.url, clear: true }],
           priority: 4
         }),
         signal: AbortSignal.timeout(15000)
