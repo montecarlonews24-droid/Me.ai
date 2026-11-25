@@ -1,0 +1,456 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T02:00:20.211Z",
+  "model": "gemini-2.5-flash",
+  "summary": "اليوم، تركز الأفكار على استغلال التطورات في الاتصال عبر الأقمار الصناعية والذكاء الاصطناعي في Android 17 لمواجهة التحديات العالمية مثل الظواهر المناخية المتطرفة والتضخم وتأثيرات الليل القطبي، مع التركيز على الحلول الشخصية والعملية.",
+  "trends": [
+    "توسع خدمة الرسائل النصية المباشرة عبر الأقمار الصناعية للهواتف الذكية العادية، مما يوفر وسيلة اتصال حيوية في المناطق النائية وأثناء الكوارث.",
+    "استمرار الظواهر المناخية المتطرفة عالمياً مثل الفيضانات وحرائق الغابات، مما يخلق حاجة ملحة لحلول تكيف شخصية.",
+    "زيادة فرص رؤية الشفق القطبي في عام 2026 بسبب ذروة النشاط الشمسي، بالتزامن مع دخول بعض المناطق القطبية في فترة 'الليل القطبي' الطويلة.",
+    "تزايد اندماج الذكاء الاصطناعي في الحياة اليومية والعمل، مع إطلاق تحديثات رئيسية لنظام Android 17 بميزات ذكاء اصطناعي متقدمة.",
+    "استمرار التضخم العالمي المرتفع وتقلبات أسعار الطاقة، مما يؤثر على الميزانيات الشخصية ويزيد الحاجة لإدارة مالية ذكية."
+  ],
+  "world": {
+    "signals": [
+      {
+        "area": "الفضاء والشمس",
+        "change": "زيادة فرص رؤية الشفق القطبي في عام 2026 بسبب ذروة النشاط الشمسي المتوقعة.",
+        "who": "المسافرون وعشاق الظواهر الفلكية في المناطق الشمالية مثل أيسلندا والنرويج وفنلندا وكندا وألاسكا.",
+        "evidence": "2026 عام الذروة لرصد الشفق القطبي"
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "ذروة زخة شهب الأسديات (Leonids) المتوقعة ليلة 17-18 نوفمبر 2026.",
+        "who": "هواة الفلك ومراقبو السماء في المناطق ذات السماء المظلمة والصافية.",
+        "evidence": "ليلة 17-18 نوفمبر/تشرين الثاني 2026"
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "احتمال حدوث عواصف مغناطيسية ضعيفة (G1) في أوائل ومنتصف نوفمبر 2026.",
+        "who": "قد تؤثر على شبكات الطاقة ونظم تحديد المواقع (GPS)، وتزيد من فرص رؤية الشفق القطبي في مناطق محددة.",
+        "evidence": "توقعات 1 و9 و17-18 نوفمبر 2026"
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "توسع خدمة الرسائل النصية المباشرة عبر الأقمار الصناعية للهواتف الذكية العادية.",
+        "who": "الأفراد في المناطق النائية أو خارج تغطية الشبكة الخلوية، مما يوفر وسيلة للتواصل في حالات الطوارئ والاتصال اليومي.",
+        "evidence": "أقمار بلو بيرد أُطلقت في أغسطس 2026، توسع الخدمة في 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "استمرار الظواهر المناخية المتطرفة عالمياً، بما في ذلك موجات الحر وحرائق الغابات والفيضانات، مع توقع استمرارها حتى أوائل 2027.",
+        "who": "السكان في المناطق المتضررة يواجهون خسائر بشرية ومادية وتدهوراً في جودة الهواء.",
+        "evidence": "2026 من الأعوام الأربعة الأكثر حرارة، تقرير منظمة الأرصاد الجوية"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "فيضانات مدمرة في عدة مناطق حول العالم في الأسابيع الأخيرة، تسببت بوفاة ما لا يقل عن 8 آلاف شخص في 2026.",
+        "who": "المجتمعات المتضررة في آسيا وأفريقيا وأمريكا الجنوبية وأوروبا، مما يؤدي إلى خسائر في الأرواح والممتلكات وتعطيل الحياة اليومية.",
+        "evidence": "أوكسفام: 8 آلاف وفاة في 2026، فيضانات في الإكوادور والولايات المتحدة وتشيلي والأرجنتين وأوروبا في نوفمبر 2026"
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "حرائق غابات واسعة في أوروبا ومناطق أخرى، أدت إلى تدهور جودة الهواء.",
+        "who": "السكان في المناطق المتضررة يعانون من تدهور جودة الهواء ومخاطر صحية.",
+        "evidence": "700 ألف هكتار في أوروبا حتى منتصف أكتوبر 2026، كاتماندو ضمن المدن الأكثر تلوثاً في نوفمبر 2026"
+      },
+      {
+        "area": "الجسم والحياة اليومية",
+        "change": "دخول بعض المناطق القطبية مثل أوتكياجفيك بألاسكا في فترة 'الليل القطبي' الطويلة، حيث تغيب الشمس لأكثر من شهرين.",
+        "who": "سكان المناطق المتأثرة، مما يؤثر على نمط النوم والحالة النفسية والأنشطة اليومية.",
+        "evidence": "19 نوفمبر 2026 - 22 يناير 2027 في أوتكياجفيك"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "توقع استمرار التضخم العالمي المرتفع حتى عام 2027.",
+        "who": "المستهلكون يواجهون ارتفاعاً في أسعار السلع والخدمات، وارتفاع تكلفة الاقتراض.",
+        "evidence": "تقارير منظمة التعاون الاقتصادي والتنمية، استطلاع رويترز أكتوبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "استمرار تقلبات أسعار الطاقة عالمياً بسبب التوترات الجيوسياسية، مع توقعات بانخفاضها بدءاً من عام 2027.",
+        "who": "الأسر والشركات تتأثر بارتفاع فواتير الطاقة وتكاليف النقل.",
+        "evidence": "أزمة الطاقة العالمية في نوفمبر 2026، تقرير وكالة فيتش نوفمبر 2026"
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تزايد اعتماد الشركات على العمل عن بُعد واستقطاب الكفاءات العالمية.",
+        "who": "الموظفون يجدون مرونة أكبر وفرص عمل دولية، والشركات تخفض التكاليف التشغيلية.",
+        "evidence": "اتجاهات العمل في 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "إطلاق تحديثات رئيسية لنظام Android 17 بميزات تصميم جديدة وقدرات ذكاء اصطناعي متقدمة.",
+        "who": "مستخدمو هواتف أندرويد، وخاصة الأجهزة الرائدة، يتمتعون بتجربة مستخدم محسنة وميزات ذكية.",
+        "evidence": "إطلاق Android 17 بيتا في يونيو 2026، وتحديثات سبتمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "تزايد اندماج الذكاء الاصطناعي في الحياة اليومية والعمل، مع ظهور 'وكلاء الذكاء الاصطناعي' القادرين على تنفيذ مهام متعددة الخطوات.",
+        "who": "الأفراد والشركات يستفيدون من أتمتة المهام وتحسين الإنتاجية، لكن يواجهون تحديات مثل التنميط اللغوي والمخاوف الأخلاقية.",
+        "evidence": "أغسطس ونوفمبر 2026، ميزات Gemini AI في أندرويد"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "تحولات ثقافية ومعرفية بسبب الذكاء الاصطناعي، تؤدي إلى 'احتلال اللغة' وتراجع القدرة الإبداعية.",
+        "who": "الأفراد، وخاصة المبدعون والكتاب، قد تتأثر هويتهم الشخصية وقدرتهم على التفكير النقدي.",
+        "evidence": "تقارير مايو 2026"
+      }
+    ],
+    "links": [
+      "زيادة النشاط الشمسي (الفضاء والشمس) يؤدي إلى فرص أكبر لرؤية الشفق القطبي (الفضاء والشمس)، مما ينشط السياحة إلى المناطق الشمالية (المال والعمل / الحياة اليومية).",
+      "حرائق الغابات (الأرض والمناخ) تؤدي إلى تدهور جودة الهواء (الأرض والمناخ)، مما يؤثر على صحة الناس (الجسم والحياة اليومية).",
+      "التوترات الجيوسياسية (القواعد والمجتمع) تؤثر على أسعار الطاقة (المال والعمل)، مما يؤدي إلى ارتفاع التضخم العالمي (المال والعمل) وزيادة تكلفة المعيشة (الجسم والحياة اليومية).",
+      "تطورات الذكاء الاصطناعي (التكنولوجيا) تعزز من فرص العمل عن بعد (المال والعمل) وتزيد من إنتاجية العاملين، بينما تثير مخاوف حول تأثيرها على سوق العمل والوظائف (المال والعمل).",
+      "توسع الرسائل عبر الأقمار الصناعية (التكنولوجيا) يوفر شبكة أمان للأشخاص في المناطق النائية (الجسم والحياة اليومية)، مما يحسن السلامة الشخصية والقدرة على التواصل في الظروف الصعبة."
+    ]
+  },
+  "ideas": [
+    {
+      "name": "CrisisCom AI",
+      "signal": "استمرار الظواهر المناخية المتطرفة عالمياً، بما في ذلك الفيضانات وحرائق الغابات [الأرض والمناخ] وتوسع خدمة الرسائل النصية المباشرة عبر الأقمار الصناعية للهواتف الذكية العادية [الفضاء والشمس].",
+      "pitch": "تطبيق ذكاء اصطناعي للطوارئ يربط المستخدمين بالخدمات الحيوية وجهات الاتصال الهامة عبر الرسائل النصية المباشرة عبر الأقمار الصناعية، حتى في غياب تغطية الشبكة الخلوية أثناء الكوارث الطبيعية.",
+      "problem": "تتسبب الفيضانات وحرائق الغابات في تعطيل شبكات الاتصالات التقليدية، مما يترك المتضررين معزولين وغير قادرين على طلب المساعدة أو التواصل مع أحبائهم.",
+      "audience": "السكان في المناطق المعرضة للكوارث الطبيعية، المسافرون إلى المناطق النائية، وأي شخص يحتاج إلى وسيلة اتصال احتياطية في حالات الطوارئ.",
+      "whyNow": "استمرار الفيضانات المدمرة وحرائق الغابات في عام 2026 يؤكد الحاجة إلى حلول اتصال موثوقة في الأزمات، وتوفر خدمة الرسائل عبر الأقمار الصناعية حلاً عملياً لهذه المشكلة.",
+      "novelty": "تطبيق ذكاء اصطناعي للطوارئ يعمل بشكل مستقل على الهاتف لربط المستخدمين بالخدمات الحيوية وجهات الاتصال الهامة عبر الرسائل النصية المباشرة عبر الأقمار الصناعية، مع تحديد أولويات جهات الاتصال والخدمات تلقائيًا بناءً على نوع الأزمة.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Emergency SOS via satellite (iPhone 14+)",
+        "Satellite SOS and messaging (Google Pixel)",
+        "Garmin inReach (جهاز وليس تطبيق)",
+        "Zoleo Satellite Communicator (جهاز وليس تطبيق)"
+      ],
+      "edge": "الفجوة هي في تطبيق ذكاء اصطناعي للطوارئ يعمل بشكل مستقل على الهاتف (أو مع ملحق بسيط) لربط المستخدمين بالخدمات الحيوية وجهات الاتصال الهامة عبر الرسائل النصية المباشرة عبر الأقمار الصناعية. يجب أن يكون قادرًا على تحديد أولويات جهات الاتصال والخدمات تلقائيًا بناءً على نوع الأزمة، وربما استخدام الذكاء الاصطناعي لتسهيل التواصل الفعال والسريع حتى في غياب التغطية الخلوية.",
+      "monetization": "اشتراك للميزات المتقدمة مثل تسجيلات الوصول التلقائية، والمراسلة الجماعية، وخطط الأزمات المحددة مسبقًا، وحدود رسائل أعلى.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9.5,
+      "firstStep": "البحث في واجهات برمجة تطبيقات الرسائل النصية عبر الأقمار الصناعية المتاحة لنظام Android 17 وتحديد كيفية دمجها."
+    },
+    {
+      "name": "RemoteSat Connect",
+      "signal": "توسع خدمة الرسائل النصية المباشرة عبر الأقمار الصناعية للهواتف الذكية العادية [الفضاء والشمس] وتزايد اعتماد الشركات على العمل عن بُعد واستقطاب الكفاءات العالمية [المال والعمل].",
+      "pitch": "تطبيق يوفر حلاً متكاملاً للعاملين عن بُعد في المناطق النائية لضمان التواصل المستمر والآمن عبر الأقمار الصناعية، مع ميزات محسّنة للإنتاجية والسلامة.",
+      "problem": "يواجه العاملون عن بُعد في المناطق النائية تحديات في الاتصال بالشبكة الخلوية، مما يعيق عملهم ويعرضهم للخطر في حالات الطوارئ.",
+      "audience": "العاملون عن بُعد، المسافرون الدائمون، والمهنيون الذين يعملون في مناطق خارج تغطية الشبكة الخلوية حول العالم.",
+      "whyNow": "توسع خدمة الرسائل النصية عبر الأقمار الصناعية في عام 2026 يجعل هذا الحل ممكناً للهواتف الذكية العادية، ويخدم بشكل مباشر الاتجاه المتزايد للعمل عن بُعد عالمياً.",
+      "novelty": "حل متكامل يجمع بين الاتصال المستمر والآمن عبر الأقمار الصناعية للعاملين عن بُعد مع ميزات إنتاجية وسلامة محسّنة خصيصاً لاحتياجاتهم، دون الحاجة لأجهزة إضافية معقدة.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Iridium GO! App / Iridium Mail App",
+        "XGate App",
+        "Thuraya SatSleeve Hotspot App",
+        "Starlink (خدمة وليس تطبيق)"
+      ],
+      "edge": "الفجوة هي في حل متكامل يجمع بين الاتصال المستمر والآمن عبر الأقمار الصناعية للعاملين عن بُعد مع ميزات إنتاجية وسلامة محسّنة خصيصاً لاحتياجاتهم، وليس مجرد توفير الاتصال الأساسي أو البريد الإلكتروني. هذا يشمل أدوات التعاون، تتبع المهام، وإدارة الطوارئ من داخل التطبيق.",
+      "monetization": "اشتراك لميزات السلامة المتميزة (مثل تسجيلات الوصول التلقائية، بروتوكولات الطوارئ المتقدمة، حزم رسائل أكبر) أو أدوات الإنتاجية.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9,
+      "firstStep": "دراسة واجهات برمجة تطبيقات الرسائل النصية عبر الأقمار الصناعية المتوقعة في Android 17 لتحديد إمكانيات الدمج."
+    },
+    {
+      "name": "PolarWell AI",
+      "signal": "دخول بعض المناطق القطبية مثل أوتكياجفيك بألاسكا في فترة 'الليل القطبي' الطويلة [الجسم والحياة اليومية] وإطلاق تحديثات رئيسية لنظام Android 17 بميزات تصميم جديدة وقدرات ذكاء اصطناعي متقدمة [التكنولوجيا].",
+      "pitch": "مساعد ذكاء اصطناعي شخصي مصمم خصيصاً لسكان المناطق القطبية لمساعدتهم على التكيف مع فترة الليل القطبي الطويلة، من خلال تحسين أنماط النوم، الحالة النفسية، وجدولة الأنشطة اليومية باستخدام مستشعرات الهاتف والذكاء الاصطناعي.",
+      "problem": "يؤثر الليل القطبي الطويل بشكل كبير على نمط النوم والحالة النفسية والأنشطة اليومية لسكان المناطق المتأثرة، مما يتطلب حلولاً مخصصة للتكيف.",
+      "audience": "سكان المناطق القطبية التي تشهد ظاهرة الليل القطبي، مثل أوتكياجفيك بألاسكا.",
+      "whyNow": "بدء فترة الليل القطبي في أوتكياجفيك من 19 نوفمبر 2026 إلى 22 يناير 2027 يسلط الضوء على الحاجة الماسة لمثل هذا التطبيق، وتوفر إمكانيات الذكاء الاصطناعي في Android 17 القدرة على تقديم دعم شخصي وعميق.",
+      "novelty": "مساعد ذكاء اصطناعي شخصي يستهدف تحديداً سكان المناطق القطبية لمساعدتهم على التكيف مع الليل القطبي الطويل، من خلال تحسين أنماط النوم، الحالة النفسية، وجدولة الأنشطة اليومية باستخدام مستشعرات الهاتف والذكاء الاصطناعي.",
+      "competition": "منخفضة",
+      "competitors": [
+        "Sleep Cycle",
+        "Calm / Headspace",
+        "Daylight & Dark Sky Clock"
+      ],
+      "edge": "الفجوة واضحة في عدم وجود مساعد ذكاء اصطناعي شخصي يستهدف تحديداً سكان المناطق القطبية لمساعدتهم على التكيف مع الليل القطبي الطويل. لا توجد تطبيقات تجمع بين تحسين أنماط النوم، ومعالجة الحالة النفسية المرتبطة بالظلام، وجدولة الأنشطة اليومية باستخدام مستشعرات الهاتف والذكاء الاصطناعي لتقديم حلول مخصصة لهذه البيئة الفريدة.",
+      "monetization": "اشتراك للخطط المخصصة، التتبع المتقدم، المحتوى المتميز (مثل التأملات الموجهة لليل القطبي).",
+      "buildDifficulty": "متوسط",
+      "buildDays": 15,
+      "score": 9,
+      "firstStep": "تحديد مستشعرات الهاتف التي يمكن استخدامها لتتبع أنماط النوم والنشاط ومستويات الضوء، وبدء جمع بيانات أولية."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ClimateShield AI",
+      "reason": "الفكرة تشبه إلى حد كبير فكرة 'Climate Sentinel AI' التي رفضها Moe سابقًا، والتي كانت تتناول إرشادات التكيف مع المناخ."
+    },
+    {
+      "name": "HumanVoice AI",
+      "reason": "الفكرة معقدة للغاية وتتطلب تطوير نموذج ذكاء اصطناعي متقدم لتحليل 'الأصالة البشرية' في الكتابة، مما يتجاوز قدرة شخص واحد على البناء في 1-3 أسابيع."
+    },
+    {
+      "name": "EcoSpend AI",
+      "reason": "تم اختيار أفضل 5 أفكار ذات درجات أعلى، وهذه الفكرة جاءت في المرتبة السادسة."
+    },
+    {
+      "name": "AuroraFlow AI",
+      "reason": "في تطبيقات بتعمل نفس الشي (My Aurora Forecast & Alerts، Hello Aurora، Aurora Forecast & Alerts (by Aurora Labs Norway))، وMoe بده أفكار جديدة من نوعها بس."
+    },
+    {
+      "name": "FlowState Pro",
+      "reason": "في تطبيقات بتعمل نفس الشي (FlowState: Focus & Study Timer، Meoz، Reclaim.ai)، وMoe بده أفكار جديدة من نوعها بس."
+    }
+  ],
+  "en": {
+    "summary": "Today, ideas focus on leveraging advancements in satellite communication and artificial intelligence in Android 17 to address global challenges such as extreme weather events, inflation, and the effects of polar night, with an emphasis on personalized and practical solutions.",
+    "trends": [
+      "Expansion of direct satellite text messaging service for regular smartphones, providing a vital means of communication in remote areas and during disasters.",
+      "Continued extreme weather events globally, such as floods and wildfires, creating an urgent need for personalized adaptation solutions.",
+      "Increased opportunities to see the aurora borealis in 2026 due to peak solar activity, coinciding with some polar regions entering a long 'polar night' period.",
+      "Growing integration of AI into daily life and work, with major updates to Android 17 launching with advanced AI features.",
+      "Continued high global inflation and fluctuating energy prices, impacting personal budgets and increasing the need for smart financial management."
+    ],
+    "ideas": [
+      {
+        "name": "CrisisCom AI",
+        "signal": "Continued extreme weather events globally, including floods and wildfires [Earth & Climate] and the expansion of direct satellite text messaging service for regular smartphones [Space & Sun].",
+        "pitch": "An AI emergency app that connects users to vital services and important contacts via direct satellite text messages, even in the absence of cellular network coverage during natural disasters.",
+        "problem": "Floods and wildfires disrupt traditional communication networks, leaving those affected isolated and unable to call for help or contact loved ones.",
+        "audience": "Residents in areas prone to natural disasters, travelers to remote areas, and anyone needing a backup communication method in emergencies.",
+        "whyNow": "The continued devastating floods and wildfires in 2026 underscore the need for reliable communication solutions in crises, and satellite messaging provides a practical solution to this problem.",
+        "novelty": "An AI emergency app that operates independently on the phone to connect users to vital services and important contacts via direct satellite text messages, automatically prioritizing contacts and services based on the type of crisis.",
+        "competition": "Medium",
+        "competitors": [
+          "Emergency SOS via satellite (iPhone 14+)",
+          "Satellite SOS and messaging (Google Pixel)",
+          "Garmin inReach (device, not an app)",
+          "Zoleo Satellite Communicator (device, not an app)"
+        ],
+        "edge": "The gap is in an AI emergency app that operates independently on the phone (or with a simple accessory) to connect users to vital services and important contacts via direct satellite text messages. It should be able to automatically prioritize contacts and services based on the type of crisis, and perhaps use AI to facilitate effective and rapid communication even in the absence of cellular coverage.",
+        "monetization": "Subscription for advanced features such as automatic check-ins, group messaging, pre-defined crisis plans, and higher message limits.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9.5,
+        "firstStep": "Research available satellite text messaging APIs for Android 17 and determine how to integrate them."
+      },
+      {
+        "name": "RemoteSat Connect",
+        "signal": "Expansion of direct satellite text messaging service for regular smartphones [Space & Sun] and increasing corporate reliance on remote work and attracting global talent [Money & Work].",
+        "pitch": "An app that provides an integrated solution for remote workers in secluded areas to ensure continuous and secure communication via satellite, with enhanced productivity and safety features.",
+        "problem": "Remote workers in secluded areas face challenges with cellular network connectivity, which hinders their work and puts them at risk in emergencies.",
+        "audience": "Remote workers, frequent travelers, and professionals working in areas outside cellular network coverage worldwide.",
+        "whyNow": "The expansion of satellite text messaging service in 2026 makes this solution possible for regular smartphones, directly serving the growing global trend of remote work.",
+        "novelty": "An integrated solution that combines continuous and secure satellite communication for remote workers with enhanced productivity and safety features specifically tailored to their needs, without requiring complex additional devices.",
+        "competition": "Medium",
+        "competitors": [
+          "Iridium GO! App / Iridium Mail App",
+          "XGate App",
+          "Thuraya SatSleeve Hotspot App",
+          "Starlink (service, not an app)"
+        ],
+        "edge": "The gap is in an integrated solution that combines continuous and secure satellite communication for remote workers with enhanced productivity and safety features specifically tailored to their needs, not just providing basic connectivity or email. This includes collaboration tools, task tracking, and emergency management from within the app.",
+        "monetization": "Subscription for premium safety features (e.g., automatic check-ins, advanced emergency protocols, larger message bundles) or productivity tools.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9,
+        "firstStep": "Study the expected satellite text messaging APIs in Android 17 to determine integration possibilities."
+      },
+      {
+        "name": "PolarWell AI",
+        "signal": "Some polar regions, such as Utqiagvik, Alaska, entering a long 'polar night' period [Body & Daily Life] and major updates to Android 17 launching with new design features and advanced AI capabilities [Technology].",
+        "pitch": "A personal AI assistant specifically designed for residents of polar regions to help them adapt to the long polar night period, by improving sleep patterns, mental well-being, and scheduling daily activities using phone sensors and AI.",
+        "problem": "The long polar night significantly affects sleep patterns, mental well-being, and daily activities of residents in affected areas, requiring customized adaptation solutions.",
+        "audience": "Residents of polar regions experiencing the polar night phenomenon, such as Utqiagvik, Alaska.",
+        "whyNow": "The start of the polar night period in Utqiagvik from November 19, 2026, to January 22, 2027, highlights the urgent need for such an app, and the AI capabilities in Android 17 provide the ability to offer personalized and deep support.",
+        "novelty": "A personal AI assistant specifically targeting residents of polar regions to help them adapt to the long polar night, by improving sleep patterns, mental well-being, and scheduling daily activities using phone sensors and AI.",
+        "competition": "Low",
+        "competitors": [
+          "Sleep Cycle",
+          "Calm / Headspace",
+          "Daylight & Dark Sky Clock"
+        ],
+        "edge": "The gap is clear in the absence of a personal AI assistant specifically targeting residents of polar regions to help them adapt to the long polar night. There are no apps that combine improving sleep patterns, addressing mental well-being related to darkness, and scheduling daily activities using phone sensors and AI to provide customized solutions for this unique environment.",
+        "monetization": "Subscription for customized plans, advanced tracking, premium content (e.g., guided meditations for polar night).",
+        "buildDifficulty": "Medium",
+        "buildDays": 15,
+        "score": 9,
+        "firstStep": "Identify phone sensors that can be used to track sleep patterns, activity, and light levels, and begin collecting preliminary data."
+      }
+    ],
+    "rejected": [
+      {
+        "name": "ClimateShield AI",
+        "reason": "The idea is very similar to 'Climate Sentinel AI' which Moe previously rejected, and which dealt with climate adaptation guidelines."
+      },
+      {
+        "name": "HumanVoice AI",
+        "reason": "The idea is too complex and requires developing an advanced AI model to analyze 'human authenticity' in writing, which exceeds the ability of one person to build in 1-3 weeks."
+      },
+      {
+        "name": "EcoSpend AI",
+        "reason": "The top 5 ideas with higher scores were selected, and this idea came in sixth place."
+      },
+      {
+        "name": "AuroraFlow AI",
+        "reason": "There are apps that do the same thing (My Aurora Forecast & Alerts, Hello Aurora, Aurora Forecast & Alerts (by Aurora Labs Norway)), and Moe only wants novel ideas."
+      },
+      {
+        "name": "FlowState Pro",
+        "reason": "There are apps that do the same thing (FlowState: Focus & Study Timer, Meoz, Reclaim.ai), and Moe only wants novel ideas."
+      }
+    ]
+  },
+  "agent": {
+    "version": 4,
+    "candidates": 8,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "92 past ideas, 7 liked, 30 disliked"
+      },
+      {
+        "step": "world",
+        "msg": "14 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+      },
+      {
+        "step": "scout",
+        "msg": "8 candidates via gemini-2.5-flash: AuroraFlow AI, ClimateShield AI, RemoteSat Connect, HumanVoice AI, EcoSpend AI, PolarWell AI, CrisisCom AI, FlowState Pro"
+      },
+      {
+        "step": "compete",
+        "msg": "checked 8 candidates via gemini-2.5-flash"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): AuroraFlow AI"
+      },
+      {
+        "step": "judge",
+        "msg": "removed (competitors exist): FlowState Pro"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 3, rejected 5 via gemini-2.5-flash"
+      },
+      {
+        "step": "translate",
+        "msg": "English version ready"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLyxO4rlMpO4y4V5XhmOjZmYTooFCajsokUg10jseUG-uqC2LK9o2gLure9nUyzzHW4dsS89oWxLv-3T9THJ7cBSDmK5rg2OufAgp3TouDvE-qzuFGOP5K8A8Q80ZMmGlVjXPNNYApBlbxADXN6DPsceAbyhSFW6P7mwZnvJvEuARSno3O0RqDjkkYFkfgJKKbdf2pEEdRg3QpyM4XQuTQ42mZWgHPpUZ6NimWwTEq2eeet8nYF7eMSCDwvMwRdLY13tTrZH4d6kMFTrso2bN3hOsgVIODLxGUUZivv5GCq2Auzzs9TyZLHX7yXsTULX5NjeBtw-AJt3qEgt8E-7iP2--GejsjNIMQQpO-E4qGjkW0nJD0TXCFrfi6s314OlOQ9LQBBynKJyKhZA=="
+    },
+    {
+      "title": "wego.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOLFNrLTwIfdEkm6vkoSpuMspLdH_z6rbjdM9S94dkeLKqJOROJ9zLwk-_lEnDboG2iiw2gfyEjoYo9ncrArlXmRbn7gLu8-c0yCN48dUrkI6UtfZymiOpnYirCDfPo01458ngO3b--wcX4UzGScKe_At6xmrc4j3rML8r-D5Yiwf_AwRT5cmlyOtTqSpVdl2KdaXxZg4DrXt4KGBN-AlkPF_tV3J7b0FL8sFMeHOKdnRSDf_WdvwCDhCJ14lltdA="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz4WCk6rvgxgEDrytLwcAkVzKT4jIRfrn7ei0XVHo4Kx7gQOKZwthOizaJH8LKQtUytsZLR9cZAI3nY2gfJFcsUaUZ2VT0qZEJPGd8VS_pdF7dmSbpOcfwI8x6r9DzO_k3etFf2We0f6DJ7xGqUBHI-6M5yR0JPYiHjhDy9Dv9jkgh4ho9ez6HwolunFBiLGK3O8oMDqQfuCzBCa1enlpfAxoZM01jw6xrm3cwjwJxBsr9rlZ-HE09H2rk0RiGCnaKD5a5xFmuaSf0Q1B6rmZciijy4X4QtVUiEv8h4dFM0wwtl2en2KoYMFqu1lyJYn2nq7lv9cscCLTqPMcYEQBnABpTcuCV8SZ0M9QyvuODOPtx36d9QxlUKWPorBQTud93koo5L4fBdwfxqyw="
+    },
+    {
+      "title": "jnptravel.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgSx2qskGfnle_-sSDyyRWIlPt0a71FeqYjad4WEa7oZs-wpCGQ0LQsH29PZY4b6ghGxU-flurZtZOgihH-L8S4-D19zIh7EZaieGUZbBgUugoOvYCOq342m6Ydvt5KJz-r3oIxqhT5O40h6LQ-BQ3p-H54q4eLzwqDeUc1PIdPRW3QpfGeQ2mqLg="
+    },
+    {
+      "title": "pogodnik.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHs2NjjWZ2TIulzyvMC6weiEPkAc9FsY7oRNql4HgqI8POjRg_1jGwZOI_BgMQ6CCGICOAIGJVYoBp0PXr7i7NWrGOSa5c7LK7EaBdNJZ9bODvWJOv3VtxsxaOI068DHTrvtAPwZlJHqD-SPS8g9pYksK1rVw="
+    },
+    {
+      "title": "open.kg",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBl5A_4srMLreXO9dTlcjwogQMx6Jpr8AxX-l0DrBtkiHYfgjMRwlFIr9HWn7zMtgLf-bFWuwttwY-mH0DnvkJQ5khGYXTUvl8i54Y_kwhTqSSOee873udroY5NwxqrX9vzgr-E-FksrUmja1ys4_MGbn8Odc1D9bEtZxgOGfzqmMSeVi_8yqfwFfWUVVCHXTSjGCTKTq8y5ro1I-t7H3xYOZwWjyQaUQV2ICWO2cq2YVXuieO2aj8pKS5DrnEHvUdzKcJ"
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRuELiEO9Z2TzJeqKEZyI2j-i2X9JrQVIbCv2XG0zk0kShaiII3DiKlfbdIBIlIi5cNivxu-JQ8FOxn3kXhRufYOvCVOsCPKzuWwxcBo7e_5OE8qSZUbHQWV6U-jFFfQVU41ioqZCtn_HkRExAbyotuxgT9ZooGRwzrdKKrZ1zlg6EO5BDF-kThtOVkPpGyFP6Xm0e7QbCRm4i3H_mpdiXNYAfSYCsnksdvjPNtJDxLtuuPXQsaqM8vZxs5B3fOA94BCJ45AYraYOx0PZVVMKg9P0QCi5fSFco77f9lCMHtK2hVPUyQn84BnxQHNM39PBLzdGHryiWFWpPOHBLRpwI_CkdeiIpxYe7MaVDhINBRG15VsJyjbx8gERTMKA="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF50cpeEXL90-VTDtTUWEJtJ9xYEM2P0WhYPZWu6QWPntHzA6GRZulgv1lJsvpMrGzpDX6gGHs4VkbsvMctxWZj3JmEEe6xvSE_sr_zLb81tlQJmDS2u7H3QD8e3sd23xdnvppKm5IbLDGWn5N0EfU1WI8bQqcNVyFynuZIxoBU5cb1kFryd8dup9qiw_nOPDYE1mSlh8EKgpfxrIrA5C7t0PN6tboYCMmNPICgAUDdHgPz4nAAY6TP3cpH3Eyo_mNb4Xvxsva8DYuOJjDg8p2dcCaxhFKW15BKgGLPX8G6q35A7oeMKzDziyx_QhbJyckz17q9fZ300PB3bp7VtQA="
+    },
+    {
+      "title": "iswap.pk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkO5vQd9GZjpnF5zZFVwCibzR8MikUWGCux6DOaEB4_L91WcPs4GKbFNBOKnoZOWAM-twbvzUeFf3VJfpkFhpqov6U9pQ7RekHq2EgDzSXx7_-lR3kAQngtx5C2BSVDtupfxjU2Hmgca37oo01mwpOKTE47iGWP_8ydCDKwy1zdXbSqyDlxf8="
+    },
+    {
+      "title": "technewscentrals.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFytg1mz0Q0OVTlJ8oU0Y_GzlQ3DC2TJI1bmbHzMdRMW5mZrZkMwC1jq2Pzbm4quuffxg3UMXwGpWqjdz2ZtMTGkf1847vuXYaYAbHIkl_Oo90F0Mizt-F05MSXQ8lE9Au8_RswnUE_p9hl7pI5OHcWjm8gd53gbrFiQxL7Z7FQkfRNDKi5mGmlUw=="
+    },
+    {
+      "title": "barlamane.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtgKjOCdaa6bCrP8R-HwoWmp_3hcKat3YxRLRiElEl7yj6upYcc-AiC-YY1c-p2Y1HcMGFFa_UskqWQNtP3TUBgG-hF3p4P7jCyLx3w5-ChA2qNZpljhwOrUkf-4sFd2NdYjddwR_KpHQYnPwuB3GX8nlvBC36YgNXy03tSl-srYnY6qK8fMw8ISWnYhOsX30Alzm1vCZ4CcY2BxvyfRn9S6SJB1us4oUWy9P1jytMLtp-Cp3fpMvrSO5XNYJGASIIjW7f59Kc08EqkVAwzPWtfWeHk96-tsBQN7v7rseIxdXaTjBWjbIrtK7MYiQ2FN6W4vBqjDt6ukGrzkyfYIanodkNnKPBJa4GRD8ZmKw3UsXB3RSGc4Yb"
+    },
+    {
+      "title": "asianewslb.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8ExNY55SShAEkFlkUyT9n1P_0MchrmOJUum_80cjswR66GCZn327v2Fq8UAZEGE-Kq8Nf2K0643fnC7eCbUVvggIxxJ7vrDISCAn9xCN92E5Mnb51SklrQWjTS_gS94opd-9r0Yy2Jiky5aTX"
+    },
+    {
+      "title": "almalnews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNZuZM8Ic2Q1wIQ-AVtZ871Dpz14Q916bxny95bO2Avqr0pIwndpynVN-7MzipOze_NdFsSBwhLL60pHLElxDtprMp9wK7fwfsKgHMvp1xSFeCfgOC54yUT52MgE8gd9W1gTOlb9DficJHPtDsaodPjtPiejmIBKeYueiidp47RDX4ixCzIuLwujhB9IWYBXC1mtUnBYvOUFsfNYCLhxDfLqiZpl6BOtcZyaP-F_GIOIxorbaFzh8fRz7bTudvPjRbPSXKchv1aWobU1OCl9Cc-f-tlk0Rv9jMSxYIiQS7HctyPTqe2fooBbkK7UvN3vJBF_aRhy4zS_edeEUrVMQTrX7f7nxnNjiBehaoJ2m6g=="
+    },
+    {
+      "title": "iqair.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwiVyj4qi9LZtXBXiCDKVECHPy-Lf2K2jYir5ILz1LHC2M_1cJptd8GWk_Zxtv4OQ2vzZ3iGB2mBiA98thoCCUNOaeVHm86b7cjqUQ-F-x0PnRp7YKn1tdlQ0fBbR0zbyxc_oIeXvsGYSwFK6sslyO_vvzD-RtGcxb6OkRrdVmIhZExk0KnhvAkpUgC2PgqiIDJzeOJAqk_HQlinuq7jjCrMDt"
+    },
+    {
+      "title": "alkhaleej.ae",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwL1dm0Dcd4774-Oe3Endl8Gvwfzj2FFQQDTqCL1HDOaFuuXeDEf5DXhcdCkIqg2Ttj-d7TbGHJlPX8_MvH0uxs_loMpALBj0E0GkwUJ4ZUP7trGF1lkCW_U4HWjbJhUgPwl8-09j_boo7hGMQGHGkEogeBUUU1uUWz6VNux1GKzbekzZLok4WcOKVj9-0f6gxV3gy7FP_RM5DD43NQ5dNcSlbFtQnUplBUHgNrNWVno2GJFPc4e8wE2KMkuifWx4uwluY5gxC4kl5jzhSQYX0PLZzX02XvNOtOSpjXh233XU0yiHZpDQMIWTQUKlCEgMXiaeJGZXsCfn9kJd3dNLjKMcssht2-NBKl81hHuTEWbAS7dOH0FUgz0uzItl3x6qRQRE7hhEzmKTjBQREsowSYUzV5BtsGk8G3Xndyagj4nqlPjPg0lS-yGjGQQCvrUT4tGbDtYxO7Ijx8kBpXFTNfEPUwLTDSuKbeAkSZoU5MOdNl1n-LsqkIQ-mOOppitABqbh9-OQScF7O9YAZbpqLmwQ="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGNSuLn_91ShxMZgx14bAo2ixTi0Gu0ZmA9sOMFpN4wXLKjb3CgRFmpux5VfByqLS49YWnGaWVmLc10AAfas8yEsrAlJgtLSWzz4BYLpqUIRSKssTX82MhfCLR8lMvXt-VTmcRHiggPFzz46R00vN7aEdYRcE8ABkwJQcXRjcUqeCCDQPddGZ4OAGaSDXof1kWs6xW7XjZ1t0vAFLllTd_uQdfe5Pk1HdMmEDlmCXmPRB8BxXv9wf4mwfLPWYIGod-O4qi_Ywn-UK8c7l2D7k32BstAHg17-H8iCXmL314ZSmt6IIAlmgFJ527lEHFHIA="
+    },
+    {
+      "title": "asharqbusiness.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfCNMW6oDhZsK8BSC5lLf6y1gYzFNBWJO-Z6jxNVp3636MCUhCzGeSTa-1tp4nI3XjNT8ic8q7V4GIlopNGSX78nLNvr5pQpJgDyZ_I_0Ii1FE0ZP_doXLXqwFweTwaoADVE8Y0DWJzCTMEpHlccdnhXLcyKPMSGEv77MKp6LFAAgPQZAyTDHroWhbwuSiNftG8NUi6fIdIlrntLjrChdfdAXwIfOXwqUHVThJ-olQI6j370F8xZn8aAzRm5jZUMHNmAd151A_VbU4KWa4cqJXVujfKVfrruE6X-D2nrFWF4wZdJ_6tRMsPOB_aj1ivJ-UHEQbDubFmE6QHEU8C1vDTOPSVaEXeHqaVGixE-khpS_wGRoVFQh1EfNkIl9HkgCz0s-aUjEzu86aOPfYlHFglgsD4XQbbE019IO_HRganDQ1siTXl4cazxXUovIIU25GoJUM9s7kERIPb8SbvlpSWWNYbsiHty71vKR-zRMM0RGzAv9_QGVJD_My-4QnRJskbbp-XSGhhwA="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkg4eKUsRn06jo2E_Hsre09l9SNH4NvP9I6TXmKyugaK_eHzZ_XImYan9djeYhUv79SvpD_SQPoPr4gzQpfVJfYTVojbaEqIpTutqvm3XBVO08odBYdNq2HBRencS7qCIRVx8IAqd022x3J2TJZZ6Xk5Xj0eqGZ79AhEOpWVIgs7vh8yR83vuXxVuUW8i8jRCDlASdcsWum150Jj_siHiI8Pgm12j1B69OdaZcgQXtSCENltTE94WfJrhT7pFTl8LNVF_3gp84iMXyfa3fo4poGYJ0pe-LpTi1T0HJVYwoaf8033AasJYwNhdTzRvrylSPqGz6Wl0soQo7wVfCCEjBSik-fBaej1C91Cu_C1NzAXHVpFBAlIohsYe7gGuDkTwpNU0="
+    },
+    {
+      "title": "cnbcarabia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFGK4L4eFSmUHf_JkdwQJiu9pDOcBYqcaxWL90vJJzZOyuSO6grNqa_M44dylIm_Q_47uVmuvIvsqNSFC_R21fy6laKopP0zL2TaXasPIjrIobvYP5nl2VhCgJO8JbHhzqWB9OHJZfzxtA889AdQZobM2MVvUOdFJDArCIlsgFcndBlFZY6QeobHyMRaARrMcc6RJ1tzVubrAwln5xuNiFdvfzv_t-59eRI_vgN5AF1qwMv0pWLO_6-A5VnOlWt0nSISBj92fS301ATqTP5D_R5encWPCtGYYrlk6B"
+    },
+    {
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO5TqkOvNQPQEp8MRkWBpcwh8UtrOOGhdIcixijM3J3AVKSbOQcystq4tbnn4iDjXZlAtsRftmt4ZH9B2wvPoPGqOGq1AAg0pWP5mPNNYJzmfWlpRXnfIIrzZpju3a1gioOV0Q13VUFd7ZiI62VV9eitH6id-vrWkry67fCxUPer_iy43pByXPk32OXRs0tkCHd7zLemXTsyNvmiiJyntWRAWXvYiYM0aWsolj0zYgXjmNikzPDVWEClB6qIxjlz04v5DNjriYpwLm35PWDImnWP6iniqOALjSl4Bx5VnwRA4asNkDTciNPXJHr887lICPfXSTulcaN0yBAN5L861Z0YdedB9rmsAYuUaxlEOXQEiot4FNFYnt4e5nZU8ysA40gwwvIzNLqzoYgOe2qpsQjs6ERaqjGxzawJmik3e729C9l3f_8CVkq4MLSgbe8P06fV9cnBark6C19LGPJvDXXCDUR4gdIiZbzzw9N4983F9qa1XrthF5rfuXddBw0Ak="
+    },
+    {
+      "title": "hbrarabic.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGicDApdanraXWdJpdPA_Xkten-eNhntm_5e-KB1hPoaJBSXjj-oEkw8RdlBgXzB_b2QYdVDNQDqXlP_-jd9pxe0gk1iXrlYnLB2fd4GHDRXnsHhMLcnVS4EqftEZt97DtQFkORxb1GYilZ6mJ9erkCgvHpCwtNk1T4VeBR5EgP8GMsZDloEtLTS9erDIoeC9whc_eplejuWe-ntW6zNlHz-IGSkwNyEni9WEDx5jFCDUPbjv8GjdSW8pJcqJp2HmlIMs29wep3NdyPVdMLjQHGMI8pD8icldG7DHNwUo6MLUYw4ERxI2AeqCwdqeCl7zIjYzS-mlqOrsC778-9MQo="
+    },
+    {
+      "title": "globalization-partners.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyhXsj_EUgsjPi1qrPA1sbYAlzoHx3YbSH-KtkbtMc7XW5BhF2ZQ-LMmRyQHsqPg0BbgT1FH1DZXn0Z4qAIS-IU4B6rgN9ZFDf8bF33hEbfUGX2307a1nGGQA_3PqVxfN54pWhKKaZMLILSdzlfRTSkI5Kfl4gOJC0VONIcafFC8k23p1P"
+    },
+    {
+      "title": "gamilankum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFioK2EQ40X35xOCFTnahr9oqzijvErLvh_0aF-wloB3A5RlHny0-Gyyi3CHhenppm6PHWj1U3KMIcHikTXHG9CBMyFqL88soXgBGNwLu2vS7syqXUAayWHh75wQ8LJHCoIf5SH_ENZBGR8EtAjvRTid-ep-C3dX2M7A0zrxXorVBXNS5ua0jH47XflHxZ8emobsP2Bj_MltuFWXksia3GWP7cco5OjY2yRD4FLynphTdDjf-vfbNso9u_sKAQ"
+    },
+    {
+      "title": "jobinsyria.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh1mblGjA1OPm0cJMHGJUR7cureM7lBXMghFkHRqhlEshRSAU-exEB4YnGWAGCQPE7Av9rSFeBKwDOM7OpOfrg5qGzbVzg_3FIRDBd7MKyePYd8JrH_2Dd5Jqe_viFrQ143gxZ0b-3"
+    },
+    {
+      "title": "qoyod.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4G9rkkmHaffbdIwILNc7THjcirfSfM7B-rCRHuyyBP4RKlMPsb_gzQFb707HN3bdFBgwKLrK5yqSan2Zk-EppoE6sbxBmz6a6DjPUBKDh8Ou3sLNUhQi7nFBhP3dBLxKvzUxFPvfOiX2ZFLcEcsyzrZMe79Cy2c9H8_Ce7OFh5fERW6CbCxTqWC6N4fxC02_eDUYIncl48NUH-iiDgpbmQTUpihncM2rvNiSjmTaeGAn2L1A-p52cnQ=="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8YdrgaD5JTV09otJqy1agOO_r4AihylkdW_0rl-GwJcHAR-WOwHNRDxVxOIsiRjXSVVjnAAlZVI1YXbBwIZ5dlQhsuHgw2SXYnV2HCq1NGRH_ZZ-Qmo1DvY0mxh8bcZ1jRpu7sPdR4wWu6c2GQ8KKS_E1gifSoKQHZEo7ZjhmB1rMOr4hZq9ugOqwT8pxMdx_apF1lOfrXnsswTfHfGSgqvD9K4Q3wfVbkL4XG8hSu2tbdr5o5jzA_nNvZ9VcQEaqaDvg1meMQuFRxjwtjrwTP4GpxfprlzK7dF7_F-eCazpMkdSzhC5k0PZmyTICM2IKyNnqp4Z037pMzQrVJ7PqIkX1njwKn8rTGfJgW8qP1AkuHJTEyPj8Km2RHHMydoc="
+    },
+    {
+      "title": "android.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqv3iMzhnvr1JmhNytP7lP8hHjF1kk-axnU2ciGH9AN2F9QJdf92FWQUsYb4R9noIgJXe8_4p4m3w_ibmWGA9YPF4Ym1nvrBTaRlS6rKT9yVyizd_2cPMQjWK5-lKjml1fkrZyeaXpATe5m2PO"
+    },
+    {
+      "title": "techcabal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNkkrLN_ZMM62KhRRrhmWbOrora5bUIYaJ8RoqzgcFhqZ7mPCCODqI5diMfhGmdxA6flgyjFQkxoG-I78GpekcoJUnpQhdzZPsQ5iLEqL_14h4CyoYh3qrdaY3tp3t2dorF3kLt3Lc7j4hxx0GWhMTQGeJjB1uOW-T4G9MIsKRmCOniEwSvymTfQ=="
+    },
+    {
+      "title": "saiftech.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgs1HLQ120b1Ag5z9FXLitc68OjJZEA_uxeCf8KNtGNab2OT5IqRIWaNs4g5SEPwwdXqcOt-YuHzWEQTO2Cd9wxj0kRjFuYfUaqw3k9-eslbrkzRtgXtnUy8-v-lGfrljQXzNjRQ=="
+    },
+    {
+      "title": "theakma.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLVQ-11teToEcMI-CDgvzjSNEUn5v1_xnfd33qbCjHPuPf3TPMQpCx-pPD4kFAzHApjSl1FCjaASRtIKhhPe5PVH3qrlhRbGxDKxWKw4W9_ZDqDHytjTFjLKPWnfFw4X1RdmYmDU2LRYasFfCWoGn4OtSXP0JmtKh89XzhOxrFsSPs2Q0dxWjnvR5G4XAEAjntG5u9ZS5-Eg5QQHlgbBaK_V99Q8ssRdjDHhVvZh6efi3_C6ftMqqofeHdULsV4dnOqE0YYY9-W3cOYu2HvlyTHl_vDqL3wleSQ0lVjCXMU96KXET0zX21MSvsEklpkTtkwJel1Qsd4w=="
+    }
+  ]
+}
