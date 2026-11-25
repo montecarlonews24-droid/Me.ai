@@ -1,13 +1,63 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T13:17:38.692Z",
+  "generatedAt": "2026-11-25T15:25:43.254Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم قبول طلب واحد اليوم، وهو مشروع استشاري لتطوير تطبيق جوال، مع إمكانية بناء التطبيق لاحقًا.",
-    "en": "One lead was accepted today, a consulting project for mobile app development, with potential for future app building."
+    "ar": "تم قبول مشروعين: الأول لبناء تطبيق أندرويد و iOS مدعوم بالذكاء الاصطناعي، والثاني لنشر تطبيق على متجري Google Play و App Store. تم رفض ثلاثة مشاريع أخرى لأسباب مختلفة، منها طلب تدريب أو شراء تطبيقات جاهزة أو وظيفة مطور iOS مباشرة.",
+    "en": "Two projects were accepted: one for building an AI-powered Android and iOS app, and another for publishing an app to Google Play and the App Store. Three other projects were rejected for reasons such as requesting training, buying ready-made apps, or a direct iOS developer role."
   },
-  "fresh": 1,
+  "fresh": 2,
   "leads": [
+    {
+      "title": "تصميم وبرمجة تطبيق احترافي بالذكاء الاصطناعي",
+      "url": "https://mostaql.com/project/1295153",
+      "platform": "Mostaql",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "تفاصيل المشروع عندي فكرة تطبيق وابحث عن شخص محترف ومتمكن في تصميم وبرمجة التطبيقات المدعومة بالذكاء الاصطناعي. يهمني جودة التنفيذ والتصميم وسهولة الاستخدام وان يكون التطبيق متكامل وجاهز للنشر على App Store. تفاصيل المشرو",
+      "fit": 9,
+      "why": {
+        "ar": "المشروع يطلب بناء تطبيق أندرويد و iOS مدعوم بالذكاء الاصطناعي، وهو ما يطابق قدرات Moe في بناء تطبيقات أندرويد بالذكاء الاصطناعي وتقديم نسخة iOS عبر شريكه الموثوق. Moe يستخدم أدوات الذكاء الاصطناعي في تطوير تطبيقاته.",
+        "en": "The project requests building an AI-powered Android and iOS app, which perfectly matches Moe's ability to build AI-powered Android apps and deliver the iOS version through his trusted partner. Moe uses AI tools in his app development process."
+      },
+      "watch": {
+        "ar": "التأكد من أن نطاق ميزات الذكاء الاصطناعي يقع ضمن قدرات Gemini ولا يتطلب أدوات تعلم آلة معقدة أو تدريب نماذج. توضيح نموذج عمل شريك iOS وتكلفة حساب مطور Apple.",
+        "en": "Ensure the scope of AI features is within Gemini's capabilities and doesn't require complex ML tools or model training. Clarify the iOS partner model and the Apple Developer account fee."
+      },
+      "proposal": "أهلاً بك، يسعدني جداً العمل على فكرتك لتطبيق احترافي مدعوم بالذكاء الاصطناعي. أنا أركز على بناء تطبيقات أندرويد قوية ومبتكرة، وأستخدم أدوات الذكاء الاصطناعي المتقدمة في عملية التطوير نفسها، كما في تطبيق Me.ai الخاص بي الذي يعمل كوكيل بحث ذكي.\nبالنسبة لمتطلبات iOS، أنا أبني تطبيق الأندرويد بنفسي، ويتم بناء ونشر نسخة iOS بواسطة شريكي الموثوق والمتخصص في iOS، لتضمن الحصول على التطبيقين من نقطة اتصال واحدة.\nيمكنني دمج ميزات الذكاء الاصطناعي مثل Gemini Vision أو الدردشة الذكية داخل التطبيق.\nتكلفة تطبيق أندرويد و iOS (نسخة بسيطة 4-5 شاشات) مع ميزات الذكاء الاصطناعي يمكن أن تكون حوالي 600-900 دولار، ويدفع العميل رسوم حساب مطور Apple.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل يمكنك مشاركة المزيد من التفاصيل حول طبيعة ميزات الذكاء الاصطناعي التي تتخيلها في التطبيق؟",
+      "prime": false,
+      "foundAt": "2026-11-25T15:25:43.080Z",
+      "fresh": true
+    },
+    {
+      "title": "مطلوب نشر تطبيق على متجري Google Play و App Store",
+      "url": "https://khamsat.com/community/requests/801247-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%86%D8%B4%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B9%D9%84%D9%89-%D9%85%D8%AA%D8%AC%D8%B1%D9%8A-google-play-%D9%88-app-store",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب نشر تطبيق على Google Play و App Store، وهو ما يطابق قدرات Moe في نشر تطبيقات أندرويد وإصلاح مشكلات الرفض، وتقديم خدمة نشر iOS عبر شريكه.",
+        "en": "The project requests publishing an app to Google Play and the App Store, which matches Moe's capabilities in publishing Android apps and fixing rejections, and providing iOS publishing services through his partner."
+      },
+      "watch": {
+        "ar": "التأكد من أن التطبيق جاهز للنشر أو يحتاج فقط لإصلاحات بسيطة. التأكد من أن العميل لديه حساب مطور Apple.",
+        "en": "Confirm if the app is ready for publishing or only needs minor fixes. Confirm the client has an Apple Developer account."
+      },
+      "proposal": "أهلاً بك، يسعدني مساعدتك في نشر تطبيقك على متجري Google Play و App Store. لدي خبرة في التعامل مع متطلبات Google Play، بما في ذلك حل مشكلات الرفض والامتثال للسياسات، كما فعلت مع تطبيقاتي الأربعة المنشورة، مثل تطبيق Islam Rising الذي يستخدمه الملايين.\nبالنسبة لمتجر App Store، أنا أدير عملية النشر لنسخة iOS بالكامل عبر شريكي الموثوق والمتخصص في iOS، مما يضمن لك الحصول على خدمة متكاملة لنشر التطبيقين من نقطة اتصال واحدة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل التطبيق جاهز للنشر حالياً، أم يحتاج إلى أي تعديلات أو تجهيزات إضافية قبل الرفع؟",
+      "prime": false,
+      "foundAt": "2026-11-25T15:25:43.080Z",
+      "fresh": true
+    },
     {
       "title": "Guidance for Digital Project",
       "url": "https://www.freelancer.com/projects/graphic-design/Guidance-for-Digital-Project",
@@ -16,10 +66,10 @@
       "country": "",
       "budget": "12500-37500 INR",
       "posted": "less than an hour ago",
-      "proposals": "18",
+      "proposals": "41",
       "flId": 40835278,
       "postedAt": 1795612267,
-      "bidsAt": "2026-11-25T13:16:49.150Z",
+      "bidsAt": "2026-11-25T15:25:43.254Z",
       "language": "en",
       "summary": "I’m Mr Injamul Sk and I’m still defining exactly what I need built. I may move forward with a new website or mobile app, commission a distinctive logo or other graphics, or even focus on writing, translation, or data-ent",
       "fit": 7,
@@ -34,7 +84,8 @@
       "proposal": "Hello Mr. Injamul Sk,\n\nI understand you're exploring options for your digital project, including developing a mobile app. I can help you build a robust Android app, and also deliver an iOS version through my trusted partner, providing a complete solution from one point of contact. I use AI-assisted development to design and build native Kotlin or hybrid Android apps. For example, my app Islam Rising is a worship tracker used in 177 countries.\n\nFor a simple mobile app from your idea (Android + iOS bundle, hybrid/WebView), the cost would typically be around 350 USD. The Apple Developer account fee (99 USD/year) is paid by the client. I handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more about the core functionality you envision for your mobile app to help me tailor a more precise proposal?",
       "prime": false,
       "foundAt": "2026-11-25T13:17:38.610Z",
-      "fresh": true
+      "fresh": false,
+      "crowded": true
     },
     {
       "title": "Android Product Engineer",
@@ -99,7 +150,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T13:17:38.692Z",
+      "bidsAt": "2026-11-25T15:25:43.254Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -168,6 +219,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "خبير ذكاء اصطناعي",
+      "url": "https://mostaql.com/project/1295201",
+      "reason": {
+        "ar": "المشروع يطلب خبير ذكاء اصطناعي لتدريب فريق عمل، وليس لتقديم منتج أو تطبيق. Moe يقدم منتجات (تطبيقات، وكلاء ذكاء اصطناعي) وليس خدمات تدريب أو استشارات.",
+        "en": "The project requests an AI expert to train a team, not to deliver a product or app. Moe delivers products (apps, AI agents), not training or consulting services."
+      }
+    },
+    {
+      "title": "مطلوب للشراء الفوري: تطبيقات جاهزة",
+      "url": "https://khamsat.com/community/requests/801256-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%84%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D9%81%D9%88%D8%B1%D9%8A-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%AC%D8%A7%D9%87%D8%B2%D8%A9",
+      "reason": {
+        "ar": "العميل يبحث عن تطبيقات جاهزة للشراء الفوري، وليس عن مطور لبناء تطبيق مخصص أو تقديم خدمة تطوير. Moe يبني تطبيقات مخصصة ولا يبيع تطبيقات جاهزة.",
+        "en": "The client is looking to buy ready-made apps immediately, not to hire a developer to build a custom app or provide development services. Moe builds custom apps and does not sell pre-made ones."
+      }
+    },
+    {
+      "title": "iOS Developer",
+      "url": "https://www.linkedin.com/jobs/view/4493418552/",
+      "reason": {
+        "ar": "الوظيفة هي دور مطور iOS مباشر يتطلب خبرة في Swift و UIKit/SwiftUI والعمل على قاعدة كود موجودة. Moe لا يطور تطبيقات iOS بنفسه ولا يعمل داخل قواعد كود Swift موجودة؛ هو يقدم نسخة iOS عبر شريك.",
+        "en": "The job is a direct iOS developer role requiring proficiency in Swift and UIKit/SwiftUI and working within an existing codebase. Moe does not develop iOS apps himself or work within existing Swift codebases; he delivers the iOS version through a partner."
+      }
+    },
     {
       "title": "Android Engineer - Stores Mobile App",
       "url": "https://www.linkedin.com/jobs/view/4494623198/",
@@ -308,7 +383,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 5,
     "steps": [
       {
         "step": "memory",
@@ -320,7 +395,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (110 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 126 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (105 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 232 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -336,51 +411,91 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 19 hours ago: 68 projects on the lists, 0 sent (HTTP 200 162189ch 28 links; HTTP 200 158978ch 27 links; HTTP 200 161441ch 28 links; )"
+        "msg": "phone relay last read less than an hour ago: 70 projects on the lists, 0 sent (HTTP 200 160378ch 29 links; HTTP 200 159671ch 27 links; HTTP 200 160602ch 27 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "23 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "22 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "2 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "no phone checks in the last 12 hours"
+        "msg": "phone checks in last 12h: 7 (alarm 1, open 6), longest gap 12 min, last less than an hour ago (open, v1.9.2)"
+      },
+      {
+        "step": "keeper",
+        "msg": "times (Amman): 18:00! 18:01*open 18:01*open 18:01*open 18:01*open 18:01*open 18:13*open"
+      },
+      {
+        "step": "keeper",
+        "msg": "alerts posted: 18:00 🟡 طلب جديد على خمسات (+1) | 💼 1 فرص شغل جديدة"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 19 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133810ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134095ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "8 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "2 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "343 jobs from Gmail alerts (last 5 days)"
+        "msg": "323 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Android iOS Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer - Android"
+        "msg": "skipped (3+ years required): iOS Software Engineer III (Consumer & Community Banking - Business Banking)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer - Android"
+        "msg": "skipped (title): Mobile Sr Lead Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Mobile"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer – Mobile Development (Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Software Engineer-Mobile"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Android o iOS)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (12+ years required): Mobile Developer (iOS focus / KMP) at tv.nu"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Mid iOS Engineer"
       },
       {
         "step": "verify",
-        "msg": "0 of 2 new LinkedIn jobs added"
+        "msg": "2 of 12 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -388,19 +503,27 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): iOS Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (testers/reviews (not development)): Vietnam MoMo Payment Integration Tester"
+      },
+      {
+        "step": "filter",
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "1 new Freelancer projects added, 5 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 16: active market europe, 0 prime leads"
+        "msg": "Amman hour 18: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 0 via gemini-2.5-flash"
+        "msg": "kept 2, rejected 3 via gemini-2.5-flash"
       },
       {
         "step": "filter",
@@ -425,6 +548,10 @@
       {
         "step": "filter",
         "msg": "removed old lead (AI engineering (not an app)): بناء وكلاء ذكاء اصطناعي باستخدام RAG"
+      },
+      {
+        "step": "freelancer",
+        "msg": "crowded now (41 bids): Guidance for Digital Project"
       }
     ]
   }
