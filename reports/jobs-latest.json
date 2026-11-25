@@ -1,12 +1,12 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T15:25:43.254Z",
+  "generatedAt": "2026-11-25T17:09:53.668Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم قبول مشروعين: الأول لبناء تطبيق أندرويد و iOS مدعوم بالذكاء الاصطناعي، والثاني لنشر تطبيق على متجري Google Play و App Store. تم رفض ثلاثة مشاريع أخرى لأسباب مختلفة، منها طلب تدريب أو شراء تطبيقات جاهزة أو وظيفة مطور iOS مباشرة.",
-    "en": "Two projects were accepted: one for building an AI-powered Android and iOS app, and another for publishing an app to Google Play and the App Store. Three other projects were rejected for reasons such as requesting training, buying ready-made apps, or a direct iOS developer role."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
   },
-  "fresh": 2,
+  "fresh": 0,
   "leads": [
     {
       "title": "تصميم وبرمجة تطبيق احترافي بالذكاء الاصطناعي",
@@ -31,7 +31,7 @@
       "proposal": "أهلاً بك، يسعدني جداً العمل على فكرتك لتطبيق احترافي مدعوم بالذكاء الاصطناعي. أنا أركز على بناء تطبيقات أندرويد قوية ومبتكرة، وأستخدم أدوات الذكاء الاصطناعي المتقدمة في عملية التطوير نفسها، كما في تطبيق Me.ai الخاص بي الذي يعمل كوكيل بحث ذكي.\nبالنسبة لمتطلبات iOS، أنا أبني تطبيق الأندرويد بنفسي، ويتم بناء ونشر نسخة iOS بواسطة شريكي الموثوق والمتخصص في iOS، لتضمن الحصول على التطبيقين من نقطة اتصال واحدة.\nيمكنني دمج ميزات الذكاء الاصطناعي مثل Gemini Vision أو الدردشة الذكية داخل التطبيق.\nتكلفة تطبيق أندرويد و iOS (نسخة بسيطة 4-5 شاشات) مع ميزات الذكاء الاصطناعي يمكن أن تكون حوالي 600-900 دولار، ويدفع العميل رسوم حساب مطور Apple.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل يمكنك مشاركة المزيد من التفاصيل حول طبيعة ميزات الذكاء الاصطناعي التي تتخيلها في التطبيق؟",
       "prime": false,
       "foundAt": "2026-11-25T15:25:43.080Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "مطلوب نشر تطبيق على متجري Google Play و App Store",
@@ -56,36 +56,7 @@
       "proposal": "أهلاً بك، يسعدني مساعدتك في نشر تطبيقك على متجري Google Play و App Store. لدي خبرة في التعامل مع متطلبات Google Play، بما في ذلك حل مشكلات الرفض والامتثال للسياسات، كما فعلت مع تطبيقاتي الأربعة المنشورة، مثل تطبيق Islam Rising الذي يستخدمه الملايين.\nبالنسبة لمتجر App Store، أنا أدير عملية النشر لنسخة iOS بالكامل عبر شريكي الموثوق والمتخصص في iOS، مما يضمن لك الحصول على خدمة متكاملة لنشر التطبيقين من نقطة اتصال واحدة.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل التطبيق جاهز للنشر حالياً، أم يحتاج إلى أي تعديلات أو تجهيزات إضافية قبل الرفع؟",
       "prime": false,
       "foundAt": "2026-11-25T15:25:43.080Z",
-      "fresh": true
-    },
-    {
-      "title": "Guidance for Digital Project",
-      "url": "https://www.freelancer.com/projects/graphic-design/Guidance-for-Digital-Project",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "12500-37500 INR",
-      "posted": "less than an hour ago",
-      "proposals": "41",
-      "flId": 40835278,
-      "postedAt": 1795612267,
-      "bidsAt": "2026-11-25T15:25:43.254Z",
-      "language": "en",
-      "summary": "I’m Mr Injamul Sk and I’m still defining exactly what I need built. I may move forward with a new website or mobile app, commission a distinctive logo or other graphics, or even focus on writing, translation, or data-ent",
-      "fit": 7,
-      "why": {
-        "ar": "العميل يستكشف خيارات لمشروع رقمي، وتطوير تطبيقات الجوال هو أحد هذه الخيارات. يمكن لمحمد تقديم استشارته وبناء تطبيق أندرويد، وتطبيق iOS عبر شريكه.",
-        "en": "The client is exploring options for a digital project, and mobile app development is one of these options. Moe can provide his professional input and build an Android app, with an iOS app delivered via his partner."
-      },
-      "watch": {
-        "ar": "يجب على محمد التركيز في عرضه على جانب تطوير تطبيقات الجوال فقط، وتوضيح ما يمكنه تقديمه في هذا المجال.",
-        "en": "Moe should focus his proposal specifically on mobile app development and clearly state what he can deliver in this area."
-      },
-      "proposal": "Hello Mr. Injamul Sk,\n\nI understand you're exploring options for your digital project, including developing a mobile app. I can help you build a robust Android app, and also deliver an iOS version through my trusted partner, providing a complete solution from one point of contact. I use AI-assisted development to design and build native Kotlin or hybrid Android apps. For example, my app Islam Rising is a worship tracker used in 177 countries.\n\nFor a simple mobile app from your idea (Android + iOS bundle, hybrid/WebView), the cost would typically be around 350 USD. The Apple Developer account fee (99 USD/year) is paid by the client. I handle Google Play publishing and rejection fixes.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nCould you share more about the core functionality you envision for your mobile app to help me tailor a more precise proposal?",
-      "prime": false,
-      "foundAt": "2026-11-25T13:17:38.610Z",
-      "fresh": false,
-      "crowded": true
+      "fresh": false
     },
     {
       "title": "Android Product Engineer",
@@ -150,7 +121,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T15:25:43.254Z",
+      "bidsAt": "2026-11-25T17:09:53.668Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -219,6 +190,14 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Mobile App Developer @ Kontron AG",
+      "url": "https://www.linkedin.com/jobs/view/4494913521/",
+      "reason": {
+        "ar": "يتطلب هذا الدور استخدام Flutter و Dart، وهما تقنيتان لا يعمل بهما محمد. كما يطلب خبرة لعدة سنوات في تطوير تطبيقات الجوال.",
+        "en": "This role explicitly requires Flutter and Dart, which are technologies Moe does not work with. It also requests several years of experience in mobile app development."
+      }
+    },
     {
       "title": "خبير ذكاء اصطناعي",
       "url": "https://mostaql.com/project/1295201",
@@ -383,7 +362,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 5,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -395,7 +374,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (105 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 232 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (258 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 209 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -411,7 +390,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 70 projects on the lists, 0 sent (HTTP 200 160378ch 29 links; HTTP 200 159671ch 27 links; HTTP 200 160602ch 27 links; )"
+        "msg": "phone relay last read 2 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160378ch 29 links; HTTP 200 159671ch 27 links; HTTP 200 160602ch 27 links; )"
       },
       {
         "step": "mostaql",
@@ -419,11 +398,11 @@
       },
       {
         "step": "verify",
-        "msg": "2 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 7 (alarm 1, open 6), longest gap 12 min, last less than an hour ago (open, v1.9.2)"
+        "msg": "phone checks in last 12h: 7 (alarm 1, open 6), longest gap 12 min, last 2 hours ago (open, v1.9.2)"
       },
       {
         "step": "keeper",
@@ -435,67 +414,107 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134095ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134095ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "8 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "2 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "323 jobs from Gmail alerts (last 5 days)"
+        "msg": "315 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / Middle East: busy (429), stopping search this run"
+        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): iOS Software Engineer III (Consumer & Community Banking - Business Banking)"
+        "msg": "skipped (title): Développeur Flutter Mobile Senior (H/F)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Mobile Sr Lead Software Engineer"
+        "msg": "skipped (on-site/hybrid): Mobile Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer, iOS"
+        "msg": "skipped (title): Senior Android Developer - Store app"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer, iOS"
+        "msg": "skipped (on-site/hybrid): App Developer (m/w/x)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile"
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer – Mobile Development (Android)"
+        "msg": "skipped (title): Senior Mobile Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer-Mobile"
+        "msg": "skipped (title): Senior Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Android o iOS)"
+        "msg": "skipped (title): Senior Frontend Developer (React Native) - Paid in USD"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (12+ years required): Mobile Developer (iOS focus / KMP) at tv.nu"
+        "msg": "skipped (7+ years required): Platform Engineer (iOS)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Mid iOS Engineer"
+        "msg": "skipped (7+ years required): Platform Engineer (iOS)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (10+ years required): Expert Full-Stack GIS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): MacOS Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, iOS (All Teams)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Product Engineer, Mobile & UX"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Product Engineer, Mobile & UX"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer II, Mobile - On App Ads (AI Native)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): App Developer – Remote (Canada)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Video Player Engineer - Remote"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): 4 Senior Full Stack Developers"
       },
       {
         "step": "verify",
-        "msg": "2 of 12 new LinkedIn jobs added"
+        "msg": "5 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -503,27 +522,39 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): iOS Developer"
+        "msg": "skipped (not an app or AI agent project): Dynamics 365 Developer"
       },
       {
         "step": "filter",
-        "msg": "skipped (testers/reviews (not development)): Vietnam MoMo Payment Integration Tester"
+        "msg": "skipped (not an app or AI agent project): Associate Software Engineer"
       },
       {
         "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Software Specialist I (Front-End)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (Flutter/React Native/Unity): Desarrollador de Flutter"
+      },
+      {
+        "step": "filter",
+        "msg": "4 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 5 to judge"
+        "msg": "0 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 18: active market americas, 0 prime leads"
+        "msg": "Amman hour 20: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 2, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+      },
+      {
+        "step": "filter",
+        "msg": "removed old lead (India/Pakistan/Bangladesh): Guidance for Digital Project"
       },
       {
         "step": "filter",
@@ -548,10 +579,6 @@
       {
         "step": "filter",
         "msg": "removed old lead (AI engineering (not an app)): بناء وكلاء ذكاء اصطناعي باستخدام RAG"
-      },
-      {
-        "step": "freelancer",
-        "msg": "crowded now (41 bids): Guidance for Digital Project"
       }
     ]
   }
