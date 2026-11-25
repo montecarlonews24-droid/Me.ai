@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-25T21:27:29.900Z",
+  "generatedAt": "2026-11-25T22:41:08.340Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -121,7 +121,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-25T21:27:29.900Z",
+      "bidsAt": "2026-11-25T22:41:08.340Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -191,6 +191,22 @@
   ],
   "rejected": [
     {
+      "title": "Apple Demo iPhone remove ",
+      "url": "https://www.freelancer.com/projects/ios/Apple-Demo-iPhone-remove",
+      "reason": {
+        "ar": "هذا المشروع يتعلق بالدعم الفني وإزالة قفل جهاز آيفون (MDM)، وليس تطوير تطبيق. Moe يقدم تطبيقات أندرويد و iOS (عبر شريكه) ولكنه لا يقدم دعمًا فنيًا للأجهزة.",
+        "en": "This project is for technical support and iPhone device unlocking (MDM removal), not app development. Moe delivers Android and iOS apps (via his partner) but does not provide device technical support."
+      }
+    },
+    {
+      "title": "Mini Juego Android con AdMob",
+      "url": "https://www.freelancer.com/projects/unity/Mini-Juego-Android-con-AdMob",
+      "reason": {
+        "ar": "يتطلب هذا المشروع خبرة في Unity (C#) أو Godot، وهي تقنيات لا يستخدمها Moe. كما أن نص المشروع باللغة الإسبانية، وهو ليس الإنجليزية أو العربية.",
+        "en": "This project requires experience in Unity (C#) or Godot, which are technologies Moe does not use. Additionally, the project text is in Spanish, not English or Arabic."
+      }
+    },
+    {
       "title": "Java/Kotlin Engineer",
       "url": "https://www.linkedin.com/jobs/view/4494799218/",
       "reason": {
@@ -218,7 +234,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
@@ -230,7 +246,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (199 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 157 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (162 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 202 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -246,7 +262,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 4 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+        "msg": "phone relay last read 5 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -262,7 +278,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 4 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -278,79 +294,75 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "AI Agent Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Android"
+        "msg": "skipped (closed): iOS Mobile Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Android"
+        "msg": "skipped (5+ years required): Mobile Engineer (KMP)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Staff Software Engineer, Software & Frameworks (Android Applications)"
+        "msg": "skipped (3+ years required): AI and Agentic Engineer I"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr. Java/GCP Developer"
+        "msg": "skipped (title): Lead AI Engineer - Advanced AI (Gen AI, LLM Ops, Applied ML, ML Ops)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Staff Software Engineer, Software & Frameworks (Android Applications)"
+        "msg": "skipped (title): Senior AI Engineer, Agentic Systems"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer (Kotlin/Java) - Open for remote"
+        "msg": "skipped (on-site/hybrid): AI/ML Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Software Engineer – Java, Kotlin, Spring Boot & GCP"
+        "msg": "skipped (5+ years required): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
+        "msg": "skipped (on-site/hybrid): AI/ML Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer - Engine by Starling"
+        "msg": "skipped (title): Senior AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer - Engine by Starling"
+        "msg": "skipped (title): Senior Applied AI Engineer | LLMs | RAG | Claude Code | Hybrid | London, UK"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior / Principal Kotlin Engineer"
+        "msg": "skipped (title): Senior AI Engineer - Generative AI & Search - Artificial Intelligence"
       },
       {
         "step": "linkedin",
-        "msg": "post 4475448562: HTTP 429"
+        "msg": "skipped (title): Senior Consultant-Agentic AI"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Java Microservices Developer"
+        "msg": "skipped (recruitment agency (TALENTMATE)): ML Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Java Developer"
+        "msg": "skipped (recruitment agency (TALENTMATE)): Machine Learning Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Full Stack Engineer"
+        "msg": "skipped (4+ years required): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer, Risk Engineering"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Backend - Data Streaming"
+        "msg": "skipped (title): Senior Machine Learning Engineer I - GenAI Applications"
       },
       {
         "step": "verify",
-        "msg": "9 of 25 new LinkedIn jobs added"
+        "msg": "8 of 24 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -358,43 +370,51 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Developer - Micro-Integration Platform"
+        "msg": "skipped (not an app or AI agent project): AI Developer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer II"
+        "msg": "skipped (not an app or AI agent project): AI Yazılım Geliştirme Uzmanı (AI-Native Developer)"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Java Software Engineer"
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI-Native Java Developer"
+        "msg": "skipped (not an app or AI agent project): AI Software Engineer (R-20210)"
       },
       {
         "step": "filter",
-        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Software Engineer - Cloud, Identity Protection (Hybrid, ISR)"
+        "msg": "skipped (not an app or AI agent project): Generative AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Backend Software Engineer (Finance/Trading background preferred)"
+        "msg": "skipped (not an app or AI agent project): Associate AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "6 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): AI Engineer 3"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer 3"
+      },
+      {
+        "step": "filter",
+        "msg": "8 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 3 to judge"
+        "msg": "2 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 0: active market americas, 0 prime leads"
+        "msg": "Amman hour 1: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
       }
     ]
   }
