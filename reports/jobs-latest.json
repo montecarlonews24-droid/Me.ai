@@ -1,10 +1,10 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T17:26:28.034Z",
+  "generatedAt": "2026-11-26T19:27:37.904Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 9 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 9 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T17:26:28.034Z",
+      "bidsAt": "2026-11-26T19:27:37.904Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -188,58 +188,41 @@
       "foundAt": "2026-11-24T11:25:06.924Z",
       "fresh": false,
       "crowded": false
-    },
-    {
-      "title": "Android Engineer - Creative App",
-      "url": "https://www.linkedin.com/jobs/view/4486153915/",
-      "platform": "LinkedIn",
-      "market": "west",
-      "country": "United States",
-      "budget": "",
-      "posted": "last 24 hours",
-      "proposals": "",
-      "language": "en",
-      "summary": "ElevenLabs · United States",
-      "fit": 8,
-      "why": {
-        "ar": "المشروع يتطلب مهندس أندرويد لتطوير تطبيق أصلي (Native Kotlin) مع دمج ميزات الذكاء الاصطناعي، وهو ما يتقنه Moe. يمتلك Moe تطبيق Flicker المبني بـ Kotlin وتطبيق Me.ai الذي يدمج الذكاء الاصطناعي.",
-        "en": "This project requires an Android Engineer to develop a native Kotlin app with AI feature integration, which is a core skill for Moe. Moe has built Flicker (native Kotlin) and Me.ai (AI agent with native Android app)."
-      },
-      "watch": {
-        "ar": "الوظيفة بدوام كامل، يجب على Moe التأكد من أنها تناسبه، وأنها بالفعل عن بعد عالمياً.",
-        "en": "This is a full-time role; Moe should ensure it aligns with his work preference and confirm it is indeed remote worldwide."
-      },
-      "proposal": "I understand you're looking for an Android Engineer to build a creative app, integrating AI-driven audio models. I develop native Kotlin Android apps with AI-assisted development, focusing on delivering robust features and user engagement. My work includes integrating Gemini AI features for chat, vision, and smart search into Android apps. I have experience building native Kotlin apps like Flicker (currently in closed testing), which handles NFC, Bluetooth, and Wi-Fi features. I can help shape the app's architecture and technical direction, ensuring tight integration with your AI models.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share more about the specific AI audio models you plan to integrate and the desired user experience?",
-      "liChecked": true,
-      "foundAt": "2026-11-23T17:59:53.329Z",
-      "fresh": false
-    },
-    {
-      "title": "رفع تطبيق اندرويد على منصة هواوي جاليري",
-      "url": "https://mostaql.com/project/1294921",
-      "platform": "Mostaql",
-      "market": "arab",
-      "country": "",
-      "budget": "",
-      "posted": "",
-      "proposals": "",
-      "language": "ar",
-      "summary": "تفاصيل المشروع لدي تطبيق اندرويد Apk كنت ناوي انشره على كوكل بلاي ولكن كونه يحتوي على ميزات مدفوعة وان كوكل بلاي لاتقبل الميزات المدفوعة للتطبيقات في العراق فاني اريد نشره على منصة هواوي كاليري ولهذا اريد تعديل ملف التطب",
-      "fit": 7,
-      "why": {
-        "ar": "المشروع يتطلب تعديل تطبيق أندرويد ليتوافق مع متطلبات Huawei AppGallery ورفعه، وهو يقع ضمن نطاق عمل Moe في نشر التطبيقات وإصلاح مشكلات الرفض.",
-        "en": ""
-      },
-      "watch": {
-        "ar": "الميزانية 50 دولارًا أمريكيًا، وهي أقل من الحد الأدنى المفضل، لكن المهمة بسيطة ومباشرة.",
-        "en": "The budget is $50 USD, which is below the preferred minimum, but the task is simple and straightforward."
-      },
-      "proposal": "أهلاً بك،\nفهمت أنك تحتاج إلى تعديل تطبيقك ليتوافق مع متطلبات Huawei AppGallery ورفعه للنشر، مع ضمان ظهوره على المنصة قبل التسليم. أنا أقوم بنشر تطبيقات أندرويد وأتعامل مع متطلبات المتاجر المختلفة، ويمكنني مساعدتك في تجهيز تطبيقك لـ Huawei AppGallery. أعمل على تطوير تطبيقات أندرويد باستخدام الذكاء الاصطناعي، ولدي خبرة في التعامل مع تحديات النشر.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل هناك أي تفاصيل تقنية محددة حول التعديلات المطلوبة للتوافق مع Huawei AppGallery؟",
-      "foundAt": "2026-11-23T17:59:53.329Z",
-      "fresh": false
     }
   ],
   "rejected": [
+    {
+      "title": "مطلوب متخصص في الذكاء الاصطناعي وClaude Code لجمع بيانات العملاء المحتملين B2B",
+      "url": "https://mostaql.com/project/1295480",
+      "reason": {
+        "ar": "المشروع يتطلب جمع بيانات (Web Scraping) واستخراج معلومات شخصية (أرقام هواتف، بريد إلكتروني، حسابات تواصل اجتماعي)، وهذا خارج نطاق ما يمكن لمحمد تقديمه. كما أنه ليس تطبيق أندرويد أو وكيل ذكاء اصطناعي بالصيغة التي يبنيها محمد.",
+        "en": "The project requires web scraping and collecting personal data (phone numbers, emails, social media accounts), which is outside Moe's capabilities. It's also not an Android app or an AI agent in the format Moe builds."
+      }
+    },
+    {
+      "title": "AI Applied Software Engineer (iOS)",
+      "url": "https://www.linkedin.com/jobs/view/4468792918/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بنظام هجين (Hybrid Work) مع التواجد في المكتب، ومحمد يبحث عن عمل عن بعد فقط. كما أنها وظيفة مطور iOS بشكل أساسي، ومحمد لا يعمل على أكواد iOS موجودة.",
+        "en": "The job requires hybrid work with office days, and Moe only seeks fully remote work. Additionally, it's primarily an iOS developer role, and Moe does not work on existing iOS codebases."
+      }
+    },
+    {
+      "title": "Analyste Développeur Mobile iOS / Android H/F",
+      "url": "https://www.linkedin.com/jobs/view/4495031257/",
+      "reason": {
+        "ar": "عنوان الوظيفة بالفرنسية، ونص الوظيفة الفعلي غير متوفر باللغتين العربية أو الإنجليزية، مما يمنع تقييم مدى ملاءمتها لمحمد.",
+        "en": "The job title is in French, and the actual job description is not available in Arabic or English, making it impossible to assess its suitability for Moe."
+      }
+    },
+    {
+      "title": "Android Applications Developer",
+      "url": "https://www.linkedin.com/jobs/view/4462041443/",
+      "reason": {
+        "ar": "الوظيفة بعنوان 'Senior Android Applications Developer' وتتطلب خبرة لمستوى كبير، ومحمد لا يقبل الوظائف ذات الألقاب العليا (Senior/Staff/Lead/Principal). كما أن سياق الوظيفة يشير إلى العمل في مركز تطوير جديد، مما يعني أنها ليست عن بعد بالكامل.",
+        "en": "The job is titled 'Senior Android Applications Developer' and requires significant experience, which Moe does not accept (senior/staff/lead/principal roles). The context also suggests working in a new R&D center, implying it's not a fully remote position."
+      }
+    },
     {
       "title": "Lead Generation App with WhatsApp",
       "url": "https://www.freelancer.com/projects/lead-generation/Lead-Generation-App-with-WhatsApp",
@@ -447,38 +430,6 @@
         "ar": "الوظيفة تتطلب العمل بدوام كامل في الدوحة، قطر (ليست عن بعد)، وتصنيفها 'Mid-Senior level' وهو مستوى خبرة مرفوض. كما أنها تطلب مهارات في React JS و Flutter التي لا يستخدمها Moe.",
         "en": "The job requires full-time, on-site work in Doha, Qatar (not remote), and is classified as 'Mid-Senior level', which is a rejected seniority. It also requires skills in React JS and Flutter, which Moe does not use."
       }
-    },
-    {
-      "title": "Full Stack Developer experience in AI tools",
-      "url": "https://www.linkedin.com/jobs/view/4493485894/",
-      "reason": {
-        "ar": "الوظيفة تتطلب العمل بدوام كامل في الكويت (ليست عن بعد) وتتطلب الإقامة أو نقل الإقامة. كما أنها تطلب خبرة في Flutter وإدارة خوادم AWS و DevOps، وهي خارج نطاق عمل Moe.",
-        "en": "The job requires full-time, on-site work in Kuwait (not remote) and requires residency or transfer of residency. It also demands Flutter experience and managing AWS servers and DevOps, which are outside Moe's scope."
-      }
-    },
-    {
-      "title": "Bangun Asisten Suara AI",
-      "url": "https://www.freelancer.com/projects/ai-chatbot/Bangun-Asisten-Suara",
-      "reason": {
-        "ar": "نص المشروع باللغة الإندونيسية، وهي ليست الإنجليزية أو العربية.",
-        "en": "The project text is in Indonesian, which is neither English nor Arabic."
-      }
-    },
-    {
-      "title": "iOS Developer",
-      "url": "https://www.linkedin.com/jobs/view/4451521399/",
-      "reason": {
-        "ar": "الوظيفة تتطلب مطور iOS للعمل على Swift، وهو ما لا يستطيع Moe تقديمه بنفسه. كما أنها تطلب مطورين بمستوى متوسط أو أعلى.",
-        "en": "The job requires an iOS developer to work on Swift, which Moe cannot deliver himself. It also asks for Mid and/or Senior level developers."
-      }
-    },
-    {
-      "title": "Se buscan comerciales para Latinoamérica; el idioma materno debe ser el portugués o el español.",
-      "url": "https://www.freelancer.com/projects/sales/buscan-comerciales-para-Latinoam-rica-40836033",
-      "reason": {
-        "ar": "نص المشروع باللغة الإسبانية وليس الإنجليزية أو العربية. بالإضافة إلى ذلك، نطاق العمل يتعلق بالمبيعات وأبحاث السوق، وهو خارج نطاق تخصص Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
-        "en": "The project text is in Spanish, not English or Arabic. Additionally, the scope is for sales and market research, which is outside Moe's expertise in app development or AI agents."
-      }
     }
   ],
   "agent": {
@@ -496,7 +447,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (293 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
+        "msg": "2 open projects from the last 5 days worldwide with budget 100+ USD (258 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 93 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -512,31 +463,31 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 1 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160134ch 29 links; HTTP 200 158715ch 27 links; HTTP 200 163215ch 26 links; )"
+        "msg": "phone relay last read less than an hour ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "19 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "2 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 7 (worker 1, open 4, alarm 2), longest gap 425 min, last 1 hours ago (alarm, v1.9.3)"
+        "msg": "phone checks in last 12h: 12 (worker 1, open 8, alarm 3), longest gap 425 min, last less than an hour ago (open, v1.9.4)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open 18:12! 19:16*open 19:16*open 19:16!"
+        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open 18:12! 19:16*open 19:16*open 19:16! 22:04! 22:10*open 22:23*open 22:23*open 22:23*open"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات || 18:12 🔷 وظيفة Remote جديدة على LinkedIn (+5) | 🔵 مشروع تطبيق جديد على مستقل | 🟡 طلب جديد على خمسات || 19:16 🔷 وظيفة Remote جديدة على LinkedIn (+5)"
+        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات || 18:12 🔷 وظيفة Remote جديدة على LinkedIn (+5) | 🔵 مشروع تطبيق جديد على مستقل | 🟡 طلب جديد على خمسات || 19:16 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 22:04 🔷 وظيفة Remote جديدة على LinkedIn"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134096ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 133009ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -548,87 +499,99 @@
       },
       {
         "step": "linkedin",
-        "msg": "286 jobs from Gmail alerts (last 5 days)"
+        "msg": "277 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "48 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "47 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (Novus Recruitment Solutions)): AI Engineer"
+        "msg": "skipped (3+ years required): iOS Software Engineer III"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Context Engineer"
+        "msg": "skipped (on-site/hybrid): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (recruitment agency (randstad digital australia)): AI Engineer"
+        "msg": "skipped (on-site/hybrid): Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (20+ years required): AI Engineer"
+        "msg": "skipped (title): Homes.com - Senior iOS Engineer (SwiftUI)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (7+ years required): AI Engineer"
+        "msg": "skipped (3+ years required): Application Builder, Ring Software Product Builders"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Google Photos, Mobile (Android)"
+        "msg": "skipped (title): Senior AI Applied Software Engineer (iOS)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "post 4495031257: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer- Hardware"
+        "msg": "skipped (20+ years required): iOS Developer (Banking)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (title): Senior App Developer (iOS and Android, Native)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Android Developer"
+        "msg": "skipped (5+ years required): Android SDK Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Android / iOS, On-Device & SDK)"
+        "msg": "skipped (title): Senior Android Geliştirici"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile SDK Engineer"
+        "msg": "skipped (title): React Native Developer --[Senior]."
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile SDK Engineer"
+        "msg": "skipped (title): Senior Software Engineer, Operations – Core Java & iOS focus"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (10+ years required): Full Stack Engineer"
+        "msg": "skipped (title): Senior React Native Engineer (Mobile) - Remote"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (title): Senior Software Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Mobile (React Native/iOS/Android)"
+        "msg": "skipped (title): Lead iOS Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer – Android contract"
+        "msg": "skipped (title): Senior Mobile Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Software Developer, Google Chat Client-Side Encryption"
+        "msg": "skipped (title): Senior Software Engineer I"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Forward Deployed Engineer (Brisbane)"
       },
       {
         "step": "verify",
-        "msg": "7 of 25 new LinkedIn jobs added"
+        "msg": "5 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -636,19 +599,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur de logiciels II, début de carrière"
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): ZAIN2596 - Associate Fullstack Software Engineer"
+        "msg": "skipped (not an app or AI agent project): Développeur mobile H/F"
       },
       {
         "step": "filter",
-        "msg": "skipped (marketing/content (not development)): Software Engineer, Performance Marketing"
+        "msg": "skipped (not an app or AI agent project): إعداد وربط نظام ذكاء اصطناعي للرد على العملاء"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Native Software Engineer"
+        "msg": "skipped (testers/reviews (not development)): Manual QA test of an Android parental control app in Mexico (in-app purchase tes"
       },
       {
         "step": "filter",
@@ -660,7 +623,7 @@
       },
       {
         "step": "market",
-        "msg": "Amman hour 20: active market americas, 0 prime leads"
+        "msg": "Amman hour 22: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
