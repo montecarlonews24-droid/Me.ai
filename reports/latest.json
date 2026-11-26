@@ -1,357 +1,216 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T01:37:37.887Z",
+  "generatedAt": "2026-11-26T13:24:53.199Z",
   "model": "gemini-2.5-flash",
-  "summary": "تركز الأفكار الجديدة على الاستفادة من ميزات الذكاء الاصطناعي والأمان القادمة في أندرويد، بالإضافة إلى الاتصال المباشر بالهواتف عبر الأقمار الصناعية، لمعالجة تحديات عالمية مثل السلامة الشخصية في المناطق النائية، ومرونة التكيف مع المناخ، وإدارة المخزون الغذائي في ظل التضخم، وتعزيز الثقة والأمان الرقمي.",
+  "summary": "اليوم، ركزنا على أفكار تطبيقات أندرويد عالمية باللغة الإنجليزية، قابلة للبناء بواسطة مطور واحد في غضون 1-3 أسابيع، مع التركيز على الاستفادة من التغيرات العالمية الحالية وتقديم حلول فريدة.",
   "trends": [
-    "تزايد إطلاق الأقمار الصناعية لخدمات الإنترنت والاتصالات المباشرة للهواتف الذكية العادية.",
-    "تحديثات أندرويد 16 و17 تقدم ميزات الذكاء الاصطناعي الجديدة مثل Gemini وMotion Assist وGuided Vision.",
-    "استمرار موجات الحر القياسية والظواهر المناخية المتطرفة وتأثيرها على الصحة النفسية.",
-    "توقعات بارتفاع التضخم في أسعار الغذاء العالمية.",
-    "تطبيق ميزات أمان جديدة في نظام أندرويد 17، بما في ذلك قفل اكتشاف السرقة وإنهاء المكالمات الاحتيالية."
+    "تستمر درجات الحرارة الاستثنائية عالميًا، مع توقع أن يكون عام 2026 أحد أكثر الأعوام حرارة، مما يزيد من موجات الحر والطقس المتطرف.",
+    "يفقد الناس عالميًا ما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة، مما يجعل النوم الجيد تحديًا متزايدًا.",
+    "أصبح اقتصاد العمل الحر والوظائف الجانبية ضروريين للاستقرار المالي للكثيرين، وتدعم أدوات الذكاء الاصطناعي نمو الوظائف الجانبية المعتمدة على الذكاء الاصطناعي."
   ],
   "world": {
     "signals": [
       {
-        "area": "الفضاء والشمس",
-        "change": "تزايد إطلاق الأقمار الصناعية لخدمات الإنترنت والاتصالات المباشرة للهواتف الذكية العادية. أطلقت الصين أقمار إنترنت جديدة في أكتوبر ونوفمبر 2026، وأطلقت شركة AST SpaceMobile أقمار BlueBird في أغسطس 2026 لتوفير اتصال مباشر بالهواتف الذكية.",
-        "who": "الأشخاص في المناطق النائية أو التي تعاني من ضعف التغطية الخلوية سيستفيدون من توسع نطاق الاتصال.",
-        "evidence": "أكتوبر 2026، نوفمبر 2026، أغسطس 2026"
-      },
-      {
-        "area": "الفضاء والشمس",
-        "change": "ذروة زخة شهب البرشاويات في أغسطس 2026 مع ظروف رصد مثالية بسبب غياب ضوء القمر.",
-        "who": "عشاق الفلك والمهتمون بالرصد السماوي، حيث يمكنهم مشاهدة ما يصل إلى 100 شهاب في الساعة في الأماكن المظلمة.",
-        "evidence": "أغسطس 2026"
-      },
-      {
-        "area": "الفضاء والشمس",
-        "change": "كسوف شمسي كلي في 12 أغسطس 2026، يمكن مشاهدته كلياً في مناطق مثل غرينلاند وآيسلندا وإسبانيا، وجزئياً في معظم أوروبا وشمال أفريقيا.",
-        "who": "السكان في المناطق التي يمر بها مسار الكسوف، والمهتمون بالظواهر الفلكية.",
-        "evidence": "12 أغسطس 2026"
+        "area": "الأرض والمناخ",
+        "change": "استمرار درجات الحرارة الاستثنائية عالميًا، مع ترشيح عام 2026 لمنافسة 2024 كأكثر الأعوام حرارة على الإطلاق، وتوقعات بحدث النينيو القوي الذي سيطلق المزيد من الطقس المتطرف حتى عام 2027.",
+        "who": "سكان العالم، حيث يزيد ذلك من مخاطر موجات الحر ويؤثر على الحياة اليومية والزراعة والبنية التحتية.",
+        "evidence": "شهد العالم للمرة الأولى ستة أيام متتالية بلغت فيها درجات الحرارة أعلى بـ 2 درجة مئوية من مستويات ما قبل الثورة الصناعية في نوفمبر 2026. تجاوز متوسط درجة حرارة سطح الأرض العالمي 1.98 درجة مئوية فوق متوسط ما قبل الثورة الصناعية في الأيام الـ 21 الأولى من نوفمبر 2026."
       },
       {
         "area": "الأرض والمناخ",
-        "change": "استمرار موجات الحر القياسية وحرائق الغابات والفيضانات العارمة في مناطق مختلفة حول العالم.",
-        "who": "المواطنون في المناطق المتأثرة، مما يؤدي إلى مخاطر صحية مباشرة، وتدمير الممتلكات، وتأثير على سبل العيش.",
-        "evidence": "أغسطس 2025 (مع الإشارة إلى الاستمرارية)"
+        "change": "موسم حرائق الغابات لعام 2026 يشهد مناطق محترقة عالميًا أعلى بكثير من المتوسط، مع تحول الحرائق النشطة نحو نصف الكرة الجنوبي والمناطق الاستوائية، وتسبب في تلوث هوائي خطير في إندونيسيا.",
+        "who": "المجتمعات القريبة من مناطق الحرائق في إسبانيا، بوتسوانا، ناميبيا، موزمبيق، أستراليا، والبرازيل. كما يتأثر سكان إندونيسيا والمناطق المحيطة (سومطرة الجنوبية، كاليمانتان الجنوبية، غينيا الجديدة، المحيط الهندي، جنوب شرق آسيا، غرب المحيط الهادئ، وشمال غرب أستراليا) بجودة الهواء الخطرة.",
+        "evidence": "اعتبارًا من 7 نوفمبر 2026، بلغت مساحة المنطقة المحترقة عالميًا 761,205 هكتارًا، وهي أعلى بكثير من متوسط 20 عامًا البالغ 400,617 هكتارًا. تسبب تلوث الهواء الخطير الناتج عن حرائق الغابات في إندونيسيا في وفاة 3,560 شخصًا في سبتمبر 2026."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "مواسم الحساسية لعام 2026 أصبحت أكثر حدة، حيث تبدأ مبكرًا وتستمر لفترة أطول بسبب ارتفاع درجات الحرارة وزيادة مستويات ثاني أكسيد الكربون.",
+        "who": "ملايين الأشخاص في جميع أنحاء العالم الذين يعانون من الحساسية الموسمية، بما في ذلك البالغون والأطفال، خاصة في مناطق مثل ساحل الخليج الأمريكي وأوكلاهوما وكولورادو وكانساس والسهول الكبرى الشمالية.",
+        "evidence": "في عام 2026، تزايد موسم الحساسية بشكل مبكر وأكثر قوة من المتوقع. أصبحت مواسم حبوب اللقاح في أمريكا الشمالية تبدأ قبل 20 يومًا وتستمر لفترة أطول مما كانت عليه في التسعينيات."
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "ذروة زخة شهب الجوزاء (Geminids) حول 13-14 ديسمبر 2026، مع ظروف مشاهدة ممتازة بسبب رقة الهلال القمري. وذروة زخة شهب الدب الأصغر (Ursids) في 21-22 ديسمبر 2026، على الرغم من أن ضوء القمر سيجعل رؤيتها أصعب.",
+        "who": "مراقبو النجوم وهواة الفلك في نصف الكرة الشمالي بشكل أساسي.",
+        "evidence": "تعتبر شهب الجوزاء واحدة من أكثر زخات الشهب موثوقية في العام، ومن المتوقع أن تكون الظروف مواتية بشكل خاص في عام 2026، حيث تبلغ ذروتها في 13-14 ديسمبر. سيكون القمر هلالًا رقيقًا وسيغرب مبكرًا في المساء، مما يترك السماء مظلمة لمعظم الليل."
+      },
+      {
+        "area": "الفضاء والشمس",
+        "change": "ظهور 'القمر العملاق البارد' (Cold Supermoon)، وهو أقرب بدر هذا العقد (على بعد 221,667 ميلاً من الأرض)، في 23 ديسمبر 2026. بالإضافة إلى 'استعراض الكواكب' الذي سيكون مرئيًا في أواخر ديسمبر 2026.",
+        "who": "مراقبو النجوم وأي شخص مهتم بالظواهر الفلكية في جميع أنحاء العالم.",
+        "evidence": "البدر الأخير من العام هو أيضًا الأقرب الذي رأيناه هذا العقد حتى الآن. في الواقع، لم نشهد قمرًا بهذا القرب - 221,667 ميلًا من الأرض - منذ عام 2018. في أواخر ديسمبر، سيملأ عرضان كوكبيان سماء الليل وقبل الفجر."
       },
       {
         "area": "الجسم والحياة اليومية",
-        "change": "تأثير درجات الحرارة المرتفعة (موجات الحر) على الصحة النفسية، مما يزيد من القلق والتوتر وتقلبات المزاج واضطرابات النوم.",
-        "who": "الأفراد بشكل عام، وخاصة الأطفال والشباب والعاملين في الهواء الطلق ومن يعانون من حالات صحة نفسية موجودة مسبقاً.",
-        "evidence": "مايو 2026، يوليو 2026، أغسطس 2026، أكتوبر 2026"
+        "change": "فقدان الناس عالميًا لما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة بين عامي 2020 و2025. تغير المناخ يجعل الليالي الحارة أكثر شيوعًا، مما يصعب النوم والبقاء نائمين.",
+        "who": "الناس العاديون في جميع أنحاء العالم، وخاصة في الشرق الأوسط، جنوب الهند، جنوب شرق آسيا، غرب إفريقيا، والمدن الأمريكية مثل أريزونا، كاليفورنيا، فلوريدا، ونيفادا. كبار السن والنساء وسكان البلدان ذات الدخل المنخفض يتأثرون بشكل غير متناسب.",
+        "evidence": "عالميًا، فقد الشخص العادي ما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة خلال الفترة 2020-2025. يُعزى حوالي ست ساعات من هذا الفقدان السنوي للنوم إلى الاحترار الناتج عن تغير المناخ."
       },
       {
         "area": "الجسم والحياة اليومية",
-        "change": "ارتفاع فواتير الكهرباء في فصل الشتاء بسبب زيادة استهلاك التدفئة وتسخين المياه وتغير أنماط الحياة.",
-        "who": "الأسر والأفراد، حيث يواجهون أعباء مالية إضافية وتتأثر عاداتهم اليومية.",
-        "evidence": "أكتوبر 2026، نوفمبر 2026"
+        "change": "استمرار الارتباط القوي بين وقت الشاشة المفرط والتأثيرات السلبية على الصحة العقلية (القلق والاكتئاب والعزلة الاجتماعية) واضطرابات النوم لكل من الأطفال والبالغين في عام 2026.",
+        "who": "الأطفال والمراهقون (خاصة الفتيات) والبالغون عالميًا. المراهقون الذين يقضون أربع ساعات أو أكثر يوميًا على الشاشات تظهر عليهم احتمالات أعلى بكثير للشعور بالحزن واليأس والقلق.",
+        "evidence": "بحلول عام 2026، يواصل الباحثون العثور على صلات قوية بين عادات الشاشة وجودة النوم وصحة الشباب العقلية. ارتبط وقت الشاشة اليومي الذي يبلغ أربع ساعات أو أكثر بزيادة خطر القلق بنسبة 45% وزيادة خطر الاكتئاب بنسبة 61% مقارنة بالأطفال الذين يستخدمون الشاشات بشكل أقل."
       },
       {
         "area": "الجسم والحياة اليومية",
-        "change": "تغيرات اجتماعية وثقافية نحو تزايد الفردية وتقليل التفاعل الشخصي وزيادة تأثير وسائل التواصل الاجتماعي.",
-        "who": "الأفراد والمجتمعات، مما يؤدي إلى زيادة التوتر والشعور بالوحدة وتراجع الروابط الأسرية في بعض الحالات.",
-        "evidence": "يوليو 2024، يوليو 2026"
+        "change": "انتهاء التوقيت الصيفي في أواخر أكتوبر/أوائل نوفمبر 2026 في أجزاء كثيرة من نصف الكرة الشمالي (مثل أوروبا وأمريكا الشمالية)، مما أدى إلى غروب الشمس مبكرًا وساعات نهار أقصر في المساء.",
+        "who": "الأشخاص في المناطق المتأثرة يختبرون تحولًا في روتينهم اليومي وأنماط نومهم وتعرضهم لضوء النهار.",
+        "evidence": "معلومة عامة (حدث سنوي)"
       },
       {
         "area": "المال والعمل",
-        "change": "توقعات بارتفاع التضخم في أسعار الغذاء العالمية، مع استمراره حتى عام 2027، بسبب الصراعات واضطرابات الشحن وظاهرة النينيو.",
-        "who": "المستهلكون حول العالم، وخاصة الأسر ذات الدخل المنخفض في آسيا والشرق الأوسط وأفريقيا، مما يؤثر على قدراتهم الشرائية.",
-        "evidence": "أكتوبر 2026، نوفمبر 2026، أغسطس 2026"
+        "change": "اقتصاد العمل الحر (Gig economy) والوظائف الجانبية (side hustles) أصبحا ضروريين للاستقرار المالي للكثير من العمال في عام 2026 بسبب ارتفاع التكاليف وأعباء الديون. 72% من العمال الأمريكيين يعتمدون على مصدر دخل ثانوي واحد على الأقل.",
+        "who": "العمال الأمريكيون والمهنيون عالميًا الذين يسعون لتكملة دخلهم، تغطية نفقات المعيشة الأساسية، أو بناء الاستقرار المالي.",
+        "evidence": "تكشف إحصائيات اقتصاد العمل الحر الرئيسية لعام 2026 أن الدخل التكميلي أصبح ضروريًا للغالبية العظمى من العمال الأمريكيين. 72% من العمال في الولايات المتحدة يعتمدون على دخل ثانوي."
       },
       {
         "area": "المال والعمل",
-        "change": "استمرار وتزايد تبني نموذج العمل الهجين والمرونة في العمل عن بعد.",
-        "who": "الموظفون والشركات، حيث تزداد فرص العمل المرن والطلب على المهارات الرقمية، بينما تحتاج الشركات للتكيف مع هذا النموذج.",
-        "evidence": "مارس 2026، يناير 2026، مايو 2026، ديسمبر 2024"
+        "change": "نماذج العمل عن بعد والهجين أصبحت هي القاعدة، حيث تسارعت وتيرتها بسبب ارتفاع تكاليف الوقود والضغوط الاقتصادية العالمية في عام 2026. حوالي 79% من الموظفين القادرين على العمل عن بعد عالميًا إما يعملون عن بعد بالكامل (27%) أو بنظام هجين (52%).",
+        "who": "الموظفون والشركات وأصحاب العمل عالميًا، مما يؤثر على أنماط التنقل واحتياجات المساحات المكتبية والتوازن بين العمل والحياة.",
+        "evidence": "يُعرّف العمل عن بعد في عام 2026 بهيمنة النماذج الهجينة، والاعتماد الواسع النطاق، والاعتماد المتزايد على أنظمة التكنولوجيا المتكاملة. 52% من الموظفين القادرين على العمل عن بعد يعملون الآن بترتيب هجين، بينما 27% يعملون عن بعد بشكل حصري."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تستمر أسعار الطاقة المرتفعة في التأثير على ميزانيات الأسر وقرارات الأعمال، مع تشجيع منظمات مثل وكالة الطاقة الدولية على اتخاذ تدابير مثل العمل عن بعد لتخفيف الضغوط.",
+        "who": "الأسر والشركات عالميًا، مما يؤثر على تكاليف المعيشة والمصروفات التشغيلية.",
+        "evidence": "عندما ترتفع أسعار الوقود، يصبح التنقل أكثر تكلفة بكثير. بالنسبة للموظفين الذين يقودون مسافات طويلة، يمكن أن يصبح تكلفة الوصول إلى العمل عبئًا ماليًا خطيرًا. على المستوى الاقتصادي الأوسع، تساهم تكاليف الوقود المتزايدة في الضغوط التضخمية وميزانيات الأعمال الأكثر إحكامًا."
       },
       {
         "area": "التكنولوجيا",
-        "change": "تحديثات أندرويد 16 و17 تقدم ميزات الذكاء الاصطناعي الجديدة مثل Gemini الذي يتذكر أماكن الأشياء، وMotion Assist لتقليل دوار الحركة، وGuided Vision للأوصاف الصوتية.",
-        "who": "مستخدمو هواتف أندرويد (خاصة أجهزة بيكسل أولاً)، مما يحسن تجربة الاستخدام اليومية والوصول للمعلومات.",
-        "evidence": "سبتمبر 2026، يونيو 2026، نوفمبر 2026، مارس 2026"
-      },
-      {
-        "area": "التكنولوجيا",
-        "change": "توسيع ميزة مشاركة الملفات 'Quick Share' لتصبح متوافقة مع هواتف آيفون وأندرويد بشكل أوسع.",
-        "who": "مستخدمو الهواتف الذكية من كلا النظامين، مما يسهل تبادل الصور والملفات بشكل مباشر.",
-        "evidence": "يونيو 2026"
+        "change": "أدوات الذكاء الاصطناعي تخلق فرصًا جديدة وتدعم نمو الوظائف الجانبية المعتمدة على الذكاء الاصطناعي، خاصة في إنشاء المحتوى (الكتابة الحرة، محتوى الفيديو).",
+        "who": "العمال المستقلون (Freelancers)، ومنشئو المحتوى، والأفراد الباحثون عن مصادر دخل إضافية، والشركات الصغيرة.",
+        "evidence": "في عام 2026، تخلق اتجاهات مثل أتمتة الذكاء الاصطناعي والمنتجات المستدامة وإنشاء المحتوى الرقمي فرصًا جديدة. ارتفع الاهتمام بالكتابة الحرة بنسبة 5,546% العام الماضي، ويُشار إلى أدوات الذكاء الاصطناعي كوسيلة لتسهيل صقل العمل. ارتفع الاهتمام بالوظائف الجانبية المعتمدة على الذكاء الاصطناعي بنحو 28% على أساس سنوي في عام 2026."
       },
       {
         "area": "القواعد والمجتمع",
-        "change": "تطبيق ميزات أمان جديدة في نظام أندرويد 17، بما في ذلك قفل اكتشاف السرقة، وإنهاء المكالمات الاحتيالية تلقائياً، وفحص البرامج الضارة لملفات APK.",
-        "who": "مستخدمو هواتف أندرويد، مما يعزز خصوصيتهم وأمانهم من الاحتيال والبرامج الضارة.",
-        "evidence": "يونيو 2026"
+        "change": "بدء سريان قوانين جديدة شاملة لخصوصية بيانات المستهلك في كنتاكي ورود آيلاند وإنديانا في 1 يناير 2026. قامت كاليفورنيا أيضًا بتحديث قانون الخصوصية الحالي، وسنت عدة ولايات أخرى (ألاباما، لويزيانا، أوكلاهوما، فيرمونت) قوانين جديدة في عام 2026 بتواريخ سريان لاحقة.",
+        "who": "الشركات العاملة في هذه الولايات، والمستهلكون الذين يتم جمع بياناتهم ومعالجتها، مما يؤثر على كيفية التعامل مع البيانات الشخصية وتخزينها وبيعها.",
+        "evidence": "دخلت قوانين خصوصية بيانات المستهلك الجديدة في كنتاكي ورود آيلاند وإنديانا حيز التنفيذ اعتبارًا من 1 يناير 2026. قامت كاليفورنيا بإجراء تحديثات على قانون خصوصية المستهلك الحالي. سنت أربع ولايات قوانين خصوصية شاملة في عام 2026، ليصل إجمالي عدد الولايات التي تتمتع بهذه الحماية إلى 24 ولاية."
       }
     ],
     "links": [
-      "تؤثر موجات الحر الشديدة (الأرض والمناخ) على الصحة النفسية وتزيد من القلق واضطرابات النوم (الجسم والحياة اليومية).",
-      "يمكن أن تؤدي العواصف الشمسية (الفضاء والشمس) إلى تعطيل أنظمة تحديد المواقع العالمية (GPS) وشبكات الطاقة (التكنولوجيا)، مما يؤثر على الملاحة والخدمات اللوجستية والزراعة (المال والعمل).",
-      "ارتفاع فواتير الطاقة في الشتاء (المال والعمل) يؤثر على عادات الأسر في استخدام التدفئة وتسخين المياه، مما قد يؤثر على راحتهم وصحتهم (الجسم والحياة اليومية).",
-      "يساهم تزايد تبني نموذج العمل عن بعد (المال والعمل) في زيادة استخدام التكنولوجيا الرقمية والإنترنت (التكنولوجيا)، وقد يقلل من التفاعل الاجتماعي المباشر ويزيد من الشعور بالوحدة لدى البعض (الجسم والحياة اليومية).",
-      "تؤدي التغيرات المناخية مثل ظاهرة النينيو (الأرض والمناخ) إلى اضطرابات في المحاصيل وارتفاع أسعار الغذاء العالمية (المال والعمل)، مما قد يثير اضطرابات اجتماعية وقيودًا على الصادرات من قبل الحكومات (القواعد والمجتمع)."
+      "الأرض والمناخ -> الجسم والحياة اليومية -> المال والعمل: ارتفاع درجات حرارة الليل يؤثر على جودة النوم، مما يقلل من إنتاجية الأفراد في عملهم وحياتهم اليومية.",
+      "المال والعمل -> المال والعمل: ارتفاع أسعار الوقود يزيد من تكاليف التنقل، مما يدفع المزيد من الشركات والأفراد لتبني العمل عن بعد أو الهجين كحل اقتصادي.",
+      "الأرض والمناخ -> الجسم والحياة اليومية: تغير المناخ وارتفاع درجات الحرارة يساهمان في مواسم حساسية أطول وأكثر شدة، مما يؤثر على صحة الجهاز التنفسي للناس.",
+      "الجسم والحياة اليومية -> الجسم والحياة اليومية: الاستخدام المفرط للشاشات يؤثر سلباً على الصحة العقلية (القلق والاكتئاب)، وهذا بدوره يؤدي إلى اضطرابات في النوم."
     ]
   },
   "ideas": [
     {
-      "name": "Remote Safety Beacon",
-      "signal": "تزايد إطلاق الأقمار الصناعية لخدمات الإنترنت والاتصالات المباشرة للهواتف الذكية العادية. | تطبيق ميزات أمان جديدة في نظام أندرويد 17.",
-      "pitch": "تطبيق أمان شخصي ذكي يستخدم الاتصال المباشر بالأقمار الصناعية وميزات أمان أندرويد 17 لضمان سلامة المستخدمين في المناطق النائية أو عند مواجهة تهديدات أمنية.",
-      "problem": "المسافرون والمغامرون والعاملون في المناطق النائية يواجهون مخاطر انعدام الاتصال أو التعرض لتهديدات أمنية دون القدرة على طلب المساعدة بفعالية. كما أن هناك طلبًا متزايدًا على حلول السلامة الشخصية الذكية التي تستخدم الذكاء الاصطناعي للتنبؤ بالتهديدات وتقليل الإنذارات الكاذبة.",
-      "audience": "المسافرون الدوليون، عشاق المغامرات، العاملون في الحقول النائية، ومستخدمو أندرويد المهتمون بالأمان الشخصي.",
-      "whyNow": "مع تزايد تغطية الإنترنت عبر الأقمار الصناعية المباشر للهواتف الذكية (أكتوبر/نوفمبر 2026، أغسطس 2026) وتضمين ميزات أمان متقدمة في أندرويد 17 مثل قفل اكتشاف السرقة (يونيو 2026)، أصبح بالإمكان دمج هذه التقنيات لتقديم حل أمان شخصي متكامل وفعال لا يعتمد على التغطية الخلوية التقليدية.",
-      "novelty": "يقدم حلاً شاملاً للأمان الشخصي يستفيد مباشرة من إمكانيات الاتصال بالأقمار الصناعية المدمجة في الهواتف الذكية وميزات أمان أندرويد 17 الجديدة، مما يوفر تتبعًا متقدمًا واتصالًا ثنائي الاتجاه مع جهات الاتصال في المناطق النائية دون الحاجة إلى أجهزة أقمار صناعية منفصلة.",
+      "name": "TempSleep AI",
+      "signal": "Exceptional global temperatures (1) and sleep loss due to heat (6)",
+      "pitch": "AI-powered sleep enhancer using phone sensors to suggest precise, personalized environmental adjustments for better sleep on hot nights.",
+      "problem": "Millions worldwide lose sleep due to rising ambient temperatures; current solutions lack personalized adaptive recommendations unconnected to smart home systems.",
+      "audience": "Individuals worldwide struggling to sleep due to heat, especially in affected regions like the Middle East, South India, and Southeast Asia.",
+      "whyNow": "2026 is projected to be one of the hottest years, with El Niño bringing extreme weather until 2027. The average person globally lost approximately 56 hours of sleep annually due to rising temperatures between 2020 and 2025, making this solution essential now.",
+      "novelty": "Uses *only* phone sensors (without requiring wearables or additional smart home devices) to provide *actionable, manual* environmental adjustment suggestions specifically for hot nights.",
       "competition": "متوسطة",
       "competitors": [
-        "ZOLEO",
-        "Garmin inReach (مع تطبيق Garmin Messenger)",
-        "SPOT (مع تطبيق SPOT App)",
-        "Personal Safety و Emergency SOS (خاصة Pixel Satellite SOS)",
-        "Silent Beacon / SOS Alert / Red Panic Button / GetHomeSafe"
+        "CircadiaOS",
+        "SmartThings (Samsung)",
+        "Google Nest Hub (الجيل الثاني)",
+        "Sleep Cycle",
+        "SleepScore (by Sleep.ai)"
       ],
-      "edge": "توجد فجوة في تطبيق أمان شخصي شامل يعتمد بشكل مباشر على إمكانيات الاتصال بالأقمار الصناعية المدمجة في الهاتف (خاصة مع تطور ميزات Android 17) لتقديم مجموعة واسعة من ميزات الأمان (تتبع متقدم، اتصال ثنائي الاتجاه مع جهات الاتصال، وليس فقط خدمات الطوارئ) دون الحاجة إلى جهاز أقمار صناعية منفصل.",
-      "monetization": "اشتراك شهري أو سنوي للميزات المتقدمة مثل التتبع المستمر، وتنبيهات الأمان المخصصة، وإدارة جهات الاتصال في حالات الطوارئ، وربما رسوم رمزية على استخدام بيانات الأقمار الصناعية إذا كان ذلك ممكنًا.",
-      "buildDifficulty": "متوسط",
+      "edge": "The gap lies in an app that *only* uses phone sensors (without requiring wearables or additional smart home devices) to analyze the body's response to temperature on hot nights, then suggests precise, personalized environmental adjustments (e.g., guiding the user to manually adjust a fan or AC, or open a window). This narrow scope is not fully covered by existing apps.",
+      "monetization": "Freemium model: Basic sleep tracking and general temperature insights are free. A premium subscription offers advanced AI-driven personalized recommendations, historical data analysis of sleep quality versus environmental factors, and proactive alerts for upcoming hot nights with suggested preparations.",
+      "buildDifficulty": "متوسطة",
       "buildDays": 15,
-      "score": 9,
-      "firstStep": "البحث في واجهات برمجة التطبيقات (APIs) الجديدة في أندرويد 17 المتعلقة بالاتصال بالأقمار الصناعية وميزات الأمان، وتصميم واجهة المستخدم الأساسية لتنبيهات الطوارئ وتتبع الموقع."
-    },
-    {
-      "name": "Global Pantry AI",
-      "signal": "توقعات بارتفاع التضخم في أسعار الغذاء العالمية. | تحديثات أندرويد 16 و17 تقدم ميزات الذكاء الاصطناعي الجديدة مثل Gemini الذي يتذكر أماكن الأشياء وGuided Vision للأوصاف الصوتية.",
-      "pitch": "تطبيق ذكاء اصطناعي لإدارة مخزون الطعام الشخصي، يستخدم كاميرا الهاتف وAI لتتبع المكونات وتاريخ صلاحيتها ومواقعها، ويقدم توصيات شراء ذكية لمواجهة ارتفاع أسعار الغذاء العالمية وتقليل الهدر.",
-      "problem": "المستهلكون حول العالم يعانون من ارتفاع أسعار الغذاء وهدر الطعام، ويحتاجون إلى أدوات لمساعدتهم على إدارة مشترياتهم ومخزونهم بفعالية.",
-      "audience": "الأسر، الأفراد المهتمون بالادخار وتقليل هدر الطعام، وأي شخص يتأثر بارتفاع أسعار الغذاء.",
-      "whyNow": "مع استمرار ارتفاع التضخم في أسعار الغذاء العالمية حتى عام 2027 (أكتوبر 2026، نوفمبر 2026)، وتوفر ميزات AI في أندرويد مثل Gemini الذي يتذكر أماكن الأشياء وGuided Vision (سبتمبر 2026، نوفمبر 2026) التي يمكن أن تساعد في إدارة المخزون بصرياً، يمكن للتطبيق تقديم حل عملي ومبتكر.",
-      "novelty": "يستفيد التطبيق بشكل مباشر من ميزات الذكاء الاصطناعي الجديدة في أندرويد 16/17، مثل قدرة Gemini على تذكر أماكن الأشياء وGuided Vision للوصف الصوتي، لتقديم نظام إدارة مخزون طعام بصري ذكي يقلل من الإدخال اليدوي ويسهل تتبع المكونات وتواريخ صلاحيتها ومواقعها في المنزل.",
-      "competition": "متوسطة",
-      "competitors": [
-        "Pantry Check",
-        "CozZo",
-        "Fridge Pal",
-        "Open Food Facts"
-      ],
-      "edge": "الاستفادة المباشرة من ميزات الذكاء الاصطناعي الجديدة في أندرويد 16/17 مثل Gemini (لتذكر أماكن الأشياء) وGuided Vision (للوصف الصوتي والمساعدة البصرية) لتقديم تجربة فريدة لإدارة المخزون البصري وتتبع الصلاحية، مما يقلل الحاجة للإدخال اليدوي أو الماسحات الضوئية الباهظة.",
-      "monetization": "اشتراك مميز للحصول على ميزات متقدمة مثل تقارير مفصلة عن الهدر، واقتراحات وصفات طعام مخصصة بناءً على المخزون المتاح، وتنبيهات شراء ذكية.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 18,
-      "score": 9,
-      "firstStep": "تطوير وظيفة أساسية لالتقاط صور للمكونات باستخدام كاميرا الهاتف وتحليلها بواسطة AI لتحديد العنصر وتاريخ الصلاحية، مع ربطها بميزة Gemini لتذكر الموقع."
-    },
-    {
-      "name": "Hyper-Local Climate Guardian",
-      "signal": "استمرار موجات الحر القياسية وحرائق الغابات والفيضانات العارمة. | تزايد إطلاق الأقمار الصناعية لخدمات الإنترنت والاتصالات المباشرة للهواتف الذكية العادية.",
-      "pitch": "تطبيق يستخدم الذكاء الاصطناعي لتوفير تنبيهات مناخية دقيقة ومخصصة للغاية للموقع الجغرافي للمستخدم، مع خطط استجابة سريعة ومعلومات اتصال طارئة، مستفيداً من الاتصال بالأقمار الصناعية لضمان التوفر حتى في الظروف القاسية.",
-      "problem": "المواطنون في المناطق المتأثرة بالظواهر المناخية المتطرفة يحتاجون إلى معلومات دقيقة وفي الوقت المناسب، وغالباً ما تكون البنية التحتية للاتصالات التقليدية معرضة للتعطيل.",
-      "audience": "السكان في المناطق المعرضة للكوارث الطبيعية، المسافرون، والمجتمعات التي تعاني من ضعف البنية التحتية.",
-      "whyNow": "مع استمرار الظواهر المناخية المتطرفة (أغسطس 2025) وتزايد إطلاق الأقمار الصناعية لخدمات الإنترنت المباشرة للهواتف الذكية (أكتوبر/نوفمبر 2026، أغسطس 2026)، يمكن للتطبيق تقديم نظام تنبيه مبكر وحلول اتصال موثوقة في حالات الطوارئ.",
-      "novelty": "يجمع هذا التطبيق بين التنبيهات المناخية فائقة الدقة والمخصصة للموقع الجغرافي، مع خطط استجابة سريعة مدعومة بالذكاء الاصطناعي، والأهم هو ضمان استمرارية الاتصال عبر الأقمار الصناعية المباشر من الهاتف في حالات الطوارئ وانقطاع الشبكات التقليدية، مما يجعله حلاً شاملاً ومرنًا.",
-      "competition": "متوسطة",
-      "competitors": [
-        "AccuWeather",
-        "The Weather Channel",
-        "FEMA App",
-        "Red Cross Emergency App"
-      ],
-      "edge": "يجمع بين التنبيهات المناخية فائقة الدقة والمخصصة للموقع الجغرافي، مع خطط استجابة سريعة مدعومة بالذكاء الاصطناعي، والأهم هو ضمان استمرارية الاتصال عبر الأقمار الصناعية المباشر من الهاتف في حالات الطوارئ وانقطاع الشبكات التقليدية.",
-      "monetization": "اشتراك مميز للحصول على تنبيهات متقدمة، وخطط استجابة مخصصة، وميزات اتصال طوارئ إضافية عبر الأقمار الصناعية.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 16,
-      "score": 8.5,
-      "firstStep": "دمج واجهة برمجة تطبيقات (API) للطقس فائقة الدقة، وتصميم واجهة المستخدم لعرض التنبيهات المناخية الأساسية، وتحديد كيفية الاستفادة من ميزات الاتصال بالأقمار الصناعية في حالات الطوارئ."
-    },
-    {
-      "name": "AI Trust Navigator",
-      "signal": "تحديثات أندرويد 16 و17 تقدم ميزات الذكاء الاصطناعي الجديدة مثل Gemini. | تطبيق ميزات أمان جديدة في نظام أندرويد 17، بما في ذلك إنهاء المكالمات الاحتيالية تلقائياً وفحص البرامج الضارة لملفات APK.",
-      "pitch": "تطبيق ذكاء اصطناعي يساعد المستخدمين على فهم ميزات الذكاء الاصطناعي الجديدة في أندرويد 16/17 وإدارتها بأمان، ويوفر إرشادات لتعزيز الخصوصية والأمان الرقمي في ظل تزايد التهديدات الاحتيالية والبرامج الضارة التي قد تستغل الذكاء الاصطناعي.",
-      "problem": "يشعر مستخدمو أندرويد بالقلق بشأن خصوصيتهم وأمانهم مع تزايد دمج الذكاء الاصطناعي وميزات الأمان الجديدة، ويحتاجون إلى فهم سهل لهذه التقنيات وكيفية الاستفادة منها وحماية أنفسهم.",
-      "audience": "جميع مستخدمي أندرويد، وخاصة أولئك المهتمين بالخصوصية والأمان الرقمي وكيفية التفاعل مع الذكاء الاصطناعي.",
-      "whyNow": "مع تقديم ميزات AI متقدمة في أندرويد 16/17 مثل Gemini (سبتمبر 2026، نوفمبر 2026) وميزات الأمان الجديدة كإنهاء المكالمات الاحتيالية تلقائياً (يونيو 2026)، يحتاج المستخدمون إلى دليل موثوق لفهم هذه التقنيات وإدارتها بفعالية لتعزيز ثقتهم وأمانهم الرقمي.",
-      "novelty": "يقدم دليلاً تفاعلياً مدعوماً بالذكاء الاصطناعي يركز حصرياً على ميزات الذكاء الاصطناعي والأمان الجديدة والمدمجة في نظام أندرويد 16/17، مما يوفر للمستخدمين فهماً عميقاً وإدارة آمنة لهذه التقنيات دون الحاجة إلى تطبيقات أمان عامة أو أدلة معقدة.",
-      "competition": "منخفضة",
-      "competitors": [
-        "Google's own help/support",
-        "General security apps (e.g., Avast, Malwarebytes)",
-        "Privacy guides/blogs"
-      ],
-      "edge": "يقدم دليلاً تفاعلياً مدعوماً بالذكاء الاصطناعي يركز حصرياً على ميزات الذكاء الاصطناعي والأمان الجديدة والمدمجة في نظام أندرويد 16/17، مما يوفر للمستخدمين فهماً عميقاً وإدارة آمنة لهذه التقنيات دون الحاجة إلى تطبيقات أمان عامة.",
-      "monetization": "اشتراك مميز للحصول على تحليلات أمان متقدمة، وتوصيات مخصصة، وميزات تدريب تفاعلية حول كيفية استخدام ميزات AI الجديدة بأمان.",
-      "buildDifficulty": "سهل",
-      "buildDays": 10,
-      "score": 8.5,
-      "firstStep": "جمع المعلومات حول ميزات الذكاء الاصطناعي والأمان الجديدة في أندرويد 16/17، وتصميم واجهة مستخدم بسيطة لتقديم هذه المعلومات بشكل تفاعلي."
-    },
-    {
-      "name": "Climate Resilience Companion",
-      "signal": "استمرار موجات الحر القياسية وحرائق الغابات والفيضانات العارمة. | تأثير درجات الحرارة المرتفعة على الصحة النفسية. | تحديثات أندرويد 16 و17 تقدم ميزات الذكاء الاصطناعي الجديدة مثل Motion Assist لتقليل دوار الحركة.",
-      "pitch": "مساعد ذكاء اصطناعي للهاتف يوفر إرشادات شخصية استباقية لمواجهة آثار الظواهر المناخية المتطرفة على الصحة الجسدية والنفسية، بالاستفادة من بيانات الموقع ومستشعرات الهاتف.",
-      "problem": "يعاني الأفراد من القلق والتوتر واضطرابات النوم بسبب موجات الحر والظواهر المناخية المتطرفة، وغالباً ما يفتقرون إلى إرشادات عملية مخصصة.",
-      "audience": "السكان في المناطق المعرضة للظواهر المناخية المتطرفة، والأفراد المهتمون بالصحة النفسية والجسدية.",
-      "whyNow": "مع استمرار موجات الحر (أغسطس 2025) وتأثيرها المباشر على الصحة النفسية (مايو 2026، يوليو 2026، أكتوبر 2026)، وتوفر قدرات AI جديدة في أندرويد مثل Motion Assist التي يمكن تكييفها للتعامل مع التوتر (يونيو 2026)، يمكن للتطبيق أن يقدم دعمًا فوريًا واستباقيًا.",
-      "novelty": "يربط التطبيق بشكل فريد بين الظواهر المناخية المتطرفة المحلية (مثل موجات الحر) وتأثيراتها المباشرة على الصحة النفسية والجسدية، ويقدم إرشادات استباقية ومخصصة باستخدام مستشعرات الهاتف وميزات الذكاء الاصطناعي الجديدة في أندرويد (مثل Motion Assist) لتقديم دعم فوري.",
-      "competition": "متوسطة",
-      "competitors": [
-        "Calm",
-        "Headspace",
-        "Weather apps with health advisories",
-        "General wellness apps"
-      ],
-      "edge": "يربط بشكل فريد بين الظواهر المناخية المتطرفة المحلية (مثل موجات الحر) وتأثيراتها المباشرة على الصحة النفسية والجسدية، ويقدم إرشادات استباقية ومخصصة باستخدام مستشعرات الهاتف وميزات الذكاء الاصطناعي الجديدة في أندرويد (مثل Motion Assist) لتقديم دعم فوري.",
-      "monetization": "اشتراك مميز للحصول على برامج مخصصة للتعامل مع التوتر، وتمارين تنفس موجهة، ومحتوى حصري حول التكيف النفسي مع التغيرات المناخية.",
-      "buildDifficulty": "متوسط",
-      "buildDays": 14,
       "score": 8,
-      "firstStep": "دمج واجهة برمجة تطبيقات (API) للطقس المحلي، وتطوير خوارزمية أساسية لربط الظواهر المناخية بتأثيرات الصحة النفسية، وتصميم واجهة المستخدم لتقديم نصائح بسيطة."
+      "firstStep": "Develop core functionality for collecting temperature and light data from phone sensors and a basic UI for sleep tracking and manual environmental suggestions."
     }
   ],
   "rejected": [
     {
-      "name": "Connection Canvas AI",
-      "reason": "الفكرة واسعة جداً ومعقدة للغاية لتطويرها بواسطة شخص واحد في 3 أسابيع، كما أن سوق تطبيقات التواصل الاجتماعي مشبع جداً، والربحية غير واضحة، والصلة بين الذكاء الاصطناعي وميزة Quick Share كعنصر أساسي ضعيفة."
+      "name": "AirSense Guardian",
+      "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local data sources (wildfire smoke, air quality, pollen) and providing personalized AI advice within a 3-week timeframe."
     },
     {
-      "name": "Celestial Insight AI",
-      "reason": "على الرغم من وجود زاوية فريدة تتعلق بإمكانية الوصول لذوي الإعاقة البصرية باستخدام الذكاء الاصطناعي، إلا أن سوق تطبيقات الفلك العام مشبع، وقد تم رفض فكرة مشابهة ('Celestial Guide AI') سابقاً من قبل Moe، مما يشير إلى عدم اهتمامه بهذا الاتجاه العام."
+      "name": "AstroDetox",
+      "reason": "Rejected due to missing competition check and the complexity of building a robust astronomical tracker combined with screen time reduction gamification and AI-powered rewards within a 3-week timeframe."
     },
     {
-      "name": "Smart Energy Sentinel",
-      "reason": "القدرة على 'مراقبة' استهلاك الطاقة في المنزل من الهاتف فقط، بالاعتماد على ميزة Gemini 'التي تتذكر أماكن الأشياء' دون الحاجة إلى أجهزة ذكية أو تكامل عميق مع شركات الطاقة، هي فكرة تخمينية وصعبة التنفيذ بفعالية ضمن قيود الوقت والموارد المتاحة، مما يجعل الجدوى التقنية ضعيفة."
+      "name": "GigPrivacy AI",
+      "reason": "Rejected due to missing competition check and the significant complexity of developing AI to analyze content for data privacy risks and ensure legal compliance across various new laws within a 3-week timeframe."
+    },
+    {
+      "name": "EcoWork AI",
+      "reason": "Rejected due to missing competition check, implying smart home/IoT control which is explicitly disallowed, and the vague nature of 'optimizing schedule and habits' with AI for energy saving."
+    },
+    {
+      "name": "BioLight Sync",
+      "reason": "Rejected due to missing competition check."
+    },
+    {
+      "name": "EnviroPath AI",
+      "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local environmental data sources (temperature, wildfires, allergies) and providing personalized AI advice within a 3-week timeframe."
+    },
+    {
+      "name": "GigWatt AI",
+      "reason": "Rejected due to missing competition check and the vague nature of 'optimizing tasks and workspace for maximum energy savings' with AI, which is potentially too complex for a 3-week build."
     }
   ],
   "en": {
-    "summary": "New ideas focus on leveraging upcoming AI and security features in Android, in addition to direct satellite connectivity for phones, to address global challenges such as personal safety in remote areas, climate resilience, food inventory management amidst inflation, and enhancing digital trust and security.",
+    "summary": "Today, we focused on global English Android app ideas, buildable by a single developer within 1-3 weeks, with an emphasis on leveraging current global changes and offering unique solutions.",
     "trends": [
-      "Increasing launch of satellites for internet services and direct communications to regular smartphones.",
-      "Android 16 and 17 updates introduce new AI features such as Gemini, Motion Assist, and Guided Vision.",
-      "Continuation of record heatwaves and extreme weather events and their impact on mental health.",
-      "Forecasts of rising global food inflation.",
-      "Implementation of new security features in Android 17, including theft detection lock and automatic scam call termination."
+      "Exceptional global temperatures continue, with 2026 expected to be one of the hottest years, increasing heatwaves and extreme weather.",
+      "People globally lose approximately 56 hours of sleep annually due to rising ambient temperatures, making good sleep an increasing challenge.",
+      "The gig economy and side hustles have become essential for financial stability for many, and AI tools support the growth of AI-powered side hustles."
     ],
     "ideas": [
       {
-        "name": "Remote Safety Beacon",
-        "signal": "Increasing launch of satellites for internet services and direct communications to regular smartphones. | Implementation of new security features in Android 17.",
-        "pitch": "A smart personal safety app that uses direct satellite connectivity and Android 17 security features to ensure user safety in remote areas or when facing security threats.",
-        "problem": "Travelers, adventurers, and workers in remote areas face risks of lack of connectivity or exposure to security threats without the ability to effectively call for help. There is also increasing demand for smart personal safety solutions that use AI to predict threats and reduce false alarms.",
-        "audience": "International travelers, adventure enthusiasts, remote field workers, and Android users interested in personal safety.",
-        "whyNow": "With increasing direct satellite internet coverage for smartphones (October/November 2026, August 2026) and the inclusion of advanced security features in Android 17 such as theft detection lock (June 2026), it is now possible to integrate these technologies to provide a comprehensive and effective personal safety solution that does not rely on traditional cellular coverage.",
-        "novelty": "It offers a comprehensive personal safety solution that directly leverages the built-in satellite connectivity capabilities of smartphones and new Android 17 security features, providing advanced tracking and two-way communication with contacts in remote areas without the need for separate satellite devices.",
+        "name": "TempSleep AI",
+        "signal": "Exceptional global temperatures (1) and sleep loss due to heat (6)",
+        "pitch": "AI-powered sleep enhancer using phone sensors to suggest precise, personalized environmental adjustments for better sleep on hot nights.",
+        "problem": "Millions worldwide lose sleep due to rising ambient temperatures; current solutions lack personalized adaptive recommendations unconnected to smart home systems.",
+        "audience": "Individuals worldwide struggling to sleep due to heat, especially in affected regions like the Middle East, South India, and Southeast Asia.",
+        "whyNow": "2026 is projected to be one of the hottest years, with El Niño bringing extreme weather until 2027. The average person globally lost approximately 56 hours of sleep annually due to rising temperatures between 2020 and 2025, making this solution essential now.",
+        "novelty": "Uses *only* phone sensors (without requiring wearables or additional smart home devices) to provide *actionable, manual* environmental adjustment suggestions specifically for hot nights.",
         "competition": "Medium",
         "competitors": [
-          "ZOLEO",
-          "Garmin inReach (with Garmin Messenger app)",
-          "SPOT (with SPOT App)",
-          "Personal Safety and Emergency SOS (especially Pixel Satellite SOS)",
-          "Silent Beacon / SOS Alert / Red Panic Button / GetHomeSafe"
+          "CircadiaOS",
+          "SmartThings (Samsung)",
+          "Google Nest Hub (2nd Gen)",
+          "Sleep Cycle",
+          "SleepScore (by Sleep.ai)"
         ],
-        "edge": "There is a gap in a comprehensive personal safety application that directly relies on the built-in satellite connectivity capabilities of the phone (especially with the evolution of Android 17 features) to provide a wide range of safety features (advanced tracking, two-way communication with contacts, not just emergency services) without the need for a separate satellite device.",
-        "monetization": "Monthly or annual subscription for advanced features such as continuous tracking, customized security alerts, emergency contact management, and possibly symbolic fees for satellite data usage if feasible.",
+        "edge": "The gap lies in an app that *only* uses phone sensors (without requiring wearables or additional smart home devices) to analyze the body's response to temperature on hot nights, then suggests precise, personalized environmental adjustments (e.g., guiding the user to manually adjust a fan or AC, or open a window). This narrow scope is not fully covered by existing apps.",
+        "monetization": "Freemium model: Basic sleep tracking and general temperature insights are free. A premium subscription offers advanced AI-driven personalized recommendations, historical data analysis of sleep quality versus environmental factors, and proactive alerts for upcoming hot nights with suggested preparations.",
         "buildDifficulty": "Medium",
         "buildDays": 15,
-        "score": 9,
-        "firstStep": "Research new APIs in Android 17 related to satellite connectivity and security features, and design the basic user interface for emergency alerts and location tracking."
-      },
-      {
-        "name": "Global Pantry AI",
-        "signal": "Forecasts of rising global food inflation. | Android 16 and 17 updates introduce new AI features such as Gemini, which remembers item locations, and Guided Vision for audio descriptions.",
-        "pitch": "An AI-powered personal food inventory management app that uses the phone's camera and AI to track ingredients, their expiry dates, and locations, and provides smart purchasing recommendations to counter rising global food prices and reduce waste.",
-        "problem": "Consumers worldwide suffer from rising food prices and food waste, and need tools to help them manage their purchases and inventory effectively.",
-        "audience": "Families, individuals interested in saving money and reducing food waste, and anyone affected by rising food prices.",
-        "whyNow": "With global food inflation continuing to rise until 2027 (October 2026, November 2026), and the availability of AI features in Android such as Gemini, which remembers item locations, and Guided Vision (September 2026, November 2026), which can assist in visual inventory management, the app can offer a practical and innovative solution.",
-        "novelty": "The app directly leverages new AI features in Android 16/17, such as Gemini's ability to remember item locations and Guided Vision for audio descriptions, to provide a smart visual food inventory management system that reduces manual input and facilitates tracking ingredients, their expiry dates, and locations at home.",
-        "competition": "Medium",
-        "competitors": [
-          "Pantry Check",
-          "CozZo",
-          "Fridge Pal",
-          "Open Food Facts"
-        ],
-        "edge": "Directly leveraging new AI features in Android 16/17 such as Gemini (for remembering item locations) and Guided Vision (for audio descriptions and visual assistance) to provide a unique visual inventory management and expiry tracking experience, reducing the need for manual input or expensive scanners.",
-        "monetization": "Premium subscription for advanced features such as detailed waste reports, personalized recipe suggestions based on available inventory, and smart purchasing alerts.",
-        "buildDifficulty": "Medium",
-        "buildDays": 18,
-        "score": 9,
-        "firstStep": "Develop a core function to capture images of ingredients using the phone's camera and analyze them with AI to identify the item and expiry date, linking it with the Gemini feature to remember the location."
-      },
-      {
-        "name": "Hyper-Local Climate Guardian",
-        "signal": "Continuation of record heatwaves, wildfires, and widespread floods. | Increasing launch of satellites for internet services and direct communications to regular smartphones.",
-        "pitch": "An app that uses AI to provide highly accurate and personalized climate alerts for the user's geographical location, with rapid response plans and emergency contact information, leveraging satellite connectivity to ensure availability even in harsh conditions.",
-        "problem": "Citizens in areas affected by extreme weather events need accurate and timely information, and traditional communication infrastructure is often vulnerable to disruption.",
-        "audience": "Residents in areas prone to natural disasters, travelers, and communities with weak infrastructure.",
-        "whyNow": "With the continuation of extreme weather events (August 2025) and the increasing launch of satellites for direct internet services to smartphones (October/November 2026, August 2026), the app can provide an early warning system and reliable communication solutions in emergencies.",
-        "novelty": "This app combines ultra-accurate and location-specific climate alerts with AI-powered rapid response plans, and most importantly, ensures continuous direct satellite communication from the phone during emergencies and traditional network outages, making it a comprehensive and flexible solution.",
-        "competition": "Medium",
-        "competitors": [
-          "AccuWeather",
-          "The Weather Channel",
-          "FEMA App",
-          "Red Cross Emergency App"
-        ],
-        "edge": "It combines ultra-accurate and location-specific climate alerts with AI-powered rapid response plans, and most importantly, ensures continuous direct satellite communication from the phone during emergencies and traditional network outages.",
-        "monetization": "Premium subscription for advanced alerts, customized response plans, and additional emergency satellite communication features.",
-        "buildDifficulty": "Medium",
-        "buildDays": 16,
-        "score": 8.5,
-        "firstStep": "Integrate an ultra-accurate weather API, design the user interface to display basic climate alerts, and determine how to leverage satellite communication features in emergencies."
-      },
-      {
-        "name": "AI Trust Navigator",
-        "signal": "Android 16 and 17 updates introduce new AI features such as Gemini. | Implementation of new security features in Android 17, including automatic scam call termination and malware scanning for APK files.",
-        "pitch": "An AI-powered app that helps users understand and safely manage new AI features in Android 16/17, providing guidance to enhance digital privacy and security amidst increasing scam threats and malware that may exploit AI.",
-        "problem": "Android users are concerned about their privacy and security with the increasing integration of AI and new security features, and need an easy understanding of these technologies, how to benefit from them, and how to protect themselves.",
-        "audience": "All Android users, especially those interested in digital privacy and security and how to interact with AI.",
-        "whyNow": "With the introduction of advanced AI features in Android 16/17 such as Gemini (September 2026, November 2026) and new security features like automatic scam call termination (June 2026), users need a reliable guide to understand and effectively manage these technologies to enhance their digital trust and security.",
-        "novelty": "It offers an interactive, AI-powered guide that focuses exclusively on new and integrated AI and security features in Android 16/17, providing users with a deep understanding and secure management of these technologies without the need for general security apps or complex manuals.",
-        "competition": "Low",
-        "competitors": [
-          "Google's own help/support",
-          "General security apps (e.g., Avast, Malwarebytes)",
-          "Privacy guides/blogs"
-        ],
-        "edge": "It offers an interactive, AI-powered guide that focuses exclusively on new and integrated AI and security features in Android 16/17, providing users with a deep understanding and secure management of these technologies without the need for general security apps.",
-        "monetization": "Premium subscription for advanced security analytics, personalized recommendations, and interactive training features on how to safely use new AI features.",
-        "buildDifficulty": "Easy",
-        "buildDays": 10,
-        "score": 8.5,
-        "firstStep": "Gather information about new AI and security features in Android 16/17, and design a simple user interface to present this information interactively."
-      },
-      {
-        "name": "Climate Resilience Companion",
-        "signal": "Continuation of record heatwaves, wildfires, and widespread floods. | Impact of high temperatures on mental health. | Android 16 and 17 updates introduce new AI features such as Motion Assist to reduce motion sickness.",
-        "pitch": "An AI-powered phone assistant that provides proactive personalized guidance to address the effects of extreme weather events on physical and mental health, leveraging location data and phone sensors.",
-        "problem": "Individuals suffer from anxiety, stress, and sleep disturbances due to heatwaves and extreme weather events, and often lack practical, personalized guidance.",
-        "audience": "Residents in areas prone to extreme weather events, and individuals interested in mental and physical health.",
-        "whyNow": "With the continuation of heatwaves (August 2025) and their direct impact on mental health (May 2026, July 2026, October 2026), and the availability of new AI capabilities in Android such as Motion Assist, which can be adapted to manage stress (June 2026), the app can provide immediate and proactive support.",
-        "novelty": "The app uniquely links local extreme weather events (such as heatwaves) with their direct impacts on mental and physical health, and provides proactive and personalized guidance using phone sensors and new AI features in Android (such as Motion Assist) to offer immediate support.",
-        "competition": "Medium",
-        "competitors": [
-          "Calm",
-          "Headspace",
-          "Weather apps with health advisories",
-          "General wellness apps"
-        ],
-        "edge": "It uniquely links local extreme weather events (such as heatwaves) with their direct impacts on mental and physical health, and provides proactive and personalized guidance using phone sensors and new AI features in Android (such as Motion Assist) to offer immediate support.",
-        "monetization": "Premium subscription for personalized stress management programs, guided breathing exercises, and exclusive content on psychological adaptation to climate changes.",
-        "buildDifficulty": "Medium",
-        "buildDays": 14,
         "score": 8,
-        "firstStep": "Integrate a local weather API, develop a basic algorithm to link weather phenomena with mental health impacts, and design the user interface to provide simple tips."
+        "firstStep": "Develop core functionality for collecting temperature and light data from phone sensors and a basic UI for sleep tracking and manual environmental suggestions."
       }
     ],
     "rejected": [
       {
-        "name": "Connection Canvas AI",
-        "reason": "The idea is too broad and overly complex for one person to develop in 3 weeks. Additionally, the social media app market is highly saturated, profitability is unclear, and the connection between AI and the Quick Share feature as a core element is weak."
+        "name": "AirSense Guardian",
+        "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local data sources (wildfire smoke, air quality, pollen) and providing personalized AI advice within a 3-week timeframe."
       },
       {
-        "name": "Celestial Insight AI",
-        "reason": "Although there is a unique angle related to accessibility for visually impaired individuals using AI, the general astronomy app market is saturated, and a similar idea ('Celestial Guide AI') was previously rejected by Moe, indicating his lack of interest in this general direction."
+        "name": "AstroDetox",
+        "reason": "Rejected due to missing competition check and the complexity of building a robust astronomical tracker combined with screen time reduction gamification and AI-powered rewards within a 3-week timeframe."
       },
       {
-        "name": "Smart Energy Sentinel",
-        "reason": "The ability to 'monitor' home energy consumption solely from the phone, relying on the Gemini feature 'that remembers item locations' without the need for smart devices or deep integration with energy companies, is a speculative idea and difficult to implement effectively within the available time and resource constraints, making its technical feasibility weak."
+        "name": "GigPrivacy AI",
+        "reason": "Rejected due to missing competition check and the significant complexity of developing AI to analyze content for data privacy risks and ensure legal compliance across various new laws within a 3-week timeframe."
+      },
+      {
+        "name": "EcoWork AI",
+        "reason": "Rejected due to missing competition check, implying smart home/IoT control which is explicitly disallowed, and the vague nature of 'optimizing schedule and habits' with AI for energy saving."
+      },
+      {
+        "name": "BioLight Sync",
+        "reason": "Rejected due to missing competition check."
+      },
+      {
+        "name": "EnviroPath AI",
+        "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local environmental data sources (temperature, wildfires, allergies) and providing personalized AI advice within a 3-week timeframe."
+      },
+      {
+        "name": "GigWatt AI",
+        "reason": "Rejected due to missing competition check and the vague nature of 'optimizing tasks and workspace for maximum energy savings' with AI, which is potentially too complex for a 3-week build."
       }
     ]
   },
@@ -361,15 +220,15 @@
     "steps": [
       {
         "step": "memory",
-        "msg": "98 past ideas, 7 liked, 30 disliked"
+        "msg": "100 past ideas, 7 liked, 30 disliked"
       },
       {
         "step": "world",
-        "msg": "12 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+        "msg": "13 world changes, 4 cross-links via gemini-2.5-flash: الأرض والمناخ, الفضاء والشمس, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: Remote Safety Beacon, Celestial Insight AI, Climate Resilience Companion, Connection Canvas AI, Smart Energy Sentinel, Global Pantry AI, Hyper-Local Climate Guardian, AI Trust Navigator"
+        "msg": "8 candidates via gemini-2.5-flash: TempSleep AI, AirSense Guardian, AstroDetox, GigPrivacy AI, EcoWork AI, BioLight Sync, EnviroPath AI, GigWatt AI"
       },
       {
         "step": "compete",
@@ -377,7 +236,7 @@
       },
       {
         "step": "judge",
-        "msg": "kept 5, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 7 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -387,124 +246,124 @@
   },
   "sources": [
     {
-      "title": "okaz.com.sa",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG49EWHNgs8zELAgkKyOIJzGUdZZoWeU3nr9gspPWR7lE_5sJ05mjQFPY2NIpIfeso4x9n5qW7SBDq9pl4Qj7yVxvzWyZW1baQ-zjyYQ9vMZKttdq79fH1CfNQ5FYI3xK6XxYMr1w=="
+      "title": "theguardian.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsm2AQUHk5WgdLTSrJQRdpZ61PZtM_hNJNP0jw880YKESpm37vTxChdT0ZSzCLju0T7JL17gXrrfb-gEfRPuuJobJLzhMj7tQte_xzjxTh9MTC4OuApx8E9F9YJrHVz0snK7HnB612ygtefoQ1f7b4-w8L3joYfSIV5n9Qrbzd9F_f_zLrxFaR6XtfSfM0rtpqhkpKrTajft6Vk__C1J1MLfquP-iLEENG9XWSjBVHWow="
     },
     {
-      "title": "almalnews.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDF1BFP9rjjo4r7JAzV6sJQnaxFemN4_yiGFL8AQ4TLW-RzeRd95wzUSXi4UUYGIkOsQPIjcOwPtNDf6aQ3TfcqqAUwjaF9T22z-ebACDfEWkJngWqQHynZfgIP-7yOcBMUF-syXaam56Kk1NBFQdiQOM1XYVduecNjSYuJelrVFgZYEJ3wU6NTuVjEE3HEtkulOvUvf9Hi4YGe0fzhfzEz4I8Rc_l3qR9GFkVFbGwgN-DLhFKOq0tisCGfQgrLg5OgMorZHXm5Tk3ZHXQbZzK3ursvgmR-aB9OC_DFKKgcq_Hd5L71EHmNxUdjsjTntdetcYcSAUWQj6v6qsWmgTFMkNvoUCd6l30QHt-k3nmaEWra-uUn3rV2JacLmP7kdHAgTU3AJulI6SWKFH64yFbZfFe32PbHKyfVBX4l07li45lPPzqwC--7Q4h"
+      "title": "seaandjob.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGylzueayfRuKWvwkmKf155FtgOCcACy2GM9CX1t0vtD24Iz6tPVo8nEQmZq6S_SPLO95Z7UPdTm8qaPDpQSDrOvromII9AM7g7ckpyCPM-OZDV8YwagFwYqt05UOGpqrxiJm6Ldx8nTwxuR5_1eiOgkhdECGK2rJTdZThPC2yek-enpJ5xJPrMNedphHzlmlWJR2mo89ULsAJsJgYOb72KMDUxEv08Gw=="
     },
     {
-      "title": "ilkha.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ74d3QrxV4MpUwKJFbFwo7_yMA5t9RLNWZM3beakEVsDU5BRA3o0sTYkto5mhHmrzras5x8REKhJmNJ9wMl2flCbDd05soh2loP6bIV022XH_ji3gx7PrYGxbtrSzMhndrehUA1LllXkjK0KmGyVTaaNBELKV6bzqgvBF78ZIvINY-Ayifar-9GslQDqctjeItBf-dqSIDgJJ6G9WregSh-emO-9TYG3NOObFRMZW2YfAzcOPNNJ9KAyGmhVRXM1Wu6zMZg4RRcKQIxvnQPE0K4MAsCEAsNSRsJFxmp1eNJ0R25q9Iiacf95PrdmRhuYb13-XWXkuv9eagijqhD131C5M59BEw5Z4tDk200NTkrqik5d4wPf4wDxhsJtcEzAYVkNLAbp53uQEQqaysHJHukAnR0kOJd9RkjdIW-XJRgdxfBzu-g2SnthGCdeIYPkTsHTRJ_I5qanrwWxM8nZbFMeikeJgYrjSgYPL"
+      "title": "hindustantimes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYaPVqZaa2lHUry_To6sAGkPB3zxnGd3ZRZAPTsph7ZMeVwYUZjew6U9Qo4xk266OqBXH1_UVeSzLzfpJHCtmWZtf0faWiCg5XZhSOCs_cKxnpbhQUS9AgbFyK8dFlcCJQwu0Md9VLpydq3GsGsg6iNIbzMCS8NLCDYMyayTTaP8pXnHBUPiX0fuR0Cc8EZ4mcE2SYaMQEZ4pjt6kdXSMdmrFVdW2sL0_WmQt6N886TMMEIPKVFwUzH-8QsFbC54H4gqo="
     },
     {
-      "title": "aljazeera.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqayaYDAX_BSB73r9vbADHy6sszTzQ0WPrkOHDWSDuwPbu7KEV0Vw9Hs6abs5WzM4wSmKvzQTHOtXTMVW8rNlaoTG3KcvpZ_Nvxjh46T00SBJn8bhM7e8wDI1mzQz4xOIR5sfiIcxB-vHCuFQEJ94u5235GNgwvoa3wjFql1SEMprOM_9limxVepmHTBq6ZHO875kzfdt6AuBF3kgSiZlYtqw_vkiejXzSq8vELE_m4UOKyMsykZSF9zO7kVGPglTCGFEIRV2Ndh07mK0xSS4VwUvmBBpbqQoBxVMSkyO8zkApYMtUoYy1JlnFVgv1MCEk3uUecilC2O1dKBjh3k47W2vjbU-dUCvUPC2fau0xlIBf0Z9QGW6ZTiIQ3I0="
+      "title": "fireshieldtechnology.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDrU7tCAgW4001A-h-O5JLcqQXBwrhQtYPppxI7byyezqI2xVD2Id05f6f6NEssGQfK3mexXtGdGv5rBSt_iGqahMQer8w3A1t7s5ccAFzwq1vYKdAGbdkpCP5yMYlSCBV7g7uAEDPMpgih86hxfC2xPZsD6H1jiFr-mqceaq3le8IohnNz9M="
     },
     {
-      "title": "aljazeera.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa3Lf-H-ocgM3ptKItTERPAWyeidiPjlqO2Zm3NKttSm4VFwFF1-3ZmmCVllUcH8xgB9x5nqfADx9KXTeb1Cli0bUeFS3LidrW8sMB6Ay1JmVtF3h3Hj4UqqNTDsZBbihdzdBQzEita_uI-5DtBoa0wglWHBdELYpUBxABolO5Yk_fF6_qBRrCbkFZT1wrXW-P76luM8-KqNuR-W5i46Uze3ypMIoZ92Q0Yk71O-XK3Vs5ZXK-bqZef8ucPRY_cTmGSmoASpjWN0t_ioocM9jXb0Tzpb7CYacXnNhxo5mvUnvUwR5awYPwEtyMklFobpbb3pdomr3ouOQj7m-Y2E8="
+      "title": "wildfiretoday.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmKNvYPl09-lkfXsFujCwPt2oufpq2nY9sDoNqYbLEBDh18p7IQNXCcThDvuklcPHRQ7PkkBa-cL90L2knEtiHZYDte_Or3lLw_P5lr6l1qE3k_rBBsyntSsZcBg=="
     },
     {
-      "title": "jehat.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX3uotXFuJivx32RRZLlQpfQpI9WLwVaJ0XRNEhs4YJp9uZtBj6OyLlBN1x8ni9uaJfy7QYliM6lpI30P8WQtnBAQdhd8C4BZrMUOl04ObFbFSdA=="
+      "title": "lents.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTIGlIsoY-xtzUNY_cOToDYStlPxS4vE8bHIcCYHBdJe0b5O6mSnMNH6BDKNXjMLajk4bCiVk-SxiaVblbvqHXERMZNstVdZTWZFI4A3EyHkOsAUjdSDMKrJ6UAaNQhfF-VUkX7cIyWJGgHZD5iGLwtLsdil_8uw8iwTleDCR5BgibAuvA_6gwpx6YMGllRmpqMVA4zy8SIQzQweV6K2eoVDUa1JLDcg=="
     },
     {
-      "title": "ajel.sa",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaLFQ0Ov2BjSN5zfORF1gDyfDL1V0Hmqx22rf9AlN2_iJZxi6sOq_SVt5lJ6cbRkVcdNAfBPMEiBI14s1pzRgguAbKOwXYnGKYYgUd_Q3OO1ZRiv4GjvjR3A=="
+      "title": "healio.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Dz9_JLbBwFqY8Gtkt7CY8D_jO5FsJCLtZarK7guiducKk8BQ7Xg-oidE5X4O4yjs9hj57crTkNDHNFEpKN28f-cb4kNpuHMTxzpb4_36E1yUk9cXPJC8Z-BHkeckEyI8u6v5LPZJLRVT3YfgzYXFj0nedqjYPWUTpdEBo6rv6dWIubGuiY9Oykh6k501W8Mo8XUVEQ-HNW0xAWgQsWKIQgMKVZ-bdRKt2gejb3kLMZn3ad6DPmpIn0qOMRM="
     },
     {
-      "title": "akhbaar24.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0uORLOCkFo8KXVltXNukHPPcIjq_K2MsfK1vl5b8OGHxt8l4EEmyhmzsS1e7Hs7_qc2FloPXN5wex8XGm5cyHMixslYlBnbBLVBZXA-8sW85s8MSn6MYcHzSVzcTJ28DsvzPs8Qc802tOqBe-zqAErljX_x_0b6LoufXGaqrVV7RxLVYNw8exxVqmwIQr3v-XQi8JXsWwuC9vnkij3zl0XocRUfaTPC00Yqkb4Xc-9J3mB96QDDcM3u4EgMvop1VDanwGx5oECmbgLW-keropBLeLZNyOiDwtTP0DsT8IOcRGMae0WM0y7QrkggnDvagYZQUW-5VWER0wOiKzqk3JrSfJmorowrY0M4daC0YF-J9XdNOAF-7YHejBm5DUFksAZQeFZlTcYAEbj3XIS0nEaeBF6zB8Pg1KPwDQS0nPp5HICrudTBhjcjhCc1C_XFQT-kuafB_SQROlWSUwur-_P-uzIqGGdb1ps-Q2mn97x1QBtiOB1pUGVOHnnqoxKjBYdM4sM4AjLvLjhguA9kmxxgV6OfQoQ6eQgfTuYtaSZA2DkFRw4a7Ei1kM"
+      "title": "astronomyedinburgh.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkgZ2ZRd4FH5401vUJJ-DoEmMN_9-4HjqrW2O-47DJKjMrHcAWZvGcylWsSZUVOjJyMI_xiHLGcywmlfkeXcVQMMeWbaupfJlKMR_uFd0ofsNhE1RSBZP28d7wECI2eJx0lJtaqvuVPOn4DF1pJE7s0V47JtEv49L2UH9eFHnA4A=="
     },
     {
-      "title": "annahar.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1Grw7LKJBjyycCr379iFfLx8cPoCvlD5XI5x_sW4Sdg_1uqNr1Fyh6TdmF2DTvkKQLGs9CWUY5FM1lLPA4I9GxDCOCk7ySZyLp2WFmangCXVD2eeUMFTWIVszm-R7diKHBkfDKN2bmXQ2X4s5CPfUiAFor8mjEwGKKO2nnk_d1CCQEX2tB_O8IHJOY8fYtr8XT8pZA9yrSuhIAFxlxnBiFP2f0lFBGmWwm6oMOh15PqDFrVQGCzkzWm6ruM8fmQRJeG-BtTxgsyxn5mWrGVUIug3a_zJdJOdfoAtK8shhZoRA4MZXdp8bUzU1_VLDmeasW5Peh1_gX_x00us8soG7x0EFLgBPFy_8Nc7cF465FZ65WcHaO3SKLj9MiBtQQq-4-4yEz3PCeGnYiwjfWq1McaNT0cPtxYIbpRgiayvmDS9jyxcDUSu-YPF5W0casm2GgN96sO6AkuCkVXeb4lWaTTgqbmf576S8GPUxBPdhQzAC2y0GgkEmPks5GA8fTws639Wn0Op4"
+      "title": "nationalgeographic.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU460tpALt3CWJ3SNNW9Eu5jnJcDc8Af5drd2Ewg1vYYgaRY18Rd9FZbyBsAkwMp-ayu0ElHZOAIiNAlgow9ncbZqZj0urdY5bcY_BouIe9FTyh1cEQQaEWHoJ49WTExCTWJV7_MbpW5x0Jho-PjWV9MvbtZ_EIhQsKGqdXvNedIW_WXNwZXNsxjz4"
     },
     {
-      "title": "aljazeera.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW57oms6YWcH7Ifb9gYRZiem3-0_L-RmmoYswKSC7UsgvOA7Mw-uim8DSu_DqveAcvKKNjHtYrFbhOFmCnqhGSjehQTNQKom_DJLBF50YJGZTekZgKqla1EX4vmap1NBEeM7o6H2EGAOd4NA-h1MhiSd2ES701iaI24uhbxONIJcSGj7KKEYDP9tpVW-hP91lmDC7VeclCB53AFu8JUqS7apwJq0yDpHxmD25Wt4AcJZS2Dh8O--VAGFoo3NBTV5seIifsqM90KSGT2F0vmg1wnYAdnKzye1X3mEiJBx2P2dWvbL5oL3Q2K4YNJopeXXOm3AuvrQX8wNLMVE8mRCCvUFpFQRQb2rlLokgqViZUiCcxztk33rponoudwl-C0GKtepI2feD0PGbOUqqh"
+      "title": "climatecentral.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGEsDprWdo17e6lTGud074y_wkp8HB7sLiq9l_QKEMHZD6vunU0Gyf0z5TMr_-oQdWn__xotKVAYLVjmVm9n5bhiQX3Qhqv2dWrSkQXvJHuEjxht2PuBFAQMc-Bbbi7czHS-YzvjKXocrrRAXCNEmc8G1iTD2Zedzwh-S7COMiukiA"
     },
     {
-      "title": "greenpeace.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAOHx4mqWl2IWI0Y2k7ZCiFF6PEcR3lPzVsr1glgSRxjk57PFPJqU2DzfWUVlt-MWA7o2Pwqn9UuTrMZQmtdK9Cvw8XoEJ5tqwzvzntXd8RJpZe-tl1dNDvzo7X-0kdWzsHBA_aYLHXpHJW5kVKGA5uVkPeCaNWZD8_t1C_pTAbjVM8B_E-XgFCTOOWbiglhyOjgxRafIZNaSL9jB-tIsgQn__xRHl4JehRs6-WZWSSLxxrFe4Rka1LCt8tHtcOjofLdTQtaNXu9pCfhK5Exv_jfy4cg11d0IpIeUkEPvKSrzAN5ECXdCUp73p77R-lZcFldkUft7f86YzH2cZ-C907L1ZVZCEOuFSgudg088yMJ0zksKHPrln9g0CbGCaplxgI_SOxUKXZjjkqc-r5vzqkA=="
+      "title": "sleepeducation.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE27-JueWbEpEOy6xO9CQU0N7hq90iURv9sMb-PNJ0lTct7LKZ1Sv2DE69xs_urvMHxG9oMlvUgv5B8uEYXlvlHEkL1O-yNPxaPln-aZCz91mscESomaDvPkGqgZaLWFKaV89AfMIhRyY18Ntcj_y6yC5d21-M="
     },
     {
-      "title": "icss.ae",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH03-xdnvCnVNkMwIZIfTWtFxaBHB1FNyZzENjv7y_Ui4yOvXZ5MPAQdKaiP-s4Q4l7rEfvxllPuDb0541dSHSo_JoDTp7PyucC7QCJCJ0_wwWjK3j5GNfbZU4IMjGy0DyyPwRCWRbTKQiYWmuBcwfpiTeQ7R_6buNQdVYr-O73jL452vP0mgQJpmDLCcWLkjlFBfwEV6iKQy5LjXfq9Xr5TAQJhxLzsA3pRsLOT8MvD9EYfj82Sf28rS6663ZS_AFv-goDMEZQMoILzJTb6Wf7Xr8vOeu9nDsWwPsR-tfEO6SjqnmkWBzwOMY1LQg5bInEO1TfHWpdDvTETpnwRxLqoje_779WVh6ZLHBEnF_wTqBE63OVcdjdJ1pp20kc2oHJZMwS9XNS6L_DJC3A0MJ9u7x8HIPKuzvQ7OpuCipaB47IByWTWKRinZZpALlYSkTguEytdTCHE9Sq"
+      "title": "orapuh.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-VWPgELwZkKM9AUXSwiHA0kfATNQPPir4e6sKqBc82yfTn2yhRTLQjIe_Z2afjIwWbKrAqwXEQa8LwT36uInL0GxxkyiBnIEzef8nk9j8QPvtb3eN0a0TwaBNs-xfbFXJCL6fb1260xrVpa0swTG10hTN9mCRInz2o9MreBQswQqJfFJ0Evc_PhZWbrARnWxzwGJVM4hYVv0="
     },
     {
-      "title": "continentalhospitals.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_5CyDo4UHPtI7WdBvo7XcWqk1WDm4iIMSiVIHyngSCmEuVlmOCGzR6aSAZEBoscJCZgiuw2_t9aaGxtelg1k-3cZTlhWj2eMFKihp9K8bUSyCDfTitf2ymQZ7rHWAwN8VWoromyeRJaMFzYbxdrWR2ZWeMVXFIHigRtIVn4gh5Wps_lVw7jDThes="
+      "title": "roya.health",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7HlIZLaU4Absv6fjD7Xfd3RKyCIa6jP5hYgZlfbHUPRxL9qyc1fyh6dogM7039VdrQtAkJNAjK6F85kML7wlj3EgJS1K0ggoX5kQnxEKQknSGIev2Lp83Jhn41e_7z_KtG1wfoHJWREdypFCxim_mJhGtzXok3VJx9TBcT2JkSQKS--PenDhB1x474Df1iadj6oLXSHuk54V6VFHumQ=="
     },
     {
-      "title": "skynewsarabia.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Iu9Fhnc0doMYfPmAd0ZkQkxhZsJ6gV8PJF-FSDB4TrRvUSHtlMB_4rNV4p31fVLnh0HSWhAy8205G1O0PjinMLURGv994haSd4u_uphmDAV3U6gxVz2E3eJ-xb2SJpP5hdbz7KbDE-gs3cRFV7SPWST9aFL1n-SibOrXPijlbI-rvWv1FKvK91pOmFU4fc3iklpkd0hLfUhdbXkopNFuLk6OkXdmEcJcKb8zDhMggZmK4hmBZroKQ-g8HLLE6UWeYx0zHAINWZpBtSX644PGBIQAdcM1hGF7sHUXmNeKKRAKSEODn-TvVj1Sxv5SGoHWxmTjO3kLeNeFvee9huMwWLHLf6wkiDVOLryxFl1iIDfX4rPc7jlq1Fc_voBKQSsOJjK4mUEltmFFdqDVR6ugCxpSh8qj6sgbXNRFP-eahorTqQIPjDuq6h4="
+      "title": "mhstats.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5tKhowZxzLAggssAogwjF_kpHyJXXsv1B-LfxNuvdZeHzWfXZexCBFRCS9I1JsWgbvP1ldknz01mjsIhLzD8yCxBbSUv6x5aE6xd8sHuxyt7sFe3PnGin-KpPrtVp5tblm1T8WEomy5dL3g4="
     },
     {
-      "title": "altibbi.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRH-iL1y5kR7uCg6JiqDaNmk-WTrQ2KUuAhRcnZ64e6f3LE4SFPnSwGhhCI_vKAt5t1xHwrwzYiLBi11FRWIwf6QwfCXCaHq6hn6fJqdxSMv6CkdyJo4Wtq2pbZbPQLb__ZLpyA2iezGiBHVJYXLuRu4lJkmLpCvlG7xrdwmVY_ZuHqH-11DadccMNyaqAcKSHPESCJ71aZ_rQOPXRPDyV8og0rUut3bP63EzrkdFL0eFzYtzDRN72rGkqJ-Iscgdw_HSGE6eA66y7F7CIgaWUodbItk9dII6L074ygQtpGZskX5X4LzObsMO5wfNTX34KXs6HPPSraqkWgu5IJZCbflPAWcyluQGkGqJFptPs5Dp8I4KDyA93OWz1E466e50gZPNusj8PuSu6h3nTC8S015HEvggPQ720wThSTq0pKjQ1ZsgUasaZj02Pa6DCt7AlE8u_HExvqePpERw3MN-bcFaFYOX5hTp6fH3jBJdK6LOKNn3mfAY="
+      "title": "manhattanpsychologygroup.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq2XRIlQgjfNlPhhzD1LZvpaIvIfV6C88UCSfeVC3hZ_UGwq3edKcl-gE_0xD4yMhKHD0bKml-1SASBlxGfdRRA9jQM04rKDuUxhA69MuKp8n9L3LW-nqKh-qK5h5SwLJDjPqCjsWx2F4dNz4sThxakNg38QzPvpFApNU54iZRbmsGBGuvnX-xT26bn1RzMb_U8--wggeLKRTGkhAShuQzmqbj2oEeRVphyDOT5AowrrCXyI7PT3OmCyFjMHjEzlT7"
     },
     {
-      "title": "burjeel.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNiNK91rw10EIYk-qApjS6BNCHtBKZW73ywzKtk_ooqqaiGgIx1HK63_TULEliVO_2m3RYPbsXf8Vylj19IHeVIPbCgAVfhN8TaSURMHBtVEerCiLa0X2Y0PZU01tvLBRAY6UwgcBkgs4FpqbjPw2QtQIpTDDs0W15pqGi3UUBk6_C5RVKNGy-RQN-xzxLsixVBxsKu8Oj2Xde4hVlpdTgtUeV894d5c6aJMBXjQI4d8lLMS7apDiNqU-1O24RGMW9WN-03lVVRwvsOk_Gbg4f1mFMMze_PLGjFzXHZGNgAoVdExNfF3JiNVwMe25V03Na8KQAnayyOblcEo_I43YorLLnRbPPJFoNM9P2xqA51Gja9Xs="
+      "title": "myperfectresume.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtnBNhFmQcvg3-YswnRi6YMCSCkCzDj9A-MzM4Pju31UG4_9BJjzE-17OpWLy0U9MMsNJf7zfukKlP4EFX4Fb-LMsNuCry3vmXUoYAg6Im_P4PAef3qOHwm4Ub0zfnSfrnhN4hoAlrsI1S67cE7VueYjNHLUnEObYmyMFmYUB17ZKurlRSQTQH"
     },
     {
-      "title": "sehatok.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnZCcw5nSGIKW8IaMoyCgmk6p9LofeAWG3NiRd05YZVPK-dGyMaHnfzmQxfJmhdoRcy-bGuqTi8zt8PGT428vuXSySEaVGWnvyx76LXmTNoI-JgSOojicdPGmY_CCQHIe-DTlnCE0pqrwyzkxRsKlDGlNupcexm2gU-CL2SBtIKdc1Oa-wGSYeHyNBifo-5MFOydvaXIhwvbbIljolGXhjwx-4iJZJb9-A8Kae9QLB2K0cj7j94Ieqfz77eHCj4H2puuSsZMaGbxtuv7MYvcZla7kpJv4HxNQM-cZKRunk-vw1oIai8pCbF_EKDogFj7J1qf4F7R73-oCDE-HQmCsZ6hfvWR81lDmgrLU11eXC05xxQzTtKcaIoC9i2RNZ7HQNsC5u9-41xiUqDhgkLZ3TbLCTsJ8ks01rmQx68f_e9WRt8oVZPT5X-bJj01ODoIqzm0yDNjNgRat2dSyOfcSFJiNHrTVUQEYkvOs7bSi8SGrGSJ2oaHlCJ8Ih7BOwfMg4zv3_03V2CeRvYiYOpesuvTB243apHTeFets6cf3ZNwnWW3mIomVf4WZHSi9jBNd_ayQGydpdyXiizzQbAyZ4n3G-roQ_MtxJPSP_l5M4UcRMBaM="
+      "title": "inc.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6ZXqZQxmDtDku42yEOxNBt9FlFR_sRCJ6fioC9jEonfoFe0ki18wEj1VRSD2_zdaP8RCeYaPP2S9lgo0oAsWqvjNM0q6rB5VyxILcijQ7P0VOzxs1MFjpPcYUTEcwcgm1IbZd6NLSEcW1TBy5DgmXBS8NwiUxzdZI1zFFX81O4zSJJCFmH6ys6Sw="
     },
     {
-      "title": "ammonnews.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqsJdxp6aJ3HFyv_VyndjH-_nS0HcO7FYKZmAFEuzYSZJKDCOFU2oNSgt2wKiO3bM-4Ea297AGrLpWqyYuP_Llr-l1JMj3FjAKjebM18IS4TNS-BVlUz5dIz5jpBSnrHAEwY92"
+      "title": "neat.no",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM0CHkNWFCAyiFR6vF6B0yNW4ZapwJozb-fBO53C8B2uGn86CwJ5OSrdlFKXXkPXXy0P0wzDBkTFBtgccLPPv6ez7lckFWtgDrKzcaQ4PcEDzpyvSzy91QgefDb5xVgjl4eE6ZVxJgdmR1tanrLRchHoZfsf7jPhN0VJ3rKsgIbfk="
     },
     {
-      "title": "arabisklondon.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrWqeA4yApK7M-bGy97ewfFwI7C_6i_bNunTE3PHcyQmwlojhuzw3_AGHhffowORB3R3rfNbPMiPGjG0LbivFZsP7FlmO6xQGG1gXsPR8Kh4xG1czAJ0YUt8EV5u_BZVgCNZtznhBHRSzyMulh58FwsPtx0AVkjD50DvmJ5POgWtWB1OVcNqjBg8_k3HCroaQjjQPVWmrPlxX85WKmqoIYSuFLiZXrBUWICoI19bHZntjT85L-NLZqj24htv4l2jBNoar68mtpspUVd6ekcoe6NDaZs4U33TEd4UemFr2Bd-zLMtqkCXMMLdWmI3slxiSDRaX1W87VBRLoxVGsf1w2SNyECahUMwdaZ8kmSmgZgZy3ryxdBFDKAzSo-D5AlQB9Zq89"
+      "title": "vcam.ai",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH4ccTJZthRKODAzi2RPcjWio14eDGOOg7NCzGn-i0Wbi8EAJ1MmjcAfKpS8mFMJ97I7LU6eWimmiLsIk8bpF8sY6ZDeggp8wQD6-l3U0e3dSGXvjixin0lB2THu4mI7rIVpe-avLK2kHKXDWtHf7KEFUDxPWcJX7Afuetw8n14hzyOGR8PA=="
     },
     {
-      "title": "almasryalyoum.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSQROc-uO7slj6Jb001wOgdRZQ2njNqaxlcWOo7mxyLNYNROW9ldEfpdx6DOoraV90INIYBykcwrvtqLB4U2EURbyrh2MXPuwgnENWDNqUbbWO2Y33SFkB64Nl1jthf0W_k2Ur3LAly7ZZQIOj"
+      "title": "bristowholland.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7DGgzBdUleaJM1qOfbpxphhvbqRa_SzXUIklKDSNcayeEwDEEh14I4PYb_RS_y5cfCeMVStd6OLsKce0wuEBtZnk_clNK9boXw0DybWm82cFerMjzufyijDR9iWHnUFNP0Up-b62T6Mgm4kAtA161lyx_QxumBYv5pYkMbkTcJiELbj5KgQ=="
     },
     {
-      "title": "royanews.tv",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwMm5Qnp0kaVIpHp_G-9kUYsbN8GiHSz8uH_4Yy8xUjFBeBnJhoQy7XaneBoLrSh_E-5NUmqvu_xZz52ryXmMpTKRn0HFbTzPa3QiKzo1LorqdJWXtV6mLrzA8qE1BkeatT2BatFdxuESzrlgaHQ7bSJXUvxt8ECONJOAde9FPzephAqz7YpSeOsqzAYRIsuPRp1MH55hLzRaFCsMCrzy_CQ1QBsu0QApzYYl__qv2Nj3TPTkfVfjHUVUAy3m1PBr2JLjxbKy347aJwO7FQWOOqUu4DoIPUz0tnU_fsk5ABZ3lGtnQ6wWPgQQcaCOkh8Y9B1AkrrIonUePm0UmJVyAx3UFff9DnoTjjzb6Jpzv-Yd9ntPvyUcaZM6oYPTRWLPR9oBJdblFfiPTBOd2OcPMc9Ah-DwKmFOuTfnqV51f6b2ke8Y5YiVOnLK73uOYrG_yr_SfWNkINkUcgPZLcOZI4kpxdcsY2bsgX9AXuKKo77xzdc0dNyuTEa1PvE8yZjCuyMc6jpJ7lne0I2AD3LVklGDu5xYj0WZbzjhA7Le98COsnL0TdfPkKVEld7oPftJC7zw64FDzsnhPPEq1pAksH3XkngljxE-RKQ_v-UozLdSJ977NMi4AqE_xkkg0AFrEBMQ0NdofdhAa-RE6EZEqcXEawBJq0fcdLTuFep7BCu3Lp65-pCualy5XbnJu9JJY4opVJp6guyeSoc9Ob4Gbq5zb1Gr_MgQ5VVbCpzsygtnfk6AdMBiD1wQQYPP7AJVXwj2VRkfmTaPekoTlrkU0a2hGAer2W-FFGR4LuQds8fYJdFSshewcUrMY6WjmX2rVviiwH864QPzUJSNf8iQ="
+      "title": "cambridgeopenacademy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4bglvbYqun62J56w5_QYgrNvlTQ6Nq5-jLJNauDNSYDPsbLdZhnE7Uog8bQcZiz5RAYcBgFYrTxNWKkdDwQILNrSkeEeSc6QX4YiS-6a0QCb6_n8CR1nMYSpVlj9EXGbG-FfRLiircpOyu8PHNelg9i5-rEc983h1PiVOM0o="
     },
     {
-      "title": "achamilapress.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqRrfpt7jN5kXwyYmJsBBRyGtIDYqB1b0UOqMuBkW07Q0f48WCc9V9mQtqUa0-CaIW9ftRHFIjQwjiVD_R85u1GQiPSq9qAj3I8Y3VaC8thkm-Et2NXMJg9hxcSXFsqS7PeB7FRadSrh5yAvhTMRJ5XrEyKv3MZ6ny0iWVznMe4yjpc0vjrnN78KIi25YvDaDDdUHS4JfBezSyYBBpU_3ygoXF5mjenOaKn848ueI5jGMtb2e8VYHeToA3jJ9CRpEvXtFmVIDblcsyZXH2KCWLPDDKXOPQs6HsJZM5LE8jF8Cotv6apGMqU5BNoFt6iUSVnA6I4IocmfqP7HhUG-HDkQIpQQEWYJxyAVdchK9xXC6ic9C2f2CE5rEuGoxtMMmUSx4mvTiulUbH"
+      "title": "acorns.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzqIlHA4afgy-nK4SVnwaJvfA_93jTGnOTEBrFJUFh1dO2YEWfH3I8VMOFSZ299CTlkKi9gSAhRaA4-C0RnH8xH16zR0XFalJA5yhe309dA70DjJxpgneUMD08QrlG-4noA1yWH7ko8evb2E8="
     },
     {
-      "title": "3qool.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhUAJ0W1TOVrDezR_uaJKZ3_Us6oAHIOpsTO6owCc5_c4a6e2iyXhylP-wRbzBOe9YKO6nJJFpjynUvCLumQ2ptQdsW-DvB9b-JdnVTYHNrHaAfnF_ZIVc8KwMOQzTb2-1gfe6QdEmEF2uFp4fBYQgVM9Bbb_o0RuHW5ygsrlxG0DR8vtHuhpcwJKQeesxB5mOHPYvqR9pL_z34Gu8uGIQlPLlhTCSrHOUTqTN1bzzHLyhXpZlpQCmuozQsW-sx3ggUjqcMr6c_o5KkGH0-0o6S-sXTWpXmeCSxuim1UBtHip-bI8jF8R_W3vpisaaj3wSwRRcvI3h0OM2SdFnIZYlvEw8UZskx-jygArSqhaZsfvAbfUX6LZpefKVa0AdYT3CIEZ7kw0zT56eOZ8GRYXIUTvkT2FoqMUSHGr4PNoeWIA6OSp9mVthYCK0SpK2gb77p15_kpfVuEm0MwoLpS1OexwUJkHNS0-Ju_PuEyFuzVQlnb5MXfesadFmCkSkMn9w6N3O9rdPauVy4TGBRtV8AgnyPcE2NsFkW9GkdmX8ZIQXTFExFno0lqCLwazmxpV_-a4r_EPYZ2o7NDcfg8p6zrZxD4SScMQhnw=="
+      "title": "lplegal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtEkZi_01WDznuNFHZQojjbPzs-JqMmFwtMA3QZX3xqmdn0jYNemFV8E4wo7TXWup65F7Hbr01YcxMSIspn3wLwZvg6GpoTKWWs4X4_cfFTowP6ffyiKkk7eKyHqPzZgHTAvQalVDCS8-gRvn6t3OM3TTjGrW_PUUpfJcH7u21Ls2CfKZxPiZPhmRcFw=="
     },
     {
-      "title": "alaraby.co.uk",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE30-bA-pB6bBjRnx9Zf2GAanJr2fH2lGDpnyTr0JwYGap7Dfu9nzkaaMLut-RePLrv6y9KZx_-kZlBHMU55ce6d9wLbYiYLk4NvorKiGASxxyE1WuV90GpnRFlmuP9AuojZSoKHu2xdw52OJ-EpBS9SKJ_v2qNmXyttDnssV1TEYFQ-szGPjL3z7x9vBN1XgjzmFhvFwlXnKGWTeQpdiWkE-e8eDuKNBgS0vXSNr8hIq_uDrnKMsHF9oUma7X_q0JEMZt-RkCOT13ItTy3ROapXma0qMpPHp8_-zNP7OKgKsjOYSDJbQAAwsUoIlVr4VCAP8NkOdtcAcB0EfIFL9DF0Y8i7W5Jw51zlAoso9Wh9SiSKIoi1hDv3Fb7USzJkAbH0hvuvxzH7e7qATUoOwEJCbIziBa8iZ1tPxsF-GnIKNV8yS2ECCeusWiFmHrXXgmrJR7vYeIm4FilA_SLevpzuhpbKotHbbyVlE2jycoKRoUPSzVmG9jHGnyOWXECHV-8yzdQdWo="
+      "title": "multistate.us",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGo2SmuTPlLcMVSmfcJ0Aw9s7LTwfaZ7AQzYx1rA_7328PWwivgI7yfe0ilJA2R99PETDWIpUxJ-zpewPNJ0jsu_xWMWFgm9xMnNaUMr91sBzuLdYtSGYIfeCxxmuxkfVJ0iqhYulNHott9yiiENMEQ82_6c7Z4-6YbVp4QCtg67kV148dgt1ybwV0VPO1kiJ_K1cbJ2rzxepvEl4b1kfSkpV0RmTg"
     },
     {
-      "title": "aleqt.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsc5-u0qEZ7a17bJAa6D8IEayoM0GqNMiPoJAMglD2eiqj2d2zrAAQYdF9qco_bQDJV99-hUjLI2qBfaLabhTBlp474jQ-9NePpS8PCALbRFrJ2q9IQRtvwwOhK4iq8mAedAcB7St0PtadWOCkhfvf_y865sGOfTQQ034Adaclc-6YqQ7Em60Iv3aThmn-kTsKoctg3z5IQ5cXA4WlBDY7FSDmAoRk-D7ZzrEulT3hnRGId_GZAsEDD74yN54uPWAei7uVGsisErUHvv3YoSrvjk0bbBg4W6EmKZK1EXdDhe4Ifab_j6dDPndXjoRn8dHyZIIZnQXCGy3lBa_fil175tfVVwNEDi_KVVi_WtPa8O7usoXam1OxntTGUxgjIgVe1JsX5pQhBneY62iqwhKLWZV9ayLYpjmrUHGHDZX7ECWvYtnLDigTfiq2hKApS_79IhGkNcH5C5LylB8VknzAi2iAzEM1O6Ac4ix-C1aiysmLJ96ozKpswZmm576Tq4as9wmX6aUnrHh22PzVpQZqxdzYt_5G8MPLBZsCItnE5MuTe3g12-Y2SqE-HEKgaLVP"
+      "title": "medindia.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE26hwgUK-uVJJ9ESs_1t27-qkwMdOxGmFl6aywxDsTUO8vKFSkekkBxvK-ndXMC_ZKi99kHClgYOXQHb87HxbDNC6Tjsv8JCIQRs8-viw7cj_3qyEkV9PNgoNv48Ox5bz4zpwhq0NuWso9AhQBiYCJGmU2OoM_uM1lmsjrv_N0Or3P2pAuURi4ZfdB_aq1rgFQXM4PyCLCs-1gjj9JAg=="
     },
     {
-      "title": "independentarabia.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDNb2tgq7UOYvesbtz-odSH8C3BOg6AbKGhXvGvXZ8sF-Sg4k9qkfRmHvgba-f-tvDt6h6DL7rUNJKPLmL2n_1V4buU8WOr2Pcow7jDNWc0E144jIl9wx-Y42Qsv5VPmUObPR1qVGYv5PMy4euV8EfltlRmWeNX8kT7a0b1LdAeJtIniPQJDYaQZx2hWrpSBXCw-fvY4BL8Ae1VgBiIuN5vUUEAMrdUeLE3Jbi_M91SsNh917pD-FVtOEjgF6B6XC6mvYgSALzyV28xi9jQVuM05xAWhFApPfKvkTq4bLOYnuk9VaBk3ItNHP_WfmNQ2ZUxcIzhh8-inv_qE3QamL8gk704YH5r4Eq2BpkNW5DCedMaXxkRsbpGOqS60IuIE84D0QrPHQ6sSI4lyrtMAAcaWiO-rWV_DcrP0TYf9sIviboSRa_MtmBuKthqvbFbE_tarTHmXo05q5qUAfCF4g_9yYkhg9W-WQoHX28QZeMz6ZSuNvdg3yMCOlA0N13hWmMbNTcHxh0dCjJeB65eg2X10dWAaO3Diw5BFvabs_4eI3Qg29tEzPLya9hS0iceiX9EpVGOuaAbpx0Ob75PdN4sTT6m49D8Z8P9IHFHEBc5xYY3MeWduqUF191FpVhVgYBBt2eroyTATJBUBQ4IZy8vUoKcyB1xuq_ok6LEg=="
+      "title": "drkumardiscovery.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFehGjZHhN6b4Gt2fHM8vIBxXkFJ_T8Evc4sLEuQWV5xPByrbTZUYJfPfM_rtUAePh55imZddfOoYKiweemhujjwSO6b9TJQcKL_FtyvR0nmpXfKEE39f44R6PVtBjEY9amRpdjzoHTDdNPyJwtyefak5c1eyuWtgN_pyeTXFDGq92TDKcYnoW6ucRBJA=="
     },
     {
-      "title": "aljazeera.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHK96esDCGgqBMlAn9HS4GpvJU9LBtK87QAn72dRWlSL8cZE08eX-E2IFNu9a6eV3JQ191XLlRCP4hrPyhVi0olbafB7VbVXpg0QAU4F9ripLOBsLYqO2u81RYEVWsTBR4Y7TDVpRhSdy1KhDkPXYrR1KpXpZPsuAGLoY="
+      "title": "marketscale.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVI0ZyXZT-Vwsu2nM_4CJJIxgUUaQ0Ad66EZ_mmUdQywe_guRwXMeLK2LNL4rd6ihWgSHtasBlONOiqtrBgqCOjuBkVxFT6CAP-g1u3XGwCIQAxZHx3FRjqi6D-mohXzp8OSckmyowHclT-d17RoH1VZiM_QLiZSxmSohORRHfgpCrNIZMk9LwcWTFwtOxgE6B4P_3vQ=="
     },
     {
-      "title": "alkhaleej.ae",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzVYXo5bBYzkfHdec2p1ekJ0H3_jcIKe3WvvpemIlgAa9jIkViil5CfV7yeNeHXVAwmQ51ILOBenDrRTafbMUoSjBfPmx1l1SiCnhKfopz4KQ3LMrKQAnsvAImdZwItX6qks7VsWRZMM-dYNsBuI2nwbBvCru3zSlw9oEEJVjIItNxRCZMqu9muPwZvgOpTlwGsiDXRy4DzmCh4YzTRmOhKLZ0lt0CJXQwg6YeSp9PxqHjAHoVu5NmmTAjssUB0wL9zMWS81uAbbUjXAA9AdrGKEP3YoKyx3IsH1D3RWRP9ZjZCC0toV2uHwZ-PzcqGOjAy-bhymrfnXzeS6PWpb4Tys33lHrI42x4GTPAJULEuypeJU7e2pLxf2f4AnasJJjMHzqFRkZePEoMaZdbRudTckBtgY-P8BuHkjdmlmj-0KaGk9s4I3vu_AWpHgzE5g2y46kCHUKJ_fNg6Tgc1KXSe_nDfH6aNlv5hi24TY8XPtu5XCdJ7ChDTsl0wi87-yZ10jQee9sPIUighrPKuztUw0RkCPZdB-JmZM7ge_I7s7V_9IopjkjzIv-0xjC-B1DUYfIHRfmiF77P_9tAXs_7NywsMLxwjVYjMQfMggfIerJGBP5B3CjMD6TSJO_t2pqvuXcFjPNbWVDB"
+      "title": "globalbankingandfinance.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOeGsck6mNLy4QiYVeqo5Q5ieSPzSID1BdqLVCxqf_3iqf3-LSFcUUasRddKGQjxJDUBl_TydFNbBmZG3DmFZQ0yBb6b-xSdIXhfZXvLULe_I0jKm7KUL0eWDmIvy690kjb1fqf0bY1ryUsIkrEsy6PQfMFgayLQkoOA96r-8edcNXHh25yi5gQ0AZpuLLmTQcZuzA_0TDuTjP6g=="
     },
     {
-      "title": "screenrec.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwAvCj4chAlEv1b4HpQrOzi6p1Q24fmvYjWjWlCSq8t95njrLExlZU4Qai9PFxJ7zAdAZ9tJrnc56x8o9JOEytmRBX6XHnEJqWwo1jP8BlaTI88crglZB6pUROUyKKk24wtyx28DGgNFKXSBTBYUA3RXaDk5wkhwDsvSOR4yqHjxgZ1dP-6TE8TATvMDe_BqYXMgi9Rc-mXdEpdP6XmxY="
+      "title": "everydayhealth.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc-zYMde4WTirrkCgXzTUwc2kxKBOjFpZL6sW9ieU6gLKmhUIUov3-2g7n09JmiJiDYxR5s4kq0ylrGKWhw3j3vrbvDlx9gPG81uEb_TZESXb5QbjgowssMW6VAzxJlJ4ht7YfYN_z666hZSMZ4ROQ7eOi_DaDaJ_S85iCWgCYQ7wfoK8PB6I3eC3DMvfnvrzYqGeFJOg="
     },
     {
-      "title": "lorebeam.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx0hKcL5zF07qPKclkFlVjZ1OjpUPGhAm2-JAMCaNXodk6Wo0xwH8OrqP03MU2l3gZUg59e_KC1gyO72Shshh2tsn4IQTK8yIeOpottSzezUhx_n_6UClvCT98tSzO1C6VHZrDAmERRy1yk2B-XkoOb9r1b5i4QvFLgLdJGczzdLdpyqgciiZh_ba-md2Lw8Mkbv8RsA=="
+      "title": "climatecentral.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGiptPKsQx839BAMKMj8QkYY8OW7wCOeNbrdpfGKOkJ6KOpmLITH9tm_XKJ9VnKLkX1NAckb6vIjxXDno8ycD6lQLrgmKnLEvbWQOQdz2asAGknhajfcpI_l0kcwENklpS7a9gKw-Ji0xEwubSZ7PXFpmlTap5TRYTLIHD"
     }
   ]
 }
