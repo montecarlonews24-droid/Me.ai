@@ -131,6 +131,17 @@ ${JSON.stringify(obj)}`);
   return r.json;
 }
 
+// العكس: إذا الحكم كتب الأفكار بالإنجليزي، منترجمها للعربي للنسخة العربية
+async function toArabic(obj) {
+  const r = await ask(`Translate every English text value in this JSON into clear Arabic (Levantine-friendly Modern Standard Arabic).
+Keep exactly the same keys and structure. Keep app names, product and company names, numbers and URLs unchanged.
+Do not use markdown. Return ONLY the JSON.
+
+${JSON.stringify(obj)}`);
+  return r.json;
+}
+const mostlyLatin = t => { const s = String(t || ''); const lat = (s.match(/[A-Za-z]/g) || []).length; const ar = (s.match(/[\u0600-\u06FF]/g) || []).length; return lat > ar * 2 && lat > 20; };
+
 const ABOUT = `Moe is an independent Android developer in Amman, Jordan. He builds Android apps (native Kotlin, or hybrid with Firebase) and publishes on Google Play. He works from a phone only and ships with AI help, so ideas must be buildable by one person in 1-3 weeks.`;
 
 (async () => {
@@ -246,7 +257,7 @@ ${JSON.stringify(candidates)}
 Competition check:
 ${JSON.stringify(checks)}
 
-Respond with ONLY JSON. Values in Arabic except app names:
+Respond with ONLY JSON. ALL text values MUST be written in Arabic (even if the candidates above are in English), except app names:
 {
   "summary": "ملخص اليوم بجملتين",
   "trends": ["أهم 3-5 تغييرات بالعالم اللي طلعت منها أفكار اليوم، كل واحد بجملة قصيرة"],
@@ -315,6 +326,20 @@ Sort ideas by score, highest first.`);
   }
   if (final.ideas.length && final.ideas.every(x => !x.score)) log('warn', 'all scores are 0, check judge output');
   log('judge', `kept ${final.ideas.length}, rejected ${(final.rejected || []).length} via ${s3.model}`);
+
+  // ---------- النسخة العربية لازم تكون عربي ----------
+  if (final.ideas.some(x => mostlyLatin(x.pitch) || mostlyLatin(x.problem))) {
+    try {
+      const ar = await toArabic({ ideas: final.ideas, rejected: final.rejected || [] });
+      (ar.ideas || []).forEach((x, i) => {
+        if (final.ideas[i]) final.ideas[i] = { ...final.ideas[i], ...x, name: final.ideas[i].name, score: final.ideas[i].score, buildDays: final.ideas[i].buildDays };
+      });
+      if (Array.isArray(ar.rejected)) final.rejected = ar.rejected;
+      log('translate', 'Arabic version fixed (judge wrote English)');
+    } catch (e) {
+      log('translate', 'Arabic fix skipped: ' + e.message);
+    }
+  }
 
   // ---------- English version ----------
   let en = null;
