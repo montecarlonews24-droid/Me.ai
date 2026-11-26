@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T00:27:52.842Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-26T02:26:13.624Z",
+  "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 7 open leads from the last 3 days."
@@ -121,7 +121,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T00:27:52.842Z",
+      "bidsAt": "2026-11-26T02:26:13.624Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -274,7 +274,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 5,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
@@ -286,7 +286,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (158 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 206 skipped: not app/AI work)"
+        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (163 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 215 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -302,7 +302,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 7 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+        "msg": "phone relay last read 9 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -318,7 +318,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 7 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+        "msg": "phone relay last read 9 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -334,51 +334,7 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "47 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4494647732: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead Android Mobile Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): iOS/Android - Advanced"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Hays)): Programista aplikacji na Androida"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Freelance Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Android Developer - Kotlin"
+        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
@@ -386,27 +342,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Android Developer"
+        "msg": "skipped (title): 🟠Senior Android Developer with Polish🟠"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
+        "msg": "skipped (title): Senior Java Microservices Integration Designer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Solution Architect – DXP Solutions"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Salesforce Developer"
+        "msg": "skipped (title): Senior Software Engineer (Turkey)"
       },
       {
         "step": "linkedin",
@@ -414,11 +358,23 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (6+ years required): Java Software Engineer with Kotlin Experience"
+        "msg": "skipped (12+ years required): Java Full Stack + AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (8+ years required): Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer"
       },
       {
         "step": "verify",
-        "msg": "6 of 25 new LinkedIn jobs added"
+        "msg": "4 of 13 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -426,27 +382,27 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Java Software Developer: Real-Time Data Acquisition & Desktop Applications"
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer (Remote)"
+        "msg": "skipped (not an app or AI agent project): Software Developer"
       },
       {
         "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "4 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 5 to judge"
-      },
-      {
-        "step": "market",
-        "msg": "Amman hour 3: active market americas, 0 prime leads"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 0, rejected 5 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
