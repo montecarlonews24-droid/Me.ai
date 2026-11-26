@@ -1,12 +1,12 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T15:27:44.752Z",
-  "model": "gemini-2.5-flash",
+  "generatedAt": "2026-11-26T15:32:38.109Z",
+  "model": "",
   "summary": {
-    "ar": "تم قبول مشروع واحد فقط اليوم لرفع تطبيق أندرويد إلى Google Play، ورفض باقي المشاريع لأسباب مثل طلب العمل الهجين أو في الموقع، أو تجاوز مستوى الخبرة المطلوبة، أو استخدام تقنيات لا يعمل بها Moe.",
-    "en": "Only one project was accepted today for uploading an Android app to Google Play, while the rest were rejected due to reasons such as hybrid/on-site work, exceeding required experience level, or using technologies Moe does not work with."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 9 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 9 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "عندي تطبيق قرآن APK بدي شخص يرفعة على جوجل بلاي",
@@ -31,7 +31,7 @@
       "proposal": "أهلاً بك،\nأستطيع مساعدتك في رفع تطبيق القرآن الكريم الخاص بك إلى Google Play. أنا أقوم بنشر التطبيقات على المتجر بشكل منتظم، وأتعامل مع أي متطلبات أو تحديثات لسياسات Google Play لضمان قبول التطبيق.\nأبني تطبيقات الأندرويد الخاصة بي بمساعدة الذكاء الاصطناعي، وأقوم بنشرها على Google Play. على سبيل المثال، تطبيق Islam Rising الخاص بي، وهو متتبع عبادات، يُستخدم حالياً في 177 دولة ومنشور على Google Play.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل توجد أي متطلبات خاصة للتطبيق أو ملفات إضافية تحتاج إلى إرفاقها عند النشر؟",
       "prime": false,
       "foundAt": "2026-11-26T15:27:44.612Z",
-      "fresh": true
+      "fresh": false
     },
     {
       "title": "تحويل منيو الى تطبيق pwa",
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T15:27:44.752Z",
+      "bidsAt": "2026-11-26T15:32:38.109Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -484,7 +484,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 13,
+    "verified": 0,
     "steps": [
       {
         "step": "memory",
@@ -496,7 +496,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (345 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (347 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 73 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -520,7 +520,7 @@
       },
       {
         "step": "verify",
-        "msg": "3 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
@@ -544,7 +544,7 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
@@ -552,47 +552,11 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Artificial Intelligence Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): AI Engineer (Junior- Mid-Level) | Python, LLMs, RAG & AI Agents | Production Experience Required"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (9+ years required): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Applied AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead Frontend Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): W2 Role - Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (20+ years required): Android Developer (Banking)"
+        "msg": "Freelance Android Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "16 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -600,55 +564,11 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI and Agency Engineer (m/f/d)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI and Agency Engineer (m/f/d)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): GenAI Engineer | Hungary"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Yapay Zeka Mühendisi (LLM/VLM)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Backend Security Engineer (Remote)"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Associate, AI Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur ou développeuse agentique"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (web-only (not Android)): تطوير إضافة AI لـ Burp Suite مشابهة لـ Burp AT لاختبار الاختراق ومراجعة الكود ال"
-      },
-      {
-        "step": "filter",
-        "msg": "9 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 13 to judge"
-      },
-      {
-        "step": "market",
-        "msg": "Amman hour 18: active market americas, 0 prime leads"
-      },
-      {
-        "step": "judge",
-        "msg": "kept 1, rejected 12 via gemini-2.5-flash"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
