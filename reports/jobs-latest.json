@@ -1,13 +1,41 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T02:26:13.624Z",
-  "model": "",
+  "generatedAt": "2026-11-26T04:24:29.550Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
+    "ar": "تم قبول فرصة عمل واحدة اليوم لتطوير تطبيق أندرويد داخلي مع إمكانية إضافة نسخة iOS، وهو يتناسب مع قدرات Moe في بناء التطبيقات الأصلية ودمج Firebase.",
+    "en": "One job lead was accepted today for developing an internal Android app with an optional iOS version, which aligns with Moe's capabilities in building native apps and Firebase integration."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Aplikasi Mobile Internal Perusahaan",
+      "url": "https://www.freelancer.com/projects/ios/Aplikasi-Mobile-Internal-Perusahaan",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "750-1500 USD",
+      "posted": "1 hours ago",
+      "proposals": "19",
+      "flId": 40836242,
+      "postedAt": 1795662581,
+      "bidsAt": "2026-11-26T04:24:01.346Z",
+      "language": "en",
+      "summary": "Saya ingin mengembangkan sebuah aplikasi mobile yang dipakai khusus oleh karyawan internal untuk mempermudah pekerjaan dan alur layanan harian. Fokusnya adalah kecepatan akses, tampilan yang sederhana, dan integrasi mulu",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يطلب تطوير تطبيق أندرويد داخلي مع لوحة تحكم، نماذج إدخال بيانات، ورفع صور، ومزامنة بيانات في الوقت الفعلي مع Firebase أو REST API، وMoe قادر على بناء تطبيقات أندرويد أصلية (Kotlin) ودمج Firebase. كما يمكنه توفير نسخة iOS عبر شريكه الموثوق. الميزانية مناسبة لحزمة أندرويد وiOS.",
+        "en": "The project requests an internal Android app with a dashboard, data input forms, photo upload, and real-time data sync with Firebase or REST API. Moe can build native Kotlin Android apps and integrate Firebase. He can also deliver an iOS version through his trusted partner. The budget is suitable for an Android + iOS bundle."
+      },
+      "watch": {
+        "ar": "يجب على Moe أن يوضح في عرضه أنه يستخدم Kotlin الأصلي لنظام Android وأن شريكه يتولى iOS، مع ذكر السعر المجمع للحزمة.",
+        "en": "Moe should clearly state in his proposal that he uses native Kotlin for Android and that his partner handles iOS, providing a bundled price."
+      },
+      "proposal": "I can develop your internal mobile application for Android, focusing on fast access and a simple interface, exactly as you described. I build native Kotlin Android apps with AI-assisted development, ensuring robust performance and seamless integration with your existing systems via REST API or Firebase. I can implement secure authentication, a clear dashboard for tasks and notifications, and efficient forms for data and photo uploads with real-time data sync.\n\nFor the optional iOS version, I build the Android app, and my trusted iOS partner builds and publishes the iOS app, providing both from one contact. A simple native Android + iOS app bundle typically costs 600-900 USD, with the Apple Developer account fee paid by the client.\n\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\n\nMy app Peace & Conflict 24 demonstrates my ability to create interactive dashboards and integrate real-time data.\n\nCould you share more details about the specific types of data employees will be inputting?",
+      "prime": false,
+      "foundAt": "2026-11-26T04:24:29.415Z",
+      "fresh": true
+    },
     {
       "title": "تصميم وبرمجة تطبيق احترافي بالذكاء الاصطناعي",
       "url": "https://mostaql.com/project/1295153",
@@ -121,7 +149,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T02:26:13.624Z",
+      "bidsAt": "2026-11-26T04:24:29.550Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -274,7 +302,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -286,7 +314,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (163 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 215 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (161 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 219 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -302,11 +330,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 9 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+        "msg": "phone relay last read 11 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "20 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -318,7 +346,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 9 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+        "msg": "phone relay last read 11 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -330,51 +358,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "289 jobs from Gmail alerts (last 5 days)"
+        "msg": "287 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): 🟠Senior Android Developer with Polish🟠"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Microservices Integration Designer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Turkey)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (12+ years required): Java Full Stack + AI"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): Mobile Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
+        "msg": "Android iOS Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "4 of 13 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -382,27 +374,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Developer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 7: active market arab-east, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 0 via gemini-2.5-flash"
       }
     ]
   }
