@@ -1,13 +1,38 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T13:24:22.228Z",
+  "generatedAt": "2026-11-26T15:27:44.752Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 8 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 8 open leads from the last 3 days."
+    "ar": "تم قبول مشروع واحد فقط اليوم لرفع تطبيق أندرويد إلى Google Play، ورفض باقي المشاريع لأسباب مثل طلب العمل الهجين أو في الموقع، أو تجاوز مستوى الخبرة المطلوبة، أو استخدام تقنيات لا يعمل بها Moe.",
+    "en": "Only one project was accepted today for uploading an Android app to Google Play, while the rest were rejected due to reasons such as hybrid/on-site work, exceeding required experience level, or using technologies Moe does not work with."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "عندي تطبيق قرآن APK بدي شخص يرفعة على جوجل بلاي",
+      "url": "https://khamsat.com/community/requests/801324-%D8%B9%D9%86%D8%AF%D9%8A-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%82%D8%B1%D8%A2%D9%86-apk-%D8%A8%D8%AF%D9%8A-%D8%B4%D8%AE%D8%B5-%D9%8A%D8%B1%D9%81%D8%B9%D8%A9-%D8%B9%D9%84%D9%89-%D8%AC%D9%88%D8%AC%D9%84-%D8%A8%D9%84%D8%A7%D9%8A",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 9,
+      "why": {
+        "ar": "هذا المشروع يتناسب مع Moe لأنه يطلب رفع تطبيق APK إلى Google Play، وهو أحد خدماته الأساسية التي يقدمها، بما في ذلك التعامل مع أي رفض أو مشاكل في النشر. Moe ينشر تطبيقاته الخاصة بانتظام على Google Play.",
+        "en": "This project fits Moe because it requests uploading an APK to Google Play, which is one of his core services, including handling any rejections or publishing issues. Moe regularly publishes his own apps to Google Play."
+      },
+      "watch": {
+        "ar": "التأكد من أن التطبيق لا ينتهك سياسات Google Play قبل الرفع، والاتفاق على السعر المناسب لهذه الخدمة.",
+        "en": "Ensure the app does not violate Google Play policies before uploading, and agree on a suitable price for this service."
+      },
+      "proposal": "أهلاً بك،\nأستطيع مساعدتك في رفع تطبيق القرآن الكريم الخاص بك إلى Google Play. أنا أقوم بنشر التطبيقات على المتجر بشكل منتظم، وأتعامل مع أي متطلبات أو تحديثات لسياسات Google Play لضمان قبول التطبيق.\nأبني تطبيقات الأندرويد الخاصة بي بمساعدة الذكاء الاصطناعي، وأقوم بنشرها على Google Play. على سبيل المثال، تطبيق Islam Rising الخاص بي، وهو متتبع عبادات، يُستخدم حالياً في 177 دولة ومنشور على Google Play.\nتطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي.\nهل توجد أي متطلبات خاصة للتطبيق أو ملفات إضافية تحتاج إلى إرفاقها عند النشر؟",
+      "prime": false,
+      "foundAt": "2026-11-26T15:27:44.612Z",
+      "fresh": true
+    },
     {
       "title": "تحويل منيو الى تطبيق pwa",
       "url": "https://khamsat.com/community/requests/801300-%D8%AA%D8%AD%D9%88%D9%8A%D9%84-%D9%85%D9%86%D9%8A%D9%88-%D8%A7%D9%84%D9%89-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-pwa",
@@ -146,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T13:24:22.228Z",
+      "bidsAt": "2026-11-26T15:27:44.752Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -215,6 +240,102 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Test iOS App on iPhone 17",
+      "url": "https://www.freelancer.com/projects/ios/Test-iOS-App-iPhone",
+      "reason": {
+        "ar": "المشروع يتطلب اختبار تطبيق iOS موجود، وهو ليس ضمن خدمات Moe أو شريكه لتطوير iOS. شريك iOS يبني تطبيقات جديدة، ولا يقوم باختبار تطبيقات موجودة.",
+        "en": "The project requires testing an existing iOS app, which is not among Moe's or his iOS partner's services. The iOS partner builds new apps, not tests existing ones."
+      }
+    },
+    {
+      "title": "Meta Quest Hand Rehab Game",
+      "url": "https://www.freelancer.com/projects/unity/Meta-Quest-Hand-Rehab-Game",
+      "reason": {
+        "ar": "المشروع يتطلب تطوير ألعاب باستخدام Unity 3D و C++، وهو خارج نطاق عمل Moe الذي يقتصر على الألعاب العادية البسيطة ولا يستخدم Unity.",
+        "en": "The project requires game development using Unity 3D and C++, which is outside Moe's scope of work, limited to simple casual games, and he does not use Unity."
+      }
+    },
+    {
+      "title": "تطوير منظومة تجارة إلكترونية وتطبيقات مترابطة لمتجر WooCommerce قائم",
+      "url": "https://mostaql.com/project/1295423",
+      "reason": {
+        "ar": "المشروع يتضمن تطوير WordPress و WooCommerce، وهو أمر لا يستطيع Moe القيام به. كما أن النطاق كبير جداً (أربعة تطبيقات أندرويد ومنظومة كاملة) بدون تحديد ميزانية.",
+        "en": "The project involves WordPress and WooCommerce development, which Moe cannot do. The scope is also very large (four Android apps and a complete system) without a specified budget."
+      }
+    },
+    {
+      "title": "إنشاء مواقع أكواد خصم وتحسين ظهورها داخل ChatGPT ومحركات الذكاء الاصطناعي",
+      "url": "https://mostaql.com/project/1295460",
+      "reason": {
+        "ar": "المشروع يركز على تحسين محركات البحث (SEO) وإنشاء مواقع ويب بسيطة وتحسين ظهورها في محركات الذكاء الاصطناعي، وهو ليس ضمن خدمات Moe في تطوير تطبيقات الأندرويد أو بناء وكلاء الذكاء الاصطناعي.",
+        "en": "The project focuses on SEO, creating simple websites, and optimizing their visibility in AI search engines, which is not within Moe's services for Android app development or AI agent building."
+      }
+    },
+    {
+      "title": "Builder (Agentic Developer)",
+      "url": "https://www.linkedin.com/jobs/view/4494687162/",
+      "reason": {
+        "ar": "الدور هو \"Senior / High-Velocity Execution\" ويتطلب قيادة عملية ترحيل TypeScript، وهو يتجاوز مستوى الخبرة المطلوب لـ Moe (أقل من 3 سنوات خبرة) ويقع ضمن الأدوار القيادية التي لا يقبلها.",
+        "en": "The role is a 'Senior / High-Velocity Execution' position and requires leading a TypeScript migration, which exceeds Moe's experience level (less than 3 years) and falls under leadership roles he does not accept."
+      }
+    },
+    {
+      "title": "Agentic AI Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4315855270/",
+      "reason": {
+        "ar": "يتطلب المشروع خبرة 3+ سنوات في تطوير Python الخلفي، واستخدام FastAPI، و Google Cloud Platform (Kubernetes, Pub/Sub, Vertex AI)، بالإضافة إلى أدوات مثل LangGraph و LangChain، وهي تقنيات لا يستخدمها Moe. جزء كبير من الوصف باللغة الإسبانية.",
+        "en": "The project requires 3+ years of Python backend development experience, FastAPI, Google Cloud Platform (Kubernetes, Pub/Sub, Vertex AI), and tools like LangGraph and LangChain, which are technologies Moe does not use. A significant part of the description is in Spanish."
+      }
+    },
+    {
+      "title": "Agentic AI Engineer (m/f/d)",
+      "url": "https://www.linkedin.com/jobs/view/4470475338/",
+      "reason": {
+        "ar": "يتطلب المشروع مهارات Python قوية وخبرة في AWS السحابية، بالإضافة إلى استخدام LangGraph/LangChain، وهي أدوات وتقنيات لا يستخدمها Moe ومذكورة صراحة ضمن ما لا يمكنه فعله.",
+        "en": "The project requires strong Python skills and AWS cloud experience, as well as the use of LangGraph/LangChain, which are tools and technologies Moe does not use and are explicitly listed as things he cannot do."
+      }
+    },
+    {
+      "title": "Mobile Software Development Engineer II - Android",
+      "url": "https://www.linkedin.com/jobs/view/4476489821/",
+      "reason": {
+        "ar": "يتطلب هذا المنصب العمل في الموقع خمسة أيام في الأسبوع، وهو ما يتعارض مع تفضيل Moe للعمل عن بعد فقط.",
+        "en": "This position requires on-site work five days a week, which conflicts with Moe's preference for remote-only work."
+      }
+    },
+    {
+      "title": "Programista aplikacji na Androida",
+      "url": "https://www.linkedin.com/jobs/view/4495005497/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بنظام هجين (4 أيام عن بعد، يوم واحد من المكتب)، وهو ما يتعارض مع تفضيل Moe للعمل عن بعد فقط.",
+        "en": "The job requires hybrid work (4 days remote, 1 day from the office), which conflicts with Moe's preference for remote-only work."
+      }
+    },
+    {
+      "title": "Programista aplikacji na Androida",
+      "url": "https://www.linkedin.com/jobs/view/4493494897/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بنظام هجين (مرة واحدة في الأسبوع من المكتب)، وهو ما يتعارض مع تفضيل Moe للعمل عن بعد فقط.",
+        "en": "The job requires hybrid work (1x a week in the office), which conflicts with Moe's preference for remote-only work."
+      }
+    },
+    {
+      "title": "Développeur.se Full Stack - Android Automotive OS / React",
+      "url": "https://www.linkedin.com/jobs/view/4493818739/",
+      "reason": {
+        "ar": "يتطلب المشروع خبرة لا تقل عن 3 سنوات، وخبرة في Android Automotive OS، بالإضافة إلى React/Next.js لتطوير الويب، وهي تقنيات وخبرات خارج نطاق Moe. كما يبدو أنه دور في الموقع أو هجين.",
+        "en": "The project requires at least 3 years of experience, Android Automotive OS experience, and React/Next.js for web development, which are outside Moe's profile. It also appears to be an on-site or hybrid role."
+      }
+    },
+    {
+      "title": "Mobile Application Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495030470/",
+      "reason": {
+        "ar": "الدور هو بمستوى Mid-Senior ويتطلب Flutter و React JS، وهي تقنيات لا يستخدمها Moe.",
+        "en": "The role is Mid-Senior level and requires Flutter and React JS, which are technologies Moe cannot use."
+      }
+    },
     {
       "title": "Minimal Mobile App UI",
       "url": "https://www.freelancer.com/projects/figma/Minimal-Mobile-App",
@@ -358,52 +479,12 @@
         "ar": "نص المشروع باللغة البولندية وليس الإنجليزية أو العربية. بالإضافة إلى ذلك، يتطلب صراحة 'خبرة تجارية لا تقل عن 3 سنوات في إنشاء تطبيقات أندرويد'، وهذا يتجاوز مستوى الخبرة المسموح به لـ Moe في طلبات التوظيف.",
         "en": "The project text is in Polish, not English or Arabic. Furthermore, it explicitly requires 'Minimum 3 years of commercial experience in creating Android applications', which exceeds Moe's allowed experience level for job applications."
       }
-    },
-    {
-      "title": "Apple Demo iPhone remove ",
-      "url": "https://www.freelancer.com/projects/ios/Apple-Demo-iPhone-remove",
-      "reason": {
-        "ar": "هذا المشروع يتعلق بالدعم الفني وإزالة قفل جهاز آيفون (MDM)، وليس تطوير تطبيق. Moe يقدم تطبيقات أندرويد و iOS (عبر شريكه) ولكنه لا يقدم دعمًا فنيًا للأجهزة.",
-        "en": "This project is for technical support and iPhone device unlocking (MDM removal), not app development. Moe delivers Android and iOS apps (via his partner) but does not provide device technical support."
-      }
-    },
-    {
-      "title": "Mini Juego Android con AdMob",
-      "url": "https://www.freelancer.com/projects/unity/Mini-Juego-Android-con-AdMob",
-      "reason": {
-        "ar": "يتطلب هذا المشروع خبرة في Unity (C#) أو Godot، وهي تقنيات لا يستخدمها Moe. كما أن نص المشروع باللغة الإسبانية، وهو ليس الإنجليزية أو العربية.",
-        "en": "This project requires experience in Unity (C#) or Godot, which are technologies Moe does not use. Additionally, the project text is in Spanish, not English or Arabic."
-      }
-    },
-    {
-      "title": "Java/Kotlin Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4494799218/",
-      "reason": {
-        "ar": "الفرصة تتطلب مطورًا بمستوى خبرة متوسط-عالي (Mid-Senior) أو أعلى، وتتطلب العمل على قاعدة أكواد كبيرة موجودة مسبقًا، وهو ما لا يناسب Moe.",
-        "en": "The opportunity requires a Mid-Senior level or higher developer and involves working on a large existing codebase, which does not fit Moe."
-      }
-    },
-    {
-      "title": "Développeur Android Kotlin Multiplatform (KMP) (H/F)",
-      "url": "https://www.linkedin.com/jobs/view/4490865509/",
-      "reason": {
-        "ar": "تتطلب الفرصة العمل من الموقع (Montpellier) وتطلب خبرة 5 سنوات في تطوير Android، وهو ما لا يناسب Moe.",
-        "en": "The opportunity requires on-site work (Montpellier) and asks for 5 years of Android development experience, which does not fit Moe."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4486132480/",
-      "reason": {
-        "ar": "الفرصة تتطلب مطور Android بمستوى خبرة متوسط-عالي (Mid-Senior)، وهو ما لا يناسب Moe.",
-        "en": "The opportunity requires a Mid-Senior level Android developer, which does not fit Moe."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 13,
     "steps": [
       {
         "step": "memory",
@@ -415,7 +496,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (323 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 107 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (345 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 74 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -431,51 +512,87 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 5 hours ago: 71 projects on the lists, 0 sent (HTTP 200 160068ch 28 links; HTTP 200 159657ch 27 links; HTTP 200 161988ch 26 links; )"
+        "msg": "phone relay last read less than an hour ago: 69 projects on the lists, 3 sent (HTTP 200 159479ch 28 links; HTTP 200 158715ch 27 links; HTTP 200 163373ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "20 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "3 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 3 (worker 1, open 2), longest gap 0 min, last 5 hours ago (open, v1.9.3)"
+        "msg": "phone checks in last 12h: 4 (worker 1, open 2, alarm 1), longest gap 425 min, last less than an hour ago (alarm, v1.9.3)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open"
+        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open 18:12!"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات"
+        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات || 18:12 🔷 وظيفة Remote جديدة على LinkedIn (+5) | 🔵 مشروع تطبيق جديد على مستقل | 🟡 طلب جديد على خمسات"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134152ch 25 links; )"
+        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 2 sent (HTTP 200 134255ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "1 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "278 jobs from Gmail alerts (last 5 days)"
+        "msg": "291 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
+        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Artificial Intelligence Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): AI Engineer (Junior- Mid-Level) | Python, LLMs, RAG & AI Agents | Production Experience Required"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (9+ years required): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Applied AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Frontend Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): W2 Role - Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (20+ years required): Android Developer (Banking)"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "16 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -483,19 +600,55 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): AI and Agency Engineer (m/f/d)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI and Agency Engineer (m/f/d)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): GenAI Engineer | Hungary"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Yapay Zeka Mühendisi (LLM/VLM)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Backend Security Engineer (Remote)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Associate, AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur ou développeuse agentique"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (web-only (not Android)): تطوير إضافة AI لـ Burp Suite مشابهة لـ Burp AT لاختبار الاختراق ومراجعة الكود ال"
+      },
+      {
+        "step": "filter",
+        "msg": "9 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "2 new Freelancer projects added, 13 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 16: active market europe, 0 prime leads"
+        "msg": "Amman hour 18: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 12 via gemini-2.5-flash"
       }
     ]
   }
