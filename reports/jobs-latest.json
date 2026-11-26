@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T21:26:08.158Z",
+  "generatedAt": "2026-11-26T23:25:34.456Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T21:26:08.158Z",
+      "bidsAt": "2026-11-26T23:25:34.456Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -192,6 +192,14 @@
   ],
   "rejected": [
     {
+      "title": "Agentic AI Engineer (AVP)",
+      "url": "https://www.linkedin.com/jobs/view/4495012601/",
+      "reason": {
+        "ar": "هذا إعلان لوظيفة بدوام كامل (AVP) في شركة كبيرة، وليس مشروعًا مستقلاً أو عقدًا. كما أن الدور يتطلب خبرة في أدوات الذكاء الاصطناعي المتقدمة مثل RAG pipelines و knowledge graphs، والتي لا يستخدمها Moe. Moe لا يقبل الوظائف ذات المستويات الإدارية العليا (senior/staff/lead/principal).",
+        "en": "This is a full-time employment job (AVP) at a large corporation, not a freelance project or contract. The role also requires expertise in advanced AI tools like RAG pipelines and knowledge graphs, which Moe does not use. Moe does not accept senior/staff/lead/principal level roles."
+      }
+    },
+    {
       "title": "iOS Encrypted Backup Decryption -- 2",
       "url": "https://www.freelancer.com/projects/mobile-app-development/iOS-Encrypted-Backup-Decryption",
       "reason": {
@@ -211,7 +219,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -223,7 +231,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (231 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 109 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (215 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 125 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -239,7 +247,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
+        "msg": "phone relay last read 4 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -251,7 +259,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 10 (alarm 3, open 6, start 1), longest gap 168 min, last 2 hours ago (start, v1.9.4)"
+        "msg": "phone checks in last 12h: 10 (alarm 3, open 6, start 1), longest gap 168 min, last 4 hours ago (start, v1.9.4)"
       },
       {
         "step": "keeper",
@@ -263,7 +271,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
+        "msg": "phone relay last read 4 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -275,51 +283,31 @@
       },
       {
         "step": "linkedin",
-        "msg": "274 jobs from Gmail alerts (last 5 days)"
+        "msg": "270 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "47 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "AI App Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Mobile Engineer 4 (Android, Kotlin, JetPack Compose)"
+        "msg": "skipped (title): Senior Software Engineer - AI Experiences"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): iOS Engineer, Flights Search"
+        "msg": "skipped (3+ years required): Applied AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Application Engineer"
+        "msg": "skipped (5+ years required): GenAI/Python Analyst - Assistant Vice President"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (TopHat HR)): Software Engineer - Mobile App (Expo/React Native)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - Frontend"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Salesforce Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Front-End Engineer – Engineer to Senior Engineer Level"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Salesforce Developer"
+        "msg": "skipped (on-site/hybrid): Associate Software Engineer"
       },
       {
         "step": "verify",
-        "msg": "3 of 12 new LinkedIn jobs added"
+        "msg": "6 of 10 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -327,31 +315,39 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Associate Software Engineer"
+        "msg": "skipped (not an app or AI agent project): Applied AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur(euse) Frontend/Full Stack"
+        "msg": "skipped (not an app or AI agent project): Associate AI Applications Engineer II"
       },
       {
         "step": "filter",
-        "msg": "skipped (Flutter/React Native/Unity): Desenvolvedor de Aplicativos Móveis (Flutter)"
+        "msg": "skipped (not an app or AI agent project): Jr.-Level Full-Stack AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "3 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): SAP AI Engineer III"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): SAP AI Engineer III"
+      },
+      {
+        "step": "filter",
+        "msg": "5 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 2 to judge"
+        "msg": "0 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 0: active market americas, 0 prime leads"
+        "msg": "Amman hour 2: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
