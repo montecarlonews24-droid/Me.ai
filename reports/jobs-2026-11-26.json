@@ -1,13 +1,38 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T07:25:53.589Z",
+  "generatedAt": "2026-11-26T09:24:30.649Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
+    "ar": "تم رفض طلب وظيفة مطور iOS بسبب العمل على كود برمجي موجود ومستوى الخبرة المطلوب. تم قبول طلب تحويل قائمة طعام إلى تطبيق أندرويد (PWA).",
+    "en": "An iOS developer job was rejected due to requiring work on an existing codebase and the requested experience level. A request to convert a menu into an Android PWA app was accepted."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "تحويل منيو الى تطبيق pwa",
+      "url": "https://khamsat.com/community/requests/801300-%D8%AA%D8%AD%D9%88%D9%8A%D9%84-%D9%85%D9%86%D9%8A%D9%88-%D8%A7%D9%84%D9%89-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-pwa",
+      "platform": "Khamsat",
+      "market": "arab",
+      "country": "",
+      "budget": "",
+      "posted": "",
+      "proposals": "",
+      "language": "ar",
+      "summary": "",
+      "fit": 8,
+      "why": {
+        "ar": "المشروع يتناسب مع قدرة Moe على بناء تطبيقات أندرويد هجينة (WebView) من مواقع إلكترونية أو أفكار، وهو يجيد التعامل مع التطبيقات العربية. السعر المقترح (100-200 دولار) ضمن نطاق ميزانية Moe لتطبيقات الأندرويد فقط.",
+        "en": "The project aligns with Moe's ability to build hybrid Android (WebView) apps from websites or ideas, and he is proficient with Arabic apps. The suggested price (100-200 USD) is within Moe's budget range for Android-only apps."
+      },
+      "watch": {
+        "ar": "لا يوجد تفاصيل عن الميزانية أو تاريخ النشر أو عدد العروض، لذا يجب على Moe تقديم عرض سعر واضح. يجب عدم تضمين روابط في الاقتراح لأنه على منصة خمسات.",
+        "en": "No budget, posted date, or proposal count details are available, so Moe should provide a clear quote. No links should be included in the proposal as it's on Khamsat."
+      },
+      "proposal": "أهلاً بك، بخصوص طلبك لتحويل المنيو الخاص بك إلى تطبيق PWA، أستطيع بناء تطبيق أندرويد هجين (WebView) يعرض المنيو الخاص بك بشكل احترافي على الهواتف الذكية. أستخدم أدوات الذكاء الاصطناعي في عملية التطوير لضمان سرعة وجودة التنفيذ. تطبيقاتي المنشورة على Google Play، مثل تطبيق Islam Rising الذي يدعم اللغة العربية ويستخدمه جمهور واسع، تظهر قدرتي على بناء تطبيقات عملية وموثوقة. تطبيقاتي المنشورة على Google Play موجودة بمعرض أعمالي على ملفي الشخصي. عادةً ما تتراوح تكلفة بناء تطبيق أندرويد فقط من موقع إلكتروني بين 100-200 دولار أمريكي. هل المنيو موجود على موقع إلكتروني حالي، وما هي الميزات الإضافية التي قد تحتاجها في التطبيق؟",
+      "prime": false,
+      "foundAt": "2026-11-26T09:24:30.500Z",
+      "fresh": true
+    },
     {
       "title": "تصميم وبرمجة تطبيق احترافي بالذكاء الاصطناعي",
       "url": "https://mostaql.com/project/1295153",
@@ -121,7 +146,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T07:25:53.588Z",
+      "bidsAt": "2026-11-26T09:24:30.649Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -190,6 +215,14 @@
     }
   ],
   "rejected": [
+    {
+      "title": "iOS Mobile Developer",
+      "url": "https://www.linkedin.com/jobs/view/4494796507/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل على كود برمجي iOS Swift موجود، وهو ما لا يستطيع Moe فعله. كما أن مستوى الوظيفة (Mid-Senior) يتجاوز ما يبحث عنه Moe.",
+        "en": "The job requires working on an existing iOS Swift codebase, which Moe cannot do. Additionally, the job's seniority level (Mid-Senior) is beyond what Moe is seeking."
+      }
+    },
     {
       "title": "Educational Certificate Verification needed in Japan",
       "url": "https://www.freelancer.com/projects/field-research/Educational-Certificate-Verification-40836539",
@@ -314,7 +347,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 3,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
@@ -326,7 +359,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (295 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 119 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (323 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 96 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -342,7 +375,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 14 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+        "msg": "phone relay last read 1 hours ago: 71 projects on the lists, 0 sent (HTTP 200 160068ch 28 links; HTTP 200 159657ch 27 links; HTTP 200 161988ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -350,55 +383,59 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "1 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "no phone checks in the last 12 hours"
+        "msg": "phone checks in last 12h: 3 (worker 1, open 2), longest gap 0 min, last 1 hours ago (open, v1.9.3)"
+      },
+      {
+        "step": "keeper",
+        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open"
+      },
+      {
+        "step": "keeper",
+        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134152ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "7 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "1 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "271 jobs from Gmail alerts (last 5 days)"
+        "msg": "272 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / Australia: busy (429), stopping search this run"
+        "msg": "AI App Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (18+ years required): Software Development Engineer, FlyDelta Mobile"
+        "msg": "skipped (3+ years required): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr Android Engineer - Flagship Mobile App"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Developer | Développeur·euse mobile senior"
+        "msg": "skipped (3+ years required): Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Frontend Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "verify",
-        "msg": "5 of 10 new LinkedIn jobs added"
+        "msg": "1 of 5 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -406,31 +443,23 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Fullstack Software Engineer (Finance/Trading background preferred)"
+        "msg": "skipped (not an app or AI agent project): تعديلات بسيطة داخل موقعي وتحسين الـ AI"
       },
       {
         "step": "filter",
-        "msg": "skipped (Flutter/React Native/Unity): Développeur(se) React Native F/H"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): engineer I - ST - Partner Technology (Nashville, TN - U.S.)"
-      },
-      {
-        "step": "filter",
-        "msg": "3 skipped by the app-only filter"
+        "msg": "1 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 3 to judge"
+        "msg": "0 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 10: active market arab-east, 0 prime leads"
+        "msg": "Amman hour 12: active market europe, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
+        "msg": "kept 1, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
