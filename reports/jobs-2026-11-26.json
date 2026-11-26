@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T11:27:08.118Z",
+  "generatedAt": "2026-11-26T13:24:22.228Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 8 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -146,7 +146,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T11:27:08.118Z",
+      "bidsAt": "2026-11-26T13:24:22.228Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -215,6 +215,14 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Minimal Mobile App UI",
+      "url": "https://www.freelancer.com/projects/figma/Minimal-Mobile-App",
+      "reason": {
+        "ar": "المشروع يطلب تصميم واجهة مستخدم (UI/UX) في Figma، بما في ذلك الوايرفريم والنماذج الأولية. Moe يقوم بتطوير التطبيقات وليس تصميم الواجهات فقط.",
+        "en": "The project requests UI/UX design in Figma, including wireframes and prototypes. Moe develops apps, he does not offer UI/UX design services only."
+      }
+    },
     {
       "title": "Développeur Android Native Kotlin (H/F)",
       "url": "https://www.linkedin.com/jobs/view/4493496213/",
@@ -395,7 +403,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 6,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -407,7 +415,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (358 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 65 skipped: not app/AI work)"
+        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (323 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 107 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -423,7 +431,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 3 hours ago: 71 projects on the lists, 0 sent (HTTP 200 160068ch 28 links; HTTP 200 159657ch 27 links; HTTP 200 161988ch 26 links; )"
+        "msg": "phone relay last read 5 hours ago: 71 projects on the lists, 0 sent (HTTP 200 160068ch 28 links; HTTP 200 159657ch 27 links; HTTP 200 161988ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -435,7 +443,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 3 (worker 1, open 2), longest gap 0 min, last 3 hours ago (open, v1.9.3)"
+        "msg": "phone checks in last 12h: 3 (worker 1, open 2), longest gap 0 min, last 5 hours ago (open, v1.9.3)"
       },
       {
         "step": "keeper",
@@ -447,7 +455,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134152ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134152ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -459,75 +467,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "277 jobs from Gmail alerts (last 5 days)"
+        "msg": "278 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (recruitment agency (Michael Page)): Interim Developer Mobile App (m/w/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Android Engineer - MTS 2"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Mobile Engineer 4 - Android Applications"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Backend - Data Streaming"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer - Core Identity"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Intermediate Software Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (20+ years required): Application Integration Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Developer – Kafka & Integration"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Integration Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Back-End Engineer - Engineer to Senior Engineer Level"
+        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "10 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -535,35 +483,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Java Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Backend Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Kıdemli Yazılım Mühendisi"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer (AI Training)"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 6 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 14: active market europe, 0 prime leads"
+        "msg": "Amman hour 16: active market europe, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
