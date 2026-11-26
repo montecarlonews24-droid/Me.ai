@@ -1,216 +1,339 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T13:24:53.199Z",
+  "generatedAt": "2026-11-26T19:27:10.274Z",
   "model": "gemini-2.5-flash",
-  "summary": "اليوم، ركزنا على أفكار تطبيقات أندرويد عالمية باللغة الإنجليزية، قابلة للبناء بواسطة مطور واحد في غضون 1-3 أسابيع، مع التركيز على الاستفادة من التغيرات العالمية الحالية وتقديم حلول فريدة.",
+  "summary": "تركز الأفكار المختارة اليوم على الاستفادة من الذكاء الاصطناعي في أندرويد لتبسيط المعلومات المعقدة وتوفير إرشادات صحية وبيئية شخصية، مع التركيز على التحديات العالمية مثل أزمة المياه وتغير المناخ.",
   "trends": [
-    "تستمر درجات الحرارة الاستثنائية عالميًا، مع توقع أن يكون عام 2026 أحد أكثر الأعوام حرارة، مما يزيد من موجات الحر والطقس المتطرف.",
-    "يفقد الناس عالميًا ما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة، مما يجعل النوم الجيد تحديًا متزايدًا.",
-    "أصبح اقتصاد العمل الحر والوظائف الجانبية ضروريين للاستقرار المالي للكثيرين، وتدعم أدوات الذكاء الاصطناعي نمو الوظائف الجانبية المعتمدة على الذكاء الاصطناعي."
+    "تستمر الانبعاثات الشمسية في التأثير على الأرض، مما يهدد دقة أنظمة تحديد المواقع العالمية (GPS).",
+    "شهد عام 2026 موجات حر قياسية عالميًا، مما يزيد من المخاطر الصحية ويؤثر على الحياة اليومية.",
+    "تتزايد شدة ظاهرة النينيو، مما يؤدي إلى اضطرابات واسعة في أنماط الطقس وتراجع الموارد المائية العذبة عالميًا.",
+    "أطلقت جوجل ميزات ذكاء اصطناعي جديدة لهواتف أندرويد، بما في ذلك أدوات لفهم ما تراه الكاميرا وتحسينات في الإنتاجية.",
+    "توصل الاتحاد الأوروبي إلى اتفاق لتبسيط قواعد حماية البيانات والخصوصية، مما يؤكد الحاجة إلى فهم أفضل للبيانات الشخصية."
   ],
   "world": {
     "signals": [
       {
-        "area": "الأرض والمناخ",
-        "change": "استمرار درجات الحرارة الاستثنائية عالميًا، مع ترشيح عام 2026 لمنافسة 2024 كأكثر الأعوام حرارة على الإطلاق، وتوقعات بحدث النينيو القوي الذي سيطلق المزيد من الطقس المتطرف حتى عام 2027.",
-        "who": "سكان العالم، حيث يزيد ذلك من مخاطر موجات الحر ويؤثر على الحياة اليومية والزراعة والبنية التحتية.",
-        "evidence": "شهد العالم للمرة الأولى ستة أيام متتالية بلغت فيها درجات الحرارة أعلى بـ 2 درجة مئوية من مستويات ما قبل الثورة الصناعية في نوفمبر 2026. تجاوز متوسط درجة حرارة سطح الأرض العالمي 1.98 درجة مئوية فوق متوسط ما قبل الثورة الصناعية في الأيام الـ 21 الأولى من نوفمبر 2026."
-      },
-      {
-        "area": "الأرض والمناخ",
-        "change": "موسم حرائق الغابات لعام 2026 يشهد مناطق محترقة عالميًا أعلى بكثير من المتوسط، مع تحول الحرائق النشطة نحو نصف الكرة الجنوبي والمناطق الاستوائية، وتسبب في تلوث هوائي خطير في إندونيسيا.",
-        "who": "المجتمعات القريبة من مناطق الحرائق في إسبانيا، بوتسوانا، ناميبيا، موزمبيق، أستراليا، والبرازيل. كما يتأثر سكان إندونيسيا والمناطق المحيطة (سومطرة الجنوبية، كاليمانتان الجنوبية، غينيا الجديدة، المحيط الهندي، جنوب شرق آسيا، غرب المحيط الهادئ، وشمال غرب أستراليا) بجودة الهواء الخطرة.",
-        "evidence": "اعتبارًا من 7 نوفمبر 2026، بلغت مساحة المنطقة المحترقة عالميًا 761,205 هكتارًا، وهي أعلى بكثير من متوسط 20 عامًا البالغ 400,617 هكتارًا. تسبب تلوث الهواء الخطير الناتج عن حرائق الغابات في إندونيسيا في وفاة 3,560 شخصًا في سبتمبر 2026."
-      },
-      {
-        "area": "الأرض والمناخ",
-        "change": "مواسم الحساسية لعام 2026 أصبحت أكثر حدة، حيث تبدأ مبكرًا وتستمر لفترة أطول بسبب ارتفاع درجات الحرارة وزيادة مستويات ثاني أكسيد الكربون.",
-        "who": "ملايين الأشخاص في جميع أنحاء العالم الذين يعانون من الحساسية الموسمية، بما في ذلك البالغون والأطفال، خاصة في مناطق مثل ساحل الخليج الأمريكي وأوكلاهوما وكولورادو وكانساس والسهول الكبرى الشمالية.",
-        "evidence": "في عام 2026، تزايد موسم الحساسية بشكل مبكر وأكثر قوة من المتوقع. أصبحت مواسم حبوب اللقاح في أمريكا الشمالية تبدأ قبل 20 يومًا وتستمر لفترة أطول مما كانت عليه في التسعينيات."
+        "area": "الفضاء والشمس",
+        "change": "تم تطوير نظام جديد للتنبؤ بمخاطر الطقس الفضائي على شبكات الكهرباء في الولايات المتحدة، قادر على إصدار تحذيرات قبل 30 إلى 60 دقيقة من التأثير المحتمل.",
+        "who": "مشغلو شبكات الكهرباء، والمستهلكون الذين يعتمدون على الكهرباء، حيث يساعد النظام في حماية البنية التحتية للطاقة ويقلل من مخاطر انقطاع التيار الكهربائي.",
+        "evidence": "30 سبتمبر 2026"
       },
       {
         "area": "الفضاء والشمس",
-        "change": "ذروة زخة شهب الجوزاء (Geminids) حول 13-14 ديسمبر 2026، مع ظروف مشاهدة ممتازة بسبب رقة الهلال القمري. وذروة زخة شهب الدب الأصغر (Ursids) في 21-22 ديسمبر 2026، على الرغم من أن ضوء القمر سيجعل رؤيتها أصعب.",
-        "who": "مراقبو النجوم وهواة الفلك في نصف الكرة الشمالي بشكل أساسي.",
-        "evidence": "تعتبر شهب الجوزاء واحدة من أكثر زخات الشهب موثوقية في العام، ومن المتوقع أن تكون الظروف مواتية بشكل خاص في عام 2026، حيث تبلغ ذروتها في 13-14 ديسمبر. سيكون القمر هلالًا رقيقًا وسيغرب مبكرًا في المساء، مما يترك السماء مظلمة لمعظم الليل."
+        "change": "تستمر الانبعاثات الشمسية في التأثير على الأرض، مع توقع اضطرابات جيومغناطيسية طفيفة إلى محدودة قد تؤثر على دقة أنظمة تحديد المواقع العالمية (GPS).",
+        "who": "المزارعون الذين يعتمدون على الجرارات ذاتية القيادة، والسائقون، وجميع المستخدمين الذين يعتمدون على GPS في الملاحة والعمليات الدقيقة.",
+        "evidence": "سبتمبر 2026"
       },
       {
-        "area": "الفضاء والشمس",
-        "change": "ظهور 'القمر العملاق البارد' (Cold Supermoon)، وهو أقرب بدر هذا العقد (على بعد 221,667 ميلاً من الأرض)، في 23 ديسمبر 2026. بالإضافة إلى 'استعراض الكواكب' الذي سيكون مرئيًا في أواخر ديسمبر 2026.",
-        "who": "مراقبو النجوم وأي شخص مهتم بالظواهر الفلكية في جميع أنحاء العالم.",
-        "evidence": "البدر الأخير من العام هو أيضًا الأقرب الذي رأيناه هذا العقد حتى الآن. في الواقع، لم نشهد قمرًا بهذا القرب - 221,667 ميلًا من الأرض - منذ عام 2018. في أواخر ديسمبر، سيملأ عرضان كوكبيان سماء الليل وقبل الفجر."
+        "area": "الأرض والمناخ",
+        "change": "شهد عام 2026 استمرار موجات الحر القياسية عالميًا، حيث سجلت إنجلترا أكثر من 5200 وفاة مرتبطة بالحر في صيف 2026، وسجلت أوروبا الغربية أدفأ فصول الصيف على الإطلاق.",
+        "who": "عامة الناس، وخاصة الفئات الأكثر ضعفًا مثل كبار السن والأطفال وذوي الأمراض المزمنة، مع تأثير على الصحة العامة والأنشطة اليومية.",
+        "evidence": "أغسطس 2026، نوفمبر 2026"
       },
       {
-        "area": "الجسم والحياة اليومية",
-        "change": "فقدان الناس عالميًا لما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة بين عامي 2020 و2025. تغير المناخ يجعل الليالي الحارة أكثر شيوعًا، مما يصعب النوم والبقاء نائمين.",
-        "who": "الناس العاديون في جميع أنحاء العالم، وخاصة في الشرق الأوسط، جنوب الهند، جنوب شرق آسيا، غرب إفريقيا، والمدن الأمريكية مثل أريزونا، كاليفورنيا، فلوريدا، ونيفادا. كبار السن والنساء وسكان البلدان ذات الدخل المنخفض يتأثرون بشكل غير متناسب.",
-        "evidence": "عالميًا، فقد الشخص العادي ما يقرب من 56 ساعة نوم سنويًا بسبب ارتفاع درجات الحرارة المحيطة خلال الفترة 2020-2025. يُعزى حوالي ست ساعات من هذا الفقدان السنوي للنوم إلى الاحترار الناتج عن تغير المناخ."
+        "area": "الأرض والمناخ",
+        "change": "ظاهرة النينيو تتزايد شدتها ومن المتوقع أن تستمر كظاهرة قوية جدًا حتى فبراير 2027، مما يؤدي إلى اضطرابات واسعة في أنماط هطول الأمطار ودرجات الحرارة، ويزيد من مخاطر الفيضانات والجفاف.",
+        "who": "المجتمعات الزراعية، والسكان في المناطق المعرضة للفيضانات والجفاف، مما يؤثر على الأمن الغذائي والمائي والبنية التحتية.",
+        "evidence": "سبتمبر 2026، نوفمبر 2026"
       },
       {
-        "area": "الجسم والحياة اليومية",
-        "change": "استمرار الارتباط القوي بين وقت الشاشة المفرط والتأثيرات السلبية على الصحة العقلية (القلق والاكتئاب والعزلة الاجتماعية) واضطرابات النوم لكل من الأطفال والبالغين في عام 2026.",
-        "who": "الأطفال والمراهقون (خاصة الفتيات) والبالغون عالميًا. المراهقون الذين يقضون أربع ساعات أو أكثر يوميًا على الشاشات تظهر عليهم احتمالات أعلى بكثير للشعور بالحزن واليأس والقلق.",
-        "evidence": "بحلول عام 2026، يواصل الباحثون العثور على صلات قوية بين عادات الشاشة وجودة النوم وصحة الشباب العقلية. ارتبط وقت الشاشة اليومي الذي يبلغ أربع ساعات أو أكثر بزيادة خطر القلق بنسبة 45% وزيادة خطر الاكتئاب بنسبة 61% مقارنة بالأطفال الذين يستخدمون الشاشات بشكل أقل."
+        "area": "الأرض والمناخ",
+        "change": "تراجع واسع في الموارد المائية العذبة عالميًا، مع انخفاض منسوبات أنهار وبحيرات رئيسية في الولايات المتحدة وأوروبا خلال عام 2026، وتناقص المخزون المائي المخزن على اليابسة منذ عام 2014.",
+        "who": "أكثر من 2.1 مليار شخص يفتقرون إلى مياه الشرب المدارة بأمان، والمجتمعات التي تعتمد على هذه المصادر، مع تأثير على الزراعة والصحة والحياة اليومية.",
+        "evidence": "أكتوبر 2026"
       },
       {
-        "area": "الجسم والحياة اليومية",
-        "change": "انتهاء التوقيت الصيفي في أواخر أكتوبر/أوائل نوفمبر 2026 في أجزاء كثيرة من نصف الكرة الشمالي (مثل أوروبا وأمريكا الشمالية)، مما أدى إلى غروب الشمس مبكرًا وساعات نهار أقصر في المساء.",
-        "who": "الأشخاص في المناطق المتأثرة يختبرون تحولًا في روتينهم اليومي وأنماط نومهم وتعرضهم لضوء النهار.",
-        "evidence": "معلومة عامة (حدث سنوي)"
+        "area": "الأرض والمناخ",
+        "change": "أصبحت مواسم حبوب اللقاح في أوروبا أطول وتبدأ أبكر بقليل، كما تتزايد كثافة حبوب اللقاح في الهواء.",
+        "who": "40% من سكان أوروبا المصابين بالحساسية، مع زيادة معاناتهم من العطاس واحمرار العينين والحكة.",
+        "evidence": "أبريل 2026"
       },
       {
-        "area": "المال والعمل",
-        "change": "اقتصاد العمل الحر (Gig economy) والوظائف الجانبية (side hustles) أصبحا ضروريين للاستقرار المالي للكثير من العمال في عام 2026 بسبب ارتفاع التكاليف وأعباء الديون. 72% من العمال الأمريكيين يعتمدون على مصدر دخل ثانوي واحد على الأقل.",
-        "who": "العمال الأمريكيون والمهنيون عالميًا الذين يسعون لتكملة دخلهم، تغطية نفقات المعيشة الأساسية، أو بناء الاستقرار المالي.",
-        "evidence": "تكشف إحصائيات اقتصاد العمل الحر الرئيسية لعام 2026 أن الدخل التكميلي أصبح ضروريًا للغالبية العظمى من العمال الأمريكيين. 72% من العمال في الولايات المتحدة يعتمدون على دخل ثانوي."
-      },
-      {
-        "area": "المال والعمل",
-        "change": "نماذج العمل عن بعد والهجين أصبحت هي القاعدة، حيث تسارعت وتيرتها بسبب ارتفاع تكاليف الوقود والضغوط الاقتصادية العالمية في عام 2026. حوالي 79% من الموظفين القادرين على العمل عن بعد عالميًا إما يعملون عن بعد بالكامل (27%) أو بنظام هجين (52%).",
-        "who": "الموظفون والشركات وأصحاب العمل عالميًا، مما يؤثر على أنماط التنقل واحتياجات المساحات المكتبية والتوازن بين العمل والحياة.",
-        "evidence": "يُعرّف العمل عن بعد في عام 2026 بهيمنة النماذج الهجينة، والاعتماد الواسع النطاق، والاعتماد المتزايد على أنظمة التكنولوجيا المتكاملة. 52% من الموظفين القادرين على العمل عن بعد يعملون الآن بترتيب هجين، بينما 27% يعملون عن بعد بشكل حصري."
+        "area": "الجسد والحياة اليومية",
+        "change": "يبدأ فصل الشتاء فلكيًا في 21 ديسمبر 2026، مما يدفع السلطات الصحية إلى التوصية بالحصول على لقاح الإنفلونزا الموسمية قبل هذا التاريخ.",
+        "who": "عامة الناس، خاصة الفئات الأكثر عرضة لخطر الإصابة بالإنفلونزا ومضاعفاتها.",
+        "evidence": "نوفمبر 2026"
       },
       {
         "area": "المال والعمل",
-        "change": "تستمر أسعار الطاقة المرتفعة في التأثير على ميزانيات الأسر وقرارات الأعمال، مع تشجيع منظمات مثل وكالة الطاقة الدولية على اتخاذ تدابير مثل العمل عن بعد لتخفيف الضغوط.",
-        "who": "الأسر والشركات عالميًا، مما يؤثر على تكاليف المعيشة والمصروفات التشغيلية.",
-        "evidence": "عندما ترتفع أسعار الوقود، يصبح التنقل أكثر تكلفة بكثير. بالنسبة للموظفين الذين يقودون مسافات طويلة، يمكن أن يصبح تكلفة الوصول إلى العمل عبئًا ماليًا خطيرًا. على المستوى الاقتصادي الأوسع، تساهم تكاليف الوقود المتزايدة في الضغوط التضخمية وميزانيات الأعمال الأكثر إحكامًا."
+        "change": "يتوقع البنك الدولي ارتفاع أسعار السلع الأولية عالميًا بنسبة 23% في عام 2026، مع توقع ارتفاع أسعار الغذاء 10% في عام 2026 و7% إضافية في عام 2027، بسبب اضطرابات الشحن والطقس.",
+        "who": "المستهلكون حول العالم، خاصة في الدول ذات الدخل المنخفض أو المتوسط، مع ضغط على الميزانيات وتفاقم محتمل للتضخم وانعدام الأمن الغذائي.",
+        "evidence": "أكتوبر 2026"
       },
       {
         "area": "التكنولوجيا",
-        "change": "أدوات الذكاء الاصطناعي تخلق فرصًا جديدة وتدعم نمو الوظائف الجانبية المعتمدة على الذكاء الاصطناعي، خاصة في إنشاء المحتوى (الكتابة الحرة، محتوى الفيديو).",
-        "who": "العمال المستقلون (Freelancers)، ومنشئو المحتوى، والأفراد الباحثون عن مصادر دخل إضافية، والشركات الصغيرة.",
-        "evidence": "في عام 2026، تخلق اتجاهات مثل أتمتة الذكاء الاصطناعي والمنتجات المستدامة وإنشاء المحتوى الرقمي فرصًا جديدة. ارتفع الاهتمام بالكتابة الحرة بنسبة 5,546% العام الماضي، ويُشار إلى أدوات الذكاء الاصطناعي كوسيلة لتسهيل صقل العمل. ارتفع الاهتمام بالوظائف الجانبية المعتمدة على الذكاء الاصطناعي بنحو 28% على أساس سنوي في عام 2026."
+        "change": "غوغل تطرح خلال سبتمبر 2026 خمس مزايا جديدة لهواتف أندرويد، تشمل أدوات مدعومة بالذكاء الاصطناعي لتذكر أماكن الأشياء وفهم ما تراه الكاميرا، وتحسينات للرسائل وتقليل دوار الحركة.",
+        "who": "مستخدمو هواتف أندرويد، مع تحسينات في تجربة الاستخدام اليومية وزيادة قدرات المساعد الشخصي.",
+        "evidence": "سبتمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "تم إطلاق الإصدار النهائي من Android 17 في 16 يونيو 2026، مع تركيز على الذكاء الاصطناعي والأمان والإنتاجية.",
+        "who": "مستخدمو أجهزة أندرويد المدعومة، مع تحديثات تحسن من طريقة استخدام الهاتف في العمل والترفيه والتواصل.",
+        "evidence": "يونيو 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "شركة ميتا تمنح مساعدها الذكي 'ميوز' القدرة على إجراء المكالمات الهاتفية نيابة عن المستخدمين، للتواصل مع الشركات وإنجاز المهام مثل حجز المواعيد، وهي متاحة في الولايات المتحدة منذ 12 نوفمبر 2026.",
+        "who": "المشتركون في الخطط المدفوعة في الولايات المتحدة، مما يوفر الوقت ويساعد في إدارة المهام اليومية.",
+        "evidence": "نوفمبر 2026"
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "توسع استخدام الواقع الممتد (XR) للمؤسسات، حيث سيتمكن مسؤولو تكنولوجيا المعلومات من نشر وإدارة نظارات XREAL Aura السلكية المدعومة بنظام Android XR لمهام مثل التجميع الموجه والتدريب الغامر.",
+        "who": "الشركات والعاملون في مجالات تتطلب تدريبًا متخصصًا أو مهام معقدة، مما يعزز الإنتاجية ويغير أساليب العمل.",
+        "evidence": "سبتمبر 2026"
       },
       {
         "area": "القواعد والمجتمع",
-        "change": "بدء سريان قوانين جديدة شاملة لخصوصية بيانات المستهلك في كنتاكي ورود آيلاند وإنديانا في 1 يناير 2026. قامت كاليفورنيا أيضًا بتحديث قانون الخصوصية الحالي، وسنت عدة ولايات أخرى (ألاباما، لويزيانا، أوكلاهوما، فيرمونت) قوانين جديدة في عام 2026 بتواريخ سريان لاحقة.",
-        "who": "الشركات العاملة في هذه الولايات، والمستهلكون الذين يتم جمع بياناتهم ومعالجتها، مما يؤثر على كيفية التعامل مع البيانات الشخصية وتخزينها وبيعها.",
-        "evidence": "دخلت قوانين خصوصية بيانات المستهلك الجديدة في كنتاكي ورود آيلاند وإنديانا حيز التنفيذ اعتبارًا من 1 يناير 2026. قامت كاليفورنيا بإجراء تحديثات على قانون خصوصية المستهلك الحالي. سنت أربع ولايات قوانين خصوصية شاملة في عام 2026، ليصل إجمالي عدد الولايات التي تتمتع بهذه الحماية إلى 24 ولاية."
+        "change": "توصل مجلس الاتحاد الأوروبي إلى اتفاق بشأن مقترح يهدف إلى تبسيط قواعد حماية البيانات والخصوصية والأمن السيبراني، مع تعديلات على اللائحة العامة لحماية البيانات (GDPR) وتحديث قواعد ملفات تعريف الارتباط (الكوكيز) في 21 أكتوبر 2026.",
+        "who": "الشركات والإدارات العامة والمواطنون في الاتحاد الأوروبي، مما يسهل تطبيق القواعد الرقمية ويحافظ على حماية البيانات الشخصية.",
+        "evidence": "أكتوبر 2026"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "اختتم مؤتمر المناخ كوب-31 في أنطاليا بتركيا في 22 نوفمبر 2026 دون التوصل إلى اتفاق مناخي بشأن الوقود الأحفوري، مما أثار خيبة أمل الأمم المتحدة.",
+        "who": "الحكومات والمواطنون والبيئة العالمية، حيث يؤثر الفشل في التوصل لاتفاق على جهود مكافحة تغير المناخ.",
+        "evidence": "نوفمبر 2026"
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "تستضيف العاصمة الإماراتية أبوظبي مؤتمر الأمم المتحدة للمياه في الفترة من 8 إلى 10 ديسمبر 2026، للتركيز على الحقوق الإنسانية في المياه، والربط بين الماء والغذاء والطاقة، والتكيف مع المناخ.",
+        "who": "الحكومات، والمنظمات الدولية، والمجتمعات المتضررة من أزمة المياه حول العالم، بهدف إيجاد حلول للتحديات المائية العالمية.",
+        "evidence": "أغسطس 2026"
       }
     ],
     "links": [
-      "الأرض والمناخ -> الجسم والحياة اليومية -> المال والعمل: ارتفاع درجات حرارة الليل يؤثر على جودة النوم، مما يقلل من إنتاجية الأفراد في عملهم وحياتهم اليومية.",
-      "المال والعمل -> المال والعمل: ارتفاع أسعار الوقود يزيد من تكاليف التنقل، مما يدفع المزيد من الشركات والأفراد لتبني العمل عن بعد أو الهجين كحل اقتصادي.",
-      "الأرض والمناخ -> الجسم والحياة اليومية: تغير المناخ وارتفاع درجات الحرارة يساهمان في مواسم حساسية أطول وأكثر شدة، مما يؤثر على صحة الجهاز التنفسي للناس.",
-      "الجسم والحياة اليومية -> الجسم والحياة اليومية: الاستخدام المفرط للشاشات يؤثر سلباً على الصحة العقلية (القلق والاكتئاب)، وهذا بدوره يؤدي إلى اضطرابات في النوم."
+      "تؤدي العواصف الشمسية إلى اضطراب دقة إشارات GPS، مما يؤثر بشكل مباشر على العمليات الزراعية الحديثة القائمة على التوجيه الدقيق، وبالتالي يمكن أن يؤثر على الإنتاج الزراعي وأسعار الغذاء العالمية (الفضاء والشمس -> المال والعمل).",
+      "تتسبب ظاهرة النينيو القوية في حدوث جفاف وفيضانات شديدة، مما يضر بالمحاصيل الزراعية ويساهم في موجة جديدة من التضخم وارتفاع أسعار الغذاء العالمية (الأرض والمناخ -> المال والعمل).",
+      "تؤدي موجات الحر القياسية وارتفاع درجات الحرارة العالمية إلى زيادة الوفيات المرتبطة بالحر وتؤثر سلبًا على الصحة العامة وجودة الحياة اليومية للناس (الأرض والمناخ -> الجسد والحياة اليومية).",
+      "يؤدي تراجع الموارد المائية العذبة عالميًا إلى الحاجة الملحة لعقد مؤتمرات عالمية مثل مؤتمر الأمم المتحدة للمياه في أبوظبي، مما يعكس تحولًا في الأولويات المجتمعية والدولية نحو إدارة الموارد الحيوية (الأرض والمناخ -> القواعد والمجتمع).",
+      "يتطلب التطور السريع للذكاء الاصطناعي وميزاته الجديدة في الهواتف والتطبيقات اليومية وضع قوانين وتشريعات جديدة، مثل 'قانون الذكاء الاصطناعي' في الاتحاد الأوروبي، لضمان الأمان والخصوصية وحماية المستخدمين (التكنولوجيا -> القواعد والمجتمع)."
     ]
   },
   "ideas": [
     {
-      "name": "TempSleep AI",
-      "signal": "Exceptional global temperatures (1) and sleep loss due to heat (6)",
-      "pitch": "AI-powered sleep enhancer using phone sensors to suggest precise, personalized environmental adjustments for better sleep on hot nights.",
-      "problem": "Millions worldwide lose sleep due to rising ambient temperatures; current solutions lack personalized adaptive recommendations unconnected to smart home systems.",
-      "audience": "Individuals worldwide struggling to sleep due to heat, especially in affected regions like the Middle East, South India, and Southeast Asia.",
-      "whyNow": "2026 is projected to be one of the hottest years, with El Niño bringing extreme weather until 2027. The average person globally lost approximately 56 hours of sleep annually due to rising temperatures between 2020 and 2025, making this solution essential now.",
-      "novelty": "Uses *only* phone sensors (without requiring wearables or additional smart home devices) to provide *actionable, manual* environmental adjustment suggestions specifically for hot nights.",
+      "name": "HydroVoice AI",
+      "signal": "التراجع الواسع في الموارد المائية العذبة عالميًا واستضافة أبوظبي لمؤتمر الأمم المتحدة للمياه ومزايا أندرويد الجديدة المدعومة بالذكاء الاصطناعي.",
+      "pitch": "تطبيق ذكاء اصطناعي 'لمركز حوار المياه' يبسط التقارير والمناقشات المعقدة من مؤتمرات المياه، ويساعد المستخدمين في صياغة رسائل إلى المسؤولين، وتحديد المبادرات المحلية، لتمكين المشاركة المدنية في قضايا المياه.",
+      "problem": "تتفاقم أزمة المياه العذبة العالمية، ولكن التقارير والمؤتمرات المعقدة غالبًا ما تفشل في ترجمة المعلومات إلى مشاركة سهلة ومفهومة للمواطن العادي.",
+      "audience": "المواطنون المهتمون بالبيئة، الطلاب، النشطاء المجتمعيون، أصحاب المنازل، الأفراد المهتمون بقضايا المياه المحلية والعالمية.",
+      "whyNow": "يبرز الانخفاض المستمر في الموارد المائية العذبة ومؤتمر الأمم المتحدة للمياه القادم الحاجة الماسة لأدوات تبسط معلومات المياه المعقدة وتسهل مشاركة المواطنين، وهي مهمة مناسبة لميزات الذكاء الاصطناعي الجديدة في أندرويد.",
+      "novelty": "مركز حوار مياه مدعوم بالذكاء الاصطناعي مصمم خصيصًا لتبسيط تقارير مؤتمرات المياه المعقدة، ومساعدة المستخدمين في صياغة رسائل مؤثرة للمسؤولين بناءً على هذا الفهم المبسّط، وتحديد المبادرات المحلية للمشاركة المدنية الفعالة. لا توجد تطبيقات حالية تقدم هذا الدمج الشامل للتبسيط والتعبير المدعوم بالذكاء الاصطناعي والمشاركة الموجهة في قضايا المياه.",
+      "competition": "منخفضة",
+      "competitors": [
+        "تطبيقات الأخبار والبودكاست (مثل Google News, Spotify)",
+        "تطبيقات المشاركة المدنية العامة (مثل SeeClickFix, Citizen)",
+        "Environmental advocacy/NGO apps",
+        "AI summarization tools (e.g., ChatGPT, Claude)"
+      ],
+      "edge": "الفجوة هي في تطبيق ذكاء اصطناعي مصمم خصيصًا كـ 'مركز حوار المياه' يبسط تقارير ومناقشات مؤتمرات المياه المعقدة، ويساعد المستخدمين في صياغة رسائل مؤثرة للمسؤولين حول قضايا المياه بناءً على هذا الفهم المبسّط، بالإضافة إلى تحديد المبادرات المحلية للمشاركة المدنية الفعالة. لا توجد تطبيقات حالية تقدم هذا الدمج الشامل للتبسيط والتعبير المدعوم بالذكاء الاصطناعي والمشاركة الموجهة في قضايا المياه.",
+      "monetization": "نموذج فريميوم (Freemium) حيث تكون الميزات الأساسية للتلخيص وصياغة الرسائل مجانية، بينما تتوفر الميزات المتقدمة مثل أدوات الصياغة المعززة بالذكاء الاصطناعي، والوصول إلى قواعد بيانات مبادرات محلية منسقة، وأدوات التقديم المباشر، باشتراك مدفوع.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 9,
+      "firstStep": "دمج واجهة برمجة تطبيقات (API) لتلخيص النصوص بالذكاء الاصطناعي (مثل Firebase GenKit). تطوير قوالب أولية لرسائل موجهة للمسؤولين. السماح للمستخدمين بإدخال/تنسيق مبادرات المياه المحلية."
+    },
+    {
+      "name": "AquaSense AI",
+      "signal": "تزايد شدة ظاهرة النينيو وتأثيرها على أنماط هطول الأمطار والتراجع الواسع في الموارد المائية العذبة عالميًا ومزايا أندرويد الجديدة المدعومة بالذكاء الاصطناعي.",
+      "pitch": "تطبيق ذكاء اصطناعي لإدارة البصمة المائية الشخصية، يتتبع مستويات الموارد المائية المحلية ويقدم نصائح مخصصة لتقليل الاستهلاك والاستعداد لنقص المياه أو الفيضانات المرتبطة بالنينيو.",
+      "problem": "ظاهرة النينيو تزيد من مخاطر الجفاف والفيضانات، مما يؤدي إلى تفاقم أزمة المياه العذبة، ويحتاج المستهلكون إلى أدوات لفهم وإدارة استهلاكهم للمياه والاستعداد للتحديات المحلية.",
+      "audience": "أصحاب المنازل، المستأجرون، البستانيون، الأفراد المهتمون بالبيئة في المناطق المتأثرة بالنينيو، وأي شخص معني بأمن المياه.",
+      "whyNow": "استمرار ظاهرة النينيو القوية حتى أوائل عام 2027 وتناقص الموارد المائية العالمية يخلقان حاجة ملحة لأداة شخصية لإدارة المياه، مدعومة بقدرات الذكاء الاصطناعي الجديدة في أندرويد.",
+      "novelty": "يربط بشكل مباشر البصمة المائية الشخصية للمستخدم بمستويات الموارد المائية المحلية في الوقت الفعلي وتوقعات الظواهر المناخية واسعة النطاق مثل النينيو، لتقديم نصائح مخصصة للغاية ليس فقط لتقليل الاستهلاك ولكن أيضًا للتحضير الاستباقي لنقص المياه أو الفيضانات المحددة حسب المنطقة.",
       "competition": "متوسطة",
       "competitors": [
-        "CircadiaOS",
-        "SmartThings (Samsung)",
-        "Google Nest Hub (الجيل الثاني)",
-        "Sleep Cycle",
-        "SleepScore (by Sleep.ai)"
+        "Water Calculator",
+        "WaterSmart",
+        "Dropcountr",
+        "بعض تطبيقات مراقبة الطقس والفيضانات (مثل FloodWatch, MyRadar)"
       ],
-      "edge": "The gap lies in an app that *only* uses phone sensors (without requiring wearables or additional smart home devices) to analyze the body's response to temperature on hot nights, then suggests precise, personalized environmental adjustments (e.g., guiding the user to manually adjust a fan or AC, or open a window). This narrow scope is not fully covered by existing apps.",
-      "monetization": "Freemium model: Basic sleep tracking and general temperature insights are free. A premium subscription offers advanced AI-driven personalized recommendations, historical data analysis of sleep quality versus environmental factors, and proactive alerts for upcoming hot nights with suggested preparations.",
-      "buildDifficulty": "متوسطة",
+      "edge": "الفجوة الرئيسية هي في تطبيق ذكاء اصطناعي يربط بشكل مباشر بين البصمة المائية الشخصية للمستخدم ومستويات الموارد المائية المحلية في الوقت الفعلي (مثل مستويات الخزان أو المياه الجوفية) وتوقعات الظواهر المناخية واسعة النطاق مثل النينيو، لتقديم نصائح مخصصة للغاية ليس فقط لتقليل الاستهلاك ولكن أيضًا للتحضير الاستباقي لنقص المياه أو الفيضانات المحددة حسب المنطقة.",
+      "monetization": "نموذج فريميوم (Freemium) حيث تكون الميزات الأساسية لتتبع الاستهلاك مجانية، بينما تتوفر الميزات المتميزة مثل بيانات الموارد المحلية التفصيلية، والتحليلات المتقدمة، والتنبيهات المخصصة، باشتراك مدفوع.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 18,
+      "score": 8.5,
+      "firstStep": "البحث عن واجهات برمجة تطبيقات (APIs) عامة لتوقعات النينيو وبيانات الموارد المائية الإقليمية العامة. تنفيذ تتبع أساسي لاستهلاك المياه (إدخال يدوي)."
+    },
+    {
+      "name": "AdaptiveCool AI",
+      "signal": "موجات الحر القياسية عالميًا التي تسببت في آلاف الوفيات وإطلاق Android 17 مع تركيز على الذكاء الاصطناعي والأمان والإنتاجية.",
+      "pitch": "مساعد ذكاء اصطناعي شخصي يعتمد على بيانات الحرارة المحلية، ومستشعرات الهاتف، والملف الصحي للمستخدم لتقديم توصيات مخصصة للبقاء آمنًا ومرتاحًا خلال موجات الحر.",
+      "problem": "تتسبب موجات الحر القياسية في مخاطر صحية كبيرة وعدم راحة، وتكون النصائح الحالية غالبًا عامة ولا تلبي الاحتياجات الفردية، خاصة للفئات الأكثر ضعفًا.",
+      "audience": "عامة الناس، وخاصة كبار السن والأطفال وذوي الأمراض المزمنة، والذين يعيشون في المناطق الحضرية المعرضة للحرارة الشديدة.",
+      "whyNow": "التهديد المتزايد لموجات الحر العالمية، بالإضافة إلى قدرات الذكاء الاصطناعي المتقدمة في Android 17، يوفران أساسًا لتقديم نصائح صحية شخصية واستباقية لمكافحة الحرارة.",
+      "novelty": "يجمع بشكل شامل بين بيانات الحرارة المحلية وتوقعات الطقس ومستشعرات الهاتف (مثل درجة حرارة الجهاز) والملف الصحي للمستخدم لتقديم توصيات مخصصة للبقاء آمنًا ومرتاحًا خلال موجات الحر.",
+      "competition": "متوسطة",
+      "competitors": [
+        "Weather apps (e.g., AccuWeather, The Weather Channel)",
+        "Smart thermometer apps (e.g., iThermonitor, Kinsa Smart Thermometer)",
+        "بعض تطبيقات تتبع اللياقة البدنية والصحة (مثل Fitbit، Apple Health)",
+        "Heat Safety Tool (OSHA)"
+      ],
+      "edge": "الفجوة تكمن في وجود مساعد ذكاء اصطناعي شخصي يجمع بشكل شامل بين بيانات الحرارة المحلية وتوقعات الطقس ومستشعرات الهاتف (مثل درجة حرارة الجهاز) والملف الصحي للمستخدم لتقديم توصيات مخصصة للبقاء آمنًا ومرتاحًا خلال موجات الحر. التطبيقات الحالية إما عامة (الطقس) أو متخصصة جزئيًا (تتبع الصحة/درجة الحرارة).",
+      "monetization": "نموذج فريميوم (Freemium) حيث تكون النصائح الأساسية مجانية، بينما تتوفر الميزات المتميزة مثل التكامل المتقدم للملف الصحي، ومراقبة أفراد العائلة، والبيانات التاريخية التفصيلية، باشتراك مدفوع.",
+      "buildDifficulty": "متوسط",
       "buildDays": 15,
       "score": 8,
-      "firstStep": "Develop core functionality for collecting temperature and light data from phone sensors and a basic UI for sleep tracking and manual environmental suggestions."
+      "firstStep": "تحديد قواعد التخصيص الأساسية بناءً على العمر والحالات الصحية. دمج واجهة برمجة تطبيقات (API) للطقس المحلي. تنفيذ قراءة أساسية لمستشعر درجة حرارة الهاتف."
+    },
+    {
+      "name": "ClimateMed AI",
+      "signal": "بدء فصل الشتاء والتوصية بلقاح الإنفلونزا، واستمرار موجات الحر القياسية عالميًا، وظاهرة النينيو القوية.",
+      "pitch": "مساعد ذكاء اصطناعي للصحة الموسمية يجمع بين الأحداث الفلكية، وتوقعات المناخ المحلية، والتوجيهات الصحية العامة لتوليد قائمة تحقق شخصية للإجراءات الصحية الوقائية.",
+      "problem": "التغيرات المناخية والتحولات الموسمية تجلب تحديات صحية متنوعة ومترابطة، تتطلب تأهبًا صحيًا شخصيًا أكثر شمولًا واستباقية.",
+      "audience": "عامة الناس، خاصة العائلات، الأفراد الذين يعانون من حالات صحية مزمنة، المسافرون، والذين يعيشون في المناطق المعرضة لتغير المناخ.",
+      "whyNow": "يتزامن قرب حلول فصل الشتاء وتوصيات لقاح الإنفلونزا مع استمرار موجات الحر وتأثيرات النينيو القوية، مما يخلق حاجة فورية لدليل صحي موسمي شامل ومدعوم بالذكاء الاصطناعي.",
+      "novelty": "يربط بشكل فريد بين الأحداث الفلكية (التي قد تؤثر على الإيقاعات البيولوجية أو المزاج)، وتوقعات المناخ المحلية المفصلة، والتوجيهات الصحية العامة المعروفة، لتوليد قائمة تحقق شخصية وقائية شاملة وموجهة زمنيًا للصحة الموسمية. لا توجد تطبيقات تجمع كل هذه العناصر معًا.",
+      "competition": "منخفضة",
+      "competitors": [
+        "Weather apps (e.g., AccuWeather, The Weather Channel)",
+        "تطبيقات تتبع الصحة العامة (مثل MyFitnessPal, Apple Health)",
+        "تطبيقات 'الصحة الموسمية' أو 'الحساسية الموسمية'",
+        "Astrology/Horoscope apps"
+      ],
+      "edge": "الفجوة هي في تطبيق ذكاء اصطناعي يربط بشكل فريد بين الأحداث الفلكية (التي قد تؤثر على الإيقاعات البيولوجية أو المزاج)، وتوقعات المناخ المحلية المفصلة، والتوجيهات الصحية العامة المعروفة، لتوليد قائمة تحقق شخصية وقائية شاملة وموجهة زمنيًا للصحة الموسمية. لا توجد تطبيقات تجمع كل هذه العناصر معًا.",
+      "monetization": "نموذج فريميوم (Freemium) حيث تكون قائمة التحقق الأساسية مجانية، بينما تتوفر الميزات المتميزة مثل التخصيص المتقدم، وملفات تعريف العائلة، والرؤى الأعمق، باشتراك مدفوع.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 15,
+      "score": 7.5,
+      "firstStep": "تنسيق إرشادات الصحة العامة للتغيرات الموسمية. دمج واجهة برمجة تطبيقات (API) لتوقعات الطقس المحلية. تحديد المجموعة الأولية من المحفزات الموسمية (مثل الانقلاب الشتوي، بداية موسم الإنفلونزا)."
     }
   ],
   "rejected": [
     {
-      "name": "AirSense Guardian",
-      "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local data sources (wildfire smoke, air quality, pollen) and providing personalized AI advice within a 3-week timeframe."
+      "name": "PathSense AI",
+      "reason": "تم رفض الفكرة لتشابهها الشديد مع فكرة 'SkyGuard Navigator' التي لم يفضلها Moe سابقًا، حيث يتعامل كلاهما مع اضطرابات نظام تحديد المواقع العالمي (GPS) بسبب الطقس الفضائي. بالإضافة إلى ذلك، فإن تطوير نظام ملاحة يعتمد بشكل موثوق على التعرف على المعالم عبر الكاميرا كبديل لنظام تحديد المواقع العالمي (GPS) هو مهمة معقدة للغاية وتتجاوز قدرة مطور واحد في غضون 3 أسابيع."
     },
     {
-      "name": "AstroDetox",
-      "reason": "Rejected due to missing competition check and the complexity of building a robust astronomical tracker combined with screen time reduction gamification and AI-powered rewards within a 3-week timeframe."
+      "name": "FloraForesee AI",
+      "reason": "تم رفض الفكرة بسبب صعوبة البناء العالية جدًا، خاصة فيما يتعلق بتحديد النباتات بدقة عبر كاميرا الهاتف باستخدام الذكاء الاصطناعي. يتطلب ذلك تدريبًا قويًا للنماذج ومعالجة حالات حافة متعددة، وهو أمر صعب للغاية لمطور واحد في غضون 3 أسابيع لتقديم منتج موثوق وفعال."
     },
     {
-      "name": "GigPrivacy AI",
-      "reason": "Rejected due to missing competition check and the significant complexity of developing AI to analyze content for data privacy risks and ensure legal compliance across various new laws within a 3-week timeframe."
+      "name": "DataFlow Guard",
+      "reason": "تم رفض الفكرة بسبب صعوبة البناء العالية جدًا. يتطلب تحليل شروط الخصوصية المتغيرة ديناميكيًا باستخدام الذكاء الاصطناعي وإدارة إعدادات الموافقة عبر تطبيقات وخدمات مختلفة قدرات معالجة لغوية طبيعية (NLP) متقدمة جدًا وتكاملًا معقدًا، وهو أمر يتجاوز نطاق مشروع لمطور واحد في 3 أسابيع."
     },
     {
-      "name": "EcoWork AI",
-      "reason": "Rejected due to missing competition check, implying smart home/IoT control which is explicitly disallowed, and the vague nature of 'optimizing schedule and habits' with AI for energy saving."
-    },
-    {
-      "name": "BioLight Sync",
-      "reason": "Rejected due to missing competition check."
-    },
-    {
-      "name": "EnviroPath AI",
-      "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local environmental data sources (temperature, wildfires, allergies) and providing personalized AI advice within a 3-week timeframe."
-    },
-    {
-      "name": "GigWatt AI",
-      "reason": "Rejected due to missing competition check and the vague nature of 'optimizing tasks and workspace for maximum energy savings' with AI, which is potentially too complex for a 3-week build."
+      "name": "OutageSense AI",
+      "reason": "تم رفض الفكرة لتشابهها الشديد مع فكرة 'SkyGuard Navigator' التي لم يفضلها Moe سابقًا. كلاهما يركز على تأثير العواصف الشمسية وتقديم خطط بديلة للخدمات الأساسية، مما يجعلها تتجه في اتجاه غير مرغوب فيه."
     }
   ],
   "en": {
-    "summary": "Today, we focused on global English Android app ideas, buildable by a single developer within 1-3 weeks, with an emphasis on leveraging current global changes and offering unique solutions.",
+    "summary": "Today's selected ideas focus on leveraging AI in Android to simplify complex information and provide personalized health and environmental guidance, with an emphasis on global challenges such as the water crisis and climate change.",
     "trends": [
-      "Exceptional global temperatures continue, with 2026 expected to be one of the hottest years, increasing heatwaves and extreme weather.",
-      "People globally lose approximately 56 hours of sleep annually due to rising ambient temperatures, making good sleep an increasing challenge.",
-      "The gig economy and side hustles have become essential for financial stability for many, and AI tools support the growth of AI-powered side hustles."
+      "Solar emissions continue to affect Earth, threatening the accuracy of Global Positioning Systems (GPS).",
+      "2026 saw record-breaking heatwaves globally, increasing health risks and impacting daily life.",
+      "The intensity of El Niño is increasing, leading to widespread disruptions in weather patterns and a global decline in fresh water resources.",
+      "Google launched new AI features for Android phones, including tools to understand what the camera sees and productivity enhancements.",
+      "The European Union reached an agreement to simplify data protection and privacy rules, emphasizing the need for a better understanding of personal data."
     ],
     "ideas": [
       {
-        "name": "TempSleep AI",
-        "signal": "Exceptional global temperatures (1) and sleep loss due to heat (6)",
-        "pitch": "AI-powered sleep enhancer using phone sensors to suggest precise, personalized environmental adjustments for better sleep on hot nights.",
-        "problem": "Millions worldwide lose sleep due to rising ambient temperatures; current solutions lack personalized adaptive recommendations unconnected to smart home systems.",
-        "audience": "Individuals worldwide struggling to sleep due to heat, especially in affected regions like the Middle East, South India, and Southeast Asia.",
-        "whyNow": "2026 is projected to be one of the hottest years, with El Niño bringing extreme weather until 2027. The average person globally lost approximately 56 hours of sleep annually due to rising temperatures between 2020 and 2025, making this solution essential now.",
-        "novelty": "Uses *only* phone sensors (without requiring wearables or additional smart home devices) to provide *actionable, manual* environmental adjustment suggestions specifically for hot nights.",
+        "name": "HydroVoice AI",
+        "signal": "The widespread decline in global fresh water resources, Abu Dhabi hosting the UN Water Conference, and new AI-powered Android features.",
+        "pitch": "An AI 'Water Dialogue Hub' app that simplifies complex reports and discussions from water conferences, helps users draft messages to officials, and identifies local initiatives, empowering civic engagement in water issues.",
+        "problem": "The global fresh water crisis is worsening, but complex reports and conferences often fail to translate information into easily understandable and actionable engagement for the average citizen.",
+        "audience": "Environmentally conscious citizens, students, community activists, homeowners, individuals interested in local and global water issues.",
+        "whyNow": "The ongoing decline in fresh water resources and the upcoming UN Water Conference highlight an urgent need for tools that simplify complex water information and facilitate citizen engagement, a task well-suited for new AI features in Android.",
+        "novelty": "An AI-powered water dialogue hub specifically designed to simplify complex water conference reports, assist users in drafting impactful messages to officials based on this simplified understanding, and identify local initiatives for effective civic engagement. No current apps offer this comprehensive integration of AI-powered simplification, expression, and guided participation in water issues.",
+        "competition": "Low",
+        "competitors": [
+          "تطبيقات الأخبار والبودكاست (مثل Google News, Spotify)",
+          "تطبيقات المشاركة المدنية العامة (مثل SeeClickFix, Citizen)",
+          "Environmental advocacy/NGO apps",
+          "AI summarization tools (e.g., ChatGPT, Claude)"
+        ],
+        "edge": "The gap is an AI application specifically designed as a 'Water Dialogue Hub' that simplifies complex water conference reports and discussions, helps users draft impactful messages to officials about water issues based on this simplified understanding, and identifies local initiatives for effective civic engagement. No current apps offer this comprehensive integration of AI-powered simplification, expression, and guided participation in water issues.",
+        "monetization": "Freemium model where basic features for summarization and message drafting are free, while advanced features such as AI-enhanced drafting tools, access to curated local initiative databases, and direct submission tools are available with a paid subscription.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 9,
+        "firstStep": "Integrate an AI text summarization API (e.g., Firebase GenKit). Develop initial templates for messages directed at officials. Allow users to input/curate local water initiatives."
+      },
+      {
+        "name": "AquaSense AI",
+        "signal": "Increasing intensity of El Niño and its impact on rainfall patterns, the widespread decline in global fresh water resources, and new AI-powered Android features.",
+        "pitch": "An AI app for personal water footprint management that tracks local water resource levels and provides personalized tips to reduce consumption and prepare for water scarcity or El Niño-related floods.",
+        "problem": "El Niño increases the risks of drought and floods, exacerbating the fresh water crisis, and consumers need tools to understand and manage their water consumption and prepare for local challenges.",
+        "audience": "Homeowners, renters, gardeners, environmentally conscious individuals in El Niño-affected areas, and anyone concerned with water security.",
+        "whyNow": "The continuation of a strong El Niño until early 2027 and dwindling global water resources create an urgent need for a personalized water management tool, powered by new AI capabilities in Android.",
+        "novelty": "Directly links the user's personal water footprint to real-time local water resource levels and forecasts of large-scale climate phenomena like El Niño, to provide highly customized advice not only for reducing consumption but also for proactively preparing for region-specific water scarcity or floods.",
         "competition": "Medium",
         "competitors": [
-          "CircadiaOS",
-          "SmartThings (Samsung)",
-          "Google Nest Hub (2nd Gen)",
-          "Sleep Cycle",
-          "SleepScore (by Sleep.ai)"
+          "Water Calculator",
+          "WaterSmart",
+          "Dropcountr",
+          "بعض تطبيقات مراقبة الطقس والفيضانات (مثل FloodWatch, MyRadar)"
         ],
-        "edge": "The gap lies in an app that *only* uses phone sensors (without requiring wearables or additional smart home devices) to analyze the body's response to temperature on hot nights, then suggests precise, personalized environmental adjustments (e.g., guiding the user to manually adjust a fan or AC, or open a window). This narrow scope is not fully covered by existing apps.",
-        "monetization": "Freemium model: Basic sleep tracking and general temperature insights are free. A premium subscription offers advanced AI-driven personalized recommendations, historical data analysis of sleep quality versus environmental factors, and proactive alerts for upcoming hot nights with suggested preparations.",
+        "edge": "The main gap is an AI application that directly links the user's personal water footprint to real-time local water resource levels (e.g., reservoir or groundwater levels) and forecasts of large-scale climate phenomena like El Niño, to provide highly customized advice not only for reducing consumption but also for proactively preparing for region-specific water scarcity or floods.",
+        "monetization": "Freemium model where basic consumption tracking features are free, while premium features such as detailed local resource data, advanced analytics, and personalized alerts are available with a paid subscription.",
+        "buildDifficulty": "Medium",
+        "buildDays": 18,
+        "score": 8.5,
+        "firstStep": "Research public APIs for El Niño forecasts and general regional water resource data. Implement basic water consumption tracking (manual input)."
+      },
+      {
+        "name": "AdaptiveCool AI",
+        "signal": "Record-breaking global heatwaves causing thousands of deaths and the launch of Android 17 with a focus on AI, security, and productivity.",
+        "pitch": "A personal AI assistant that uses local heat data, phone sensors, and the user's health profile to provide customized recommendations for staying safe and comfortable during heatwaves.",
+        "problem": "Record-breaking heatwaves cause significant health risks and discomfort, and current advice is often generic and does not meet individual needs, especially for vulnerable groups.",
+        "audience": "The general public, especially the elderly, children, individuals with chronic illnesses, and those living in urban areas prone to extreme heat.",
+        "whyNow": "The increasing threat of global heatwaves, coupled with the advanced AI capabilities in Android 17, provides a foundation for delivering personalized and proactive health advice to combat heat.",
+        "novelty": "Comprehensively combines local heat data, weather forecasts, phone sensors (e.g., device temperature), and the user's health profile to provide customized recommendations for staying safe and comfortable during heatwaves.",
+        "competition": "Medium",
+        "competitors": [
+          "Weather apps (e.g., AccuWeather, The Weather Channel)",
+          "Smart thermometer apps (e.g., iThermonitor, Kinsa Smart Thermometer)",
+          "بعض تطبيقات تتبع اللياقة البدنية والصحة (مثل Fitbit، Apple Health)",
+          "Heat Safety Tool (OSHA)"
+        ],
+        "edge": "The gap lies in a personal AI assistant that comprehensively combines local heat data, weather forecasts, phone sensors (e.g., device temperature), and the user's health profile to provide customized recommendations for staying safe and comfortable during heatwaves. Current apps are either generic (weather) or partially specialized (health/temperature tracking).",
+        "monetization": "Freemium model where basic advice is free, while premium features such as advanced health profile integration, family member monitoring, and detailed historical data are available with a paid subscription.",
         "buildDifficulty": "Medium",
         "buildDays": 15,
         "score": 8,
-        "firstStep": "Develop core functionality for collecting temperature and light data from phone sensors and a basic UI for sleep tracking and manual environmental suggestions."
+        "firstStep": "Define basic personalization rules based on age and health conditions. Integrate a local weather API. Implement basic phone temperature sensor reading."
+      },
+      {
+        "name": "ClimateMed AI",
+        "signal": "Onset of winter and flu vaccine recommendation, continued record-breaking global heatwaves, and a strong El Niño.",
+        "pitch": "A seasonal health AI assistant that combines astronomical events, local climate forecasts, and general health guidelines to generate a personalized checklist for preventive health actions.",
+        "problem": "Climate changes and seasonal shifts bring diverse and interconnected health challenges, requiring more comprehensive and proactive personalized health preparedness.",
+        "audience": "The general public, especially families, individuals with chronic health conditions, travelers, and those living in areas susceptible to climate change.",
+        "whyNow": "The approaching winter and flu vaccine recommendations coincide with ongoing heatwaves and strong El Niño effects, creating an immediate need for a comprehensive, AI-powered seasonal health guide.",
+        "novelty": "Uniquely links astronomical events (which may influence biological rhythms or mood), detailed local climate forecasts, and known general health guidelines, to generate a comprehensive, time-oriented, personalized preventive checklist for seasonal health. No apps combine all these elements.",
+        "competition": "Low",
+        "competitors": [
+          "Weather apps (e.g., AccuWeather, The Weather Channel)",
+          "تطبيقات تتبع الصحة العامة (مثل MyFitnessPal, Apple Health)",
+          "تطبيقات 'الصحة الموسمية' أو 'الحساسية الموسمية'",
+          "Astrology/Horoscope apps"
+        ],
+        "edge": "The gap is an AI application that uniquely links astronomical events (which may influence biological rhythms or mood), detailed local climate forecasts, and known general health guidelines, to generate a comprehensive, time-oriented, personalized preventive checklist for seasonal health. No apps combine all these elements.",
+        "monetization": "Freemium model where the basic checklist is free, while premium features such as advanced personalization, family profiles, and deeper insights are available with a paid subscription.",
+        "buildDifficulty": "Medium",
+        "buildDays": 15,
+        "score": 7.5,
+        "firstStep": "Curate general health guidelines for seasonal changes. Integrate a local weather API. Identify an initial set of seasonal triggers (e.g., winter solstice, start of flu season)."
       }
     ],
     "rejected": [
       {
-        "name": "AirSense Guardian",
-        "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local data sources (wildfire smoke, air quality, pollen) and providing personalized AI advice within a 3-week timeframe."
+        "name": "PathSense AI",
+        "reason": "The idea was rejected due to its strong similarity to the 'SkyGuard Navigator' idea, which Moe previously disliked, as both deal with GPS disruptions due to space weather. Additionally, developing a navigation system that reliably relies on camera-based landmark recognition as a GPS alternative is an extremely complex task and beyond the capacity of a single developer within 3 weeks."
       },
       {
-        "name": "AstroDetox",
-        "reason": "Rejected due to missing competition check and the complexity of building a robust astronomical tracker combined with screen time reduction gamification and AI-powered rewards within a 3-week timeframe."
+        "name": "FloraForesee AI",
+        "reason": "The idea was rejected due to its very high build difficulty, especially concerning accurate plant identification via phone camera using AI. This requires robust model training and handling multiple edge cases, which is extremely challenging for a single developer within 3 weeks to deliver a reliable and effective product."
       },
       {
-        "name": "GigPrivacy AI",
-        "reason": "Rejected due to missing competition check and the significant complexity of developing AI to analyze content for data privacy risks and ensure legal compliance across various new laws within a 3-week timeframe."
+        "name": "DataFlow Guard",
+        "reason": "The idea was rejected due to its very high build difficulty. Dynamically analyzing changing privacy terms using AI and managing consent settings across different applications and services requires very advanced Natural Language Processing (NLP) capabilities and complex integration, which is beyond the scope of a 3-week project for a single developer."
       },
       {
-        "name": "EcoWork AI",
-        "reason": "Rejected due to missing competition check, implying smart home/IoT control which is explicitly disallowed, and the vague nature of 'optimizing schedule and habits' with AI for energy saving."
-      },
-      {
-        "name": "BioLight Sync",
-        "reason": "Rejected due to missing competition check."
-      },
-      {
-        "name": "EnviroPath AI",
-        "reason": "Rejected due to missing competition check and the complexity of integrating multiple global hyper-local environmental data sources (temperature, wildfires, allergies) and providing personalized AI advice within a 3-week timeframe."
-      },
-      {
-        "name": "GigWatt AI",
-        "reason": "Rejected due to missing competition check and the vague nature of 'optimizing tasks and workspace for maximum energy savings' with AI, which is potentially too complex for a 3-week build."
+        "name": "OutageSense AI",
+        "reason": "The idea was rejected due to its strong similarity to the 'SkyGuard Navigator' idea, which Moe previously disliked. Both focus on the impact of solar storms and providing alternative plans for essential services, making it head in an undesirable direction."
       }
     ]
   },
@@ -224,19 +347,19 @@
       },
       {
         "step": "world",
-        "msg": "13 world changes, 4 cross-links via gemini-2.5-flash: الأرض والمناخ, الفضاء والشمس, الجسم والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+        "msg": "15 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, الجسد والحياة اليومية, المال والعمل, التكنولوجيا, القواعد والمجتمع"
       },
       {
         "step": "scout",
-        "msg": "8 candidates via gemini-2.5-flash: TempSleep AI, AirSense Guardian, AstroDetox, GigPrivacy AI, EcoWork AI, BioLight Sync, EnviroPath AI, GigWatt AI"
+        "msg": "8 candidates via gemini-2.5-flash: PathSense AI, AdaptiveCool AI, AquaSense AI, FloraForesee AI, ClimateMed AI, DataFlow Guard, OutageSense AI, HydroVoice AI"
       },
       {
         "step": "compete",
-        "msg": "checked 1 candidates via gemini-2.5-flash"
+        "msg": "checked 8 candidates via gemini-2.5-flash"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 7 via gemini-2.5-flash"
+        "msg": "kept 4, rejected 4 via gemini-2.5-flash"
       },
       {
         "step": "translate",
@@ -246,124 +369,124 @@
   },
   "sources": [
     {
-      "title": "theguardian.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsm2AQUHk5WgdLTSrJQRdpZ61PZtM_hNJNP0jw880YKESpm37vTxChdT0ZSzCLju0T7JL17gXrrfb-gEfRPuuJobJLzhMj7tQte_xzjxTh9MTC4OuApx8E9F9YJrHVz0snK7HnB612ygtefoQ1f7b4-w8L3joYfSIV5n9Qrbzd9F_f_zLrxFaR6XtfSfM0rtpqhkpKrTajft6Vk__C1J1MLfquP-iLEENG9XWSjBVHWow="
+      "title": "microsoft.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg5fBcuTgM32udmELRy4wm4O4gLZu7Kkkt9TuV7YCodVB5zKwdISHwrlrc0ucdaY5PVml4Wn6T8GgfSGbIJYMLi4cvq6l4ZXngbeauU-uBQWD4M_1hUaY6G6WHay4p4MyyUuL6_QYDYtogSeqkRf016AAUoUQmxXVNj3EvUfzn0e7N10b43zu1wOQnJWjE2ha3Szjg7Way"
     },
     {
-      "title": "seaandjob.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGylzueayfRuKWvwkmKf155FtgOCcACy2GM9CX1t0vtD24Iz6tPVo8nEQmZq6S_SPLO95Z7UPdTm8qaPDpQSDrOvromII9AM7g7ckpyCPM-OZDV8YwagFwYqt05UOGpqrxiJm6Ldx8nTwxuR5_1eiOgkhdECGK2rJTdZThPC2yek-enpJ5xJPrMNedphHzlmlWJR2mo89ULsAJsJgYOb72KMDUxEv08Gw=="
+      "title": "al-ain.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs0L1c7hBjKgXgbo5EEo0CD2n859rGpQ-DRu30Oka42QbmpLIkDo11ucFlVoWLmkm05UFwUkDYOSaElj7uTgWN2CEolIWG2DyvrcD3f7aTE_ucun1MRw5Pd94V8K2RVVaRa1fIOVvgBM1es3EbBvlWVvwyuu9sA=="
     },
     {
-      "title": "hindustantimes.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYaPVqZaa2lHUry_To6sAGkPB3zxnGd3ZRZAPTsph7ZMeVwYUZjew6U9Qo4xk266OqBXH1_UVeSzLzfpJHCtmWZtf0faWiCg5XZhSOCs_cKxnpbhQUS9AgbFyK8dFlcCJQwu0Md9VLpydq3GsGsg6iNIbzMCS8NLCDYMyayTTaP8pXnHBUPiX0fuR0Cc8EZ4mcE2SYaMQEZ4pjt6kdXSMdmrFVdW2sL0_WmQt6N886TMMEIPKVFwUzH-8QsFbC54H4gqo="
+      "title": "ahramag.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQqDk7x3vUs5GHM8PnN_42ySMAQblUtwlnyqcDDk78fCX-TwISPju-b2nldXj_ewziZr3cwAeLOEMXtP9pRHFceqK8AtVT0CHHvKc-O6WEFFtKRSLmCnjhFxPbSPwz3YgTY6x_b46H9IrCB5_P0ybrkHwrCeeqYRddJK2yQYB-P3dOh7NoJWQ="
     },
     {
-      "title": "fireshieldtechnology.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDrU7tCAgW4001A-h-O5JLcqQXBwrhQtYPppxI7byyezqI2xVD2Id05f6f6NEssGQfK3mexXtGdGv5rBSt_iGqahMQer8w3A1t7s5ccAFzwq1vYKdAGbdkpCP5yMYlSCBV7g7uAEDPMpgih86hxfC2xPZsD6H1jiFr-mqceaq3le8IohnNz9M="
+      "title": "hespress.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq8-EfCyCH_UDWo-zB7Sh8dLBzPFxP1ewfHcjV3kW06RMkvsP4yLq8IAjVE2-jI2s7IsCcxCBzeuZKjzcRHXmKUp22yyLtmFR7MvPb3bXfD9xQK00OTnRw5zOVMCHZqpDyEXAdPgAkm1nsaeK1TWQwWAr3jI_rAm0zxBeVZtDGlmnsjeBElyO5n5QnHpwnBNo9MsEcCRetOHX2B6mWBYGEXMxA7tO7fW_E6Hni2SXL_njdrcLjSUlOkvKUzrqFX6V6NI7YlczLyswDVOQoqTiJi4FpN6VorHG8O9-rvyV2Qk3V7AVOerN6kDb4c8v5OQ0hOa6S9wssztvdgTfhJITkPVkW83m6Qyj_OK5j_VQ86tX_aXoWwg6xFS5AkCJ65vOVDfysKO2t"
     },
     {
-      "title": "wildfiretoday.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmKNvYPl09-lkfXsFujCwPt2oufpq2nY9sDoNqYbLEBDh18p7IQNXCcThDvuklcPHRQ7PkkBa-cL90L2knEtiHZYDte_Or3lLw_P5lr6l1qE3k_rBBsyntSsZcBg=="
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRg1dbZu0rw9PZKaJWEw0FAT-DZihsRQjK7RKSpXkmW3erv9KbFwfGChJnNihM56RLdpisIkm0VaaRnifEO6bXI5QQV-i6y6vtebqFoAeTWpA0my2gJ6pWrYoxCew9hHu5FNZOosk0pBHN93GSPKU2pRWzEiTKqcf0a9l1xZm6XfjWIBdq00p8z8dPc2846TGIFJwIaclRfZUHVWKI_GHgqDAZZphQBtphl2AB-Q_TWT44d946W9QVC_YY8kNvVQIlevKf1v9Dj99uGmgWAUZx5NP12P5TGepAmACbXucj-mB2hIL_YSt-FawR_nXFD3bkYpeSHiRdSMeV01QTvLyQSZPcV1LUpCKCwfoPZA4BH4AFCgoTOPaZU29VDjA="
     },
     {
-      "title": "lents.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTIGlIsoY-xtzUNY_cOToDYStlPxS4vE8bHIcCYHBdJe0b5O6mSnMNH6BDKNXjMLajk4bCiVk-SxiaVblbvqHXERMZNstVdZTWZFI4A3EyHkOsAUjdSDMKrJ6UAaNQhfF-VUkX7cIyWJGgHZD5iGLwtLsdil_8uw8iwTleDCR5BgibAuvA_6gwpx6YMGllRmpqMVA4zy8SIQzQweV6K2eoVDUa1JLDcg=="
+      "title": "arab-london.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0e2FJaLLz3Kh7xMLFiIUva2pAFBcY4HwINP7F3xr5YGXGIRJDw-5cIjSU7UxnQdmInj358tv46awZ0lrRhidVKbW0scJA2JMbkEvMT8U3Fo26inKFkUZWNKl6m-g-My4-10QhBtu7y6EDlKujW26ZT9LPak6anQak-L7AujFmDHV-oeDFSlRHzWV9Ln0TZDdtVx-gV_1OiL6R0MUBJKPLyypMh9F_64PqlTe5Mi8AGAn3wz72-e4UI_XI9t6Ff_aAHUzhoVfqgvvUbntE2B5DQ4e-k-AsnIjljVsquYKKXgHmNxTlEbZ3m49DtHd1ntnsEKOVzTB3cEcm61rpNnNa3UnaMV60rZSPl9GV8Wr5AECp3i2FcbKR_V_Yz4qa-RjrM_8AcdaYp8NQ2e0LGmWsx0-sb4ThreN82T_V5gsu1TSFY6WV83KeTKaQAleTyxqyIfueZHtJ6HK10r4q2oO1k3pM-5o08LmxNX7Ur7XHEvr_QblOp8e-VQfoW1ycqLacRdXdAFNOpii6bZ5Mk_hzDGMZYvpOaBsjjln4dhWqRrjpeMSN3NsuSJey5NPJ8g=="
     },
     {
-      "title": "healio.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Dz9_JLbBwFqY8Gtkt7CY8D_jO5FsJCLtZarK7guiducKk8BQ7Xg-oidE5X4O4yjs9hj57crTkNDHNFEpKN28f-cb4kNpuHMTxzpb4_36E1yUk9cXPJC8Z-BHkeckEyI8u6v5LPZJLRVT3YfgzYXFj0nedqjYPWUTpdEBo6rv6dWIubGuiY9Oykh6k501W8Mo8XUVEQ-HNW0xAWgQsWKIQgMKVZ-bdRKt2gejb3kLMZn3ad6DPmpIn0qOMRM="
+      "title": "wmo.int",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDqrX8elbJA1AG5xsrXYCnYUzlOM6AqOPtiVhIwqqRNXh8Ey2lc-pYP7z5zCFkxi6JgJfZdgOA5nVsIXgoVXhp7qASOT4dqe0fL7QicaTx-0M1kFVINfx1mnd00c8iba6xmw3fCaLJi3vXvwTCriJobVwEpvg1ayfKZua_87xZhEhF7OgfvnLtcQ9M6VQlfnkJd77ugteDWuzBs4LiDRBvdV9mZOVeGWuWfmrmhZjXs_yEKFDKd8U34kMyw88xvWHS"
     },
     {
-      "title": "astronomyedinburgh.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkgZ2ZRd4FH5401vUJJ-DoEmMN_9-4HjqrW2O-47DJKjMrHcAWZvGcylWsSZUVOjJyMI_xiHLGcywmlfkeXcVQMMeWbaupfJlKMR_uFd0ofsNhE1RSBZP28d7wECI2eJx0lJtaqvuVPOn4DF1pJE7s0V47JtEv49L2UH9eFHnA4A=="
+      "title": "skynewsarabia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs5MRjXhFVTd4-FDgVN2BTGTpuz9fWvqKIqiXkE_wdtccv9VvuT0CweuYFqq0PiD-Ax00rYkunGniPVlF75--e3yhBS56Y20VYUaNGa6eF_4oRK-bgnY0_D9bc_8N8jNiggVkhTxne1efnLdFv5iNhiSIFAvE-Ur1AOch0UWTK-Lxo6b0ucCloJBREudTr8Me9aJQV-jv-XbREsrZuX4RwnN6aMhD_b8H6a3I8rSudm9vPBqRsge1YBv_HDMI1mRp4uL3lR12YkttmIMt_SxR1wTAjt-WkpNjhsh2pqCAL0Y6rp_7VhGWf8KY7Bi8Qw7XBeR2wj8zc5NmvT5tvVjFqOkO_1-twuohHtD1HoTD2iugfks-nZj-NpHsWIQLpvcmoow7qt6-liAwGrQnTTyO4Jg8_ECnqrVAqBxJiAggwIoLK8gzIfA1mtZ658gQQrOZcc42XfrSd"
     },
     {
-      "title": "nationalgeographic.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU460tpALt3CWJ3SNNW9Eu5jnJcDc8Af5drd2Ewg1vYYgaRY18Rd9FZbyBsAkwMp-ayu0ElHZOAIiNAlgow9ncbZqZj0urdY5bcY_BouIe9FTyh1cEQQaEWHoJ49WTExCTWJV7_MbpW5x0Jho-PjWV9MvbtZ_EIhQsKGqdXvNedIW_WXNwZXNsxjz4"
+      "title": "undp.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKOT79qD6LQ5OoskGqIyj5Gj47NZq15KFu9kOALSaK7BXbEl_ES_Tff_w1oF6A-N6dPnQPR5rSLfq4QvND1AYOfsAr-g1XaOo5Z4EHIrS03MqjzbonggGMS2wHB4cYcQo="
     },
     {
-      "title": "climatecentral.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGEsDprWdo17e6lTGud074y_wkp8HB7sLiq9l_QKEMHZD6vunU0Gyf0z5TMr_-oQdWn__xotKVAYLVjmVm9n5bhiQX3Qhqv2dWrSkQXvJHuEjxht2PuBFAQMc-Bbbi7czHS-YzvjKXocrrRAXCNEmc8G1iTD2Zedzwh-S7COMiukiA"
+      "title": "humanconcern.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIvhwbliFs10QsghBzRyhvdETBh-sbhSDy8nEPGVkM0bvUYc9TP1VrOsd8ADvUNu2zx9bAql04OERpqPU8tR7O07aIxl_q5cSQbmAcnerVFlk5ka_PGlA92fRhWCvAYSEHiuGf4ngnvOjjGxY="
     },
     {
-      "title": "sleepeducation.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE27-JueWbEpEOy6xO9CQU0N7hq90iURv9sMb-PNJ0lTct7LKZ1Sv2DE69xs_urvMHxG9oMlvUgv5B8uEYXlvlHEkL1O-yNPxaPln-aZCz91mscESomaDvPkGqgZaLWFKaV89AfMIhRyY18Ntcj_y6yC5d21-M="
+      "title": "sawsana.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Yr4ULtQUcBt2krjN6xj1e5-R_Hcp7HNvVxaYHaNOt0tkhpO7oKzWJsiDQoaYwxrHgYdkxLZaxj5lLYGJt_SCLP9nZDD1a1dSaB09HPVRrNA8Ncy6gGvaAxcS4X3NF50ruxvBK_L5uGIIMkfIqU3JddPuX_avt7SE0O2wv27Nk-W7piynVAMNLERcTAhMz88oR1a3v_td4RMGfABHwaIKzmrZbSQAYKP4-vWiz7o-vD7lYrKfmx8JZGIt8rz_di9GhMT-p6Y-h6G-YHn4SMS5G_ootWSzy4ety0_FAlaAtQ1ceYgdKiyvzGye9_k2VGSJU2fpiqJmPN5skmSKSmO7QNZjmMZ0jZAlv55RXFhYlkbdbeuY"
     },
     {
-      "title": "orapuh.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-VWPgELwZkKM9AUXSwiHA0kfATNQPPir4e6sKqBc82yfTn2yhRTLQjIe_Z2afjIwWbKrAqwXEQa8LwT36uInL0GxxkyiBnIEzef8nk9j8QPvtb3eN0a0TwaBNs-xfbFXJCL6fb1260xrVpa0swTG10hTN9mCRInz2o9MreBQswQqJfFJ0Evc_PhZWbrARnWxzwGJVM4hYVv0="
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHherw8SKZMVprko-C9IOt9JcpfEFw-wJNbRmphYYh-aJ1aMCHTmYNhCt9_VihG91x5Jq0BeTOdID0bUTqC4YZVeCkmcJfLj12L7LyG4zoF3dFO4L0znFjZvcHRyDk8duJ-v33PQreOhBIbTNNiiiLbeS9rbvHDrfsJ3NVQ9HUhSrRPrYCS8Rc0ilxia8HgVNwdc87VrIgLoqfGE3Mff2qokP4XVymw0NbWg8uzX9OdKCFe8x7FFMy4Tt6Az3MOYJrF0A1_4WM36c9-XQCsE1z99On9-LWFoKh7Wx4bAdBZLAsFoq12H9RJ9B_qudzRywL-RCvRUhGPki_hLJ2rvMN_OdNSp1Cur_FVEAWTBN2klo_gZgmLhLjZSfQCa9-dKTLil5XqVZHmjTMaUmEYMYA25HVLw-v7EsOC6hJ2JTHa-h3_sS0wq5eco51DaJu4PLo3HVI4Afu9GK-LbRLaBgILPwZj1HmP_1joVCVAIA=="
     },
     {
-      "title": "roya.health",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7HlIZLaU4Absv6fjD7Xfd3RKyCIa6jP5hYgZlfbHUPRxL9qyc1fyh6dogM7039VdrQtAkJNAjK6F85kML7wlj3EgJS1K0ggoX5kQnxEKQknSGIev2Lp83Jhn41e_7z_KtG1wfoHJWREdypFCxim_mJhGtzXok3VJx9TBcT2JkSQKS--PenDhB1x474Df1iadj6oLXSHuk54V6VFHumQ=="
+      "title": "un.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_Po7daqdNy3UOG-jxZaISLKzjrMpxk4UClcWoTl0BpHoM16SWHiNd4OYjvC4QarrBqI1ApfT3HJbKt_NvKKUTIneTvCRBF448w2Bkef_ywGlxispKw12qJioCRxVR-uNvCML-GG8="
     },
     {
-      "title": "mhstats.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5tKhowZxzLAggssAogwjF_kpHyJXXsv1B-LfxNuvdZeHzWfXZexCBFRCS9I1JsWgbvP1ldknz01mjsIhLzD8yCxBbSUv6x5aE6xd8sHuxyt7sFe3PnGin-KpPrtVp5tblm1T8WEomy5dL3g4="
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Hqp32lcoMDU-8fDoAmwR99-ZW12129x6KJ9hhtfAJ3nCtkVYFUmR3YYd-WI5u5LUkTVq0NWb5VNHOSSZdX3lgUAXCickIcS0OEhct--bOKrHsmmS2cQaQD2W-V9I6xjYJBDoFDc4xXxkAWidEuPHnQ6F5I7bAYaOZ9EzMUS6GdFVBH0xBNzx91-p_y5qFkzLpyWS9LyuLz_s8gvF7UEtqNmlTRaFKA3T0xw="
     },
     {
-      "title": "manhattanpsychologygroup.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq2XRIlQgjfNlPhhzD1LZvpaIvIfV6C88UCSfeVC3hZ_UGwq3edKcl-gE_0xD4yMhKHD0bKml-1SASBlxGfdRRA9jQM04rKDuUxhA69MuKp8n9L3LW-nqKh-qK5h5SwLJDjPqCjsWx2F4dNz4sThxakNg38QzPvpFApNU54iZRbmsGBGuvnX-xT26bn1RzMb_U8--wggeLKRTGkhAShuQzmqbj2oEeRVphyDOT5AowrrCXyI7PT3OmCyFjMHjEzlT7"
+      "title": "elwatannews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHDncGubpjeKtfFq5pkwF_hNgOxCAnAu-h3G2qBm2Nfq6kRIXkCkO3iM9RFxl9QAIpd1Cp4r_nHqWhLaYMcQFqfr8bvbI66pzxY4SLsEkCtCfH-NF4HoNMxF8Cz9vstsxk2XYG35LJ3I1n"
     },
     {
-      "title": "myperfectresume.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtnBNhFmQcvg3-YswnRi6YMCSCkCzDj9A-MzM4Pju31UG4_9BJjzE-17OpWLy0U9MMsNJf7zfukKlP4EFX4Fb-LMsNuCry3vmXUoYAg6Im_P4PAef3qOHwm4Ub0zfnSfrnhN4hoAlrsI1S67cE7VueYjNHLUnEObYmyMFmYUB17ZKurlRSQTQH"
+      "title": "forbesmiddleeast.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3hX2SK5sTxvXOlh9owTlwr-eRtgjayrI4bMwlD85y6wlvWdVLJpf4DvsnoqX1SNZxH5O1DZk0mQD7WsR2ecPfuOJU3ctpGt_VvKHLtWdtYmuUFMm09F4BvYVT8kdjixtM9l3mZK5IgoNlnVJD8dQARlt9UOV60Fs5FX3FSp-HbgL7qUrN2gLTrTZ6rSSXK-FzyVCxrAr7BMN8eMA9"
     },
     {
-      "title": "inc.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6ZXqZQxmDtDku42yEOxNBt9FlFR_sRCJ6fioC9jEonfoFe0ki18wEj1VRSD2_zdaP8RCeYaPP2S9lgo0oAsWqvjNM0q6rB5VyxILcijQ7P0VOzxs1MFjpPcYUTEcwcgm1IbZd6NLSEcW1TBy5DgmXBS8NwiUxzdZI1zFFX81O4zSJJCFmH6ys6Sw="
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD48QJQz08Gsee6OUJr1NbZfvRzbJ3xJx3PMLuM0BDyMGlquBfy4nkcOCJ276TddgZph7nbJsOYYHSnlqRpcwVhQZuNP8ZqlXX22Lyye6-lYr-T_LYxAYY9TURHBWuqj0OzZungwtU1WAtVxsYK5UwlfpjQwkPVGR_K-9yas4mPonyrpxj5YVIJulP2zoVAocNBeNmI4RJoZdQm02xdqLYcdmXom0m7Cf7jfpmgu-RLTdLWCLn35Il8JydkOfsX8pcvqt27n5_JvqrN8Yi-QacpIb9kCmDEO9KKARxFcIK_AGJibwCjapwO57lY2zLwMVppFSkRcLR-eLtv806Jz_9vs1fMZymS8r3D3OAHooO8UvD9L0WYjKjMDUySLln_Yg-LFg="
     },
     {
-      "title": "neat.no",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM0CHkNWFCAyiFR6vF6B0yNW4ZapwJozb-fBO53C8B2uGn86CwJ5OSrdlFKXXkPXXy0P0wzDBkTFBtgccLPPv6ez7lckFWtgDrKzcaQ4PcEDzpyvSzy91QgefDb5xVgjl4eE6ZVxJgdmR1tanrLRchHoZfsf7jPhN0VJ3rKsgIbfk="
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDi1b6K42VPuz8yldBWo5gPar8OYDscDkd13xbjoT00eNcgqI6qGm3T5xbDeD0X8UX1blVgLBZ1choLvE9Nl3p6gqnGIkrocCSwp-ItKdvm3xDAiEOHcQEPtA02acKb724saiUUOUcUNpx1xMALMSYOkh3UQVsb6SHWtOOWdnj_I0Lja-KBnMxezIX0sjMLH53tDOmxprf51y6S2YTo2aQTyMV0i_GL0BpLmJ85VqVopz4nizb1ZFzWLk9VprZnXYKV_FXqIOi7cPi3Y2Cowd84I_h84QhRx5UyPhCxG0yycUCyYilUYM5JWEFKWR0VptNL44UktmbvjzDYzfzxOriF8wGLgnFWm_YJhWXufm4lnpjlxb51gpBlGaqF1uArQ=="
     },
     {
-      "title": "vcam.ai",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH4ccTJZthRKODAzi2RPcjWio14eDGOOg7NCzGn-i0Wbi8EAJ1MmjcAfKpS8mFMJ97I7LU6eWimmiLsIk8bpF8sY6ZDeggp8wQD6-l3U0e3dSGXvjixin0lB2THu4mI7rIVpe-avLK2kHKXDWtHf7KEFUDxPWcJX7Afuetw8n14hzyOGR8PA=="
+      "title": "saiftech.me",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWNYQCNf6gazp_oL8MyojLDagasG8GvWdeX4ZHLDMk5kUWO4wv5s-dXP9oepmK8Q4uA-3t_Bt040vzLQyEB_peulT609YqnOukQV3omZdrlpELzRg61A_LnA_ukmpUNtYTIPBh"
     },
     {
-      "title": "bristowholland.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7DGgzBdUleaJM1qOfbpxphhvbqRa_SzXUIklKDSNcayeEwDEEh14I4PYb_RS_y5cfCeMVStd6OLsKce0wuEBtZnk_clNK9boXw0DybWm82cFerMjzufyijDR9iWHnUFNP0Up-b62T6Mgm4kAtA161lyx_QxumBYv5pYkMbkTcJiELbj5KgQ=="
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgc3I6wSqwZWwaOoxpEttgijZe3QRRVmd8WkbPWvSVKZt5kXSY5CfjWkjpMPwEmD2KqO7bPUbkZYFJY-D-kzrmOwdNFd7dKtD-a9UbMPKCDXEYc6t9smkxD-_jGxndGKeJFks6qhqdfx-RQhLqd6gU5PFKZFG2TgdIfhDNUanxJx_-zjpXqDKUQaKu2CzpWh2Dwvui-3JcgfZQMfKx4qUo80dzxo9RRCnGQu7SkDWuWuKRE5J-FgAicIiOxkJuKdxIVue7oxjYUD5OhR9k9ZsRwxsBxlW8KLXmA8T0cb_M4oMMLLAZ07uGF0diS6HQfEgINcy96tqj6_AmF2HGstyjM7cTFzqZnjV8-F4KozzhgjHBTiXvIRgnYJsXqxUm"
     },
     {
-      "title": "cambridgeopenacademy.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4bglvbYqun62J56w5_QYgrNvlTQ6Nq5-jLJNauDNSYDPsbLdZhnE7Uog8bQcZiz5RAYcBgFYrTxNWKkdDwQILNrSkeEeSc6QX4YiS-6a0QCb6_n8CR1nMYSpVlj9EXGbG-FfRLiircpOyu8PHNelg9i5-rEc983h1PiVOM0o="
+      "title": "androidenterprise.community",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjKG0efHwBDDlTrz76RsyGwr2F_YuUZRQLDJ8XNlWjDXuZqgzQF5kG3BZoXctxB2wZtlWEXIPy0Mo2y9vSaQfbwxbTM4S1HcHbY3rrA2WgfQO1dejYI7SKIEX-cUfemH4Mxp9wUEQ2RGm2Lb94g3DktjbkYqc0Pr51mNmu3s10St8mznoJJPqzaeSNaQPYlM_XyBgb4BP1WwSUW3k="
     },
     {
-      "title": "acorns.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzqIlHA4afgy-nK4SVnwaJvfA_93jTGnOTEBrFJUFh1dO2YEWfH3I8VMOFSZ299CTlkKi9gSAhRaA4-C0RnH8xH16zR0XFalJA5yhe309dA70DjJxpgneUMD08QrlG-4noA1yWH7ko8evb2E8="
+      "title": "adnkronos.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBYxi9YO8epgclXO9Jx8eLfikgRUAdnrlvbAu8JRxnoI6aUZ59Cz7zAqNgunmV7006etfKJTvOgdZK4m_ScwdXL0MaUdOZSi93Ww0hMlOgeJkOhwGVd4ZgoDBjsYYyL2pZzoo0Kw8="
     },
     {
-      "title": "lplegal.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtEkZi_01WDznuNFHZQojjbPzs-JqMmFwtMA3QZX3xqmdn0jYNemFV8E4wo7TXWup65F7Hbr01YcxMSIspn3wLwZvg6GpoTKWWs4X4_cfFTowP6ffyiKkk7eKyHqPzZgHTAvQalVDCS8-gRvn6t3OM3TTjGrW_PUUpfJcH7u21Ls2CfKZxPiZPhmRcFw=="
+      "title": "usercentrics.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER15emY9RPxJ260sbkWGj7olNNRpqMWNZgJkttDiTX8U3P4JJ6WX_VkYMTTPP5TNoOsCnOxieqGdcwKCwLO6PBi3SEpC17tzS4oMbiGk05HybDXMI-vjOHJ85fCfRQ0jvg03W6QIdMa1jirwR8MA=="
     },
     {
-      "title": "multistate.us",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGo2SmuTPlLcMVSmfcJ0Aw9s7LTwfaZ7AQzYx1rA_7328PWwivgI7yfe0ilJA2R99PETDWIpUxJ-zpewPNJ0jsu_xWMWFgm9xMnNaUMr91sBzuLdYtSGYIfeCxxmuxkfVJ0iqhYulNHott9yiiENMEQ82_6c7Z4-6YbVp4QCtg67kV148dgt1ybwV0VPO1kiJ_K1cbJ2rzxepvEl4b1kfSkpV0RmTg"
+      "title": "un.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfiz59OpR_D67ppyo0RyHbGaJXWeSe0d958sGpqdU6RfidGL0lcBfoTro5hJDESTPoH3uCqBfDXxngpIcjA6kfInp2G0aUEYqoobCO2pllXgcW2IEcZJ-Z4cm_B1rFg25S9r-Jvp8="
     },
     {
-      "title": "medindia.net",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE26hwgUK-uVJJ9ESs_1t27-qkwMdOxGmFl6aywxDsTUO8vKFSkekkBxvK-ndXMC_ZKi99kHClgYOXQHb87HxbDNC6Tjsv8JCIQRs8-viw7cj_3qyEkV9PNgoNv48Ox5bz4zpwhq0NuWso9AhQBiYCJGmU2OoM_uM1lmsjrv_N0Or3P2pAuURi4ZfdB_aq1rgFQXM4PyCLCs-1gjj9JAg=="
+      "title": "sifrreports.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXs7lTXZhD4qdaRbKZjVk6i8JLlV53S-6-LGI-UFQWMyipmT7GBmDc_AU1Znhljo_aFYypmK67XejmpLGbeQ5IGUROXTzKRam0enYXSW-8X37GJm9zdMJQAWNNC4kphq21xvIfnaZDNQ29tj4oVS1PaD0mOmuHrLyRWz0HaUez-yNftxtAQ020wDPM3KNCS2Wfv3YXqbyLxPbH3nAIdOCS8XvmtM_nTmXLRQtTZBPNfUEoc0ebY88qnST2pCdGStvr8kYG11kVoLexOhLaQpuao_uoP-zpIlo87Y-oFuRZfYlYb6rNjVy8B22OtADW7ctfzRuNWbiMCd0SIYQHtWik9gZrN6NzYZcSEtZbFSuroBiSedFyKHJDk4k1"
     },
     {
-      "title": "drkumardiscovery.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFehGjZHhN6b4Gt2fHM8vIBxXkFJ_T8Evc4sLEuQWV5xPByrbTZUYJfPfM_rtUAePh55imZddfOoYKiweemhujjwSO6b9TJQcKL_FtyvR0nmpXfKEE39f44R6PVtBjEY9amRpdjzoHTDdNPyJwtyefak5c1eyuWtgN_pyeTXFDGq92TDKcYnoW6ucRBJA=="
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQZIae4ePmbOImmw-RyNzWc67_FCIdYs5T-Hr54fdtxC1ZFgAWUW0eR4q_12fBjyPGO07Voh5BydX9sAUBSqYEj3lpsy2BUBEJubGtQlPe1I7tJoFK9NSodA4XdZak3XNlJyPjg=="
     },
     {
-      "title": "marketscale.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVI0ZyXZT-Vwsu2nM_4CJJIxgUUaQ0Ad66EZ_mmUdQywe_guRwXMeLK2LNL4rd6ihWgSHtasBlONOiqtrBgqCOjuBkVxFT6CAP-g1u3XGwCIQAxZHx3FRjqi6D-mohXzp8OSckmyowHclT-d17RoH1VZiM_QLiZSxmSohORRHfgpCrNIZMk9LwcWTFwtOxgE6B4P_3vQ=="
+      "title": "annahar.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRZy_tETTEo4bHMiQnNi0wpj-1T_yCmkblgrLv-7zfh-DMtOCAZ5JXNZ82_G2PLU8b_CA5VoMVCnwPnKcHQdJe-SUoCbj-U-lvShVOfK0McXTGAWNTeAVYOtHG0xsoqROtFx39UOsy8ln34x9a-w6UT9UPydvjoLahR3eBBZEQCRmAK7KpeAmHMledVQlmff8A9sdmrnPjgeQQFtiiEMf4ScEQJyySu1OnuYo0V3pFGqkZg3Z3tm_WtEAbxeRhfsRrYeZc1M07lfJuwheSukxgFKCn7cq0ovpH7vqGbSKm7mATOLOcTj1VYTRX3_diO0gPWQ_i4ZXItjFOX_ae_AatfflwGsLoYt3XaD6x6uGCeIIsKtmN7Lp6Q4iq9ll-fh1lFNvRggDEQY-ck1VhO2plqTu8hrA8zU_z-dbcLZTAfzdMdY8AxPe-eT5QksPiEZvcpns7VnQh5jxRxFO7CwVBN27WJF7nniPYhBkXC0mlZPpS73QuAG7v5Vhei_Z4VVyRWb7CJyRvThTSaX4cz6_Y_6UCP_B6FQW-4Zr0NLy8tUUH28I76EH-CBMMlH-fBfP_BFBxiw=="
     },
     {
-      "title": "globalbankingandfinance.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOeGsck6mNLy4QiYVeqo5Q5ieSPzSID1BdqLVCxqf_3iqf3-LSFcUUasRddKGQjxJDUBl_TydFNbBmZG3DmFZQ0yBb6b-xSdIXhfZXvLULe_I0jKm7KUL0eWDmIvy690kjb1fqf0bY1ryUsIkrEsy6PQfMFgayLQkoOA96r-8edcNXHh25yi5gQ0AZpuLLmTQcZuzA_0TDuTjP6g=="
+      "title": "asharq.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF51VH-F6gkOJcOsLnbhDw601REXIrDe9NHxk-s9-cBS1SwLGMUlTA5oP8xPRNB1ncU8eYCxuItUqTKHZRI7gdy8KhFbSn-AbgIzxUv2e4eXTX7F_DDdyf6l8-bJE2zojI781wqrqdufs67OuFn4vAXo2BlQb5tZqRbOUK8PhmVRAIKtSIFnhVjNNRuXmSeizFiHWpiAG8AHuSIadEuFLkUItLgptI7stTfPxa-Rf5T-wYGWznkHbtEtioWqVcQyGHsnKyzOOLKj3cU8ZMPeeOqFo4TCUVItKGlD-rZBwxckLECwBIMETFHACl97zUSP7OQZUo506uI5rNqLYlpU-8wxQHJ4Wa00G2xdWgUhlJ12RJ8vplv1HS8AANYXD18INzyqZF8QCvFm6US8IlB4BRce4g3QSWBrQPhKjIUJH7zby7QqZR_gVD5QvMsGAuWbUMuJT1sM-Kq6iTLrw-sXjcuXaUfjKHhtW4haIr0v5HZpdbeSQ=="
     },
     {
-      "title": "everydayhealth.com",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc-zYMde4WTirrkCgXzTUwc2kxKBOjFpZL6sW9ieU6gLKmhUIUov3-2g7n09JmiJiDYxR5s4kq0ylrGKWhw3j3vrbvDlx9gPG81uEb_TZESXb5QbjgowssMW6VAzxJlJ4ht7YfYN_z666hZSMZ4ROQ7eOi_DaDaJ_S85iCWgCYQ7wfoK8PB6I3eC3DMvfnvrzYqGeFJOg="
+      "title": "wikipedia.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhR_s503XGkmmYXqEYmYfWL3p_-b4F_Suckm9D5pgl82WbPNlMEqTmi09a3xi3S7s26yxGy89n0BMLnQjWpQzrQAoqkO5vlxNmTLwCi-QFWBmKJGM_hy2qqSMNg6IcFD2XmjAV_G1QKCiKdDXYpwLUc-yAN7jYjhINnTNNMfQhL6TnvUxQlRqaYJm2LvqbJai2kiyaRzVG0iDVCDujnOkgFm97RWhughcE_rXgPp5x-UGClEtlcOBw0Xi3leMMzFVGsJLsRlFhs8frxig="
     },
     {
-      "title": "climatecentral.org",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGiptPKsQx839BAMKMj8QkYY8OW7wCOeNbrdpfGKOkJ6KOpmLITH9tm_XKJ9VnKLkX1NAckb6vIjxXDno8ycD6lQLrgmKnLEvbWQOQdz2asAGknhajfcpI_l0kcwENklpS7a9gKw-Ji0xEwubSZ7PXFpmlTap5TRYTLIHD"
+      "title": "cnbcarabia.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwdcgZb8CtCkSgmk73nBo1ga1NOgigqpxxeVmOMr8O7qC5pxRzq1Etbl70Pf3GJcT-fMBph0QyAW33sGHSKjLZ5_QPFyQuawpT3TRmGMWNOOTy-pNbVd0ltorW"
     }
   ]
 }
