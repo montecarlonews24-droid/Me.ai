@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T15:32:38.109Z",
-  "model": "",
+  "generatedAt": "2026-11-26T17:26:28.034Z",
+  "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 9 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 9 open leads from the last 3 days."
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T15:32:38.109Z",
+      "bidsAt": "2026-11-26T17:26:28.034Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -240,6 +240,38 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Lead Generation App with WhatsApp",
+      "url": "https://www.freelancer.com/projects/lead-generation/Lead-Generation-App-with-WhatsApp",
+      "reason": {
+        "ar": "المشروع ليس لتطوير تطبيق أندرويد أو وكيل ذكاء اصطناعي؛ إنه لجمع البيانات وتوليد العملاء المحتملين والتسويق، وهو خارج نطاق عمل Moe. كما أن الميزانية منخفضة للغاية.",
+        "en": "The project is not for Android app development or an AI agent; it's for lead generation, data entry, and marketing, which is outside Moe's scope. The budget is also extremely low."
+      }
+    },
+    {
+      "title": "Software Engineer II - Android",
+      "url": "https://www.linkedin.com/jobs/view/4470910011/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب خبرة سنتين أو أكثر في الهندسة البرمجية ومهارات قيادية، وهي أعلى من مستوى Moe. الموقع (سياتل، واشنطن) يشير إلى أنها ليست وظيفة عن بعد بالكامل.",
+        "en": "This is a full-time employee role requiring 2+ years of software engineering experience and leadership skills, which is too senior for Moe. The location (Seattle, WA) indicates it's not a fully remote position."
+      }
+    },
+    {
+      "title": "Software Developer II - Android Apps",
+      "url": "https://www.linkedin.com/jobs/view/4479050899/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب الانتقال إلى ريدلاندز، كاليفورنيا، وتطلب خبرة سنتين أو أكثر في تطوير البرمجيات التجارية، وكلاهما يتعارض مع متطلبات Moe للعمل عن بعد ومستوى الخبرة.",
+        "en": "This is a full-time employee role requiring relocation to Redlands, CA, and asks for 2+ years of commercial software development experience. Both conflict with Moe's remote-only work preference and experience level."
+      }
+    },
+    {
+      "title": "Android Engineer (m/f/x)",
+      "url": "https://www.linkedin.com/jobs/view/4483552363/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل، والموقع (ميونيخ، ألمانيا) يشير إلى أنها تتطلب الحضور الشخصي، وهو ما لا يقبله Moe. Moe يبحث فقط عن عمل عن بعد.",
+        "en": "This is a full-time employee role, and the location (Munich, Germany) implies on-site work, which Moe does not accept. Moe only seeks remote work."
+      }
+    },
     {
       "title": "Test iOS App on iPhone 17",
       "url": "https://www.freelancer.com/projects/ios/Test-iOS-App-iPhone",
@@ -447,44 +479,12 @@
         "ar": "نص المشروع باللغة الإسبانية وليس الإنجليزية أو العربية. بالإضافة إلى ذلك، نطاق العمل يتعلق بالمبيعات وأبحاث السوق، وهو خارج نطاق تخصص Moe في تطوير التطبيقات أو وكلاء الذكاء الاصطناعي.",
         "en": "The project text is in Spanish, not English or Arabic. Additionally, the scope is for sales and market research, which is outside Moe's expertise in app development or AI agents."
       }
-    },
-    {
-      "title": "Android Kotlin Developer",
-      "url": "https://www.linkedin.com/jobs/view/4494647732/",
-      "reason": {
-        "ar": "وصف الوظيفة على LinkedIn مختصر للغاية (مقتطف من نتائج البحث) ولا يوفر معلومات كافية للتحقق مما إذا كانت الوظيفة عن بعد بالكامل أو إذا كانت تتطلب سنوات خبرة (مثل 3 سنوات أو أكثر) مما سيؤدي إلى الرفض.",
-        "en": "The LinkedIn job description is too brief (search result snippet) and does not provide enough information to verify if it is fully remote or if it has experience requirements (e.g., 3+ years) that would lead to rejection."
-      }
-    },
-    {
-      "title": "Software Engineer (Android)",
-      "url": "https://www.linkedin.com/jobs/view/4493410969/",
-      "reason": {
-        "ar": "الدور الوظيفي هو 'مطور أندرويد أول' (مستوى متوسط-أول)، وهو ضمن مستويات الأقدمية المرفوضة (senior/staff/lead/principal).",
-        "en": "The role is for a 'Senior Android Developer' (Mid-Senior level), which falls under the rejected seniority levels (senior/staff/lead/principal)."
-      }
-    },
-    {
-      "title": "Desarrollador Android",
-      "url": "https://www.linkedin.com/jobs/view/4494611897/",
-      "reason": {
-        "ar": "نص المشروع باللغة الإسبانية وليس الإنجليزية أو العربية. بالإضافة إلى ذلك، يتطلب صراحة 'خبرة لا تقل عن 3 سنوات في تطوير أندرويد الأصلي'، وهذا يتجاوز مستوى الخبرة المسموح به لـ Moe في طلبات التوظيف.",
-        "en": "The project text is in Spanish, not English or Arabic. Furthermore, it explicitly requires 'at least 3 years of native Android development experience', which exceeds Moe's allowed experience level for job applications."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4494603410/",
-      "reason": {
-        "ar": "نص المشروع باللغة البولندية وليس الإنجليزية أو العربية. بالإضافة إلى ذلك، يتطلب صراحة 'خبرة تجارية لا تقل عن 3 سنوات في إنشاء تطبيقات أندرويد'، وهذا يتجاوز مستوى الخبرة المسموح به لـ Moe في طلبات التوظيف.",
-        "en": "The project text is in Polish, not English or Arabic. Furthermore, it explicitly requires 'Minimum 3 years of commercial experience in creating Android applications', which exceeds Moe's allowed experience level for job applications."
-      }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
@@ -496,7 +496,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (347 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 73 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (293 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 86 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -512,11 +512,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 69 projects on the lists, 3 sent (HTTP 200 159479ch 28 links; HTTP 200 158715ch 27 links; HTTP 200 163373ch 26 links; )"
+        "msg": "phone relay last read 1 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160134ch 29 links; HTTP 200 158715ch 27 links; HTTP 200 163215ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "19 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -524,23 +524,23 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 4 (worker 1, open 2, alarm 1), longest gap 425 min, last less than an hour ago (alarm, v1.9.3)"
+        "msg": "phone checks in last 12h: 7 (worker 1, open 4, alarm 2), longest gap 425 min, last 1 hours ago (alarm, v1.9.3)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open 18:12!"
+        "msg": "times (Amman): 11:06*worker! 11:06*open! 11:06*open 18:12! 19:16*open 19:16*open 19:16!"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات || 18:12 🔷 وظيفة Remote جديدة على LinkedIn (+5) | 🔵 مشروع تطبيق جديد على مستقل | 🟡 طلب جديد على خمسات"
+        "msg": "alerts posted: 11:06 🔷 وظيفة Remote جديدة على LinkedIn (+5) || 11:06 🟡 طلب جديد على خمسات || 18:12 🔷 وظيفة Remote جديدة على LinkedIn (+5) | 🔵 مشروع تطبيق جديد على مستقل | 🟡 طلب جديد على خمسات || 19:16 🔷 وظيفة Remote جديدة على LinkedIn (+5)"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 2 sent (HTTP 200 134255ch 25 links; )"
+        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134096ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -548,15 +548,87 @@
       },
       {
         "step": "linkedin",
-        "msg": "291 jobs from Gmail alerts (last 5 days)"
+        "msg": "286 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Freelance Android Developer / EMEA: busy (429), stopping search this run"
+        "msg": "48 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (Novus Recruitment Solutions)): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Context Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (recruitment agency (randstad digital australia)): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (20+ years required): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (7+ years required): AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, Google Photos, Mobile (Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer- Hardware"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile Engineer (Android / iOS, On-Device & SDK)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile SDK Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Mobile SDK Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (10+ years required): Full Stack Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - Mobile (React Native/iOS/Android)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer – Android contract"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Software Developer, Google Chat Client-Side Encryption"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "7 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -564,11 +636,35 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Développeur de logiciels II, début de carrière"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): ZAIN2596 - Associate Fullstack Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (marketing/content (not development)): Software Engineer, Performance Marketing"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Native Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "4 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 4 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 20: active market americas, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
       }
     ]
   }
