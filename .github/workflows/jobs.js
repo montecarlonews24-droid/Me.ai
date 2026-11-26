@@ -306,6 +306,8 @@ async function freelancerFeed() {
       const users = d?.result?.users || {};
       for (const p of d?.result?.projects || []) {
         if (!p?.seo_url || out.has(p.id)) continue;
+        // مشاريع محلية (لازم تكون قريب من صاحب المشروع 150 كم): Moe بالأردن، ما بيقدر يقدّم عليها
+        if (p.local) continue;
         // بلد صاحب المشروع: بنخلّي بس أمريكا وأوروبا والشرق الأقصى وأستراليا
         const owner = users[p.owner_id] || users[String(p.owner_id)] || {};
         const country = owner?.location?.country?.name || '';
