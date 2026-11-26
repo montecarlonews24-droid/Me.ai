@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T05:17:27.375Z",
+  "generatedAt": "2026-11-26T07:25:53.589Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -121,7 +121,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-26T05:17:27.375Z",
+      "bidsAt": "2026-11-26T07:25:53.588Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -190,6 +190,30 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Educational Certificate Verification needed in Japan",
+      "url": "https://www.freelancer.com/projects/field-research/Educational-Certificate-Verification-40836539",
+      "reason": {
+        "ar": "المشروع يتطلب حضوراً مادياً في اليابان لأخذ صور وملء استمارات، وهو ليس عملاً عن بعد. كما أن المهمة هي استخدام تطبيق موجود وليس تطوير تطبيق.",
+        "en": "The project requires physical presence in Japan to take photos and fill forms, which is not remote work. Additionally, the task is to use an existing app, not develop one."
+      }
+    },
+    {
+      "title": "Mobile Application Developer",
+      "url": "https://www.linkedin.com/jobs/view/4494995647/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بدوام كامل في الدوحة، قطر (ليست عن بعد)، وتصنيفها 'Mid-Senior level' وهو مستوى خبرة مرفوض. كما أنها تطلب مهارات في React JS و Flutter التي لا يستخدمها Moe.",
+        "en": "The job requires full-time, on-site work in Doha, Qatar (not remote), and is classified as 'Mid-Senior level', which is a rejected seniority. It also requires skills in React JS and Flutter, which Moe does not use."
+      }
+    },
+    {
+      "title": "Full Stack Developer experience in AI tools",
+      "url": "https://www.linkedin.com/jobs/view/4493485894/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل بدوام كامل في الكويت (ليست عن بعد) وتتطلب الإقامة أو نقل الإقامة. كما أنها تطلب خبرة في Flutter وإدارة خوادم AWS و DevOps، وهي خارج نطاق عمل Moe.",
+        "en": "The job requires full-time, on-site work in Kuwait (not remote) and requires residency or transfer of residency. It also demands Flutter experience and managing AWS servers and DevOps, which are outside Moe's scope."
+      }
+    },
     {
       "title": "Bangun Asisten Suara AI",
       "url": "https://www.freelancer.com/projects/ai-chatbot/Bangun-Asisten-Suara",
@@ -290,7 +314,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -302,7 +326,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (203 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 158 skipped: not app/AI work)"
+        "msg": "8 open projects from the last 5 days worldwide with budget 100+ USD (295 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 119 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -318,7 +342,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 12 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
+        "msg": "phone relay last read 14 hours ago: 70 projects on the lists, 0 sent (HTTP 200 160021ch 29 links; HTTP 200 159668ch 27 links; HTTP 200 161205ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -334,7 +358,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 12 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
+        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 134059ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -346,43 +370,35 @@
       },
       {
         "step": "linkedin",
-        "msg": "287 jobs from Gmail alerts (last 5 days)"
+        "msg": "271 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / Canada: busy (429), stopping search this run"
+        "msg": "Mobile App Developer / Australia: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (6+ years required): Mobile Engineer (iOS / Android)"
+        "msg": "skipped (18+ years required): Software Development Engineer, FlyDelta Mobile"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (6+ years required): Mobile Engineer (iOS / Android)"
+        "msg": "skipped (title): Sr Android Engineer - Flagship Mobile App"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Mobile Engineer"
+        "msg": "skipped (title): Senior Mobile Developer | Développeur·euse mobile senior"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Android Developer - AI Finance Agent"
+        "msg": "skipped (3+ years required): Frontend Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): 🟠Senior iOS Developer with Polish🟠"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Test Driver for Autonomous Vehicles"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
+        "msg": "skipped (title): Développeur(se) logiciel sénior, écosystème Android | Senior Software Developer, Android Ecosystem"
       },
       {
         "step": "verify",
-        "msg": "3 of 10 new LinkedIn jobs added"
+        "msg": "5 of 10 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -390,31 +406,31 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (iOS-only): iOS Developer - AI Finance Agent"
+        "msg": "skipped (not an app or AI agent project): Fullstack Software Engineer (Finance/Trading background preferred)"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Mobile Engineer"
+        "msg": "skipped (Flutter/React Native/Unity): Développeur(se) React Native F/H"
       },
       {
         "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): engineer I - ST - Partner Technology (Nashville, TN - U.S.)"
+      },
+      {
+        "step": "filter",
+        "msg": "3 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 2 to judge"
+        "msg": "1 new Freelancer projects added, 3 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 8: active market arab-east, 0 prime leads"
+        "msg": "Amman hour 10: active market arab-east, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
-      },
-      {
-        "step": "filter",
-        "msg": "removed old lead (not an app or AI agent project): Aplikasi Mobile Internal Perusahaan"
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       }
     ]
   }
