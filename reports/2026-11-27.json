@@ -1,0 +1,424 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T01:35:30.229Z",
+  "model": "gemini-3.8-flash",
+  "summary": "تمت تصفية المرشحين بدقة لاستبعاد الأفكار المكررة من الجلسات السابقة أو المشبعة تسويقياً، والتركيز على تطبيقات أندرويد عالمية باللغة الإنجليزية قابلة للبناء خلال أسبوعين.",
+  "trends": [
+    "تغيرات جذرية في سوق العمل بسبب الذكاء الاصطناعي وتزايد الحاجة للمهارات البشرية غير القابلة للأتمتة",
+    "تفاقم تلوث الأوزون السطحي عالمياً بالتزامن مع موجات الحر وتأثيره المباشر على مرضى الجهاز التنفسي",
+    "استمرار التضخم العالمي في أسعار الغذاء وضغطه على ميزانيات الأسر اليومية"
+  ],
+  "world": {
+    "signals": [
+      {
+        "area": "الفضاء والشمس",
+        "change": "زيادة النشاط الشمسي مع ظهور عدد كبير من البقع الشمسية، مما يرفع احتمالات حدوث توهجات وعواصف شمسية قوية قد تؤثر على الأرض.",
+        "who": "مشغلو الأقمار الصناعية وشبكات الاتصالات والكهرباء، ومستخدمو أنظمة تحديد المواقع العالمية (GPS)، والطيارون بسبب اضطرابات محتملة في الاتصالات اللاسلكية والملاحة.",
+        "evidence": "رُصد ارتفاع ملحوظ في النشاط الشمسي وظهور ما لا يقل عن 10 مجموعات من البقع الشمسية في مارس 2026، وتوقعت الإدارة الوطنية للمحيطات والغلاف الجوي الأمريكية (NOAA) نشاطًا جيومغناطيسيًا عند مستوى G1 (طفيف) في أوائل سبتمبر 2026، وتسجيل عاصفة جيومغناطيسية طفيفة من المستوى 'G1' يوم 19 نوفمبر 2026."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تفاقم تلوث الهواء بالأوزون على نطاق واسع في مناطق متعددة من العالم بسبب موجات الحر الشديدة وحرائق الغابات، مما يؤثر على صحة السكان.",
+        "who": "أكثر من نصف سكان الأرض، خاصة من يعانون من مشاكل في الجهاز التنفسي والربو، بسبب ارتفاع مستويات الضباب الدخاني والأوزون السطحي.",
+        "evidence": "كشف تحليل عالمي لاتجاهات جودة الهواء أن أكثر من نصف سكان الأرض تعرضوا لمستويات مرتفعة جداً أو شديدة الارتفاع من الأوزون السطحي في 2026، فيما تعرض نحو ثلث سكان العالم لمستويات مرتفعة للغاية من تلوث الهواء بالأوزون في 2026."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "امتداد مواسم حبوب اللقاح في أوروبا وأمريكا الشمالية لتصبح أطول وأكثر شدة، نتيجة لتغير المناخ وارتفاع درجات الحرارة وتأخر موجات الصقيع.",
+        "who": "الملايين من الأشخاص الذين يعانون من الحساسية الموسمية (حمى القش)، حيث تطول فترة معاناتهم وتزداد شدة الأعراض.",
+        "evidence": "تشير الأدلة العلمية إلى أن إطالة موسم الحساسية لا ترتبط بعامل واحد، بل تتداخل فيها تغيرات درجات الحرارة ومواعيد الصقيع وتركيزات ثاني أكسيد الكربون، وأظهر تحليل في الولايات المتحدة زيادة متوسطها 11 يومًا في عدد الأيام الخالية من الصقيع بين عامي 1970 و2025."
+      },
+      {
+        "area": "الأرض والمناخ",
+        "change": "تسجيل موجات حر قياسية ووفيات مرتبطة بالحرارة في أوروبا وإنجلترا خلال صيف 2026، مع تحذيرات من تفاقم هذه الظواهر.",
+        "who": "السكان، وخاصة الفئات الضعيفة وكبار السن، حيث سجلت إنجلترا أكثر من 5 آلاف وفاة مرتبطة بالحرارة خلال صيف 2026، وهو أعلى عدد منذ عام 2016."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "استمرار وتزايد ضغوط ارتفاع أسعار الغذاء العالمية، مع توقعات بزيادات تراكمية بنسبة 18% حتى عام 2027.",
+        "who": "المستهلكون والأسر حول العالم، خاصة في البلدان منخفضة ومتوسطة الدخل والشرق الأوسط وشمال أفريقيا، بسبب ارتفاع تكاليف المعيشة وتضخم أسعار الغذاء.",
+        "evidence": "البنك الدولي يتوقع ارتفاع أسعار المواد الغذائية عالميًا بنسبة 10% خلال 2026 و7% إضافية في 2027، وتكشف أحدث بيانات نوفمبر 2026 ارتفاع تضخم الغذاء في الدول النامية إلى 3.9% ووصوله إلى 7.4% في منطقة الشرق الأوسط وشمال أفريقيا."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "ترسيخ العمل عن بُعد كنظام هيكلي في الاقتصاد العالمي، مع هيمنة النماذج الهجينة للعمل.",
+        "who": "الموظفون والشركات، حيث أصبح العمل المرن عملة حقيقية لجذب المواهب، وتتبنى الشركات النموذج الهجين لزيادة الإنتاجية وتقليل التكاليف التشغيلية.",
+        "evidence": "تشير بيانات مطلع عام 2026 إلى استقرار معدلات العمل عن بعد في الاقتصادات الرقمية عند مستويات تفوق خمسة أضعاف ما كانت عليه قبل عقد، وفي الولايات المتحدة يتم أداء 27% من أيام العمل من المنزل."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "تغيرات جوهرية في سوق العمل بسبب الذكاء الاصطناعي، تؤدي إلى تحول في المهام بدلاً من إلغاء الوظائف، وزيادة الطلب على المهارات التحليلية والإبداعية.",
+        "who": "العمال، خصوصاً المبتدئين والخريجين الجدد، حيث قد يقل توظيف المبتدئين وتتولى أنظمة الذكاء الاصطناعي المهام الروتينية، مما يرفع سقف التوقعات للموظفين."
+      },
+      {
+        "area": "التكنولوجيا",
+        "change": "تطور كبير في وكلاء الذكاء الاصطناعي (AI Agents) لتنفيذ مهام متعددة الخطوات بأقل تدخل بشري، وتكامل الذكاء الاصطناعي متعدد الوسائط في الحياة اليومية.",
+        "who": "الأفراد والشركات في مختلف القطاعات، حيث أصبح الذكاء الاصطناعي شريكًا حقيقيًا في التفكير والتعلم والعمل، ويستخدم في إدارة الجداول الزمنية، والطب الدقيق، والتعليم، والأتمتة المتقدمة."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "دخول قوانين جديدة وشاملة لخصوصية البيانات حيز التنفيذ في عدة ولايات أمريكية (إنديانا، كنتاكي، رود آيلاند) في عام 2026، وتعديلات في ولايات أخرى (كاليفورنيا، كولورادو، كونيتيكت، أوريغون، يوتا).",
+        "who": "الشركات التي تتعامل مع البيانات الشخصية للمستهلكين في هذه الولايات، والمستهلكون الذين يحصلون على حقوق أكبر للتحكم في بياناتهم الشخصية وحمايتها.",
+        "evidence": "قوانين جديدة لخصوصية البيانات ستدخل حيز التنفيذ في يناير 2026 في إنديانا وكنتاكي ورود آيلاند، مع تعديلات في كاليفورنيا وكونيتيكت وأوريغون ويوتا."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "المفوضية الأوروبية تقترح قانون العدالة الرقمية (Digital Fairness Act) لتعزيز حماية المستهلكين في الأسواق الرقمية، ويستهدف الممارسات الخادعة والتصميم الذي يسبب الإدمان والإعلانات المخصصة.",
+        "who": "المستهلكون في الاتحاد الأوروبي، والشركات التي تقدم خدمات ومنتجات رقمية، حيث ستواجه قيودًا جديدة على تصميم واجهاتها وممارساتها الإعلانية."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "بدء سريان التزامات رئيسية بموجب قانون البيانات (Data Act) وقانون المرونة السيبرانية (Cyber Resilience Act) في الاتحاد الأوروبي خلال سبتمبر 2026.",
+        "who": "مصنعو المنتجات ذات العناصر الرقمية ومقدمو الخدمات المتصلة في الاتحاد الأوروبي، حيث يتعين عليهم الالتزام بمتطلبات جديدة بشأن الوصول إلى البيانات والإبلاغ عن الثغرات الأمنية.",
+        "evidence": "جزء رئيسي من التزامات قانون البيانات سيسري اعتبارًا من 12 سبتمبر 2026، والتزامات قانون المرونة السيبرانية من 11 سبتمبر 2026."
+      },
+      {
+        "area": "القواعد والمجتمع",
+        "change": "المغرب يتجه نحو تقنين العمل عن بعد والعمل عبر المنصات الرقمية ابتداءً من يناير 2027.",
+        "who": "العاملون عن بعد وعبر المنصات الرقمية في المغرب، والشركات التي توظفهم، لضمان حقوق الأجراء وتحسين ظروف العمل.",
+        "evidence": "الحكومة المغربية تعتزم مراجعة مدونة الشغل لتضمين العمل عن بعد والعمل عبر المنصات الرقمية، ودخول المقتضيات حيز التنفيذ تدريجياً ابتداءً من يناير 2027، ضمن مشروع القانون 03-26."
+      },
+      {
+        "area": "المال والعمل",
+        "change": "الحكومة المصرية تمدد تطبيق نظام العمل عن بعد يوم الأحد من كل أسبوع خلال شهر يوليو 2026، بهدف ترشيد استهلاك الطاقة.",
+        "who": "العاملون بالجهات والمنشآت التي يشملها القرار في مصر، مما يسهم في تخفيف الضغط على شبكات النقل والمرور.",
+        "evidence": "مجلس الوزراء المصري وافق على استمرار العمل بأحكام قرار رئيس مجلس الوزراء رقم 982 لسنة 2026، والخاص بتطبيق نظام العمل عن بعد يوم الأحد من كل أسبوع، وذلك خلال شهر يوليو 2026."
+      }
+    ],
+    "links": [
+      "تغير المناخ -> الصحة: موجات الحر وحرائق الغابات تساهم في تفاقم تلوث الهواء، مما يزيد من مشاكل الجهاز التنفسي لدى الأفراد.",
+      "تغير المناخ -> الصحة: ارتفاع درجات الحرارة يؤدي إلى مواسم حبوب لقاح أطول وأكثر شدة، مما يزيد من معاناة المصابين بالحساسية الموسمية.",
+      "الفضاء والشمس -> التكنولوجيا -> الحياة اليومية: النشاط الشمسي والعواصف الشمسية يمكن أن تعطل أنظمة GPS والاتصالات، مما يؤثر على قطاعات مثل الزراعة الدقيقة والنقل.",
+      "التكنولوجيا (الذكاء الاصطناعي) -> المال والعمل: تطور الذكاء الاصطناعي يغير طبيعة المهام في الوظائف ويؤثر على متطلبات المهارات، مما قد يقلل من فرص توظيف الخريجين الجدد في بعض المجالات.",
+      "المال والعمل -> القواعد والمجتمع: ارتفاع تكاليف الطاقة يدفع الحكومات إلى تبني سياسات مثل العمل عن بعد لترشيد الاستهلاك، كما هو الحال في مصر."
+    ]
+  },
+  "ideas": [
+    {
+      "name": "SkillShift Navigator",
+      "signal": "تغيرات جوهرية في سوق العمل بسبب الذكاء الاصطناعي وزيادة الطلب على المهارات التحليلية والإبداعية البشرية",
+      "pitch": "تطبيق أندرويد يحلل مهام وظيفتك الحالية ويحدد المهارات المعرضة للأتمتة مع تقديم مشاريع تدريبية مصغرة لتطوير المهارات البشرية المعقدة التي يصعب على الذكاء الاصطناعي استبدالها.",
+      "problem": "الخريجون والموظفون الجدد يواجهون تقلص الوظائف الروتينية بسبب أدوات الذكاء الاصطناعي ولا يعرفون تحديداً أي مهارات عملية يجب عليهم اكتسابها للحفاظ على قيمتهم في السوق.",
+      "audience": "الموظفون في بداية ومنتصف مسارهم المهني، والخريجون الجدد حول العالم في قطاعات الأعمال والتقنية.",
+      "whyNow": "تسارع استبدال المهام الروتينية بالذكاء الاصطناعي في عام 2026 يجعل التدريب على المهارات البشرية غير القابلة للأتمتة (مثل التفاوض والتحليل النقدي المعقد) ضرورة ملحة وفورية.",
+      "novelty": "يركز حصرياً على فحص نسبة تعرض مهامك للأتمتة (Automation Vulnerability) وتدريبك على المهارات الإنسانية المحضة بدلاً من المسارات التقليدية لتعلم البرمجة أو الذكاء الاصطناعي.",
+      "competition": "متوسطة",
+      "competitors": [
+        "CareerPath AI",
+        "Coursera Career Academy"
+      ],
+      "edge": "معظم المنافسين يوجهون المستخدم لتعلم أدوات الذكاء الاصطناعي أو لخدمة الشركات، بينما يركز التطبيق على الفرد لبناء مهارات التفكير النقدي والإبداعي المقاوم للأتمتة بتمارين تفاعلية سريعة.",
+      "monetization": "نموذج فريميوم، مع اشتراك شهري للوصول غير المحدود إلى تدريبات المحاكاة العملية وتحليل السيرة المهنية المعمق.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 12,
+      "score": 8,
+      "firstStep": "بناء واجهة إدخال المسمى الوظيفي والمهام اليومية وربطها بنموذج ذكاء اصطناعي يقيم كل مهمة مقابل قدرات الأتمتة الحالية."
+    },
+    {
+      "name": "OzoneAware AI",
+      "signal": "تفاقم تلوث الهواء بالأوزون السطحي عالمياً بسبب موجات الحر الشديدة",
+      "pitch": "تطبيق يحلل ذروات غاز الأوزون السطحي خلال ساعات النهار الحارة ويقدم تنبيهات وجداول زمنية ذكية لمرضى الجهاز التنفسي لتجنب الخروج في الساعات الأخطر.",
+      "problem": "تطبيقات الطقس العادية تعطي رقماً عاماً لجودة الهواء، بينما يرتفع الأوزون السطحي بشكل كيميائي ضار جداً في ساعات معينة بعد الظهر دون أن ينتبه المصابون بالربو للخطر.",
+      "audience": "مرضى الحساسية الصدرية والربو، والرياضيون الذين يمارسون الجري في الهواء الطلق في المدن المتأثرة بموجات الحر.",
+      "whyNow": "تعرض أكثر من نصف سكان الأرض لمستويات مرتفعة من الأوزون في 2026، مما يستوجب أدوات وقاية استباقية بالساعة وليس فقط باليوم.",
+      "novelty": "توقع ساعات الذروة الكيميائية للأوزون المرتبطة بالحرارة وتعديل جدول النشاط اليومي للمستخدم بناءً على حساسيته الصحية تلقائياً.",
+      "competition": "متوسطة",
+      "competitors": [
+        "AirNow",
+        "Air Watch"
+      ],
+      "edge": "التطبيقات المتاحة تعرض مؤشر AQI الثابت، بينما يقدم التطبيق خطة عمل ديناميكية تقترح أوقاتاً بديلة لممارسة الرياضة أو التنقل لتفادي ذروة الأوزون.",
+      "monetization": "تطبيق مجاني مع إعلانات، مع اشتراك سنوي لإزالة الإعلانات والحصول على تنبيهات دقيقة وتكامل مع ساعات Wear OS.",
+      "buildDifficulty": "سهل",
+      "buildDays": 10,
+      "score": 7.5,
+      "firstStep": "الربط مع واجهة OpenAQ أو Copernicus المجانية لاستخراج بيانات O3 في الوقت الفعلي وبرمجة نظام إشعارات ذكي."
+    },
+    {
+      "name": "SmartFood Scout AI",
+      "signal": "تزايد ضغوط ارتفاع أسعار الغذاء عالمياً وتوقعات بارتفاعها بنسبة تراكمية تصل إلى 18%",
+      "pitch": "تطبيق لتتبع تضخم سلة البقالة الشخصية واقتراح بدائل غذائية ذكية وموفرة للمكونات المرتفعة السعر دون التضحية بالقيمة الغذائية.",
+      "problem": "ارتفاع أسعار الأغذية الأساسية يربك ميزانيات الأسر، ويصعب على المتسوق إيجاد بدائل فورية ورخيصة لنفس الوصفات أثناء التسوق.",
+      "audience": "الأسر والأفراد ذوو الميزانيات المحدودة والطلاب والمتسوقون الباحثون عن توفير نفقات الطعام عالمياً.",
+      "whyNow": "تحذيرات البنك الدولي من قفزة جديدة بأسعار الغذاء في 2026-2027 تجعل إدارة تكلفة وجبة الطعام اليومية أولوية عاجلة لكل مستهلك.",
+      "novelty": "الجمع بين حساب معدل التضخم الشخصي لمشتريات البقالة ومحرك ذكاء اصطناعي يبتكر وصفات وبدائل للمكونات المكلفة بناءً على المتاح لدى المستخدم.",
+      "competition": "منخفضة",
+      "competitors": [
+        "SuperCook",
+        "Mealime"
+      ],
+      "edge": "المنافسون يركزون على الوصفات المتوفرة بالمطبخ فقط، بينما يركز التطبيق على تقليل فاتورة التسوق عبر اقتراح بدائل رخيصة تكسر التضخم مباشرة.",
+      "monetization": "اشتراك أسبوعي أو شهري زهيد لخطط الوجبات الاقتصادية غير المحدودة، ومسح فواتير المشتريات بالذكاء الاصطناعي.",
+      "buildDifficulty": "متوسط",
+      "buildDays": 11,
+      "score": 7,
+      "firstStep": "تصميم قاعدة بيانات محلية لتسجيل أسعار المشتريات ومقارنتها دورياً مع بناء برومبت للذكاء الاصطناعي لاقتراح البدائل الأرخص."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SolarFlare Guardian",
+      "reason": "مكررة ومطابقة تماماً لأفكار سابقة رفضها مو مثل SkyGuard Navigator و SolarComm Guard."
+    },
+    {
+      "name": "PollenPulse AI",
+      "reason": "سوق تطبيقات تتبع حبوب اللقاح مشبع جداً بتطبيقات قوية وشهيرة (Saturation High) ولا توجد فجوة حقيقية تنافسية."
+    },
+    {
+      "name": "AsyncFlow AI",
+      "reason": "موجودة بالاسم نصاً في قائمة الأفكار السابقة (Asynchronous Flow AI) ومكررة بالكامل."
+    },
+    {
+      "name": "Global Rights Guide AI",
+      "reason": "مطابقة وشديدة الشبه بالفكرة السابقة AI Rights Navigator."
+    },
+    {
+      "name": "HeatResilient Companion",
+      "reason": "تعتمد على افتراض تقني غير واقعي وهو قياس العلامات الحيوية وحرارة الجسم بمستشعرات الهاتف العادي، مع مخاطر طبية على متجر جوجل وتشابه مع أفكار سابقة مرفوضة."
+    }
+  ],
+  "en": {
+    "summary": "Candidates were thoroughly filtered to eliminate duplicate ideas from previous sessions or market-saturated concepts, focusing on global English-language Android apps buildable within two weeks.",
+    "trends": [
+      "Radical shifts in the labor market driven by AI and a growing demand for non-automatable human skills",
+      "Worsening global ground-level ozone pollution coinciding with heatwaves and its direct impact on respiratory patients",
+      "Persistent global food inflation and its ongoing pressure on everyday household budgets"
+    ],
+    "ideas": [
+      {
+        "name": "SkillShift Navigator",
+        "signal": "Fundamental shifts in the job market caused by AI, driving increased demand for human analytical and creative skills",
+        "pitch": "An Android app that analyzes your current job tasks, identifies skills vulnerable to automation, and provides micro-training projects to cultivate complex human skills that AI cannot easily replace.",
+        "problem": "Graduates and new employees face shrinking routine jobs due to AI tools and do not know precisely which practical skills to acquire to maintain their market value.",
+        "audience": "Early-to-mid career professionals and recent graduates worldwide in business and tech sectors.",
+        "whyNow": "The accelerating replacement of routine tasks by AI in 2026 makes training in non-automatable human skills (such as negotiation and complex critical analysis) an urgent and immediate necessity.",
+        "novelty": "Exclusively focuses on assessing your task automation vulnerability and training you in purely human skills, rather than traditional paths like learning coding or AI.",
+        "competition": "Medium",
+        "competitors": [
+          "CareerPath AI",
+          "Coursera Career Academy"
+        ],
+        "edge": "Most competitors guide users toward learning AI tools or cater to enterprise clients, whereas this app focuses on individuals to build automation-resistant critical and creative thinking skills through quick interactive exercises.",
+        "monetization": "Freemium model with a monthly subscription for unlimited access to hands-on simulation exercises and in-depth career analysis.",
+        "buildDifficulty": "Medium",
+        "buildDays": 12,
+        "score": 8,
+        "firstStep": "Build an interface to input job titles and daily tasks, and connect it to an AI model that evaluates each task against current automation capabilities."
+      },
+      {
+        "name": "OzoneAware AI",
+        "signal": "Worsening global ground-level ozone pollution driven by extreme heatwaves",
+        "pitch": "An app that analyzes ground-level ozone peaks during hot daylight hours and delivers smart alerts and schedules for respiratory patients to avoid going outside during the most hazardous times.",
+        "problem": "Standard weather apps provide a generic air quality number, whereas ground-level ozone spikes into highly harmful chemical concentrations during specific afternoon hours without asthma sufferers realizing the danger.",
+        "audience": "Individuals with respiratory allergies and asthma, as well as outdoor runners in cities affected by heatwaves.",
+        "whyNow": "With over half the world population exposed to elevated ozone levels in 2026, proactive protection tools on an hourly basis rather than just daily are essential.",
+        "novelty": "Predicting heat-linked chemical ozone peak hours and automatically adjusting the user's daily activity schedule based on their health sensitivity.",
+        "competition": "Medium",
+        "competitors": [
+          "AirNow",
+          "Air Watch"
+        ],
+        "edge": "Existing apps show a static AQI reading, whereas this app provides a dynamic action plan suggesting alternative times for exercise or commuting to avoid peak ozone hours.",
+        "monetization": "Free ad-supported app with an annual subscription to remove ads, receive precise alerts, and integrate with Wear OS smartwatches.",
+        "buildDifficulty": "Easy",
+        "buildDays": 10,
+        "score": 7.5,
+        "firstStep": "Integrate with free OpenAQ or Copernicus APIs to fetch real-time O3 data and program an intelligent notification system."
+      },
+      {
+        "name": "SmartFood Scout AI",
+        "signal": "Mounting global food price pressures with forecasts pointing to a cumulative increase of up to 18%",
+        "pitch": "An app to track personal grocery basket inflation and suggest smart, budget-friendly food substitutes for high-priced ingredients without sacrificing nutritional value.",
+        "problem": "Surging staple food prices disrupt household budgets, making it difficult for shoppers to find immediate, affordable substitutes for recipe ingredients while shopping.",
+        "audience": "Budget-conscious families and individuals, students, and global shoppers looking to cut food expenses.",
+        "whyNow": "World Bank warnings of a new surge in food prices in 2026-2027 make managing daily meal costs an urgent priority for every consumer.",
+        "novelty": "Combining personal grocery inflation tracking with an AI engine that devises recipes and substitutes for costly ingredients based on what the user already has.",
+        "competition": "Low",
+        "competitors": [
+          "SuperCook",
+          "Mealime"
+        ],
+        "edge": "Competitors focus strictly on recipes based on available kitchen pantry items, whereas this app focuses on lowering the grocery bill by suggesting cheap substitutes that directly counter inflation.",
+        "monetization": "Low-cost weekly or monthly subscription for unlimited budget meal plans and AI-powered receipt scanning.",
+        "buildDifficulty": "Medium",
+        "buildDays": 11,
+        "score": 7,
+        "firstStep": "Design a local database to log purchase prices and compare them periodically, while creating an AI prompt to recommend cheaper alternatives."
+      }
+    ],
+    "rejected": [
+      {
+        "name": "SolarFlare Guardian",
+        "reason": "Duplicate and identical to previously rejected ideas by Mo, such as SkyGuard Navigator and SolarComm Guard."
+      },
+      {
+        "name": "PollenPulse AI",
+        "reason": "The pollen tracking app market is highly saturated with strong, well-known apps (High Saturation), leaving no real competitive gap."
+      },
+      {
+        "name": "AsyncFlow AI",
+        "reason": "Already exists verbatim in the previous ideas list (Asynchronous Flow AI) and is completely redundant."
+      },
+      {
+        "name": "Global Rights Guide AI",
+        "reason": "Identical and extremely similar to the previous idea AI Rights Navigator."
+      },
+      {
+        "name": "HeatResilient Companion",
+        "reason": "Relies on an unrealistic technical assumption of measuring vital signs and body temperature via standard phone sensors, posing Google Play medical compliance risks, and overlaps with previously rejected ideas."
+      }
+    ]
+  },
+  "agent": {
+    "version": 4,
+    "candidates": 8,
+    "steps": [
+      {
+        "step": "memory",
+        "msg": "100 past ideas, 7 liked, 30 disliked"
+      },
+      {
+        "step": "world",
+        "msg": "13 world changes, 5 cross-links via gemini-2.5-flash: الفضاء والشمس, الأرض والمناخ, المال والعمل, التكنولوجيا, القواعد والمجتمع"
+      },
+      {
+        "step": "scout",
+        "msg": "8 candidates via gemini-2.5-flash: SolarFlare Guardian, OzoneAware AI, PollenPulse AI, HeatResilient Companion, SmartFood Scout AI, AsyncFlow AI, SkillShift Navigator, Global Rights Guide AI"
+      },
+      {
+        "step": "compete",
+        "msg": "checked 8 candidates via gemini-2.5-flash"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 3, rejected 5 via gemini-3.8-flash"
+      },
+      {
+        "step": "translate",
+        "msg": "English version ready"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "sabq.org",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECIhCVavofsN3BFFKQEX9pjz6joDzgTACQo9rMzzA3uq5ym0TwMGJ9xDu6g5LbVHlpAD0-KZN8REJN090BWFDJeorqglt8Hq386cqZ8mvBGctscwgkT0OP4QjP"
+    },
+    {
+      "title": "jehat.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwuyDuuAfZPi7nRIKibqUs0HPRDZJpQaT7yuVtabJyghCTj9BUZQ0emq3opR7y4VEf8zj9XFZP4QKBPKElerA6hyEaKA78uJ-ICNfB3CwgCRs5LgMO1PctREitQCKgQ_A="
+    },
+    {
+      "title": "al-ain.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDsr0R5xw1vEqsYkso6cLzOcNpZgdf8HXIk1eWVpk89iAMF9sWXRhdw10EMg1T4idZF2L2lLgsmMJ-nTgJHgIA0duNF6k-szBmyeBm9UctsZ9AznE1tmDp8TBQ76M-98CASknTUdSkTYdkwLspHzuvaQtBAZ45uYI="
+    },
+    {
+      "title": "alarabiya.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvlDigx6imPGBXM3WXkrJSuhd-IV92oMGiPHu6A7-UTkeJtXEGpM_iGpJVGJazrg3xUQYcxtrM2HtH_GtdniJraz4txlSCoUVINUqDnxW2t8aD5Tl-hGfdG93wxm87R6o2og0uinLWcEsZIUnuFALcmFP4yEo40aSa2nic6u53yGwmMMaf3ov3ztom0go2o6R6jrK1XpmTfljYs_9X3q769GfidWSKiIgJu3nCJ9CML3iIjxOmRI24nxybHzl_IrVPlItSqkEdOj27sKGwYme0OvMuNwpUeYxqjcOA1VCB1wfazHk2QRFfv5U5orGHg0ax_qWewf7tktfsbxly13bdsmIv_1PFSgZSo0t4-7RzRB37C2wvgDdwabQqt5YOQR__jhbgmsmQb9x_bboMoB-lJQKEmfRmtQGwSGoDVI1-HuktNTxbGrvCwlp8UCIu7AqHyEvUCwgC7zdzjk="
+    },
+    {
+      "title": "alyaum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOTVlbfU_nfcAkYIckT0ciIZi8rF92IxuIJqRYgG1x0n3cnDbQgR51tW6jQz0kbgaG2AKobGUMA6_DayqMbj9r3P5VufSjPjfh6GPXUaIq41skZrt8WW9Inj7Tds0cYg0fuBOAKjCl4dfaw4pR3U3GAE5LIQZN-iikEsiziuYTc98auAhQo9aYejv5xRSp5gproXCK5hAp2Q_FeoQuFdHZqQ56bL0MyYymDPhOifCihbz_dppaiGRcWIAOfHFY9npMfQf6icSB6kzccIBtdTVY4LWNtpsWYzItx86hAOqbxE34DB3TeR7N9qIA_mT9AGqHB_APnrzYoor93iVupv8tpCwgKGdXOH4rD7LLUQ8MwjC4x-li9H5pUCVjCg1pIF9WmynI7PRL6-vTe4Ot_hyg5I6TxqvCeEaIyWCxQ3cR9IHlfdpYXqLtskN042z5ILu97ixKl0y0IX1pOdPdyDCc4_QUuPFXYVD_-2DwuEGOCMBF1In6iCIbiTtlm8T-_EjBW_w6wYzexugHRuIdXN9GGXSeJLIzsyONhxdl2GRUOX3ingkc1kCVgB-LuwMcpmjitHJjnSg3qm8_EBNeG1BaiYY-IOZfRvcGcPfe-xxD5MeRektzUDU1Hsyt5VtQF_3mjg=="
+    },
+    {
+      "title": "greenfue.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMciLwhqLKdrQ8skQgyezVOoNen5NxmPxD_WaP4Np5xvfIdT4NDE1Wgeu7zH6GIIiBqvbH4au1u3yjAeWV9Ak-pyu1y3d2iZO1IoUfzzkwIeakcXkvX2a8_tCIiJOwEWR5R_smXWAi4GRH_NxFmqI4e36l2hTJewQdjWF4tBnc8_1Ze-IIJHeP1ufJiY26lluizgc-VHVuSqusriofqXTSWW0unaM5SIyzE0rzLBmOYGVY8dadhcTrKkq0Jj530Ol6Pl4b8RjTYtIKye1k0LduTv7WgrV_VR2sRdDy40kYt6OCMvNNEB0zLksK5LjDyI3DkRlNwpezuGyvimDafk_vQdTJHMExmiy-l9tHrAI6FsoL6m5dc8E="
+    },
+    {
+      "title": "euronews.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1i81viqZM3pVLDuQPt7BWQjp_bgXusuzBf0Xlgv9Jq3g8Rz6BPSVAW7mkWQGYjL__xqTz5Y43LtNiGxitGjTm0tMvOVyKtfA3W5wSwneHM5TT_7NK7MM6zOCj4LBmf5sP4sKSumTyS6Md1PJQkXGlJEmtOIfb3Tmy5MEM7SwCB50Q-RSNY4-I0u3WTl_jZDXnvyWKsGZ2-1liG1Ms9DDd3uVDJv7ArKjqmB1u"
+    },
+    {
+      "title": "cnn.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESk3bTcqFBuiYg1eTdI_3l33fxcnBgwp80nr4SSWmrZ2fKpgj-bkdTkBXMXaB3iQd9QZCnkHOFeetR-q4RmctbN9PpveNnQzkuvUi5AcKDwM7PdMqbKE4KEtM1U85qOjEMoto2wQtTLYuc2yRmxsTdPsiVvzvexzjPKfabTCs4cbQLTKDDOQz1irvUDCn7pBDeqU7mo1ii3Q__Q9O8VB6k"
+    },
+    {
+      "title": "youm7.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzBJGcgTeueCtppeWzARRfsgxuD3raJuoU2k6zo2TijOYFszLnaG-xTS2apvgwciaHql68-O-lYfF0CfcX2zDSAmIM2Vo4RPVlY6-Q9p0G2w5qR2NicDtZITZeDGPnoU7v55EzJpeD8V7UQtUlU6O8qfFYWhLbMT2Zo25lK3NtDIVbS_01FxGxWW0ogPRAdfjgPJhy_yPzrppmXFEKyiWBVLo86Idce1nhSLu55OmcSR-HsL0cIEX4TulDBR471DKCuLhg8Ibyemb6capjSlYKnd1HRPvQgcKpA2VRNsSrvts36BK1AJytfbKoFqgdzlRKKF0YXJi4rP3UxErvEHAkWaXSi8dUpr1doISQ0ewAzGX50JLfv5fNKftlH-EiC1Vxs6ejDphfxH_956GtwNL3Wvf_yNjsdG8EP_6TlWUJzBTKOM0X-ZZSuPdIIw54aUiKUXb9SAfSWL4vkwXupaFaT_NASvU7YYNLWcAcY14QaiZdoNjgJrdiuUNyAckdhMMotfyL34MdJ1pCQVEyNfIDNBmupqMuan7DLRWp17k7sj_b5_297Fz2x-C1ha0B1dMq"
+    },
+    {
+      "title": "alaraby.co.uk",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcqGJghILKODXlCz2dl1fv0buaC4j8lxhAH4Wk0a7qMCSDfcebK-XUgc-mBduSmycLDxR5ltNrIP8NVutQIVS3nc2nhhsEZGEoPAcUMFwEsHl92geCUmqyT2Hte9VIjAdbH_6PQ22ibuxXDlt1xMQNtllRakl8-8MHyq0BpkR-ycH-3WVF1dxte_d_bLFw-NqpAOrJqs14GB3TTc63jfIr_aaOIyDj535bDgl0HopYN9dNW9AzDTCXbh8i6MGy_pYsns0KUDPKZ7FI_ahSjWSW08mlbUjJ0IbXi_-ERi9QkIsrrsQanqbLlQFe43MXLzA38dJIX7xLpGRM3OcVhEt_I90M6OjhbkmBazb5Dd0lvYheZYzqip281pWa5zHFwnNbhfljWNgp2eHIwPVjGwLAtQFS_8E3lXjKrCdwExPpAGCKu8HEFsEj-oP0w9LL_NUOH2mUMBwYXHI_TEdzHp1JdN9bZg=="
+    },
+    {
+      "title": "emaratalyoum.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3IL7qbJsvsai7ML-3rnVt_ZacnWy9IjWevb2deg-Uji-RoxiT6sNQSyT-942ZOPJIazgtdKd3sigLnSqgHl6xTzE2G2m0PA5BAxQUijkHlTKI5V4mM63rWd9z4OcF1hhQ49Xl-V-_DaJwToJOg1gJHhJQUDy0k7iyzkEgFgeAyIg="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC14jTDtNKNv8-X4xE_pGJVXC-5_BL3no_9rh11X8qmAKpmC4Xbddmm1mgBZ4ILtndeGHSyWyG1xCPLpuEG05OVYIFfS-HbuaSpZWcoSqK6swd0zyodGdIWPkPPA573_I1yiNy3A=="
+    },
+    {
+      "title": "masrawy.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH6SIJPKXh1EMGXk1-F4-81RQyu4UNxdH5XxeKQy6OijNlKQwk4nHec_E8T2zmerVkfIQyW-_oe_sy0Av8N2oUgZP5bhvopOK6YiNnY48JI8O7C3SugemonMt3vMdau5DrpW8LWmF2LAtxyJLUpi7PqPQGyn-JEZag9EPxABMYiK-8AIy4gPtlR3nKTGSHtSw2u7jK4KyHM6Fhl4ao7rJpLCMm_x7xC4S9ldQFy7Kv7G5j6Hxb08fk4laJ8mBEyd8sBEOLyYHHGyt9X0wLvh9jJfCUucQTTINcWTkewaNT55qFh_-KomUi1mUfYtwzWoxXoOwWodwhby-zcPyqnHs3jUuai6tJZuSjXAjJoxBXcfpaZRl2cUaqocj_MR1U0agZ_f9EgQMDigVtU5YEqLsLNQYXF0EUVbejC2YN1qw2sQCzIjq0jNRIJ1GOo1h26UtrxpLW0I-8d6k4Aj6NxW8aBHce_zcgnOrSSReYMTM3AeyyChzNkOVceG__6F3p"
+    },
+    {
+      "title": "alarabiya.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDaJiJcNP0sjTwRlDlB1MAm8JAA5sHf4qnqr9avA8ATxu1AN-tKXXqntGtboIi7zAo25hYJcYssgzvk7vmCPQnm5uLNP2R2CRyLgX6TvoJ7EwRxrbpgwHat9LHw6cLL3heyKyiPURGdSoHJlPB_O4kvSwJUuonYEahSQyW6Me2Clpaet4uFdNmkEvQsryp1AMtnKDG2aTLAcY2WQ2Afa08HvMbO3uSy0b6QDBBvfVi7_eg_3EQSyylBQav4OsIe71wpP6xttSh8IZeVjEaaHlm3A6hv_3-mYDNh7aHDPYbOixv7WrxiCqgsZbJILVT5OKjxKEDR880Ujyuk7iInoV05jE5h9gqzBSsSgPebPgRE0fgcviv13C9N_KQLi-pz1T6Y5ab8-VJccl_SgHPjdNtddVM1vbRf_vAnIyYE2-_MOG2-f_McC1Qwy8c05lEUiNyvxU4Bl86m6i8Qlc_n9EI0lyy9ygoflx3wrTrALdd_6qzd-R0-sm5Cftbc5Uw-beGCUNu6YZ7HXgmMN0907_0WHLc0sOpNHuP6v3Knjfh3jAJiE7zfY_jtA=="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyRTFXsccVRHPXfLrxtV_oGKTpHtoAEJVgzOaWz6d_BI3_gL54kBVQaR7imLqzseQhRBt-Jn9f4f-NJaFdKIuwv8RG_fxHEv59kY6_H6LyXmnHgmXgOU2Vdg_FiXjlR1U22vLGUWcfWKXUfpT-3PJOfp4G-IuVIKpbs7_8ixohHLvC7UlAkL4Tr_NrqcCllkuU9zIF_RVdNrXPz09Tb4cgpwv8-qg0UQb_POj8MMbIIcnroe-qwjxIBjFNDd-qXZ3Y8WKZAlO-44PsaTd_NTuilQJWKxgtjvYLvtDooQJ77xRlmi-O_MzS5u3X1uIStRB8wrhn28KVYKWJP-xV9M18sEzNG09omCbndfV34xDx88rpGHOhKsLFmLzNHRIopOvkiWAF"
+    },
+    {
+      "title": "albiladpress.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGwT3MoGQSkFlt7Fuh5x4f06j1gKt7g6tJeKbnq4tU7r1S2iekIcfyaSYtVYr5xWuVH8Rtcs-1TQTntMkj_qFTdQOvmOYmDQdiB114_OVc_bMjzpLmWMMWDKTF2Tgx4W_Vhc4Qd-pI-YYaVtfNDvRCdK5SGpk013l2bg=="
+    },
+    {
+      "title": "aiz.sa",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmSZnJXKBnMKSobXB8PePMVG7oVaFMmUwBeABmK5dpKu6ESmayivUhcaoknlRrMW9_6DqRgnVNuM5wsIwlfZ0Ak-IUUqRxqxqqlr1JACJziDlJdQ1LY778kufbgizonfymlOnjm0zlcW1hnuNzHg=="
+    },
+    {
+      "title": "middle-east-online.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2QDReL9uatDfH_M2i5a4LjYUMb5iRF3B37MO2moWQSIrraWdO4cpOn9cWERRJbGPoELZkbs9wFPrSQPgjg4RkihnJBR0d3Be8U6rIUEBBvC4kb4_9iQdNPa3FrOJW9X9af0jrIlHhBRRdox99rcT4rnmWqGVqMzDsXe4haxHJmUSK7oHnuow64jq5qWQPA3EhSwNbDq84YDF1pUogrIkaEeu2i2HD2yHxW55P_8XfNWZ2y7T1PrpTimew1bvHeNLWNYtumO7AW5-UumqYgM1QmNHC8F3C9ABjBxMLHYg2CD5G9LGzJOkPCtaDteXMzrf3-e40YPTfPoGkMTP8HCtundiDNVIeKg5MuVT00ArQuAj6KMoZLh931CxM-NrQNIA5dZI1_WZKmWM4QVyKQIOsMfExKajlAUOA_vYfnZhXgu8B2OXMMLk3MmpCKFjLfQLVOVXCB4_VgBRwbiq_xk9jSS6CZmsmau28JQDfx8vP"
+    },
+    {
+      "title": "origami.sa",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhoqi9oq_h56Ob20YiRljYaLzlDMgnh-5zddxSm-m5Dp5AxSw8-zHEBBXzAOZaowkkiF2ZVmz_jfpRIYtJcYRvakNt1Mok0Wd_JKKaM4_ixMwiYAu8rG1c93zU_PZru-wX3GsWUuEbEjr8ejkhD5vlyg=="
+    },
+    {
+      "title": "youtube.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF11c03ZIYa3MyBJBziqyiyGB-m8hGc5_j5iG5ni2TJdVCtj1-4-4bo9_MvIsZuksHrYE5OHfiv3PAi2fCVViqUWuupPHh_NIOaR_tbrokE6Q2rARvvBfRy7BhU5fpL2UIs2jk6Fjo="
+    },
+    {
+      "title": "aljazeera.net",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRSYcRzGwJYx7VcHLbcSRxSGbDhqQyrUjrY5zLgFUWOzJK6nQj3Dm0-xf2ZGLu7CA0NLrRWn-ErA83Od0IFtA-YcgUHCURqkgMIsDsB4uVjvFJxZhSGdzNIJozJI6IN23kO5rOfLiqfxRyInKyygP0BNhDF5diFFLCs-Kvyh36LiLmJfMnCk_5qnE2NDiJRZNM6tmRe9aPxR8ejdMvDGsK_QnkLPs9viarxxiqcbRlIAxtsuy14TsKuCsHsjOF6irlm-xJ1MFfKgWl6pZ8XwaXCCbrjyl1qQAv3MMVpsDHAc_GyW1w5C7DR-eZuQVgI6duvh0KmSk_NjX1tmQ2XhbQuf6r9Yr1pvftANUBz7uKBCWOko29cvyawlMPltXhNg=="
+    },
+    {
+      "title": "quora.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb3-EcHB6DEbUjlsiv1z__6hcxpqHYg6FCCi3I-MhwXE04elqbvxDLxrc2MZXVC5eYIKSWBDVag8TcrxYIzFt850b9cguBY6Koe_-jp45E94N1rRw56BxxASU9qvownAsBuUXf6ttGwJRW3JZa_KWHIw90wNZupb_lMgCOpcKcf9jXsCk4nKR9V4EvnW1_IgQ9vvzEqLHn6BKWBsxz4OnyAPSF644OSyuDGqIMRI3wchJJ2tEWdrN-D1CeFKTt05aHet2tD0WSrYey8FAFBnKp9UEuxrpHILHHEgTkeP7i475zoZ2HcgUYSxGPyFqptCWdmvv6aO994JdypFh9FgDSDCGeqfAnl7ZhPmc="
+    },
+    {
+      "title": "1billion.training",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH26VA_F8EVQtmOG7VxjjxpBGsZC9vL9uXiLV2Fo3HO-Kaid1dWqwikMKwbU2BK174HQqrM5lOWkr_9o-IQjCmFm4q5V7Lwfp5v3sU2SXBAL0-_WpXmHi5ipfeJXznDIiAOsIoeQF9t6yy1WANxz05r3srGAEFmwZ8Zqqwo0Beow8LMgyQ_4PA7YPJ9RV3s88gsUnaAbf6Efg1LORL2CK1J7Ks5SCC3UbSDQo1g2tRTNA4_v0SaJaOcLZaV4TOWKWPl8F6BnGnkc09qUkFZ4bivM1Co4u5FUrw1wPduAq5Hf6JXP9tL6L25IrJ4bkJ-eCZuLBbQpA37UEenLDyHn_oGa6tbqPEKH869tkiF9zjLyNMKoGRZ87ynVqgkWHn8f1HujMg4_xXMOjrOMmK0sgrXhugqezjcC8k9vzjrCyGpstCNFhKG_b6_bEah64Tzft_67Cgi90wn9fYIYKiTtZtfAhMCmJk4VAgb8tlHLMd0Y4AGrSZAdPhawmQy58jCnDcKrPeWL7rK6MU_AsTdHoIuzfgnsddwtu-oUt1mmed5ELGcrS9c3PMytDP73KwDImyDBbGgg_sE7HmOxK5fCs66"
+    },
+    {
+      "title": "theakma.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVVvCKujkQ-jYQNrU8mXFt0PWjfeZKFJEAVM2nxFAo4g91kax4bjowl-IqjdYAVGquFxI7IEvz49q2COPutB-Vi1EqHZmakhdNkRMOZ6YKGdwCCjtOZeOhjs3oA3z1Xhx_n-E1gqZcXIHdHv1ASbXSEHNHn6pMPtumjzLbf_QBgl1uUV6gBJL1gLemyWBblYc5lO937wNxgml3aZF7IvYawzFboEaXJo1ikSsk01cXsjyqzPp6fyWq-0FIvLkatZr24wBQ5lafDG6yWKVhebuEgEEnQVYmOBaJtzIhxotdtwFpXX0SyNB0ffnH3tH6MLqnAMA16Op_IQ=="
+    },
+    {
+      "title": "forsamal.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiF2TUxH3GvduKI_VZM2H8GcSt1Hd1kw59ruP4wmzHz7FsGLfUbGzfrHO8ZzoLa_iNnwWam8nwWgu654Y-dYKL-FjaRyfbMGmARvAfsxoFyO7FqKSA9dqMEteW0Q8uaOPPMqCH34RKcPtKgPW0m785fCV75CMpPaXcek9Mkmbo25RK28j8IEZmVzKgu_UpP8IKzRl0rGVj6rk="
+    },
+    {
+      "title": "gunster.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbjvw9GBW23dv4LBe3zK-kOr4laMNT_kcn3ikl6FKOJg0cGwyhBrygZu_DO3xmptl7q4xQTTBadFFLBcidl2gTe4v5dSdli_ziS941Fys_QeYKnCt3iPQGW72--DCv9YS901YdGq4aFT1psYOCi5AMNw-aIGkxGz_CHbWgx3jd2xwGyHrlNZDNZoWJ2bivyccVdXCabVmFd_Y98Frd9Z7Ssp1BTJaBN8-W-g=="
+    },
+    {
+      "title": "coblentzlaw.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnVi_-RZUE4lY7W60X2exzvYOHrHJCaFJJP-qN3Kxltu7BbVlFQwCU20b6tIrfjwbdKV4cjdONgJ1QuRkdvLeJbM_eXKV8q9p5Jrwe9uV3t-EX2b1429N5Oriu4nuOgl_-oNrUxb2f7lWMGIWdSS-XxyvEHF2aC8iEHVGbi6mYVrUJQVjrcPTYcMfmxdUAke_PjQtO5DzrkisGHnh8"
+    },
+    {
+      "title": "termageddon.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVfFIjvPIsvFeIZ7t2ZW7hIT2T5d69yvnG_nABSKxiCGZQI-RujtGRfPy3dr0jeQcOjqo50yLwlBUa2v7osY6BD3glk7G8Wi8gpgPf2QGZ3ke2R09nhPUD-TNUX3CU_40twkfHzk-pyXva6p4A7gt3nL0WYO5EvqH4oyEg78WO_1hl_37iyGxxOtLDsYHkIFf73gDiqnAZiZaPehbUSflg5_TK"
+    },
+    {
+      "title": "techtarget.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVo5icRRXl7MOT6RJikh-bEleeOTzkW24jYOACJFpyPUvLu8uGUy3R2iRGmSUNmPR6F6Jae_MG-dJyKF4jPawkIu8s44RUmpSAErRgIp0CjDOrOpElznX2cpsY0CWSFkrLK0yxteOrm0rod6ZP5HPFo6Aql0jMw70z4zbHMWvdaj6bAAfq6qKCeyQK4mg="
+    },
+    {
+      "title": "forbes.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEpwOtLaY41wvfQb7WHJWVXSlxiSIgmUL4VENj8aNEXIv26bq6ZXfKEf8Z0N7f2LLEI4UkI0Owca3Dv9RjI4oYGS2PANq6u1oincDxDYJXpzU0x3GOTQLZOwJUluGFErInz5dn0hjnJaRcZ-XO16MhJB5rHxqyuITs1ilH3gohU133f7gp_5wMl5jTVSVydg=="
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-27",
     "2026-11-26",
     "2026-11-25",
     "2026-11-24",
@@ -15,6 +16,9 @@
     "2026-11-13"
   ],
   "pastIdeas": [
+    "SkillShift Navigator",
+    "OzoneAware AI",
+    "SmartFood Scout AI",
     "HydroVoice AI",
     "AquaSense AI",
     "AdaptiveCool AI",
@@ -111,9 +115,6 @@
     "Tathkeer الذكي",
     "Uswaty",
     "SehaLog",
-    "HobbyLink Amman",
-    "DeiraLink",
-    "Taqsi Al Balad",
-    "AmmanCare"
+    "HobbyLink Amman"
   ]
 }
