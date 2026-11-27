@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T08:26:17.593Z",
+  "generatedAt": "2026-11-27T09:51:31.011Z",
   "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-27T08:26:17.593Z",
+      "bidsAt": "2026-11-27T09:51:31.011Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -319,7 +319,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "7 open projects from the last 5 days worldwide with budget 100+ USD (290 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 103 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (278 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 93 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -335,11 +335,11 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 13 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
+        "msg": "phone relay last read 14 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "21 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "17 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
@@ -351,11 +351,11 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 13 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
+        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 5 skipped: not app/AI work)"
+        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 4 skipped: not app/AI work)"
       },
       {
         "step": "verify",
@@ -363,79 +363,15 @@
       },
       {
         "step": "linkedin",
-        "msg": "252 jobs from Gmail alerts (last 5 days)"
+        "msg": "241 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "48 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (closed): Software Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (closed): Forward Deployed Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Robotics Engineer, Motion Planning (18 Months Contract) (m/f/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): AI Engineer / Multi-Agent Systems"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Mobile Engineer 4"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (7+ years required): Mobile Engineer 5"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (Executive): iOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Engineer, Software"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (Executive): iOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Product Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Product Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (6+ years required): Software Engineer, iOS"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior UI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Sr. Software Developer I"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
+        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "3 of 19 new LinkedIn jobs added"
+        "msg": "2 of 2 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -443,27 +379,19 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Multimedia Engineer Graduate (Multimedia Platform) - 2027 Start (BS/MS)"
+        "msg": "skipped (not an app or AI agent project): iOS Developer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Founding Engineer"
+        "msg": "skipped (not an app or AI agent project): Software Engineer - Mobile, iOS"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Perception Data Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (testers/reviews (not development)): Freelance iOS App Tester – Must Own an iPhone (Nairobi or Nyeri)"
-      },
-      {
-        "step": "filter",
-        "msg": "4 skipped by the app-only filter"
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 0 to judge"
+        "msg": "0 new Freelancer projects added, 0 to judge"
       }
     ]
   }
