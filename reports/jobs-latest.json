@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T17:28:09.730Z",
+  "generatedAt": "2026-11-27T19:25:43.752Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -162,6 +162,38 @@
     }
   ],
   "rejected": [
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495323663/",
+      "reason": {
+        "ar": "الوظيفة تتطلب العمل من المكتب في سان فرانسيسكو (on-site) وتطلب خبرة 5-7 سنوات في تطوير أندرويد، وهو ما لا يناسب Moe.",
+        "en": "The job requires on-site work in San Francisco and asks for 5-7 years of Android development experience, which does not fit Moe."
+      }
+    },
+    {
+      "title": "Android Tactical Assault Kit Engineer",
+      "url": "https://www.linkedin.com/jobs/view/4487779619/",
+      "reason": {
+        "ar": "الوظيفة تتطلب تصريح أمني سري (Secret clearance) وخبرة في مجال متخصص جداً (Tactical Assault Kit) وهو خارج نطاق عمل Moe ولا يمكنه تلبية متطلبات التصريح الأمني.",
+        "en": "The job requires a Secret clearance and highly specialized experience in a Tactical Assault Kit domain, which is outside Moe's scope, and he cannot meet the security clearance requirements."
+      }
+    },
+    {
+      "title": "Programista aplikacji na Androida",
+      "url": "https://www.linkedin.com/jobs/view/4493888082/",
+      "reason": {
+        "ar": "وصف الوظيفة باللغة البولندية، وتتطلب زيارات أسبوعية للمكتب في وارسو (عمل هجين)، وتطلب خبرة 3 سنوات على الأقل.",
+        "en": "The job description is in Polish, requires weekly office visits in Warsaw (hybrid work), and asks for at least 3 years of experience."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495589565/",
+      "reason": {
+        "ar": "الوظيفة بمستوى Mid-Senior وتتطلب خبرة 10 سنوات على الأقل، وهو ما لا يناسب Moe الذي لا يبحث عن أدوار عليا ولا يدعي سنوات خبرة.",
+        "en": "The job is at a Mid-Senior level and requires 10+ years of experience, which does not fit Moe, as he does not seek senior roles nor claims years of experience."
+      }
+    },
     {
       "title": "Rancang Game Strategi Mobile Menarik",
       "url": "https://www.freelancer.com/projects/game-design/Rancang-Game-Strategi-Mobile-Menarik",
@@ -378,7 +410,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (301 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 121 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (292 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 106 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -394,75 +426,107 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read less than an hour ago: 66 projects on the lists, 0 sent (HTTP 200 161317ch 27 links; HTTP 200 159260ch 27 links; HTTP 200 165371ch 26 links; )"
+        "msg": "phone relay last read 2 hours ago: 66 projects on the lists, 0 sent (HTTP 200 160682ch 28 links; HTTP 200 159257ch 27 links; HTTP 200 165365ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "13 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "12 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "2 new Mostaql projects added from the phone"
+        "msg": "0 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 4 (alarm 1, open 3), longest gap 1 min, last less than an hour ago (open, v1.9.4)"
+        "msg": "phone checks in last 12h: 7 (alarm 1, open 4, start 2), longest gap 16 min, last 2 hours ago (start, v1.9.6)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 20:15! 20:16*open 20:17*open 20:17*open"
+        "msg": "times (Amman): 20:15! 20:16*open 20:17*open 20:17*open 20:32*start! 20:36*open 20:43*start"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 20:15 🔷 وظيفة Remote جديدة على LinkedIn (+13) | 🟡 طلب جديد على خمسات | 🟢 مشروع جديد على Freelancer"
+        "msg": "alerts posted: 20:15 🔷 وظيفة Remote جديدة على LinkedIn (+13) | 🟡 طلب جديد على خمسات | 🟢 مشروع جديد على Freelancer || 20:32 🟢 مشروع جديد على Freelancer"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read less than an hour ago: 25 projects on the lists, 0 sent (HTTP 200 134085ch 25 links; )"
+        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133533ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 4 skipped: not app/AI work)"
+        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 4 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "1 new Khamsat requests added from the phone"
+        "msg": "0 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
-        "msg": "237 jobs from Gmail alerts (last 5 days)"
+        "msg": "227 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "AI Agent Developer / United States: busy (429), stopping search this run"
+        "msg": "Freelance Android Developer / Canada: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "post 4479854119: HTTP 429"
+        "msg": "skipped (5+ years required): Mid-Level Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Application Builder, Mobile Applications"
+        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "post 4481662171: HTTP 429"
+        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "post 4495094982: HTTP 429"
+        "msg": "skipped (title): Sr. Mobile Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Mobile Engineer"
+        "msg": "skipped (title): Sr. Mobile Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "post 4487785112: HTTP 429"
+        "msg": "skipped (title): Senior Android Developer – Kotlin / Jetpack Compose (Specialist I - Software Engineering)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Développeur·se Android Natif (Kotlin / Jetpack Compose) – H/F"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Développeur/se Android Natif (Kotlin)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Mobile Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Engineer – Mobile Banking"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer, Mobile SDK"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Android Team Lead"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Game Developer - Paper.io2"
       },
       {
         "step": "verify",
-        "msg": "6 of 8 new LinkedIn jobs added"
+        "msg": "7 of 21 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -470,43 +534,27 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
+        "msg": "skipped (not an app or AI agent project): Software Engineer (Remote)"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
+        "msg": "skipped (design only (not development)): Full Stack Software Designer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Mobile Engineer"
+        "msg": "skipped (not an app or AI agent project): Forward Deployed Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer, Native Mobile"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer - Mobile, iOS"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): مبرمج أو مهندس ذكاء اصطناعي متخصص في Generative AI وModel Fine Tuning"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): مطلوب متخصص في إنتاج فيديوهات AI وMotion Graphics لشركة مكملات غذائية – تعاون شه"
-      },
-      {
-        "step": "filter",
-        "msg": "7 skipped by the app-only filter"
+        "msg": "3 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "2 new Freelancer projects added, 4 to judge"
+        "msg": "0 new Freelancer projects added, 4 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 20: active market americas, 0 prime leads"
+        "msg": "Amman hour 22: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
