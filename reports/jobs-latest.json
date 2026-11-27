@@ -1,10 +1,10 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T11:24:36.345Z",
-  "model": "",
+  "generatedAt": "2026-11-27T13:28:29.897Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 7 open leads from the last 3 days."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 6 open leads from the last 3 days."
   },
   "fresh": 0,
   "leads": [
@@ -159,38 +159,17 @@
       "prime": false,
       "foundAt": "2026-11-24T22:26:38.184Z",
       "fresh": false
-    },
-    {
-      "title": "Flower Delivery Ordering App",
-      "url": "https://www.freelancer.com/projects/android/Flower-Delivery-Ordering-App",
-      "platform": "Freelancer",
-      "market": "",
-      "country": "",
-      "budget": "15-25 USD/hr",
-      "posted": "1 hours ago",
-      "proposals": "0",
-      "flId": 40833292,
-      "postedAt": 1795515621,
-      "bidsAt": "2026-11-27T11:24:36.345Z",
-      "language": "en",
-      "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
-      "fit": 8,
-      "why": {
-        "ar": "يمكن لمحمد بناء تطبيق Android أصلي بلغة Kotlin مع Firebase لإدارة الطلبات. كما يمكنه إدارة نسخة iOS من خلال شريكه الموثوق. تطبيق Islam Rising يوضح قدرته على بناء تطبيقات وظيفية للمستخدمين.",
-        "en": "Moe can build native Kotlin Android apps with a Firebase backend for order management. He can also manage the iOS version through his trusted partner. His Islam Rising app demonstrates building functional applications for users."
-      },
-      "watch": {
-        "ar": "الميزانية محددة بالساعة، لذا يجب على محمد تقديم سعر ثابت بناءً على دليله لحزمة Android + iOS.",
-        "en": "The budget is hourly, so Moe should offer a fixed price based on his guide for an Android + iOS bundle."
-      },
-      "proposal": "I can build your flower delivery ordering app for Android and iOS, allowing customers to browse your catalogue, add items to a cart, and place \"Pay on Delivery\" orders. I build native Kotlin Android apps with AI-assisted development, ensuring a clean, modern UI and a solid codebase that can be extended later. My Islam Rising app, used in 177 countries, demonstrates my ability to deliver robust and user-friendly applications.\nI will build the Android app, and my trusted iOS partner will develop and publish the iOS version, providing you with both from a single point of contact. For a simple native Android + iOS app like this, a typical budget is around 750 USD, plus the Apple Developer account fee (99 USD/year) paid by the client.\nYou can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nCould you share any design mockups or a more detailed feature list you have in mind?",
-      "prime": false,
-      "foundAt": "2026-11-24T11:25:06.924Z",
-      "fresh": false,
-      "crowded": false
     }
   ],
   "rejected": [
+    {
+      "title": "Senior Cloud Engineers Needed for IT Infrastructure and Operations",
+      "url": "https://www.freelancer.com/projects/amazon-cloudformation/Senior-Cloud-Engineers-Needed-for",
+      "reason": {
+        "ar": "المشروع يتطلب مهندسي سحابة (Cloud Engineers) بخبرة 5 سنوات أو أكثر، وهو دور كبير (Senior) وخارج نطاق عمل Moe الذي يركز على تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي.",
+        "en": "The project requires 'Senior Cloud Engineers' with 5+ years of experience, which is a senior role and outside Moe's scope of work, which focuses on Android app development and AI agents."
+      }
+    },
     {
       "title": "Aplikasi Jejaring Profesional Global",
       "url": "https://www.freelancer.com/projects/flutter/Aplikasi-Jejaring-Profesional-Global",
@@ -307,7 +286,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -319,7 +298,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (282 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 99 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (294 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 119 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -335,7 +314,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 16 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
+        "msg": "phone relay last read 18 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -351,7 +330,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 16 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
+        "msg": "phone relay last read 18 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -363,19 +342,99 @@
       },
       {
         "step": "linkedin",
-        "msg": "240 jobs from Gmail alerts (last 5 days)"
+        "msg": "241 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
+        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (8+ years required): Android Developer"
+        "msg": "skipped (title): Senior Frontend Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Frontend Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): AI Product Engineer (CMH Health)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Applied AI Engineer II - PxE ServiceNow"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): AI and ML Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4478741542: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer I (New Grad) - Consumer Experience"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (8+ years required): Software Engineer - Agent 365"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Conversational AI developer | Bulgaria"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Applied AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Software Developer AI Solutions (m/f/d)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Staff Software Engineer - Customer Facing Applied AI"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Software Engineer Train AI (Mid-Level)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4453118295: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Artificial Intelligence Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): AI & Analytics - Sr. Software Engineer with AI Background - Cairo"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Fullstack Software Engineer (Remote)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior .NET AI Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Manager - FWA AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Member of Technical Staff"
       },
       {
         "step": "verify",
-        "msg": "0 of 1 new LinkedIn jobs added"
+        "msg": "6 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -383,11 +442,43 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Kıdemli Yazılım Geliştirme Uzmanı"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Developer - PGR"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Full Stack Developer – AI Reporting & Insights"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Software Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Developer - LLM Applications"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Mid-Level Full-Stack AI Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "6 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 16: active market europe, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
       }
     ]
   }
