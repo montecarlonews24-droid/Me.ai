@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T13:28:29.897Z",
+  "generatedAt": "2026-11-27T15:26:46.797Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -163,6 +163,54 @@
   ],
   "rejected": [
     {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495585487/",
+      "reason": {
+        "ar": "يتطلب هذا الدور أن يكون المرشح مقيمًا في الولايات المتحدة، وهو ما يتعارض مع طبيعة عمل Moe عن بعد من الأردن.",
+        "en": "This role requires candidates to be based in the United States, which conflicts with Moe's remote work from Jordan."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495817086/",
+      "reason": {
+        "ar": "يتطلب هذا الدور خبرة لا تقل عن ثماني سنوات في تطوير تطبيقات الأندرويد، وهو ما يتجاوز معايير Moe الذي لا يقبل الأدوار التي تطلب 3 سنوات أو أكثر من الخبرة المهنية.",
+        "en": "This role requires at least eight years of experience in Android development, which exceeds Moe's criteria of rejecting roles asking for 3 or more years of professional experience."
+      }
+    },
+    {
+      "title": "Agentic API Engineer - Intermediate Level",
+      "url": "https://www.linkedin.com/jobs/view/4493847598/",
+      "reason": {
+        "ar": "نص الوظيفة غير كامل ولا يوضح بوضوح ما إذا كان الدور عن بعد بالكامل. بالإضافة إلى ذلك، عنوان الوظيفة 'Agentic API Engineer' ليس تطابقًا مباشرًا مع مجالات Moe الأساسية (تطبيقات الأندرويد، تطبيقات الأندرويد بالذكاء الاصطناعي، وكلاء الذكاء الاصطناعي مع تطبيق أندرويد).",
+        "en": "The job text is incomplete and does not clearly state if the role is fully remote. Additionally, the job title 'Agentic API Engineer' is not a direct fit for Moe's core areas (Android apps, AI-powered Android apps, AI agents with an Android app)."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4479120210/",
+      "reason": {
+        "ar": "يتطلب هذا الدور أن يكون المرشح مقيمًا في المملكة المتحدة، وهو ما يتعارض مع طبيعة عمل Moe عن بعد من الأردن.",
+        "en": "This role requires candidates to be based in the United Kingdom, which conflicts with Moe's remote work from Jordan."
+      }
+    },
+    {
+      "title": "Android Developer",
+      "url": "https://www.linkedin.com/jobs/view/4495573860/",
+      "reason": {
+        "ar": "هذا الدور هجين ويتطلب العمل من المكتب 3 أيام على الأقل في الأسبوع، بينما يقبل Moe فقط الوظائف عن بعد بالكامل.",
+        "en": "This is a hybrid role requiring at least 3 days per week in the office, whereas Moe only accepts fully remote jobs."
+      }
+    },
+    {
+      "title": "Développeur Mobile Android H/F",
+      "url": "https://www.linkedin.com/jobs/view/4488153029/",
+      "reason": {
+        "ar": "نص المشروع باللغة الفرنسية، وMoe يقبل المشاريع باللغتين العربية والإنجليزية فقط. كما يتطلب المشروع العمل ضمن قاعدة بيانات موجودة، وخبرة لا تقل عن سنتين، ومهارات في DevOps (Docker, Jenkins, GitLab) وهي خارج نطاق ما يمكن لـMoe تقديمه.",
+        "en": "The project text is in French, and Moe only accepts projects in Arabic or English. It also requires working within an existing codebase, a minimum of 2 years of experience, and DevOps skills (Docker, Jenkins, GitLab) which are outside Moe's capabilities."
+      }
+    },
+    {
       "title": "Senior Cloud Engineers Needed for IT Infrastructure and Operations",
       "url": "https://www.freelancer.com/projects/amazon-cloudformation/Senior-Cloud-Engineers-Needed-for",
       "reason": {
@@ -286,7 +334,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 6,
     "steps": [
       {
         "step": "memory",
@@ -298,7 +346,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (294 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 119 skipped: not app/AI work)"
+        "msg": "3 open projects from the last 5 days worldwide with budget 100+ USD (329 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 132 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -314,7 +362,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 18 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
+        "msg": "phone relay last read 20 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -330,7 +378,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 18 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
+        "msg": "phone relay last read 20 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -342,99 +390,39 @@
       },
       {
         "step": "linkedin",
-        "msg": "241 jobs from Gmail alerts (last 5 days)"
+        "msg": "229 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "49 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "Kotlin Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Frontend Engineer"
+        "msg": "skipped (title): Freelancer Senior Mobile Engineer (React Native, Expo, TypeScript) m/w/d"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Frontend Engineer"
+        "msg": "post 4493847598: HTTP 429"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): AI Product Engineer (CMH Health)"
+        "msg": "skipped (3+ years required): Android Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Applied AI Engineer II - PxE ServiceNow"
+        "msg": "skipped (title): Senior Android Developer - Boutique Store - (T2-CC) (w/m/d)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): AI and ML Software Engineer"
+        "msg": "skipped (title): Senior Android Developer - Boutique Store - (T2-CC) (f/m/d)"
       },
       {
         "step": "linkedin",
-        "msg": "post 4478741542: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior AI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer I (New Grad) - Consumer Experience"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (8+ years required): Software Engineer - Agent 365"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Conversational AI developer | Bulgaria"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Applied AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Software Developer AI Solutions (m/f/d)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Software Engineer - Customer Facing Applied AI"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Software Engineer Train AI (Mid-Level)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4453118295: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Artificial Intelligence Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI & Analytics - Sr. Software Engineer with AI Background - Cairo"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Fullstack Software Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior .NET AI Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Manager - FWA AI Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Member of Technical Staff"
+        "msg": "skipped (title): Senior Mobile App Developer (Kotlin)"
       },
       {
         "step": "verify",
-        "msg": "6 of 25 new LinkedIn jobs added"
+        "msg": "7 of 12 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -442,43 +430,23 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Kıdemli Yazılım Geliştirme Uzmanı"
+        "msg": "skipped (not an app or AI agent project): Software Dev Engineer II, Denied Party Screening, Onboarding Tech"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Developer - PGR"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Full Stack Developer – AI Reporting & Insights"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Software Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Developer - LLM Applications"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Mid-Level Full-Stack AI Engineer"
-      },
-      {
-        "step": "filter",
-        "msg": "6 skipped by the app-only filter"
+        "msg": "1 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "0 new Freelancer projects added, 6 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 16: active market europe, 0 prime leads"
+        "msg": "Amman hour 18: active market americas, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 6 via gemini-2.5-flash"
       }
     ]
   }
