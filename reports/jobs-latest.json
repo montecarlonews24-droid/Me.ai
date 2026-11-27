@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T09:51:31.011Z",
+  "generatedAt": "2026-11-27T11:24:36.345Z",
   "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 7 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -171,7 +171,7 @@
       "proposals": "0",
       "flId": 40833292,
       "postedAt": 1795515621,
-      "bidsAt": "2026-11-27T09:51:31.011Z",
+      "bidsAt": "2026-11-27T11:24:36.345Z",
       "language": "en",
       "summary": "I need a straightforward mobile application that lets customers scroll through our flower catalogue, add arrangements to a cart, and confirm an order in just a few taps. At checkout, the app must mark the order as “Pay o",
       "fit": 8,
@@ -319,7 +319,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (278 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 93 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (282 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 99 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -335,7 +335,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 14 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
+        "msg": "phone relay last read 16 hours ago: 67 projects on the lists, 0 sent (HTTP 200 161294ch 28 links; HTTP 200 160266ch 27 links; HTTP 200 163794ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -351,7 +351,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 14 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
+        "msg": "phone relay last read 16 hours ago: 25 projects on the lists, 0 sent (HTTP 200 132962ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -363,15 +363,19 @@
       },
       {
         "step": "linkedin",
-        "msg": "241 jobs from Gmail alerts (last 5 days)"
+        "msg": "240 jobs from Gmail alerts (last 5 days)"
       },
       {
         "step": "linkedin-search",
-        "msg": "Android iOS Developer / EMEA: busy (429), stopping search this run"
+        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (8+ years required): Android Developer"
       },
       {
         "step": "verify",
-        "msg": "2 of 2 new LinkedIn jobs added"
+        "msg": "0 of 1 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -379,15 +383,7 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): iOS Developer"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer - Mobile, iOS"
-      },
-      {
-        "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
