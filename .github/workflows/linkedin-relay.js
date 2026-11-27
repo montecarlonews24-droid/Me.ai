@@ -5,6 +5,7 @@ const DONE = 'meai-done2';
 
 /** شغّلها مرة وحدة بس: بتعمل التشغيل التلقائي كل ساعة، وبتجرّب أول دفعة */
 function run() {
+  try { arabWatch(); } catch (e) { console.log('arabWatch failed: ' + e); }
   const label = GmailApp.getUserLabelByName(DONE) || GmailApp.createLabel(DONE);
   const threads = GmailApp.search(QUERY, 0, 30);
   let sent = 0;
@@ -41,6 +42,89 @@ function run() {
 
 /** باقي إيميلات LinkedIn (إشعارات، مين شاف بروفايلك، اقتراحات...): بتنمحى من الوارد.
  *  الرسائل الحقيقية من الناس (messages-noreply) ما بتنلمس. المحذوف بيضل 30 يوم بـ Trash. */
+/**
+ * مستقل وخمسات من سيرفرات Google (مش من الموبايل): Tecno بيوقف Me.ai بالخلفية،
+ * فالسكريبت هون بيقرأ قوائم المشاريع، وأول ما يلاقي مشروع تطبيق جديد بيبعت إيميل لـ Moe،
+ * وبيرفع المشروع على Firebase عشان الـ Agent يحكم عليه ويكتبله عرض.
+ * بيشتغل مع run() كل مرة السكريبت بيشتغل.
+ */
+const ARAB = [
+  { name: 'Mostaql', tag: '🔵 مستقل', node: 'mostaql', base: 'https://mostaql.com',
+    lists: ['https://mostaql.com/projects?category=development&sort=latest',
+            'https://mostaql.com/projects?category=ai-machine-learning&sort=latest',
+            'https://mostaql.com/projects?keyword=%D8%AA%D8%B7%D8%A8%D9%8A%D9%82&sort=latest'],
+    link: /href=["'](?:https?:\/\/(?:www\.)?mostaql\.com)?(\/project\/(\d{4,})[^"'#?]*)["'][^>]*>([\s\S]*?)<\/a>/gi },
+  { name: 'Khamsat', tag: '🟡 خمسات', node: 'khamsat', base: 'https://khamsat.com',
+    lists: ['https://khamsat.com/community/requests'],
+    link: /href=["'](?:https?:\/\/(?:www\.)?khamsat\.com)?(\/community\/requests\/(\d{3,})[^"'#?]*)["'][^>]*>([\s\S]*?)<\/a>/gi }
+];
+const ARAB_APP = /تطبيق|أندرويد|اندرويد|android|apk|aab|play|جوجل بلاي|قوقل بلاي|متجر جوجل|تحويل موقع|webview|kotlin|كوتلن|ذكاء اصطناعي|\bai\b|وكيل ذكي/i;
+const ARAB_NOT = /تصميم|مصمم|figma|فيجما|wireframe|ui\/ux|هوية|شعار|لوجو|logo|تسويق|ماركيتنج|marketing|إعلان|اعلان|حملات|سوشيال|مونتاج|فيديو|كتابة|محتوى|ترجمة|seo|flutter|فلاتر|react native|ووردبريس|wordpress|أتمتة|اتمتة|n8n|واتساب|تيليجرام|تلغرام|مختبرين|تقييمات/i;
+
+function arabWatch() {
+  const props = PropertiesService.getScriptProperties();
+  // إيميل صاحب الحساب: من Session، وإذا ما في صلاحية، من آخر إيميل وصله
+  let me = '';
+  try { me = Session.getEffectiveUser().getEmail(); } catch (e) {}
+  if (!me) {
+    try { const t = GmailApp.search('in:inbox', 0, 1)[0]; me = (t.getMessages()[0].getTo().match(/[\w.+-]+@[\w.-]+/) || [''])[0]; } catch (e) {}
+  }
+  const status = {};
+  ARAB.forEach(site => {
+    const key = 'maxId_' + site.name;
+    const lastMax = Number(props.getProperty(key) || 0);
+    const found = {};
+    let codes = [];
+    site.lists.forEach(u => {
+      try {
+        const r = UrlFetchApp.fetch(u, {
+          muteHttpExceptions: true, followRedirects: true,
+          headers: { 'User-Agent': 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36',
+                     'Accept-Language': 'ar,en;q=0.8' }
+        });
+        const html = r.getContentText();
+        let n = 0, m;
+        site.link.lastIndex = 0;
+        while ((m = site.link.exec(html))) {
+          const title = m[3].replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
+          if (title.length < 8 || title.length > 200) continue;
+          if (!found[m[2]]) found[m[2]] = { id: Number(m[2]), title: title, url: site.base + m[1] };
+          n++;
+        }
+        codes.push(r.getResponseCode() + ':' + html.length + 'ch:' + n);
+      } catch (e) { codes.push('err ' + String(e).slice(0, 40)); }
+    });
+    const list = Object.keys(found).map(k => found[k]);
+    const pageMax = list.reduce((a, x) => Math.max(a, x.id), 0);
+    // أول مرة: منسجّل أكبر رقم بس، بدون إيميلات، عشان ما يوصلك كل القديم مرة وحدة
+    if (!lastMax) { if (pageMax) props.setProperty(key, String(pageMax)); status[site.name] = codes.join(' ') + ' baseline ' + pageMax; return; }
+    const fresh = list.filter(x => x.id > lastMax && ARAB_APP.test(x.title) && !ARAB_NOT.test(x.title))
+                      .sort((a, b) => b.id - a.id).slice(0, 8);
+    fresh.forEach(x => {
+      UrlFetchApp.fetch('https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app/' + site.node + '/' + x.id + '.json', {
+        method: 'put', contentType: 'application/json', muteHttpExceptions: true,
+        payload: JSON.stringify({ title: x.title.slice(0, 290), url: x.url, text: '', created: Math.floor(Date.now() / 1000) })
+      });
+    });
+    if (fresh.length) {
+      const first = fresh[0];
+      const more = fresh.length > 1 ? ' (+' + (fresh.length - 1) + ')' : '';
+      const body = fresh.map(x => '<p style="font-size:16px"><a href="' + x.url + '">' + x.title + '</a></p>').join('') +
+        '<p style="color:#888">من Me.ai: افتح المشروع وقدّم بسرعة قبل ما يزدحم.</p>';
+      // GmailApp (مش MailApp): السكريبت عنده صلاحية Gmail أصلاً، فما بيطلب موافقة جديدة
+      if (me) GmailApp.sendEmail(me, site.tag + ': ' + first.title.slice(0, 80) + more, fresh.map(x => x.title + '\n' + x.url).join('\n\n'), { htmlBody: body, name: 'Me.ai' });
+    }
+    if (pageMax > lastMax) props.setProperty(key, String(pageMax));
+    status[site.name] = codes.join(' ') + ' new ' + fresh.length + (me ? '' : ' NO-EMAIL');
+  });
+  console.log('arabWatch: ' + JSON.stringify(status));
+  // حالة آخر فحص، عشان Claude يتأكد إنه شغّال
+  UrlFetchApp.fetch('https://meai-agent-ee448-default-rtdb.europe-west1.firebasedatabase.app/mostaqlStatus/gmail.json', {
+    method: 'put', contentType: 'application/json', muteHttpExceptions: true,
+    payload: JSON.stringify({ at: Math.floor(Date.now() / 1000), status: status })
+  });
+}
+
 /**
  * GitHub بيأخّر أو بيلغي التشغيل المجدول. فإذا آخر تقرير شغل أقدم من ساعة ونص،
  * السكريبت بيشغّل الـ Job Scout بنفسه. المفتاح محفوظ بـ Script Properties باسم GH_TOKEN.
