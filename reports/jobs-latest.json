@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T19:33:59.840Z",
-  "model": "",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T21:24:26.783Z",
+  "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
     "en": "No new leads this run. Here are 6 open leads from the last 3 days."
@@ -163,242 +163,34 @@
   ],
   "rejected": [
     {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495323663/",
+      "title": "Mobile App Store Growth & Monetization Specialist — iOS & Android",
+      "url": "https://www.freelancer.com/projects/analytics/Mobile-App-Store-Growth-Monetization",
       "reason": {
-        "ar": "الوظيفة تتطلب العمل من المكتب في سان فرانسيسكو (on-site) وتطلب خبرة 5-7 سنوات في تطوير أندرويد، وهو ما لا يناسب Moe.",
-        "en": "The job requires on-site work in San Francisco and asks for 5-7 years of Android development experience, which does not fit Moe."
+        "ar": "المشروع يركز بشكل أساسي على التسويق وتحسين متاجر التطبيقات (ASO) وإدارة الاشتراكات، وهي مهام لا يقدمها Moe. كما أن الميزانية المقترحة منخفضة جداً.",
+        "en": "The project primarily focuses on marketing, App Store Optimization (ASO), and subscription management, which are tasks Moe does not offer. Additionally, the proposed budget is extremely low."
       }
     },
     {
-      "title": "Android Tactical Assault Kit Engineer",
-      "url": "https://www.linkedin.com/jobs/view/4487779619/",
+      "title": "تسويق تطبيق في السعودية",
+      "url": "https://mostaql.com/project/1295653",
       "reason": {
-        "ar": "الوظيفة تتطلب تصريح أمني سري (Secret clearance) وخبرة في مجال متخصص جداً (Tactical Assault Kit) وهو خارج نطاق عمل Moe ولا يمكنه تلبية متطلبات التصريح الأمني.",
-        "en": "The job requires a Secret clearance and highly specialized experience in a Tactical Assault Kit domain, which is outside Moe's scope, and he cannot meet the security clearance requirements."
+        "ar": "المشروع يطلب متخصصاً في التسويق الرقمي وإعداد وتنفيذ حملات تسويقية لتطبيق، وهذا خارج نطاق خدمات Moe الذي يركز على تطوير التطبيقات ونشرها.",
+        "en": "The project requests a digital marketing specialist to prepare and execute marketing campaigns for an app, which is outside Moe's scope of services focused on app development and publishing."
       }
     },
     {
-      "title": "Programista aplikacji na Androida",
-      "url": "https://www.linkedin.com/jobs/view/4493888082/",
+      "title": "عمل حساب جوجل بلاي",
+      "url": "https://khamsat.com/community/requests/801405-%D8%B9%D9%85%D9%84-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%AC%D9%88%D8%AC%D9%84-%D8%A8%D9%84%D8%A7%D9%8A",
       "reason": {
-        "ar": "وصف الوظيفة باللغة البولندية، وتتطلب زيارات أسبوعية للمكتب في وارسو (عمل هجين)، وتطلب خبرة 3 سنوات على الأقل.",
-        "en": "The job description is in Polish, requires weekly office visits in Warsaw (hybrid work), and asks for at least 3 years of experience."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495589565/",
-      "reason": {
-        "ar": "الوظيفة بمستوى Mid-Senior وتتطلب خبرة 10 سنوات على الأقل، وهو ما لا يناسب Moe الذي لا يبحث عن أدوار عليا ولا يدعي سنوات خبرة.",
-        "en": "The job is at a Mid-Senior level and requires 10+ years of experience, which does not fit Moe, as he does not seek senior roles nor claims years of experience."
-      }
-    },
-    {
-      "title": "Rancang Game Strategi Mobile Menarik",
-      "url": "https://www.freelancer.com/projects/game-design/Rancang-Game-Strategi-Mobile-Menarik",
-      "reason": {
-        "ar": "لغة المشروع (الإندونيسية) ليست العربية أو الإنجليزية. كما أن نطاق اللعبة (استراتيجية بناء مدن وممالك) يتجاوز الألعاب البسيطة التي يبنيها Moe.",
-        "en": "The project language (Indonesian) is neither Arabic nor English. Additionally, the scope of the game (strategy, city/kingdom building) is beyond the simple casual games Moe builds."
-      }
-    },
-    {
-      "title": "Desktop Thermometer App Field Trial",
-      "url": "https://www.freelancer.com/projects/desktop-application/Desktop-Thermometer-App-Field-Trial",
-      "reason": {
-        "ar": "هذا الطلب هو للمشاركة في تجربة ميدانية واختبار تطبيق مكتبي (Windows)، وليس لتطوير تطبيق جديد. Moe يبني تطبيقات Android ولا يقوم باختبار تطبيقات سطح المكتب.",
-        "en": "This request is for participating in a field trial and testing a desktop (Windows) app, not for developing a new application. Moe builds Android apps and does not perform desktop app testing."
-      }
-    },
-    {
-      "title": "مطلوب عمل تصمامات لتطبيق على جوجل بلاي",
-      "url": "https://khamsat.com/community/requests/801387-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D8%B9%D9%85%D9%84-%D8%AA%D8%B5%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B9%D9%84%D9%89-%D8%AC%D9%88%D8%AC%D9%84-%D8%A8%D9%84%D8%A7%D9%8A",
-      "reason": {
-        "ar": "الطلب هو لعمل 'تصميمات لتطبيق' فقط، وMoe لا يقوم بأعمال تصميم واجهة المستخدم/تجربة المستخدم (UI/UX) أو الشعارات بشكل مستقل.",
-        "en": "The request is only for 'designs for an app', and Moe does not perform UI/UX design or logo work independently."
-      }
-    },
-    {
-      "title": "Utvecklare inom mobila lösningar",
-      "url": "https://www.linkedin.com/jobs/view/4450777387/",
-      "reason": {
-        "ar": "الوظيفة تتطلب مستوى 'Mid-Senior' وخبرة لا تقل عن أربع سنوات، وMoe لا يبحث عن وظائف بهذا المستوى. كما أنها ليست وظيفة عن بعد بالكامل حيث تذكر إمكانية العمل من المكتب أو لدى العميل، ولغة الوصف الوظيفي الرئيسية هي السويدية.",
-        "en": "The job requires a 'Mid-Senior' level and at least four years of experience, which does not fit Moe's profile. It is also not a fully remote position as it mentions working in-house or at the client's site, and the main job description language is Swedish."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495585487/",
-      "reason": {
-        "ar": "يتطلب هذا الدور أن يكون المرشح مقيمًا في الولايات المتحدة، وهو ما يتعارض مع طبيعة عمل Moe عن بعد من الأردن.",
-        "en": "This role requires candidates to be based in the United States, which conflicts with Moe's remote work from Jordan."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495817086/",
-      "reason": {
-        "ar": "يتطلب هذا الدور خبرة لا تقل عن ثماني سنوات في تطوير تطبيقات الأندرويد، وهو ما يتجاوز معايير Moe الذي لا يقبل الأدوار التي تطلب 3 سنوات أو أكثر من الخبرة المهنية.",
-        "en": "This role requires at least eight years of experience in Android development, which exceeds Moe's criteria of rejecting roles asking for 3 or more years of professional experience."
-      }
-    },
-    {
-      "title": "Agentic API Engineer - Intermediate Level",
-      "url": "https://www.linkedin.com/jobs/view/4493847598/",
-      "reason": {
-        "ar": "نص الوظيفة غير كامل ولا يوضح بوضوح ما إذا كان الدور عن بعد بالكامل. بالإضافة إلى ذلك، عنوان الوظيفة 'Agentic API Engineer' ليس تطابقًا مباشرًا مع مجالات Moe الأساسية (تطبيقات الأندرويد، تطبيقات الأندرويد بالذكاء الاصطناعي، وكلاء الذكاء الاصطناعي مع تطبيق أندرويد).",
-        "en": "The job text is incomplete and does not clearly state if the role is fully remote. Additionally, the job title 'Agentic API Engineer' is not a direct fit for Moe's core areas (Android apps, AI-powered Android apps, AI agents with an Android app)."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4479120210/",
-      "reason": {
-        "ar": "يتطلب هذا الدور أن يكون المرشح مقيمًا في المملكة المتحدة، وهو ما يتعارض مع طبيعة عمل Moe عن بعد من الأردن.",
-        "en": "This role requires candidates to be based in the United Kingdom, which conflicts with Moe's remote work from Jordan."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495573860/",
-      "reason": {
-        "ar": "هذا الدور هجين ويتطلب العمل من المكتب 3 أيام على الأقل في الأسبوع، بينما يقبل Moe فقط الوظائف عن بعد بالكامل.",
-        "en": "This is a hybrid role requiring at least 3 days per week in the office, whereas Moe only accepts fully remote jobs."
-      }
-    },
-    {
-      "title": "Développeur Mobile Android H/F",
-      "url": "https://www.linkedin.com/jobs/view/4488153029/",
-      "reason": {
-        "ar": "نص المشروع باللغة الفرنسية، وMoe يقبل المشاريع باللغتين العربية والإنجليزية فقط. كما يتطلب المشروع العمل ضمن قاعدة بيانات موجودة، وخبرة لا تقل عن سنتين، ومهارات في DevOps (Docker, Jenkins, GitLab) وهي خارج نطاق ما يمكن لـMoe تقديمه.",
-        "en": "The project text is in French, and Moe only accepts projects in Arabic or English. It also requires working within an existing codebase, a minimum of 2 years of experience, and DevOps skills (Docker, Jenkins, GitLab) which are outside Moe's capabilities."
-      }
-    },
-    {
-      "title": "Senior Cloud Engineers Needed for IT Infrastructure and Operations",
-      "url": "https://www.freelancer.com/projects/amazon-cloudformation/Senior-Cloud-Engineers-Needed-for",
-      "reason": {
-        "ar": "المشروع يتطلب مهندسي سحابة (Cloud Engineers) بخبرة 5 سنوات أو أكثر، وهو دور كبير (Senior) وخارج نطاق عمل Moe الذي يركز على تطوير تطبيقات Android ووكلاء الذكاء الاصطناعي.",
-        "en": "The project requires 'Senior Cloud Engineers' with 5+ years of experience, which is a senior role and outside Moe's scope of work, which focuses on Android app development and AI agents."
-      }
-    },
-    {
-      "title": "Aplikasi Jejaring Profesional Global",
-      "url": "https://www.freelancer.com/projects/flutter/Aplikasi-Jejaring-Profesional-Global",
-      "reason": {
-        "ar": "اللغة المستخدمة في وصف المشروع هي الإندونيسية وليست العربية أو الإنجليزية. كما أن المشروع يطلب تطوير تطبيقات باستخدام Flutter و React Native، وهي تقنيات لا يعمل بها Moe. بالإضافة إلى ذلك، يتضمن المشروع نطاقاً كبيراً جداً (10 ملايين مستخدم) يتطلب بنية خلفية ضخمة لا يمكن لـ Moe توفيرها.",
-        "en": "The project description is in Indonesian, not Arabic or English. The project also requests development using Flutter and React Native, technologies Moe does not work with. Furthermore, the project has a very large scope (10 million users) requiring a large backend that Moe cannot provide."
-      }
-    },
-    {
-      "title": "Test subscription payments, renewal & refund - web, Android, iPhone (Germany only)",
-      "url": "https://www.freelancer.com/projects/payment-processing/Test-subscription-payments-renewal",
-      "reason": {
-        "ar": "هذه وظيفة اختبار تطبيقات، وليس بناء تطبيقات. Moe يبني التطبيقات ولا يعمل كمختبر.",
-        "en": "This is an app testing job, not app development. Moe builds apps and does not work as a tester."
-      }
-    },
-    {
-      "title": "Test subscription payments, renewal & refund - web, Android, iPhone (USA only)",
-      "url": "https://www.freelancer.com/projects/mobile-app-testing/Test-subscription-payments-renewal",
-      "reason": {
-        "ar": "هذه وظيفة اختبار تطبيقات، وليس بناء تطبيقات. Moe يبني التطبيقات ولا يعمل كمختبر.",
-        "en": "This is an app testing job, not app development. Moe builds apps and does not work as a tester."
-      }
-    },
-    {
-      "title": "Android Developer",
-      "url": "https://www.linkedin.com/jobs/view/4495518482/",
-      "reason": {
-        "ar": "هذه دورة تدريبية وليست وظيفة حقيقية أو مشروع. كما أنها تتطلب العمل الهجين (يومين في المكتب).",
-        "en": "This is a training course, not a real job or project. It also requires hybrid work (2 days a week in the office)."
-      }
-    },
-    {
-      "title": "Développeur Android Java SoftPOS - Monétique - H/F",
-      "url": "https://www.linkedin.com/jobs/view/4495040913/",
-      "reason": {
-        "ar": "الوصف باللغة الفرنسية. كما تتطلب الوظيفة خبرة 3 سنوات على الأقل وتتضمن العمل من الموقع (على الأقل يومين في المكتب).",
-        "en": "The description is in French. The job also requires at least 3 years of experience and involves on-site work (at least 2 days a week in the office)."
-      }
-    },
-    {
-      "title": "Développeur Mobile Android Natif - KMP - H/F",
-      "url": "https://www.linkedin.com/jobs/view/4495546706/",
-      "reason": {
-        "ar": "الوصف باللغة الفرنسية. كما تتطلب الوظيفة خبرة 7 سنوات على الأقل وتتضمن العمل من الموقع (على الأقل يومين في المكتب).",
-        "en": "The description is in French. The job also requires at least 7 years of experience and involves on-site work (at least 2 days a week in the office)."
-      }
-    },
-    {
-      "title": "Développeur full stack",
-      "url": "https://www.linkedin.com/jobs/view/4495051416/",
-      "reason": {
-        "ar": "الوصف باللغة الفرنسية. تتطلب الوظيفة استخدام Flutter أو React Native، وهي تقنيات لا يعمل بها Moe. كما تتطلب التواجد في كيبيك والتنقل عند الحاجة، مما يعني أنها ليست عن بعد بالكامل.",
-        "en": "The description is in French. The job requires Flutter or React Native, which Moe does not use. It also requires being based in Quebec and available to travel, meaning it's not fully remote."
-      }
-    },
-    {
-      "title": "SAP MDK Developer - Contract - Sydney",
-      "url": "https://www.linkedin.com/jobs/view/4494999918/",
-      "reason": {
-        "ar": "تتطلب الوظيفة مطورًا متخصصًا في SAP MDK، وهي تقنية لا يستخدمها Moe. كما أنها لوظيفة بمستوى Mid-Senior وتتطلب جنسية أو إقامة محددة (أسترالية/نيوزيلندية).",
-        "en": "The job requires a specialist SAP MDK developer, a technology Moe does not use. It's also for a Mid-Senior level role and requires specific citizenship or residency (Australian/NZ)."
-      }
-    },
-    {
-      "title": "Investor Needed for Sports Prediction App",
-      "url": "https://www.freelancer.com/projects/financial-consulting/Investor-Needed-for-Sports-Prediction",
-      "reason": {
-        "ar": "هذا طلب استثمار وليس مشروع تطوير تطبيقات أو خدمة. Moe مطور تطبيقات وليس مستثمرًا أو مستشارًا ماليًا.",
-        "en": "This is a request for investment, not an app development project or service. Moe is an app developer, not an investor or financial consultant."
-      }
-    },
-    {
-      "title": "Engineer I, AI Agents",
-      "url": "https://www.linkedin.com/jobs/view/4461288779/",
-      "reason": {
-        "ar": "هذه وظيفة بدوام كامل تتطلب العمل داخل قاعدة بيانات موجودة، وتتطلب خبرة في لغات برمجة (Python, JavaScript/TypeScript, C#, Java) لا يستخدمها Moe في تطويره، وتتضمن أدوات هندسة ذكاء اصطناعي (مثل RAG) لا يستخدمها. كما أنها لا تذكر بوضوح أنها وظيفة عن بعد بالكامل.",
-        "en": "This is a full-time job requiring work within an existing codebase, experience in programming languages (Python, JavaScript/TypeScript, C#, Java) Moe does not use for his development, and includes AI engineering tools (like RAG) he does not use. It also does not explicitly state it is a fully remote position."
-      }
-    },
-    {
-      "title": "遠程 AI 產品工程師／AI Product Builder（限台灣・中文溝通）",
-      "url": "https://www.freelancer.com/projects/ai-app-development/project-40837811",
-      "reason": {
-        "ar": "المشروع يتطلب الإقامة في تايوان، وهذا ليس عملاً عن بعد لمحمد. بالإضافة إلى ذلك، لغة المشروع صينية وليست عربية أو إنجليزية.",
-        "en": "The project requires residence in Taiwan, which is not a remote job for Moe. Additionally, the project text is in Chinese, not Arabic or English."
-      }
-    },
-    {
-      "title": "Agentic AI Engineer (AVP)",
-      "url": "https://www.linkedin.com/jobs/view/4495012601/",
-      "reason": {
-        "ar": "هذا إعلان لوظيفة بدوام كامل (AVP) في شركة كبيرة، وليس مشروعًا مستقلاً أو عقدًا. كما أن الدور يتطلب خبرة في أدوات الذكاء الاصطناعي المتقدمة مثل RAG pipelines و knowledge graphs، والتي لا يستخدمها Moe. Moe لا يقبل الوظائف ذات المستويات الإدارية العليا (senior/staff/lead/principal).",
-        "en": "This is a full-time employment job (AVP) at a large corporation, not a freelance project or contract. The role also requires expertise in advanced AI tools like RAG pipelines and knowledge graphs, which Moe does not use. Moe does not accept senior/staff/lead/principal level roles."
-      }
-    },
-    {
-      "title": "iOS Encrypted Backup Decryption -- 2",
-      "url": "https://www.freelancer.com/projects/mobile-app-development/iOS-Encrypted-Backup-Decryption",
-      "reason": {
-        "ar": "المشروع يتطلب خبرة في التحليل الجنائي لنظام iOS واستعادة البيانات، وهو خارج نطاق ما يمكن لـ Moe تقديمه. كما أنه عمل خاص بنظام iOS فقط.",
-        "en": "The project requires iOS forensics and data recovery expertise, which is outside Moe's capabilities. It also involves iOS-only work."
-      }
-    },
-    {
-      "title": "Mobil 101 Okey Tasarımı",
-      "url": "https://www.freelancer.com/projects/android/Mobil-Okey-Tasar",
-      "reason": {
-        "ar": "المشروع يطلب تطوير لعبة تتضمن وضع متعدد اللاعبين عبر الإنترنت وذكاء اصطناعي، ويذكر Unity كتقنية مطلوبة، وهي تقنية لا يستخدمها Moe. كما أن الألعاب التي يمكن لـ Moe تطويرها هي الألعاب البسيطة فقط.",
-        "en": "The project requests a game with online multiplayer and AI, and explicitly mentions Unity, a technology Moe does not use. Moe's game development is limited to simple casual games."
+        "ar": "الطلب هو لإنشاء حساب مطور على جوجل بلاي، وهي مهمة إدارية بسيطة لا تندرج ضمن خدمات Moe في تطوير التطبيقات أو نشرها أو إصلاح مشكلات الرفض.",
+        "en": "The request is to create a Google Play developer account, which is a simple administrative task and not part of Moe's services in app development, publishing, or rejection fixes."
       }
     }
   ],
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 3,
     "steps": [
       {
         "step": "memory",
@@ -410,7 +202,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (288 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 105 skipped: not app/AI work)"
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (290 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 99 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -426,39 +218,39 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 2 hours ago: 66 projects on the lists, 0 sent (HTTP 200 160682ch 28 links; HTTP 200 159257ch 27 links; HTTP 200 165365ch 26 links; )"
+        "msg": "phone relay last read 1 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
       },
       {
         "step": "mostaql",
-        "msg": "12 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
+        "msg": "13 projects from the phone relay (last 4 days, 0 skipped: over 30 offers)"
       },
       {
         "step": "verify",
-        "msg": "0 new Mostaql projects added from the phone"
+        "msg": "1 new Mostaql projects added from the phone"
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 7 (alarm 1, open 4, start 2), longest gap 16 min, last 2 hours ago (start, v1.9.6)"
+        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 1 hours ago (open, v1.9.6)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 20:15! 20:16*open 20:17*open 20:17*open 20:32*start! 20:36*open 20:43*start"
+        "msg": "times (Amman): 20:15! 20:16*open 20:17*open 20:17*open 20:32*start! 20:36*open 20:43*start 23:30*open! 23:30 23:37*open 23:38*start 23:38*open"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 20:15 🔷 وظيفة Remote جديدة على LinkedIn (+13) | 🟡 طلب جديد على خمسات | 🟢 مشروع جديد على Freelancer || 20:32 🟢 مشروع جديد على Freelancer"
+        "msg": "alerts posted: 20:15 🔷 وظيفة Remote جديدة على LinkedIn (+13) | 🟡 طلب جديد على خمسات | 🟢 مشروع جديد على Freelancer || 20:32 🟢 مشروع جديد على Freelancer || 23:30 🟡 طلب جديد على خمسات"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 2 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133533ch 25 links; )"
+        "msg": "phone relay last read 1 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
       },
       {
         "step": "khamsat",
-        "msg": "5 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 4 skipped: not app/AI work)"
+        "msg": "6 projects from the phone relay (last 4 days, 0 skipped: over 30 offers, 4 skipped: not app/AI work)"
       },
       {
         "step": "verify",
-        "msg": "0 new Khamsat requests added from the phone"
+        "msg": "1 new Khamsat requests added from the phone"
       },
       {
         "step": "linkedin",
@@ -466,7 +258,7 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Freelance Android Developer / United States: busy (429), stopping search this run"
+        "msg": "Android Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
@@ -482,7 +274,15 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 3 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 0: active market americas, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 0, rejected 3 via gemini-2.5-flash"
       }
     ]
   }
