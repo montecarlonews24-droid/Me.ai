@@ -1,13 +1,41 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T01:24:11.011Z",
-  "model": "",
+  "generatedAt": "2026-11-28T02:54:15.232Z",
+  "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
-    "en": "No new leads this run. Here are 5 open leads from the last 3 days."
+    "ar": "تم قبول طلب تطبيق الملاحظات وقوائم المهام البسيط لنظام أندرويد، حيث يتناسب مع قدرات معاذ في بناء تطبيقات أندرويد الأصلية بـ Kotlin.",
+    "en": "A simple notes and checklist app request for Android has been accepted, as it aligns with Moe's capabilities in building native Kotlin Android apps."
   },
-  "fresh": 0,
+  "fresh": 1,
   "leads": [
+    {
+      "title": "Simple Notes & Checklist App",
+      "url": "https://www.freelancer.com/projects/flutter/Simple-Notes-Checklist-App",
+      "platform": "Freelancer",
+      "market": "",
+      "country": "",
+      "budget": "30-250 USD",
+      "posted": "1 hours ago",
+      "proposals": "19",
+      "flId": 40839459,
+      "postedAt": 1795831523,
+      "bidsAt": "2026-11-28T02:50:56.376Z",
+      "language": "en",
+      "summary": "I’d like a straightforward mobile or desktop app that lets users create, edit, and organize notes and check-lists. The focus is on clarity and ease of use—no complex bells and whistles. Core features • Add, edit, delete ",
+      "fit": 7,
+      "why": {
+        "ar": "العميل يطلب تطبيق ملاحظات وقوائم مهام بسيط لنظام أندرويد، مع تخزين بيانات محلي (SQLite). يستطيع معاذ بناء تطبيقات أندرويد أصلية بـ Kotlin مع تخزين بيانات Firebase أو محلي، ولديه تطبيق Flicker الذي هو تطبيق أندرويد أصلي بـ Kotlin قيد الاختبار.",
+        "en": "The client is requesting a simple notes and checklist app for Android, with local data storage (SQLite). Moe can build native Kotlin Android apps with local data storage, and has Flicker, a native Kotlin Android app in testing."
+      },
+      "watch": {
+        "ar": "الميزانية المذكورة (30-250 دولار) مناسبة لتطبيق أندرويد فقط. يجب التأكيد على تسليم نسخة أندرويد أولاً، ويمكن عرض iOS كخيار لاحق عبر الشريك.",
+        "en": "The stated budget (30-250 USD) is suitable for an Android-only app. It's important to confirm delivery of an Android version first, and offer iOS as a later phase via the partner."
+      },
+      "proposal": "I can build your straightforward notes and checklist mobile app for Android, focusing on clarity and ease of use with local data storage. I build native Kotlin Android apps with AI-assisted development, like Flicker (currently in closed testing), which uses native features and local storage for efficient performance. I can deliver a clean, well-commented Android app that includes adding, editing, deleting notes, checklists, searching, and basic categories, using SQLite for local storage as you prefer. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nWould you prefer a native Android app, and do you have any specific design preferences for the user interface?",
+      "prime": false,
+      "foundAt": "2026-11-28T02:54:15.229Z",
+      "fresh": true
+    },
     {
       "title": "عندي تطبيق قرآن APK بدي شخص يرفعة على جوجل بلاي",
       "url": "https://khamsat.com/community/requests/801324-%D8%B9%D9%86%D8%AF%D9%8A-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%82%D8%B1%D8%A2%D9%86-apk-%D8%A8%D8%AF%D9%8A-%D8%B4%D8%AE%D8%B5-%D9%8A%D8%B1%D9%81%D8%B9%D8%A9-%D8%B9%D9%84%D9%89-%D8%AC%D9%88%D8%AC%D9%84-%D8%A8%D9%84%D8%A7%D9%8A",
@@ -164,7 +192,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 0,
+    "verified": 1,
     "steps": [
       {
         "step": "memory",
@@ -176,7 +204,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (253 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 122 skipped: not app/AI work)"
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (268 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 124 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -192,7 +220,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 5 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
+        "msg": "phone relay last read 6 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -204,7 +232,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 5 hours ago (open, v1.9.6)"
+        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 6 hours ago (open, v1.9.6)"
       },
       {
         "step": "keeper",
@@ -216,7 +244,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
+        "msg": "phone relay last read 6 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -232,11 +260,59 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
+        "msg": "AI App Developer / Canada: busy (429), stopping search this run"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Sr AI Application Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Gen AI - Python Developer - Assistant Vice President"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (5+ years required): Gen AI - Python Engineer - Assistant Vice President"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Applied AI Engineer II - PxE ServiceNow"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Associate, Software Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Software Engineer (AI)"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Python Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4488144745: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Forward Deployed AI Engineer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (4+ years required): Machine Learning Engineer - HiredScore"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Python Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Full Stack Engineer (AI-First)"
       },
       {
         "step": "verify",
-        "msg": "0 of 0 new LinkedIn jobs added"
+        "msg": "7 of 18 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -244,11 +320,47 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): Full-Stack Software Engineer, (Forward Deployed), GPS"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): AI Native Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur IA / GenAI F/H"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Développeur IA / GenAI F/H"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (AI engineering (not an app)): Développeur IA Agentique confirmé – Python, LangGraph, Copilot Studio (H/F)"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Government and Infrastructure - Service Delivery Center - AI Solution Developer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Engineer - Customer Facing Applied AI"
+      },
+      {
+        "step": "filter",
+        "msg": "7 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 0 to judge"
+        "msg": "1 new Freelancer projects added, 1 to judge"
+      },
+      {
+        "step": "market",
+        "msg": "Amman hour 5: active market arab-east, 0 prime leads"
+      },
+      {
+        "step": "judge",
+        "msg": "kept 1, rejected 0 via gemini-2.5-flash"
       }
     ]
   }
