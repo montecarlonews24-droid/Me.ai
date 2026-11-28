@@ -1,0 +1,23 @@
+name: Me.ai Wake Phone
+
+# كل ربع ساعة: Push صامت بيصحّي تطبيق Me.ai على الموبايل ليفحص مستقل وخمسات (Tecno بيوقفه بالخلفية)
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/workflows
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Wake Me.ai
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+        run: node .github/workflows/push.cjs wake

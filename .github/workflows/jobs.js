@@ -1080,9 +1080,25 @@ Respond with ONLY JSON:
   fs.writeFileSync(path.join(DIR, `jobs-${today}.json`), JSON.stringify(report, null, 2));
   fs.writeFileSync(path.join(DIR, 'jobs-latest.json'), JSON.stringify(report, null, 2));
 
-  // إشعار على الموبايل من السيرفر نفسه (تطبيق ntfy)، ما بيعتمد على إنه الموبايل صاحي
+  // Push من Google لتطبيق Me.ai: إشعار لكل فرصة جديدة (لحد 3)، وبيصحّي التطبيق ليفحص مستقل وخمسات
+  let pushed = false;
+  if ((process.env.FCM_SERVICE_ACCOUNT || '').trim()) {
+    try {
+      const push = (await import('./push.cjs')).default;
+      for (const l of fresh.slice(0, 3)) {
+        await push.lead({ title: `${l.title} (${l.fit}/10)`, url: l.url, platform: l.platform, head: `💼 ${l.platform}: فرصة جديدة` });
+      }
+      await push.wake();
+      pushed = true;
+      log('notify', `push: ${Math.min(3, fresh.length)} leads + wake`);
+    } catch (e) {
+      log('notify', 'push failed: ' + e.message);
+    }
+  }
+
+  // ntfy: احتياط بس إذا الـ Push ما اشتغل
   const topic = (process.env.NTFY_TOPIC || '').trim();
-  if (topic && fresh.length) {
+  if (!pushed && topic && fresh.length) {
     const top = fresh[0];
     try {
       const r = await fetch('https://ntfy.sh/', {
