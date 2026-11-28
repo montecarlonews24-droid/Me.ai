@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-27T23:26:22.681Z",
+  "generatedAt": "2026-11-28T01:24:11.011Z",
   "model": "",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -176,7 +176,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (259 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 99 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (253 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 122 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -192,7 +192,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 3 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
+        "msg": "phone relay last read 5 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -204,7 +204,7 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 3 hours ago (open, v1.9.6)"
+        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 5 hours ago (open, v1.9.6)"
       },
       {
         "step": "keeper",
@@ -216,7 +216,7 @@
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 3 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
+        "msg": "phone relay last read 5 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -232,103 +232,11 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (7+ years required): Mobile Engineer (iOS / Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (7+ years required): Mobile Engineer (iOS / Android)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Software Engineer – iOS (Swift) / Android (Kotlin)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (4+ years required): Mobile Engineer 4"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Native Mobile Developer - iOS or Android | Retail"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead Software Engineer - iOS Developer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer (Flutter + Python)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Fullstack Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): AI-Driven 4G PHY SW Tech Lead"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Mobile Software Engineer I (iOS)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer II, Mobile (Android), Revenue Experimentation (AI Native)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Staff Android Engineer (Founding)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Android Framework/Core OS Software Engineer, Senior"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (5+ years required): Software Engineer II, Full Stack (Card Acquisition)"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, iOS, Google Photos"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Lead Software Engineer - Mobile"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Quality Engineer - Mobile"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer - 9 months"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer"
+        "msg": "Mobile App Developer / United States: busy (429), stopping search this run"
       },
       {
         "step": "verify",
-        "msg": "2 of 25 new LinkedIn jobs added"
+        "msg": "0 of 0 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -336,15 +244,7 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Technology, Application Development, Full Time Analyst, Mississauga, Canada, 202"
-      },
-      {
-        "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Junior Game Developer"
-      },
-      {
-        "step": "filter",
-        "msg": "2 skipped by the app-only filter"
+        "msg": "0 skipped by the app-only filter"
       },
       {
         "step": "verify",
