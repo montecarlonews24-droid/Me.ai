@@ -1,12 +1,12 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T02:54:15.232Z",
+  "generatedAt": "2026-11-28T05:27:44.327Z",
   "model": "gemini-2.5-flash",
   "summary": {
-    "ar": "تم قبول طلب تطبيق الملاحظات وقوائم المهام البسيط لنظام أندرويد، حيث يتناسب مع قدرات معاذ في بناء تطبيقات أندرويد الأصلية بـ Kotlin.",
-    "en": "A simple notes and checklist app request for Android has been accepted, as it aligns with Moe's capabilities in building native Kotlin Android apps."
+    "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
+    "en": "No new leads this run. Here are 6 open leads from the last 3 days."
   },
-  "fresh": 1,
+  "fresh": 0,
   "leads": [
     {
       "title": "Simple Notes & Checklist App",
@@ -16,10 +16,10 @@
       "country": "",
       "budget": "30-250 USD",
       "posted": "1 hours ago",
-      "proposals": "19",
+      "proposals": "31",
       "flId": 40839459,
       "postedAt": 1795831523,
-      "bidsAt": "2026-11-28T02:50:56.376Z",
+      "bidsAt": "2026-11-28T05:27:44.327Z",
       "language": "en",
       "summary": "I’d like a straightforward mobile or desktop app that lets users create, edit, and organize notes and check-lists. The focus is on clarity and ease of use—no complex bells and whistles. Core features • Add, edit, delete ",
       "fit": 7,
@@ -34,7 +34,8 @@
       "proposal": "I can build your straightforward notes and checklist mobile app for Android, focusing on clarity and ease of use with local data storage. I build native Kotlin Android apps with AI-assisted development, like Flicker (currently in closed testing), which uses native features and local storage for efficient performance. I can deliver a clean, well-commented Android app that includes adding, editing, deleting notes, checklists, searching, and basic categories, using SQLite for local storage as you prefer. You can try my live apps here:\nhttps://play.google.com/store/apps/developer?id=MonteCarlo+News24\nWould you prefer a native Android app, and do you have any specific design preferences for the user interface?",
       "prime": false,
       "foundAt": "2026-11-28T02:54:15.229Z",
-      "fresh": true
+      "fresh": false,
+      "crowded": true
     },
     {
       "title": "عندي تطبيق قرآن APK بدي شخص يرفعة على جوجل بلاي",
@@ -165,6 +166,22 @@
   ],
   "rejected": [
     {
+      "title": "Desktop Thermometer App Field Trial(only from Uk)",
+      "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial",
+      "reason": {
+        "ar": "هذا تجربة ميدانية لتطبيق سطح مكتب يعمل بنظام Windows، وليس مشروع تطوير تطبيقات أندرويد. Moe يبني تطبيقات أندرويد ولا يشارك في التجارب الميدانية لبرامج سطح المكتب.",
+        "en": "This is a field trial for a Windows desktop app, not an Android app development project. Moe builds Android apps and does not participate in field trials for desktop software."
+      }
+    },
+    {
+      "title": "Android Developer, Associate",
+      "url": "https://www.linkedin.com/jobs/view/4495021330/",
+      "reason": {
+        "ar": "هذه وظيفة بدوام كامل تتطلب الحضور في سان دييغو، كاليفورنيا. Moe يقبل فقط الوظائف والعمل عن بعد بالكامل.",
+        "en": "This is an on-site full-time job in San Diego, CA, requiring physical presence. Moe only accepts fully remote freelance, contract, or full-time positions."
+      }
+    },
+    {
       "title": "Mobile App Store Growth & Monetization Specialist — iOS & Android",
       "url": "https://www.freelancer.com/projects/analytics/Mobile-App-Store-Growth-Monetization",
       "reason": {
@@ -192,7 +209,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
@@ -204,7 +221,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (268 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 124 skipped: not app/AI work)"
+        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (280 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 149 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -220,7 +237,7 @@
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 6 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
+        "msg": "phone relay last read 9 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -232,19 +249,19 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 12 (alarm 2, open 7, start 3), longest gap 166 min, last 6 hours ago (open, v1.9.6)"
+        "msg": "phone checks in last 12h: 8 (start 3, open 4, alarm 1), longest gap 166 min, last 9 hours ago (open, v1.9.6)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 20:15! 20:16*open 20:17*open 20:17*open 20:32*start! 20:36*open 20:43*start 23:30*open! 23:30 23:37*open 23:38*start 23:38*open"
+        "msg": "times (Amman): 20:32*start! 20:36*open 20:43*start 23:30*open! 23:30 23:37*open 23:38*start 23:38*open"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 20:15 🔷 وظيفة Remote جديدة على LinkedIn (+13) | 🟡 طلب جديد على خمسات | 🟢 مشروع جديد على Freelancer || 20:32 🟢 مشروع جديد على Freelancer || 23:30 🟡 طلب جديد على خمسات"
+        "msg": "alerts posted: 20:32 🟢 مشروع جديد على Freelancer || 23:30 🟡 طلب جديد على خمسات"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 6 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
+        "msg": "phone relay last read 9 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -260,59 +277,83 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "AI App Developer / Canada: busy (429), stopping search this run"
+        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Sr AI Application Developer"
+        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (5+ years required): Gen AI - Python Developer - Assistant Vice President"
+        "msg": "skipped (5+ years required): Applications Development Programmer Analyst - C12"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (5+ years required): Gen AI - Python Engineer - Assistant Vice President"
+        "msg": "skipped (title): Senior Software Engineer, Android"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Lead Applied AI Engineer II - PxE ServiceNow"
+        "msg": "skipped (title): Mobile Engineer 4 (Android - Manager, IC)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Associate, Software Engineer"
+        "msg": "skipped (title): Senior Android Engineer, Point-of-Sale"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Software Engineer (AI)"
+        "msg": "skipped (title): Senior Backend Engineer (Java)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Python Developer"
+        "msg": "skipped (title): Senior Java Engineer - Security - Elasticsearch"
       },
       {
         "step": "linkedin",
-        "msg": "post 4488144745: HTTP 429"
+        "msg": "skipped (6+ years required): Full-Stack Software Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Forward Deployed AI Engineer"
+        "msg": "skipped (title): Senior Backend Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (4+ years required): Machine Learning Engineer - HiredScore"
+        "msg": "skipped (title): AVP Applications Development Sr Programmer Analyst"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Python Developer"
+        "msg": "skipped (title): Senior Java Engineer - Kafka & Distributed Systems"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (3+ years required): Full Stack Engineer (AI-First)"
+        "msg": "post 4486904806: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (on-site/hybrid): Back End Developer - Java"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior II Software Engineer - Data Services"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer I"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Java Developer, TD Securities"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (3+ years required): Software Engineer, Financial Platform - Issuing"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Principal Software Engineer"
       },
       {
         "step": "verify",
-        "msg": "7 of 18 new LinkedIn jobs added"
+        "msg": "8 of 25 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -320,31 +361,31 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Full-Stack Software Engineer, (Forward Deployed), GPS"
+        "msg": "skipped (not an app or AI agent project): Software Engineer – Regulatory Reporting"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): AI Native Engineer"
+        "msg": "skipped (not an app or AI agent project): Software Engineer III"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur IA / GenAI F/H"
+        "msg": "skipped (not an app or AI agent project): Java Developer - Rates Technology"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur IA / GenAI F/H"
+        "msg": "skipped (not an app or AI agent project): Software Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (AI engineering (not an app)): Développeur IA Agentique confirmé – Python, LangGraph, Copilot Studio (H/F)"
+        "msg": "skipped (not an app or AI agent project): Full Stack Developer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Government and Infrastructure - Service Delivery Center - AI Solution Developer"
+        "msg": "skipped (not an app or AI agent project): Full Stack Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer - Customer Facing Applied AI"
+        "msg": "skipped (not an app or AI agent project): Développeur Mobile H/F"
       },
       {
         "step": "filter",
@@ -352,15 +393,19 @@
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 1 to judge"
+        "msg": "1 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 5: active market arab-east, 0 prime leads"
+        "msg": "Amman hour 8: active market arab-east, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 1, rejected 0 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+      },
+      {
+        "step": "freelancer",
+        "msg": "crowded now (31 bids): Simple Notes & Checklist App"
       }
     ]
   }
