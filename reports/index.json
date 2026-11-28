@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-28",
     "2026-11-27",
     "2026-11-26",
     "2026-11-25",
@@ -16,6 +17,9 @@
     "2026-11-13"
   ],
   "pastIdeas": [
+    "PathGuardian AI",
+    "SolarNav Guard",
+    "SmartStock AI",
     "SolarComm Sync",
     "PrivacyPilot AI",
     "RemoteFlow AI",
@@ -112,9 +116,6 @@
     "Kalimat AI (كلمات ذكية)",
     "Maharat Amman (مهارات عمّان)",
     "AmmanEvents AI (فعاليات عمّان الذكية)",
-    "ArabiScan Budget",
-    "Baitak Helper (بيتك هيلبر)",
-    "AmmanPulse",
-    "Taqweem الذكي (Smart Calendar)"
+    "ArabiScan Budget"
   ]
 }
