@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T11:25:25.270Z",
+  "generatedAt": "2026-11-28T12:07:23.342Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 5 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -19,7 +19,7 @@
       "proposals": "37",
       "flId": 40839459,
       "postedAt": 1795831523,
-      "bidsAt": "2026-11-28T11:25:25.270Z",
+      "bidsAt": "2026-11-28T12:07:23.342Z",
       "language": "en",
       "summary": "I’d like a straightforward mobile or desktop app that lets users create, edit, and organize notes and check-lists. The focus is on clarity and ease of use—no complex bells and whistles. Core features • Add, edit, delete ",
       "fit": 7,
@@ -140,6 +140,22 @@
   ],
   "rejected": [
     {
+      "title": "Desktop Thermometer App Field Trial(only from Uk",
+      "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009",
+      "reason": {
+        "ar": "هذا المشروع عبارة عن تجربة ميدانية لتطبيق يعمل على نظام ويندوز، وليس تطوير تطبيق أندرويد. كما أنه يتطلب التواجد في المملكة المتحدة، ومحمد يعمل عن بعد فقط.",
+        "en": "This project is a field trial for a Windows desktop app, not an Android app development project. It also requires participants to be located in the UK, and Moe only works remotely."
+      }
+    },
+    {
+      "title": "Supervisor",
+      "url": "https://www.linkedin.com/jobs/view/4466359343/",
+      "reason": {
+        "ar": "هذه وظيفة إشرافية (Supervisor) تتضمن قيادة فريق، ومحمد يرفض الأدوار القيادية والإشرافية. كما أنها تتطلب السفر، ومحمد يعمل عن بعد فقط ويرفض الوظائف التي تتطلب التواجد في الموقع أو السفر.",
+        "en": "This is a supervisory (Supervisor) role that involves leading a team, and Moe rejects senior/staff/lead/principal titles. It also requires travel to various locations, and Moe only accepts fully remote work."
+      }
+    },
+    {
       "title": "Software Engineer, Android",
       "url": "https://www.linkedin.com/jobs/view/4460727407/",
       "reason": {
@@ -247,7 +263,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 1,
+    "verified": 2,
     "steps": [
       {
         "step": "memory",
@@ -259,7 +275,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (366 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 92 skipped: not app/AI work)"
+        "msg": "6 open projects from the last 5 days worldwide with budget 100+ USD (358 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 99 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -307,7 +323,31 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "Android Developer / EMEA: busy (429), stopping search this run"
+        "msg": "43 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Lead Software Engineer - Swift / iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer, iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior iOS Developer"
+      },
+      {
+        "step": "linkedin",
+        "msg": "post 4475262974: HTTP 429"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Software Engineer - iOS"
+      },
+      {
+        "step": "linkedin",
+        "msg": "skipped (title): Senior Android Applikationsutvecklare"
       },
       {
         "step": "linkedin",
@@ -315,35 +355,31 @@
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Staff Android Engineer"
+        "msg": "skipped (title): Senior IOS Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
+        "msg": "skipped (title): iOS Tech Lead - Sr. MTS"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android Accessibility"
+        "msg": "skipped (title): Senior Mobile Engineer (Remote)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android Accessibility"
+        "msg": "skipped (5+ years required): Software Engineer II, Full Stack (Card Acquisition)"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android Accessibility"
+        "msg": "skipped (title): Member of Deployed Staff"
       },
       {
         "step": "linkedin",
-        "msg": "post 4460727407: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android Accessibility"
+        "msg": "skipped (title): Design Lead - Online Banking"
       },
       {
         "step": "verify",
-        "msg": "1 of 8 new LinkedIn jobs added"
+        "msg": "3 of 15 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -351,19 +387,27 @@
       },
       {
         "step": "filter",
-        "msg": "0 skipped by the app-only filter"
+        "msg": "skipped (not an app or AI agent project): iOS Engineer"
+      },
+      {
+        "step": "filter",
+        "msg": "skipped (not an app or AI agent project): Software Engineer - Mobile, iOS"
+      },
+      {
+        "step": "filter",
+        "msg": "2 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "0 new Freelancer projects added, 1 to judge"
+        "msg": "1 new Freelancer projects added, 2 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 14: active market europe, 0 prime leads"
+        "msg": "Amman hour 15: active market europe, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 1 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
