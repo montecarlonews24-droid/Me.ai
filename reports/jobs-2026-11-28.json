@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T05:27:44.327Z",
+  "generatedAt": "2026-11-28T07:25:59.201Z",
   "model": "gemini-2.5-flash",
   "summary": {
     "ar": "ما في فرص جديدة بهالجولة. هاي 6 فرص من آخر 3 أيام لسا مفتوحة.",
@@ -16,10 +16,10 @@
       "country": "",
       "budget": "30-250 USD",
       "posted": "1 hours ago",
-      "proposals": "31",
+      "proposals": "33",
       "flId": 40839459,
       "postedAt": 1795831523,
-      "bidsAt": "2026-11-28T05:27:44.327Z",
+      "bidsAt": "2026-11-28T07:25:59.201Z",
       "language": "en",
       "summary": "I’d like a straightforward mobile or desktop app that lets users create, edit, and organize notes and check-lists. The focus is on clarity and ease of use—no complex bells and whistles. Core features • Add, edit, delete ",
       "fit": 7,
@@ -166,6 +166,38 @@
   ],
   "rejected": [
     {
+      "title": "Desktop Thermometer App Field Trial(only from Uk) -- 2",
+      "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739",
+      "reason": {
+        "ar": "هذا ليس طلبًا حقيقيًا من عميل لتوظيف مستقل لمشروع تطوير تطبيق. إنه طلب للمشاركة في تجربة ميدانية لتطبيق سطح مكتب يعمل بنظام Windows، وهو خارج نطاق عمل Moe (الذي يبني تطبيقات Android فقط).",
+        "en": "This is not a real request from a client hiring a freelancer for an app development project. It's a call for participants in a field trial for a Windows desktop app, which is outside Moe's scope (he only builds Android apps)."
+      }
+    },
+    {
+      "title": "Sparcle | San Francisco Bay Area | Remote | Equity, full-time, part-time, fractional, project, partnership or revenue share — We build Bolt, a governed AI works",
+      "url": "https://news.ycombinator.com/item?id=50398375",
+      "reason": {
+        "ar": "هذه شركة تعلن عن نفسها وتبحث عن أنواع مختلفة من المتعاونين والشركاء (مهندسين، خبراء، مدمجين)، وليست مشروعًا محددًا من عميل يوظف مستقلًا.",
+        "en": "This is a company advertising itself and looking for various types of collaborators and partners (engineers, experts, integrators), not a specific project from a client hiring a freelancer."
+      }
+    },
+    {
+      "title": "Agentic AI Engineer — Healthcare AI",
+      "url": "https://www.linkedin.com/jobs/view/4426742540/",
+      "reason": {
+        "ar": "يتطلب هذا الدور أدوات هندسة ذكاء اصطناعي محددة لا يستخدمها Moe، مثل LangChain و LangGraph و RAG pipelines و vector databases.",
+        "en": "This role requires specific AI engineering tools that Moe does not use, such as LangChain, LangGraph, RAG pipelines, and vector databases."
+      }
+    },
+    {
+      "title": "AI Agents Expert (k/m)",
+      "url": "https://www.linkedin.com/jobs/view/4495577975/",
+      "reason": {
+        "ar": "الوصف الوظيفي مكتوب باللغة البولندية بشكل أساسي، ويتطلب خبرة لا تقل عن 3 سنوات (مستوى Mid-Senior)، وهو وظيفة في الموقع (وارسو)، ويتطلب أدوات ذكاء اصطناعي محددة (RAG) ومعرفة بلغة Python لا يستخدمها Moe.",
+        "en": "The job description is primarily in Polish, requires a minimum of 3 years of experience (Mid-Senior level), is an on-site position in Warsaw, and demands specific AI tools (RAG) and Python knowledge that Moe does not use."
+      }
+    },
+    {
       "title": "Desktop Thermometer App Field Trial(only from Uk)",
       "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial",
       "reason": {
@@ -209,7 +241,7 @@
   "agent": {
     "version": 2,
     "found": 0,
-    "verified": 2,
+    "verified": 4,
     "steps": [
       {
         "step": "memory",
@@ -221,7 +253,7 @@
       },
       {
         "step": "freelancer",
-        "msg": "4 open projects from the last 5 days worldwide with budget 100+ USD (280 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 149 skipped: not app/AI work)"
+        "msg": "5 open projects from the last 5 days worldwide with budget 100+ USD (315 skipped: India/Pakistan/Bangladesh under 150 USD, 0 skipped: budget under 100 USD, 109 skipped: not app/AI work)"
       },
       {
         "step": "reddit",
@@ -233,11 +265,11 @@
       },
       {
         "step": "verify",
-        "msg": "0 new Hacker News posts added"
+        "msg": "7 new Hacker News posts added"
       },
       {
         "step": "mostaql",
-        "msg": "phone relay last read 9 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
+        "msg": "phone relay last read 11 hours ago: 68 projects on the lists, 0 sent (HTTP 200 160367ch 28 links; HTTP 200 155720ch 26 links; HTTP 200 164641ch 26 links; )"
       },
       {
         "step": "mostaql",
@@ -249,19 +281,19 @@
       },
       {
         "step": "keeper",
-        "msg": "phone checks in last 12h: 8 (start 3, open 4, alarm 1), longest gap 166 min, last 9 hours ago (open, v1.9.6)"
+        "msg": "phone checks in last 12h: 5 (open 3, alarm 1, start 1), longest gap 7 min, last 11 hours ago (open, v1.9.6)"
       },
       {
         "step": "keeper",
-        "msg": "times (Amman): 20:32*start! 20:36*open 20:43*start 23:30*open! 23:30 23:37*open 23:38*start 23:38*open"
+        "msg": "times (Amman): 23:30*open! 23:30 23:37*open 23:38*start 23:38*open"
       },
       {
         "step": "keeper",
-        "msg": "alerts posted: 20:32 🟢 مشروع جديد على Freelancer || 23:30 🟡 طلب جديد على خمسات"
+        "msg": "alerts posted: 23:30 🟡 طلب جديد على خمسات"
       },
       {
         "step": "khamsat",
-        "msg": "phone relay last read 9 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
+        "msg": "phone relay last read 11 hours ago: 25 projects on the lists, 0 sent (HTTP 200 133024ch 25 links; )"
       },
       {
         "step": "khamsat",
@@ -277,83 +309,51 @@
       },
       {
         "step": "linkedin-search",
-        "msg": "50 Remote jobs (contract, part-time or full-time) found by searching LinkedIn directly"
+        "msg": "AI Agent Developer / Middle East: busy (429), stopping search this run"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Feature Lead - Lead Android Engineer"
+        "msg": "skipped (title): Senior Engineer, AI Platforms"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (5+ years required): Applications Development Programmer Analyst - C12"
+        "msg": "skipped (3+ years required): Artificial Intelligence Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer, Android"
+        "msg": "skipped (5+ years required): AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Mobile Engineer 4 (Android - Manager, IC)"
+        "msg": "skipped (title): Lead Software Engineer - Senior GECX AI Engineer-"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Android Engineer, Point-of-Sale"
+        "msg": "skipped (title): Lead Software Engineer - AI/ML - AI Agent Platform"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Backend Engineer (Java)"
+        "msg": "skipped (title): Sr Agentic AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Java Engineer - Security - Elasticsearch"
+        "msg": "skipped (title): Lead AI Developer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (6+ years required): Full-Stack Software Developer"
+        "msg": "skipped (title): Senior Applied AI Engineer"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): Senior Backend Engineer"
+        "msg": "skipped (recruitment agency (Robert Half)): AI Engineer -Leading Company!"
       },
       {
         "step": "linkedin",
-        "msg": "skipped (title): AVP Applications Development Sr Programmer Analyst"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Engineer - Kafka & Distributed Systems"
-      },
-      {
-        "step": "linkedin",
-        "msg": "post 4486904806: HTTP 429"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (on-site/hybrid): Back End Developer - Java"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior II Software Engineer - Data Services"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Software Engineer I"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Senior Java Developer, TD Securities"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (3+ years required): Software Engineer, Financial Platform - Issuing"
-      },
-      {
-        "step": "linkedin",
-        "msg": "skipped (title): Principal Software Engineer"
+        "msg": "skipped (title): GenAI & Agentic AI Architect H/F"
       },
       {
         "step": "verify",
-        "msg": "8 of 25 new LinkedIn jobs added"
+        "msg": "4 of 14 new LinkedIn jobs added"
       },
       {
         "step": "verify",
@@ -361,51 +361,55 @@
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer – Regulatory Reporting"
+        "msg": "skipped (not an app or AI agent project): Ai Engineer (Genai)"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer III"
+        "msg": "skipped (not an app or AI agent project): Frontier AI Engineer"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Java Developer - Rates Technology"
+        "msg": "skipped (not an app or AI agent project): ORFF Maestra | Prototype Developer; Technical Product Lead | REMOTE (US only) | "
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Software Engineer"
+        "msg": "skipped (not an app or AI agent project): Stratirus (a Tennetech company) | AI Developer + Linux Admin (junior to mid) | R"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Full Stack Developer"
+        "msg": "skipped (not an app or AI agent project): SadServers | Software Engineer | REMOTE (Canada) | Part-time or Contract | $55 -"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Full Stack Engineer"
+        "msg": "skipped (messaging/social/email bot (not an app)): Sendery ( https://sendery.co ) | iOS Engineer | Tokyo, Japan (no visa support, U"
       },
       {
         "step": "filter",
-        "msg": "skipped (not an app or AI agent project): Développeur Mobile H/F"
+        "msg": "skipped (design only (not development)): OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design"
       },
       {
         "step": "filter",
-        "msg": "7 skipped by the app-only filter"
+        "msg": "skipped (on-site or hybrid work (Moe works from home only)): Native | Founding Builder-in-Residence | San Francisco (preferred) or London |RE"
+      },
+      {
+        "step": "filter",
+        "msg": "8 skipped by the app-only filter"
       },
       {
         "step": "verify",
-        "msg": "1 new Freelancer projects added, 2 to judge"
+        "msg": "1 new Freelancer projects added, 4 to judge"
       },
       {
         "step": "market",
-        "msg": "Amman hour 8: active market arab-east, 0 prime leads"
+        "msg": "Amman hour 10: active market arab-east, 0 prime leads"
       },
       {
         "step": "judge",
-        "msg": "kept 0, rejected 2 via gemini-2.5-flash"
+        "msg": "kept 0, rejected 4 via gemini-2.5-flash"
       },
       {
         "step": "freelancer",
-        "msg": "crowded now (31 bids): Simple Notes & Checklist App"
+        "msg": "crowded now (33 bids): Simple Notes & Checklist App"
       }
     ]
   }
